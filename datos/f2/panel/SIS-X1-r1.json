@@ -1,0 +1,1492 @@
+{
+ "rol": "X1",
+ "perfil": "Académico-investigador · doctor en Ciencias de la Computación · 15 años de docencia e investigación en ingeniería de software, redes y nube, ciencia de datos, ciberseguridad y gobierno de TI · ACM/IEEE CC2020, SWEBOK v4, SFIA 9",
+ "cod": "SIS",
+ "ronda": 1,
+ "funciones": {
+  "E1-01": {
+   "R": "Sí",
+   "donde": "Analista funcional en fábricas de software y OTI del Estado; SWEBOK v4, área Requisitos; SFIA REQM",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [
+     "Especificar requerimientos no funcionales medibles de calidad, seguridad y rendimiento"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Especifica requerimientos de módulos; no aprueba alcance ni prioridad final, que decide el dueño del producto o el área usuaria.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "La descripción nombra requerimientos no funcionales pero ninguna tarea los produce; añadir. En S2, pasar de 84 % de uso de IA a mayor valor de especificar es inferencia, no dato.",
+   "bloque": "F"
+  },
+  "E1-02": {
+   "R": "Sí",
+   "donde": "Analista o diseñador de software en consultoras y bancos; SWEBOK v4, área Arquitectura; ESCO analista de software",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña componentes y modelos de datos de sistemas medianos; la arquitectura de plataformas críticas la valida un arquitecto senior.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "S2 débil: la Estrategia de Gobierno de Datos no sustenta la arquitectura de software y SWEBOK v4 es un cuerpo de conocimiento, no una tendencia; usar datos de adopción de servicios o nube nativa.",
+   "bloque": "S"
+  },
+  "E1-03": {
+   "R": "Sí",
+   "donde": "Desarrollador backend o analista programador en fábricas de software, banca y CAS del Estado",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye componentes y APIs de complejidad moderada con revisión por pares; no altera la arquitectura ni componentes críticos sin aprobación del líder.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "El nivel 4 declarado es optimista: la propia función exige revisión por pares, equivalente a supervisión indirecta (N3). El sustento de demanda es de los más sólidos de la carrera.",
+   "bloque": "F"
+  },
+  "E1-04": {
+   "R": "Sí",
+   "donde": "Desarrollador frontend en empresas digitales y equipos de GOB.PE; WCAG 2.2 y reglamento de gobierno digital",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 2,
+   "V": 2,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [
+     "Verificar la usabilidad del módulo con usuarios representativos y corregir hallazgos"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye módulos sobre prototipos aprobados; no define el sistema de diseño corporativo ni la estrategia de experiencia de usuario.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Falta verificar la usabilidad con usuarios reales, aunque la usabilidad es principio rector de la ley citada; la accesibilidad está bien anclada en norma peruana.",
+   "bloque": "F"
+  },
+  "E1-05": {
+   "R": "Sí",
+   "donde": "Desarrollador móvil en banca, fintech y programas sociales del Estado (Pensión 65)",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 2,
+   "V": 2,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Desarrolla y prueba funcionalidades móviles; la arquitectura móvil y la publicación con cuentas corporativas corresponden al líder técnico.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "S2 infiere demanda de aplicaciones nativas desde la penetración de telefonía; el canal móvil también se atiende con web adaptable. Considerar fusionar con E1-04 como interfaces multiplataforma.",
+   "bloque": "S"
+  },
+  "E1-06": {
+   "R": "Sí",
+   "donde": "Analista de integración en banca y OTI del Estado (PIDE, bloques básicos del DS 098-2025-PCM); SFIA SINT",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Implementa integraciones con contratos definidos; los convenios de intercambio y la exposición de datos sensibles los aprueba la jefatura de TI.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Muy bien sustentada con norma vigente y dato de transacciones de interoperabilidad. Cuidar la frontera con E2 en mensajería y plataformas de integración.",
+   "bloque": "F"
+  },
+  "E1-07": {
+   "R": "Sí",
+   "donde": "Analista de automatización o RPA en banca, seguros y centros de servicios compartidos",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 2,
+   "V": 4,
+   "L": 3,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [
+     "Evaluar si el proceso debe rediseñarse antes de automatizarlo"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Automatiza procesos departamentales acotados; no automatiza decisiones con efectos sobre personas sin aprobación del dueño del proceso y de seguridad.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 3,
+   "P2": 4,
+   "P3": 3,
+   "com": "S1 débil: Cero Papel mide interconexión documental y la importancia O*NET citada es genérica; faltan avisos de automatización con dato. Delimitar frente a E5-08.",
+   "bloque": "S"
+  },
+  "E1-08": {
+   "R": "Sí",
+   "donde": "Analista de calidad o QA en banca, fintech y fábricas de software; ISTQB CTFL v4.0",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña y ejecuta pruebas de módulos y versiones; la estrategia de programas críticos y la aprobación del pase las firma el líder de calidad.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 3,
+   "P2": 4,
+   "P3": 3,
+   "com": "El nombre del producto «certificación» sugiere acreditación externa; mejor «Informe de calidad con recomendación de pase». BLS es dato de EE. UU., no del mercado peruano.",
+   "bloque": "P"
+  },
+  "E1-09": {
+   "R": "Sí",
+   "donde": "Desarrollador con responsabilidades de desarrollo seguro en banca (SBS 504-2021); OWASP Top 10:2025",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Aplica controles en las aplicaciones que construye; pruebas de intrusión, respuesta a incidentes y política corporativa corresponden a ciberseguridad.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Solapa con E4-05 (seguridad de aplicaciones); la frontera entre quien construye y quien evalúa es válida y debe quedar explícita en ambas.",
+   "bloque": "F"
+  },
+  "E1-10": {
+   "R": "Sí",
+   "donde": "Desarrollador con funciones DevOps en fábricas de software; convocatorias CAS con Docker y CI/CD",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Configura canalizaciones de sus aplicaciones y ejecuta pases con aprobación del líder técnico; la plataforma y la nube corporativa corresponden a infraestructura.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Duplica casi textualmente E2-06; decidir una especialidad dueña o diferenciar (E1: canalización de la aplicación; E2: plataforma de despliegue y clústeres).",
+   "bloque": "F"
+  },
+  "E1-11": {
+   "R": "Sí",
+   "donde": "Analista programador de mantenimiento en OTI del Estado y banca; NTP-ISO/IEC 12207 (proceso de mantenimiento)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Resuelve incidencias y mejoras de módulos; las migraciones de plataformas completas o críticas requieren aprobación del comité de cambios.",
+   "S1": 4,
+   "S2": 2,
+   "P1": 3,
+   "P2": 4,
+   "P3": 4,
+   "com": "S2 débil: el uso de asistentes de IA no prueba más mantenimiento y la Estrategia de Gobierno de Datos no trata sistemas heredados; buscar datos de deuda técnica o modernización.",
+   "bloque": "S"
+  },
+  "E2-01": {
+   "R": "Sí",
+   "donde": "Arquitecto o especialista cloud en SUNAT, banca y proveedores AWS/Azure; AWS Well-Architected, Azure CAF",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 4,
+   "V": 4,
+   "L": 3,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña arquitecturas de una aplicación o región con supervisión; zonas de aterrizaje corporativas y compromisos de gasto los aprueba el arquitecto senior.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Diseñar zonas de aterrizaje multicuenta es tarea de nivel senior y solo 9 de 61 avisos piden diseño explícito; sugiero N2 o acotar a cargas de una aplicación.",
+   "bloque": "F"
+  },
+  "E2-02": {
+   "R": "Sí",
+   "donde": "Especialista de plataformas cloud (WIN, UPCH); programas de migración de proveedores de nube",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Ejecuta migraciones de cargas no críticas por oleadas; el corte de sistemas críticos y la aceptación final los autoriza el responsable del servicio.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "S1 débil: el índice de madurez digital no mide demanda de migración y solo 7 de 61 avisos la piden. Podría integrarse a E2-01 como tarea o etapa.",
+   "bloque": "S"
+  },
+  "E2-03": {
+   "R": "Sí",
+   "donde": "Administrador o ingeniero de redes en empresas, universidades y SUNAT; O*NET 15-1241",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña e implementa redes de sede o campus medio; cambios de enrutamiento del núcleo y diseños multisede críticos requieren aprobación senior.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "S1: la brecha de internet en hogares rurales no sustenta demanda de redes corporativas y una convocatoria SUNAT no es norma; el dato principal deberían ser los 28 de 61 avisos y O*NET.",
+   "bloque": "S"
+  },
+  "E2-04": {
+   "R": "Sí",
+   "donde": "Ingeniero de redes y comunicaciones en ISP de fibra; SUNAT e INDECI (telefonía IP, comunicaciones de emergencia)",
+   "P": 2,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 2,
+   "L": 3,
+   "N": 2,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E2-04-T4",
+      "t": "Verificar con el operador la activación de los servicios de acceso de fibra contratados"
+     }
+    ]
+   },
+   "lim": "No diseña planta externa, radioenlaces ni red troncal del operador; no firma expedientes que exigen colegiatura en telecomunicaciones.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 3,
+   "P2": 4,
+   "P3": 3,
+   "com": "Función de frontera con Ingeniería de Telecomunicaciones o Electrónica (fibra, operador, radio). Para Sistemas conviene reducirla a voz IP y enlaces del cliente y fusionarla con E2-03.",
+   "bloque": "F"
+  },
+  "E2-05": {
+   "R": "Sí",
+   "donde": "Ingeniero DevOps o de plataforma (Indra); SFIA ITOP nivel 3",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Escribe módulos de infraestructura con revisión por pares; la aplicación en producción y las políticas como código las aprueba el responsable de plataforma.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Solo 4 de 61 avisos piden infraestructura como código de forma explícita y el dato de Uptime sobre caídas no mide demanda del rol. La vigencia está bien justificada.",
+   "bloque": "S"
+  },
+  "E2-06": {
+   "R": "Sí",
+   "donde": "Ingeniero DevOps en consultoras (Indra) y plataforma cloud de SUNAT",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye flujos con supervisión indirecta; la liberación de sistemas críticos y la administración de clústeres productivos las autoriza el responsable de plataforma.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Duplica E1-10 y solo 7 de 61 avisos la piden. Sugiero dejar la canalización en E1 y aquí solo la plataforma de contenedores y clústeres.",
+   "bloque": "F"
+  },
+  "E2-07": {
+   "R": "Sí",
+   "donde": "Administrador de servidores y virtualización en salud, retail, minería, educación y SUNAT",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Administra servidores departamentales con procedimientos aprobados; los cambios mayores en sistemas críticos pasan por el comité de cambios.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Función nuclear bien sustentada; se mantiene por la hibridación local-nube. Falta en la carrera la administración de bases de datos, que podría anclarse aquí.",
+   "bloque": "F"
+  },
+  "E2-08": {
+   "R": "Sí",
+   "donde": "Analista NOC o soporte de infraestructura nivel 2 en ISP de fibra y mesas de servicio",
+   "P": 3,
+   "E": "Útil",
+   "F": 4,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Resuelve incidentes de nivel 1 y 2 con procedimientos; incidentes mayores y cambios de alto riesgo se escalan al responsable de operaciones.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 3,
+   "P2": 3,
+   "P3": 4,
+   "com": "Demanda real pero de perfil técnico (NOC, sobre todo ISP) y solapa con E5-10. S2 cita la notificación de incidentes de seguridad, que corresponde a E4.",
+   "bloque": "S"
+  },
+  "E2-09": {
+   "R": "Sí",
+   "donde": "Administrador de respaldos y continuidad en banca (SBS 877-2020) y entidades públicas (RM 320-2021-PCM)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Ejecuta respaldos y simulacros; los objetivos de recuperación y la activación del plan ante desastre los decide la dirección con continuidad.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Duplica E4-08; asignar a una sola especialidad. S2 es genérico (aumento de incidentes); citar dato sobre respaldos atacados o recuperación en la nube.",
+   "bloque": "F"
+  },
+  "E2-10": {
+   "R": "Sí",
+   "donde": "Ingeniero SRE o de monitoreo en banca, ISP y proveedores de nube; Google SRE",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Instrumenta y configura alertas; los objetivos de nivel comprometidos con clientes y la política de presupuesto de error los aprueba el responsable.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "El conteo 51 de 61 mezcla monitoreo básico con observabilidad; objetivos de nivel y presupuesto de error son práctica SRE madura, de nivel intermedio.",
+   "bloque": "S"
+  },
+  "E2-11": {
+   "R": "Sí",
+   "donde": "Administrador de seguridad de red en empresas e ISP; ESCO administrador de redes",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Configura reglas según la política aprobada; la política, el análisis forense y la respuesta a incidentes mayores corresponden a ciberseguridad.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Solapa casi por completo con E4-03 (cortafuegos, segmentación, bastionado); definir frontera o fusionar.",
+   "bloque": "F"
+  },
+  "E2-12": {
+   "R": "Sí",
+   "donde": "Analista FinOps o de capacidad en empresas con nube pública (WIN, UPCH)",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 2,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Analiza gasto y propone ajustes; reservas, compromisos de compra y cambios de proveedor los aprueban la jefatura de TI y finanzas.",
+   "S1": 2,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "S1 se apoya en datos globales (Flexera) y en Perú solo 10 de 61 avisos. Proyectar capacidad y presentar costo unitario a la dirección excede al egresado: N2.",
+   "bloque": "S"
+  },
+  "E3-01": {
+   "R": "Sí",
+   "donde": "Ingeniero de datos o ETL en banca, retail y consultoras (Indra); SFIA DENG",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye flujos estándar sobre arquitectura definida; el diseño de la plataforma de datos corporativa lo valida un arquitecto de datos.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Sólida. La frase de cierre de S2 («gobierno e integración del dato») no coincide con el título; homogeneizar.",
+   "bloque": "S"
+  },
+  "E3-02": {
+   "R": "Sí",
+   "donde": "Analista o desarrollador BI en banca, retail y consultoras; O*NET 15-1243.01",
+   "P": 3,
+   "E": "Esencial",
+   "F": 2,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña modelos de alcance departamental; la arquitectura corporativa de datos y la plataforma se validan con el arquitecto de datos.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "S2: la práctica migra de almacenes dimensionales clásicos a arquitecturas lakehouse en la nube, lo que conviene nombrar; el cierre de S2 no corresponde al título.",
+   "bloque": "S"
+  },
+  "E3-03": {
+   "R": "Sí",
+   "donde": "Analista de gobierno de datos (Los Portales); Oficial de Gobierno de Datos del Estado; DAMA-DMBOK",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 4,
+   "V": 4,
+   "L": 3,
+   "N": 2,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E3-03-T4",
+      "t": "Aplicar en el catálogo la clasificación de datos personales acordada con el oficial de datos personales"
+     }
+    ]
+   },
+   "lim": "Implementa controles dentro del modelo de gobierno aprobado; no ejerce como oficial ni interpreta la ley.",
+   "S1": 3,
+   "S2": 4,
+   "P1": 3,
+   "P2": 3,
+   "P3": 3,
+   "com": "Mezcla gobierno del dato con protección de datos personales, que E4-10 cubre; delimitar T4. Los datos abiertos (T5) no encajan en el entregable «catálogo».",
+   "bloque": "F"
+  },
+  "E3-04": {
+   "R": "Sí",
+   "donde": "Analista BI en empresas, hospitales y CAS del Estado; O*NET 15-2051.01",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 2,
+   "V": 2,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye tableros en áreas definidas; los indicadores estratégicos los acuerda la gerencia y el acceso a datos sensibles lo autoriza su dueño.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Muy bien sustentada. La vigencia se mantiene: la IA generativa automatiza la construcción de reportes y desplaza el valor al diseño de indicadores.",
+   "bloque": "S"
+  },
+  "E3-05": {
+   "R": "Sí",
+   "donde": "Analista de datos en banca, retail y consultoría; ESCO analista de datos",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Formula análisis y recomendaciones; la decisión es de la gerencia y los análisis con impacto financiero alto los revisa un analista senior.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Sólida; T3 exige formación en estadística inferencial que el perfil debe explicitar. El 40 % de crecimiento proviene de fuente periodística.",
+   "bloque": "S"
+  },
+  "E3-06": {
+   "R": "Sí",
+   "donde": "Científico de datos en cajas municipales, banca y retail; SFIA MLNG",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [
+     "Particionar los datos en entrenamiento, validación y prueba evitando fuga de información"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye modelos con técnicas establecidas; modelos de riesgo alto (crédito, salud, personal) requieren validación independiente antes de usarse.",
+   "S1": 3,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Añadir la partición de datos y el control de fuga de información, error frecuente en egresados. Parte de los 23 avisos corresponde a puestos senior.",
+   "bloque": "F"
+  },
+  "E3-07": {
+   "R": "Sí",
+   "donde": "Desarrollador de soluciones con modelos de lenguaje en consultoras y áreas de innovación",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 4,
+   "L": 3,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Desarrolla soluciones acotadas bajo supervisión; uso con datos personales o decisiones de riesgo alto requiere aprobación y supervisión humana.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 3,
+   "com": "S1 débil: 10 de 80 avisos y afirmaciones genéricas. Pertinente por vigencia; separar la evaluación de exactitud y seguridad (T5) en un entregable propio.",
+   "bloque": "S"
+  },
+  "E3-08": {
+   "R": "Sí",
+   "donde": "Validación de modelos en banca (Res. SBS 053-2023) y sistemas de riesgo alto (DS 115-2025-PCM)",
+   "P": 3,
+   "E": "Útil",
+   "F": 1,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Ejecuta pruebas bajo supervisión directa; la validación independiente SBS y el dictamen de riesgo alto corresponden a validadores experimentados.",
+   "S1": 2,
+   "S2": 4,
+   "P1": 3,
+   "P2": 4,
+   "P3": 3,
+   "com": "Demanda explícita mínima (4 de 80); se justifica por norma. Podría fusionarse con E3-06 como validación del propio modelo, dejando la independiente a perfiles senior.",
+   "bloque": "S"
+  },
+  "E3-09": {
+   "R": "Sí",
+   "donde": "Ingeniero MLOps en banca y consultoras; inventario de modelos SBS",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Despliega y monitorea modelos en entornos definidos bajo supervisión directa; la plataforma de aprendizaje automático la aprueba el líder técnico.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 2,
+   "com": "La evidencia «servicio en producción con pruebas de carga» es poco factible con N2; aceptar preproducción. S1 se apoya en una nota salarial y 8 avisos.",
+   "bloque": "P"
+  },
+  "E4-01": {
+   "R": "Sí",
+   "donde": "Analista de riesgos de seguridad en banca (SBS 504-2021) y entidades públicas (DU 007-2020); ISO/IEC 27005",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Aplica la metodología aprobada; la aceptación del riesgo residual y el apetito de riesgo los decide la dirección o el comité.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Solapa con E5-12: aquí el objeto es seguridad de la información, allá riesgo de TI amplio; explicitarlo. El dato de 748 millones de intentos es genérico.",
+   "bloque": "F"
+  },
+  "E4-02": {
+   "R": "Sí",
+   "donde": "Analista de vulnerabilidades o pentester junior en consultoras y banca; SFIA PENT nivel 2",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Solo con autorización escrita y alcance firmado; la explotación manual se hace con supervisión y sin afectar producción crítica.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Bien sustentada en SBS 504-2021. El conteo 44 de 67 mezcla escaneo con pruebas de intrusión (13): N3 vale para escaneo; la explotación manual requiere supervisión directa.",
+   "bloque": "F"
+  },
+  "E4-03": {
+   "R": "Sí",
+   "donde": "Administrador de seguridad en banca, SOC y proveedores gestionados; SBS 504-2021",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Implanta sobre líneas base aprobadas y bajo control de cambios; la arquitectura de seguridad corporativa la define un perfil senior.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 3,
+   "P2": 4,
+   "P3": 3,
+   "com": "Solapa con E2-11. «Capturas» es evidencia débil: pedir reporte de verificación de cumplimiento de la línea base antes y después.",
+   "bloque": "P"
+  },
+  "E4-04": {
+   "R": "Sí",
+   "donde": "Analista IAM en banca y proveedores de servicios digitales (DS 126-2025-PCM)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Opera sobre políticas aprobadas; la concesión de privilegios críticos requiere aprobación del propietario del activo.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 3,
+   "P3": 4,
+   "com": "T2 (altas, cambios y bajas) no pertenece al informe de recertificación; mejor un entregable «registro del ciclo de vida de cuentas».",
+   "bloque": "P"
+  },
+  "E4-05": {
+   "R": "Sí",
+   "donde": "Analista AppSec o DevSecOps en banca y fintech (SBS 504-2021); NICE",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Revisa y prueba dentro de un proceso definido; la aceptación de riesgos residuales la decide el responsable del producto.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "Duplica en gran parte E1-09. S2 usa un dato de gobierno de IA sin relación directa con seguridad de aplicaciones; mejor la cadena de suministro de OWASP Top 10:2025.",
+   "bloque": "S"
+  },
+  "E4-06": {
+   "R": "Sí",
+   "donde": "Analista SOC nivel 1-2 en banca y proveedores de seguridad gestionada; NICE",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Actúa como analista de primer y segundo nivel con procedimientos; la declaración de incidente mayor la hace el responsable del centro.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Muy bien sustentada; es la puerta de entrada natural del egresado a la especialidad.",
+   "bloque": "F"
+  },
+  "E4-07": {
+   "R": "Sí",
+   "donde": "Analista de respuesta a incidentes en CSIRT de banca y del Estado; guía del CNSD",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E4-07-T4",
+      "t": "Apoyar el análisis de la evidencia para determinar causa raíz y alcance"
+     }
+    ]
+   },
+   "lim": "Actúa bajo supervisión directa; decisiones de contención y firma de notificaciones corresponden al responsable; el peritaje exige acreditación.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Mezcla respuesta a incidentes con forense (6 de 67 avisos); el forense con cadena de custodia excede al egresado. Considerar dividir o limitar T3-T4 a preservación y apoyo.",
+   "bloque": "F"
+  },
+  "E4-08": {
+   "R": "Sí",
+   "donde": "Especialista de continuidad tecnológica en banca (SBS 877-2020)",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña y prueba la recuperación de servicios de TI; la estrategia de continuidad del negocio la aprueban el directorio y el comité de crisis.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Duplica E2-09; mantener en una sola especialidad (sugiero E2) y aquí centrarse en la resiliencia ante ciberataques.",
+   "bloque": "F"
+  },
+  "E4-09": {
+   "R": "Sí",
+   "donde": "Analista SGSI o de cumplimiento en entidades públicas (INDECI, MINSA) y banca; ISO/IEC 27001:2022",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Ejecuta auditorías internas bajo un responsable; la aprobación de políticas es de la dirección y la certificación de un organismo acreditado.",
+   "S1": 3,
+   "S2": 4,
+   "P1": 4,
+   "P2": 3,
+   "P3": 4,
+   "com": "S1 abre con un dato de gobierno de IA ajeno al SGSI; DU 007-2020 y SBS 504-2021 bastan. La concientización (T5) no es cuerpo normativo: requiere entregable propio.",
+   "bloque": "S"
+  },
+  "E4-10": {
+   "R": "Sí",
+   "donde": "Analista de protección de datos personales en banca, salud y OSIPTEL; Ley 29733 y DS 016-2024-JUS",
+   "P": 3,
+   "E": "Esencial",
+   "F": 2,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Apoya al oficial de datos personales; no ejerce como oficial ni emite interpretación jurídica.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Bien sustentada (fiscalización ANPD 2024). Delimitar frente a E3-03 T4; la frecuencia combina avisos con una búsqueda de 316 vacantes no depurada.",
+   "bloque": "S"
+  },
+  "E5-01": {
+   "R": "Sí",
+   "donde": "Jefe o especialista de planeamiento de TI en entidades públicas (Plan de Gobierno Digital) y empresas",
+   "P": 4,
+   "E": "Esencial",
+   "F": 1,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Participa en el diagnóstico y redacta borradores; la formulación final, la priorización y la aprobación corresponden a la jefatura y al comité.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Función de mando: el egresado participa en el diagnóstico, no formula el plan (N2). O*NET es dato de EE. UU.; en Perú el sustento fuerte es el Plan de Gobierno Digital.",
+   "bloque": "F"
+  },
+  "E5-02": {
+   "R": "Sí",
+   "donde": "Arquitecto de negocio en banca (Interbank); Marco de Arquitectura Digital del Estado; TOGAF 10",
+   "P": 3,
+   "E": "Útil",
+   "F": 1,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E5-02-T4",
+      "t": "Contrastar soluciones propuestas con la arquitectura de referencia como insumo para el arquitecto"
+     }
+    ]
+   },
+   "lim": "Modela vistas y brechas con supervisión directa; no aprueba arquitectura objetivo, estándares ni conformidad de soluciones.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 2,
+   "com": "Demanda explícita mínima (4 de 45) y el ranking de gobierno electrónico no la prueba. El dictamen de conformidad no es factible con N2; dejarlo como insumo.",
+   "bloque": "S"
+  },
+  "E5-03": {
+   "R": "Sí",
+   "donde": "Analista PMO o de portafolio en banca y grandes empresas",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [
+     "E5-03-T5"
+    ],
+    "corregir": []
+   },
+   "lim": "Elabora casos de negocio y reportes del portafolio con supervisión; la decisión de inversión es del comité o la alta dirección.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 3,
+   "com": "S1 débil: un aviso de gerente y cifras globales del PMI. T5 (estándares de proyectos) es de la oficina de proyectos, no del portafolio. Para el egresado, N2.",
+   "bloque": "S"
+  },
+  "E5-04": {
+   "R": "Sí",
+   "donde": "Especialista de gobierno digital en entidades públicas (CAS MIMP 161-2026); COBIT 2019",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diagnostica y propone; la aprobación de políticas y la rendición de cuentas corresponden a la dirección y al comité de gobierno digital.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Bien anclada en DL 1412 y en una CAS de 2026. Podría fusionarse con E5-01: el plan estratégico de TI es instrumento del gobierno de TI (COBIT APO02).",
+   "bloque": "F"
+  },
+  "E5-05": {
+   "R": "Sí",
+   "donde": "Coordinador o jefe de proyectos de software en cajas municipales, consultoras y entidades públicas",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Planifica proyectos de complejidad baja o media; en proyectos complejos actúa como coordinador bajo un jefe de proyecto.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "S1 se apoya en cifras de EE. UU. (O*NET); falta dato peruano cuantitativo además de 22 de 45 avisos. Planificación y dirección (E5-06) son grupos de procesos de una misma función.",
+   "bloque": "S"
+  },
+  "E5-06": {
+   "R": "Sí",
+   "donde": "Project manager TI en consultoras (Métrica, Tekrea) y proyectos públicos",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Dirige proyectos acotados o frentes de uno mayor; los cambios de costo o plazo contractual los aprueba el patrocinador.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "El conteo 37 de 45 no lleva referencia [n]; la cifra de 2,3 millones de puestos anuales del PMI es global.",
+   "bloque": "S"
+  },
+  "E5-07": {
+   "R": "Sí",
+   "donde": "Especialista de contrataciones TI en entidades públicas (Ley 32069) y banca (gestión de terceros SBS)",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [
+     "Realizar la indagación de mercado previa a los términos de referencia"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Formula requerimientos y verifica entregables; no adjudica contratos ni aprueba penalidades, que corresponden al órgano de contrataciones.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "En contratación pública falta la indagación de mercado previa a los términos de referencia; añadirla como tarea.",
+   "bloque": "F"
+  },
+  "E5-08": {
+   "R": "Sí",
+   "donde": "Analista de transformación digital en empresas y OTI del Estado (mesas de partes digitales, gob.pe)",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Rediseña procesos con supervisión; la aprobación del nuevo proceso y la gestión del cambio a escala corresponden a la dirección.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 3,
+   "com": "Solapa con E1-01 (T1-T3 casi iguales) y E1-07; diferenciar como rediseño de servicio y proceso sin levantar requerimientos. El dato de 15 % de trámites es de 2023.",
+   "bloque": "F"
+  },
+  "E5-09": {
+   "R": "Sí",
+   "donde": "Gestor de servicios TI en proveedores de banca (TCS) y mesas de servicio; ITIL",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Mide y reporta niveles de servicio; la negociación de acuerdos con clientes estratégicos la lidera un gestor de servicio senior.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Correcta. Considerar fusionar con E5-10 en una sola función de gestión de servicios de TI.",
+   "bloque": "S"
+  },
+  "E5-10": {
+   "R": "Sí",
+   "donde": "Líder de operaciones de TI en financieras; mesas de servicio ITIL",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Coordina incidentes y analiza causas raíz; los cambios de alto riesgo los aprueba el comité de cambios.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 4,
+   "com": "Duplica en buena parte E2-08. S1 se apoya en Normas de Control Interno de 2006 y 13 de 45 avisos; T1 (atender incidentes) no produce un procedimiento.",
+   "bloque": "F"
+  },
+  "E5-11": {
+   "R": "Sí",
+   "donde": "Auditor de TI junior en sociedades de auditoría, SENATI y órganos de control; ITAF, CISA",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Ejecuta pruebas de controles y papeles de trabajo bajo un auditor senior; no firma el informe ni emite opinión.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Pertinente y bien delimitada. Conviene citar como empleadores la Contraloría y las sociedades de auditoría designadas.",
+   "bloque": "S"
+  },
+  "E5-12": {
+   "R": "Sí",
+   "donde": "Analista de riesgo tecnológico en banca (Banco Falabella, EY IT Risk)",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 4,
+   "V": 4,
+   "L": 3,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Identifica y valora riesgos con supervisión; la aceptación del riesgo y la respuesta al regulador corresponden a la gerencia de riesgos.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "S1 usa un dato de ciberataques de 2021 que sustenta seguridad, no riesgo tecnológico; solapa con E4-01 y E4-09. Delimitar a riesgo de terceros, nube e IA.",
+   "bloque": "S"
+  }
+ },
+ "abiertas": {
+  "E1": {
+   "faltantes": [
+    {
+     "t": "Prototipado y diseño de la experiencia de usuario",
+     "tareas": [
+      "Investigar necesidades y contexto de los usuarios",
+      "Diseñar prototipos navegables",
+      "Evaluar prototipos con usuarios"
+     ],
+     "evidencia": "SFIA 9 HCEV citado en el propio archivo [10] sin función propia; E1-04 parte de prototipos aprobados sin indicar quién los produce"
+    }
+   ],
+   "fusiones": [
+    "Fusionar E1-04 y E1-05 en interfaces de usuario web y móviles",
+    "E1-10 duplica E2-06: una sola especialidad dueña",
+    "E1-09 y E4-05: mantener la frontera construir/evaluar",
+    "E1-07 y E5-08: delimitar automatización frente a rediseño de procesos"
+   ]
+  },
+  "E2": {
+   "faltantes": [
+    {
+     "t": "Administración de bases de datos",
+     "tareas": [
+      "Instalar y configurar motores de bases de datos",
+      "Programar y verificar respaldos de bases de datos",
+      "Optimizar el rendimiento y los accesos"
+     ],
+     "evidencia": "O*NET 15-1242.00 Database Administrators; SFIA 9 DBAD; la SUNAT convoca expertos de infraestructura para bases de datos [18]"
+    }
+   ],
+   "fusiones": [
+    "Fusionar E2-03 y E2-04 en redes y comunicaciones corporativas",
+    "Integrar E2-02 en E2-01 como etapa de migración",
+    "E2-06 duplica E1-10",
+    "E2-09 duplica E4-08",
+    "E2-11 solapa con E4-03",
+    "E2-08 solapa con E5-10"
+   ]
+  },
+  "E3": {
+   "faltantes": [
+    {
+     "t": "Procesamiento de datos a gran escala y en tiempo real",
+     "tareas": [
+      "Construir flujos de datos en tiempo real",
+      "Procesar volúmenes masivos en plataformas distribuidas",
+      "Optimizar costos de procesamiento en la nube"
+     ],
+     "evidencia": "SFIA 9 DENG niveles 3-4; aviso Data Engineer de Indra [37] (verificar el requisito de procesamiento distribuido)"
+    }
+   ],
+   "fusiones": [
+    "Fusionar la parte técnica de E3-08 con E3-06 (validar el propio modelo)",
+    "Trasladar E3-03 T4 (datos personales) a E4-10",
+    "Separar la evaluación del asistente (E3-07 T5) en entregable propio"
+   ]
+  },
+  "E4": {
+   "faltantes": [
+    {
+     "t": "Seguridad de plataformas en la nube",
+     "tareas": [
+      "Evaluar la postura de seguridad de cuentas y suscripciones",
+      "Configurar controles nativos de seguridad en la nube",
+      "Corregir configuraciones inseguras detectadas"
+     ],
+     "evidencia": "ISC2 Workforce Study 2024 ubica la seguridad en la nube entre las habilidades más buscadas [30]; SBS 504-2021 exige controles sobre servicios en la nube [12]"
+    }
+   ],
+   "fusiones": [
+    "E4-08 duplica E2-09",
+    "E4-03 solapa con E2-11",
+    "E4-05 solapa con E1-09",
+    "E4-01 solapa con E5-12",
+    "Dividir E4-07: respuesta a incidentes y forense digital (esta última propia de posgrado o certificación)"
+   ]
+  },
+  "E5": {
+   "faltantes": [
+    {
+     "t": "Gestión financiera y presupuestal de TI",
+     "tareas": [
+      "Formular el presupuesto de TI",
+      "Controlar el gasto y la inversión de TI",
+      "Analizar el costo total de propiedad de las soluciones"
+     ],
+     "evidencia": "SFIA 9 FMIT; COBIT 2019 APO06; aviso de gerente corporativo de TI con portafolio de USD 5 millones [40]"
+    }
+   ],
+   "fusiones": [
+    "Fusionar E5-01 y E5-04 (plan estratégico como instrumento del gobierno de TI)",
+    "Fusionar E5-05 y E5-06 en dirección de proyectos tecnológicos",
+    "Fusionar E5-09 y E5-10 en gestión de servicios de TI",
+    "E5-10 solapa con E2-08",
+    "E5-12 solapa con E4-01 y E4-09",
+    "E5-08 solapa con E1-01 y E1-07"
+   ]
+  }
+ },
+ "verificadas": []
+}

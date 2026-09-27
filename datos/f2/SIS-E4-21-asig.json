@@ -1,0 +1,189 @@
+{
+ "cod": "SIS",
+ "k": "E4",
+ "competencia": "C4",
+ "funciones": {
+  "E4-01": {
+   "marcas": [
+    "●",
+    "○",
+    "",
+    "",
+    "○"
+   ],
+   "asig": "C4",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (Res. SBS 504-2021 [12], DU 007-2020 [14]) · E2 (O*NET 15-1212 [1]) · E3 (25 de 67 avisos [25][26]) · E4 (748,2 millones de intentos de ciberataque en el primer semestre de 2025, FortiGuard [28])",
+    "tend": "E6 (NIST CSF 2.0, 2024 [11]; Verizon DBIR 2025: participación de terceros en 30 % de las brechas [32])",
+    "d": "S",
+    "acc": "Citar FortiGuard en su fuente primaria: hoy se lee vía Infobae [28]."
+   }
+  },
+  "E4-02": {
+   "marcas": [
+    "●",
+    "○",
+    "",
+    "",
+    ""
+   ],
+   "asig": "C4",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (Res. SBS 504-2021, pruebas de penetración en API [12]) · E2 (O*NET 15-1299.05 [2], SFIA 9 PENT [9]) · E3 (44 de 67 avisos, 13 de pruebas de penetración [25][26])",
+    "tend": "E6 (FortiGuard 2025 [28]; Verizon DBIR 2025 [32])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E4-03": {
+   "marcas": [
+    "○",
+    "●",
+    "",
+    "",
+    ""
+   ],
+   "asig": "C4 · compartida con C2",
+   "otra": "C2.4 Observar",
+   "dic": {
+    "ev": "E1 (Res. SBS 504-2021 [12], DS 016-2024-JUS [17]) · E2 (O*NET 15-1212 [1]) · E3 (37 de 67 avisos [25][26]) · E4 (unos 36 000 intentos de escaneo por segundo [28])",
+    "tend": "E6 (ISC2 Workforce Study 2024 [30]; Verizon DBIR 2025 [32])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E4-04": {
+   "marcas": [
+    "",
+    "●",
+    "",
+    "",
+    "○"
+   ],
+   "asig": "C4",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (Res. SBS 504-2021 [12], DS 126-2025-PCM [15]) · E2 (ESCO administrador de seguridad TIC 2529.6 [4]) · E3 (28 de 67 avisos [25][26])",
+    "tend": "E6 (DS 126-2025-PCM [15]; IBM Cost of a Data Breach 2025 [31])",
+    "d": "S",
+    "acc": "Citar el DS 126-2025-PCM en El Peruano: [15] es texto reproducido."
+   }
+  },
+  "E4-06": {
+   "marcas": [
+    "",
+    "",
+    "●",
+    "○",
+    ""
+   ],
+   "asig": "C4",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (Res. SBS 504-2021 [12]) · E2 (O*NET 15-1212 [1], NICE Framework [6][7]) · E3 (27 de 67 avisos [25][26]) · E4 (más de 110 millones de intentos de phishing en doce meses, Kaspersky vía El Peruano [29])",
+    "tend": "E6 (IBM 2025: 241 días para identificar y contener [31]; ISC2 2024: 45 % adoptó IA generativa [30])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E4-07": {
+   "marcas": [
+    "",
+    "",
+    "○",
+    "●",
+    "●"
+   ],
+   "asig": "C4",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (Res. SBS 504-2021 [12], DS 126-2025-PCM [15], DS 016-2024-JUS [17]) · E2 (O*NET 15-1299.06 [3]) · E3 (34 de 67 avisos, 6 de forense [25][26])",
+    "tend": "E6 (DS 126-2025-PCM, vigente desde febrero de 2026 [15]; Sophos 2025 [33])",
+    "d": "S",
+    "acc": "Citar Sophos en su publicación original (hoy copia alojada por Grey Matter [33])."
+   }
+  },
+  "E4-09": {
+   "marcas": [
+    "",
+    "●",
+    "",
+    "",
+    "●"
+   ],
+   "asig": "C4",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (DU 007-2020 [14], Res. SBS 504-2021 [12]; ISO/IEC 27001:2022 [10]) · E2 (CAS INDECI 0090-2025 y MINSA 050-2025 [22][23]) · E3 (45 de 67 avisos [25][26])",
+    "tend": "E6 (DS 126-2025-PCM, oficial de seguridad y confianza digital [15]; NIST CSF 2.0, 2024 [11])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E4-10": {
+   "marcas": [
+    "○",
+    "●",
+    "",
+    "○",
+    "●"
+   ],
+   "asig": "C4",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (DS 016-2024-JUS [17]) · E2 (ENISA-ESCO [5], CAS OSIPTEL 010-2025 [24]) · E3 (23 de 67 avisos; 316 vacantes en la búsqueda específica [25][27]) · E4 (la ANPD fiscalizó 454 entidades e impuso multas por más de S/ 13 millones en 2024 [19])",
+    "tend": "E6 (nuevo reglamento de la Ley 29733, 2024 [18]; directiva de 2025 sobre designación del oficial y multas [20])",
+    "d": "S",
+    "acc": "Escribir en la justificación el año del «nuevo reglamento» [18]."
+   }
+  }
+ },
+ "reasignadas": [],
+ "alertas": [
+  [
+   "E4-03 · Implantación de controles técnicos de seguridad",
+   "C4.2 con C2.4",
+   "Administrador de redes y seguridad y especialista de infraestructura en OTI, integradores y empresas medianas: la configuración de cortafuegos, segmentación y VPN se exige junto con la administración de la red (37 de 67 avisos [25][26]; SUNAT CAS 285-2025, SIS-E2 [19])",
+   "Si la certificación separa C4 de C2, la protección del perímetro que la definición de C2.4 nombra no se evidencia en C2 (E2-11 se excluyó por duplicar E4-03) y el bastionado de C4 se certifica sin la red que protege."
+  ]
+ ],
+ "decisiones": [
+  [
+   "2026-09-25",
+   "Se asignan 8 funciones de E4: E4-01, E4-03, E4-04, E4-07 y E4-09 (núcleo) y E4-02, E4-06 y E4-10 (complementarias). Siete a C4 y una compartida: E4-03 con C2 (C2.4 Observar).",
+   "Con decision2 del panel. No se asignan E4-05 (excluida: la seguridad de aplicaciones quedó en E1-09, compartida con C4) ni E4-08 (excluida: duplicaba E2-09; la recuperación tras ransomware pasó a E4-07 T4). Se aplicaron los ajustes de SIS-E4-21-ajustes.json antes de marcar."
+  ],
+  [
+   "2026-09-25",
+   "E4-03 es compartida con C2: configura cortafuegos, segmentación y accesos remotos seguros (C4.2 y la protección del perímetro que nombra C2.4).",
+   "La Escuela excluyó E2-11 por duplicar E4-03; la segmentación y las VPN de diseño pasaron a E2-03, pero la protección perimetral quedó en E4-03."
+  ],
+  [
+   "2026-09-25",
+   "Cobertura completa: C4.1 (E4-01, E4-02), C4.2 (E4-03, E4-04, E4-09, E4-10; además E1-09 compartida), C4.3 (E4-06), C4.4 (E4-07) y C4.5 (E4-07, E4-09, E4-10; además E2-09 compartida) tienen función principal.",
+   "C4.3 depende de una sola función complementaria (E4-06) y C4.4 de una sola núcleo (E4-07). No hay reasignadas, transversales ni brechas. Las alertas de las funciones de otras especialidades compartidas con C4 (E1-09, E2-09) están en sus archivos."
+  ],
+  [
+   "2026-09-25",
+   "Frontera E4-09 / E5-11: E4-09 audita internamente el sistema de gestión de seguridad frente a ISO/IEC 27001 (C4.5); E5-11 audita los controles generales y de aplicación de TI frente a marcos de control (C5.5).",
+   "No es compartida: la definición de E5-11 excluye expresamente la auditoría interna del SGSI."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C4.1 (pendiente de la Escuela): añadir «incluidos los riesgos de proveedores, servicios en la nube y soluciones de inteligencia artificial».",
+   "E4-01 (T4) recibió de E5-12 (excluida) el riesgo de terceros, nube e IA; la definición de C4.1 no nombra esos contextos. Es ajuste de redacción, no de estructura."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C4.5 (pendiente de la Escuela): añadir «incluida la atención de los derechos de los titulares y la inscripción de los bancos de datos personales».",
+   "E4-10 (T1 y T5) inscribe bancos de datos y atiende solicitudes ARCO; la definición habla del cumplimiento del programa de datos personales mediante auditorías y reportes, no de su operación."
+  ],
+  [
+   "2026-09-25",
+   "Dictamen de suficiencia de E4: 8 S. Global: P.",
+   "Muestra de 67 avisos (≥ 30): E3 se cumple en todas; todas las funciones tienen E1 (Res. SBS 504-2021 u otra norma) y las tendencias están fechadas y verificadas. Observaciones de forma: FortiGuard vía Infobae, DS 126-2025-PCM como texto reproducido y Sophos en copia alojada. E5 y E7 son de programa: el global nunca es S."
+  ]
+ ]
+}

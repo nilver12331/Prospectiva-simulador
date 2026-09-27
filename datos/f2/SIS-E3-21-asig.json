@@ -1,0 +1,131 @@
+{
+ "cod": "SIS",
+ "k": "E3",
+ "competencia": "C3",
+ "funciones": {
+  "E3-01": {
+   "marcas": [
+    "●",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "asig": "C3",
+   "otra": "",
+   "dic": {
+    "ev": "E2 (O*NET 15-1243.01 [3], SFIA 9 DENG [15]) · E3 (35 de 80 avisos de flujos de carga y 22 de modelado dimensional [28][29][30][37]) · E4 (unas 3 800 posiciones de datos frente a unos 1 100 egresados anuales, APOYO [25])",
+    "tend": "E6 (RM 049-2026-PCM, Estrategia Nacional de Gobierno de Datos, febrero de 2026 [41]; WEF Future of Jobs 2025 [24])",
+    "d": "S",
+    "acc": "Leer la RM 049-2026-PCM en El Peruano: el barrido la leyó vía nota de TVPerú."
+   }
+  },
+  "E3-03": {
+   "marcas": [
+    "●",
+    "",
+    "",
+    "",
+    "○"
+   ],
+   "asig": "C3",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (Directiva 001-2022-PCM/SGTD [12], RM 049-2026-PCM [41]) · E2 (SFIA 9 DATM [16], DAMA-DMBOK [23]) · E3 (21 de 80 avisos [35])",
+    "tend": "E6 (ENIA, RM 152-2026-PCM, mayo de 2026 [9]; PNDA con más de 4 000 conjuntos a marzo de 2026 [13])",
+    "d": "S",
+    "acc": "Citar la muestra completa de avisos para la frecuencia de 21 de 80: hoy se remite a un solo aviso [35]."
+   }
+  },
+  "E3-04": {
+   "marcas": [
+    "○",
+    "",
+    "",
+    "",
+    "●"
+   ],
+   "asig": "C3",
+   "otra": "",
+   "dic": {
+    "ev": "E2 (O*NET 15-2051.01 [2], SFIA 9 BINT y VISL [17][18], CAS Hospital General de Jaén [38]) · E3 (61 de 80 avisos [28][29])",
+    "tend": "E6 (APOYO: equipos de datos de 19 a 26 integrantes, 2024-2025 [26]; WEF Future of Jobs 2025 [24])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E3-05": {
+   "marcas": [
+    "",
+    "●",
+    "○",
+    "",
+    "●"
+   ],
+   "asig": "C3",
+   "otra": "",
+   "dic": {
+    "ev": "E2 (O*NET 15-2051 [1], ESCO analista de datos 2511.2 [5]) · E3 (54 de 80 avisos [28]; equipos de datos de 19 a 26 integrantes, APOYO [26])",
+    "tend": "E6 (WEF Future of Jobs 2025 [24]; CCL, Encuesta Anual de Ejecutivos 2024: 14 % usa IA [27])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E3-06": {
+   "marcas": [
+    "○",
+    "●",
+    "●",
+    "●",
+    "○"
+   ],
+   "asig": "C3",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (Res. SBS 00053-2023 [14], DS 115-2025-PCM [8]) · E2 (O*NET 15-2051 [1], SFIA 9 MLNG [21]) · E3 (23 de 80 avisos de modelos predictivos, 10 de asistentes con modelos de lenguaje y 8 de puesta en producción [32][33][37]) · E4 (brecha de más de 2 700 posiciones de datos, APOYO [25])",
+    "tend": "E6 (WEF Future of Jobs 2025: 86 % espera que la IA transforme su negocio [24]; DS 115-2025-PCM, vigente desde enero de 2026 [8])",
+    "d": "S",
+    "acc": "Citar la muestra completa de avisos: hoy la frecuencia se remite a tres avisos individuales."
+   }
+  }
+ },
+ "reasignadas": [],
+ "alertas": [],
+ "decisiones": [
+  [
+   "2026-09-25",
+   "Se asignan 5 funciones de E3, todas a C3: E3-01, E3-04 y E3-05 (núcleo) y E3-03 y E3-06 (complementarias).",
+   "Con decision2 del panel. No se asignan E3-02 (fusionada en E3-01) ni E3-07, E3-08 y E3-09 (fusionadas en E3-06). Se aplicaron los ajustes de SIS-E3-21-ajustes.json antes de marcar."
+  ],
+  [
+   "2026-09-25",
+   "Cobertura completa: C3.1 (E3-01, E3-03), C3.2 (E3-05, E3-06), C3.3 (E3-06), C3.4 (E3-06) y C3.5 (E3-04, E3-05) tienen función principal.",
+   "C3.3 y C3.4 dependen de una sola función complementaria (E3-06, que absorbió la validación de E3-08 y la puesta en producción de E3-09). Si E3-06 se debilita, ambas capacidades quedan sin función. No hay compartidas, reasignadas, transversales ni brechas."
+  ],
+  [
+   "2026-09-25",
+   "Fronteras sin compartir: E3-03 clasifica los datos por sensibilidad como insumo (T2) y la protección de datos personales es de E4-10 (C4); E3-06 pone el modelo en preproducción y el despliegue general es de E1-10 (C1).",
+   "Ninguna de las dos moviliza de forma principal una capacidad de otra competencia: E3-03 no implanta controles (C4.2) y E3-06 no construye la canalización (C1.5)."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C3.1 (pendiente de la Escuela): añadir «mantener el catálogo de metadatos y preparar los conjuntos de datos abiertos para su publicación».",
+   "E3-03 (T1 y T5) elabora catálogo y linaje y prepara datos abiertos; la definición de C3.1 nombra calidad, linaje, seguridad y gobierno, pero no el catálogo ni los datos abiertos. Es ajuste de redacción, no de estructura."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C3.4 (pendiente de la Escuela): «poner el modelo en preproducción o producción, con la aprobación y validación que exija su nivel de riesgo».",
+   "E3-06 (T6 y lim) llega a preproducción y los modelos de riesgo alto requieren validación independiente (Res. SBS 053-2023, DS 115-2025-PCM); la definición dice solo «en producción»."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C3.2 (pendiente de la Escuela): añadir «incluida la consulta automatizada del conocimiento de la organización con modelos de lenguaje».",
+   "E3-06 absorbió E3-07 (T1 y T3: modelos de lenguaje sobre la base de conocimiento); la definición nombra la IA generativa pero no el encargo."
+  ],
+  [
+   "2026-09-25",
+   "Dictamen de suficiencia de E3: 5 S. Global: P.",
+   "Muestra de 80 avisos pertinentes (≥ 30): E3 se cumple en todas; referencias citadas verificadas (la única «No verificado» del paquete, [40], no la cita ninguna función asignada) y tendencias fechadas. E5 y E7 son de programa: el global nunca es S."
+  ]
+ ]
+}

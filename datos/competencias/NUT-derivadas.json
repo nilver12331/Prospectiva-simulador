@@ -1,0 +1,199 @@
+{
+ "cod": "NUT",
+ "fecha": "24-09-2026",
+ "sello": "a ciegas del plan",
+ "competencias": [
+  {
+   "alias": "Atención nutricional",
+   "n": "Conducción del proceso de atención nutricional de la persona",
+   "tipo": "atención",
+   "def": "Conducir la atención nutricional de la persona sana o enferma a lo largo del ciclo de vida —tamizar, valorar, diagnosticar, prescribir el tratamiento dietoterápico o de soporte, seguir y aconsejar al alta— en hospitalización, consulta ambulatoria presencial o virtual, primer nivel y residencias, aplicando el proceso de atención nutricional, el registro en historia clínica y la interconsulta con el equipo de salud, para recuperar o mantener el estado nutricional y responder por el resultado ante el paciente, su familia y la institución.",
+   "evid": "Plan de atención nutricional individualizado registrado en la historia clínica: valoración, diagnóstico, prescripción, seguimiento documentado y consejería al alta o al cierre del caso.",
+   "nivel": "Autonomía plena en el paciente ambulatorio y hospitalizado de complejidad estándar, en el adulto mayor, el niño y la gestante; el soporte enteral en paciente crítico y el manejo pre y posbariátrico se conducen con interconsulta del equipo tratante.",
+   "caps": [
+    {
+     "a": "Valorar",
+     "n": "Valoración del estado nutricional",
+     "d": "Capacidad para tamizar y valorar el estado nutricional de la persona con antropometría, bioquímica, examen clínico y evaluación dietética, adaptando técnicas e instrumentos a la edad, la condición clínica y el escenario de atención, con rigor en la medición, respeto por la persona y registro veraz."
+    },
+    {
+     "a": "Diagnosticar",
+     "n": "Diagnóstico nutricional",
+     "d": "Capacidad para formular el diagnóstico nutricional a partir de la valoración, identificando el problema, su etiología y sus signos en personas de distinta edad y patología, integrando la interconsulta y la evidencia científica, con juicio clínico, pensamiento crítico y responsabilidad por la decisión que toma."
+    },
+    {
+     "a": "Prescribir",
+     "n": "Prescripción del tratamiento nutricional",
+     "d": "Capacidad para prescribir e implementar el tratamiento nutricional —dietoterapia, soporte enteral, manejo de peso, corrección de deficiencias, adaptación de texturas— ajustado al diagnóstico, la cultura y los recursos del paciente en cada escenario, movilizando fisiopatología, dietoterapia, ética profesional y comunicación con el equipo y la familia."
+    },
+    {
+     "a": "Seguir",
+     "n": "Seguimiento del caso y consejería nutricional",
+     "d": "Capacidad para monitorear la respuesta al tratamiento, reajustar la prescripción, educar al paciente y a su familia y cerrar el caso con consejería al alta, en consulta presencial o virtual, hospital o residencia, con constancia, empatía y compromiso con la adherencia y el resultado."
+    }
+   ],
+   "esp": [
+    {
+     "n": "Nutrición clínica hospitalaria",
+     "eq": "competencia",
+     "cap": "",
+     "nota": "Ejecuta el ciclo completo valorar-diagnosticar-tratar-seguir y entrega la misma evidencia: plan individualizado en historia clínica."
+    },
+    {
+     "n": "Nutrición en obesidad y cirugía bariátrica",
+     "eq": "ambito",
+     "cap": "",
+     "nota": "Mismo proceso y misma rúbrica del plan individualizado; cambia solo el objeto: persona con obesidad o pre y posbariátrica."
+    },
+    {
+     "n": "Nutrición geriátrica y del envejecimiento",
+     "eq": "ambito",
+     "cap": "",
+     "nota": "Mismo proceso y evidencia; el objeto es el adulto mayor con sarcopenia y disfagia; sin puesto propio en el mercado."
+    },
+    {
+     "n": "Nutrición pediátrica y materna",
+     "eq": "ambito",
+     "cap": "",
+     "nota": "Proceso y evidencia individuales (plan por niño o gestante en CRED); el mercado la admite dentro de la plaza clínica."
+    }
+   ],
+   "auditoria": {
+    "verbo": "Sí",
+    "objeto": "Sí",
+    "condiciones": "Sí",
+    "proposito": "Sí",
+    "evidencia": "Sí",
+    "nivel": "Sí",
+    "sustento": "Sí",
+    "capacidades": "Sí"
+   }
+  },
+  {
+   "alias": "Intervención poblacional",
+   "n": "Intervención nutricional en salud pública y poblaciones",
+   "tipo": "atención",
+   "def": "Intervenir sobre el estado nutricional de una población —comunidad, unidad territorial, colectivo de trabajadores— diagnosticando su situación con línea de base y vigilancia, diseñando y ejecutando el programa y evaluando su impacto, en el marco de la salud pública, los programas presupuestales del Estado y la salud ocupacional, con articulación intersectorial y capacitación de agentes, para reducir la anemia, la desnutrición, el exceso de peso y el riesgo cardiometabólico y rendir cuenta del resultado con indicadores.",
+   "evid": "Plan de intervención poblacional con línea de base, programa ejecutado e informe de evaluación con indicadores de proceso y de impacto sobre la población atendida.",
+   "nivel": "Autonomía en el diagnóstico, la ejecución y el monitoreo de la intervención en su comunidad, unidad territorial o campamento; el diseño de programas presupuestales y la evaluación de impacto se conducen dentro de un equipo con supervisión técnica.",
+   "caps": [
+    {
+     "a": "Diagnosticar",
+     "n": "Diagnóstico nutricional poblacional",
+     "d": "Capacidad para levantar la línea de base y el diagnóstico nutricional de una población con vigilancia, indicadores epidemiológicos y tamizaje del riesgo, adaptando los instrumentos a comunidades, unidades territoriales o colectivos laborales, con rigor estadístico, sensibilidad cultural y compromiso con la equidad."
+    },
+    {
+     "a": "Planificar",
+     "n": "Diseño de la intervención nutricional poblacional",
+     "d": "Capacidad para diseñar el programa o la intervención nutricional con objetivos, metas, actividades, presupuesto e indicadores a partir del diagnóstico, dentro de la lógica de los programas presupuestales, la salud ocupacional o la cooperación, con pensamiento estratégico, gestión pública y responsabilidad social."
+    },
+    {
+     "a": "Intervenir",
+     "n": "Ejecución de la intervención nutricional poblacional",
+     "d": "Capacidad para ejecutar la intervención mediante consejería, educación alimentaria, capacitación de agentes comunitarios y articulación con actores locales y sectoriales, adaptándola al territorio y a su cultura, con liderazgo, comunicación efectiva, trabajo intersectorial y respeto por la comunidad."
+    },
+    {
+     "a": "Evaluar",
+     "n": "Monitoreo y evaluación del impacto de la intervención",
+     "d": "Capacidad para monitorear el programa, medir su impacto contra la línea de base y reportar resultados con indicadores a la autoridad o al empleador, en contextos públicos, comunitarios y laborales, con honestidad en el dato, pensamiento crítico y orientación a la mejora de la intervención."
+    }
+   ],
+   "esp": [
+    {
+     "n": "Nutrición comunitaria y salud pública",
+     "eq": "competencia",
+     "cap": "",
+     "nota": "Ejecuta el ciclo completo diagnosticar-planificar-intervenir-evaluar y entrega el plan poblacional con línea de base e informe de impacto."
+    },
+    {
+     "n": "Nutrición ocupacional y salud en minería",
+     "eq": "compartido",
+     "cap": "",
+     "nota": "Su programa ocupacional con indicadores es el mismo ciclo sobre el colectivo de trabajadores; además planifica el menú del campamento."
+    },
+    {
+     "n": "Nutrición en programas sociales del Estado",
+     "eq": "compartido",
+     "cap": "",
+     "nota": "Capacita y monitorea a la unidad territorial (tramos Intervenir y Evaluar); su proceso principal es la gestión del componente alimentario."
+    }
+   ],
+   "auditoria": {
+    "verbo": "Sí",
+    "objeto": "Sí",
+    "condiciones": "Sí",
+    "proposito": "Sí",
+    "evidencia": "Sí",
+    "nivel": "Sí",
+    "sustento": "Sí",
+    "capacidades": "Sí"
+   }
+  },
+  {
+   "alias": "Alimentación colectiva",
+   "n": "Gestión de servicios de alimentación colectiva y aseguramiento de la inocuidad",
+   "tipo": "gestión",
+   "def": "Dirigir el servicio de alimentación que provee a pacientes, trabajadores, escolares o usuarios de programas sociales —planificando el menú, estandarizando preparaciones y fichas técnicas, costeando y comprando, asegurando la inocuidad con HACCP y auditando el cumplimiento— en hospitales, concesionarias, campamentos y unidades territoriales del Estado, bajo la norma sanitaria vigente y con indicadores de gestión, para entregar una alimentación nutricionalmente adecuada, segura y sostenible económicamente.",
+   "evid": "Plan HACCP del servicio y expediente de auditoría con menús, fichas técnicas, costeo, registros de puntos críticos, no conformidades resueltas y tablero de indicadores.",
+   "nivel": "Autonomía para conducir un servicio de alimentación o una unidad territorial de complejidad media; la implementación de HACCP en plantas de alta complejidad y la auditoría de certificación se realizan con supervisión de un responsable acreditado.",
+   "caps": [
+    {
+     "a": "Planificar",
+     "n": "Planificación del menú y del plan alimentario",
+     "d": "Capacidad para planificar menús y planes alimentarios por ciclos que cubran los requerimientos del colectivo atendido —pacientes, trabajadores, escolares, usuarios de programas— dentro del presupuesto y la disponibilidad local, adaptándolos a la cultura y al clima, con criterio nutricional, sentido económico y equidad."
+    },
+    {
+     "a": "Estandarizar",
+     "n": "Estandarización y costeo de las preparaciones",
+     "d": "Capacidad para estandarizar recetas, raciones y fichas técnicas con su perfil nutricional y costo, y gestionar compras y proveedores, adaptando la estandarización al tipo de servicio y a la escala, con precisión, orden y transparencia en el uso de los recursos."
+    },
+    {
+     "a": "Asegurar",
+     "n": "Aseguramiento de la inocuidad",
+     "d": "Capacidad para implementar y mantener el sistema HACCP y las buenas prácticas de manipulación, identificando puntos críticos, controlándolos y capacitando al personal, en cocinas hospitalarias, concesionarias y campamentos, con disciplina normativa, prevención del riesgo y responsabilidad por la salud del comensal."
+    },
+    {
+     "a": "Auditar",
+     "n": "Supervisión y auditoría del servicio de alimentación",
+     "d": "Capacidad para supervisar operaciones y proveedores, auditar el cumplimiento sanitario, gestionar no conformidades y reportar indicadores de gestión a la dirección o a la entidad, en servicios propios, concesionados o de programas sociales, con objetividad, integridad y orientación a la mejora continua."
+    }
+   ],
+   "esp": [
+    {
+     "n": "Gestión de servicios de alimentación e inocuidad",
+     "eq": "competencia",
+     "cap": "",
+     "nota": "Ejecuta el ciclo completo planificar-estandarizar-asegurar-auditar y entrega el plan HACCP con el expediente de auditoría."
+    },
+    {
+     "n": "Nutrición en programas sociales del Estado",
+     "eq": "compartido",
+     "cap": "",
+     "nota": "Fichas técnicas, supervisión de proveedores, vigilancia sanitaria y reporte son este mismo proceso sobre la unidad territorial del programa."
+    },
+    {
+     "n": "Nutrición ocupacional y salud en minería",
+     "eq": "compartido",
+     "cap": "",
+     "nota": "Aporta el tramo Planificar: el plan alimentario del campamento; el resto de su proceso es intervención poblacional."
+    }
+   ],
+   "auditoria": {
+    "verbo": "Sí",
+    "objeto": "Sí",
+    "condiciones": "Sí",
+    "proposito": "Sí",
+    "evidencia": "Sí",
+    "nivel": "Sí",
+    "sustento": "Sí",
+    "capacidades": "Sí"
+   }
+  }
+ ],
+ "mencion": {
+  "n": "Desarrollo y reformulación de productos alimentarios",
+  "destino": "capacidad de Estandarizar (Alimentación colectiva)",
+  "nota": "La reformulación del perfil nutricional, la ficha técnica y el rotulado caben en la estandarización de preparaciones como un objeto más (el producto industrial); el registro sanitario y la vigilancia de la competencia quedan fuera porque son el tramo que el mercado comparte con ingeniería de alimentos (Wasi Mikuna admite ambas profesiones en la misma plaza). No abre competencia: no entró al plan."
+ },
+ "resumen": "Dirección: el mercado sostiene tres competencias, no cuatro. Las ocho especialidades que entraron al plan se reparten en doce capacidades: la Atención nutricional (4) recoge la clínica hospitalaria como equivalencia y la bariátrica, la geriátrica y la pediátrica-materna como ámbitos, porque las cuatro producen el mismo plan individualizado; la Intervención poblacional (4) nace de la comunitaria y la comparten la ocupacional y la de programas sociales; la Alimentación colectiva (4) nace de la gestión de servicios y la comparten las mismas dos. El proceso corrigió dos grupos de la Escuela: pediátrica se funde con clínica, y ocupacional y programas sociales no siguen el proceso de su base sino que ejercen dos competencias a la vez. La mención de productos no abre competencia: queda como objeto de la capacidad Estandarizar."
+}

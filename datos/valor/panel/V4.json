@@ -1,0 +1,29 @@
+{"rol":"V4",
+"SIS":{
+"A":[
+{"E":false,"D":3,"R":3,"S":"E","V":4,"c":"Ningún C3 declara línea; UCSM, ULima, UNA Puno y UNSM solo tienen curso o electivo de auditoría. Resiste el espejo; capacidad 2-3 sin resolución."},
+{"E":false,"D":3,"R":3,"S":"U","V":3,"c":"Solo UTEC, fuera de C3. Pero ULima (electivos Nube, DevOps) y UCSM (electivo DevOps) pueden alcanzarlo con un electivo: ventaja copiable."},
+{"E":true,"D":3,"R":2,"S":"U","V":2,"c":"Los planes no registran investigación; UNA Puno en Puno y UNSM en San Martín, con cursos de ML, pueden firmar IA aplicada a su región."},
+{"E":true,"D":2,"R":2,"S":"N","V":2,"c":"Todo C3 declara convenios de prácticas; es paridad (bolsa de trabajo). 28 convenios sin desglose ni vigencia no distinguen."},
+{"E":true,"D":2,"R":2,"S":"N","V":2,"c":"Laboratorios de redes y AWS Academy los firma cualquier C3; Juliaca sin laboratorio y vigencia AWS sin verificar."}
+],
+"B":{"t":{"L":3,"So":true,"Au":false},
+"vp":[{"L":4,"So":true,"Au":true},{"L":3,"So":true,"Au":true},{"L":4,"So":true,"Au":true},{"L":3,"So":true,"Au":true},{"L":3,"So":false,"Au":true}]},
+"C":{"car":{"An":true,"At":2,"Mo":2,"Dg":false},
+"esp":[{"An":true,"At":3,"Mo":3,"Dg":false},{"An":true,"At":2,"Mo":2,"Dg":false},{"An":true,"At":2,"Mo":3,"Dg":false},{"An":true,"At":3,"Mo":3,"Dg":false},{"An":true,"At":3,"Mo":2,"Dg":false}]},
+"falta":"Ser la única carrera con líneas de especialidad declaradas en Puno y San Martín: UNA Puno y UNSM no declaran ninguna (barrido 24-09-2026). Es a prueba de espejo regional y no está en dif[].",
+"problema":"La brecha digital del Estado subnacional: gobiernos regionales y municipalidades sin capacidad propia de TI, y la fuga del talento de sistemas de las regiones hacia Lima y el trabajo remoto."},
+"NUT":{
+"A":[
+{"E":true,"D":3,"R":2,"S":"U","V":3,"c":"UNA Puno (anemia 75,4 % en Puno), UNMSM y UPCH pueden firmar docentes que investigan anemia infantil; materno infantil es curso en casi todo C3."},
+{"E":true,"D":3,"R":2,"S":"U","V":2,"c":"Comunitaria está saturada (11 de 18); UNA Puno tiene internado comunitario. Renacyt de Saintila venció en 2024."},
+{"E":false,"D":3,"R":3,"S":"E","V":3,"c":"El comedor solo es espejo (UNMSM, UNA Puno tienen); la planta industrial propia con acuerdos no la firma ningún C3. Nombrar la planta primero."},
+{"E":false,"D":2,"R":3,"S":"E","V":2,"c":"0 de 18 lo formalizan, pero Wiener, UNFV y UCV dictan cursos de niño y adulto mayor. Obesidad y ocupacional sí resisten."},
+{"E":true,"D":2,"R":2,"S":"U","V":2,"c":"Convenios con MINSA y programas del Estado son paridad; UNA Puno y UNMSM tienen internado en nutrición pública. Sin vigencia ni vacantes."}
+],
+"B":{"t":{"L":3,"So":true,"Au":false},
+"vp":[{"L":3,"So":false,"Au":false},{"L":4,"So":true,"Au":true},{"L":4,"So":true,"Au":true}]},
+"C":{"car":{"An":true,"At":2,"Mo":3,"Dg":false},
+"esp":[{"An":true,"At":3,"Mo":3,"Dg":false},{"An":true,"At":1,"Mo":3,"Dg":false},{"An":true,"At":3,"Mo":3,"Dg":false}]},
+"falta":"Nutrición basada en plantas y estilo de vida, con planta Unión, Superbom e investigación de dietas vegetarianas: ningún plan C3 la declara (USIL Funcional e Integrativa es lo más cercano).",
+"problema":"La inseguridad alimentaria de los hogares y un entorno de ultraprocesados que producen a la vez anemia y obesidad en la misma familia: la doble carga de malnutrición."}}

@@ -1,0 +1,106 @@
+{
+ "carrera": "Ingeniería de Sistemas",
+ "cod": "SIS",
+ "k": "E2",
+ "especialidad": "Infraestructura en la nube, DevOps y redes",
+ "especialidad_base": "Infraestructura en la nube y DevOps",
+ "integradas": [
+  "Redes y telecomunicaciones"
+ ],
+ "ambitos_y_absorbidas": [
+  "Redes y telecomunicaciones (ámbito)"
+ ],
+ "descripcion_f1": {
+  "vol": 4,
+  "amp": 4,
+  "esc": 3,
+  "rem": 4,
+  "for": 2
+ },
+ "proceso_f1": "Diseñar la plataforma → automatizar → operar → observar → optimizar",
+ "evidencia_f1": "Plataforma operando con infraestructura como código, pipelines y tablero de observabilidad",
+ "competencia": {
+  "codigo": "C2",
+  "alias": "Plataforma e infraestructura",
+  "nombre": "Diseño y operación de la infraestructura tecnológica",
+  "definicion_conceptual": "Diseñar, automatizar y operar la plataforma tecnológica sobre la que corren los sistemas de una organización —infraestructura en la nube, contenedores, pipelines, redes y comunicaciones—, aprovisionándola como código, monitoreándola con observabilidad y asegurando su disponibilidad, seguridad perimetral y costo, en entornos locales, híbridos, multinube y de servicios gestionados, para que las aplicaciones y las comunicaciones de la organización operen de forma continua, escalable y eficiente."
+ },
+ "capacidades_SOLO_PARA_MOMENTO_4": [
+  {
+   "codigo": "C2.1",
+   "accion": "Diseñar",
+   "nombre": "Diseño de la arquitectura de la plataforma",
+   "definicion": "Capacidad de diseñar la arquitectura de la plataforma —servicios en la nube, contenedores, topología de red y comunicaciones— dimensionándola según carga, disponibilidad, seguridad y costo, en escenarios locales, híbridos o multinube; moviliza arquitectura cloud, redes, protocolos, criterio de diseño y responsabilidad por la continuidad del negocio."
+  },
+  {
+   "codigo": "C2.2",
+   "accion": "Automatizar",
+   "nombre": "Aprovisionamiento y automatización de la infraestructura",
+   "definicion": "Capacidad de aprovisionar y configurar la plataforma mediante infraestructura como código, contenedores, pipelines de integración y despliegue y configuración de equipos de red, de forma reproducible y versionada, adaptándose a distintos proveedores; moviliza herramientas de automatización, scripting, control de versiones, rigor y orientación a la reproducibilidad."
+  },
+  {
+   "codigo": "C2.3",
+   "accion": "Operar",
+   "nombre": "Operación y soporte de la infraestructura",
+   "definicion": "Capacidad de operar la plataforma día a día —respaldos, soporte, gestión de cambios, incidentes y capacidad— con procedimientos documentados y acuerdos de nivel, en contextos de operación continua; moviliza administración de sistemas y redes, procedimientos operativos, disciplina, atención a la continuidad y servicio al usuario."
+  },
+  {
+   "codigo": "C2.4",
+   "accion": "Observar",
+   "nombre": "Observabilidad y aseguramiento de la disponibilidad",
+   "definicion": "Capacidad de instrumentar la plataforma con monitoreo, registros, trazas y alertas, medir su disponibilidad y rendimiento y proteger su perímetro, anticipando fallos en entornos distribuidos; moviliza observabilidad, seguridad perimetral, análisis de métricas, vigilancia proactiva y responsabilidad por la disponibilidad del servicio."
+  },
+  {
+   "codigo": "C2.5",
+   "accion": "Optimizar",
+   "nombre": "Optimización del rendimiento y de los costos",
+   "definicion": "Capacidad de analizar el uso de la plataforma y optimizar su rendimiento, escalabilidad y costo —FinOps, ajuste de recursos, mejora de arquitectura— con base en evidencia de operación, en organizaciones con presupuesto restringido; moviliza análisis de costos, ingeniería de rendimiento, pensamiento económico, mejora continua y transparencia ante la dirección."
+  }
+ ],
+ "otras_competencias": [
+  {
+   "codigo": "C1",
+   "nombre": "Desarrollo de soluciones de software",
+   "capacidades": [
+    "C1.1 Analizar: Análisis y especificación de requisitos",
+    "C1.2 Diseñar: Diseño de la arquitectura de la solución",
+    "C1.3 Construir: Construcción e integración de los componentes de software",
+    "C1.4 Verificar: Verificación de la calidad del software",
+    "C1.5 Desplegar: Despliegue y mantenimiento en producción"
+   ]
+  },
+  {
+   "codigo": "C3",
+   "nombre": "Desarrollo de soluciones de analítica e inteligencia artificial",
+   "capacidades": [
+    "C3.1 Gobernar: Gobierno e integración del dato",
+    "C3.2 Modelar: Modelado analítico y entrenamiento de algoritmos",
+    "C3.3 Evaluar: Evaluación de la validez y la ética del modelo",
+    "C3.4 Implantar: Implantación y monitoreo en producción",
+    "C3.5 Comunicar: Comunicación de resultados para la toma de decisiones"
+   ]
+  },
+  {
+   "codigo": "C4",
+   "nombre": "Gestión de la seguridad de la información y de los riesgos digitales",
+   "capacidades": [
+    "C4.1 Evaluar: Evaluación de riesgos y vulnerabilidades",
+    "C4.2 Proteger: Diseño e implantación de controles de seguridad",
+    "C4.3 Detectar: Monitoreo y detección de amenazas",
+    "C4.4 Responder: Respuesta a incidentes y análisis forense",
+    "C4.5 Recuperar: Continuidad, cumplimiento y auditoría de la seguridad"
+   ]
+  },
+  {
+   "codigo": "C5",
+   "nombre": "Gobierno y dirección de proyectos y servicios de tecnología de la información",
+   "capacidades": [
+    "C5.1 Alinear: Alineamiento de la tecnología con la estrategia organizacional",
+    "C5.2 Planificar: Planificación de proyectos tecnológicos",
+    "C5.3 Dirigir: Dirección, control y entrega de proyectos tecnológicos",
+    "C5.4 Operar: Operación de los servicios de tecnología de la información",
+    "C5.5 Evaluar: Auditoría de controles y riesgos de tecnología de la información"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mentora</title>
+<meta name="description" content="Fase 1 del rediseño curricular: seis pasos y veintiún momentos conducidos por el mentor Génesys.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%23003366'/><text x='32' y='43' font-size='34' text-anchor='middle' font-family='Segoe UI,Arial' font-weight='700' fill='%23C8961E'>M</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css?v=f11406b">
+<link rel="stylesheet" href="css/tema.css?v=f11406b">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.min.js"></script>
+<script src="js/nube.js?v=1"></script>
+</head>
+<body>
+
+<header class="top">
+  <a class="marca-l" href="fase1.html" title="Volver a la portada de la Fase 1">
+    <span class="logo">M</span>
+    <span class="marca"> Prospectiva de Especialidades</span>
+  </a>
+  <div class="miga">
+    <span class="esc-w"><select id="sel-escuela" aria-label="Escuela profesional" hidden></select>
+     <div class="pick" id="pick"><button class="pick-b" id="pick-b" aria-haspopup="listbox"><span class="pick-i"></span><span class="pick-t"><b></b><em></em></span><span class="pick-c">⌄</span></button><div class="pick-l" id="pick-l" role="listbox" hidden></div></div></span>
+    <span id="bc-plan" hidden></span><span id="bc-escuela" hidden></span>
+  </div>
+  <div class="der">
+    <a class="b-top" href="fase1.html" title="Volver a la portada de la Fase 1" style="text-decoration:none">← Regresar</a>
+    <span class="estado-borr" id="est-borr">Sin iniciar</span>
+    <span id="sesion"></span>
+  </div>
+</header>
+
+<nav class="stepper" id="stepper" aria-label="Línea de tiempo de la Fase 1" hidden></nav>
+
+<dialog id="dlg-doc" class="dlg">
+  <form method="dialog" class="dlg-f">
+    <h2>Adjuntar un documento</h2>
+    <p class="dlg-n">Elija qué es el documento: de eso depende cuándo y cómo se usa. El <b>plan de estudios vigente</b> queda sellado hasta el paso 1.2 — adjuntarlo no es leerlo.</p>
+    <label for="nd-rol">Qué documento es</label>
+    <select id="nd-rol">
+      <option value="plan">Plan de estudios vigente</option>
+      <option value="modelo">Modelo educativo institucional</option>
+      <option value="norma">Normativa del ejercicio profesional</option>
+      <option value="sector">Informe sectorial o de prospectiva</option>
+      <option value="oferta">Oferta académica comparada</option>
+      <option value="capacidad">Declaración de capacidad instalada firmada</option>
+      <option value="otro">Otro documento</option>
+    </select>
+    <p class="dlg-n" style="margin-top:12px">Admite PDF, CSV, JSON, Markdown, texto e imágenes, hasta 20 MB. Un archivo Word hay que guardarlo como PDF.</p>
+    <div class="dlg-acc"><button value="cancelar" class="b-out2">Cancelar</button>
+      <button value="elegir" class="b-env">Elegir archivo…</button></div>
+  </form>
+</dialog>
+
+<div class="app">
+  <section class="genesys">
+    <div class="g-cab">
+      <div class="g-id">
+        <div class="g-av"><img src="img/genesis.webp" alt="Génesys" decoding="async"></div>
+        <div><div class="g-nom">Mentor Curricular Génesys</div><div class="g-esp" id="g-escuela">Escuela</div></div>
+        <button class="g-plegar" id="btn-gen" title="Ocultar la conversación con Génesys">‹‹</button></div>
+      <div class="g-paso"><div class="l" id="g-paso-l">Paso 1.1 · <b>Prospectiva de Especialidades</b> · Generar la cartera</div><div class="g-bar"><i id="g-bar"></i></div></div>
+    </div>
+    <div class="g-chat" id="chat"></div>
+    <div class="g-pie">
+      <div class="g-inp" id="g-inp"><input placeholder="Da una instrucción a Génesys…" id="inp"><button class="g-env" id="env" title="Enviar">↑</button></div>
+      <div class="g-nota" id="g-nota"><span>Enter para enviar</span><span>Mentor Génesys · método v6.3</span></div>
+      <div class="g-real" id="g-real" style="display:none">Génesys le guía aquí: en qué momento está y qué toca.</div>
+    </div>
+  </section>
+
+  <section class="centro">
+    <div class="val-bar" id="val-bar" hidden>
+      <span class="vb-k">Recorrido del método</span>
+      <span class="vb-n">Vista guiada de los 20 momentos · no modifica el avance de la escuela</span>
+      <button class="vb-b" id="vb-prev">‹ Anterior</button>
+      <select class="vb-sel" id="vb-sel" aria-label="Ir a un momento"></select>
+      <button class="vb-b" id="vb-next">Siguiente ›</button>
+      <span class="vb-p" id="vb-paso"></span>
+      <button class="vb-x" id="vb-salir">✕ Volver a la escuela</button>
+    </div>
+    <div class="vb-guia" id="vb-guia" hidden></div>
+    <div class="c-cab">
+      <div class="tabs" id="tabs"></div>
+      <div class="c-acc"><button id="btn-exp">⤢ Expandir</button><button class="on" id="btn-panel">▣ Comprimir panel</button></div>
+    </div>
+    <div class="hoja">
+      <div class="hoja-cab">
+        <div class="eyebrow" id="eyebrow">Fase 1 · De la cartera del campo a la arquitectura de la carrera</div>
+        <h1 class="hoja-h1" id="hoja-h1">Consola de Prospectiva de Especialidades</h1>
+        <div class="proposito"><b>Para qué sirve:</b><span id="prop-txt">Conducir los seis pasos de la Fase 1.</span></div>
+      </div>
+      <div class="regla"></div>
+      <div class="cuerpo" id="vista"></div>
+    </div>
+  </section>
+
+  <aside class="panel panel-unico" aria-label="Panel de consulta">
+    <div class="pu-cab"><span>Panel</span><button class="g-plegar" id="btn-pan" title="Ocultar el panel">››</button></div>
+    <section class="pu-sec" id="progress-panel">
+      <button class="pu-h" data-pu="prog"><span>Progreso · Fase 1</span><span class="n" id="n-prog">0/21</span><i>▾</i></button>
+      <div class="pu-b" id="p-prog"></div>
+    </section>
+    <section class="pu-sec" id="outputs-panel">
+      <button class="pu-h" data-pu="sal"><span>Salidas</span><span class="n" id="n-sal">0</span><i>▾</i></button>
+      <div class="pu-b" id="p-sal"></div>
+    </section>
+    <section class="pu-sec" id="sources-panel">
+      <button class="pu-h" data-pu="fue"><span>Fuentes consultadas por Génesys</span><span class="n" id="n-fue">0</span><i>▾</i></button>
+      <div class="pu-b" id="p-fue"></div>
+    </section>
+  </aside>
+  <div hidden>
+    <button id="b-subir">Adjuntar un documento</button>
+    <input type="file" id="f-archivo" accept=".pdf,.csv,.json,.md,.txt,.png,.jpg,.jpeg,.svg">
+    <div id="p-docs"></div>
+  </div>
+</div>
+
+<button class="asidero" id="as-gen">GÉNESYS ››</button>
+<button class="asidero" id="as-pan">‹‹ Progreso · Salidas · Fuentes</button>
+
+
+<script src="datos/nut.js?v=f11406b"></script>
+<script src="datos/sis.js?v=f11406b"></script>
+<script src="js/app.js?v=f11406b"></script>
+<script src="js/tema.js?v=f11406b"></script>
+</body>
+</html>

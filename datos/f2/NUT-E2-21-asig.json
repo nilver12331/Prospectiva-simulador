@@ -1,0 +1,133 @@
+{
+ "cod": "NUT",
+ "k": "E2",
+ "competencia": "C2",
+ "funciones": {
+  "E2-01": {
+   "marcas": [
+    "●",
+    "",
+    "",
+    ""
+   ],
+   "asig": "C2",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (Plan Multisectorial 2024-2030 [4], NTS 213 [5], Ley 30188 [10]) · E2 (CIUO-08 [12], O*NET [11]) · E3 (3 de 55 avisos: DIRESA Cajamarca, Save the Children [33][34]) · E4 (43,7 % de anemia en 6 a 35 meses y 12,1 % de desnutrición crónica, ENDES 2024 [1]; SIEN en 7 938 establecimientos [8])",
+    "tend": "E6 (guía OMS 2024 de puntos de corte de hemoglobina [6]; variación de 6,3 puntos en 120 711 niños [7])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E2-02": {
+   "marcas": [
+    "○",
+    "●",
+    "",
+    ""
+   ],
+   "asig": "C2",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (Ley 30188 [10], PP 1001 [14]) · E2 (O*NET [11], estándares AND [13]) · E3 (2 de 55 avisos [28]) · E4 (anemia infantil de 43,1 % a 43,7 % entre 2023 y 2024 [1]) · [15] sin verificar",
+    "tend": "E6 (Plan Multisectorial 2024-2030 [4]); el dato del Programa de Incentivos 2025 [15] no está verificado",
+    "d": "P",
+    "acc": "Verificar [15] (el PDF del MEF no abrió en la ronda 2: X6 y G «sin verificar») o sustituirlo por la norma del Programa de Incentivos 2025 publicada en El Peruano."
+   }
+  },
+  "E2-03": {
+   "marcas": [
+    "○",
+    "",
+    "●",
+    ""
+   ],
+   "asig": "C2",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (NTS 213 [5], PP 1001 [14], criterios del CPVC [16], Ley 30021 [21]) · E2 (O*NET [11]) · E3 (17 de 55 avisos, 13 de Cuna Más [29][30]) · E4 (lactancia materna de 69,3 % a 67,4 % [1]; obesidad de 25,7 % [2])",
+    "tend": "E6 (obesidad de 18,5 % en 2014 a 25,7 % en 2024 [2]; NTS 213 de 2024 [5])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E2-05": {
+   "marcas": [
+    "○",
+    "○",
+    "●",
+    "●"
+   ],
+   "asig": "C2 · compartida con C3",
+   "otra": "C3.1 Planificar",
+   "dic": {
+    "ev": "E1 (DS 006-2025-MIDIS [18], Ley 31782 [22], reglamento de ollas comunes [23]) · E2 (O*NET [11]) · E3 (5 de 55 avisos del PAE y municipales [28][38]) · E4 (4 187 782 estudiantes del PAE en 2026 [19]; 51,7 % con inseguridad alimentaria moderada o grave [25])",
+    "tend": "E6 (PAE desde 2026 tras la extinción de Wasi Mikuna en 2025 [18][19]; reglamento de la Ley 31315 de 2024 [24])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E2-10": {
+   "marcas": [
+    "",
+    "",
+    "",
+    "●"
+   ],
+   "asig": "C2",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (Ley 30188 [10], Plan Multisectorial 2024-2030 [4]) · E2 (O*NET [11], estándares AND [13]) · E3 (2 de 55 avisos [28]) · sin E4 verificado: el dato de 945 municipalidades es de [15], sin verificar",
+    "tend": "E6 (guía OMS 2024 [6] adoptada por la NTS 213 [5], con el estudio [7]); [15] sin verificar",
+    "d": "P",
+    "acc": "Verificar [15] o sustituirlo; añadir a la demanda un dato de necesidad verificado (p. ej., anemia infantil de 43,7 % [1]) que justifique medir resultados."
+   }
+  }
+ },
+ "reasignadas": [],
+ "alertas": [
+  [
+   "E2-05 · Gestión nutricional de la alimentación escolar y de los programas alimentarios municipales",
+   "C2.3 y C2.4 con C3.1",
+   "Especialista alimentario y monitor de gestión local del Programa de Alimentación Escolar (aviso [38]) y nutricionista de la Gerencia de Desarrollo Social municipal para Vaso de Leche y complementación alimentaria (aviso [28])",
+   "Si C2 y C3 se certifican por separado, quien asiste a los comités y monitorea el programa no queda acreditado para programar raciones ni adecuar menús a la población priorizada, y la ración pierde su sustento en el diagnóstico"
+  ]
+ ],
+ "decisiones": [
+  [
+   "2026-09-25",
+   "Se asignan 5 funciones de E2: E2-01, E2-03 y E2-05 (núcleo), E2-10 (complementaria) y E2-02 (complementaria por decisión de la Escuela).",
+   "Con decision2 del panel. No se asignan E2-04 y E2-07 (fusionadas en E2-03), E2-06 (fusionada en E2-05), E2-08 (excluida: duplica E3-09) ni E2-09 (sublínea en E2-01). Se aplicaron los ajustes de NUT-E2-21-ajustes.json."
+  ],
+  [
+   "2026-09-25",
+   "E2-05 queda compartida con C3 (C3.1 Planificar).",
+   "T1 (programar requerimientos y raciones) y T2 (adecuar menús escolares y raciones municipales) movilizan de forma principal C3.1, cuya definición nombra a los «usuarios de programas»; T4 a T6 movilizan C2.3 y C2.4. La frontera con E3-01 la fijó la corrección: E3-01 planifica en el servicio proveedor; E2-05 programa desde el programa público."
+  ],
+  [
+   "2026-09-25",
+   "Cobertura completa: C2.1 (E2-01), C2.2 (E2-02), C2.3 (E2-03, E2-05) y C2.4 (E2-05, E2-10). Además, E3-09 (nutrición ocupacional) moviliza C2.1 a C2.4 como función compartida desde E3.",
+   "C2.2 depende de una sola función propia, rescatada como complementaria por la Escuela; si E2-02 saliera en la consolidación, C2.2 quedaría solo con E3-09 (compartida)."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C2.1 (pendiente de la Escuela): añadir «incluida la evaluación rápida de necesidades nutricionales en emergencias y desastres».",
+   "E2-01 absorbió como sublínea E2-09 (T6); la definición de C2.1 no nombra ese contexto."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C2.3 (pendiente de la Escuela): añadir «y la promoción de entornos alimentarios saludables en escuelas y comunidades (kiosco y comedor escolar saludable, advertencias publicitarias)».",
+   "E2-03 absorbió E2-07 (T5 y T6, Ley 30021); la definición de C2.3 nombra consejería, educación y agentes, pero no el entorno alimentario."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C2.2 (pendiente de la Escuela): añadir «incluida la focalización de beneficiarios según la prelación normativa».",
+   "E2-05-T3 (padrón del Vaso de Leche según la Ley 31782) exige focalizar, método que ninguna capacidad de C2 nombra."
+  ],
+  [
+   "2026-09-25",
+   "Dictamen de suficiencia de E2: 3 S (E2-01, E2-03, E2-05) y 2 P (E2-02 y E2-10, que se apoyan en [15], sin verificar). Global: P.",
+   "La muestra de mercado de E2 es de 55 avisos (≥ 30). [15] figura como «Verificado» en el paquete, pero el acta de la ronda 2 (X6 y G) y la corrección lo registran sin verificar: prevalece el acta. E5 y E7 son de programa: el global nunca es S."
+  ]
+ ]
+}

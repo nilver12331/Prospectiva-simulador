@@ -1,0 +1,47 @@
+{
+ "rol": "G",
+ "reglas": [
+  {
+   "n": 1,
+   "veredicto": "Cumple",
+   "hallazgo": "Las 20 candidatas declaran empleo y negocio propio (1–4). Solo SIS-20 (1/2) tiene ambas ≤ 2 y está devuelta como «Recurso del 2.2 (provisional)»; SIS-19 (3/1) sale por origen en extinción, no por esta regla."
+  },
+  {
+   "n": 2,
+   "veredicto": "No cumple",
+   "hallazgo": "SIS-16 Blockchain es una tecnología y sigue valorada (25) sin destino al 2.2; SIS-08 lleva el producto «SAP» en el nombre y SIS-04 la metodología «DevOps». Solo SIS-20 IA generativa fue derivada al 2.2."
+  },
+  {
+   "n": 3,
+   "veredicto": "No cumple",
+   "hallazgo": "Cifras con [P-S] y [E-B] no tienen enlace ni fecha: déficit >2 700 científicos de datos, US$ 30 M del Estado, ProInnóvate 30 000, AWS 09-2026, 88 % edge. N-4 y N-7 citan hallazgos, no lecturas; N-B12 es búsqueda."
+  },
+  {
+   "n": 4,
+   "veredicto": "No cumple",
+   "hallazgo": "SIS-1-empleo declara que no existe serie de avisos por especialidad. SIS-06, SIS-14 y SIS-15 puntúan «crece» (3) con porcentajes de adopción; SIS-02, SIS-03 y SIS-20 con proyecciones (+20 % proyectado 2025, CAGR 2025–2029), no con series contadas."
+  },
+  {
+   "n": 5,
+   "veredicto": "Cumple",
+   "hallazgo": "Ninguna candidata valorada queda fuera del título ni de la colegiatura CIP. SIS-19, declarada «puesto técnico, no de ingeniero», está devuelta; SIS-18 UX/UI queda «en el límite» con colegiatura no exigida, dentro del alcance pero sin resolver."
+  },
+  {
+   "n": 6,
+   "veredicto": "Cumple",
+   "hallazgo": "Cartera, justificaciones y evidencias no citan el plan de la UPeU ni sus competencias; solo declaran que sigue sellado. «Competencias más demandadas» en SIS-3-prospectiva y SIS-20 es vocabulario de Experis (mercado), no del plan."
+  },
+  {
+   "n": 7,
+   "veredicto": "Cumple",
+   "hallazgo": "Las 20 filas tienen vacías las seis columnas de capacidad y la de prioridad, además de Panel y Aprobada (M3). La tabla de diferenciación de SIS-4-oferta es barrido del agente y aún no se volcó al CSV."
+  }
+ ],
+ "observaciones": [
+  "Marcadores N-n ambiguos: en SIS-2-normativa la numeración de lecturas [1]–[9] y la de hallazgos 1–7 coinciden y se cruzan (N-4 se usa para Ley 31814 y para el vacío de Contraloría; N-7 para Ley 30096 y para certificaciones). Conviene distinguir N-L y N-H.",
+  "Contradicción entre evidencias no resuelta: E-L4 registra Expectativa Neta de Empleo TI de 51 % en 1T-2026 (+24 pts interanual) y P-L9 de 15 % en Q4-2026 (−7 pp); la cartera solo usa la segunda como «desaceleración» en SIS-01 y SIS-05.",
+  "SIS-3-prospectiva remite la lista de fragmentos [S] a «el informe del agente»: cada cifra [S] usada en la cartera debe nombrar su fuente y fecha dentro de la evidencia, o marcarse como juicio del modelo.",
+  "SIS-1-empleo califica el +20 % de 2025 como «proyectado» (Michael Page, enero 2025), pero SIS-02 y SIS-03 lo usan como crecimiento observado en cre; debe rebajarse o etiquetarse como proyección.",
+  "SIS-19 registra como motivo de salida solo «origen en extinción» aunque la cartera también la declara «puesto técnico, no de ingeniero»; conviene registrar ambos motivos para que el destino sobreviva a una eventual revisión del origen."
+ ]
+}

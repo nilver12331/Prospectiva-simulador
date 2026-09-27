@@ -1,0 +1,92 @@
+{
+ "rol": "P6",
+ "perfil": "Analista territorial y de oferta comparada",
+ "calificaciones": {
+  "NUT-01": {
+   "E": 4,
+   "comentario": "UPSS obligatoria en todo hospital de segundo y tercer nivel; Tarapoto y Huancayo convocan con colegiatura. Saturada en oferta, pero ninguna escuela puede omitirla.",
+   "fuente": "[O-tabla][E-9]"
+  },
+  "NUT-02": {
+   "E": 4,
+   "comentario": "Concesionarias en Pasco, Apurímac y Chincha, PAE en 67 000 colegios; Chile y Antioquia la hacen práctica terminal, solo cinco peruanas la formalizan.",
+   "fuente": "[O-tabla][E-12]"
+  },
+  "NUT-03": {
+   "E": 4,
+   "comentario": "Es lo que contrata el territorio: DIRESA, redes y Cuna Más en Puno, Ica, Huancayo; anemia rural 23 %. Nueve de trece universidades la formalizan.",
+   "fuente": "[E-1][O-tabla]"
+  },
+  "NUT-04": {
+   "E": 3,
+   "comentario": "Contenido esencial del primer nivel en regiones con anemia alta, pero ningún pregrado la separa y el empleador la embebe en el puesto comunitario u hospitalario.",
+   "fuente": "[O-tabla][E-9]"
+  },
+  "NUT-05": {
+   "E": 2,
+   "comentario": "Gimnasios concentrados en ciudades grandes; en Juliaca o Tarapoto el mercado es marginal. Solo UNMSM y USIL la formalizan: diferencia en Lima, no en regiones.",
+   "fuente": "[O-tabla][E-11]"
+  },
+  "NUT-06": {
+   "E": 2,
+   "comentario": "Antropometría es curso obligatorio en seis mallas: competencia básica, no especialidad. Sin puesto propio en ninguna región; un aviso con ISAK como tarea añadida.",
+   "fuente": "[O-tabla][E-11]"
+  },
+  "NUT-07": {
+   "E": 2,
+   "comentario": "Solo Antioquia la formaliza; en Perú la plaza la comparte ingeniería de alimentos (Wasi Mikuna). Agroindustria de San Martín y Puno abre nicho, no perfil esencial.",
+   "fuente": "[O-tabla][E-10]"
+  },
+  "NUT-08": {
+   "E": 2,
+   "comentario": "Centros de control de peso y clínicas estéticas son de Lima; sin dato bariátrico nacional. Obesidad 24,6 % justifica contenido clínico, no especialidad territorial.",
+   "fuente": "[E-B13]"
+  },
+  "NUT-09": {
+   "E": 3,
+   "comentario": "Chincha, Apurímac, Pasco y La Oroya contratan nutricionista de campamento con habilitación y S/ 8 000; ninguna universidad la forma. Diferenciador territorial claro para sedes regionales.",
+   "fuente": "[E-12][E-6]"
+  },
+  "NUT-10": {
+   "E": 3,
+   "comentario": "PAE convoca en Puno, Huánuco, Cajamarca y Arequipa: empleador regional real, aunque admite carreras afines y Wasi Mikuna cerró convocatorias. Esencial, pero fusionada con comunitaria.",
+   "fuente": "[E-1][E-10]"
+  },
+  "NUT-11": {
+   "E": 2,
+   "comentario": "Es un modo de ejercicio, no un campo: freelance sin colegiatura desde S/ 1 800, clientela en distritos de Lima. Ninguna malla la formaliza.",
+   "fuente": "[E-B14][O-tabla]"
+  },
+  "NUT-14": {
+   "E": 3,
+   "comentario": "Nadie la formaliza en pregrado (curso en tres) y ningún empleador la convoca; el driver demográfico es nacional. Esencial como diferenciación futura, no como puesto hoy.",
+   "fuente": "[O-tabla][E]"
+  },
+  "NUT-17": {
+   "E": 1,
+   "comentario": "Sin aviso en el país, sin laboratorio genético fuera de Lima; cuatro universidades la dictan como electivo. No pertenece al perfil de egreso.",
+   "fuente": "[O-tabla][E]"
+  },
+  "NUT-19": {
+   "E": 1,
+   "comentario": "Puesto de auxiliar con secundaria y S/ 1 200 en clínicas de Lima y concesionarias; formar al titulado para esto lo empuja hacia abajo.",
+   "fuente": "[E-7]"
+  }
+ },
+ "faltan": [
+  "Nutrición renal: única segunda especialidad inscrita en el RNE del CNP fuera de clínica y pública (Wiener), con diálisis creciendo 8 %/año en EsSalud, y no figura en la cartera.",
+  "Seguridad alimentaria y gestión nutricional municipal: gobiernos locales y regionales con presupuesto por resultados (PPoR 1001) contratan gestores del componente nutricional territorial, distinto del programa social del MIDIS."
+ ],
+ "integrar": [
+  "NUT-03 + NUT-10: DIRESA, redes y MIDIS contratan el mismo perfil CAS comunitario; PAE y Cuna Más son el brazo programático de la salud pública regional.",
+  "NUT-02 + NUT-09: Sodexo, Newrest y NATCLAR contratan en un solo puesto 14x7 el servicio de alimentación del campamento y la vigilancia nutricional del trabajador.",
+  "NUT-04 dentro de NUT-03: en el primer nivel regional (CRED, anemia, gestante) la pediátrica-materna es el contenido central del puesto comunitario, no un puesto aparte.",
+  "NUT-19 dentro de NUT-02: la dietética operativa es la capa auxiliar del servicio de alimentación y no debe formarse como salida del titulado."
+ ],
+ "noPuesto": [
+  "NUT-17 Nutrigenómica: ningún aviso en el país ni laboratorio en regiones; electivo en cuatro mallas.",
+  "NUT-19 Dietética hospitalaria operativa: puesto de auxiliar con secundaria o técnico, no profesional.",
+  "NUT-06 Evaluación nutricional avanzada: tarea añadida a otros puestos, ya cubierta como curso obligatorio en seis mallas.",
+  "NUT-11 Consultoría online: modo de ejercicio de otras especialidades, no campo ni especialidad formalizable."
+ ]
+}

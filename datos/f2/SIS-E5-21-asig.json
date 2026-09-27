@@ -1,0 +1,172 @@
+{
+ "cod": "SIS",
+ "k": "E5",
+ "competencia": "C5",
+ "funciones": {
+  "E5-01": {
+   "marcas": [
+    "●",
+    "○",
+    "",
+    "",
+    ""
+   ],
+   "asig": "C5",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (DS 029-2021-PCM, comité y Plan de Gobierno Digital [8]) · E2 (CAS MIMP 161-2026 [16]) · E3 (13 de 45 avisos [40]) · E4 (índice de madurez digital de 54 % en las empresas, PRODUCE [20])",
+    "tend": "E6 (DS 115-2025-PCM, vigente desde enero de 2026 [15]; RM 049-2026-PCM, febrero de 2026 [46])",
+    "d": "S",
+    "acc": "La frecuencia de 13 de 45 se remite a un aviso de gerente [40]: citar la muestra y separar los avisos de entrada."
+   }
+  },
+  "E5-05": {
+   "marcas": [
+    "○",
+    "●",
+    "",
+    "",
+    ""
+   ],
+   "asig": "C5",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (DS 029-2021-PCM [8], RM 049-2026-PCM [46]) · E2 (O*NET 15-1299.09 [2], ESCO gestor de proyectos de TIC [3]) · E3 (22 de 45 avisos; 17 de portafolio [32][33])",
+    "tend": "E6 (PMBOK 8.ª ed., 2025 [27]; PMI Talent Gap al 2030 [30])",
+    "d": "S",
+    "acc": "Sustituir las fuentes secundarias de la tendencia (Learning Tree [27] y Columbia SPS [30]) por las publicaciones del PMI."
+   }
+  },
+  "E5-06": {
+   "marcas": [
+    "",
+    "",
+    "●",
+    "",
+    ""
+   ],
+   "asig": "C5",
+   "otra": "",
+   "dic": {
+    "ev": "E2 (O*NET 15-1299.09 [2]; una sola fuente ocupacional) · E3 (37 de 45 avisos, sin cita de la muestra; avisos de MÉTRICA y TEKREA [31][34])",
+    "tend": "E6 (PMI Talent Gap al 2030 vía Columbia SPS [30]; PMBOK 8.ª ed. vía Learning Tree [27])",
+    "d": "P",
+    "acc": "Sumar una segunda fuente ocupacional (ESCO gestor de proyectos de TIC 1330.7 [3], ya en el banco) o una norma (Ley 32069 para la conformidad y el cierre contractual), citar la muestra de 45 avisos en el FD y reemplazar las fuentes secundarias del PMI."
+   }
+  },
+  "E5-07": {
+   "marcas": [
+    "",
+    "●",
+    "●",
+    "○",
+    ""
+   ],
+   "asig": "C5",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (Ley 32069 [14], Res. SBS 504-2021 [13]) · E2 (ESCO ICT operations manager [6]) · E3 (20 de 45 avisos [32])",
+    "tend": "E6 (Ley 32069, vigente desde abril de 2025 [14]; Res. SBS 504-2021 sobre nube y terceros [13])",
+    "d": "S",
+    "acc": "Citar la muestra completa para la frecuencia de 20 de 45 (hoy un solo aviso [32])."
+   }
+  },
+  "E5-08": {
+   "marcas": [
+    "●",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "asig": "C5 · compartida con C1",
+   "otra": "C1.1 Analizar",
+   "dic": {
+    "ev": "E1 (Ley 31170 [9]) · E3 (17 de 45 avisos [42]) · E4 (solo 10,4 % de usuarios de internet hizo transacciones con el Estado, INEI II-2025 [44]; más de 350 servicios en GOB.PE, 2025 [43])",
+    "tend": "E6 (Política Nacional de Transformación Digital al 2030, 2023 [10]; DS 115-2025-PCM, vigente desde enero de 2026 [15])",
+    "d": "S",
+    "acc": "Añadir una fuente ocupacional (ESCO o SFIA de diseño de servicios o análisis de negocio): hoy no hay E2."
+   }
+  },
+  "E5-09": {
+   "marcas": [
+    "",
+    "",
+    "",
+    "●",
+    ""
+   ],
+   "asig": "C5",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (Normas de Control Interno, RC 320-2006-CG [12]; DS 098-2025-PCM [45]) · E2 (ESCO ICT operations manager [6]) · E3 (21 de 45 avisos; 13 de incidentes, problemas o cambios [35][36]) · E4 (PIDE con más de 500 millones de transacciones en 2025 [43])",
+    "tend": "E6 (DS 098-2025-PCM, julio de 2025 [45]; ITIL 5, 2026 [28])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E5-11": {
+   "marcas": [
+    "",
+    "",
+    "",
+    "",
+    "●"
+   ],
+   "asig": "C5",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (Res. SBS 504-2021 [13], RC 320-2006-CG [12]) · E2 (ESCO gestor auditor de TIC [4]) · E3 (13 de 45 avisos [37])",
+    "tend": "E6 (ISACA 2025: 85 % prevé necesitar competencias en IA y nueva certificación AAIA [24]; ITAF 4.ª ed., 2020 [23])",
+    "d": "S",
+    "acc": "Citar la muestra para 13 de 45 (hoy un aviso [37]) y la Contraloría como ejecutora de servicios de control a sistemas, como pidió el panel."
+   }
+  }
+ },
+ "reasignadas": [],
+ "alertas": [
+  [
+   "E5-08 · Digitalización de procesos y servicios institucionales",
+   "C5.1 con C1.1",
+   "Analista de transformación digital en empresas y oficinas de TI del Estado: el mismo puesto rediseña el servicio, modela el proceso y levanta requerimientos (aviso MyApps [42]; 17 de 45 avisos)",
+   "Si la certificación separa C5 de C1, el rediseño y la adopción (C5.1) se certifican sin el modelado de procesos con usuarios (C1.1), o al revés; la frontera con E1-01 la fijó la Escuela y el panel observó que T1-T3 se solapaban."
+  ]
+ ],
+ "decisiones": [
+  [
+   "2026-09-25",
+   "Se asignan 7 funciones de E5: E5-05 y E5-06 (núcleo), E5-01 y E5-08 (complementarias) y E5-07, E5-09 y E5-11 (complementarias por decisión de la Escuela). Seis a C5 y una compartida: E5-08 con C1 (C1.1 Analizar).",
+   "Con decision2 del panel. No se asignan E5-12 (excluida: el riesgo tecnológico quedó en E4-01), E5-02 y E5-04 (fusionadas en E5-01), E5-03 (fusionada en E5-05) ni E5-10 (fusionada en E5-09). Se aplicaron los ajustes de SIS-E5-21-ajustes.json antes de marcar."
+  ],
+  [
+   "2026-09-25",
+   "E5-08 es compartida con C1: acompaña la adopción y mide el valor del servicio digitalizado (C5.1, organizaciones en transformación y gestión del cambio) y mapea y rediseña el proceso con los usuarios (C1.1, modelado de procesos en contextos de cambio organizacional).",
+   "La Escuela dejó en E1-01 la especificación de requerimientos y en E1-06 la automatización técnica; aun así T1-T3 movilizan de forma principal el modelado de procesos de C1.1."
+  ],
+  [
+   "2026-09-25",
+   "Cobertura completa: C5.1 (E5-01, E5-08), C5.2 (E5-05, E5-07), C5.3 (E5-06, E5-07), C5.4 (E5-09) y C5.5 (E5-11) tienen función principal.",
+   "C5.4 y C5.5 dependen cada una de una sola función rescatada por la Escuela (E5-09 y E5-11): si se retiran, esas capacidades quedan sin función. No hay reasignadas, transversales ni brechas."
+  ],
+  [
+   "2026-09-25",
+   "Frontera E5-09 / E2-08: E5-09 gestiona el proceso de incidentes, problemas y cambios (C5.4); la atención técnica es de E2-08 (C2.3). Frontera E5-11 / E4-09: la auditoría interna del SGSI es de E4-09 (C4.5).",
+   "Ninguna es compartida: cada función excluye expresamente el alcance de la otra."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C5.1 (pendiente de la Escuela): añadir «proponer las estructuras de decisión, roles y políticas de gobierno de TI, y rediseñar los procesos y servicios digitales desde la experiencia del usuario acompañando su adopción».",
+   "E5-01 absorbió el gobierno de TI (E5-04: comités, políticas, roles) y E5-08 rediseña servicios; la definición de C5.1 habla de madurez, estrategia, arquitectura objetivo y portafolio, no de estructuras de gobierno ni de rediseño de servicios. Es ajuste de redacción, no de estructura."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C5.2 (pendiente de la Escuela): añadir «a partir de su caso de negocio y su priorización en el portafolio, y conducir la indagación de mercado y los términos de referencia de la contratación pública».",
+   "E5-05 absorbió el portafolio (E5-03, T1) y E5-07 (T1-T3) formula requerimientos bajo la Ley 32069; la definición nombra contratación y negociación, pero no el caso de negocio ni el procedimiento público."
+  ],
+  [
+   "2026-09-25",
+   "Dictamen de suficiencia de E5: 6 S y 1 P (E5-06: una sola fuente ocupacional y sin norma; la frecuencia de 37 de 45 no cita la muestra). Global: P.",
+   "Muestra de 45 avisos de LinkedIn (≥ 30): E3 se cumple en todas, aunque varias frecuencias se remiten a un solo aviso. Las tendencias del PMI se apoyan en fuentes secundarias verificadas. E5 y E7 son de programa: el global nunca es S."
+  ]
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "rol": "P4",
+ "perfil": "Empleador del sector",
+ "calificaciones": {
+  "SIS-01": {"E": 4, "comentario": "Es lo que contrato el día uno: programar, probar y desplegar en producción. Sin esto el título no me sirve; es la base de todo puesto junior.", "fuente": "[E-L10][E-L11]"},
+  "SIS-02": {"E": 3, "comentario": "Es el perfil que más me cuesta cubrir, pero no todo egresado será científico de datos; sí exijo fundamentos sólidos de datos y modelos para crecer ahí.", "fuente": "[E-L9][E-L7]"},
+  "SIS-03": {"E": 4, "comentario": "En banca y retail el regulador me obliga y no encuentro gente; todo ingeniero que contrato debe desarrollar y operar con seguridad desde el diseño.", "fuente": "[E-B7][E-L9]"},
+  "SIS-04": {"E": 4, "comentario": "Todo lo que construimos corre en nube con pipelines; un junior sin contenedores, CI/CD y observabilidad me cuesta seis meses de entrenamiento.", "fuente": "[E-B8][E-L7]"},
+  "SIS-05": {"E": 3, "comentario": "No lo pido el día uno, pero al tercer año espero que lidere entregas y opere servicios con acuerdos de nivel; es la ruta a jefatura.", "fuente": "[E-L11][E-B14]"},
+  "SIS-06": {"E": 2, "comentario": "Arquitecto empresarial es un cargo senior con diez años encima; al egresado le pido entender la estrategia, no trazar la hoja de ruta.", "fuente": "criterio del rol"},
+  "SIS-07": {"E": 2, "comentario": "Lo cubro con el mismo pool de desarrolladores; un buen backend aprende móvil en meses. No abro vacantes separadas de móvil.", "fuente": "[E-B15]"},
+  "SIS-08": {"E": 2, "comentario": "SAP lo contrato a consultoras o formo internamente; al egresado le exijo entender procesos financieros y logísticos, no configurar módulos.", "fuente": "[E-B9]"},
+  "SIS-09": {"E": 3, "comentario": "Sigo contratando analistas funcionales en volumen; traducir negocio a requisitos y casos de aceptación es esencial aunque la IA documente.", "fuente": "[E-B15][E-B9]"},
+  "SIS-10": {"E": 3, "comentario": "Ya no contrato testers manuales; exijo que cada desarrollador automatice pruebas y certifique versiones. Esencial como capacidad, no como puesto aparte.", "fuente": "[E-B9]"},
+  "SIS-11": {"E": 2, "comentario": "La red la tercerizo al operador o integrador; el ingeniero debe entender conectividad y seguridad perimetral, no diseñar ni operar la red.", "fuente": "criterio del rol"},
+  "SIS-12": {"E": 2, "comentario": "En banca la necesito, pero contrato auditores certificados con experiencia; no es perfil de egreso. Útil que conozca controles y marcos.", "fuente": "[E-B5]"},
+  "SIS-13": {"E": 2, "comentario": "El Oficial de Datos suele ser legal o cumplimiento; al ingeniero le pido implementar los controles y saber la norma, no liderar el programa.", "fuente": "criterio del rol"},
+  "SIS-14": {"E": 3, "comentario": "Retail y banca deciden con tableros; un junior de BI produce valor la primera semana. Es la puerta de entrada al equipo de datos.", "fuente": "[E-B12][E-L11]"},
+  "SIS-15": {"E": 1, "comentario": "En banca, retail y consultoría no he abierto ninguna vacante IoT; es de minería e industria. No es perfil de egreso para mis sectores.", "fuente": "criterio del rol"},
+  "SIS-16": {"E": 1, "comentario": "Nunca he contratado un perfil blockchain ni conozco par que lo haga; no existe el puesto en el mercado peruano.", "fuente": "[E]"},
+  "SIS-17": {"E": 2, "comentario": "El DBA operativo lo absorbió la nube gestionada; sí exijo SQL y modelado de datos, pero eso vive en desarrollo y datos, no como especialidad.", "fuente": "[E-L2]"},
+  "SIS-18": {"E": 2, "comentario": "Para UX contrato diseñadores, no ingenieros; al ingeniero le pido trabajar con el diseñador y respetar el sistema de diseño.", "fuente": "[E-B12]"},
+  "SIS-19": {"E": 1, "comentario": "Es puesto técnico con sueldo base S/ 1 200; no contrato ingenieros para mesa de ayuda y la estoy automatizando.", "fuente": "[E-B1]"}
+ },
+ "faltan": [
+  "Ingeniería de datos (pipelines, integración, calidad y gobierno del dato): es el perfil que más me cuesta cubrir y queda partido entre SIS-02, SIS-14 y SIS-17",
+  "Integración de sistemas y APIs (core bancario, pasarelas, middleware): puesto real en banca y retail que ninguna especialidad nombra"
+ ],
+ "integrar": [
+  "SIS-14 con SIS-02: contrato un solo equipo de datos donde el analista de BI crece a científico o ingeniero de datos",
+  "SIS-01 con SIS-07 y SIS-10: el puesto de desarrollador ya incluye móvil y pruebas automatizadas; no abro vacantes separadas",
+  "SIS-17 con SIS-04: la administración de bases de datos vive hoy en el equipo de plataforma y nube",
+  "SIS-13 con SIS-03: seguridad y protección de datos responden al mismo oficial de seguridad y cumplimiento"
+ ],
+ "noPuesto": [
+  "SIS-19 Soporte técnico: puesto técnico, no de ingeniero, y en automatización",
+  "SIS-16 Blockchain: no existe vacante con ese nombre en mi mercado",
+  "SIS-13 Protección de datos: es función de cumplimiento legal, no un puesto de ingeniería",
+  "SIS-06 Arquitectura empresarial: es un cargo senior de carrera, no una especialidad de egreso"
+ ]
+}

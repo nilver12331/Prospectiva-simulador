@@ -1,0 +1,121 @@
+{
+ "cod": "SIS",
+ "fecha": "24-09-2026",
+ "mapa": [
+  {
+   "alias": "Ingeniería de software",
+   "plan": "Ingeniería de software",
+   "situacion": "Coinciden en proceso, difieren en capacidades",
+   "dec": "reformular",
+   "defFinal": "Construir soluciones de software que una organización usa en sus operaciones, analizando las necesidades del negocio, diseñando la arquitectura, programando los componentes de backend, frontend e integración, verificando con pruebas automatizadas y revisión de código, y desplegando en producción; en equipos de desarrollo o fábricas de software que trabajan con repositorios, integración continua, metodologías ágiles y estándares de calidad y seguridad, para entregar sistemas confiables y mantenibles que respondan a los requerimientos del negocio.",
+   "gat": "Gatillo 6: «Ingeniería de requerimientos» e «Ingeniería de la información» comparten definición literal; se fusionan y su definición, con dos procesos, se desdobla en Analizar y Diseñar. Gatillo 5: falta el despliegue y mantenimiento en producción. Gatillo 1: título y capacidades nombran disciplina y temas, no el proceso; el propósito vigente es controlar calidad, no entregar el sistema.",
+   "antes": "Competencia 1: «Gestiona y desarrolla software de manera eficiente y efectiva, basándose en estándares internacionales de calidad a fin de lograr el control y aseguramiento de la calidad según el contexto de la organización»; cuatro capacidades nombradas por tema.",
+   "caps": [
+    {"n": "Análisis y especificación de requisitos", "e": "reformulada", "de": "Ingeniería de requerimientos"},
+    {"n": "Diseño de la arquitectura de la solución", "e": "reformulada", "de": "Ingeniería de la información"},
+    {"n": "Construcción e integración de los componentes de software", "e": "reformulada", "de": "Programación"},
+    {"n": "Verificación de la calidad del software", "e": "reformulada", "de": "Calidad de software"},
+    {"n": "Despliegue y mantenimiento en producción", "e": "añadida", "de": ""}
+   ],
+   "noContinuan": []
+  },
+  {
+   "alias": "Plataforma e infraestructura",
+   "plan": "Gestión de la infraestructura tecnológica",
+   "situacion": "Coinciden en proceso, difieren en capacidades",
+   "dec": "reformular",
+   "defFinal": "Diseñar, automatizar y operar la plataforma tecnológica sobre la que corren los sistemas de una organización —infraestructura en la nube, contenedores, pipelines, redes y comunicaciones—, aprovisionándola como código, monitoreándola con observabilidad y asegurando su disponibilidad, seguridad perimetral y costo, en entornos locales, híbridos, multinube y de servicios gestionados, para que las aplicaciones y las comunicaciones de la organización operen de forma continua, escalable y eficiente.",
+   "gat": "Gatillo 2: la vigente agrupa dos procesos con evidencias distintas —plataforma operando e informe de riesgos con plan de respuesta—; se desdobla y la seguridad pasa a competencia propia. Gatillo 1: la definición repite el título y las capacidades nombran objetos (red, centro de datos), no fases. Gatillo 5: faltan aprovisionamiento como código, observabilidad y optimización de rendimiento y costos.",
+   "antes": "Competencia 2: «Gestión de la infraestructura tecnológica» (la definición repite el título); tres capacidades por objeto: conectividad de datos (red), gestión de la seguridad de la información y centro de datos, cada una con ciclo diseña–implementa–controla.",
+   "caps": [
+    {"n": "Diseño de la arquitectura de la plataforma", "e": "reformulada", "de": "Conectividad de datos · Implementa centro de datos (tramo «diseña»)"},
+    {"n": "Aprovisionamiento y automatización de la infraestructura", "e": "reformulada", "de": "Conectividad de datos · Implementa centro de datos (tramo «implementa / desarrolla»)"},
+    {"n": "Operación y soporte de la infraestructura", "e": "reformulada", "de": "Conectividad de datos · Implementa centro de datos (tramo «controla»)"},
+    {"n": "Observabilidad y aseguramiento de la disponibilidad", "e": "añadida", "de": ""},
+    {"n": "Optimización del rendimiento y de los costos", "e": "añadida", "de": ""}
+   ],
+   "noContinuan": [
+    {"cap": "Gestión de la seguridad de la información", "destino": "redistribuida a Ciberseguridad · Diseño e implantación de controles de seguridad", "motivo": "Proceso distinto con evidencia propia; el campo lo contrata como competencia sostenida por dos especialidades del 1.1 (gatillo 2)."}
+   ]
+  },
+  {
+   "alias": "Datos e inteligencia artificial",
+   "plan": "Ciencia de datos e inteligencia artificial",
+   "situacion": "Coinciden en proceso, difieren en capacidades",
+   "dec": "reformular",
+   "defFinal": "Construir soluciones que convierten los datos de una organización en decisiones y en modelos que aprenden, gobernando e integrando el dato, modelando, entrenando y evaluando modelos descriptivos, predictivos o de inteligencia artificial, e implantándolos en producción con monitoreo y tableros de decisión, bajo principios de calidad del dato, ética algorítmica y protección de datos, en empresas, consultoras y equipos remotos, para que las decisiones de gerencia y los procesos automatizados se sustenten en evidencia confiable.",
+   "gat": "Gatillo 6: «Analista de negocios» y «Requerimiento de inteligencia» comparten definición literal; se fusionan en la formulación del problema dentro de Modelar. Gatillo 1: título y capacidades nombran disciplina y roles, no fases; «sistemas inteligentes» deja fuera la analítica descriptiva. Gatillo 5: faltan la evaluación de validez y ética del modelo y su implantación con monitoreo.",
+   "antes": "Competencia 3: «Diseña y gestiona sistemas inteligentes basándose en metodologías, estándares y herramientas a fin de lograr estrategias de mejora para la organización»; cinco capacidades nombradas por rol, dos con definición idéntica.",
+   "caps": [
+    {"n": "Gobierno e integración del dato", "e": "reformulada", "de": "Ingeniería de datos"},
+    {"n": "Modelado analítico y entrenamiento de algoritmos", "e": "reformulada", "de": "Científico de datos"},
+    {"n": "Evaluación de la validez y la ética del modelo", "e": "añadida", "de": ""},
+    {"n": "Implantación y monitoreo en producción", "e": "añadida", "de": ""},
+    {"n": "Comunicación de resultados para la toma de decisiones", "e": "reformulada", "de": "Analista de datos"}
+   ],
+   "noContinuan": [
+    {"cap": "Analista de negocios", "destino": "fusionada en Modelado analítico y entrenamiento de algoritmos", "motivo": "Definir requerimientos del sistema inteligente es formular el problema de negocio como problema analítico: tramo inicial de Modelar, sin evidencia propia."},
+    {"cap": "Requerimiento de inteligencia", "destino": "fusionada en Modelado analítico y entrenamiento de algoritmos", "motivo": "Definición literal idéntica a «Analista de negocios» (gatillo 6); misma evidencia, se fusionan y siguen el mismo destino."}
+   ]
+  },
+  {
+   "alias": "Ciberseguridad",
+   "plan": null,
+   "situacion": "Solo en la derivada",
+   "dec": "nueva",
+   "defFinal": "Gestionar la seguridad de la información y de los sistemas de una organización a lo largo del ciclo evaluar el riesgo, proteger, detectar, responder y recuperar, aplicando análisis de riesgos, pruebas de penetración, controles técnicos y de identidad, monitoreo, respuesta a incidentes, forense y continuidad, conforme a marcos y normas de seguridad y de protección de datos personales, en banca, fintech, telecomunicaciones, Estado y servicios gestionados, para proteger la información, sostener la operación y garantizar el cumplimiento ante reguladores y autoridad.",
+   "gat": "Solo en la derivada. Gatillo 2 sobre la Competencia 2: la seguridad es un proceso distinto —evaluar, proteger, detectar, responder, recuperar— con evidencia propia (informe de riesgos y plan de respuesta), sostenido por dos especialidades del 1.1: Ciberseguridad y gestión de riesgos digitales, y Protección de datos personales. El plan lo reducía a diseñar un SGSI.",
+   "antes": "El plan no tiene competencia de seguridad: la trata como capacidad de la Competencia 2 —«Diseña y desarrolla sistemas de gestión de seguridad de la información… a fin de lograr el aseguramiento de la información de la organización»—.",
+   "caps": [
+    {"n": "Evaluación de riesgos y vulnerabilidades", "e": "añadida", "de": ""},
+    {"n": "Diseño e implantación de controles de seguridad", "e": "reformulada", "de": "Gestión de la seguridad de la información (Competencia 2 · redistribuida)"},
+    {"n": "Monitoreo y detección de amenazas", "e": "añadida", "de": ""},
+    {"n": "Respuesta a incidentes y análisis forense", "e": "añadida", "de": ""},
+    {"n": "Continuidad, cumplimiento y auditoría de la seguridad", "e": "añadida", "de": ""}
+   ],
+   "noContinuan": []
+  },
+  {
+   "alias": "Gobierno y gestión de TI",
+   "plan": null,
+   "situacion": "Solo en la derivada",
+   "dec": "nueva",
+   "defFinal": "Dirigir la tecnología de una organización desde la estrategia hasta el servicio, alineando la hoja de ruta tecnológica con la estrategia del negocio, planificando y dirigiendo proyectos con equipos y proveedores, operando los servicios bajo acuerdos de nivel y evaluando los controles y riesgos de TI ante la dirección y el comité de auditoría, con marcos de gestión de proyectos, de servicios y de gobierno de TI, en empresas, Estado y consultoras, para que la inversión tecnológica genere valor, cumpla sus compromisos y se gobierne con control.",
+   "gat": "Solo en la derivada: ninguna competencia vigente dirige proyectos, servicios ni gobierno de TI; el plan solo alude a «gestiona» en software y a «controla los servicios» del centro de datos. La contratan tres especialidades del 1.1: Gestión de proyectos y servicios de TI, Arquitectura empresarial y transformación digital, y Auditoría de sistemas y gobierno de TI.",
+   "antes": "",
+   "caps": [
+    {"n": "Alineamiento de la tecnología con la estrategia organizacional", "e": "añadida", "de": ""},
+    {"n": "Planificación de proyectos tecnológicos", "e": "añadida", "de": ""},
+    {"n": "Dirección, control y entrega de proyectos tecnológicos", "e": "añadida", "de": ""},
+    {"n": "Operación de los servicios de tecnología de la información", "e": "añadida", "de": ""},
+    {"n": "Auditoría de controles y riesgos de tecnología de la información", "e": "añadida", "de": ""}
+   ],
+   "noContinuan": []
+  }
+ ],
+ "traza": [
+  {
+   "p": "Competencia 1 · Ingeniería de software",
+   "d": "se reformula",
+   "n": "Desarrollo de soluciones de software",
+   "c": "Título y definición por proceso; las dos capacidades con definición idéntica se fusionan y desdoblan en Analizar y Diseñar; se añade Despliegue y mantenimiento.",
+   "s": "Gatillos 1, 5 y 6; la sostienen Desarrollo de software (competencia) y Análisis funcional (capacidad Analizar); evidencia: software en producción."
+  },
+  {
+   "p": "Competencia 2 · Gestión de la infraestructura tecnológica",
+   "d": "se desdobla",
+   "n": "Diseño y operación de la infraestructura tecnológica · Gestión de la seguridad de la información y de los riesgos digitales",
+   "c": "Seguridad sale como competencia propia; red y centro de datos se reorganizan por fase diseñar–optimizar; se añaden automatización, observabilidad y optimización.",
+   "s": "Gatillos 2, 1 y 5; dos evidencias distintas; la sostienen Infraestructura nube y DevOps, Redes, Ciberseguridad y Protección de datos personales."
+  },
+  {
+   "p": "Competencia 3 · Ciencia de datos e inteligencia artificial",
+   "d": "se reformula",
+   "n": "Desarrollo de soluciones de analítica e inteligencia artificial",
+   "c": "Capacidades por rol pasan a fases del ciclo; Analista de negocios y Requerimiento de inteligencia se fusionan en Modelar; se añaden Evaluar e Implantar.",
+   "s": "Gatillos 1, 5 y 6; la sostienen Ciencia de datos e IA (competencia) e Inteligencia de negocios (ámbito); evidencia: modelo en producción con tablero."
+  }
+ ],
+ "fuera": [],
+ "resumen": "Dirección: abrí el plan y lo contrasté con las cinco competencias derivadas. Ninguna competencia vigente se conserva literal: sus definiciones nombran disciplinas u objetos y no el proceso, y dos pares de capacidades repiten la misma definición. Dos se reformulan —Ingeniería de software y Ciencia de datos e inteligencia artificial—, una se desdobla —Gestión de la infraestructura tecnológica, que separa la seguridad como competencia propia— y dos nacen: Ciberseguridad, que el plan trataba como capacidad, y Gobierno y gestión de TI, que el plan no recogía. Ninguna competencia ni capacidad vigente desaparece: las doce capacidades del plan continúan reformuladas, fusionadas o redistribuidas."
+}

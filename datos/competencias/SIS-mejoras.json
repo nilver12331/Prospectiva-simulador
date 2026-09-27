@@ -1,0 +1,166 @@
+{
+ "cod": "SIS",
+ "fecha": "24-09-2026",
+ "mejoras": [
+  {
+   "alias": "Ingeniería de software",
+   "def": "Desarrolla soluciones de software que una organización utiliza en sus operaciones, analizando las necesidades del negocio, diseñando la arquitectura, programando los componentes de backend, frontend e integración, verificándolos mediante pruebas automatizadas y revisión de código, y desplegándolos en producción. Ejerce esta labor en equipos de desarrollo o fábricas de software que trabajan con repositorios versionados, integración continua, metodologías ágiles y estándares de calidad y seguridad, con el propósito de entregar sistemas confiables y mantenibles que respondan a los requerimientos del negocio. Demuestra la competencia con software desplegado en producción, acompañado de su repositorio de código, sus pruebas automatizadas, su pipeline de despliegue y su documentación técnica, y aceptado por el usuario.",
+   "caps": [
+    {
+     "a": "Analizar",
+     "n": "Análisis y especificación de requisitos",
+     "d": "Capacidad de relevar las necesidades del negocio y traducirlas en requisitos y especificaciones verificables, modelando procesos y casos de uso junto con los usuarios y las áreas funcionales. Se ejerce en contextos de cambio organizacional, donde las prioridades y los procesos se redefinen con frecuencia y exigen revisar la especificación. Moviliza técnicas de elicitación, modelado de procesos y de casos de uso, escucha activa, rigor en la formulación y comunicación clara con áreas no técnicas."
+    },
+    {
+     "a": "Diseñar",
+     "n": "Diseño de la arquitectura de la solución",
+     "d": "Capacidad de diseñar la arquitectura, los modelos de datos y las interfaces de una solución a partir de los requisitos especificados, eligiendo patrones y tecnologías que respondan a las restricciones de escala, costo y seguridad de cada proyecto. Se adapta a organizaciones con distintos niveles de madurez tecnológica y a sistemas nuevos o heredados. Moviliza patrones de diseño, bases de datos, arquitectura de software, criterio técnico fundamentado y responsabilidad por las decisiones que condicionan la construcción."
+    },
+    {
+     "a": "Construir",
+     "n": "Construcción e integración de los componentes de software",
+     "d": "Capacidad de programar los componentes de backend, frontend e integración de APIs conforme al diseño aprobado, trabajando en repositorios versionados con revisión de código y entrega incremental. Se adapta a distintos lenguajes, marcos de trabajo y convenciones propias de cada equipo o fábrica de software. Moviliza dominio de la programación, estructuras de datos y algoritmos, estándares de codificación, disciplina en el trabajo diario y colaboración con los demás miembros del equipo de desarrollo."
+    },
+    {
+     "a": "Verificar",
+     "n": "Verificación de la calidad del software",
+     "d": "Capacidad de verificar que el software cumple los requisitos y los estándares de calidad establecidos, mediante pruebas unitarias, de integración y de aceptación automatizadas, complementadas con revisión de código entre pares. Se ejerce en ciclos de entrega continua, donde cada cambio debe validarse sin frenar el ritmo del equipo. Moviliza técnicas de prueba, análisis de defectos y de su causa raíz, pensamiento crítico, meticulosidad y compromiso sostenido con la calidad del producto."
+    },
+    {
+     "a": "Desplegar",
+     "n": "Despliegue y mantenimiento en producción",
+     "d": "Capacidad de liberar el software en producción mediante pipelines de integración y despliegue continuo, documentarlo técnicamente y mantenerlo de forma evolutiva frente a fallos y nuevos requerimientos del negocio. Se adapta a entornos de nube o locales y a las distintas políticas de liberación de cada organización. Moviliza conocimientos de CI/CD, control de versiones, documentación técnica, responsabilidad operativa por lo que está en producción y orientación al usuario que depende del sistema."
+    }
+   ],
+   "nota": "Reescribí la definición en registro académico y en tercera persona, eliminé las rayas y enlacé las oraciones; ahora nombra explícitamente la evidencia. Amplié cada capacidad con su contexto y sus saberes movilizados, sin cambiar la estructura ni el número de capacidades."
+  },
+  {
+   "alias": "Plataforma e infraestructura",
+   "def": "Diseña, automatiza y opera la plataforma tecnológica sobre la que corren los sistemas de una organización, integrada por infraestructura en la nube, contenedores, pipelines, redes y comunicaciones, aprovisionándola como código, monitoreándola con prácticas de observabilidad y asegurando su disponibilidad, su seguridad perimetral y su costo. Ejerce esta labor en entornos locales, híbridos, multinube y de servicios gestionados, con el propósito de que las aplicaciones y las comunicaciones de la organización operen de forma continua, escalable y eficiente. Demuestra la competencia con una plataforma en operación, respaldada por su infraestructura como código o configuración documentada, sus pipelines de despliegue, su tablero de observabilidad y sus indicadores de disponibilidad y costo.",
+   "caps": [
+    {
+     "a": "Diseñar",
+     "n": "Diseño de la arquitectura de la plataforma",
+     "d": "Capacidad de diseñar la arquitectura de la plataforma, que comprende servicios en la nube, contenedores, topología de red y comunicaciones, dimensionándola según la carga esperada, la disponibilidad requerida, la seguridad y el costo. Se adapta a escenarios locales, híbridos o multinube y a organizaciones con distintos grados de madurez tecnológica. Moviliza arquitectura cloud, redes y protocolos de comunicación, criterio de diseño fundamentado y responsabilidad por la continuidad del negocio que depende de la plataforma."
+    },
+    {
+     "a": "Automatizar",
+     "n": "Aprovisionamiento y automatización de la infraestructura",
+     "d": "Capacidad de aprovisionar y configurar la plataforma mediante infraestructura como código, contenedores, pipelines de integración y despliegue, y configuración de equipos de red, de forma reproducible, versionada y auditable. Se adapta a distintos proveedores de nube y de red, y a equipos que migran de la configuración manual a la automatizada. Moviliza herramientas de automatización, scripting, control de versiones, rigor en la definición de la configuración y orientación a la reproducibilidad de los entornos."
+    },
+    {
+     "a": "Operar",
+     "n": "Operación y soporte de la infraestructura",
+     "d": "Capacidad de operar la plataforma en el día a día, atendiendo respaldos, soporte, gestión de cambios, incidentes y capacidad, con procedimientos documentados y acuerdos de nivel de servicio. Se ejerce en contextos de operación continua, donde la interrupción del servicio afecta directamente a la organización y a sus usuarios. Moviliza administración de sistemas y redes, procedimientos operativos, disciplina en la ejecución, atención permanente a la continuidad y vocación de servicio al usuario."
+    },
+    {
+     "a": "Observar",
+     "n": "Observabilidad y aseguramiento de la disponibilidad",
+     "d": "Capacidad de instrumentar la plataforma con monitoreo, registros, trazas y alertas, medir su disponibilidad y rendimiento, y proteger su perímetro frente a accesos no autorizados, anticipando fallos antes de que afecten al servicio. Se adapta a entornos distribuidos y a arquitecturas que crecen en componentes y dependencias. Moviliza observabilidad, seguridad perimetral, análisis de métricas y registros, vigilancia proactiva y responsabilidad por la disponibilidad del servicio ante la organización."
+    },
+    {
+     "a": "Optimizar",
+     "n": "Optimización del rendimiento y de los costos",
+     "d": "Capacidad de analizar el uso real de la plataforma y optimizar su rendimiento, su escalabilidad y su costo mediante prácticas de FinOps, ajuste de recursos y mejora de la arquitectura, con base en evidencia de operación. Se ejerce en organizaciones con presupuesto restringido, donde cada recurso debe justificarse. Moviliza análisis de costos, ingeniería de rendimiento, pensamiento económico, mejora continua y transparencia ante la dirección sobre el gasto tecnológico y sus resultados."
+    }
+   ],
+   "nota": "Reescribí la definición en tercera persona y registro académico, convertí los incisos entre rayas en enumeraciones y nombré la evidencia con que se demuestra. Extendí cada capacidad con su contexto y sus saberes, conservando la estructura y las cinco capacidades."
+  },
+  {
+   "alias": "Datos e inteligencia artificial",
+   "def": "Construye soluciones que convierten los datos de una organización en decisiones y en modelos que aprenden, gobernando e integrando el dato, formulando, entrenando y evaluando modelos descriptivos, predictivos o de inteligencia artificial, e implantándolos en producción con monitoreo y tableros de decisión. Ejerce esta labor bajo principios de calidad del dato, ética algorítmica y protección de datos, en empresas, consultoras y equipos remotos, con el propósito de que las decisiones de la gerencia y los procesos automatizados se sustenten en evidencia confiable. Demuestra la competencia con un modelo analítico o de inteligencia artificial en producción, acompañado de su modelo de datos documentado, su informe de evaluación y su tablero de decisión en uso por la gerencia.",
+   "caps": [
+    {
+     "a": "Gobernar",
+     "n": "Gobierno e integración del dato",
+     "d": "Capacidad de ingerir, integrar y modelar los datos de la organización, asegurando su calidad, su linaje, su seguridad y su gobierno mediante pipelines de extracción, transformación y carga sobre fuentes heterogéneas. Se adapta a organizaciones con datos dispersos, sistemas heredados y distintos niveles de madurez en su gestión. Moviliza bases de datos, modelado dimensional, arquitectura de datos, rigor en la validación, ética en el tratamiento de la información y responsabilidad sobre su protección."
+    },
+    {
+     "a": "Modelar",
+     "n": "Modelado analítico y entrenamiento de algoritmos",
+     "d": "Capacidad de formular un problema de negocio como problema analítico y construir modelos estadísticos, de aprendizaje automático o de inteligencia artificial generativa, entrenándolos y ajustándolos con datos reales de la organización. Se adapta a distintos dominios de negocio y a la disponibilidad variable de datos y de capacidad de cómputo. Moviliza matemática, estadística, algoritmos de aprendizaje, programación científica, curiosidad para explorar alternativas y pensamiento crítico frente a los resultados obtenidos."
+    },
+    {
+     "a": "Evaluar",
+     "n": "Evaluación de la validez y la ética del modelo",
+     "d": "Capacidad de evaluar el desempeño, la robustez, el sesgo y el impacto ético de un modelo con métricas y pruebas adecuadas al problema, antes y después de implantarlo en producción. Se ejerce en contextos regulados, donde una decisión automatizada puede afectar derechos de las personas y debe poder explicarse. Moviliza estadística inferencial, diseño experimental, ética algorítmica, honestidad intelectual para reconocer limitaciones y responsabilidad por las consecuencias de la decisión."
+    },
+    {
+     "a": "Implantar",
+     "n": "Implantación y monitoreo en producción",
+     "d": "Capacidad de poner el modelo en producción como servicio o proceso automatizado, con prácticas de MLOps, versionado, monitoreo de deriva y reentrenamiento, integrándolo con los sistemas que la organización ya utiliza. Se adapta a arquitecturas en la nube o locales y a equipos con distinta madurez operativa. Moviliza ingeniería de software, contenedores y pipelines, automatización, disciplina operativa y compromiso con la continuidad del servicio que depende del modelo."
+    },
+    {
+     "a": "Comunicar",
+     "n": "Comunicación de resultados para la toma de decisiones",
+     "d": "Capacidad de construir tableros de indicadores, visualizaciones y narrativas que traduzcan los resultados analíticos en decisiones de gerencia, adaptando el mensaje a públicos no técnicos y a distintos niveles de la organización. Se ejerce ante directivos que deben decidir con tiempo limitado e información incompleta. Moviliza diseño de visualizaciones, definición de indicadores, análisis descriptivo, claridad expositiva, empatía con quien decide y transparencia sobre las limitaciones del análisis presentado."
+    }
+   ],
+   "nota": "Reescribí la definición con registro académico, en tercera persona y con oraciones enlazadas, y ahora nombra la evidencia: modelo en producción, informe y tablero. Amplié cada capacidad con contexto y saberes movilizados, sin alterar la estructura ni el número de capacidades."
+  },
+  {
+   "alias": "Ciberseguridad",
+   "def": "Gestiona la seguridad de la información y de los sistemas de una organización a lo largo del ciclo de evaluar el riesgo, proteger, detectar, responder y recuperar, aplicando análisis de riesgos, pruebas de penetración, controles técnicos y de identidad, monitoreo, respuesta a incidentes, análisis forense y continuidad. Ejerce esta labor conforme a marcos y normas de seguridad y de protección de datos personales, en banca, fintech, telecomunicaciones, Estado y servicios gestionados, con el propósito de proteger la información, sostener la operación y garantizar el cumplimiento ante reguladores y autoridad. Demuestra la competencia con un informe de riesgos y su plan de tratamiento, un plan de respuesta a incidentes aprobado por la organización, el registro de incidentes gestionados y los reportes de cumplimiento presentados a la autoridad.",
+   "caps": [
+    {
+     "a": "Evaluar",
+     "n": "Evaluación de riesgos y vulnerabilidades",
+     "d": "Capacidad de identificar los activos y tratamientos de información, analizar amenazas, vulnerabilidades y riesgos mediante metodologías de riesgo, escaneos y pruebas de penetración, y priorizar su tratamiento según impacto y probabilidad. Se adapta a organizaciones de distinto tamaño y sector, con diferentes exigencias regulatorias. Moviliza marcos de gestión de riesgos, hacking ético, normativa aplicable, pensamiento adversarial, objetividad en la valoración y confidencialidad sobre lo que descubre."
+    },
+    {
+     "a": "Proteger",
+     "n": "Diseño e implantación de controles de seguridad",
+     "d": "Capacidad de diseñar e implantar políticas y controles técnicos, de identidad y organizacionales, incluida la concientización del personal, que reduzcan el riesgo a un nivel aceptable para la organización. Se adapta al presupuesto disponible y a la regulación aplicable en cada sector, priorizando los controles de mayor efecto. Moviliza arquitectura de seguridad, gestión de identidades y accesos, criptografía, normativa, rigor en la implantación y responsabilidad ante la organización que confía en esos controles."
+    },
+    {
+     "a": "Detectar",
+     "n": "Monitoreo y detección de amenazas",
+     "d": "Capacidad de monitorear la infraestructura y los sistemas desde un centro de operaciones de seguridad, correlacionar eventos y detectar incidentes y brechas de datos de forma temprana, antes de que escalen. Se ejerce en operación continua, con alto volumen de alertas y presión por reducir el tiempo de detección. Moviliza herramientas de monitoreo, inteligencia de amenazas, análisis de registros, vigilancia sostenida y capacidad de discriminar las señales relevantes del ruido."
+    },
+    {
+     "a": "Responder",
+     "n": "Respuesta a incidentes y análisis forense",
+     "d": "Capacidad de contener, erradicar y analizar forensemente un incidente de seguridad o una brecha de datos, coordinar la comunicación interna y notificar a los afectados y a la autoridad dentro de los plazos legales. Se ejerce bajo presión, con información incompleta y con la operación afectada. Moviliza respuesta a incidentes, forense digital, normativa de notificación, serenidad para decidir en crisis, ética en el manejo de la evidencia y trabajo coordinado con otras áreas."
+    },
+    {
+     "a": "Recuperar",
+     "n": "Continuidad, cumplimiento y auditoría de la seguridad",
+     "d": "Capacidad de restaurar la operación tras un incidente, mantener y probar periódicamente los planes de continuidad, y sostener el cumplimiento del programa de seguridad y de protección de datos personales mediante auditorías y reportes al regulador. Se ejerce en organizaciones supervisadas, donde el incumplimiento acarrea sanciones. Moviliza gestión de la continuidad, normativa, auditoría, mejora continua a partir de las lecciones del incidente, responsabilidad y transparencia frente a la dirección y la autoridad."
+    }
+   ],
+   "nota": "Reescribí la definición en tercera persona, con registro académico y sin rayas, enlazando el ciclo, el contexto y el propósito, y nombrando la evidencia. Amplié cada capacidad con su contexto y sus saberes, sin modificar la estructura ni las cinco capacidades."
+  },
+  {
+   "alias": "Gobierno y gestión de TI",
+   "def": "Dirige la tecnología de una organización desde la estrategia hasta el servicio, alineando la hoja de ruta tecnológica con la estrategia del negocio, planificando y dirigiendo proyectos con equipos y proveedores, operando los servicios bajo acuerdos de nivel y evaluando los controles y riesgos de TI ante la dirección y el comité de auditoría. Ejerce esta labor con marcos de gestión de proyectos, de servicios y de gobierno de TI, en empresas, Estado y consultoras, para que la inversión tecnológica genere valor, cumpla sus compromisos y se gobierne con control. Demuestra la competencia con un expediente de gestión de TI que reúne el proyecto entregado con su acta de cierre, el catálogo de servicios bajo acuerdos de nivel, la hoja de ruta aprobada y el informe de evaluación de controles.",
+   "caps": [
+    {
+     "a": "Alinear",
+     "n": "Alineamiento de la tecnología con la estrategia organizacional",
+     "d": "Capacidad de diagnosticar la madurez digital de la organización, alinear la tecnología con su estrategia, diseñar la arquitectura objetivo y priorizar el portafolio en una hoja de ruta con medición de valor. Se ejerce en organizaciones en transformación, donde conviven sistemas heredados, presiones de cambio y recursos limitados. Moviliza arquitectura empresarial, gestión del cambio, análisis financiero de inversiones, visión sistémica y comunicación efectiva con la alta dirección para sustentar las prioridades."
+    },
+    {
+     "a": "Planificar",
+     "n": "Planificación de proyectos tecnológicos",
+     "d": "Capacidad de definir el alcance, el cronograma, los recursos, los riesgos y los proveedores de un proyecto tecnológico, estimando con realismo y formalizando los acuerdos necesarios para su ejecución. Se adapta a enfoques predictivos o ágiles según el contexto, la cultura y la incertidumbre de cada organización. Moviliza marcos de gestión de proyectos, técnicas de estimación, contratación y negociación con proveedores, realismo en los compromisos, orden y respeto por lo pactado."
+    },
+    {
+     "a": "Dirigir",
+     "n": "Dirección, control y entrega de proyectos tecnológicos",
+     "d": "Capacidad de dirigir equipos y proveedores, gestionar los cambios de alcance, controlar el avance, el costo y la calidad, y entregar el proyecto con la aceptación formal del cliente. Se ejerce en entornos de incertidumbre, con conflictos de prioridad y dependencias externas que exigen decidir con información parcial. Moviliza liderazgo, gestión de equipos y de conflictos, control de proyectos, reporte oportuno a la dirección, responsabilidad por los resultados y orientación al logro."
+    },
+    {
+     "a": "Operar",
+     "n": "Operación de los servicios de tecnología de la información",
+     "d": "Capacidad de operar el catálogo de servicios tecnológicos bajo acuerdos de nivel, gestionando incidentes, cambios, problemas y mejora continua con marcos de gestión de servicios. Se ejerce en organizaciones que dependen de la tecnología para operar y donde cada interrupción tiene un costo para el negocio y para el usuario. Moviliza ITIL, medición y reporte de servicios, atención al usuario, disciplina operativa y orientación al servicio como valor central de la función tecnológica."
+    },
+    {
+     "a": "Evaluar",
+     "n": "Auditoría de controles y riesgos de tecnología de la información",
+     "d": "Capacidad de planificar y ejecutar auditorías de sistemas, evaluar los controles y riesgos de TI frente a marcos de gobierno y cumplimiento, reportar los hallazgos al comité de auditoría y hacer seguimiento a su remediación. Se ejerce con independencia respecto de las áreas auditadas, en organizaciones sujetas a supervisión interna o externa. Moviliza COBIT, técnicas de auditoría, normativa, objetividad, integridad, rigor probatorio y comunicación clara de los hallazgos a la dirección."
+    }
+   ],
+   "nota": "Reescribí la definición en tercera persona y registro académico, enlazando estrategia, proyecto, servicio y auditoría en oraciones fluidas, y nombrando el expediente como evidencia. Amplié cada capacidad con contexto y saberes, sin cambiar la estructura ni el número de capacidades."
+  }
+ ]
+}

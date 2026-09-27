@@ -1,0 +1,984 @@
+{
+ "rol": "X6",
+ "perfil": "Experto contextual · prospectiva laboral en salud y alimentación · normativa del MINSA, MIDIS, DIGESA y SENASA · transformación digital en salud (SIHCE, telesalud)",
+ "cod": "NUT",
+ "ronda": 1,
+ "funciones": {
+  "E1-01": {
+   "R": "Sí",
+   "donde": "Departamentos de nutrición de hospitales MINSA/EsSalud; NTS 103 y MAPRO HNHU; guía IETSI de desnutrición",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "No emite diagnóstico médico; en UCI y neonatos actúa con supervisión indirecta.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "La RM 553-2025 obliga el SIHCE solo en el primer nivel (MINSA y GORE), no en hospitales: no sostiene la trazabilidad hospitalaria del impacto. Citar la interoperabilidad hospitalaria o retirarla.",
+   "bloque": "S",
+   "fuente": "https://www.gob.pe/institucion/minsa/normas-legales/7098166-553-2025-minsa"
+  },
+  "E1-02": {
+   "R": "Sí",
+   "donde": "Hospitalización MINSA/EsSalud; MOF Cusco y Huacho; convocatorias CAS de hospitales",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "En diálisis, oncología y pediatría crítica, supervisión indirecta; ante conflicto prevalece la indicación médica.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Sustento sólido y normativo (Ley 30188, NTS 103). El impacto descansa en un solo ensayo (EFFORT 2019); añadir una tendencia peruana fechada.",
+   "bloque": "S"
+  },
+  "E1-03": {
+   "R": "Sí",
+   "donde": "Unidades de soporte nutricional de hospitales III; CAS Hospital General de Jaén",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "El médico indica la vía de acceso y los electrolitos; en parenteral participa solo como integrante del equipo.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "La brecha de 21 unidades es una nota periodística de 2020 sin registro oficial; buscar el dato en SUSALUD o RENIPRESS. Al egreso, el nivel realista es 2, no 3.",
+   "bloque": "S"
+  },
+  "E1-04": {
+   "R": "Sí",
+   "donde": "Hospitales con unidad central de producción (NTS 103); concesionarios hospitalarios",
+   "P": 3,
+   "E": "Útil",
+   "F": 4,
+   "C": 3,
+   "V": 2,
+   "L": 3,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [
+     "E1-04-T3"
+    ],
+    "corregir": [
+     {
+      "code": "E1-04-T1",
+      "t": "Especificar y actualizar los regímenes y niveles de textura del manual del servicio"
+     }
+    ]
+   },
+   "lim": "No planifica menús ni gestiona la producción o la inocuidad (E3).",
+   "S1": 3,
+   "S2": 2,
+   "P1": 3,
+   "P2": 3,
+   "P3": 3,
+   "com": "Se solapa con E3-04-T4 (armado y distribución de dietas por cama). Delimitar: aquí solo la especificación y la conformidad clínica. El impacto (IDDSI, ESPEN) no está fechado en el Perú.",
+   "bloque": "F"
+  },
+  "E1-05": {
+   "R": "Sí",
+   "donde": "Consulta externa y primer nivel; teleconsulta MINSA; RM 763-2022",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Deriva la enfermedad renal avanzada, los TCA y la diabetes descompensada.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Sustento verificado. Conviene citar la Ley 30421 de Telesalud y el SIHCE obligatorio en el primer nivel (RM 553-2025, 30/08/2025) como marco del seguimiento a distancia.",
+   "bloque": "S",
+   "fuente": "https://www.gob.pe/institucion/minsa/normas-legales/7098166-553-2025-minsa"
+  },
+  "E1-06": {
+   "R": "Sí",
+   "donde": "Consulta y primer nivel; RM 764-2022/MINSA (verificada en El Peruano)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Con fármacos antiobesidad o comorbilidad, acompaña bajo indicación médica.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "La OMS (01/12/2025) lo sostiene: proyecta que la obesidad se duplique al 2030 y sugiere intervenciones conductuales intensivas junto a los GLP-1 (recomendación condicional, certeza baja).",
+   "bloque": "S",
+   "fuente": "https://www.who.int/news/item/01-12-2025-who-issues-global-guideline-on-the-use-of-glp-1-medicines-in-treating-obesity"
+  },
+  "E1-07": {
+   "R": "Sí",
+   "donde": "Programas de cirugía bariátrica de EsSalud (Rebagliati) y clínicas privadas",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Solo dentro del equipo multidisciplinario; la suplementación y la indicación quirúrgica son médicas.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Demanda baja: 0 de 14 avisos y centros concentrados en Lima. Puede integrarse como tarea de E1-06 o quedar como electiva; al egreso, nivel 2.",
+   "bloque": "S"
+  },
+  "E1-08": {
+   "R": "Sí",
+   "donde": "Geriatría hospitalaria; CEAPAM (reglamento de la Ley 30490); NTS 207-2023",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "La evaluación instrumental de la deglución corresponde a otros; demencia avanzada y final de vida con supervisión.",
+   "S1": 3,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "El envejecimiento y la NTS 207 sostienen el crecimiento. El 14,6 % no es un indicador del informe de ENT de la ENDES; verificar la fuente del porcentaje de 60 y más años (proyecciones del INEI).",
+   "bloque": "S"
+  },
+  "E1-09": {
+   "R": "Sí",
+   "donde": "Hospitalización pediátrica (INSN-SB), CRED del primer nivel; NTS 213-2024",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Neonatología y UCIP con supervisión directa; el hierro según la NTS 213 y la indicación médica.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Sustento normativo correcto. Delimitar con E2-03 (consejería comunitaria) para no duplicar la anemia.",
+   "bloque": "S"
+  },
+  "E1-10": {
+   "R": "Sí",
+   "donde": "Consulta prenatal y primer nivel; RM 460-2015; NTS 213",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Gestación de alto riesgo y diabetes gestacional con el equipo obstétrico.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "El impacto repite las normas de la demanda sin una tendencia fechada nueva, y la RM 460-2015 tiene 11 años. Citar la tendencia de la anemia gestacional en la ENDES 2020-2024.",
+   "bloque": "S"
+  },
+  "E1-11": {
+   "R": "Sí",
+   "donde": "Altas hospitalarias; referencia y contrarreferencia (NT 018); Redes Integradas de Salud (Ley 30885)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [
+     "Registrar el plan nutricional de alta en la historia clínica electrónica y en el sistema de referencias"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Nutrición enteral domiciliaria con supervisión; el traslado lo decide el médico.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "0 de 14 avisos, y el dato de reingreso es danés (2024): falta evidencia peruana. Agregar una tarea de registro del plan de alta en la HCE interoperable y en Refcon.",
+   "bloque": "S"
+  },
+  "E1-12": {
+   "R": "Sí",
+   "donde": "Comités de calidad hospitalarios; RM 519-2006 (Sistema de Gestión de la Calidad en Salud)",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "No modifica protocolos ni aprueba planes correctivos.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 3,
+   "P3": 4,
+   "com": "Es más transversal que función propia; podría integrarse como tareas de E1-01 y E1-02. La RM 519-2006 es antigua y el impacto no trae una tendencia peruana fechada.",
+   "bloque": "F"
+  },
+  "E2-01": {
+   "R": "Sí",
+   "donde": "DIRESA y redes (CAS Cajamarca, Lima Este); SIEN del CENAN; NTS 213",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [
+     "Consolidar y validar los datos del padrón nominal y de los registros HIS y SIEN del territorio"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "La interpretación oficial y la notificación las valida el responsable del establecimiento o del programa.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Sostenido: la NTS 213 (RM 251-2024) está vigente en El Peruano y adopta los puntos de corte de la OMS 2024. Agregar la gestión del padrón nominal y de los registros HIS/SIEN, núcleo digital del trabajo local.",
+   "bloque": "S"
+  },
+  "E2-02": {
+   "R": "Sí",
+   "donde": "Gobiernos locales (TDR CAS Cerro Colorado 2025), ONG; PP 1001; DS 002-2024-SA",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Formula la propuesta técnica; la aprobación presupuestal y los compromisos los firma el funcionario competente.",
+   "S1": 3,
+   "S2": 4,
+   "P1": 4,
+   "P2": 3,
+   "P3": 4,
+   "com": "El DS 002-2024-SA (Plan Multisectorial 2024-2030) está verificado en El Peruano. El acta intersectorial como entregable aparte, con una sola tarea, es débil: integrarla al marco lógico.",
+   "bloque": "P"
+  },
+  "E2-03": {
+   "R": "Sí",
+   "donde": "Primer nivel, Cuna Más (acompañante técnico), ONG; NTS 213",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Los casos con enfermedad o anemia moderada o severa se derivan a la atención individual.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Los 13 avisos de Cuna Más admiten varias carreras y no prueban una demanda específica de nutricionistas. Aclararlo en el fundamento.",
+   "bloque": "S"
+  },
+  "E2-04": {
+   "R": "Sí",
+   "donde": "Centros de Promoción y Vigilancia Comunal; comités de alimentación escolar del PAE",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "El reconocimiento de agentes y la validación de módulos corresponden al establecimiento o al programa.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "El impacto cita la capacitación en quechua de Wasi Mikuna [20], programa extinguido (DS 006-2025-MIDIS, cierre el 31/12/2025). Reemplazarla por evidencia del PAE 2026, que mantiene los comités de alimentación escolar.",
+   "bloque": "S",
+   "fuente": "https://www.gob.pe/institucion/midis/normas-legales/6666332-006-2025-midis"
+  },
+  "E2-05": {
+   "R": "Sí",
+   "donde": "Programa de Alimentación Escolar (PAE) del MIDIS, en operación en 2026; CAS de monitores de gestión local",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "La unidad técnica del programa aprueba la programación; no audita plantas (E3).",
+   "S1": 3,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Dictamen: correcto. El DS 006-2025-MIDIS (13/04/2025) extinguió Wasi Mikuna y la cogestión, y el PAE opera en 2026 (4 187 782 estudiantes, 67 055 IE). Retirar los avisos de Wasi Mikuna de 2025 [31][40] como demanda vigente.",
+   "bloque": "S",
+   "fuente": "https://www.gob.pe/institucion/midis/noticias/1366300-midis-asegura-alimentacion-para-mas-de-4-1-millones-de-estudiantes-durante-el-2026"
+  },
+  "E2-06": {
+   "R": "Sí",
+   "donde": "Gerencias de desarrollo social municipales; Ley 31782 (Vaso de Leche), verificada",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Las compras y los actos administrativos corresponden al comité y a la gerencia municipal.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Solo 1 de 55 avisos: la demanda es normativa, no de mercado. La prelación de la Ley 31782 (niños de 0 a 6 años y gestantes) está verificada.",
+   "bloque": "S",
+   "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2186594-1"
+  },
+  "E2-07": {
+   "R": "Sí",
+   "donde": "Ley 30021 y su reglamento; municipios y escuelas saludables",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [
+     "Verificar las advertencias publicitarias y la publicidad dirigida a menores en el entorno escolar"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "La fiscalización y la sanción corresponden a la autoridad competente.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 3,
+   "com": "0 avisos. Citar el reglamento de la Ley 30021 y el Manual de Advertencias Publicitarias (octógonos). Falta una tarea de vigilancia de la publicidad dirigida a menores.",
+   "bloque": "S"
+  },
+  "E2-08": {
+   "R": "Sí",
+   "donde": "Concesionarias en campamentos mineros (Newrest, Sodexo); servicios de SST (Ley 29783)",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "La aptitud la decide el médico ocupacional; la dietoterapia se deriva.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "Duplica casi por completo a E3-09: mismo producto, mismos avisos y mismo sustento. Fusionarlas en una sola función y asignarla a una especialidad.",
+   "bloque": "F"
+  },
+  "E2-09": {
+   "R": "Sí",
+   "donde": "ONG humanitarias (Save the Children); gobiernos locales; Ley 31315 y su reglamento",
+   "P": 3,
+   "E": "Útil",
+   "F": 1,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Actúa en el equipo de respuesta, bajo el plan de la autoridad.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Frecuencia rara y un solo aviso. La vigencia la sostienen el riesgo climático (El Niño) y el reglamento de la Ley 31315; añadir una fuente fechada de eventos recientes.",
+   "bloque": "S"
+  },
+  "E2-10": {
+   "R": "Sí",
+   "donde": "Gobiernos locales (Programa de Incentivos), ONG y cooperación",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Los diseños con grupo de comparación y la publicación oficial requieren un evaluador de mayor nivel.",
+   "S1": 3,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "El PDF del Programa de Incentivos 2025 del MEF no abrió (devuelve HTML); el dato de 945 municipalidades queda por confirmar.",
+   "bloque": "S"
+  },
+  "E3-01": {
+   "R": "Sí",
+   "donde": "Concesionarios, hospitales, campamentos mineros, PAE",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Los regímenes terapéuticos complejos requieren validación clínica.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 3,
+   "P3": 4,
+   "com": "El impacto afirma que Wasi Mikuna atiende hoy a 4 millones de escolares, lo que es falso desde el cierre del 31/12/2025 (DS 006-2025-MIDIS). En 2026 opera el PAE: reformular con la nota del MIDIS del 16/03/2026.",
+   "bloque": "S",
+   "fuente": "https://www.gob.pe/institucion/midis/normas-legales/6666332-006-2025-midis"
+  },
+  "E3-02": {
+   "R": "Sí",
+   "donde": "Concesionarios de alimentos y campamentos mineros (11 de 38 avisos)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Los precios de venta y los márgenes corresponden a la gerencia.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "La demanda y el impacto se apoyan en el MOP de Wasi Mikuna (RM D000015-2025), sin vigencia por la extinción del programa. Sustituirlo por normas del PAE o del servicio privado.",
+   "bloque": "S",
+   "fuente": "https://www.gob.pe/institucion/midis/normas-legales/6666332-006-2025-midis"
+  },
+  "E3-03": {
+   "R": "Sí",
+   "donde": "Hospitales (cuadro de necesidades), concesionarios, PAE; Ley 31071",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "La adjudicación y los contratos corresponden a logística.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "La Ley 31071 sostiene la compra a la agricultura familiar. El impacto apoyado en el MOP de Wasi Mikuna está desfasado; el PAE 2026 verifica plantas y almacenes (Operativo Control).",
+   "bloque": "S",
+   "fuente": "https://www.gob.pe/institucion/midis/noticias/1366300-midis-asegura-alimentacion-para-mas-de-4-1-millones-de-estudiantes-durante-el-2026"
+  },
+  "E3-04": {
+   "R": "Sí",
+   "donde": "Unidad central de producción hospitalaria (NTS 103), concesionarios, campamentos 14x7",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Dirige un turno o una línea; las fórmulas enterales siguen la prescripción clínica.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Verificado: la NTS 103 fija un supervisor de producción y otro de distribución por cada 40 camas y admite terceros. El MINEM reporta 276 765 empleos directos en diciembre de 2025.",
+   "bloque": "S",
+   "fuente": "https://docs.bvsalud.org/biblioref/2019/04/948680/rm_665-2013-minsa.pdf"
+  },
+  "E3-05": {
+   "R": "Sí",
+   "donde": "Cocinas hospitalarias, concesionarios, comedores industriales; NTS 173 y NTS 098",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "La vigilancia sanitaria oficial corresponde a DIGESA o a la DIRESA.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "La NTS 173 (RM 157-2021) está verificada en DIGESA. La RM 449-2006 regula el HACCP en fabricación, no en colectividades: citarla como referencia, no como obligación. El impacto usa el MOP de Wasi Mikuna, extinguido.",
+   "bloque": "S",
+   "fuente": "https://www.digesa.minsa.gob.pe/noticias/Febrero2021/nota8.asp"
+  },
+  "E3-06": {
+   "R": "Sí",
+   "donde": "Hospitales (NTS 098), concesionarios, comités escolares",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "La certificación oficial la emite la entidad acreditada.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "El impacto se apoya en el MOP de Wasi Mikuna, extinguido; sin él solo queda el Codex. Podría integrarse como tarea de E3-05.",
+   "bloque": "S",
+   "fuente": "https://www.gob.pe/institucion/midis/normas-legales/6666332-006-2025-midis"
+  },
+  "E3-07": {
+   "R": "Sí",
+   "donde": "Entidades contratantes de concesionarios; minería (Cerro Verde SSOpr0030); supervisores del PAE",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "No ejerce la vigilancia oficial ni sanciona; la certificación requiere acreditación.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Reemplazar la Unidad de Supervisión Alimentaria de Wasi Mikuna por los supervisores del PAE que verifican plantas y almacenes (nota del MIDIS del 16/03/2026).",
+   "bloque": "S",
+   "fuente": "https://www.gob.pe/institucion/midis/noticias/1366300-midis-asegura-alimentacion-para-mas-de-4-1-millones-de-estudiantes-durante-el-2026"
+  },
+  "E3-08": {
+   "R": "Sí",
+   "donde": "Concesionarios; hospital APP de Sullana; comedores industriales",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Las decisiones presupuestales y contractuales corresponden a la jefatura o a la entidad.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "La Ley 30988 sostiene el desperdicio como indicador. Retirar el MOP de Wasi Mikuna del impacto y añadir los sistemas digitales de costeo e inventario como recurso (paso 2.2).",
+   "bloque": "S"
+  },
+  "E3-09": {
+   "R": "Sí",
+   "donde": "Campamentos mineros (DS 024-2016-EM, arts. 188 y 199), comedores agroindustriales",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "La vigilancia médica y la aptitud son del médico ocupacional.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "Duplica E2-08 y comparte producto. El DS 024-2016-EM exige comedores (art. 188) y orientación alimenticia en la asistencia social (art. 199): lo sostiene de forma indirecta. Dato del MINEM verificado.",
+   "bloque": "F",
+   "fuente": "https://www.osinergmin.gob.pe/seccion/centro_documental/PlantillaMarcoLegalBusqueda/DS-024-2016-EM.pdf"
+  },
+  "E3-10": {
+   "R": "Sí",
+   "donde": "Supervisores del PAE del MIDIS (Operativo Control en plantas y almacenes, 2026); antes Wasi Mikuna",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 3,
+   "N": 2,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [
+     "E3-10-T5"
+    ],
+    "corregir": [
+     {
+      "code": "E3-10-T1",
+      "t": "Verificar la programación de raciones y recetas del Programa de Alimentación Escolar por modalidad"
+     }
+    ]
+   },
+   "lim": "Actúa en el equipo de la unidad territorial; la conformidad, las penalidades y la vigilancia oficial corresponden a funcionarios acreditados.",
+   "S1": 2,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Ámbito y fundamento desactualizados: Wasi Mikuna se extinguió (DS 006-2025-MIDIS) y hoy opera el PAE. Reformular el ámbito, la demanda y el impacto con fuentes del PAE. Se solapa con E2-05-T3.",
+   "bloque": "S",
+   "fuente": "https://www.gob.pe/institucion/midis/noticias/1366300-midis-asegura-alimentacion-para-mas-de-4-1-millones-de-estudiantes-durante-el-2026"
+  }
+ },
+ "abiertas": {
+  "E1": {
+   "faltantes": [
+    {
+     "t": "Atención nutricional en enfermedad renal crónica y diálisis",
+     "tareas": [
+      "Valorar al paciente renal con indicadores específicos",
+      "Prescribir la dieta según la terapia de reemplazo renal",
+      "Monitorear los electrolitos y la adherencia con el equipo"
+     ],
+     "evidencia": "Hoy solo aparece como límite en E1-02. La demanda debe verificarse en los centros de hemodiálisis de EsSalud y en los avisos; la evidencia está pendiente."
+    }
+   ],
+   "fusiones": [
+    "E1-04 con E3-04: el armado y la distribución de dietas son producción (E3); dejar en E1 solo la especificación clínica",
+    "E1-12 como tareas transversales de E1-01 y E1-02",
+    "E1-07 como tarea o subfunción de E1-06"
+   ]
+  },
+  "E2": {
+   "faltantes": [
+    {
+     "t": "Gestión del padrón nominal y vigilancia nutricional digital",
+     "tareas": [
+      "Validar el padrón nominal",
+      "Consolidar los registros HIS y SIEN",
+      "Generar tableros de las metas del Programa de Incentivos"
+     ],
+     "evidencia": "El Programa de Incentivos y el PP 1001 exigen datos nominales. Puede entrar como tarea de E2-01 en vez de como función aparte."
+    }
+   ],
+   "fusiones": [
+    "E2-08 con E3-09 (duplicadas): una sola función de nutrición ocupacional",
+    "E2-05 con E3-10: delimitar (E2, programación y educación; E3, supervisión de proveedores e inocuidad) y actualizar ambas al PAE"
+   ]
+  },
+  "E3": {
+   "faltantes": [
+    {
+     "t": "Rotulado y advertencias nutricionales de alimentos preparados o envasados del servicio",
+     "tareas": [
+      "Calcular la información nutricional",
+      "Aplicar el Manual de Advertencias Publicitarias",
+      "Verificar la rotulación"
+     ],
+     "evidencia": "La Ley 30021 y su reglamento; las plantas de alimentos preparados están en el ámbito de E3-05. Falta evidencia de avisos."
+    }
+   ],
+   "fusiones": [
+    "E3-06 como tarea de E3-05 (la capacitación es un programa prerrequisito del HACCP)",
+    "E3-09 con E2-08",
+    "E3-10 actualizada al PAE y delimitada respecto de E2-05"
+   ]
+  }
+ },
+ "verificadas": [
+  {
+   "ref": "E2 [18] / E3 [13][14]",
+   "url": "https://www.gob.pe/institucion/midis/normas-legales/6666332-006-2025-midis",
+   "sostiene": true,
+   "nota": "DICTAMEN: el DS 006-2025-MIDIS (13/04/2025) extingue Wasi Mikuna, declara en emergencia el servicio hasta el 31/12/2025 y extingue la cogestión de productos y raciones; la transferencia al MIDIS cierra a más tardar el 31/12/2025. E2 acierta; E3 cita como vigente un programa extinto."
+  },
+  {
+   "ref": "E2 [19]",
+   "url": "https://www.gob.pe/institucion/midis/noticias/1366300-midis-asegura-alimentacion-para-mas-de-4-1-millones-de-estudiantes-durante-el-2026",
+   "sostiene": true,
+   "nota": "Nota del MIDIS (16/03/2026): el Programa de Alimentación Escolar (PAE) atiende en 2026 a 4 187 782 estudiantes de 67 055 IE, con Operativo Control en plantas y almacenes y con comités de alimentación escolar activos."
+  },
+  {
+   "ref": "E3 (portal de Wasi Mikuna)",
+   "url": "https://www.gob.pe/wasimikuna",
+   "sostiene": true,
+   "nota": "El propio portal de Wasi Mikuna en gob.pe publica: «Por DS N.° 006-2025-MIDIS se extingue el PNAEC Wasi Mikuna el 31.12.2025». El MOP de Wasi Mikuna [13] ya no rige."
+  },
+  {
+   "ref": "E1 [16]",
+   "url": "https://www.gob.pe/institucion/minsa/normas-legales/7098166-553-2025-minsa",
+   "sostiene": false,
+   "nota": "RM 553-2025-MINSA (30/08/2025): SIHCE obligatorio en el primer nivel del MINSA y de los GORE. Sostiene E1-05 y E1-11 (primer nivel), pero no la trazabilidad hospitalaria que afirman E1-01 y E1-12."
+  },
+  {
+   "ref": "E1 [19]",
+   "url": "https://busquedas.elperuano.pe/dispositivo/NL/2109189-1",
+   "sostiene": true,
+   "nota": "La RM 764-2022/MINSA aprueba el documento técnico de abordaje nutricional del sobrepeso y la obesidad tipo I."
+  },
+  {
+   "ref": "E1 [22]",
+   "url": "https://www.who.int/news/item/01-12-2025-who-issues-global-guideline-on-the-use-of-glp-1-medicines-in-treating-obesity",
+   "sostiene": true,
+   "nota": "OMS, 01/12/2025: la guía sobre los GLP-1 proyecta que la obesidad se duplique al 2030; las intervenciones conductuales intensivas «may be offered» (certeza baja)."
+  },
+  {
+   "ref": "E2 [4]",
+   "url": "https://busquedas.elperuano.pe/dispositivo/NL/2255412-3",
+   "sostiene": true,
+   "nota": "El DS 002-2024-SA aprueba el Plan Multisectorial de Anemia 2024-2030."
+  },
+  {
+   "ref": "E2 [5]",
+   "url": "https://busquedas.elperuano.pe/dispositivo/NL/2277624-1",
+   "sostiene": true,
+   "nota": "La RM 251-2024 aprueba la NTS 213-MINSA/DGIESP-2024 (niños, adolescentes, mujeres en edad fértil, gestantes y puérperas)."
+  },
+  {
+   "ref": "E2 [22]",
+   "url": "https://busquedas.elperuano.pe/dispositivo/NL/2186594-1",
+   "sostiene": true,
+   "nota": "La Ley 31782 fija la prelación del Vaso de Leche: niños de 0 a 6 años, gestantes y madres lactantes."
+  },
+  {
+   "ref": "E2 [15]",
+   "url": "https://www.mef.gob.pe/contenidos/presu_publ/migl/PI2025_C3.pdf",
+   "sostiene": null,
+   "nota": "No abrió (el MEF devuelve HTML en lugar del PDF); el dato de 945 municipalidades no está verificado."
+  },
+  {
+   "ref": "E3 [6]",
+   "url": "https://docs.bvsalud.org/biblioref/2019/04/948680/rm_665-2013-minsa.pdf",
+   "sostiene": true,
+   "nota": "NTS 103: el 6.5.2 fija un nutricionista planificador, uno supervisor de producción y uno de distribución por cada 40 camas; el 5.3 admite terceros; el 5.4 exige demostrar un mayor costo-beneficio para tercerizar."
+  },
+  {
+   "ref": "E3 [8]",
+   "url": "https://www.digesa.minsa.gob.pe/noticias/Febrero2021/nota8.asp",
+   "sostiene": true,
+   "nota": "DIGESA: la NTS 173-MINSA/2021/DIGESA, aprobada por la RM 157-2021 (03/02/2021), establece los principios de higiene de la alimentación colectiva."
+  },
+  {
+   "ref": "E3 [11]",
+   "url": "https://www.osinergmin.gob.pe/seccion/centro_documental/PlantillaMarcoLegalBusqueda/DS-024-2016-EM.pdf",
+   "sostiene": true,
+   "nota": "DS 024-2016-EM: el art. 188 obliga a construir comedores y el art. 199 incluye programas de orientación alimenticia en la asistencia social. Lo sostiene, pero de forma indirecta."
+  },
+  {
+   "ref": "E3 [18]",
+   "url": "https://forbes.pe/economia-y-finanzas/2026-02-26/la-mineria-genero-mas-de-264-000-empleos-directos-en-2025-informo-el-minem/",
+   "sostiene": true,
+   "nota": "MINEM, vía Forbes: más de 264 000 empleos directos en promedio en 2025 y 276 765 en diciembre de 2025. No encontré el 73 % de contratistas que cita E3-04."
+  }
+ ]
+}

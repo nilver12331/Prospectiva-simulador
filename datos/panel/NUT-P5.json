@@ -1,0 +1,37 @@
+{
+ "rol": "P5",
+ "perfil": "Experto en tecnología y automatización",
+ "calificaciones": {
+  "NUT-01": {"E": 4, "comentario": "La IA hospitalaria asiste tamizaje y cálculo; el diagnóstico nutricional, la prescripción y su responsabilidad legal siguen en el colegiado. Núcleo no automatizable del perfil.", "fuente": "[P-L11]"},
+  "NUT-02": {"E": 4, "comentario": "Menú, costeo y trazabilidad ya se digitalizan; la auditoría in situ y la responsabilidad sanitaria del HACCP exigen presencia y firma profesional.", "fuente": "[P-L4]; criterio del rol"},
+  "NUT-03": {"E": 4, "comentario": "Sin herramienta digital validada para vigilancia comunitaria; la visita domiciliaria y la consejería intercultural en zona rural no se automatizan en cinco años.", "fuente": "[P-L11][P-L1]"},
+  "NUT-04": {"E": 3, "comentario": "Consejería de lactancia y manejo del prematuro requieren presencia; el tamizaje nominal de anemia sí se digitaliza. Esencial, pero como segmento de clínica y comunitaria.", "fuente": "[P-L11]; criterio del rol"},
+  "NUT-05": {"E": 2, "comentario": "Wearables y apps maduras cubren el segmento masivo de macros y planes; solo la élite deportiva conserva juicio no automatizable, nicho pequeño.", "fuente": "[P-L12]; criterio del rol"},
+  "NUT-06": {"E": 2, "comentario": "Bioimpedancia, escaneo 3D y apps ya miden; la interpretación es competencia transversal de clínica, geriatría y deporte, no una especialidad. La absorbe la tecnología.", "fuente": "criterio del rol"},
+  "NUT-07": {"E": 3, "comentario": "Software de reformulación acelera el cálculo; la validación sensorial, el expediente regulatorio y la responsabilidad del rotulado siguen siendo humanos.", "fuente": "[P-L5]; criterio del rol"},
+  "NUT-08": {"E": 3, "comentario": "Apps con foto-cálculo sustituyen la consulta básica de peso; el manejo de deficiencias posbariátricas y conducta alimentaria exige juicio clínico presencial.", "fuente": "[P-S]; criterio del rol"},
+  "NUT-09": {"E": 2, "comentario": "La valoración presencial en campamento resiste la automatización, pero es clínica y servicios de alimentación aplicadas a un sector, no un juicio distinto.", "fuente": "[E-12]; criterio del rol"},
+  "NUT-10": {"E": 2, "comentario": "Fichas técnicas y trazabilidad ya corren por Perú Compras; la supervisión in situ persiste, pero es la misma competencia de comunitaria en contexto estatal.", "fuente": "[P-L4]"},
+  "NUT-11": {"E": 1, "comentario": "Canal de atención, no especialidad: apps con IA producen planes en minutos y la telenutrición es herramienta que atraviesa clínica, obesidad y deporte.", "fuente": "[P-S]"},
+  "NUT-14": {"E": 4, "comentario": "Disfagia, texturas y seguimiento presencial en residencia no tienen sustituto digital; el driver demográfico es el más sólido del campo.", "fuente": "[P-S]"},
+  "NUT-17": {"E": 1, "comentario": "Interpretación de perfiles genéticos y su traducción a pauta son algoritmizables; sin evidencia clínica ni puestos. Tecnología de laboratorio, no especialidad.", "fuente": "[P-S]"},
+  "NUT-19": {"E": 1, "comentario": "Planificación, cálculo y asignación de dietas ya están automatizados; puesto auxiliar sin colegiatura en contracción. No pertenece al perfil de egreso.", "fuente": "[E-7]; criterio del rol"}
+ },
+ "faltan": [
+  "Informática nutricional e IA aplicada (NUT-18 del barrido): perfil híbrido nutrición-datos que construye, valida y audita las herramientas que sustituyen tareas de las demás especialidades; ninguna malla peruana lo forma [P-L11].",
+  "Nutrición renal: prescripción de proteínas y electrolitos con control de laboratorio, no automatizable, con ingreso a diálisis +8 %/año [P-L9]; hoy diluida dentro de clínica hospitalaria."
+ ],
+ "integrar": [
+  "NUT-06 Evaluación y composición corporal dentro de NUT-01 clínica, NUT-14 geriátrica y NUT-05 deportiva: la medición es instrumento y la interpretación va con quien trata.",
+  "NUT-10 Programas sociales con NUT-03 Comunitaria: misma naturaleza poblacional; el Estado contrata un solo perfil de salud pública.",
+  "NUT-19 Dietética operativa con NUT-02 Servicios de alimentación: el cálculo automatizado converge con la gestión del servicio.",
+  "NUT-09 Ocupacional minera con NUT-02 Servicios de alimentación: Sodexo y NATCLAR contratan juntos el servicio de campamento y la valoración del trabajador [E-12].",
+  "NUT-11 Online como canal transversal de NUT-01, NUT-08 y NUT-05, no como línea propia de la cartera."
+ ],
+ "noPuesto": [
+  "NUT-11 Consultoría privada y online: modo de ejercicio y canal tecnológico (telenutrición), no un campo con juicio propio.",
+  "NUT-17 Nutrigenómica: tecnología de laboratorio y algoritmo de interpretación disfrazados de especialidad; sin puestos ni evidencia clínica.",
+  "NUT-06 Evaluación y composición corporal: instrumento de medición (bioimpedancia, escaneo 3D), no puesto ni negocio autónomo.",
+  "NUT-19 Dietética hospitalaria operativa: tarea auxiliar de cálculo ya automatizada, no puesto profesional."
+ ]
+}

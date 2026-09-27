@@ -1,0 +1,890 @@
+{
+ "rol": "X5",
+ "perfil": "Nutricionista egresado reciente · 4 años · SERUMS en microrred rural, hospital MINSA de Lima, concesionario de alimentación en campamento minero y consulta privada",
+ "cod": "NUT",
+ "ronda": 1,
+ "funciones": {
+  "E1-01": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Hospitalización de medicina en hospital MINSA de Lima; primer puesto tras el SERUMS",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "lim": "Sin supervisión en sala general; en UCI, neonatos y pediatría grave actúa bajo supervisión. No emite diagnóstico médico.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Alcanzable al egreso: en el internado se tamiza y valora a diario. El GLIM con masa muscular por pantorrilla sí se logra; la bioimpedancia no siempre está disponible.",
+   "bloque": "P"
+  },
+  "E1-02": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Visita diaria a hospitalizados en hospital regional; convocatorias CAS de nutricionista asistencial",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "lim": "Sin supervisión en patologías frecuentes; renal en diálisis, hepatopatía avanzada, oncología y pediatría crítica con supervisión indirecta.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Es la tarea diaria del recién egresado. El acuerdo con el equipo en la visita médica cuesta al inicio: el egresado propone y el médico suele decidir.",
+   "bloque": "P"
+  },
+  "E1-03": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Interconsultas de soporte en hospital de EsSalud; en el internado solo se observa en UCI",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "lim": "Al egreso formula enteral estándar con supervisión directa; no decide la vía ni el reinicio en riesgo alto de realimentación; parenteral solo observa.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 2,
+   "com": "Nivel 3 es optimista. Pocos internos calculan y progresan enteral con riesgo de realimentación sin un tutor; son errores de consecuencia grave. Propongo nivel 2 al egreso.",
+   "bloque": "P"
+  },
+  "E1-04": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Primer puesto frecuente: nutricionista de distribución de dietas en hospital y en concesionario de clínica",
+   "P": 3,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "lim": "Controla la correspondencia bandeja-prescripción sin supervisión; la actualización formal del manual de regímenes la aprueba la jefatura.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 3,
+   "P2": 3,
+   "P3": 3,
+   "com": "Nivel 4 es realista: suele ser la primera asignación. El entregable único mezcla actualizar el manual (ocasional) con el control diario; conviene dos entregables. Se superpone con E3-04-T4.",
+   "bloque": "P"
+  },
+  "E1-05": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Consulta externa de hospital y centro de salud; consultorio privado; teleconsulta en clínicas",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "lim": "Sin supervisión en diabetes, hipertensión y dislipidemia estables; nivel 3 en renal avanzada, TCA y comorbilidad múltiple; deriva.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Totalmente alcanzable: es lo que más hacemos los egresados en primer nivel y en consulta privada. Producto auténtico y evidencias observables.",
+   "bloque": "F"
+  },
+  "E1-06": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E1-06-T6",
+      "t": "Acompañar el plan de alimentación de la persona que recibe fármacos para la obesidad, según la indicación y en coordinación con el médico"
+     }
+    ]
+   },
+   "donde": "Consultorio privado, gimnasios, teleconsulta y centros de salud con programa de sobrepeso",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 2,
+   "V": 4,
+   "L": 4,
+   "N": 4,
+   "T": 3,
+   "lim": "Sin supervisión en adultos con obesidad grado I-II; nivel 3 en obesidad infantil con comorbilidad, severa, TCA o fármacos.",
+   "S1": 3,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Alcanzable. T6 debe dejar claro que el nutricionista no ajusta el fármaco. La demanda real es mayor que 1 de 14 avisos: mucho es consulta privada y trabajo independiente.",
+   "bloque": "F"
+  },
+  "E1-07": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Programas de obesidad en Hospital Rebagliati y clínicas privadas de Lima; no lo he visto en avisos para egresados",
+   "P": 2,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "lim": "Al egreso solo participa bajo supervisión directa del nutricionista del equipo bariátrico; no hay oferta de primer empleo en esta función.",
+   "S1": 2,
+   "S2": 2,
+   "P1": 3,
+   "P2": 4,
+   "P3": 2,
+   "com": "0 de 14 avisos y pocos centros: no es función de egreso sino de especialización. Sugiero fusionarla como tarea en E1-06 (derivación y seguimiento bariátrico) o pasarla a segunda especialidad.",
+   "bloque": "S"
+  },
+  "E1-08": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Servicio de geriatría de hospital y centros de atención residencial privados (Ley 30490)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "lim": "Supervisión indirecta; no evalúa instrumentalmente la deglución; fragilidad severa, demencia avanzada y final de vida con supervisión directa.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Nivel 3 correcto. El MNA-SF y la dinamometría se aprenden en pregrado, pero la aplicación de IDDSI y el trabajo con el tecnólogo en deglución casi no se practican.",
+   "bloque": "P"
+  },
+  "E1-09": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Consultorio de nutrición en CRED del primer nivel durante el SERUMS; hospitalización pediátrica",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "lim": "Sin supervisión en anemia y desnutrición leve del primer nivel; supervisión indirecta en hospitalización pediátrica y directa en neonatos y UCIP.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "En el SERUMS el egresado atiende anemia infantil solo (nivel 4); en hospitalización pediátrica, nivel 3. La consejería al cuidador se superpone con E2-03; conviene delimitar lo individual.",
+   "bloque": "F"
+  },
+  "E1-10": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Consulta prenatal en centros de salud y hospitales materno-infantiles",
+   "P": 3,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "lim": "Sin supervisión en gestación de bajo riesgo; nivel 3 en diabetes gestacional, preeclampsia y embarazo adolescente con comorbilidad.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Alcanzable. El impacto solo repite normas vigentes, sin tendencia nueva fechada: S2 débil.",
+   "bloque": "S"
+  },
+  "E1-11": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E1-11-T3",
+      "t": "Elaborar el resumen nutricional que acompaña a la hoja de referencia o contrarreferencia"
+     }
+    ]
+   },
+   "donde": "Alta de hospitalización en hospital MINSA; la hoja de referencia la firma el médico",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 3,
+   "lim": "Sin supervisión en la guía de alta; no firma la referencia, que es médica; nivel 3 en enteral domiciliaria.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 3,
+   "P2": 4,
+   "P3": 3,
+   "com": "El nutricionista no emite la referencia: aporta el resumen nutricional. 0 de 14 avisos; el dato de reingreso es de adultos mayores, no del alta en general.",
+   "bloque": "F"
+  },
+  "E1-12": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E1-12-T3",
+      "t": "Señalar a la jefatura los desfases observados entre el protocolo y la guía vigente"
+     }
+    ]
+   },
+   "donde": "Comité de calidad del departamento de nutrición; indicadores mensuales que pide la jefatura",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "lim": "Registra indicadores sin supervisión; el contraste con guías y la priorización de incidentes con supervisión indirecta.",
+   "S1": 2,
+   "S2": 2,
+   "P1": 3,
+   "P2": 3,
+   "P3": 3,
+   "com": "El egresado llena listas e indicadores; contrastar protocolos con guías es de la jefatura. La demanda cita la prevalencia de desnutrición, no evidencia de la función de calidad.",
+   "bloque": "S"
+  },
+  "E2-01": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "SERUMS en microrred: tamizaje de hemoglobina y sala situacional; convocatorias de DIRESA",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "lim": "Levanta datos sin supervisión; el análisis de prevalencias y la presentación a autoridades con supervisión indirecta del responsable.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Alcanzable: en el SERUMS se hace. El ajuste de hemoglobina por altitud de la OMS 2024 es nuevo y debe enseñarse explícitamente.",
+   "bloque": "P"
+  },
+  "E2-02": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E2-02-T4",
+      "t": "Preparar la propuesta técnica de compromisos intersectoriales para su concertación por la autoridad"
+     }
+    ]
+   },
+   "donde": "Gerencias de desarrollo social municipales y ONG; el egresado apoya, no lidera",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 3,
+   "lim": "Formula con supervisión directa; la programación presupuestal y la concertación intersectorial las conduce el funcionario competente.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 2,
+   "com": "Nivel 3 es alto: pocos egresados manejan marco lógico y programas presupuestales. El acta firmada no depende del egresado; evidencia no factible al egreso.",
+   "bloque": "P"
+  },
+  "E2-03": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Cuna Más (acompañante técnico), centros de salud y ONG; primer empleo más común en comunitaria",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "lim": "Sin supervisión en consejería y sesiones grupales; deriva anemia moderada o severa y enfermedad a atención individual.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Nivel 4 realista. «Materiales en lengua local validados» exige apoyo de intérprete o validación comunitaria que el egresado no logra solo; ajustar la evidencia.",
+   "bloque": "P"
+  },
+  "E2-04": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Cuna Más, centros de promoción y vigilancia comunal; capacitación de comités de alimentación escolar",
+   "P": 3,
+   "E": "Esencial",
+   "F": 3,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "lim": "Capacita y acompaña con supervisión indirecta; no acredita agentes ni valida módulos oficiales.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Alcanzable. Varios avisos de Cuna Más citados son de cuidado diurno, no de formación de agentes: revisar el conteo de 20 de 55.",
+   "bloque": "S"
+  },
+  "E2-05": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Convocatorias CAS de especialista alimentario y monitores del programa de alimentación escolar",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "lim": "Programa raciones y monitorea con supervisión indirecta; la aprobación de la programación es de la unidad técnica del programa.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Contradicción entre especialidades: E2 dice que Wasi Mikuna se extinguió y opera un nuevo programa desde 2026; E3 lo presenta vigente. Unificar el dato. T3 duplica E3-10-T5.",
+   "bloque": "S"
+  },
+  "E2-06": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Municipalidades distritales: nutricionista del Vaso de Leche y de comedores; a menudo el único nutricionista",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 2,
+   "V": 2,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "lim": "Gestión técnica sin supervisión; compras, actos administrativos y padrón oficial los aprueba el comité y la gerencia municipal.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Realista: en municipios pequeños el egresado trabaja solo. Pero 1 de 55 avisos no sustenta demanda Media; la evidencia es casi solo normativa.",
+   "bloque": "S"
+  },
+  "E2-07": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E2-07-T3",
+      "t": "Elaborar la propuesta técnica de ordenanza o acuerdo local de alimentación saludable"
+     }
+    ]
+   },
+   "donde": "Proyectos de ONG y DIRESA sobre kioscos saludables; no lo he visto como puesto",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 2,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "lim": "Diagnostica y verifica kioscos con supervisión indirecta; la promoción de ordenanzas ante el concejo la conduce la autoridad.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 3,
+   "com": "0 de 55 avisos: la demanda es solo normativa. Promover ordenanzas no es alcanzable solo al egreso; sí el diagnóstico y la verificación de kioscos.",
+   "bloque": "S"
+  },
+  "E2-08": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Concesionarios en campamentos mineros (régimen 14x7); programas de bienestar de empresas",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "lim": "Supervisión indirecta con el médico ocupacional; no decide aptitud; deriva casos clínicos.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "Es casi la misma función que E3-09 (nutrición ocupacional). Los avisos de Sodexo y Newrest son de concesionarios, más propios de E3. Fusionar en una sola especialidad.",
+   "bloque": "F"
+  },
+  "E2-09": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "ONG humanitarias con población migrante; respuestas ante huaicos coordinadas por el gobierno local",
+   "P": 3,
+   "E": "Útil",
+   "F": 1,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "lim": "Actúa bajo supervisión directa dentro del equipo de respuesta y del plan de la autoridad a cargo.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 3,
+   "P2": 4,
+   "P3": 3,
+   "com": "Nivel 2 correcto: el egresado no lidera respuestas. Sin dato cuantitativo propio de emergencias (solo inseguridad alimentaria general) ni avisos más allá de uno.",
+   "bloque": "S"
+  },
+  "E2-10": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Informes de metas del Programa de Incentivos municipales y reportes a donantes de ONG",
+   "P": 3,
+   "E": "Esencial",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 2,
+   "N": 3,
+   "T": 4,
+   "lim": "Monitorea y reporta indicadores con supervisión indirecta; no diseña evaluaciones de impacto con contrafactual.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 3,
+   "P2": 4,
+   "P3": 2,
+   "com": "El título promete «impacto», que exige contrafactual y no es alcanzable al egreso. Lo real es monitoreo y evaluación de resultados; renombrar y cambiar «Informe de impacto» por «Informe de resultados».",
+   "bloque": "F"
+  },
+  "E3-01": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Concesionarios de alimentación (clínicas, minería, industria) y programa de alimentación escolar",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "lim": "Planifica sin supervisión para colectivos sanos y dietas estándar; regímenes terapéuticos complejos los valida el nutricionista clínico.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Alcanzable y muy pedido en el primer empleo. El impacto cita Wasi Mikuna como vigente, en contradicción con E2-05; verificar.",
+   "bloque": "S"
+  },
+  "E3-02": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Concesionarios de comedores industriales y hospitalarios; restaurantes con servicio de dietas",
+   "P": 3,
+   "E": "Esencial",
+   "F": 3,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "lim": "Estandariza y costea sin supervisión; precios de venta y márgenes corresponden a la gerencia.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 3,
+   "P3": 4,
+   "com": "Alcanzable. T4 (actualizar banco) cabe mejor como tarea permanente del recetario; el nexo con el desperdicio de la Ley 30988 es débil como tendencia.",
+   "bloque": "S"
+  },
+  "E3-03": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Concesionarios y hospitales: control de recepción, kárdex y pedidos",
+   "P": 3,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "lim": "Controla recepción e inventario sin supervisión; la homologación de proveedores con supervisión directa; no adjudica compras.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Recepción e inventario sí al egreso; homologar proveedores (T3) no: la visita y calificación la hace el supervisor o el área de calidad.",
+   "bloque": "P"
+  },
+  "E3-04": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Nutricionista de turno en concesionario de clínica y campamento minero; primer empleo típico",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "lim": "Dirige un turno con supervisión indirecta; no es jefe del servicio; las fórmulas enterales siguen la prescripción clínica.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Alcanzable. T4 se superpone con E1-04-T3 (armado y distribución de dietas): definir quién responde por la correspondencia bandeja-prescripción.",
+   "bloque": "F"
+  },
+  "E3-05": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Avisos de supervisor de calidad en concesionarios; exigencia HACCP/BPM/POES",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "lim": "Monitorea PCC y aplica correctivas sin supervisión; formula el plan HACCP con supervisión indirecta; la validación oficial es de DIGESA.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Al egreso se sostiene y monitorea un HACCP existente; formularlo completo pide experiencia. El producto «plan firmado por el equipo» es alcanzable en equipo.",
+   "bloque": "P"
+  },
+  "E3-06": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Inducción y capacitación de manipuladores en concesionarios y hospitales",
+   "P": 3,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "lim": "Capacita sin supervisión; la certificación oficial de manipuladores la emite la entidad acreditada.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Totalmente alcanzable. El impacto no trae una tendencia nueva, solo normas vigentes.",
+   "bloque": "S"
+  },
+  "E3-07": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Áreas de calidad de concesionarios y mineras que auditan a proveedores",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "lim": "Inspecciones internas con supervisión indirecta; auditoría a plantas de proveedores con supervisión directa; no ejerce vigilancia oficial.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Inspeccionar la propia cocina sí es de egreso; auditar plantas de proveedores (T3) no. Se superpone con E3-10-T2.",
+   "bloque": "P"
+  },
+  "E3-08": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Supervisor de servicio en concesionario: reporte de costo de alimentos, mermas y reclamos",
+   "P": 3,
+   "E": "Esencial",
+   "F": 3,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "lim": "Mide y reporta con supervisión indirecta; no decide presupuesto ni condiciones del contrato.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Alcanzable con supervisión. Definir el tablero (T1) lo hace la gerencia; el egresado lo alimenta. El aviso de jefatura APP no es evidencia de egreso.",
+   "bloque": "P"
+  },
+  "E3-09": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Campamentos mineros y programas de bienestar laboral",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "lim": "Conduce el programa con supervisión indirecta de salud ocupacional; deriva casos clínicos.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Duplica E2-08 casi tarea por tarea. Mantener una sola; por los empleadores reales (concesionarios mineros) encaja mejor en E3.",
+   "bloque": "F"
+  },
+  "E3-10": {
+   "R": "Sí",
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "donde": "Convocatorias CAS de supervisores del programa de alimentación escolar en unidades territoriales",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 3,
+   "lim": "Integra el equipo territorial con supervisión directa; no otorga conformidades ni aplica penalidades.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 2,
+   "com": "Nivel 2 correcto. Se superpone con E2-05 y E3-07; T5 repite E2-05-T3. Demanda sin dato cuantitativo de puestos y programa citado con nombre contradictorio.",
+   "bloque": "S"
+  }
+ },
+ "abiertas": {
+  "E1": {
+   "faltantes": [
+    {
+     "t": "Atención nutricional deportiva y de la actividad física",
+     "tareas": [
+      "Valorar la composición corporal y el gasto del deportista",
+      "Prescribir el plan de alimentación y la hidratación según el entrenamiento",
+      "Orientar el uso seguro de suplementos"
+     ],
+     "evidencia": "Experiencia propia: gimnasios, clubes y consulta privada contratan egresados; es uno de los primeros ingresos independientes. ESCO 2265 incluye asesoramiento a deportistas."
+    }
+   ],
+   "fusiones": [
+    "Fusionar E1-07 (bariátrica) como tarea de seguimiento dentro de E1-06 (obesidad); como función aparte no es de egreso",
+    "Delimitar E1-04 frente a E3-04-T4: ambas responden por la correspondencia de la bandeja",
+    "Delimitar la consejería al cuidador de E1-09 frente a E2-03"
+   ]
+  },
+  "E2": {
+   "faltantes": [
+    {
+     "t": "Educación alimentaria por medios digitales",
+     "tareas": [
+      "Elaborar contenidos de educación alimentaria para redes sociales y mensajería",
+      "Verificar su sustento en guías oficiales",
+      "Medir su alcance"
+     ],
+     "evidencia": "Experiencia propia: redes de salud y municipalidades piden contenidos digitales; la teleorientación de la RM 764-2022/MINSA (citada en E1) abre ese canal."
+    }
+   ],
+   "fusiones": [
+    "Fusionar E2-08 con E3-09 (nutrición laboral duplicada)",
+    "Delimitar E2-05 frente a E3-10: ambas asisten a comités de alimentación escolar",
+    "Renombrar E2-10 como monitoreo y evaluación de resultados"
+   ]
+  },
+  "E3": {
+   "faltantes": [
+    {
+     "t": "Etiquetado nutricional y desarrollo de productos",
+     "tareas": [
+      "Calcular la información nutricional del producto",
+      "Verificar las advertencias publicitarias de la Ley 30021",
+      "Formular o reformular productos con menos azúcar, sodio y grasas"
+     ],
+     "evidencia": "Experiencia propia: la industria alimentaria contrata egresados para etiquetado y octógonos; la Ley 30021 y su manual de advertencias lo exigen."
+    }
+   ],
+   "fusiones": [
+    "Fusionar E3-09 con E2-08",
+    "Asignar la auditoría a plantas de proveedores a una sola función (E3-07-T3 o E3-10-T2)",
+    "Unificar el estado del programa de alimentación escolar (Wasi Mikuna frente a nuevo programa 2026) entre E2 y E3"
+   ]
+  }
+ },
+ "verificadas": []
+}

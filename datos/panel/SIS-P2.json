@@ -1,0 +1,117 @@
+{
+ "rol": "P2",
+ "perfil": "Prospectivista sectorial",
+ "calificaciones": {
+  "SIS-01": {
+   "E": 4,
+   "comentario": "Núcleo del campo hasta 2031: la IA automatiza código rutinario, no arquitectura ni requisitos; el desarrollo asistido cambia la herramienta, no la madurez.",
+   "fuente": "[P-L10][P-L3]"
+  },
+  "SIS-02": {
+   "E": 4,
+   "comentario": "Irrupción ya observada (45,6 % implementó IA en 2025); CAGR 21,1 % al 2029 proyecta demanda plena cuando egrese la primera promoción. Gobernanza y definición del problema siguen humanas.",
+   "fuente": "[P-L3][P-L4]"
+  },
+  "SIS-03": {
+   "E": 4,
+   "comentario": "Norma con plazo vigente desde 2026 y 748 M de ataques observados; seguridad de IA y OT irrumpe 2027–2029 (proyección). Función obligatoria, no automatizable.",
+   "fuente": "[P-L2][N-2][P-L1]"
+  },
+  "SIS-04": {
+   "E": 4,
+   "comentario": "Nube híbrida adoptada (+600 % observado); operación de infraestructura para IA y data centers irrumpe 2026–2028. Todo software del egresado correrá ahí.",
+   "fuente": "[P-L5][P-L11]"
+  },
+  "SIS-05": {
+   "E": 3,
+   "comentario": "Sin serie propia, pero la ejecución del portafolio de IA (6 de 10 en piloto) depende de gestión; negociación y priorización no se automatizan al 2031.",
+   "fuente": "[P-S][P-L4]"
+  },
+  "SIS-06": {
+   "E": 3,
+   "comentario": "El perfil que integra IA, nube y datos lidera la EDO; PNTD al 2030 sostiene la demanda. Esencial como formación, aunque el ejercicio llega tras experiencia.",
+   "fuente": "[P-L7][N-9]"
+  },
+  "SIS-07": {
+   "E": 2,
+   "comentario": "Tiende a fusionarse con desarrollo; el front-end estándar es lo primero que automatiza la IA generativa (proyección 2027–2029). Útil dentro de SIS-01, no aparte.",
+   "fuente": "[P-L9][P-L10]"
+  },
+  "SIS-08": {
+   "E": 2,
+   "comentario": "Nicho dependiente de proveedores sin serie pública; configuración y reportes automatizables con ERP en nube. Útil para quien vaya a consultoría, no para el perfil.",
+   "fuente": "[P-L3][P]"
+  },
+  "SIS-09": {
+   "E": 2,
+   "comentario": "La capacidad de relevar requisitos es imprescindible dentro de SIS-01; como especialidad autónoma se diluye: la IA generativa absorbe especificación rutinaria hacia 2028.",
+   "fuente": "[P-L10]"
+  },
+  "SIS-10": {
+   "E": 2,
+   "comentario": "Tester manual en extinción; generación de casos y scripts ya automatizable. Se desplaza a ingeniería de calidad integrada en desarrollo y DevOps.",
+   "fuente": "[P][P-L10]"
+  },
+  "SIS-11": {
+   "E": 2,
+   "comentario": "Inversión comprometida y redes privadas 5G emergentes (proyección 2027–2030), pero es dominio de telecomunicaciones; el ingeniero de sistemas necesita fundamentos, no la especialidad.",
+   "fuente": "[P-L11]"
+  },
+  "SIS-12": {
+   "E": 3,
+   "comentario": "Norma con plazo (SBS 504-2021, SGSI 2024–2026) y auditoría de algoritmos de IA emergente con adecuación 2026–2029: control poco automatizable, esencial al egreso.",
+   "fuente": "[N-3][N-8][N-4]"
+  },
+  "SIS-13": {
+   "E": 3,
+   "comentario": "Oficial de Datos obligatorio escalonado 2025–2028: plena vigencia cuando egrese la promoción. Compartida con abogados, pero el diseño de controles es de sistemas.",
+   "fuente": "[N-6]"
+  },
+  "SIS-14": {
+   "E": 2,
+   "comentario": "Tableros estándar se automatizan; converge con ciencia de datos antes de 2029 (proyección). Útil como capacidad dentro de SIS-02, no como especialidad.",
+   "fuente": "[P][P-L4]"
+  },
+  "SIS-15": {
+   "E": 2,
+   "comentario": "IA en el edge (88 % evalúa) y minería 4.0 son driver estructural, pero la irrupción se proyecta 2028–2030 sin puestos observados. Útil, aún no esencial.",
+   "fuente": "[P-S][P-L11]"
+  },
+  "SIS-16": {
+   "E": 1,
+   "comentario": "Sin evidencia local ni puestos; en extinción como especialidad autónoma, absorbida por fintech. No debe formar parte del perfil.",
+   "fuente": "[P-S][E]"
+  },
+  "SIS-17": {
+   "E": 2,
+   "comentario": "DBA operativo altamente automatizable por servicios gestionados; se reconvierte a ingeniería de datos, que sí es esencial dentro de SIS-02.",
+   "fuente": "[P-L4][P]"
+  },
+  "SIS-18": {
+   "E": 2,
+   "comentario": "Campo compartido con diseño y front-end automatizable; sin serie de crecimiento. Útil como capacidad de producto, no como especialidad del ingeniero.",
+   "fuente": "[P-L10][O-5]"
+  },
+  "SIS-19": {
+   "E": 1,
+   "comentario": "Puesto técnico, no de ingeniero; empleos de entrada primeros automatizados (OIT 2026). Contracción observada y proyectada; no esencial.",
+   "fuente": "[P-S][P-L10]"
+  }
+ },
+ "faltan": [
+  "Ingeniería de datos y MLOps (pipelines, gobernanza y operación de modelos): emergente en el barrido [P-L3][P-L4], la contratan banca y telcos, y hoy queda repartida entre SIS-02, SIS-14 y SIS-17 sin nombre propio.",
+  "Ingeniería fintech y banca digital (pagos, core bancario, cumplimiento SBS): captura 76,9 % del capital de riesgo 2025 [P-S] y el barrido la marca emergente, pero ninguna especialidad de la cartera la nombra.",
+  "Operación de infraestructura para IA y data centers (platform engineering, FinOps): anuncios de AWS 2026 y data centers de US$ 100 M [P-L11][P-S]; irrupción proyectada 2026–2028, hoy solo implícita en SIS-04."
+ ],
+ "integrar": [
+  "SIS-02 + SIS-14 + SIS-17 en una sola especialidad de datos e IA (ciencia, analítica e ingeniería de datos): mismo empleador y mismo pipeline; BI converge con ciencia de datos y el DBA se reconvierte a ingeniería de datos [P][P-L4].",
+  "SIS-01 + SIS-07 + SIS-09 + SIS-10 como desarrollo de software integral: el mercado contrata desarrollador que releva, construye, prueba y publica; móvil, análisis y QA se contratan dentro de desarrollo [E-B15][P-L9][P-L10].",
+  "SIS-03 + SIS-13 (con puente a SIS-12) como seguridad, privacidad y gobierno del riesgo digital: normas con plazo 2025–2028 exigen Oficial de Seguridad y Oficial de Datos en la misma organización [N-2][N-6][N-8].",
+  "SIS-04 + SIS-11 como plataforma y conectividad: la operación híbrida y regulada demanda nube, red y observabilidad en un mismo equipo [P-L5][P-L11]."
+ ],
+ "noPuesto": [
+  "SIS-19 Soporte técnico y mesa de ayuda: puesto técnico, no de ingeniero, y el primero en automatizarse [P-S][P-L10]; tampoco es negocio propio para un titulado.",
+  "SIS-16 Blockchain y activos digitales: sin puestos ni empresas en Perú; sin evidencia de negocio propio [E][P-S].",
+  "IA generativa como especialidad (SIS-20 del justificante): herramienta transversal que redistribuye tareas, no puesto ni negocio [P-L9][P]; debe entrar como capacidad en todas las demás."
+ ]
+}

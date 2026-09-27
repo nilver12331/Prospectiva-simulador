@@ -1,0 +1,899 @@
+{
+ "nota": "Trabajo previo del artefacto de Fase 2 (clínica hospitalaria + pediátrica, competencia C1 anterior). Sirve como semilla: sus referencias fueron abiertas en su momento, pero deben re-verificarse las que se usen.",
+ "funciones": [
+  {
+   "c": "B01",
+   "t": "Evaluación y diagnóstico nutricional hospitalario",
+   "d": "Evalúa el estado nutricional del paciente hospitalizado y formula su diagnóstico nutricional para detectar la malnutrición y orientar el tratamiento.",
+   "tipo": "Actual",
+   "conf": 4,
+   "lim": "Pacientes críticos de UCI, neonatos y pediátricos graves: nivel 3",
+   "tasks": [
+    {
+     "code": "B01-T1",
+     "t": "Tamizar el riesgo nutricional del paciente dentro de las 24 a 48 horas del ingreso con una herramienta validada",
+     "ent": "1. Tamizaje y evaluación integral"
+    },
+    {
+     "code": "B01-T2",
+     "t": "Realizar la evaluación antropométrica y el examen físico nutricional",
+     "ent": "1. Tamizaje y evaluación integral"
+    },
+    {
+     "code": "B01-T3",
+     "t": "Recolectar e interpretar los datos bioquímicos, clínicos y dietéticos",
+     "ent": "1. Tamizaje y evaluación integral"
+    },
+    {
+     "code": "B01-T4",
+     "t": "Diagnosticar la malnutrición y su severidad con los criterios GLIM",
+     "ent": "2. Diagnóstico nutricional"
+    },
+    {
+     "code": "B01-T5",
+     "t": "Formular y registrar en la historia clínica los diagnósticos nutricionales priorizados en formato PES",
+     "ent": "2. Diagnóstico nutricional"
+    }
+   ],
+   "amb": "Hospitalización",
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque la desnutrición es frecuente en los hospitales peruanos: afectó al 46,9 % de los pacientes de medicina y cirugía de un hospital nacional de Lima [9] y es objeto de estudio en otros hospitales del país [10]. La guía de práctica clínica de EsSalud manda tamizar a todo adulto hospitalizado dentro de las 24 a 48 horas del ingreso [29]. La función está asignada al nutricionista en los MOF de los hospitales regionales de Cusco y Huacho [3][4] y en el MAPRO del Hospital Hipólito Unanue [5], y es la tarea de mayor importancia de la ocupación en O*NET [1]. Ello exige profesionales capaces de tamizar, evaluar y diagnosticar al ingreso con criterios estandarizados.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el diagnóstico de la desnutrición se ha unificado internacionalmente con los criterios GLIM, cuya revisión quinquenal se publicó en 2025 [12][13]. A la vez, la Ley 30024 y la RM 553-2025/MINSA extienden la historia clínica electrónica, lo que hará auditable cada diagnóstico [15][16]. Por eso es necesario que el egresado domine la evaluación y el diagnóstico nutricional estandarizados y trazables.",
+   "refs": "[1] [3] [4] [5] [9] [10] [12] [13] [15] [16] [29]",
+   "prod": {
+    "name": "Expediente de evaluación y diagnóstico nutricional del paciente hospitalizado",
+    "desc": "Registro clínico que documenta el estado nutricional del paciente al ingreso para detectar la malnutrición y fijar la línea base del tratamiento. Reúne el tamizaje, los datos antropométricos, bioquímicos, clínicos y dietéticos, el examen físico nutricional y los diagnósticos priorizados. Se elabora a partir de la entrevista, la historia clínica, las mediciones y los resultados de laboratorio, y se verifica con los criterios GLIM, con la guía del Proceso de Atención Nutricional y en la auditoría de historias clínicas. Orienta la decisión de intervenir y su prioridad, y demuestra el dominio de la evaluación integral y del razonamiento diagnóstico.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Tamizaje y evaluación integral",
+      "codes": "B01-T1, B01-T2, B01-T3",
+      "sum": "datos objetivos y subjetivos del estado nutricional del paciente.",
+      "ev": [
+       "Registro de tamizaje validado (NRS-2002 o MUST) con puntaje, fecha y conducta.",
+       "Ficha de evaluación integral con antropometría, bioquímica, clínica, dietética y examen físico nutricional."
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Diagnóstico nutricional",
+      "codes": "B01-T4, B01-T5",
+      "sum": "interpretación de la evaluación en diagnósticos priorizados.",
+      "ev": [
+       "Diagnóstico GLIM con criterios fenotípicos y etiológicos y grado de severidad.",
+       "Enunciados PES priorizados en terminología eNCPT, registrados en la historia clínica."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "B02'",
+   "t": "Dietoterapia del paciente hospitalizado",
+   "d": "Prescribe y programa el tratamiento dietoterapéutico del paciente hospitalizado según su patología, coordinándolo con el equipo de salud en visitas e interconsultas, para cubrir sus requerimientos y favorecer su recuperación.",
+   "tipo": "Actual",
+   "conf": 4,
+   "lim": "Nivel 3 en patologías complejas (enfermedad renal en diálisis, oncológica, hepática avanzada, pediátrica crítica) y en pluripatología o polifarmacia compleja",
+   "tasks": [
+    {
+     "code": "B02'-T1",
+     "t": "Calcular los requerimientos energéticos, proteicos y de micronutrientes críticos",
+     "ent": "1. Prescripción dietoterapéutica"
+    },
+    {
+     "code": "B02'-T2",
+     "t": "Prescribir la dieta terapéutica con su tipo, consistencia, fraccionamiento y restricciones",
+     "ent": "1. Prescripción dietoterapéutica"
+    },
+    {
+     "code": "B02'-T3",
+     "t": "Emitir la orden de dieta del paciente y transmitirla al servicio de dietética",
+     "ent": "1. Prescripción dietoterapéutica"
+    },
+    {
+     "code": "B02'-T4",
+     "t": "Acordar el plan nutricional con el equipo de salud en visitas médicas e interconsultas",
+     "ent": "2. Coordinación clínica"
+    }
+   ],
+   "amb": "Hospitalización",
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque cada paciente hospitalizado recibe un régimen según su patología y su estado nutricional. La Ley 30188 regula las funciones del nutricionista en la atención nutricional [2]; los MOF de Cusco y Huacho organizan áreas de dietoterapia a su cargo [3][4]; y O*NET registra el desarrollo de planes nutricionales como tarea principal [1]. Además, en los hospitales con servicio de alimentación contratado, la prescripción sigue siendo del nutricionista del establecimiento [33]. Ello exige profesionales capaces de calcular requerimientos, prescribir la dieta y coordinarla con el equipo de salud.",
+   "imp": "Medio",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque un ensayo clínico multicéntrico demostró que el soporte nutricional individualizado reduce las complicaciones y la mortalidad de los pacientes hospitalizados en riesgo nutricional [14]. La guía de EsSalud ya recomienda ese soporte según los requerimientos clínicos de cada paciente [29]. Por eso es necesario que el egresado domine la prescripción dietoterapéutica individualizada.",
+   "refs": "[1] [2] [3] [4] [14] [29] [33]",
+   "prod": {
+    "name": "Plan dietoterapéutico hospitalario",
+    "desc": "Prescripción nutricional individual que el servicio ejecuta cada día para cubrir los requerimientos del paciente según su patología. Incluye los requerimientos calculados, el tipo de dieta, la consistencia y textura, el fraccionamiento, las restricciones y los acuerdos con el equipo de salud. Se formula a partir del diagnóstico nutricional, las indicaciones médicas y las guías ESPEN y ASPEN, y se verifica contrastando el aporte con el requerimiento y la bandeja con la prescripción. Define qué y cuánto come el paciente y cuándo ajustar la dieta, y demuestra el dominio de la dietoterapia y del trabajo interdisciplinario.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Prescripción dietoterapéutica",
+      "codes": "B02'-T1, B02'-T2, B02'-T3",
+      "sum": "cálculo, especificación y orden individual de la dieta.",
+      "ev": [
+       "Cálculo de requerimientos energéticos, proteicos y de micronutrientes críticos, con el método y su justificación.",
+       "Prescripción de dieta con tipo, consistencia (IDDSI), fraccionamiento y restricciones.",
+       "Orden de dieta del paciente transmitida a dietética (el control agregado de correspondencia pertenece a B06)."
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Coordinación clínica",
+      "codes": "B02'-T4",
+      "sum": "integración de la prescripción al plan de tratamiento.",
+      "ev": [
+       "Nota de interconsulta o de visita clínica con los acuerdos del equipo."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "B03",
+   "t": "Soporte nutricional enteral hospitalario",
+   "d": "Planifica y monitorea el soporte nutricional enteral del paciente hospitalizado, en interconsulta con el equipo de salud, para prevenir y tratar la desnutrición.",
+   "tipo": "Actual",
+   "conf": 3,
+   "lim": "La indicación de la vía de acceso es médica; en nutrición parenteral solo participa en equipo (nivel 2)",
+   "tasks": [
+    {
+     "code": "B03-T1",
+     "t": "Evaluar la indicación de soporte enteral con los criterios de las guías",
+     "ent": "1. Indicación y formulación"
+    },
+    {
+     "code": "B03-T2",
+     "t": "Coordinar en interconsulta con el equipo de salud la indicación, la vía de acceso y la evolución del soporte",
+     "ent": "1. Indicación y formulación"
+    },
+    {
+     "code": "B03-T3",
+     "t": "Seleccionar la fórmula enteral y calcular el volumen, la velocidad y la progresión",
+     "ent": "1. Indicación y formulación"
+    },
+    {
+     "code": "B03-T4",
+     "t": "Monitorear diariamente la tolerancia digestiva y el aporte recibido frente a la meta",
+     "ent": "2. Monitoreo de tolerancia y adecuación"
+    },
+    {
+     "code": "B03-T5",
+     "t": "Ajustar el esquema de soporte y registrar el motivo del ajuste",
+     "ent": "2. Monitoreo de tolerancia y adecuación"
+    }
+   ],
+   "amb": "Hospitalización · UCI",
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque los pacientes críticos y desnutridos no cubren sus requerimientos por vía oral [9][14]. En 2020 solo existían 21 unidades de soporte nutricional para más de 500 establecimientos, y cada una requiere un nutricionista formado en terapia nutricional [30]. La guía de EsSalud incluye la nutrición enteral entre las opciones de soporte, a cargo de un equipo multidisciplinario [29]. En el MAPRO del Hospital Hipólito Unanue, el soporte se realiza por interconsulta [5]. Ello exige profesionales capaces de indicar, formular y monitorear la terapia enteral.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la brecha de unidades de soporte es amplia y la Asociación Peruana de Terapia Nutricional sostiene que todo hospital de nivel III requiere una [30]. Por eso es necesario que el egresado domine la terapia enteral y el trabajo en equipos de soporte.",
+   "refs": "[5] [7] [9] [14] [29] [30]",
+   "prod": {
+    "name": "Plan de soporte nutricional enteral",
+    "desc": "Esquema de alimentación por sonda u ostomía para el paciente que no cubre sus requerimientos por vía oral, destinado a prevenir y tratar la desnutrición en casos críticos o complejos. Comprende la justificación de la indicación, la fórmula, el volumen, la velocidad, la progresión y el monitoreo de la tolerancia. Se diseña con la evaluación, el diagnóstico, las guías ASPEN y ESPEN y los acuerdos del equipo de soporte, y se verifica con la hoja de monitoreo y el porcentaje de la meta alcanzado. Sustenta el inicio, la progresión, la suspensión o el cambio de fórmula, y demuestra el dominio de la terapia nutricional especializada.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Indicación y formulación",
+      "codes": "B03-T1, B03-T2, B03-T3",
+      "sum": "decisión y diseño del soporte.",
+      "ev": [
+       "Justificación de la indicación con los criterios de las guías.",
+       "Nota de interconsulta con los acuerdos del equipo sobre la indicación, la vía de acceso y la evolución del soporte.",
+       "Esquema de soporte con fórmula, volumen, velocidad y plan de progresión."
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Monitoreo de tolerancia y adecuación",
+      "codes": "B03-T4, B03-T5",
+      "sum": "seguimiento diario del soporte.",
+      "ev": [
+       "Hoja de monitoreo diario con tolerancia digestiva, aporte recibido frente a la meta y complicaciones.",
+       "Registro de ajustes con su motivo."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "N2",
+   "t": "Prevención del síndrome de realimentación",
+   "d": "Identifica el riesgo de síndrome de realimentación antes de iniciar o reiniciar el soporte nutricional y ajusta el aporte para prevenir complicaciones metabólicas.",
+   "tipo": "Actual",
+   "conf": 3,
+   "lim": "La corrección de electrolitos la indica el médico; el egresado identifica el riesgo y propone el aporte progresivo",
+   "tasks": [
+    {
+     "code": "N2-T1",
+     "t": "Clasificar el riesgo de síndrome de realimentación con los criterios de consenso",
+     "ent": "1. Plan de reinicio seguro (entregable único)"
+    },
+    {
+     "code": "N2-T2",
+     "t": "Recomendar al médico tratante la suplementación de tiamina antes de iniciar el aporte, según el consenso",
+     "ent": "1. Plan de reinicio seguro (entregable único)"
+    },
+    {
+     "code": "N2-T3",
+     "t": "Establecer el aporte inicial reducido y su progresión diaria",
+     "ent": "1. Plan de reinicio seguro (entregable único)"
+    },
+    {
+     "code": "N2-T4",
+     "t": "Coordinar con el médico tratante el monitoreo de fósforo, potasio y magnesio",
+     "ent": "1. Plan de reinicio seguro (entregable único)"
+    },
+    {
+     "code": "N2-T5",
+     "t": "Registrar en la historia clínica la clasificación del riesgo, el esquema de aporte y el plan de monitoreo",
+     "ent": "1. Plan de reinicio seguro (entregable único)"
+    }
+   ],
+   "amb": "Hospitalización · UCI",
+   "dem": "Baja",
+   "fd": "Esta función tiene demanda porque reiniciar la alimentación en pacientes desnutridos puede causar hipofosfatemia, arritmias y la muerte, y la desnutrición hospitalaria es frecuente en el país [9]. El consenso de ASPEN define los criterios de riesgo, el aporte inicial y el monitoreo [11], y el panel la describió como práctica habitual en UCI. Ello exige profesionales capaces de clasificar el riesgo y dosificar el reinicio con seguridad.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el consenso internacional ya estandariza la prevención [11]. Además, el Sistema de Gestión de la Calidad en Salud obliga a prevenir los eventos adversos [25], y la brecha de unidades de soporte hace que el nutricionista de sala enfrente estos casos [30]. Por eso es necesario que el egresado domine la prevención de las complicaciones del soporte.",
+   "refs": "[9] [11] [25] [30]",
+   "prod": {
+    "name": "Protocolo individual de prevención del síndrome de realimentación",
+    "desc": "Plan de reinicio seguro de la alimentación en el paciente en riesgo, orientado a prevenir la hipofosfatemia y sus complicaciones. Contiene la clasificación del riesgo, el aporte inicial reducido, la progresión y el monitoreo de electrolitos acordado con el médico. Se elabora con la historia de ingesta, la pérdida de peso, el IMC y los electrolitos basales, aplicando el consenso de ASPEN; precede al plan de soporte (B03), que incorpora su restricción de progresión, y puede construirse sobre un caso simulado estandarizado (ECOE) si no se presenta un caso real. Se verifica con los controles de fósforo, potasio y magnesio y con la ausencia de complicaciones. Fija la velocidad de progresión del aporte y demuestra el dominio de la seguridad en la terapia nutricional.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Plan de reinicio seguro (entregable único)",
+      "codes": "N2-T1, N2-T2, N2-T3, N2-T4, N2-T5",
+      "sum": "evaluación del riesgo y esquema progresivo.",
+      "ev": [
+       "Clasificación del riesgo con los criterios aplicados.",
+       "Esquema de aporte progresivo con metas por día.",
+       "Plan de monitoreo de electrolitos coordinado con el médico tratante.",
+       "Registro en la historia clínica de la clasificación del riesgo, la recomendación de tiamina y el esquema de aporte."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "B05",
+   "t": "Planificación del alta nutricional",
+   "d": "Brinda consejería y entrega la prescripción dietética al alta para dar continuidad al tratamiento nutricional en el hogar.",
+   "tipo": "Actual",
+   "conf": 4,
+   "lim": "Nivel 3 en altas con nutrición enteral domiciliaria o regímenes complejos que exigen capacitar al cuidador (oncológica, renal en diálisis)",
+   "tasks": [
+    {
+     "code": "B05-T1",
+     "t": "Elaborar la guía dietética domiciliaria según el diagnóstico al alta y las condiciones del hogar",
+     "ent": "1. Paquete de alta (entregable único)"
+    },
+    {
+     "code": "B05-T2",
+     "t": "Brindar consejería al paciente y a su familia sobre el plan de alta",
+     "ent": "1. Paquete de alta (entregable único)"
+    },
+    {
+     "code": "B05-T3",
+     "t": "Verificar la comprensión del paciente y la familia con el método de retorno de la explicación",
+     "ent": "1. Paquete de alta (entregable único)"
+    },
+    {
+     "code": "B05-T4",
+     "t": "Programar el control nutricional ambulatorio posterior al alta",
+     "ent": "1. Paquete de alta (entregable único)"
+    }
+   ],
+   "amb": "Hospitalización",
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque el riesgo nutricional predice el reingreso hospitalario a los 30 y a los 180 días del alta [31]. Los MOF de Cusco y Huacho asignan al nutricionista la educación y la indicación dietética al alta [3][4], y O*NET incluye la orientación a pacientes y familias [1]. Ello exige profesionales capaces de preparar al paciente y a su familia para continuar el tratamiento en casa.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la Ley 30885 organiza la atención en Redes Integradas de Salud, que dan continuidad al cuidado entre el hospital y el primer nivel [17]. A ello se suma la extensión de la historia clínica electrónica al primer nivel, que permite compartir el plan de alta [16]. Por eso es necesario que el egresado domine la planificación del alta nutricional.",
+   "refs": "[1] [3] [4] [16] [17] [31]",
+   "prod": {
+    "name": "Plan nutricional de alta",
+    "desc": "Conjunto de indicaciones con que el paciente y su familia continúan el tratamiento nutricional en el hogar, para asegurar la continuidad y prevenir el reingreso. Reúne la guía dietética personalizada, la consejería y las indicaciones de seguimiento. Se prepara con el diagnóstico al alta, las condiciones del hogar y las preferencias de la familia, y se verifica comprobando la comprensión del paciente (método de retorno de la explicación) y con la cita de control. Define si corresponde el seguimiento ambulatorio o la contrarreferencia, y demuestra el dominio de la educación nutricional al paciente.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Paquete de alta (entregable único)",
+      "codes": "B05-T1, B05-T2, B05-T3, B05-T4",
+      "sum": "indicaciones y verificación de su comprensión; la derivación formal se documenta en el producto de N1.",
+      "ev": [
+       "Guía dietética domiciliaria personalizada.",
+       "Registro de la verificación de comprensión del paciente y la familia."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "B10",
+   "t": "Seguimiento nutricional y registro clínico",
+   "d": "Realiza el seguimiento de la evolución nutricional del paciente y ajusta la intervención, documentándola en la historia clínica, para verificar el logro de los objetivos terapéuticos.",
+   "tipo": "Actual",
+   "conf": 4,
+   "lim": "Nivel 3 en UCI, en pacientes inestables y ante cambios mayores de vía o de fórmula",
+   "tasks": [
+    {
+     "code": "B10-T1",
+     "t": "Reevaluar periódicamente el estado nutricional y compararlo con la línea base",
+     "ent": "1. Seguimiento documentado (entregable único)"
+    },
+    {
+     "code": "B10-T2",
+     "t": "Ajustar la intervención nutricional según la evolución del paciente",
+     "ent": "1. Seguimiento documentado (entregable único)"
+    },
+    {
+     "code": "B10-T3",
+     "t": "Registrar la evolución y los ajustes en notas ADIME o SOAP de la historia clínica",
+     "ent": "1. Seguimiento documentado (entregable único)"
+    }
+   ],
+   "amb": "Hospitalización · consulta",
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque la intervención nutricional debe ajustarse según la evolución del paciente. El MOF del Hospital Regional del Cusco exige un monitoreo diario [3]; el MAPRO del Hospital Hipólito Unanue fija la reevaluación y el registro [5]; y el estándar internacional ICDA incluye el monitoreo y la evaluación de resultados [6]. Ello exige profesionales capaces de monitorear, ajustar y documentar la atención.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la Ley 30024 crea el Registro Nacional de Historias Clínicas Electrónicas [15] y la RM 553-2025/MINSA dispone su uso obligatorio en el primer nivel de atención [16]. Así, cada ajuste quedará registrado y será auditable. Por eso es necesario que el egresado domine el seguimiento documentado.",
+   "refs": "[3] [5] [6] [15] [16]",
+   "prod": {
+    "name": "Registro de seguimiento y optimización nutricional",
+    "desc": "Documentación de la evolución nutricional del paciente durante su atención, que permite comprobar si la intervención logra sus objetivos y ajustarla a tiempo. Contiene las notas de evolución, la comparación con la línea base, la reevaluación y los ajustes realizados. Se construye con los controles periódicos y los datos de la historia clínica física o electrónica, y se verifica en la auditoría de historias clínicas y con el cumplimiento de metas; en UCI, la reevaluación metabólica es más frecuente según protocolo. Sustenta la decisión de mantener, ajustar o terminar la intervención, y demuestra el dominio del monitoreo y de la documentación clínica.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Seguimiento documentado (entregable único)",
+      "codes": "B10-T1, B10-T2, B10-T3",
+      "sum": "evolución del paciente y ajustes de la intervención.",
+      "ev": [
+       "Notas de evolución ADIME o SOAP con comparación con la línea base.",
+       "Reevaluación GLIM en los plazos del protocolo.",
+       "Registro de ajustes con su justificación y el resultado obtenido."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "B08",
+   "t": "Consulta nutricional ambulatoria",
+   "d": "Evalúa, diagnostica y prescribe planes de alimentación a personas en consulta externa para prevenir y tratar enfermedades relacionadas con la alimentación.",
+   "tipo": "Actual",
+   "conf": 4,
+   "lim": "Nivel 3, con derivación, en gestantes de alto riesgo, enfermedad renal avanzada, trastornos de la conducta alimentaria, comorbilidad múltiple no controlada, descompensación metabólica aguda y candidatos a cirugía bariátrica",
+   "tasks": [
+    {
+     "code": "B08-T1",
+     "t": "Evaluar el estado nutricional de la persona en consulta con datos antropométricos, dietéticos y de laboratorio",
+     "ent": "1. Evaluación y diagnóstico ambulatorio"
+    },
+    {
+     "code": "B08-T2",
+     "t": "Formular el diagnóstico nutricional en formato PES",
+     "ent": "1. Evaluación y diagnóstico ambulatorio"
+    },
+    {
+     "code": "B08-T3",
+     "t": "Elaborar el plan de alimentación individualizado y analizar su adecuación",
+     "ent": "2. Plan de alimentación y metas"
+    },
+    {
+     "code": "B08-T4",
+     "t": "Acordar con la persona metas medibles y programar los controles",
+     "ent": "2. Plan de alimentación y metas"
+    },
+    {
+     "code": "B08-T5",
+     "t": "Derivar los casos que exceden el alcance de la función",
+     "ent": "2. Plan de alimentación y metas"
+    }
+   ],
+   "amb": "Consulta externa · clínica",
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque, según una nota de prensa del INEI, el 39,9 % de los peruanos de 15 y más años tiene al menos una comorbilidad [37], y las enfermedades no transmisibles se vigilan cada año [19]. El MINSA normó la consulta nutricional para la hipertensión en jóvenes, adultos y adultos mayores [32]; la Ley 30188 (art. 4) incluye la atención nutricional entre las funciones del nutricionista [2]; y la consulta figura en 8 de los 15 avisos laborales revisados [8] y en el MOF de Cusco [3]. Ello exige profesionales capaces de conducir una consulta completa.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la evidencia confirma que la terapia médica nutricional mejora los resultados en las enfermedades crónicas [20]. Además, la Ley Marco de Telesalud permite ofrecer la consulta a distancia [18] y la historia clínica electrónica se extiende al primer nivel [16]. Por eso es necesario que el egresado domine la atención nutricional ambulatoria presencial y a distancia.",
+   "refs": "[2] [3] [8] [16] [18] [19] [20] [32] [37]",
+   "prod": {
+    "name": "Expediente de atención nutricional ambulatoria",
+    "desc": "Registro completo de la atención de una persona en consulta externa para prevenir o tratar enfermedades relacionadas con la alimentación. Reúne la evaluación, el diagnóstico, el plan de alimentación y las metas acordadas. Se elabora con la entrevista, las mediciones, los análisis disponibles y el software de análisis dietético, y se verifica con la adecuación del plan al requerimiento y con el logro de las metas en los controles. Define el tratamiento, la frecuencia de control o la derivación, y demuestra el dominio de la atención nutricional ambulatoria completa.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Evaluación y diagnóstico ambulatorio",
+      "codes": "B08-T1, B08-T2",
+      "sum": "estado nutricional y problema a tratar.",
+      "ev": [
+       "Ficha de consulta con evaluación antropométrica, dietética y de laboratorio.",
+       "Diagnóstico nutricional en formato PES."
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Plan de alimentación y metas",
+      "codes": "B08-T3, B08-T4, B08-T5",
+      "sum": "tratamiento acordado con la persona.",
+      "ev": [
+       "Plan de alimentación individualizado con análisis de su adecuación.",
+       "Metas acordadas, medibles y con plazo.",
+       "Hoja de derivación cuando el caso excede el límite de la función."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "B09'",
+   "t": "Consejería nutricional individual y familiar",
+   "d": "Brinda consejería nutricional individual y familiar para lograr cambios sostenidos en la conducta alimentaria y la adherencia al plan.",
+   "tipo": "Actual",
+   "conf": 4,
+   "lim": "Nivel 3 ante sospecha de trastorno de la conducta alimentaria o comorbilidad psicológica relevante, con derivación a salud mental",
+   "tasks": [
+    {
+     "code": "B09'-T1",
+     "t": "Identificar la etapa de cambio y las barreras y facilitadores de la persona y su familia",
+     "ent": "1. Registro de consejería (entregable único)"
+    },
+    {
+     "code": "B09'-T2",
+     "t": "Aplicar técnicas de entrevista motivacional para acordar objetivos de cambio",
+     "ent": "1. Registro de consejería (entregable único)"
+    },
+    {
+     "code": "B09'-T3",
+     "t": "Registrar la sesión de consejería y los acuerdos",
+     "ent": "1. Registro de consejería (entregable único)"
+    },
+    {
+     "code": "B09'-T4",
+     "t": "Medir la adherencia al plan con un indicador estandarizado",
+     "ent": "1. Registro de consejería (entregable único)"
+    }
+   ],
+   "amb": "Consulta externa · clínica",
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque sin adherencia el plan nutricional no produce resultados [20]. El MINSA la ha normado con la guía técnica de consejería nutricional para la gestante y la puérpera (RM 460-2015/MINSA) [21] y con el documento de consulta nutricional para la hipertensión (RM 763-2022/MINSA) [32]. Los MOF de Cusco y Huacho la asignan al nutricionista [3][4], y O*NET la registra como tarea principal [1]. Ello exige profesionales capaces de conducir el cambio de conducta alimentaria.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque las enfermedades crónicas siguen en aumento [19][37] y su control depende de la adherencia a la terapia nutricional [20]. Las normas del MINSA ya fijan la consejería como prestación en distintas etapas de vida [21][32]. Por eso es necesario que el egresado domine la consejería nutricional.",
+   "refs": "[1] [3] [4] [19] [20] [21] [32] [37]",
+   "prod": {
+    "name": "Plan de consejería para el cambio de conducta alimentaria",
+    "desc": "Intervención conductual que acompaña al plan de alimentación para lograr la adherencia de la persona y de su familia. Comprende el diagnóstico conductual, los objetivos de cambio, las técnicas de consejería y el seguimiento de la adherencia. Se aplica con la entrevista motivacional y el modelo de etapas del cambio, y se verifica con los registros de sesión y los indicadores de adherencia. Orienta la elección de la técnica y la frecuencia de las sesiones, y demuestra el dominio de la comunicación terapéutica.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Registro de consejería (entregable único)",
+      "codes": "B09'-T1, B09'-T2, B09'-T3, B09'-T4",
+      "sum": "disposición al cambio, intervención y efecto, tal como se documentan en la práctica.",
+      "ev": [
+       "Registro de sesión con etapa de cambio, barreras y facilitadores personales y familiares, técnicas aplicadas y acuerdos.",
+       "Seguimiento de la adherencia con un indicador estandarizado (porcentaje de metas cumplidas o escala de adherencia validada)."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "N1",
+   "t": "Referencia y contrarreferencia nutricional",
+   "d": "Deriva y coordina la referencia y contrarreferencia del paciente con otros niveles de atención y profesionales cuando el caso lo requiere, para asegurar la continuidad y seguridad de la atención nutricional.",
+   "tipo": "Transversal",
+   "conf": 4,
+   "lim": "Activa la derivación según protocolo y distingue la derivación urgente de la programada (también por teleinterconsulta); la decisión de traslado es médica",
+   "tasks": [
+    {
+     "code": "N1-T1",
+     "t": "Identificar los criterios de derivación y su carácter urgente o programado",
+     "ent": "1. Derivación documentada (entregable único)"
+    },
+    {
+     "code": "N1-T2",
+     "t": "Elaborar la hoja de referencia con el resumen nutricional del caso",
+     "ent": "1. Derivación documentada (entregable único)"
+    },
+    {
+     "code": "N1-T3",
+     "t": "Coordinar la derivación con el establecimiento o profesional de destino",
+     "ent": "1. Derivación documentada (entregable único)"
+    },
+    {
+     "code": "N1-T4",
+     "t": "Hacer seguimiento del caso y dejar constancia de la contrarreferencia recibida o de la gestión realizada si no llega",
+     "ent": "1. Derivación documentada (entregable único)"
+    }
+   ],
+   "amb": "Todos",
+   "dem": "Baja",
+   "fd": "Esta función tiene demanda porque los casos complejos exceden la capacidad de un solo servicio o nivel de atención. La NT N.° 018-MINSA/DGSP-V.01 regula el sistema de referencia y contrarreferencia para todos los profesionales [24], y la RM 519-2018/MINSA creó una unidad funcional para gestionarlo [27]. Los 6 expertos del panel propusieron incorporarla. Ello exige profesionales capaces de derivar a tiempo y con información completa.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la Ley 30885 organiza la atención en Redes Integradas de Salud [17] y la Ley Marco de Telesalud incorpora la teleinterconsulta entre establecimientos [18]. Así, la derivación será más frecuente y quedará registrada. Por eso es necesario que el egresado domine la derivación oportuna.",
+   "refs": "[17] [18] [24] [27]",
+   "prod": {
+    "name": "Expediente de referencia y contrarreferencia nutricional",
+    "desc": "Documentación que traslada el caso a otro nivel de atención o a otro profesional sin pérdida de información, para asegurar la continuidad y la seguridad de la atención. Incluye el motivo, el resumen nutricional, la coordinación y la respuesta del destino. Se elabora con los formatos del sistema de referencia y contrarreferencia del MINSA (NT N.° 018-MINSA/DGSP-V.01, aprobada por la RM N.° 751-2004/MINSA) o con el protocolo de la institución privada, y se verifica con la recepción y la contrarreferencia registradas; si la contrarreferencia no llega dentro de la rotación, se acepta el seguimiento documentado, justificado por el docente. Define quién continúa la atención y con qué indicaciones, y demuestra el dominio de la articulación en la red de servicios.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Derivación documentada (entregable único)",
+      "codes": "N1-T1, N1-T2, N1-T3, N1-T4",
+      "sum": "referencia y su cierre.",
+      "ev": [
+       "Hoja de referencia con el resumen nutricional, el motivo y el carácter urgente o programado.",
+       "Registro de coordinación y seguimiento, con la contrarreferencia recibida o pendiente justificada."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "B12a",
+   "t": "Práctica nutricional basada en evidencia",
+   "d": "Aplica guías de práctica clínica y evidencia científica actualizada en las decisiones de atención nutricional para mantener la práctica segura y vigente.",
+   "tipo": "Transversal",
+   "conf": 4,
+   "lim": "Nivel 3 para adaptar recomendaciones cuando la evidencia es contradictoria",
+   "tasks": [
+    {
+     "code": "B12a-T1",
+     "t": "Seleccionar la guía de práctica clínica vigente aplicable al caso",
+     "ent": "1. Decisión sustentada (entregable único)"
+    },
+    {
+     "code": "B12a-T2",
+     "t": "Citar en la nota clínica la recomendación aplicada, su fuente y su vigencia",
+     "ent": "1. Decisión sustentada (entregable único)"
+    },
+    {
+     "code": "B12a-T3",
+     "t": "Formular la pregunta PICO y valorar la evidencia en los casos complejos",
+     "ent": "1. Decisión sustentada (entregable único)"
+    }
+   ],
+   "amb": "Todos",
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque las decisiones clínicas deben basarse en guías vigentes. El Seguro Social ya emite guías nacionales de práctica clínica en nutrición [29]; el estándar internacional ICDA exige una práctica basada en evidencia [6]; ACEND la incluye entre las competencias del dietista [28]; y los MOF remiten a protocolos y guías [3][4]. Ello exige profesionales capaces de localizar, valorar y aplicar la evidencia en cada decisión.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque las guías se actualizan con frecuencia, como muestra la revisión quinquenal de GLIM [13], y las bibliotecas de análisis de evidencia se consolidan como apoyo a la decisión clínica [26]. Por eso es necesario que el egresado domine la práctica basada en evidencia.",
+   "refs": "[3] [4] [6] [13] [26] [28] [29]",
+   "prod": {
+    "name": "Sustento de evidencia de la decisión clínica",
+    "desc": "Referencia explícita a la guía o evidencia que respalda una decisión nutricional, incorporada en la nota clínica del caso para asegurar una práctica segura y vigente. Consigna la recomendación aplicada, su fuente y su vigencia; en los casos complejos o con evidencia contradictoria, añade la pregunta clínica y la valoración de la evidencia. Se construye con guías de práctica clínica vigentes y, en casos complejos, con el formato PICO y búsquedas en bases de datos; se verifica con la vigencia de la guía citada y, cuando corresponde, con AGREE II y GRADE. Respalda la conducta ante un caso concreto y demuestra el dominio de la práctica basada en evidencia.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Decisión sustentada (entregable único)",
+      "codes": "B12a-T1, B12a-T2, B12a-T3",
+      "sum": "evidencia que respalda las decisiones de los demás productos.",
+      "ev": [
+       "Cita de la guía o evidencia incorporada en la nota clínica de cada producto de la competencia.",
+       "Análisis PICO con valoración AGREE II o GRADE en un número limitado de casos complejos por rotación (p. ej., dos)."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "B11a",
+   "t": "Aplicación de protocolos e indicadores de calidad",
+   "d": "Aplica los protocolos de atención nutricional del servicio y registra sus indicadores de calidad y seguridad para contribuir a la mejora continua.",
+   "tipo": "Transversal",
+   "conf": 4,
+   "lim": "No modifica protocolos ni aprueba planes correctivos: escala las desviaciones a la jefatura o al comité de calidad",
+   "tasks": [
+    {
+     "code": "B11a-T1",
+     "t": "Aplicar la lista de verificación del protocolo de atención nutricional del servicio",
+     "ent": "1. Reporte de calidad (entregable único)"
+    },
+    {
+     "code": "B11a-T2",
+     "t": "Registrar los indicadores de calidad y seguridad del servicio",
+     "ent": "1. Reporte de calidad (entregable único)"
+    },
+    {
+     "code": "B11a-T3",
+     "t": "Reportar las desviaciones priorizadas a la jefatura o al comité de calidad",
+     "ent": "1. Reporte de calidad (entregable único)"
+    }
+   ],
+   "amb": "Todos",
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque los servicios de salud deben demostrar calidad y seguridad. La Ley 30188 (art. 5) incluye funciones del nutricionista en la gestión de los servicios [2]; el Sistema de Gestión de la Calidad en Salud, aprobado por la RM 519-2006/MINSA, obliga a medir indicadores [25]; y el estándar ICDA incluye la mejora de la calidad [6]. Ello exige profesionales capaces de aplicar protocolos y registrar indicadores.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el MINSA mantiene la acreditación de establecimientos de salud y servicios médicos de apoyo [35] y sigue otorgándola mediante resoluciones ministeriales [36]. Ese proceso exige evidencias de cumplimiento en cada servicio. Por eso es necesario que el egresado domine la gestión de la calidad operativa.",
+   "refs": "[2] [6] [25] [35] [36]",
+   "prod": {
+    "name": "Reporte de cumplimiento de protocolos clínicos e indicadores de calidad",
+    "desc": "Informe periódico sobre la aplicación de los protocolos clínico-nutricionales del servicio, que detecta desvíos y contribuye a la mejora continua. Reúne la verificación del cumplimiento, los indicadores y las desviaciones priorizadas; los indicadores de inocuidad corresponden a N4 (C3). Se elabora con listas de verificación y registros del servicio, y se contrasta con las metas del servicio y con el Sistema de Gestión de la Calidad en Salud. Sirve a la jefatura o al comité de calidad para decidir acciones correctivas, y demuestra el dominio de la calidad operativa.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Reporte de calidad (entregable único)",
+      "codes": "B11a-T1, B11a-T2, B11a-T3",
+      "sum": "cumplimiento de los protocolos y su análisis.",
+      "ev": [
+       "Lista de verificación del protocolo aplicada.",
+       "Tablero de indicadores (p. ej., porcentaje de pacientes tamizados en 48 horas).",
+       "Reporte de desviaciones priorizadas elevado a la jefatura o al comité de calidad."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "B06-C1",
+   "t": "Especificación de regímenes y control de bandejas",
+   "d": "Especifica los regímenes dietoterapéuticos y sus texturas y verifica que cada bandeja corresponda a la prescripción del paciente.",
+   "tipo": "Actual",
+   "conf": 3,
+   "lim": "No asume la planificación de menús, la producción ni la inocuidad microbiológica (C3 y jefatura de dietética)",
+   "tasks": [
+    {
+     "code": "B06-C1-T1",
+     "t": "Aplicar y actualizar las especificaciones nutricionales y de textura de los regímenes según el manual vigente del servicio",
+     "ent": "1. Especificación y control de regímenes (entregable único)"
+    },
+    {
+     "code": "B06-C1-T2",
+     "t": "Verificar diariamente la correspondencia entre la bandeja y la prescripción",
+     "ent": "1. Especificación y control de regímenes (entregable único)"
+    },
+    {
+     "code": "B06-C1-T3",
+     "t": "Registrar las incidencias de aceptación de las dietas",
+     "ent": "1. Especificación y control de regímenes (entregable único)"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque cada hospital produce diariamente dietas terapéuticas. La NTS N.° 103-MINSA/DGSP-V.01, aprobada por la RM 749-2012/MINSA, regula la unidad productora de servicios de nutrición y dietética [22][23]. Los MOF de Cusco y Huacho organizan esa área [3][4], y la función aparece en 4 de los 15 avisos revisados [8]. Ello exige profesionales capaces de especificar los regímenes y controlar su entrega.",
+   "imp": "Medio",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque los hospitales contratan cada vez más la alimentación a concesionarios: el Hospital Santa Rosa licitó en 2024 un servicio para pacientes y personal por S/ 7,5 millones [34]. En estos contratos, el nutricionista del establecimiento conserva la prescripción y valida las dietas cada día [33]. Por eso es necesario que el egresado domine la especificación y el control de los regímenes.",
+   "refs": "[3] [4] [8] [22] [23] [33] [34]",
+   "prod": {
+    "name": "Especificación y control de regímenes dietoterapéuticos del servicio",
+    "desc": "Definición técnica de los regímenes que el servicio puede prescribir y control de su entrega, para que cada prescripción se traduzca en una bandeja correcta. Comprende las especificaciones nutricionales y de textura, el control diario de correspondencia y el registro de incidencias de aceptación. Se elabora con las guías clínicas, el marco IDDSI y el manual vigente del servicio, y se verifica con el porcentaje de correspondencia entre bandeja y prescripción y con las incidencias registradas. Orienta qué régimen prescribir y cuándo proponer la actualización de su especificación, y demuestra el dominio de la dietoterapia aplicada al servicio.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Especificación y control de regímenes (entregable único)",
+      "codes": "B06-C1-T1, B06-C1-T2, B06-C1-T3",
+      "sum": "especificación aplicada y su verificación.",
+      "ev": [
+       "Sección del manual de regímenes del servicio aplicada o actualizada (especificaciones nutricionales y de textura).",
+       "Lista de verificación diaria de correspondencia bandeja-prescripción, con su porcentaje (dato propio, distinto de los indicadores de B11a).",
+       "Registro de incidencias de aceptación de las dietas."
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "refs": [
+  [
+   "[1]",
+   "O*NET OnLine. 29-1031.00 Dietitians and Nutritionists (tareas con índice de importancia)",
+   "https://www.onetonline.org/link/details/29-1031.00",
+   "Verificado"
+  ],
+  [
+   "[2]",
+   "Ley N.° 30188, Ley del Trabajo del Nutricionista (2014)",
+   "https://www.elperulegal.com/2014/05/ley-n-30188.html",
+   "Verificado (texto reproducido; confirmar en El Peruano)"
+  ],
+  [
+   "[3]",
+   "Hospital Regional del Cusco. Manual de Organización y Funciones del Departamento de Nutrición y Dietética",
+   "https://hrcusco.gob.pe/wp-content/uploads/2021/12/MOF_NUTRICION_DIETETICA.pdf",
+   "Verificado"
+  ],
+  [
+   "[4]",
+   "Hospital de Huacho Huaura Oyón. MOF del Departamento de Nutrición",
+   "https://www.hdhuacho.gob.pe/transparencia/gestion/MOF/MOF_%20DPTO_%20NUTRICION.pdf",
+   "Verificado"
+  ],
+  [
+   "[5]",
+   "Hospital Nacional Hipólito Unanue. Manual de Procedimientos (MAPRO) de Nutrición",
+   "https://www.hnhu.gob.pe/transparencia/Datos%20generales/MAPROS/MAPRO-%20Nutrici%C3%B3n.pdf",
+   "Verificado"
+  ],
+  [
+   "[6]",
+   "ICDA. International Competency Standards for Dietitian-Nutritionists",
+   "https://internationaldietetics.org/wp-content/uploads/2023/05/International-Competency-Standards-for-Dietitian-Nutritionists.pdf",
+   "Verificado"
+  ],
+  [
+   "[7]",
+   "DIRESA Cajamarca. Perfil de puesto CAS de nutricionista (soporte nutricional)",
+   "Enlace no conservado",
+   "No verificado: recuperar la convocatoria"
+  ],
+  [
+   "[8]",
+   "Avisos laborales de nutricionista en portales del Perú (15 avisos, septiembre de 2026)",
+   "Registro interno del banco de funciones",
+   "Parcial: ampliar a 30 o más avisos y archivar capturas"
+  ],
+  [
+   "[9]",
+   "Veramendi-Espinoza LE, et al. Prevalencia y factores asociados a desnutrición hospitalaria en un hospital general; Perú, 2012. Nutr Hosp. 2013",
+   "https://scielo.isciii.es/scielo.php?pid=S0212-16112013000400037&script=sci_arttext",
+   "Verificado (46,9 %)"
+  ],
+  [
+   "[10]",
+   "Mariños Cotrina BW. Prevalencia del riesgo de desnutrición y situación de la terapia nutricional en pacientes adultos hospitalizados en Perú. Rev Nutr Clín Metab. 2020",
+   "https://revistanutricionclinicametabolismo.org/index.php/nutricionclinicametabolismo/article/view/28",
+   "Verificado"
+  ],
+  [
+   "[11]",
+   "da Silva JSV, et al. ASPEN Consensus Recommendations for Refeeding Syndrome. Nutr Clin Pract. 2020;35(2):178-195",
+   "https://pubmed.ncbi.nlm.nih.gov/32115791/",
+   "Verificado"
+  ],
+  [
+   "[12]",
+   "Cederholm T, et al. GLIM criteria for the diagnosis of malnutrition. J Cachexia Sarcopenia Muscle. 2019",
+   "https://onlinelibrary.wiley.com/doi/full/10.1002/jcsm.12383",
+   "Verificado"
+  ],
+  [
+   "[13]",
+   "GLIM consensus approach to diagnosis of malnutrition: a 5-year update. 2025",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12053077/",
+   "Verificado"
+  ],
+  [
+   "[14]",
+   "Schuetz P, et al. Individualised nutritional support in medical inpatients at nutritional risk (EFFORT). Lancet. 2019",
+   "https://pubmed.ncbi.nlm.nih.gov/31030981/",
+   "Verificado"
+  ],
+  [
+   "[15]",
+   "Ley N.° 30024, Ley que crea el Registro Nacional de Historias Clínicas Electrónicas",
+   "https://www.gob.pe/institucion/minsa/normas-legales/240527-30024",
+   "Verificado"
+  ],
+  [
+   "[16]",
+   "RM N.° 553-2025/MINSA, que dispone el uso obligatorio de la historia clínica electrónica en el primer nivel de atención",
+   "https://www.gob.pe/institucion/minsa/normas-legales/7098166-553-2025-minsa",
+   "Verificado (también en la nota del MINSA: https://www.gob.pe/institucion/minsa/noticias/1236934-minsa-dispone-uso-obligatorio-de-historias-clinicas-electronicas-en-centros-de-salud-de-primer-nivel-de-atencion)"
+  ],
+  [
+   "[17]",
+   "Ley N.° 30885, Ley que establece la conformación y el funcionamiento de las Redes Integradas de Salud",
+   "https://www.gob.pe/institucion/minsa/normas-legales/235261-30885",
+   "Verificado"
+  ],
+  [
+   "[18]",
+   "Ley N.° 30421, Ley Marco de Telesalud",
+   "https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/192482-30421",
+   "Verificado"
+  ],
+  [
+   "[19]",
+   "INEI. Perú: Enfermedades No Transmisibles y Transmisibles, 2024",
+   "https://www.gob.pe/institucion/inei/informes-publicaciones/6813669-peru-enfermedades-no-transmisibles-y-transmisibles-2024",
+   "Verificado (extraer las cifras del informe)"
+  ],
+  [
+   "[20]",
+   "Academy of Nutrition and Dietetics. The Effectiveness of Medical Nutrition Therapy in Prevention and Treatment of Chronic Disease: A Position Paper. J Acad Nutr Diet. 2025",
+   "https://www.sciencedirect.com/science/article/pii/S2212267225008019",
+   "Verificado"
+  ],
+  [
+   "[21]",
+   "RM N.° 460-2015/MINSA. Guía Técnica: Consejería nutricional en el marco de la atención integral de salud de la gestante y puérpera",
+   "https://docs.bvsalud.org/biblioref/2019/04/964887/rm_460-2015-minsa.pdf",
+   "Verificado"
+  ],
+  [
+   "[22]",
+   "NTS N.° 103-MINSA/DGSP-V.01, Norma Técnica de la UPSS de Nutrición y Dietética",
+   "https://cnp.org.pe/wp-content/uploads/2016/11/NORMA-T%C3%89CNICA-DE-SALUD-DE-LA-UNIDAD-PRODUCTORA-DE-SERVICIOS-DE-SALUD-DE-NUTRICI%C3%93N-Y-DIET%C3%89TICA.pdf",
+   "Verificado"
+  ],
+  [
+   "[23]",
+   "RM N.° 749-2012/MINSA, que aprueba la NTS N.° 103",
+   "https://www.digesa.minsa.gob.pe/NormasLegales/Normas/RM_749_2012_MINSA.pdf",
+   "Verificado"
+  ],
+  [
+   "[24]",
+   "NT N.° 018-MINSA/DGSP-V.01, Norma Técnica del Sistema de Referencia y Contrarreferencia de los establecimientos del MINSA (RM N.° 751-2004/MINSA)",
+   "https://www.gob.pe/institucion/minsa/informes-publicaciones/352888-norma-tecnica-del-sistema-de-referencia-y-contrarreferencia-de-los-establecimientos-del-ministerio-de-salud-n-t-n-018-minsa-dgsp-v-01",
+   "Verificado (resolución aprobatoria en fuente secundaria)"
+  ],
+  [
+   "[25]",
+   "RM N.° 519-2006/MINSA, Documento Técnico «Sistema de Gestión de la Calidad en Salud»",
+   "https://www.gob.pe/institucion/minsa/normas-legales/251477-519-2006-",
+   "Verificado"
+  ],
+  [
+   "[26]",
+   "Academy of Nutrition and Dietetics. Evidence Analysis Library",
+   "https://www.andeal.org/content.cfm?content_code=about:EAL&cid=0&cat=0",
+   "Verificado"
+  ],
+  [
+   "[27]",
+   "RM N.° 519-2018/MINSA, que crea la Unidad Funcional de Referencia y Contrarreferencia",
+   "https://www.elperulegal.com/2018/06/resolucion-ministerial-n-519-2018minsa.html",
+   "Verificado (texto reproducido; confirmar en El Peruano)"
+  ],
+  [
+   "[28]",
+   "ACEND. 2022 Standards – Competencies (CRDN)",
+   "https://nfsc.umd.edu/sites/nfsc.umd.edu/files/files/documents/ACEND%20Standards%202022%20CRDNs.pdf",
+   "Verificado"
+  ],
+  [
+   "[29]",
+   "EsSalud – IETSI. Guía de práctica clínica para el manejo de la desnutrición o el riesgo de desnutrición en el adulto (2021)",
+   "https://gpc-peru.com/gpcda",
+   "Verificado"
+  ],
+  [
+   "[30]",
+   "El Comercio. «En el Perú solo existen 21 unidades de soporte nutricional para más de 500 establecimientos de salud» (27/02/2020), con declaraciones de la Asociación Peruana de Terapia Nutricional",
+   "https://elcomercio.pe/tecnologia/ciencias/en-el-peru-solo-existen-21-unidades-de-soporte-nutricional-para-mas-de-500-establecimientos-de-salud-noticia/",
+   "Verificado (fuente periodística; buscar el registro oficial de unidades)"
+  ],
+  [
+   "[31]",
+   "Nutritional risk predicts readmission within 30 and 180 days after discharge among older adult patients across a broad spectrum of diagnoses. Clin Nutr ESPEN. 2024",
+   "https://pubmed.ncbi.nlm.nih.gov/38777446/",
+   "Verificado (título; resumen no leído)"
+  ],
+  [
+   "[32]",
+   "RM N.° 763-2022/MINSA. Documento Técnico: Consulta nutricional para la prevención y control de la enfermedad hipertensiva de la persona joven, adulta y adulta mayor",
+   "https://busquedas.elperuano.pe/dispositivo/NL/2109188-1",
+   "Verificado"
+  ],
+  [
+   "[33]",
+   "Instituto Nacional de Salud del Niño – San Borja. Términos de referencia del servicio integral de alimentación (2026)",
+   "https://portal.insnsb.gob.pe/logistica/app/1/TDR%20SERVICIO%20INTEGRAL%20DE%20ALIMENTACION.pdf",
+   "Verificado"
+  ],
+  [
+   "[34]",
+   "Hospital Santa Rosa. Servicio de concesionario de alimentos para pacientes y personal de salud (SEACE, 2024)",
+   "https://www.todolicitaciones.pe/licitacion/ocds-dgv273-seacev3-2024-10216-1/servicios-de-alimentacion-para-pacientes-y-personal-de-salud-del-hospital-santa-rosa",
+   "Verificado (agregador de datos del SEACE)"
+  ],
+  [
+   "[35]",
+   "MINSA. Acreditación de establecimientos de salud y servicios médicos de apoyo",
+   "https://www.gob.pe/institucion/minsa/informes-publicaciones/353466-acreditacion-de-establecimientos-de-salud-y-servicios-medicos-de-apoyo",
+   "Verificado (título)"
+  ],
+  [
+   "[36]",
+   "Resolución ministerial que otorga la acreditación al CAP III San Isidro de EsSalud",
+   "https://busquedas.elperuano.pe/dispositivo/NL/2477197-1",
+   "Verificado (título)"
+  ],
+  [
+   "[37]",
+   "INEI. Nota de prensa «El 39,9 % de peruanos de 15 y más años de edad tiene al menos una comorbilidad»",
+   "https://m.inei.gob.pe/prensa/noticias/el-399-de-peruanos-de-15-y-mas-anos-de-edad-tiene-al-menos-una-comorbilidad-12903/",
+   "Verificado (título; confirmar el año de la encuesta)"
+  ]
+ ]
+}

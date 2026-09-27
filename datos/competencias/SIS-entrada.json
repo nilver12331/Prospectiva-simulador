@@ -1,0 +1,172 @@
+{
+ "cod": "SIS",
+ "fecha": "24-09-2026",
+ "regla": "Las especialidades de un mismo grupo se integraron en el momento 5 del paso 1.1 (decisión de escuela): el mercado las contrata en un mismo puesto. La primera de cada grupo es la base.",
+ "grupos": [
+  [
+   {
+    "cod": "SIS-03",
+    "n": "Ciberseguridad y gestión de riesgos digitales",
+    "naturaleza": "seguridad",
+    "descripcion": "Protege la información y los sistemas: evalúa riesgos, detecta, responde a incidentes y sostiene el cumplimiento.",
+    "funciones": "Análisis de riesgos · vulnerabilidades · pruebas de penetración · SOC · respuesta a incidentes · forense · cumplimiento · concientización · continuidad · identidades",
+    "proceso": "Evaluar el riesgo → proteger → detectar → responder → recuperar",
+    "evidencia": "Informe de riesgos y plan de respuesta a incidentes aprobado por la organización",
+    "potencial": null,
+    "modo": {
+     "empleo": "Jefaturas y especialistas en banca, fintech, telecom y Fortinet; Buk 2026 jefe de ciberseguridad mediana S/ 11 380 [E-L11][E-L1]; ~123 ofertas contadas en 2023 [E-B7].",
+     "negocio": "Servicios gestionados de seguridad y consultoras; la SBS exige evaluación independiente con certificaciones internacionales [N-3]."
+    }
+   },
+   {
+    "cod": "SIS-13",
+    "n": "Protección de datos personales y privacidad",
+    "naturaleza": "seguridad",
+    "descripcion": "Diseña e implementa el cumplimiento de datos personales: políticas, controles, incidentes y relación con la autoridad.",
+    "funciones": "Inventario de tratamientos · política de seguridad · gestión de incidentes · derechos ARCO · relación con la ANPDP",
+    "proceso": "Inventariar → diseñar controles → operar → notificar → auditar",
+    "evidencia": "Programa de cumplimiento de datos personales con registro de incidentes y reportes a la autoridad",
+    "potencial": null,
+    "modo": {
+     "empleo": "Figura de Oficial de Datos Personales obligatoria para entidades públicas, tratamientos masivos y datos sensibles (DS 016-2024-JUS art. 37) [N-6]; sin conteo en portales.",
+     "negocio": "Consultoría de cumplimiento compartida con abogados [N-6]."
+    }
+   }
+  ],
+  [
+   {
+    "cod": "SIS-05",
+    "n": "Gestión de proyectos y servicios de TI",
+    "naturaleza": "gestión TI",
+    "descripcion": "Dirige el proyecto tecnológico de principio a fin y opera el servicio bajo acuerdos de nivel.",
+    "funciones": "Planificación · alcance y cambio · dirección de equipos · control · proveedores · ITIL · acuerdos de nivel · mejora continua · reporte",
+    "proceso": "Planificar → dirigir → controlar → entregar → operar el servicio",
+    "evidencia": "Proyecto entregado con acta de cierre y catálogo de servicios operando bajo acuerdos de nivel",
+    "potencial": null,
+    "modo": {
+     "empleo": "Glassdoor 52 avisos «PMO» en Lima; BeBee 598+ «gestión de proyectos»; consultoras buscan jefes de PMO para banca [E-B14]; Estado «Analista Scrum Master» [E-L2].",
+     "negocio": "Consultoría de proyectos por programa y freelance (Freelancermap) [E-B13][E-B14]."
+    }
+   },
+   {
+    "cod": "SIS-12",
+    "n": "Auditoría de sistemas y gobierno de TI",
+    "naturaleza": "gestión TI",
+    "descripcion": "Evalúa controles y riesgos de TI ante el comité de auditoría y sostiene el gobierno de la tecnología.",
+    "funciones": "Auditoría de controles · riesgos de TI · cumplimiento · COBIT · reporte al comité",
+    "proceso": "Planificar la auditoría → evaluar controles → reportar → seguir hallazgos",
+    "evidencia": "Informe de auditoría de sistemas con hallazgos y plan de remediación",
+    "potencial": null,
+    "modo": {
+     "empleo": "Riesgo y cumplimiento de ciberseguridad 70k–100k anuales (Michael Page) [E-B5]; sin conteo de «auditor de sistemas» [E-B14].",
+     "negocio": "Firmas de auditoría y consultoras; la SBS exige evaluación independiente del SGSI con certificaciones internacionales [N-3]."
+    }
+   },
+   {
+    "cod": "SIS-06",
+    "n": "Arquitectura empresarial y transformación digital",
+    "naturaleza": "gestión TI",
+    "descripcion": "Alinea la tecnología con la estrategia: diagnostica la madurez digital y traza la hoja de ruta con su arquitectura objetivo.",
+    "funciones": "Diagnóstico de madurez · alineamiento estrategia–tecnología · arquitectura objetivo · portafolio · gestión del cambio · medición del valor",
+    "proceso": "Diagnosticar → alinear → diseñar la arquitectura → priorizar → medir el valor",
+    "evidencia": "Hoja de ruta de transformación digital aprobada por la alta dirección con su arquitectura objetivo",
+    "potencial": null,
+    "modo": {
+     "empleo": "Sin conteo propio; puestos senior en banca y servicios de transformación; Buk: arquitecto de software S/ 10 850, subgerente TI S/ 12 210, CTO S/ 15 210 [E-L11][E-B14].",
+     "negocio": "Consultoras de transformación digital y arquitectura; ProInnóvate apoya 30 000 pymes/año [P-S]."
+    }
+   }
+  ],
+  [
+   {
+    "cod": "SIS-02",
+    "n": "Ciencia de datos e inteligencia artificial",
+    "naturaleza": "datos",
+    "descripcion": "Convierte datos en decisiones y en modelos que aprenden: gobierna el dato, modela, entrena, evalúa y pone el modelo a operar.",
+    "funciones": "Ingesta · gobierno del dato · modelado · entrenamiento · validación · MLOps · monitoreo · comunicación de resultados · ética algorítmica",
+    "proceso": "Gobernar el dato → modelar → entrenar → evaluar → implantar",
+    "evidencia": "Modelo en producción con su informe de evaluación y su tablero de decisión",
+    "potencial": null,
+    "modo": {
+     "empleo": "LinkedIn Perú «Data Scientist» 844 vacantes [E-B10]; aviso Get on Board «Data Engineer, Lima, híbrido, US$ 1 500–2 500» (18-09-2026) [E-L8].",
+     "negocio": "Consultoras de datos (Bluetab, Artefact) y trabajo remoto en USD; freelance sin cifra [E-L8]."
+    }
+   },
+   {
+    "cod": "SIS-14",
+    "n": "Inteligencia de negocios y analítica empresarial",
+    "naturaleza": "datos",
+    "descripcion": "Construye reportes, tableros y análisis que sostienen decisiones de gerencia.",
+    "funciones": "Modelado de datos · ETL · tableros · indicadores · análisis descriptivo",
+    "proceso": "Integrar → modelar → visualizar → analizar",
+    "evidencia": "Tablero de indicadores en operación con su modelo de datos documentado",
+    "potencial": null,
+    "modo": {
+     "empleo": "LinkedIn «Business Intelligence Analyst» 64–148 empleos [E-B12]; Buk jefe de BI mediana S/ 8 000 [E-L11].",
+     "negocio": "Consultoría de analítica y tableros [E-L8]."
+    }
+   }
+  ],
+  [
+   {
+    "cod": "SIS-04",
+    "n": "Infraestructura en la nube y DevOps",
+    "naturaleza": "infraestructura",
+    "descripcion": "Diseña y automatiza la plataforma donde corre el software: nube, contenedores, pipelines y observabilidad.",
+    "funciones": "Arquitectura cloud · infraestructura como código · contenedores · CI/CD · observabilidad · costos · automatización · respaldo",
+    "proceso": "Diseñar la plataforma → automatizar → operar → observar → optimizar",
+    "evidencia": "Plataforma operando con infraestructura como código, pipelines y tablero de observabilidad",
+    "potencial": null,
+    "modo": {
+     "empleo": "Aviso Valtx «Especialista de Infraestructura Cloud – AWS»: DevOps, CI/CD, FinOps, «planilla completa desde el primer día» [E-B8]; Estado «Especialista en infraestructura tecnológica» S/ 11 000 [E-L2].",
+     "negocio": "Consultoras cloud (Valtx, Bluetab) y servicios gestionados [E-B8]."
+    }
+   },
+   {
+    "cod": "SIS-11",
+    "n": "Redes y telecomunicaciones",
+    "naturaleza": "infraestructura",
+    "descripcion": "Diseña y opera la red que conecta a la organización: equipos, seguridad perimetral y disponibilidad.",
+    "funciones": "Diseño de redes · configuración · seguridad perimetral · comunicaciones unificadas · monitoreo · soporte físico",
+    "proceso": "Diseñar la red → implementar → operar → asegurar la disponibilidad",
+    "evidencia": "Red operando con su documentación y sus indicadores de disponibilidad",
+    "potencial": null,
+    "modo": {
+     "empleo": "Avisos de Fortinet («Systems Engineer»), Bitel e Inetum en LinkedIn [E-L1]; sin conteo propio.",
+     "negocio": "Integradores y contratistas de redes; servicios a minería [P-L11]."
+    }
+   }
+  ],
+  [
+   {
+    "cod": "SIS-01",
+    "n": "Desarrollo de software e ingeniería de aplicaciones",
+    "naturaleza": "desarrollo",
+    "descripcion": "Construye el software que una organización usa: levanta requisitos, diseña, programa, prueba y lo pone en producción.",
+    "funciones": "Requisitos · modelado · arquitectura · backend · frontend · integración de APIs · pruebas · revisión de código · CI/CD · despliegue · mantenimiento · documentación",
+    "proceso": "Analizar → diseñar → construir → verificar → desplegar",
+    "evidencia": "Software desplegado en producción con su repositorio, pruebas automatizadas y documentación",
+    "potencial": null,
+    "modo": {
+     "empleo": "Estado: «Especialista en desarrollo de sistemas» S/ 10 000–11 000 y «Analista programador» recurrentes en 2 089 vacantes públicas [E-L2]; LinkedIn «Desarrollador» 311 avisos [E-B12].",
+     "negocio": "Fábricas de software y outsourcing (BairesDev, Inetum, Encora) y consultoras propias; oferta remota en USD [E-L1][E-L8][E-B13]."
+    }
+   },
+   {
+    "cod": "SIS-09",
+    "n": "Análisis funcional y de sistemas de información",
+    "naturaleza": "desarrollo",
+    "descripcion": "Traduce las necesidades del negocio en requerimientos y especificaciones para los equipos de desarrollo.",
+    "funciones": "Levantamiento · modelado de procesos · especificación · casos de uso · pruebas de aceptación · gestión del cambio",
+    "proceso": "Relevar → especificar → validar → acompañar la construcción",
+    "evidencia": "Documento de especificación de requisitos aprobado y casos de aceptación",
+    "potencial": null,
+    "modo": {
+     "empleo": "Secciones «analista funcional» activas; banca (Scotiabank), industria y Estado convocan «Analista de Sistemas» [E-B9][E-L1][E-L2].",
+     "negocio": "Complemento de ingresos por encargo; sin evidencia de negocio escalable."
+    }
+   }
+  ]
+ ],
+ "menciones": []
+}

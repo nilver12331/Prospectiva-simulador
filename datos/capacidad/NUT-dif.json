@@ -1,0 +1,189 @@
+{
+ "cod": "NUT",
+ "indicador": "dif",
+ "fecha": "24-09-2026",
+ "universidades_revisadas": 25,
+ "nota": "25 revisadas: 18 con plan leído (13 Perú, 5 extranjero), 2 sin acceso (UCSS malla en imagen; Javeriana Bogotá servidor con error), 5 sin carrera de Nutrición en pregrado (UNSAAC, UNSM, UNT, UPAO, UCSM). 'de' = 18 planes leídos. Cuenta solo mención, línea, énfasis, bloque o internado/práctica terminal con el nombre de la especialidad; el curso suelto no cuenta.",
+ "items": [
+  {
+   "cod": "NUT-01",
+   "nivel": 1,
+   "declaran": 12,
+   "de": 18,
+   "quienes": [
+    "UNMSM · especialidad de desempeño Nutrición clínica + PPP IX en nutrición clínica y servicios de alimentación (2024)",
+    "UPC · bloque Nutrición Clínica 15 cr. / 480 h, ciclo 8 (2026)",
+    "USIL · mención Nutrición Clínica (2026)",
+    "Científica del Sur · Internado en Nutrición Clínica, ciclo 10 (2025)",
+    "Norbert Wiener · bloque curricular Prácticas Clínicas y Profesionales (2024)",
+    "UPCH · bloque de ciclo IX Nutrición Clínica (2025)",
+    "UCV · Internado Clínico, ciclo X (2025)",
+    "UNA Puno · Internado de Nutrición Clínica, ciclo IX (2023)",
+    "U. de Chile · Práctica Profesional Clínica, 15 cr. (v15)",
+    "Javeriana Cali · Énfasis en Nutrición Clínica (2024)",
+    "UBA · Prácticas de Dietoterapia y Administración de Servicios de Alimentación, 5.º año",
+    "U. de Antioquia · área clínica (2025)"
+   ],
+   "sustento": "12 de 18 planes formalizan la clínica como mención, bloque o internado terminal; los otros 6 (UNFV, UNIFÉ, ULCB, UNSA, UTP, UCM) la dictan solo como cursos de dietoterapia con internado sin nombre. Saturada.",
+   "fuentes": [
+    {"t": "UNMSM, Facultad de Medicina. (2024). Plan Curricular 2024 – Escuela Profesional de Nutrición [PDF]", "u": "https://medicina.unmsm.edu.pe/wp-content/uploads/2021/06/RESOLUCION-RECTORAL-002757-2024-R-ANEXO.pdf", "fecha": "24-09-2026"},
+    {"t": "UPC. (2025). Malla curricular Nutrición y Dietética – Pregrado 2026 [PDF]", "u": "https://upc-cdn.b-cdn.net/transparencia/mallas-curriculares/pregrado/2026/NUTRICION%20Y%20DIETETICA%20PREGRADO%20FDM.pdf", "fecha": "24-09-2026"},
+    {"t": "USIL. (2026). Malla curricular de Nutrición y Dietética en USIL", "u": "https://blogs.usil.edu.pe/facultad-ciencias-de-salud/nutricion-y-dietetica/malla-curricular-nutricion-cursos-plan-estudios", "fecha": "23-09-2026"},
+    {"t": "Universidad Científica del Sur. (2025). Nutrición y Dietética – malla curricular [PDF]", "u": "https://www.cientifica.edu.pe/wp-content/uploads/2023/10/malla-carrera-nutricion-dietetica.pdf", "fecha": "24-09-2026"},
+    {"t": "Universidad Norbert Wiener. (2023). Nutrición y Dietética – brochure con malla 2024-I [PDF]", "u": "https://www.uwiener.edu.pe/wp-content/uploads/2023/09/Brochure_Nutricion_Set2023-min.pdf", "fecha": "24-09-2026"},
+    {"t": "UPCH. (2025). Nutrición – carrera de pregrado", "u": "https://cayetano.edu.pe/pregrado/carreras/nutricion/", "fecha": "24-09-2026"},
+    {"t": "UCV. (2025). Malla curricular D – Nutrición (P25)", "u": "https://catalogo.uvcv.edu.pe/frames/pregrado/presencial/MD/malla_d_P25.html", "fecha": "24-09-2026"},
+    {"t": "UNA Puno. (2023). Estructura del Plan de Estudios de Nutrición Humana [PDF]", "u": "https://transparencia.unap.edu.pe/web/wp-content/uploads/2023/12/PLAN-DE-ESTUDIOS-NUTRICION-HUMANA.pdf", "fecha": "24-09-2026"},
+    {"t": "Universidad de Chile, Facultad de Medicina. (s. f.). Malla curricular Nutrición y Dietética v15", "u": "https://ucampus.uchile.cl/m/medicina_catalogo/mallas?carr_codigo=240", "fecha": "24-09-2026"},
+    {"t": "Pontificia Universidad Javeriana Cali. (2024). Carrera en Nutrición y Dietética – plan de estudios [PDF]", "u": "https://www.javerianacali.edu.co/media/485/download", "fecha": "24-09-2026"},
+    {"t": "UBA, Facultad de Medicina. (s. f.). Licenciatura en Nutrición – Información 5.º año", "u": "https://www.fmed.uba.ar/carreras/licenciatura-en-nutricion/informacion-5to-ano", "fecha": "24-09-2026"},
+    {"t": "Universidad de Antioquia. (s. f.). Escuela de Nutrición y Dietética", "u": "https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/nutricion-dietetica", "fecha": "23-09-2026"}
+   ]
+  },
+  {
+   "cod": "NUT-02",
+   "nivel": 2,
+   "declaran": 5,
+   "de": 18,
+   "quienes": [
+    "UNMSM · especialidad de desempeño Servicios de alimentación colectiva + PPP IX (2024)",
+    "USIL · práctica preprofesional por área servicios de alimentación (2026)",
+    "U. de Chile · Práctica Profesional en Gestión de Servicios de Alimentación Colectiva, 15 cr. (v15)",
+    "UBA · Prácticas de Dietoterapia y Administración de Servicios de Alimentación, 5.º año",
+    "U. de Antioquia · área servicios de alimentación (2025)"
+   ],
+   "sustento": "5 de 18 la formalizan como especialidad o práctica terminal. Científica del Sur tiene bloque Tecnología y Seguridad Alimentaria (18 cr.) y perfil de gerencia alimentaria, parcial; otras 12 dictan solo el curso de gestión de servicios.",
+   "fuentes": [
+    {"t": "UNMSM, Facultad de Medicina. (2024). Plan Curricular 2024 – Escuela Profesional de Nutrición [PDF]", "u": "https://medicina.unmsm.edu.pe/wp-content/uploads/2021/06/RESOLUCION-RECTORAL-002757-2024-R-ANEXO.pdf", "fecha": "24-09-2026"},
+    {"t": "USIL. (2026). Malla curricular de Nutrición y Dietética en USIL", "u": "https://blogs.usil.edu.pe/facultad-ciencias-de-salud/nutricion-y-dietetica/malla-curricular-nutricion-cursos-plan-estudios", "fecha": "23-09-2026"},
+    {"t": "Universidad de Chile, Facultad de Medicina. (s. f.). Malla curricular Nutrición y Dietética v15", "u": "https://ucampus.uchile.cl/m/medicina_catalogo/mallas?carr_codigo=240", "fecha": "24-09-2026"},
+    {"t": "UBA, Facultad de Medicina. (s. f.). Licenciatura en Nutrición – Información 5.º año", "u": "https://www.fmed.uba.ar/carreras/licenciatura-en-nutricion/informacion-5to-ano", "fecha": "24-09-2026"},
+    {"t": "Universidad de Antioquia. (s. f.). Escuela de Nutrición y Dietética", "u": "https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/nutricion-dietetica", "fecha": "23-09-2026"},
+    {"t": "Universidad Científica del Sur. (2025). Nutrición y Dietética – malla curricular [PDF]", "u": "https://www.cientifica.edu.pe/wp-content/uploads/2023/10/malla-carrera-nutricion-dietetica.pdf", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "NUT-03",
+   "nivel": 1,
+   "declaran": 11,
+   "de": 18,
+   "quienes": [
+    "UNMSM · especialidades Nutrición pública y Nutrición comunitaria + PPP X en nutrición pública (2024)",
+    "UPC · Práctica Nutricional Pública + bloque Nutrición en Comunidad 10 cr., ciclo 10 (2026)",
+    "USIL · mención Nutrición Pública (2026)",
+    "Científica del Sur · Internado en Nutrición Pública, ciclo 10 (2025)",
+    "Norbert Wiener · bloque curricular Gestión y Salud Pública (2024)",
+    "UPCH · bloque de ciclo IX Nutrición Pública (2025)",
+    "UCV · Internado Comunitario, ciclo IX (2025)",
+    "UNA Puno · Internado de Nutrición Comunitaria y Promoción de la Salud, ciclo X (2023)",
+    "U. de Chile · Práctica Profesional en Atención Primaria de Salud, 15 cr. (v15)",
+    "UBA · Área Nutrición Comunitaria + Prácticas de Nutrición en Salud Pública, 5.º año",
+    "U. de Antioquia · área salud pública/comunitaria (2025)"
+   ],
+   "sustento": "11 de 18 la formalizan como mención, bloque, área o internado; UNFV, UNIFÉ, ULCB, UNSA, UTP, Javeriana Cali y UCM la dictan como cursos (Nutrición comunitaria, Salud pública). Saturada junto con la clínica.",
+   "fuentes": [
+    {"t": "UNMSM, Facultad de Medicina. (2024). Plan Curricular 2024 – Escuela Profesional de Nutrición [PDF]", "u": "https://medicina.unmsm.edu.pe/wp-content/uploads/2021/06/RESOLUCION-RECTORAL-002757-2024-R-ANEXO.pdf", "fecha": "24-09-2026"},
+    {"t": "UPC. (2025). Malla curricular Nutrición y Dietética – Pregrado 2026 [PDF]", "u": "https://upc-cdn.b-cdn.net/transparencia/mallas-curriculares/pregrado/2026/NUTRICION%20Y%20DIETETICA%20PREGRADO%20FDM.pdf", "fecha": "24-09-2026"},
+    {"t": "USIL. (2026). Malla curricular de Nutrición y Dietética en USIL", "u": "https://blogs.usil.edu.pe/facultad-ciencias-de-salud/nutricion-y-dietetica/malla-curricular-nutricion-cursos-plan-estudios", "fecha": "23-09-2026"},
+    {"t": "Universidad Científica del Sur. (2025). Nutrición y Dietética – malla curricular [PDF]", "u": "https://www.cientifica.edu.pe/wp-content/uploads/2023/10/malla-carrera-nutricion-dietetica.pdf", "fecha": "24-09-2026"},
+    {"t": "Universidad Norbert Wiener. (2023). Nutrición y Dietética – brochure con malla 2024-I [PDF]", "u": "https://www.uwiener.edu.pe/wp-content/uploads/2023/09/Brochure_Nutricion_Set2023-min.pdf", "fecha": "24-09-2026"},
+    {"t": "UPCH. (2025). Nutrición – carrera de pregrado", "u": "https://cayetano.edu.pe/pregrado/carreras/nutricion/", "fecha": "24-09-2026"},
+    {"t": "UCV. (2025). Malla curricular D – Nutrición (P25)", "u": "https://catalogo.uvcv.edu.pe/frames/pregrado/presencial/MD/malla_d_P25.html", "fecha": "24-09-2026"},
+    {"t": "UNA Puno. (2023). Estructura del Plan de Estudios de Nutrición Humana [PDF]", "u": "https://transparencia.unap.edu.pe/web/wp-content/uploads/2023/12/PLAN-DE-ESTUDIOS-NUTRICION-HUMANA.pdf", "fecha": "24-09-2026"},
+    {"t": "Universidad de Chile, Facultad de Medicina. (s. f.). Malla curricular Nutrición y Dietética v15", "u": "https://ucampus.uchile.cl/m/medicina_catalogo/mallas?carr_codigo=240", "fecha": "24-09-2026"},
+    {"t": "UBA, Facultad de Medicina. (s. f.). Licenciatura en Nutrición – Plan de estudios", "u": "https://www.fmed.uba.ar/carreras/licenciatura-en-nutricion/plan-de-estudios", "fecha": "24-09-2026"},
+    {"t": "Universidad de Antioquia. (s. f.). Escuela de Nutrición y Dietética", "u": "https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/nutricion-dietetica", "fecha": "23-09-2026"}
+   ]
+  },
+  {
+   "cod": "NUT-04",
+   "nivel": 4,
+   "declaran": 0,
+   "de": 18,
+   "quienes": [],
+   "sustento": "0 de 18 la declaran como mención, línea o internado. 14 la dictan como curso suelto: UNFV, UPC, Científica, UNIFÉ, ULCB, Wiener, UCV, UNA Puno, UNSA, U. de Chile, Javeriana Cali, UBA, UCM (materno infantil, dietoterapia del niño, pediátrica).",
+   "fuentes": [
+    {"t": "UNFV, Facultad de Medicina Hipólito Unanue. (s. f.). Plan de estudios – Nutrición [PDF]", "u": "https://www.unfv.edu.pe/transparencia_universitaria/informacion_academica/plan_estudio/pregrado/fmhu_nut_p.pdf", "fecha": "24-09-2026"},
+    {"t": "UPC. (2025). Malla curricular Nutrición y Dietética – Pregrado 2026 [PDF]", "u": "https://upc-cdn.b-cdn.net/transparencia/mallas-curriculares/pregrado/2026/NUTRICION%20Y%20DIETETICA%20PREGRADO%20FDM.pdf", "fecha": "24-09-2026"},
+    {"t": "Universidad Le Cordon Bleu. (2024). Resolución 015-CU-ULCB-2024 – Planes de pregrado, Anexo 7 Nutrición y Dietética [PDF]", "u": "https://ulcb.edu.pe/wp-content/uploads/2026/03/RESOLUCION-015-CU-ULCB-2024-PLANES-PREGRADO-Modificados.pdf", "fecha": "24-09-2026"},
+    {"t": "UNSA, Facultad de Ciencias Biológicas. (2025). Plan de Estudios 2025 – Ciencias de la Nutrición", "u": "https://fcb.unsa.edu.pe/nutricion/plan-de-estudios/", "fecha": "24-09-2026"},
+    {"t": "Universidad Complutense de Madrid. (2026). Grado en Nutrición Humana y Dietética – plan de estudios [PDF]", "u": "https://www.ucm.es/data/cont/docs/titulaciones/62.pdf", "fecha": "24-09-2026"},
+    {"t": "Universidad de Chile, Facultad de Medicina. (s. f.). Nutrición y Dietética – plan de formación", "u": "https://medicina.uchile.cl/carreras/5014/nutricion-y-dietetica", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "NUT-07",
+   "nivel": 3,
+   "declaran": 3,
+   "de": 18,
+   "quienes": [
+    "U. Le Cordon Bleu · Diploma de especialidad en Tecnología de los Alimentos (electivos de lácteos, cárnicos, frutas, fermentaciones) (2024)",
+    "Javeriana Cali · Énfasis en Industria de Alimentos y Gastronomía, con Fundamentos para el desarrollo de nuevos productos alimenticios (2024)",
+    "U. de Antioquia · área tecnología de alimentos y análisis sensorial (2025)"
+   ],
+   "sustento": "3 de 18 la formalizan como diploma, énfasis o área; Científica del Sur tiene bloque Tecnología y Seguridad Alimentaria (18 cr.) sin desarrollo de productos; 11 dictan solo Tecnología de alimentos como curso. Ninguna peruana la declara como mención.",
+   "fuentes": [
+    {"t": "Universidad Le Cordon Bleu. (2024). Resolución 015-CU-ULCB-2024 – Planes de pregrado, Anexo 7 Nutrición y Dietética [PDF]", "u": "https://ulcb.edu.pe/wp-content/uploads/2026/03/RESOLUCION-015-CU-ULCB-2024-PLANES-PREGRADO-Modificados.pdf", "fecha": "24-09-2026"},
+    {"t": "Pontificia Universidad Javeriana Cali. (2024). Carrera en Nutrición y Dietética – plan de estudios [PDF]", "u": "https://www.javerianacali.edu.co/media/485/download", "fecha": "24-09-2026"},
+    {"t": "Universidad de Antioquia. (s. f.). Escuela de Nutrición y Dietética", "u": "https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/nutricion-dietetica", "fecha": "23-09-2026"},
+    {"t": "Universidad Científica del Sur. (2025). Nutrición y Dietética – malla curricular [PDF]", "u": "https://www.cientifica.edu.pe/wp-content/uploads/2023/10/malla-carrera-nutricion-dietetica.pdf", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "NUT-08",
+   "nivel": 4,
+   "declaran": 0,
+   "de": 18,
+   "quienes": [],
+   "sustento": "0 de 18. Ningún plan de pregrado nombra obesidad ni cirugía bariátrica como mención, línea o curso; solo aparece en formación continua (Científica del Sur, curso Nutrición Bariátrica) y en UPCH como electivo genérico de patologías de gran prevalencia.",
+   "fuentes": [
+    {"t": "Universidad Científica del Sur, Formación Continua. (s. f.). Nutrición Bariátrica [posgrado/educación continua, no pregrado]", "u": "https://formacioncontinua.cientifica.edu.pe/nutricion/nutricion-bariatrica", "fecha": "24-09-2026"},
+    {"t": "UPCH. (2015). Plan de estudios P004 – Nutrición (resumen) [PDF]", "u": "https://s3.amazonaws.com/upch-vracad-planes-de-estudio/PREGRADO/plandeestudiop004-facien-nutricion_resumen.pdf", "fecha": "24-09-2026"},
+    {"t": "UNMSM, Facultad de Medicina. (2024). Plan Curricular 2024 – Escuela Profesional de Nutrición [PDF]", "u": "https://medicina.unmsm.edu.pe/wp-content/uploads/2021/06/RESOLUCION-RECTORAL-002757-2024-R-ANEXO.pdf", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "NUT-09",
+   "nivel": 4,
+   "declaran": 0,
+   "de": 18,
+   "quienes": [],
+   "sustento": "0 de 18. Ningún plan nombra nutrición ocupacional, salud del trabajador ni minería como mención, línea, práctica o curso; solo Wiener y Científica citan Fuerzas Armadas o empresas como campo laboral, sin componente curricular.",
+   "fuentes": [
+    {"t": "Universidad Norbert Wiener. (2023). Nutrición y Dietética – brochure con malla 2024-I [PDF]", "u": "https://www.uwiener.edu.pe/wp-content/uploads/2023/09/Brochure_Nutricion_Set2023-min.pdf", "fecha": "24-09-2026"},
+    {"t": "UNMSM, Facultad de Medicina. (2024). Plan Curricular 2024 – Escuela Profesional de Nutrición [PDF]", "u": "https://medicina.unmsm.edu.pe/wp-content/uploads/2021/06/RESOLUCION-RECTORAL-002757-2024-R-ANEXO.pdf", "fecha": "24-09-2026"},
+    {"t": "UNSA, Facultad de Ciencias Biológicas. (2025). Plan de Estudios 2025 – Ciencias de la Nutrición", "u": "https://fcb.unsa.edu.pe/nutricion/plan-de-estudios/", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "NUT-10",
+   "nivel": 4,
+   "declaran": 0,
+   "de": 18,
+   "quienes": [],
+   "sustento": "0 de 18 la declaran como mención o línea. 4 la dictan como curso suelto: UNMSM (Gestión en políticas públicas y programas), UNA Puno (Políticas públicas y programas alimentario nutricionales), ULCB (políticas públicas en alimentación), UBA (electivo Política alimentaria).",
+   "fuentes": [
+    {"t": "UNMSM, Facultad de Medicina. (2024). Plan Curricular 2024 – Escuela Profesional de Nutrición [PDF]", "u": "https://medicina.unmsm.edu.pe/wp-content/uploads/2021/06/RESOLUCION-RECTORAL-002757-2024-R-ANEXO.pdf", "fecha": "24-09-2026"},
+    {"t": "UNA Puno. (2023). Estructura del Plan de Estudios de Nutrición Humana [PDF]", "u": "https://transparencia.unap.edu.pe/web/wp-content/uploads/2023/12/PLAN-DE-ESTUDIOS-NUTRICION-HUMANA.pdf", "fecha": "24-09-2026"},
+    {"t": "Universidad Le Cordon Bleu. (2024). Resolución 015-CU-ULCB-2024 – Planes de pregrado, Anexo 7 Nutrición y Dietética [PDF]", "u": "https://ulcb.edu.pe/wp-content/uploads/2026/03/RESOLUCION-015-CU-ULCB-2024-PLANES-PREGRADO-Modificados.pdf", "fecha": "24-09-2026"},
+    {"t": "UBA, Facultad de Medicina. (s. f.). Licenciatura en Nutrición – Información 5.º año", "u": "https://www.fmed.uba.ar/carreras/licenciatura-en-nutricion/informacion-5to-ano", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "NUT-14",
+   "nivel": 4,
+   "declaran": 0,
+   "de": 18,
+   "quienes": [],
+   "sustento": "0 de 18 la declaran como mención, línea o internado. 6 la dictan como curso suelto de dietoterapia del adulto mayor o geriátrica: UNFV, Wiener, UCV, U. de Chile, UCM y Javeriana Cali; el resto la integra en dietoterapia.",
+   "fuentes": [
+    {"t": "UNFV, Facultad de Medicina Hipólito Unanue. (s. f.). Plan de estudios – Nutrición [PDF]", "u": "https://www.unfv.edu.pe/transparencia_universitaria/informacion_academica/plan_estudio/pregrado/fmhu_nut_p.pdf", "fecha": "24-09-2026"},
+    {"t": "Universidad Norbert Wiener. (2023). Nutrición y Dietética – brochure con malla 2024-I [PDF]", "u": "https://www.uwiener.edu.pe/wp-content/uploads/2023/09/Brochure_Nutricion_Set2023-min.pdf", "fecha": "24-09-2026"},
+    {"t": "UCV. (2025). Malla curricular D – Nutrición (P25)", "u": "https://catalogo.uvcv.edu.pe/frames/pregrado/presencial/MD/malla_d_P25.html", "fecha": "24-09-2026"},
+    {"t": "Universidad de Chile, Facultad de Medicina. (s. f.). Nutrición y Dietética – plan de formación", "u": "https://medicina.uchile.cl/carreras/5014/nutricion-y-dietetica", "fecha": "24-09-2026"},
+    {"t": "Universidad Complutense de Madrid. (2026). Grado en Nutrición Humana y Dietética – plan de estudios [PDF]", "u": "https://www.ucm.es/data/cont/docs/titulaciones/62.pdf", "fecha": "24-09-2026"},
+    {"t": "Pontificia Universidad Javeriana Cali. (2024). Carrera en Nutrición y Dietética – plan de estudios [PDF]", "u": "https://www.javerianacali.edu.co/media/485/download", "fecha": "24-09-2026"}
+   ]
+  }
+ ]
+}

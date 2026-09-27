@@ -1,0 +1,907 @@
+{
+ "cod": "SIS",
+ "k": "E3",
+ "especialidad": "Ciencia de datos, inteligencia artificial e inteligencia de negocios",
+ "competencia": "C3",
+ "proposito": "Construir soluciones de datos, analítica e inteligencia artificial que integran y gobiernan el dato de la organización, lo modelan, validan e implantan en producción bajo principios de calidad, ética algorítmica y protección de datos personales, para que la gerencia y los procesos automatizados decidan con evidencia confiable.",
+ "fuentes": {
+  "O": 6,
+  "N": 9,
+  "M": 85,
+  "P": 9,
+  "A": 0,
+  "D": 0,
+  "avisos_revisados": 80,
+  "nota": "O: O*NET 15-2051.00, 15-2051.01 y 15-1243.01 (tareas con importancia); ESCO 2511.3, 2511.2 y 2511.10 (leídos vía API oficial de ESCO). N: Ley 31814, DS 115-2025-PCM, RM 152-2026-PCM (ENIA 2026-2030, texto de El Peruano; el anexo con la hoja de ruta no se leyó), DS 016-2024-JUS, RM 049-2026-PCM (vía nota de TVPerú, no se leyó la norma), Directiva 001-2022-PCM/SGTD, nota PCM sobre la PNDA, Res. SBS 00053-2023 y una convocatoria CAS (Hospital General de Jaén, vía convocatoriascas.com). M: 94 avisos recogidos en 13 búsquedas de Computrabajo Perú el 25-09-2026; 80 pertinentes leídos completos y codificados por función; más 5 estudios (APOYO/Gestión, La República, CCL/Forbes, WEF 2025). P: SFIA 9 (DENG, DATM, BINT, VISL, DAAN, DATS, MLNG), ACM CCDS 2021 y DAMA-DMBOK. No se pudieron leer: páginas gob.pe del reglamento y de la ENIA (HTTP 418), iso.org para ISO/IEC 42001 (403), página de LP Derecho (403; se leyó su PDF), perfiles CAS de SERVIR/Talento Perú para científico de datos (no se halló ninguno). No se usaron las capacidades."
+ },
+ "funciones": [
+  {
+   "c": "E3-01",
+   "t": "Integración y preparación de datos organizacionales",
+   "d": "Construir y mantener los flujos que extraen, transforman, integran y cargan los datos de fuentes heterogéneas de la organización, para disponer de conjuntos confiables y oportunos para el análisis y los modelos.",
+   "fclave": "Gobernar e integrar el dato de la organización",
+   "tipo": "Actual",
+   "amb": "Empresas de todos los sectores, banca y microfinanzas, consultoras de datos, entidades públicas y equipos remotos",
+   "evid": "O,M,P",
+   "unica": false,
+   "frec": "35 de 80 avisos",
+   "conf": 3,
+   "lim": "Construye flujos estándar sobre una arquitectura ya definida; el diseño de la plataforma de datos corporativa y los cambios sobre sistemas fuente críticos quedan bajo supervisión de un ingeniero o arquitecto de datos.",
+   "tasks": [
+    {
+     "code": "E3-01-T1",
+     "t": "Inventariar las fuentes de datos internas y externas con su estructura y periodicidad",
+     "ent": "1. Flujos de integración de datos en operación"
+    },
+    {
+     "code": "E3-01-T2",
+     "t": "Construir flujos de extracción, transformación y carga de datos",
+     "ent": "1. Flujos de integración de datos en operación"
+    },
+    {
+     "code": "E3-01-T3",
+     "t": "Limpiar, normalizar y enriquecer los conjuntos de datos",
+     "ent": "2. Conjunto analítico preparado y documentado"
+    },
+    {
+     "code": "E3-01-T4",
+     "t": "Programar y monitorear la ejecución de los flujos de datos",
+     "ent": "1. Flujos de integración de datos en operación"
+    },
+    {
+     "code": "E3-01-T5",
+     "t": "Documentar las reglas de transformación y el origen de cada dato",
+     "ent": "2. Conjunto analítico preparado y documentado"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque las empresas peruanas requieren unas 3 800 posiciones de datos frente a unos 1 100 egresados anuales, y el ingeniero de datos representa el 16 % de esos equipos [25]. O*NET y SFIA ubican el desarrollo de procesos de extracción, transformación y carga entre las tareas centrales del especialista en almacenes de datos y de la ingeniería de datos [3] [15]. En el mercado peruano, 35 de 80 avisos revisados piden construir flujos de carga o integrar fuentes [28] [30] [37]. Ello exige profesionales capaces de integrar fuentes heterogéneas en conjuntos de datos confiables y oportunos.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la Estrategia Nacional de Gobierno de Datos 2026-2030 obliga a las entidades públicas a aprobar planes de acción de gobierno de datos [11], y la ENIA condiciona los planes de inteligencia artificial a ese requisito [9]. Además, el Foro Económico Mundial ubica a los especialistas en grandes datos entre los empleos de mayor crecimiento al 2030 [24]. Por eso es necesario que el egresado domine el gobierno y la integración del dato de la organización.",
+   "refs": "[3] [4] [9] [11] [15] [22] [24] [25] [28] [30] [37]",
+   "prod": {
+    "name": "Flujo de integración de datos con su conjunto analítico preparado",
+    "desc": "Flujo de integración de datos que extrae la información de sistemas transaccionales, archivos y servicios externos y la entrega depurada, integrada y lista para el análisis o el entrenamiento de modelos. Integra el inventario de fuentes, las reglas de transformación, los procesos programados de carga y el conjunto analítico resultante con su documentación de origen. Se elabora a partir de los requerimientos de datos del área usuaria y se verifica con pruebas de conteo, conciliación contra la fuente y registros de ejecución sin errores. Orienta la decisión sobre qué datos son confiables para alimentar tableros y modelos, y demuestra que el egresado integra fuentes heterogéneas con calidad y oportunidad.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Flujos de integración de datos en operación",
+      "codes": "E3-01-T1, E3-01-T2, E3-01-T4",
+      "sum": "inventario de fuentes, flujos construidos y su programación con registros de ejecución",
+      "ev": [
+       "Flujo ejecutado sin errores con su registro de corridas",
+       "Conciliación de conteos entre fuente y destino"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Conjunto analítico preparado y documentado",
+      "codes": "E3-01-T3, E3-01-T5",
+      "sum": "datos depurados, normalizados y enriquecidos con sus reglas de transformación y su origen",
+      "ev": [
+       "Informe de perfilado antes y después de la limpieza",
+       "Documento de reglas de transformación y origen por campo"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-02",
+   "t": "Diseño de almacenes analíticos de datos",
+   "d": "Diseñar e implementar modelos dimensionales, almacenes y mercados de datos que consoliden la información de la organización en una fuente única y consistente para la inteligencia de negocios.",
+   "fclave": "Gobernar e integrar el dato de la organización",
+   "tipo": "Actual",
+   "amb": "Inteligencia de negocios y analítica empresarial (ámbito); retail y consumo masivo, salud privada, banca, inmobiliarias y entidades públicas",
+   "evid": "O,M,P",
+   "unica": false,
+   "frec": "22 de 80 avisos",
+   "conf": 3,
+   "lim": "Diseña modelos dimensionales de alcance departamental; la arquitectura corporativa de datos y la elección de plataforma se validan con el arquitecto de datos.",
+   "tasks": [
+    {
+     "code": "E3-02-T1",
+     "t": "Identificar los procesos de negocio, hechos y dimensiones que requieren análisis",
+     "ent": "1. Modelo dimensional documentado"
+    },
+    {
+     "code": "E3-02-T2",
+     "t": "Diseñar el modelo dimensional del almacén o mercado de datos",
+     "ent": "1. Modelo dimensional documentado"
+    },
+    {
+     "code": "E3-02-T3",
+     "t": "Implementar las estructuras del almacén y sus cargas incrementales",
+     "ent": "2. Almacén de datos en operación verificado"
+    },
+    {
+     "code": "E3-02-T4",
+     "t": "Verificar la exactitud y consistencia de los datos cargados frente a las fuentes",
+     "ent": "2. Almacén de datos en operación verificado"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque las áreas de analítica peruanas crecieron de 19 a 26 profesionales en promedio entre 2024 y 2025, y necesitan una fuente única de datos para sus reportes [26]. O*NET asigna importancia 86 al diseño de procesos del almacén y a la verificación de su calidad [3], y SFIA pide a la inteligencia de negocios asegurar una única fuente de verdad [17]. En el mercado local, 22 de 80 avisos piden modelado dimensional, almacenes o mercados de datos [29]. Ello exige profesionales capaces de diseñar almacenes analíticos consistentes y verificables.",
+   "imp": "Medio",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el Foro Económico Mundial proyecta a los especialistas en almacenes de datos entre los empleos de más rápido crecimiento al 2030 [24]. Además, la Estrategia Nacional de Gobierno de Datos exige planes de acción que ordenen los datos del Estado como activos estratégicos [11]. Por eso es necesario que el egresado domine el gobierno y la integración del dato de la organización.",
+   "refs": "[3] [11] [17] [23] [24] [26] [29]",
+   "prod": {
+    "name": "Mercado de datos dimensional de un proceso de negocio",
+    "desc": "Mercado de datos dimensional que consolida en una estructura de hechos y dimensiones la información de un proceso de negocio, como ventas, atenciones o colocaciones, para su consulta analítica. Integra la matriz de procesos y dimensiones, el modelo lógico y físico, las tablas cargadas con su historial y el diccionario de indicadores. Se elabora desde las preguntas de negocio del área usuaria y se verifica con cuadres contra los sistemas fuente y pruebas de rendimiento de las consultas. Orienta qué indicadores se calculan de forma única en la organización y demuestra que el egresado modela datos para el análisis con consistencia.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Modelo dimensional documentado",
+      "codes": "E3-02-T1, E3-02-T2",
+      "sum": "matriz de procesos y dimensiones con el modelo lógico y físico del almacén",
+      "ev": [
+       "Diagrama del modelo dimensional con granularidad declarada",
+       "Matriz de procesos de negocio y dimensiones validada por el usuario"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Almacén de datos en operación verificado",
+      "codes": "E3-02-T3, E3-02-T4",
+      "sum": "estructuras implementadas, cargas incrementales y pruebas de cuadre contra las fuentes",
+      "ev": [
+       "Reporte de cuadre de totales entre almacén y sistema fuente",
+       "Consultas analíticas de prueba con sus tiempos de respuesta"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-03",
+   "t": "Gobierno, calidad y protección del dato",
+   "d": "Implementar las políticas, roles, metadatos, controles de calidad y medidas de protección de datos personales que aseguran que los datos de la organización sean confiables, trazables y tratados conforme a la ley.",
+   "fclave": "Gobernar e integrar el dato de la organización",
+   "tipo": "Emergente",
+   "amb": "Protección de datos personales; entidades públicas (Oficial de Gobierno de Datos), banca, salud, inmobiliarias y consultoras",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "21 de 80 avisos",
+   "conf": 3,
+   "lim": "Implementa controles y documentación dentro del modelo de gobierno aprobado; la designación como Oficial de Datos Personales u Oficial de Gobierno de Datos y la interpretación legal corresponden a roles con experiencia y respaldo jurídico.",
+   "tasks": [
+    {
+     "code": "E3-03-T1",
+     "t": "Elaborar el glosario de negocio, el catálogo de metadatos y el linaje de los datos",
+     "ent": "1. Catálogo de datos con glosario y linaje"
+    },
+    {
+     "code": "E3-03-T2",
+     "t": "Definir reglas e indicadores de calidad de datos por dominio",
+     "ent": "2. Tablero de calidad de datos"
+    },
+    {
+     "code": "E3-03-T3",
+     "t": "Monitorear la calidad de los datos y dar seguimiento a los planes de corrección",
+     "ent": "2. Tablero de calidad de datos"
+    },
+    {
+     "code": "E3-03-T4",
+     "t": "Clasificar los datos personales y sensibles y proponer sus medidas de protección",
+     "ent": "3. Matriz de clasificación y protección de datos personales"
+    },
+    {
+     "code": "E3-03-T5",
+     "t": "Preparar y publicar conjuntos de datos abiertos con sus metadatos",
+     "ent": "1. Catálogo de datos con glosario y linaje"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque el Reglamento de la Ley 29733 obliga a notificar los incidentes de seguridad de datos personales dentro de 48 horas y a designar un Oficial de Datos Personales en los supuestos que fija, como el tratamiento principal de datos sensibles [10]. La Directiva 001-2022-PCM/SGTD encarga al Oficial de Gobierno de Datos asegurar la calidad, integridad y trazabilidad de los datos [12], y SFIA y DAMA describen esta gestión como disciplina profesional [16] [23]. En el mercado, 21 de 80 avisos piden gobierno, calidad, metadatos o linaje [35]. Ello exige profesionales capaces de asegurar datos confiables, trazables y protegidos.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la ENIA exige que las entidades aprueben su plan de gobierno de datos antes de su plan de inteligencia artificial y publiquen sus conjuntos de datos y metadatos en el Catálogo IA Perú [9]. Además, la Plataforma Nacional de Datos Abiertos ya supera los 4 000 conjuntos de datos publicados por 350 entidades [13]. Por eso es necesario que el egresado domine el gobierno y la integración del dato de la organización.",
+   "refs": "[5] [9] [10] [12] [13] [16] [23] [35]",
+   "prod": {
+    "name": "Programa de gobierno y calidad de datos de un dominio",
+    "desc": "Programa de gobierno y calidad de datos que establece, para un dominio de información de la organización, quién responde por cada dato, qué significa, de dónde viene, con qué calidad se entrega y cómo se protege. Integra el catálogo con glosario y linaje, las reglas e indicadores de calidad con su tablero de seguimiento y la matriz de clasificación de datos personales con sus controles. Se elabora con los dueños de procesos siguiendo marcos como DAMA-DMBOK y la Directiva del Oficial de Gobierno de Datos, y se verifica con mediciones periódicas de calidad y una revisión de cumplimiento del Reglamento de la Ley 29733. Orienta las decisiones de corrección, publicación y acceso a los datos, y demuestra que el egresado gobierna el dato con rigor y responsabilidad.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Catálogo de datos con glosario y linaje",
+      "codes": "E3-03-T1, E3-03-T5",
+      "sum": "glosario de negocio, metadatos, linaje y conjuntos publicados como datos abiertos",
+      "ev": [
+       "Catálogo con definiciones aprobadas por los dueños de datos",
+       "Conjunto de datos abiertos publicado con su ficha de metadatos"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Tablero de calidad de datos",
+      "codes": "E3-03-T2, E3-03-T3",
+      "sum": "reglas e indicadores de calidad por dominio con su seguimiento y planes de corrección",
+      "ev": [
+       "Tablero con indicadores de completitud, exactitud y oportunidad",
+       "Registro de incidencias de calidad con su estado de corrección"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Matriz de clasificación y protección de datos personales",
+      "codes": "E3-03-T4",
+      "sum": "inventario de datos personales y sensibles con su base legal y medidas de protección",
+      "ev": [
+       "Matriz de datos personales revisada por el responsable del banco de datos"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-04",
+   "t": "Tableros de indicadores para la gestión",
+   "d": "Diseñar, construir y mantener tableros de indicadores y reportes que muestren a la gerencia el desempeño de los procesos, para que las decisiones se tomen sobre información oportuna y confiable.",
+   "fclave": "Convertir los datos en decisiones de gestión",
+   "tipo": "Actual",
+   "amb": "Inteligencia de negocios y analítica empresarial (ámbito); áreas comerciales, financieras, operativas y de salud, entidades públicas y trabajo remoto",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "61 de 80 avisos",
+   "conf": 4,
+   "lim": "Construye y mantiene tableros sin supervisión en áreas definidas; los indicadores estratégicos corporativos se acuerdan con la gerencia usuaria y el acceso a datos sensibles requiere autorización del dueño del dato.",
+   "tasks": [
+    {
+     "code": "E3-04-T1",
+     "t": "Levantar con el usuario las preguntas de gestión y los indicadores requeridos",
+     "ent": "1. Fichas técnicas de indicadores"
+    },
+    {
+     "code": "E3-04-T2",
+     "t": "Definir la ficha técnica de cada indicador con su fórmula, fuente y meta",
+     "ent": "1. Fichas técnicas de indicadores"
+    },
+    {
+     "code": "E3-04-T3",
+     "t": "Diseñar y construir el tablero con visualizaciones adecuadas al público",
+     "ent": "2. Tablero de gestión publicado"
+    },
+    {
+     "code": "E3-04-T4",
+     "t": "Automatizar la actualización del tablero y dar soporte a sus usuarios",
+     "ent": "2. Tablero de gestión publicado"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque 61 de 80 avisos peruanos revisados piden construir tableros o reportes de indicadores, la tarea más frecuente del barrido [28] [29]. O*NET asigna importancia 91 a generar reportes para ejecutivos y 84 a mantener tableros y herramientas de inteligencia de negocios [2], y SFIA reconoce la inteligencia de negocios y la visualización como habilidades de nivel inicial [17] [18]. En el sector público, las convocatorias CAS piden analistas de datos con reportes en herramientas de visualización [38]. Ello exige profesionales capaces de diseñar tableros de indicadores confiables para la gerencia.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la Directiva del Oficial de Gobierno de Datos exige garantizar la toma de decisiones basada en datos en cada entidad pública [12], y la ENIA pide planes con indicadores de eficiencia y eficacia [9]. Además, el analista de datos concentra el 35 % de los equipos de datos del país [25]. Por eso es necesario que el egresado domine la conversión de los datos en decisiones de gestión.",
+   "refs": "[2] [4] [9] [12] [17] [18] [25] [28] [29] [38]",
+   "prod": {
+    "name": "Tablero de gestión con fichas técnicas de indicadores",
+    "desc": "Tablero de gestión que presenta en una sola vista los indicadores clave de un proceso o unidad, con filtros y alertas que permiten a la gerencia seguir el cumplimiento de sus metas. Integra las fichas técnicas de los indicadores, las visualizaciones diseñadas para su público y la conexión automatizada con el almacén o las fuentes de datos. Se elabora en ciclos de prototipo con los usuarios y se verifica cuadrando cada indicador contra la fuente y comprobando su actualización programada. Orienta decisiones de seguimiento y corrección de la gestión, y demuestra que el egresado traduce datos en información útil para el decisor.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Fichas técnicas de indicadores",
+      "codes": "E3-04-T1, E3-04-T2",
+      "sum": "preguntas de gestión e indicadores con fórmula, fuente, periodicidad y meta",
+      "ev": [
+       "Fichas técnicas firmadas por el área usuaria"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Tablero de gestión publicado",
+      "codes": "E3-04-T3, E3-04-T4",
+      "sum": "tablero con visualizaciones, filtros y actualización automática en operación",
+      "ev": [
+       "Tablero publicado con su actualización programada",
+       "Cuadre de cada indicador contra la fuente",
+       "Acta de conformidad del usuario"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-05",
+   "t": "Análisis de datos para decisiones de negocio",
+   "d": "Analizar datos comerciales, operativos y del entorno para identificar tendencias, causas y oportunidades, y recomendar a la gerencia acciones sustentadas en evidencia.",
+   "fclave": "Convertir los datos en decisiones de gestión",
+   "tipo": "Actual",
+   "amb": "Inteligencia de negocios y analítica empresarial (ámbito); inteligencia comercial, trade marketing, finanzas, salud, educación y sector público",
+   "evid": "O,M,P",
+   "unica": false,
+   "frec": "54 de 80 avisos",
+   "conf": 3,
+   "lim": "Formula análisis y recomendaciones; la decisión corresponde a la gerencia y los análisis con impacto financiero significativo se revisan con un analista senior.",
+   "tasks": [
+    {
+     "code": "E3-05-T1",
+     "t": "Traducir un problema de gestión en preguntas analíticas y variables medibles",
+     "ent": "1. Análisis diagnóstico documentado"
+    },
+    {
+     "code": "E3-05-T2",
+     "t": "Explorar los datos para identificar tendencias, patrones y causas",
+     "ent": "1. Análisis diagnóstico documentado"
+    },
+    {
+     "code": "E3-05-T3",
+     "t": "Contrastar hipótesis con técnicas estadísticas apropiadas",
+     "ent": "1. Análisis diagnóstico documentado"
+    },
+    {
+     "code": "E3-05-T4",
+     "t": "Redactar el informe de hallazgos con recomendaciones accionables",
+     "ent": "2. Informe ejecutivo de recomendaciones"
+    },
+    {
+     "code": "E3-05-T5",
+     "t": "Presentar los resultados a públicos no técnicos",
+     "ent": "2. Informe ejecutivo de recomendaciones"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque la demanda de especialistas en datos en el Perú creció 40 %, y las empresas priorizan a quienes convierten hallazgos analíticos en decisiones [26]. O*NET asigna importancia 79 a recomendar soluciones basadas en datos y 78 a identificar problemas de negocio abordables con análisis [1], y ESCO incluye interpretar datos e informar resultados entre las habilidades esenciales del analista de datos [5]. En el mercado, 54 de 80 avisos piden analizar tendencias o proponer mejoras [28]. Ello exige profesionales capaces de convertir datos en recomendaciones accionables para la gerencia.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el Foro Económico Mundial ubica a los analistas de inteligencia de negocios y a los analistas y científicos de datos entre los roles con mayor crecimiento al 2030 [24]. Además, solo 14 % de las empresas peruanas usa inteligencia artificial y 23 % la está implementando, lo que amplía la analítica previa a la automatización [27]. Por eso es necesario que el egresado domine la conversión de los datos en decisiones de gestión.",
+   "refs": "[1] [2] [5] [19] [24] [26] [27] [28]",
+   "prod": {
+    "name": "Informe analítico de diagnóstico con recomendaciones",
+    "desc": "Informe analítico de diagnóstico que responde a una pregunta de gestión, como la caída de ventas de un canal o el ausentismo de pacientes, con evidencia cuantitativa y recomendaciones priorizadas. Integra la formulación del problema, el análisis exploratorio, las pruebas estadísticas, las visualizaciones clave y una narrativa ejecutiva que declara las limitaciones del análisis. Se elabora con código reproducible sobre datos documentados y se verifica con revisión de pares y contraste de los resultados con el área usuaria. Orienta la decisión de la gerencia sobre qué acción tomar y demuestra que el egresado convierte datos en recomendaciones sustentadas.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Análisis diagnóstico documentado",
+      "codes": "E3-05-T1, E3-05-T2, E3-05-T3",
+      "sum": "formulación del problema, exploración de datos y pruebas estadísticas en código reproducible",
+      "ev": [
+       "Cuaderno de análisis reproducible",
+       "Resultados de las pruebas de hipótesis con su interpretación"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe ejecutivo de recomendaciones",
+      "codes": "E3-05-T4, E3-05-T5",
+      "sum": "hallazgos, recomendaciones priorizadas y limitaciones presentadas a la gerencia",
+      "ev": [
+       "Informe ejecutivo con recomendaciones priorizadas",
+       "Presentación a la gerencia con registro de acuerdos"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-06",
+   "t": "Modelos predictivos para procesos de negocio",
+   "d": "Formular problemas de negocio como problemas de predicción o clasificación y construir, entrenar y calibrar modelos de aprendizaje automático que anticipen comportamientos de clientes, riesgos o demanda.",
+   "fclave": "Construir y validar modelos que aprenden",
+   "tipo": "Actual",
+   "amb": "Banca, microfinanzas y seguros; retail; salud; educación; telecomunicaciones; consultoras y equipos remotos",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "23 de 80 avisos",
+   "conf": 3,
+   "lim": "Construye y calibra modelos con técnicas establecidas bajo supervisión indirecta; los modelos de uso de riesgo alto (crédito, salud, selección de personal) requieren revisión independiente antes de usarse.",
+   "tasks": [
+    {
+     "code": "E3-06-T1",
+     "t": "Formular el problema de negocio como problema predictivo con su métrica de éxito",
+     "ent": "1. Modelo predictivo entrenado y seleccionado"
+    },
+    {
+     "code": "E3-06-T2",
+     "t": "Construir y seleccionar variables a partir de los datos disponibles",
+     "ent": "1. Modelo predictivo entrenado y seleccionado"
+    },
+    {
+     "code": "E3-06-T3",
+     "t": "Entrenar y ajustar modelos alternativos de aprendizaje automático",
+     "ent": "1. Modelo predictivo entrenado y seleccionado"
+    },
+    {
+     "code": "E3-06-T4",
+     "t": "Comparar los modelos con métricas de desempeño y seleccionar el adecuado",
+     "ent": "1. Modelo predictivo entrenado y seleccionado"
+    },
+    {
+     "code": "E3-06-T5",
+     "t": "Documentar el modelo con sus supuestos, datos y limitaciones",
+     "ent": "2. Ficha técnica del modelo"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque el científico de datos representa el 24 % de los equipos de datos del país y la brecha estimada supera las 2 700 posiciones [25]. O*NET asigna importancia 81 a probar y validar modelos y 76 a compararlos con métricas estadísticas [1], y SFIA describe el aprendizaje automático como diseño, entrenamiento y optimización de modelos [21]. En el mercado, 23 de 80 avisos piden modelos predictivos o aprendizaje automático, como la fábrica de modelos de una caja municipal [32]. Ello exige profesionales capaces de construir modelos predictivos útiles para el negocio.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el Foro Económico Mundial reporta que 86 % de los empleadores espera que la inteligencia artificial y el procesamiento de información transformen su negocio al 2030 [24]. Además, el Reglamento de la Ley 31814 califica como de riesgo alto los modelos de crédito, salud y selección de personal, y exige transparencia y supervisión humana [8]. Por eso es necesario que el egresado domine la construcción y validación de modelos que aprenden.",
+   "refs": "[1] [4] [8] [20] [21] [22] [24] [25] [32]",
+   "prod": {
+    "name": "Modelo predictivo con su ficha técnica",
+    "desc": "Modelo predictivo que estima la probabilidad de un evento de negocio, como la morosidad de un cliente, la deserción de un estudiante o la demanda de un producto, para priorizar acciones. Integra la formulación del problema, la tabla de variables, el código de entrenamiento versionado, la comparación de modelos alternativos y la ficha técnica con supuestos y limitaciones. Se elabora con partición de datos de entrenamiento y prueba, y se verifica con métricas de desempeño, validación cruzada y pruebas sobre datos no vistos. Orienta decisiones de focalización y asignación de recursos, y demuestra que el egresado modela problemas reales con rigor estadístico.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Modelo predictivo entrenado y seleccionado",
+      "codes": "E3-06-T1, E3-06-T2, E3-06-T3, E3-06-T4",
+      "sum": "formulación del problema, tabla de variables, modelos entrenados y comparación de desempeño",
+      "ev": [
+       "Código de entrenamiento versionado",
+       "Tabla comparativa de métricas sobre datos de prueba"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Ficha técnica del modelo",
+      "codes": "E3-06-T5",
+      "sum": "propósito, datos, supuestos, métricas y limitaciones del modelo seleccionado",
+      "ev": [
+       "Ficha técnica revisada por el líder de analítica"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-07",
+   "t": "Asistentes inteligentes para procesos organizacionales",
+   "d": "Desarrollar e integrar asistentes y agentes basados en modelos de lenguaje que consultan la información de la organización y automatizan tareas, para mejorar la atención y la eficiencia de los procesos.",
+   "fclave": "Construir y validar modelos que aprenden",
+   "tipo": "Emergente",
+   "amb": "Atención al cliente, banca, construcción, logística, educación y áreas de innovación; consultoras y equipos remotos",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "10 de 80 avisos",
+   "conf": 2,
+   "lim": "Desarrolla prototipos y soluciones acotadas bajo supervisión directa; el uso con datos personales o en decisiones de riesgo alto requiere aprobación del responsable de datos y supervisión humana.",
+   "tasks": [
+    {
+     "code": "E3-07-T1",
+     "t": "Identificar casos de uso de asistentes inteligentes con su valor y riesgo",
+     "ent": "1. Ficha de caso de uso priorizado"
+    },
+    {
+     "code": "E3-07-T2",
+     "t": "Preparar la base de conocimiento de la organización para su consulta por el asistente",
+     "ent": "2. Asistente inteligente integrado y evaluado"
+    },
+    {
+     "code": "E3-07-T3",
+     "t": "Construir el asistente con recuperación de información y control de respuestas",
+     "ent": "2. Asistente inteligente integrado y evaluado"
+    },
+    {
+     "code": "E3-07-T4",
+     "t": "Integrar el asistente con los sistemas y canales de la organización",
+     "ent": "2. Asistente inteligente integrado y evaluado"
+    },
+    {
+     "code": "E3-07-T5",
+     "t": "Evaluar la exactitud y seguridad de las respuestas del asistente con usuarios",
+     "ent": "2. Asistente inteligente integrado y evaluado"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque 10 de 80 avisos peruanos revisados piden desarrollar asistentes, agentes o soluciones con modelos de lenguaje, y el ingeniero de inteligencia artificial figura entre los perfiles más buscados [26] [33] [36] [39]. ESCO incluye el procesamiento del lenguaje natural entre las habilidades esenciales del diseñador de sistemas inteligentes [6], y el Reglamento de la Ley 31814 exige informar a los usuarios la finalidad del sistema y mantener supervisión humana [8]. Ello exige profesionales capaces de integrar asistentes inteligentes útiles, seguros y supervisados.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la ENIA exige a las entidades públicas planes de acción de inteligencia artificial ejecutados por equipos técnicos de datos e inteligencia artificial [9]. Además, 51 % de las empresas peruanas considera adoptar inteligencia artificial en el futuro y 23 % ya la está implementando [27]. Por eso es necesario que el egresado domine la construcción y validación de modelos que aprenden.",
+   "refs": "[6] [7] [8] [9] [26] [27] [31] [33] [36] [39]",
+   "prod": {
+    "name": "Asistente inteligente integrado a un proceso",
+    "desc": "Asistente inteligente que responde consultas o ejecuta tareas de un proceso de la organización, como la atención de clientes o la búsqueda de normativa interna, apoyándose en una base de conocimiento propia. Integra la ficha del caso de uso, la base de conocimiento preparada, la lógica de recuperación y control de respuestas, las integraciones con sistemas y el protocolo de supervisión humana. Se elabora de forma iterativa con usuarios reales y se verifica con un banco de preguntas de prueba, métricas de exactitud y pruebas de respuestas inseguras o inventadas. Orienta la decisión de escalar o retirar la solución, y demuestra que el egresado aplica inteligencia artificial con criterio de valor y riesgo.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Ficha de caso de uso priorizado",
+      "codes": "E3-07-T1",
+      "sum": "problema, valor esperado, datos involucrados y riesgos del caso de uso",
+      "ev": [
+       "Ficha de caso de uso aprobada por el dueño del proceso"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Asistente inteligente integrado y evaluado",
+      "codes": "E3-07-T2, E3-07-T3, E3-07-T4, E3-07-T5",
+      "sum": "base de conocimiento, asistente construido, integraciones y resultados de evaluación",
+      "ev": [
+       "Asistente operando en un canal real o piloto",
+       "Banco de preguntas de prueba con su tasa de aciertos",
+       "Protocolo de supervisión humana"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-08",
+   "t": "Validación técnica y ética de modelos",
+   "d": "Evaluar el desempeño, la robustez, el sesgo y la explicabilidad de los modelos antes y después de su uso, y documentar su riesgo, para que la organización cumpla la regulación y confíe en sus decisiones automatizadas.",
+   "fclave": "Construir y validar modelos que aprenden",
+   "tipo": "Emergente",
+   "amb": "Banca, microfinanzas y seguros (riesgo de modelo); salud; educación; selección de personal; programas sociales; entidades públicas y auditoría",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "4 de 80 avisos",
+   "conf": 2,
+   "lim": "Ejecuta pruebas y documenta resultados bajo supervisión directa; la validación independiente exigida por la SBS y el dictamen sobre sistemas de riesgo alto corresponden a validadores con experiencia e independencia del desarrollador.",
+   "tasks": [
+    {
+     "code": "E3-08-T1",
+     "t": "Diseñar el plan de pruebas del modelo con métricas adecuadas al problema",
+     "ent": "1. Informe de validación del modelo"
+    },
+    {
+     "code": "E3-08-T2",
+     "t": "Medir el desempeño y la robustez del modelo con datos independientes",
+     "ent": "1. Informe de validación del modelo"
+    },
+    {
+     "code": "E3-08-T3",
+     "t": "Evaluar el sesgo del modelo entre grupos de población",
+     "ent": "1. Informe de validación del modelo"
+    },
+    {
+     "code": "E3-08-T4",
+     "t": "Documentar la explicabilidad y las limitaciones del modelo para el usuario",
+     "ent": "2. Expediente de transparencia y riesgo del sistema"
+    },
+    {
+     "code": "E3-08-T5",
+     "t": "Clasificar el nivel de riesgo del sistema según la norma aplicable",
+     "ent": "2. Expediente de transparencia y riesgo del sistema"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque el Reglamento de la Ley 31814 clasifica como de riesgo alto siete usos, entre ellos la evaluación crediticia, la selección de personal y el diagnóstico de salud, y exige transparencia algorítmica y supervisión humana [8]. La SBS exige validar los modelos antes de aprobarlos y de forma periódica, con informes de monitoreo al menos anuales [14]. O*NET asigna importancia 81 a validar modelos [1] y SFIA incluye evaluar su equidad y sesgo [21], aunque solo 4 de 80 avisos lo piden de forma explícita [34]. Ello exige profesionales capaces de validar técnica y éticamente los modelos.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque las obligaciones del Reglamento de la Ley 31814 alcanzan al sector privado de salud, educación, justicia, seguridad, economía y finanzas en el primer año, y a los demás sectores de forma escalonada hasta el cuarto [8]. Además, la ENIA encarga al Oficial de Inteligencia Artificial supervisar la calidad y ética de los modelos de riesgo alto [9]. Por eso es necesario que el egresado domine la construcción y validación de modelos que aprenden.",
+   "refs": "[1] [7] [8] [9] [14] [21] [22] [34] [40]",
+   "prod": {
+    "name": "Informe de validación y transparencia algorítmica",
+    "desc": "Informe de validación y transparencia algorítmica que dictamina si un modelo es apto para usarse en una decisión, en especial cuando afecta el crédito, la salud, la educación o el empleo de las personas. Integra el plan de pruebas, las métricas de desempeño y robustez sobre datos independientes, el análisis de sesgo entre grupos, la explicación de las variables que influyen en el resultado y la clasificación del riesgo del sistema. Se elabora con pruebas reproducibles y se verifica contrastando los resultados con los umbrales definidos y con los requisitos del Reglamento de la Ley 31814 y del Reglamento de Gestión de Riesgos de Modelo de la SBS. Orienta la decisión de aprobar, ajustar o retirar el modelo, y demuestra que el egresado evalúa con honestidad intelectual las consecuencias de un modelo.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Informe de validación del modelo",
+      "codes": "E3-08-T1, E3-08-T2, E3-08-T3",
+      "sum": "plan de pruebas, métricas de desempeño y robustez y análisis de sesgo con sus umbrales",
+      "ev": [
+       "Informe de validación con pruebas reproducibles",
+       "Tabla de métricas de sesgo por grupo"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Expediente de transparencia y riesgo del sistema",
+      "codes": "E3-08-T4, E3-08-T5",
+      "sum": "explicación del modelo para el usuario, limitaciones y clasificación del riesgo normativo",
+      "ev": [
+       "Ficha de transparencia para el usuario",
+       "Matriz de clasificación de riesgo con su sustento normativo"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-09",
+   "t": "Operación de modelos en producción",
+   "d": "Poner los modelos en producción como servicios o procesos automatizados, monitorear su desempeño y la deriva de sus datos, y reentrenarlos, para que sigan aportando valor de forma continua y segura.",
+   "fclave": "Implantar y sostener modelos en producción",
+   "tipo": "Emergente",
+   "amb": "Banca y microfinanzas, telecomunicaciones, retail, consultoras tecnológicas y entidades públicas; equipos remotos",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "15 de 80 avisos (8 con puesta en producción de modelos)",
+   "conf": 2,
+   "lim": "Despliega y monitorea modelos en entornos definidos bajo supervisión directa; la arquitectura de la plataforma de aprendizaje automático y los cambios en sistemas críticos los aprueba el líder técnico.",
+   "tasks": [
+    {
+     "code": "E3-09-T1",
+     "t": "Empaquetar el modelo como servicio o proceso programado con versión controlada",
+     "ent": "1. Servicio del modelo desplegado"
+    },
+    {
+     "code": "E3-09-T2",
+     "t": "Desplegar el modelo en el entorno de producción e integrarlo con los sistemas",
+     "ent": "1. Servicio del modelo desplegado"
+    },
+    {
+     "code": "E3-09-T3",
+     "t": "Configurar el monitoreo del desempeño y la deriva de los datos del modelo",
+     "ent": "2. Tablero de monitoreo y plan de reentrenamiento"
+    },
+    {
+     "code": "E3-09-T4",
+     "t": "Reentrenar y volver a desplegar el modelo cuando su desempeño se degrada",
+     "ent": "2. Tablero de monitoreo y plan de reentrenamiento"
+    },
+    {
+     "code": "E3-09-T5",
+     "t": "Registrar el modelo en el inventario con su historial de versiones",
+     "ent": "3. Registro del modelo en el inventario"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque el ingeniero de operaciones de aprendizaje automático figura entre los perfiles de datos más buscados en el Perú, con salarios de 6 000 a 12 000 soles mensuales [26]. La SBS exige a las entidades financieras un inventario semestral de modelos y su monitoreo con indicadores de calidad y umbrales [14]. SFIA incluye el despliegue, el monitoreo y el reentrenamiento en la habilidad de aprendizaje automático [21], y 15 de 80 avisos piden desplegar soluciones o modelos en producción [33] [37]. Ello exige profesionales capaces de poner y sostener modelos en producción.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la ENIA obliga a las entidades a publicar en el Catálogo IA Perú los modelos que usan, con sus métricas de rendimiento o sesgo [9]. Además, el Foro Económico Mundial proyecta a los especialistas en inteligencia artificial y aprendizaje automático entre los empleos de mayor crecimiento al 2030 [24]. Por eso es necesario que el egresado domine la implantación y el sostenimiento de modelos en producción.",
+   "refs": "[9] [14] [21] [24] [26] [32] [33] [37]",
+   "prod": {
+    "name": "Servicio de modelo en producción con monitoreo",
+    "desc": "Servicio de modelo en producción que expone las predicciones de un modelo a los sistemas de la organización y vigila que su desempeño se mantenga en el tiempo. Integra el paquete versionado del modelo, el servicio o proceso programado desplegado, el tablero de monitoreo de desempeño y deriva, las reglas de alerta y reentrenamiento y el registro en el inventario de modelos. Se elabora con prácticas de integración y despliegue continuos, y se verifica con pruebas de carga, comparación de predicciones entre versiones y revisión de alertas en operación real. Orienta la decisión de mantener, reentrenar o retirar el modelo, y demuestra que el egresado sostiene soluciones de inteligencia artificial con disciplina operativa.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Servicio del modelo desplegado",
+      "codes": "E3-09-T1, E3-09-T2",
+      "sum": "modelo empaquetado, versionado, desplegado e integrado con los sistemas",
+      "ev": [
+       "Servicio respondiendo en producción con pruebas de carga superadas",
+       "Registro de despliegue con su versión"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Tablero de monitoreo y plan de reentrenamiento",
+      "codes": "E3-09-T3, E3-09-T4",
+      "sum": "indicadores de desempeño y deriva con umbrales, alertas y reglas de reentrenamiento",
+      "ev": [
+       "Tablero de monitoreo con alertas configuradas",
+       "Registro de un ciclo de reentrenamiento ejecutado"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Registro del modelo en el inventario",
+      "codes": "E3-09-T5",
+      "sum": "ficha del modelo en el inventario con su historial de versiones",
+      "ev": [
+       "Entrada del inventario de modelos actualizada"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "refs": [
+  [
+   "[1]",
+   "O*NET OnLine. Data Scientists (15-2051.00): tareas e importancia. 2025",
+   "https://www.onetonline.org/link/details/15-2051.00",
+   "Verificado"
+  ],
+  [
+   "[2]",
+   "O*NET OnLine. Business Intelligence Analysts (15-2051.01): tareas e importancia. 2025",
+   "https://www.onetonline.org/link/details/15-2051.01",
+   "Verificado"
+  ],
+  [
+   "[3]",
+   "O*NET OnLine. Data Warehousing Specialists (15-1243.01): tareas e importancia. 2025",
+   "https://www.onetonline.org/link/details/15-1243.01",
+   "Verificado"
+  ],
+  [
+   "[4]",
+   "Comisión Europea. ESCO v1.2: científico de datos / científica de datos (2511.3). 2024",
+   "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30&language=es",
+   "Verificado"
+  ],
+  [
+   "[5]",
+   "Comisión Europea. ESCO v1.2: analista de datos (2511.2). 2024",
+   "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d3edb8f8-3a06-47a0-8fb9-9b212c006aa2&language=es",
+   "Verificado"
+  ],
+  [
+   "[6]",
+   "Comisión Europea. ESCO v1.2: diseñador de sistemas inteligentes de TIC (2511.10). 2024",
+   "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8&language=es",
+   "Verificado"
+  ],
+  [
+   "[7]",
+   "Congreso de la República. Ley N.° 31814, Ley que promueve el uso de la inteligencia artificial en favor del desarrollo económico y social del país. El Peruano, 2023",
+   "https://busquedas.elperuano.pe/dispositivo/NL/2192926-1",
+   "Verificado"
+  ],
+  [
+   "[8]",
+   "Presidencia del Consejo de Ministros. Decreto Supremo N.° 115-2025-PCM, Reglamento de la Ley N.° 31814. El Peruano, 2025",
+   "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1",
+   "Verificado"
+  ],
+  [
+   "[9]",
+   "Presidencia del Consejo de Ministros. Resolución Ministerial N.° 152-2026-PCM, aprueba la Estrategia Nacional de Inteligencia Artificial 2026-2030 (El Peruano, Normas Legales, 1 de mayo de 2026, pp. 5-9). 2026",
+   "https://iuslatin.pe/wp-content/uploads/2026/05/Estrategia-Nacional-de-Inteligencia-Artificial-2026-2030.pdf",
+   "Verificado"
+  ],
+  [
+   "[10]",
+   "Ministerio de Justicia y Derechos Humanos. Decreto Supremo N.° 016-2024-JUS, Reglamento de la Ley N.° 29733, Ley de Protección de Datos Personales (separata El Peruano, 30 de noviembre de 2024). 2024",
+   "https://img.lpderecho.pe/wp-content/uploads/2024/11/Decreto-Supremo-016-2024-JUS-LPDerecho.pdf",
+   "Verificado"
+  ],
+  [
+   "[11]",
+   "TVPerú Noticias. Poder Ejecutivo aprueba la Estrategia Nacional de Gobierno de Datos 2026-2030 (Resolución Ministerial N.° 049-2026-PCM). 2026",
+   "https://www.tvperu.gob.pe/noticias/politica/poder-ejecutivo-aprueba-la-estrategia-nacional-de-gobierno-de-datos-2026-2030",
+   "Verificado"
+  ],
+  [
+   "[12]",
+   "Secretaría de Gobierno y Transformación Digital. Directiva N.° 001-2022-PCM/SGTD, Perfil y responsabilidades del Oficial de Gobierno de Datos. 2022",
+   "https://cdn.www.gob.pe/uploads/document/file/3026640/SGTD_Perfil_Oficial%20de%20Gobierno%20de%20Datos.pdf.pdf",
+   "Verificado"
+  ],
+  [
+   "[13]",
+   "Presidencia del Consejo de Ministros. Más de 1.2 millones de peruanos utilizan la Plataforma Nacional de Datos Abiertos (nota de prensa, 6 de marzo de 2026). 2026",
+   "https://www.gob.pe/institucion/pcm/noticias/1362816-pcm-mas-de-1-2-millones-de-peruanos-utilizan-la-plataforma-nacional-de-datos-abiertos-para-investigar-innovar-y-crear-soluciones-digitales",
+   "Verificado"
+  ],
+  [
+   "[14]",
+   "Superintendencia de Banca, Seguros y AFP. Resolución SBS N.° 00053-2023, Reglamento de Gestión de Riesgos de Modelo. El Peruano, 2023",
+   "https://busquedas.elperuano.pe/dispositivo/NL/2141173-1",
+   "Verificado"
+  ],
+  [
+   "[15]",
+   "SFIA Foundation. SFIA 9: Data engineering (DENG). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/data-engineering",
+   "Verificado"
+  ],
+  [
+   "[16]",
+   "SFIA Foundation. SFIA 9: Data management (DATM). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/data-management",
+   "Verificado"
+  ],
+  [
+   "[17]",
+   "SFIA Foundation. SFIA 9: Business intelligence (BINT). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/business-intelligence",
+   "Verificado"
+  ],
+  [
+   "[18]",
+   "SFIA Foundation. SFIA 9: Data visualisation (VISL). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/data-visualisation",
+   "Verificado"
+  ],
+  [
+   "[19]",
+   "SFIA Foundation. SFIA 9: Data analytics (DAAN). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/data-analytics",
+   "Verificado"
+  ],
+  [
+   "[20]",
+   "SFIA Foundation. SFIA 9: Data science (DATS). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/data-science",
+   "Verificado"
+  ],
+  [
+   "[21]",
+   "SFIA Foundation. SFIA 9: Machine learning (MLNG). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/machine-learning",
+   "Verificado"
+  ],
+  [
+   "[22]",
+   "ACM Data Science Task Force. Computing Competencies for Undergraduate Data Science Curricula (DOI 10.1145/3453538). 2021",
+   "https://www.acm.org/binaries/content/assets/education/curricula-recommendations/dstf_ccdsc2021.pdf",
+   "Verificado"
+  ],
+  [
+   "[23]",
+   "DAMA International. DAMA-DMBOK: Data Management Body of Knowledge, 2.ª ed. revisada. 2024",
+   "https://www.dama.org/cpages/body-of-knowledge",
+   "Verificado"
+  ],
+  [
+   "[24]",
+   "World Economic Forum. The Future of Jobs Report 2025. 2025",
+   "https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf",
+   "Verificado"
+  ],
+  [
+   "[25]",
+   "Gestión (estudio de APOYO Consultoría). Perú enfrenta una escasez de especialistas en ciencia de datos: 2,700 vacantes sin cubrir. 2025",
+   "https://gestion.pe/economia/empresas/peru-enfrenta-una-escasez-de-especialistas-en-ciencia-de-datos-2700-vacantes-sin-cubrir-noticia/",
+   "Verificado"
+  ],
+  [
+   "[26]",
+   "La República. Demanda de especialistas en datos en el Perú sube 40 % y así impacta el mercado laboral. 2026",
+   "https://especial.larepublica.pe/apunte-educativo/desarrollo-profesional/2026/05/04/demanda-de-especialistas-en-datos-en-peru-sube-40-y-asi-impacta-el-mercado-laboral-320060",
+   "Verificado"
+  ],
+  [
+   "[27]",
+   "Forbes Perú (CCL, Encuesta Anual de Ejecutivos 2024). Solo el 14 % de las empresas en Perú emplea inteligencia artificial en sus procesos. 2024",
+   "https://forbes.pe/negocios/2024-12-10/solo-el-14-de-las-empresas-en-peru-emplea-inteligencia-artificial-en-sus-procesos",
+   "Verificado"
+  ],
+  [
+   "[28]",
+   "Computrabajo Perú. Avisos de empleo: búsqueda «científico de datos» (revisados el 25 de septiembre de 2026). 2026",
+   "https://pe.computrabajo.com/trabajo-de-cientifico-de-datos",
+   "Verificado"
+  ],
+  [
+   "[29]",
+   "Computrabajo Perú. Avisos de empleo: búsqueda «analista BI» (revisados el 25 de septiembre de 2026). 2026",
+   "https://pe.computrabajo.com/trabajo-de-analista-bi",
+   "Verificado"
+  ],
+  [
+   "[30]",
+   "Computrabajo Perú. Avisos de empleo: búsqueda «ingeniero de datos» (revisados el 25 de septiembre de 2026). 2026",
+   "https://pe.computrabajo.com/trabajo-de-ingeniero-de-datos",
+   "Verificado"
+  ],
+  [
+   "[31]",
+   "Computrabajo Perú. Avisos de empleo: búsqueda «inteligencia artificial» (revisados el 25 de septiembre de 2026). 2026",
+   "https://pe.computrabajo.com/trabajo-de-inteligencia-artificial",
+   "Verificado"
+  ],
+  [
+   "[32]",
+   "Caja Arequipa (Computrabajo). Aviso: Senior Data Scientist ACOE, Lima. 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-senior-data-scientist-acoe-sede-lima-en-lima-836B5A2A0CAC3CD061373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[33]",
+   "AL-ORBITA S.A.C. (Computrabajo). Aviso: Ingeniero de machine learning, Callao. 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-de-machine-learning-aplicaciones-basadas-en-python-en-callao-783476A8DDC9D11661373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[34]",
+   "Empresa confidencial (Computrabajo). Aviso: Especialista en analítica e inteligencia artificial, San Isidro. 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-especialista-en-analitica-e-inteligencia-artificial-en-san-isidro-D7892E0F1C6F2A5261373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[35]",
+   "Los Portales (Computrabajo). Aviso: Analista de Data Governance, Magdalena del Mar. 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-data-governance-en-magdalena-del-mar-24A822B56C6F3E5161373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[36]",
+   "WT Sourcing Perú S.A.C. BIC (Computrabajo). Aviso: Analista de adopción de inteligencia artificial, Santiago de Surco. 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-adopcion-de-inteligencia-artificial-en-santiago-de-surco-BC203694F88F402F61373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[37]",
+   "INDRA (Computrabajo). Aviso: Data Engineer, San Isidro. 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-data-engineer-en-san-isidro-3050DFEAA70AC08161373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[38]",
+   "Hospital General de Jaén (convocatoriascas.com). Convocatoria CAS 2026: Analista de datos. 2026",
+   "https://www.convocatoriascas.com/concurso-publico-proceso-hospital-general-jaen-octubre-2026-ingenieria-sistemas-informatica-computacion-282765.html",
+   "Verificado"
+  ],
+  [
+   "[39]",
+   "Negmin (Computrabajo). Aviso: Especialista en inteligencia artificial (IA), Juliaca. 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-especialista-en-inteligencia-artificial-ia-en-juliaca-17A80B77F165607E61373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[40]",
+   "Presidencia del Consejo de Ministros. Conoce el Reglamento de la Ley de inteligencia artificial en el Perú (orientación gob.pe). 2025",
+   "https://www.gob.pe/110224-conoce-el-reglamento-de-la-ley-de-inteligencia-artificial-en-el-peru",
+   "No verificado"
+  ]
+ ]
+}

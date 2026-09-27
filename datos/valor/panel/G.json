@@ -1,0 +1,111 @@
+{
+ "rol": "G",
+ "SIS": {
+  "reglas": [
+   {
+    "n": 1,
+    "veredicto": "Cumple",
+    "hallazgo": "Los cinco diferenciales declaran familia, evidencia con fecha, responsable (Dirección de la EP) y alcance (100, 100, 60, 100, 100). Los alcances son meta de diseño que la Dirección aún debe confirmar."
+   },
+   {
+    "n": 2,
+    "veredicto": "Cumple",
+    "hallazgo": "Cada diferencial tiene su competencia (C4·C5, C2, C3, C1·C3·C5, C2) y una especialidad de las once del paso 1.1."
+   },
+   {
+    "n": 3,
+    "veredicto": "No cumple",
+    "hallazgo": "Solo los diferenciales 1 (0 de 21) y 2 (1 de 21, UTEC) tienen contraste en el barrido. Los 3, 4 y 5 no; además, datos e IA están en paridad (8 de 21)."
+   },
+   {
+    "n": 4,
+    "veredicto": "No cumple",
+    "hallazgo": "Cadena C1: el dato de la OIT (Noticias ONU, 2025) no declara territorio y es global. Infobae 2026 y Noticias ONU 2025 dan solo el año, cuando las demás cadenas dan día, mes y año."
+   },
+   {
+    "n": 5,
+    "veredicto": "Cumple",
+    "hallazgo": "Los propósitos (p4 y prop) son aspiraciones que el desempeño del egresado sostiene: que funcione, que proteja, que rinda cuentas. No prometen resultados que dependan de terceros."
+   },
+   {
+    "n": 6,
+    "veredicto": "No cumple",
+    "hallazgo": "Todos los enlaces aparecen en las evidencias o existen en disco. Pero el diferencial 3 va con verificado:true aunque su evidencia dice «Plana docente 2026 no confirmada»; debió marcarse No verificado."
+   },
+   {
+    "n": 7,
+    "veredicto": "Cumple",
+    "hallazgo": "No hay términos de la lista negra en toda la ficha. Párrafo: 68 palabras. Promesa: 16. Propósitos: 16/14/14/17/16/13. Promesas de especialidad ≤ 16. Párrafos de especialidad: 46 a 48."
+   },
+   {
+    "n": 8,
+    "veredicto": "Cumple",
+    "hallazgo": "Ni el texto ni los diferenciales usan datos de resultados del egresado. No se propone D7 porque no hay serie de cohortes."
+   },
+   {
+    "n": 9,
+    "veredicto": "Cumple",
+    "hallazgo": "Umbrales del método declarados antes de R1: I-CVI ≥ 0,83, CVR 1,00 con N = 6, acuerdo ≥ 75 %, RIC ≤ 1. La ficha no los cambia; no hay R1 registrada."
+   }
+  ],
+  "observaciones": [
+   "El diferencial 1 sostiene el párrafo, pero su capacidad instalada es 2 a 3, estimada en un borrador sin firma: el texto promete una línea que la escuela aún no institucionaliza.",
+   "El diferencial 3 (IA aplicada en la región) debe demostrar que la plana docente vigente lo distingue de las 8 de 21 carreras que ya declaran datos e IA; si no, pasa a paridad.",
+   "Los diferenciales 4 y 5 van con verificado:false: sin convenio con vigencia y vacantes, y sin inventario de horas por estudiante. No deben entrar al corte a tres."
+  ]
+ },
+ "NUT": {
+  "reglas": [
+   {
+    "n": 1,
+    "veredicto": "Cumple",
+    "hallazgo": "Los cinco diferenciales declaran familia, evidencia con fecha (24-09-2026, 13-02-2023, 25-08-2025 y otras), responsable y alcance 100. Los alcances son meta de diseño que la Dirección debe confirmar."
+   },
+   {
+    "n": 2,
+    "veredicto": "Cumple",
+    "hallazgo": "Cada diferencial tiene su competencia (C1, C2, C3, C1, C2) y especialidades codificadas (NUT-02, 03, 04, 08, 09, 10, 14) entre las ocho que entran al plan."
+   },
+   {
+    "n": 3,
+    "veredicto": "No cumple",
+    "hallazgo": "Los diferenciales 1 y 4 tienen contraste en el barrido (0 de 18). El 2 cae en comunitaria, saturada (11 de 18). El 3 (comedor y planta) y el 5 (campo estatal) no tienen espejo."
+   },
+   {
+    "n": 4,
+    "veredicto": "Cumple",
+    "hallazgo": "Las cuatro cadenas citan dato, fuente, fecha y territorio: INEI ENDES 2025 (Perú y Puno), Altavoz 17-07-2025 y RPP 16-12-2025. También citan competencia por código (C1, C2, C3)."
+   },
+   {
+    "n": 5,
+    "veredicto": "Cumple",
+    "hallazgo": "Los propósitos (p4 y prop) son aspiracionales y no prometen resultados de terceros. El riesgo está en los eslabones 3 y en la promesa de C2 (ver observaciones), no en el propósito."
+   },
+   {
+    "n": 6,
+    "veredicto": "No cumple",
+    "hallazgo": "Todos los enlaces aparecen en las evidencias o existen en disco. Pero los diferenciales 1 y 2 van con verificado:true aunque declaran «grados y vínculo vigente sin verificar» y «formación en salud pública sin verificar»."
+   },
+   {
+    "n": 7,
+    "veredicto": "Cumple",
+    "hallazgo": "No hay términos de la lista negra en toda la ficha. Párrafo: 70 palabras (límite). Promesa: 16. Propósitos: 17/14/14/16. Promesas de especialidad: 17/14/18. Párrafos de especialidad: 61/51/57."
+   },
+   {
+    "n": 8,
+    "veredicto": "Cumple",
+    "hallazgo": "No hay datos de resultados del egresado. El vacío de la serie D7 está declarado y queda a cargo de la Dirección."
+   },
+   {
+    "n": 9,
+    "veredicto": "Cumple",
+    "hallazgo": "Umbrales del método declarados antes de R1: I-CVI ≥ 0,83, CVR 1,00 con N = 6, acuerdo ≥ 75 %, RIC ≤ 1. La ficha no los cambia; no hay R1 registrada."
+   }
+  ],
+  "observaciones": [
+   "La promesa de C2 («responderás por sus indicadores de impacto») y los eslabones 3 («elevan su hemoglobina») dependen de familias y programas: conviene vigilar la Atribución (At) en el panel.",
+   "El párrafo se diferencia por «siete docentes» y por el comedor propio. Ninguno de los dos tiene contraste con otras escuelas, y el vínculo vigente de los docentes no está verificado.",
+   "El párrafo llega a 70 palabras, justo en el límite: cualquier ajuste que agregue texto lo deja fuera de rango."
+  ]
+ }
+}

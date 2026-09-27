@@ -1,0 +1,138 @@
+{
+ "cod": "NUT",
+ "fecha": "24-09-2026",
+ "mapa": [
+  {
+   "alias": "Atención nutricional",
+   "plan": "Nutrición y salud",
+   "situacion": "Coinciden en proceso y en capacidades",
+   "dec": "reformular",
+   "defFinal": "Conducir la atención nutricional de la persona sana o enferma a lo largo del ciclo de vida —tamizar, valorar, diagnosticar, prescribir el tratamiento dietoterápico o de soporte, seguir y aconsejar al alta— en hospitalización, consulta ambulatoria presencial o virtual, primer nivel y residencias, aplicando el proceso de atención nutricional, el registro en historia clínica y la interconsulta con el equipo de salud, para recuperar o mantener el estado nutricional y responder por el resultado ante el paciente, su familia y la institución.",
+   "gat": "Gatillo 1: «Nutrición y salud» designa un tema, no el proceso. Gatillo 5: la vigente solo «propone planes» para promover salud y prevenir enfermedad; la clínica hospitalaria —equivalencia— y los ámbitos bariátrico, geriátrico y pediátrico-materno exigen tamizar, prescribir dietoterapia o soporte, seguir en hospital, residencia o consulta virtual y aconsejar al alta, que el plan no recogía.",
+   "antes": "«Nutrición y salud»: propone planes de intervención basados en el proceso de atención nutricional según la situación fisiopatológica, sociocultural, económica y sanitaria de la persona para fomentar cambios en el estilo de vida, promover salud y prevenir la enfermedad.",
+   "caps": [
+    {
+     "n": "Valoración del estado nutricional",
+     "e": "reformulada",
+     "de": "Evaluación nutricional (Competencia 1)"
+    },
+    {
+     "n": "Diagnóstico nutricional",
+     "e": "conservada",
+     "de": "Diagnóstico nutricional (Competencia 1)"
+    },
+    {
+     "n": "Prescripción del tratamiento nutricional",
+     "e": "reformulada",
+     "de": "Intervención nutricional (Competencia 1)"
+    },
+    {
+     "n": "Seguimiento del caso y consejería nutricional",
+     "e": "reformulada",
+     "de": "Monitoreo nutricional (Competencia 1)"
+    }
+   ],
+   "noContinuan": []
+  },
+  {
+   "alias": "Intervención poblacional",
+   "plan": "Gestión de la atención nutricional integral de la comunidad",
+   "situacion": "Coinciden en proceso, difieren en capacidades",
+   "dec": "reformular",
+   "defFinal": "Intervenir sobre el estado nutricional de una población —comunidad, unidad territorial, colectivo de trabajadores— diagnosticando su situación con línea de base y vigilancia, diseñando y ejecutando el programa y evaluando su impacto, en el marco de la salud pública, los programas presupuestales del Estado y la salud ocupacional, con articulación intersectorial y capacitación de agentes, para reducir la anemia, la desnutrición, el exceso de peso y el riesgo cardiometabólico y rendir cuenta del resultado con indicadores.",
+   "gat": "Gatillo 1: el título designa el objeto —la comunidad— y toma prestado «atención nutricional», que es el proceso individual. Gatillo 2 en capacidad: «Diseño y evaluación de programas» agrupa dos procesos con evidencias distintas y se desdobla. Gatillo 5: falta el diagnóstico con línea de base y vigilancia que revelaron la comunitaria, la ocupacional y los programas sociales.",
+   "antes": "«Gestión de la atención nutricional integral de la comunidad»: diseña, implementa y evalúa programas y políticas de salud pública en nutrición con equipos interdisciplinarios para prevenir o controlar la problemática alimentario-nutricional de diversas poblaciones, con ética, inclusión y respeto cultural.",
+   "caps": [
+    {
+     "n": "Diagnóstico nutricional poblacional",
+     "e": "añadida",
+     "de": ""
+    },
+    {
+     "n": "Diseño de la intervención nutricional poblacional",
+     "e": "reformulada",
+     "de": "Diseño y evaluación de programas de salud pública (Competencia 3)"
+    },
+    {
+     "n": "Ejecución de la intervención nutricional poblacional",
+     "e": "reformulada",
+     "de": "Gestión de problemas alimentario-nutricionales (Competencia 3)"
+    },
+    {
+     "n": "Monitoreo y evaluación del impacto de la intervención",
+     "e": "reformulada",
+     "de": "Diseño y evaluación de programas de salud pública (Competencia 3)"
+    }
+   ],
+   "noContinuan": []
+  },
+  {
+   "alias": "Alimentación colectiva",
+   "plan": "Gestión en nutrición y alimentos",
+   "situacion": "Coinciden en proceso, difieren en capacidades",
+   "dec": "reformular",
+   "defFinal": "Dirigir el servicio de alimentación que provee a pacientes, trabajadores, escolares o usuarios de programas sociales —planificando el menú, estandarizando preparaciones y fichas técnicas, costeando y comprando, asegurando la inocuidad con HACCP y auditando el cumplimiento— en hospitales, concesionarias, campamentos y unidades territoriales del Estado, bajo la norma sanitaria vigente y con indicadores de gestión, para entregar una alimentación nutricionalmente adecuada, segura y sostenible económicamente.",
+   "gat": "Gatillo 1: «nutrición y alimentos» no nombra el objeto gestionado: el servicio de alimentación colectiva. Gatillo 5: el mercado contrata planificar el menú, estandarizar y costear fichas técnicas y auditar el cumplimiento sanitario, ausentes del plan. Gatillo 7: «Incorporación de tecnologías emergentes» es recurso habilitador, sin especialidad que la sostenga. Además confunde seguridad alimentaria con inocuidad.",
+   "antes": "«Gestión en nutrición y alimentos»: gestiona servicios de nutrición y alimentos, asegurando procesos de calidad y la incorporación de tecnologías emergentes y prácticas innovadoras que contribuyan a la seguridad alimentaria, alineadas con estándares de seguridad alimentaria.",
+   "caps": [
+    {
+     "n": "Planificación del menú y del plan alimentario",
+     "e": "reformulada",
+     "de": "Gestión de servicios de nutrición y alimentación (Competencia 2)"
+    },
+    {
+     "n": "Estandarización y costeo de las preparaciones",
+     "e": "añadida",
+     "de": ""
+    },
+    {
+     "n": "Aseguramiento de la inocuidad",
+     "e": "reformulada",
+     "de": "Seguridad alimentaria y sostenibilidad (Competencia 2)"
+    },
+    {
+     "n": "Supervisión y auditoría del servicio de alimentación",
+     "e": "añadida",
+     "de": ""
+    }
+   ],
+   "noContinuan": [
+    {
+     "cap": "Incorporación de tecnologías emergentes (Competencia 2)",
+     "destino": "retirada",
+     "motivo": "Es recurso habilitador, no proceso con evidencia propia; ninguna especialidad la sostiene como capacidad; se recoge en el paso 2.2."
+    }
+   ]
+  }
+ ],
+ "traza": [
+  {
+   "p": "Competencia 1 · Nutrición y salud",
+   "d": "se reformula",
+   "n": "Conducción del proceso de atención nutricional de la persona",
+   "c": "Título al proceso; definición para la persona sana o enferma con tamizaje, prescripción y consejería al alta; tres capacidades reformuladas, Diagnóstico nutricional conservada literal.",
+   "s": "Gatillos 1 y 5: el nombre designa un tema; la vigente solo propone planes preventivos y la clínica hospitalaria (equivalencia) y sus tres ámbitos exigen el ciclo completo."
+  },
+  {
+   "p": "Competencia 2 · Gestión en nutrición y alimentos",
+   "d": "se reformula",
+   "n": "Gestión de servicios de alimentación colectiva y aseguramiento de la inocuidad",
+   "c": "Nombra el servicio de alimentación colectiva y la inocuidad; la capacidad global pasa a planificar el menú; añade estandarización-costeo y auditoría; reformula seguridad alimentaria como inocuidad HACCP; retira tecnologías emergentes.",
+   "s": "Gatillos 1, 5 y 7: el nombre no dice qué se gestiona; el mercado contrata menú, fichas técnicas, HACCP y auditoría; tecnologías emergentes es recurso habilitador, no proceso."
+  },
+  {
+   "p": "Competencia 3 · Gestión de la atención nutricional integral de la comunidad",
+   "d": "se reformula",
+   "n": "Intervención nutricional en salud pública y poblaciones",
+   "c": "Título al proceso (intervenir); condición amplía a programas presupuestales y salud ocupacional; Diseño y evaluación se desdobla en dos capacidades; se añade diagnóstico poblacional con línea de base.",
+   "s": "Gatillos 1, 2 y 5: el nombre designa el objeto y usa el proceso individual; una capacidad agrupa dos procesos con evidencias distintas; faltaba la línea de base."
+  }
+ ],
+ "fuera": [
+  {
+   "n": "Ciencia de los alimentos · Gestión del proceso de atención nutricional · Gestión de proyectos en nutrición y alimentos · Promoción de nutrición, alimentación y estilo de vida saludable · Fundamentos básicos de la nutrición",
+   "por": "Las cinco unidades restantes de las ocho entregadas quedaron fuera del contraste por decisión de la Escuela del 24-09-2026: la línea base conserva solo las tres que se contrastan con las derivadas."
+  }
+ ],
+ "resumen": "Dirección: las tres derivadas coinciden en proceso con las tres vigentes de la línea base, pero ninguna se conserva literal como competencia: las tres se reformulan por gatillo, porque el nombre designa un tema u objeto y faltan capacidades que el mercado contrata. Se conserva palabra por palabra la capacidad Diagnóstico nutricional, se reformulan ocho sobre las vigentes, se añaden tres —diagnóstico poblacional, estandarización y costeo, auditoría— y se retira una, tecnologías emergentes, que es recurso y no proceso. Ninguna competencia nace, se fusiona ni desaparece dentro de la línea base de tres."
+}

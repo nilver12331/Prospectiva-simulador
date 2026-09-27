@@ -1,0 +1,87 @@
+{
+ "cod": "NUT",
+ "fecha": "24-09-2026",
+ "mejoras": [
+  {
+   "alias": "Atención nutricional",
+   "def": "Conduce la atención nutricional de la persona sana o enferma a lo largo del ciclo de vida, desde el tamizaje y la valoración hasta el diagnóstico, la prescripción del tratamiento dietoterápico o de soporte, el seguimiento y la consejería al alta, en hospitalización, consulta ambulatoria presencial o virtual, primer nivel y residencias. Aplica el proceso de atención nutricional, el registro en la historia clínica y la interconsulta con el equipo de salud, con el propósito de recuperar o mantener el estado nutricional y de responder por el resultado ante el paciente, su familia y la institución. Demuestra esta competencia con un plan de atención nutricional individualizado registrado en la historia clínica, que integra valoración, diagnóstico, prescripción, seguimiento documentado y consejería al cierre del caso.",
+   "caps": [
+    {
+     "a": "Valorar",
+     "n": "Valoración del estado nutricional",
+     "d": "Capacidad para tamizar y valorar el estado nutricional de la persona mediante antropometría, bioquímica, examen clínico y evaluación dietética, integrando los hallazgos en un juicio inicial sobre su situación nutricional. Adapta las técnicas y los instrumentos a la edad, la condición clínica y el escenario de atención, sea hospitalario, ambulatorio o residencial. Moviliza conocimientos de evaluación nutricional y fisiología, junto con rigor en la medición, respeto por la persona y compromiso con un registro veraz y oportuno."
+    },
+    {
+     "a": "Diagnosticar",
+     "n": "Diagnóstico nutricional",
+     "d": "Capacidad para formular el diagnóstico nutricional a partir de la valoración, identificando el problema, su etiología y los signos y síntomas que lo sustentan, en personas de distinta edad y con diversas patologías. Integra la interconsulta con el equipo de salud y la evidencia científica disponible para ajustar el diagnóstico al escenario clínico, ambulatorio o residencial. Moviliza conocimientos de fisiopatología y nutrición clínica, juicio clínico, pensamiento crítico y responsabilidad por la decisión que toma y comunica."
+    },
+    {
+     "a": "Prescribir",
+     "n": "Prescripción del tratamiento nutricional",
+     "d": "Capacidad para prescribir e implementar el tratamiento nutricional, que comprende la dietoterapia, el soporte enteral, el manejo del peso, la corrección de deficiencias y la adaptación de texturas, ajustado al diagnóstico formulado. Adecúa la prescripción a la cultura, las preferencias y los recursos del paciente en cada escenario de atención, hospitalario, ambulatorio o residencial. Moviliza conocimientos de fisiopatología y dietoterapia, junto con ética profesional, comunicación efectiva con el equipo de salud y con la familia, y compromiso con la seguridad del paciente."
+    },
+    {
+     "a": "Seguir",
+     "n": "Seguimiento del caso y consejería nutricional",
+     "d": "Capacidad para monitorear la respuesta del paciente al tratamiento nutricional, reajustar la prescripción según la evolución, educar al paciente y a su familia y cerrar el caso con consejería al alta. Adapta el seguimiento a la consulta presencial o virtual, al hospital o a la residencia, y a las condiciones de cada persona. Moviliza conocimientos de educación alimentaria y evaluación de la adherencia, junto con constancia, empatía, comunicación clara y compromiso con el resultado y la continuidad del cuidado."
+    }
+   ],
+   "nota": "Elevé el registro académico y la fluidez de la definición, convertí los incisos en oraciones enlazadas y nombré de forma explícita la evidencia del plan individualizado. Amplié cada capacidad con sus cuatro componentes. No cambié la estructura ni el número de capacidades."
+  },
+  {
+   "alias": "Intervención poblacional",
+   "def": "Interviene sobre el estado nutricional de una población, sea una comunidad, una unidad territorial o un colectivo de trabajadores, diagnosticando su situación con línea de base y vigilancia, diseñando y ejecutando el programa correspondiente y evaluando su impacto. Actúa en el marco de la salud pública, los programas presupuestales del Estado y la salud ocupacional, con articulación intersectorial y capacitación de agentes, con el propósito de reducir la anemia, la desnutrición, el exceso de peso y el riesgo cardiometabólico y de rendir cuenta del resultado mediante indicadores. Demuestra esta competencia con un plan de intervención poblacional que incluye la línea de base, el programa ejecutado y el informe de evaluación con indicadores de proceso y de impacto sobre la población atendida.",
+   "caps": [
+    {
+     "a": "Diagnosticar",
+     "n": "Diagnóstico nutricional poblacional",
+     "d": "Capacidad para levantar la línea de base y formular el diagnóstico nutricional de una población mediante vigilancia, indicadores epidemiológicos y tamizaje del riesgo, priorizando los problemas que requieren intervención. Adapta los instrumentos y las fuentes de información a comunidades, unidades territoriales o colectivos laborales, según su acceso, tamaño y características. Moviliza conocimientos de epidemiología nutricional y bioestadística, junto con rigor estadístico, sensibilidad cultural, honestidad en el manejo del dato y compromiso con la equidad."
+    },
+    {
+     "a": "Planificar",
+     "n": "Diseño de la intervención nutricional poblacional",
+     "d": "Capacidad para diseñar el programa o la intervención nutricional con objetivos, metas, actividades, presupuesto e indicadores, a partir del diagnóstico poblacional y en coherencia con las prioridades identificadas. Adapta el diseño a la lógica de los programas presupuestales del Estado, de la salud ocupacional o de la cooperación, según el financiamiento y el actor que lo respalda. Moviliza conocimientos de planificación en salud pública y gestión pública, junto con pensamiento estratégico, responsabilidad social y orientación a resultados verificables."
+    },
+    {
+     "a": "Intervenir",
+     "n": "Ejecución de la intervención nutricional poblacional",
+     "d": "Capacidad para ejecutar la intervención nutricional mediante consejería, educación alimentaria, capacitación de agentes comunitarios y articulación con actores locales y sectoriales, conforme al programa diseñado. Adapta las estrategias y los mensajes al territorio, a su cultura alimentaria y a las condiciones de la comunidad o del colectivo de trabajadores. Moviliza conocimientos de educación alimentaria y nutricional y de trabajo comunitario, junto con liderazgo, comunicación efectiva, trabajo intersectorial y respeto por la comunidad y sus saberes."
+    },
+    {
+     "a": "Evaluar",
+     "n": "Monitoreo y evaluación del impacto de la intervención",
+     "d": "Capacidad para monitorear la ejecución del programa, medir su impacto en comparación con la línea de base y reportar los resultados con indicadores a la autoridad sanitaria o al empleador. Adapta el sistema de monitoreo y el formato del reporte a los contextos públicos, comunitarios y laborales, y a las exigencias de cada financiador. Moviliza conocimientos de evaluación de programas e indicadores de salud, junto con honestidad en el dato, pensamiento crítico, transparencia y orientación a la mejora de la intervención."
+    }
+   ],
+   "nota": "Reescribí la definición con registro académico y fluidez, sustituí los incisos por oraciones enlazadas, y nombré la evidencia del plan poblacional con línea de base e informe de impacto. Amplié las capacidades con sus cuatro componentes sin alterar la estructura ni su número."
+  },
+  {
+   "alias": "Alimentación colectiva",
+   "def": "Dirige el servicio de alimentación que provee a pacientes, trabajadores, escolares o usuarios de programas sociales, planificando el menú, estandarizando las preparaciones y sus fichas técnicas, costeando y comprando, asegurando la inocuidad con el sistema HACCP y auditando el cumplimiento sanitario. Ejerce esta dirección en hospitales, concesionarias, campamentos y unidades territoriales del Estado, bajo la norma sanitaria vigente y con indicadores de gestión, con el propósito de entregar una alimentación nutricionalmente adecuada, segura y sostenible en lo económico. Demuestra esta competencia con el plan HACCP del servicio y el expediente de auditoría, que reúne menús, fichas técnicas, costeo, registros de puntos críticos, no conformidades resueltas y el tablero de indicadores.",
+   "caps": [
+    {
+     "a": "Planificar",
+     "n": "Planificación del menú y del plan alimentario",
+     "d": "Capacidad para planificar menús y planes alimentarios por ciclos que cubran los requerimientos nutricionales del colectivo atendido, sean pacientes, trabajadores, escolares o usuarios de programas sociales, dentro del presupuesto asignado y de la disponibilidad local de alimentos. Adapta la planificación a la cultura alimentaria, al clima y a las condiciones operativas de cada servicio. Moviliza conocimientos de nutrición por grupos, planificación de menús y gestión de recursos, junto con criterio nutricional, sentido económico, creatividad y equidad en la atención del comensal."
+    },
+    {
+     "a": "Estandarizar",
+     "n": "Estandarización y costeo de las preparaciones",
+     "d": "Capacidad para estandarizar recetas, raciones y fichas técnicas con su perfil nutricional y su costo, y para gestionar las compras y la relación con proveedores en función de esa estandarización. Adapta el nivel de detalle y los procedimientos al tipo de servicio, a su escala de producción y a los productos que elabora, incluidos los alimentos reformulados. Moviliza conocimientos de técnica dietética, composición de alimentos y costeo, junto con precisión, orden, transparencia y responsabilidad en el uso de los recursos."
+    },
+    {
+     "a": "Asegurar",
+     "n": "Aseguramiento de la inocuidad",
+     "d": "Capacidad para implementar y mantener el sistema HACCP y las buenas prácticas de manipulación de alimentos, identificando los puntos críticos de control, vigilándolos con registros y capacitando al personal del servicio. Adapta el sistema a las condiciones de cocinas hospitalarias, concesionarias y campamentos, y a la complejidad de cada operación. Moviliza conocimientos de microbiología de alimentos, normativa sanitaria y gestión de la calidad, junto con disciplina normativa, prevención del riesgo y responsabilidad por la salud del comensal."
+    },
+    {
+     "a": "Auditar",
+     "n": "Supervisión y auditoría del servicio de alimentación",
+     "d": "Capacidad para supervisar las operaciones del servicio y a sus proveedores, auditar el cumplimiento de la norma sanitaria, gestionar las no conformidades hasta su cierre y reportar indicadores de gestión a la dirección o a la entidad contratante. Adapta la supervisión y la auditoría a servicios propios, concesionados o de programas sociales, y a los requisitos de cada entidad. Moviliza conocimientos de auditoría sanitaria, indicadores de gestión y normativa vigente, junto con objetividad, integridad, comunicación asertiva y orientación a la mejora continua."
+    }
+   ],
+   "nota": "Mejoré el registro y la fluidez de la definición, reemplacé los incisos por oraciones enlazadas y nombré la evidencia del plan HACCP con su expediente de auditoría. Amplié cada capacidad con sus cuatro componentes. No modifiqué la estructura ni el número de capacidades."
+  }
+ ]
+}

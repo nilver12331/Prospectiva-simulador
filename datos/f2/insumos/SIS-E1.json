@@ -1,0 +1,106 @@
+{
+ "carrera": "Ingeniería de Sistemas",
+ "cod": "SIS",
+ "k": "E1",
+ "especialidad": "Desarrollo de software y análisis de sistemas",
+ "especialidad_base": "Desarrollo de software e ingeniería de aplicaciones",
+ "integradas": [
+  "Análisis funcional y de sistemas de información"
+ ],
+ "ambitos_y_absorbidas": [
+  "Análisis funcional y de sistemas de información (capacidad/integrada)"
+ ],
+ "descripcion_f1": {
+  "vol": 4,
+  "amp": 4,
+  "esc": 3,
+  "rem": 3,
+  "for": 2
+ },
+ "proceso_f1": "Analizar → diseñar → construir → verificar → desplegar",
+ "evidencia_f1": "Software desplegado en producción con su repositorio, pruebas automatizadas y documentación",
+ "competencia": {
+  "codigo": "C1",
+  "alias": "Ingeniería de software",
+  "nombre": "Desarrollo de soluciones de software",
+  "definicion_conceptual": "Construir soluciones de software que una organización usa en sus operaciones, analizando las necesidades del negocio, diseñando la arquitectura, programando los componentes de backend, frontend e integración, verificando con pruebas automatizadas y revisión de código, y desplegando en producción; en equipos de desarrollo o fábricas de software que trabajan con repositorios, integración continua, metodologías ágiles y estándares de calidad y seguridad, para entregar sistemas confiables y mantenibles que respondan a los requerimientos del negocio."
+ },
+ "capacidades_SOLO_PARA_MOMENTO_4": [
+  {
+   "codigo": "C1.1",
+   "accion": "Analizar",
+   "nombre": "Análisis y especificación de requisitos",
+   "definicion": "Capacidad de relevar las necesidades del negocio y traducirlas en requisitos y especificaciones verificables, modelando procesos y casos de uso con los usuarios, en contextos de cambio organizacional; moviliza técnicas de elicitación, modelado de procesos, escucha activa, rigor y comunicación con áreas no técnicas."
+  },
+  {
+   "codigo": "C1.2",
+   "accion": "Diseñar",
+   "nombre": "Diseño de la arquitectura de la solución",
+   "definicion": "Capacidad de diseñar la arquitectura, los modelos de datos y las interfaces de una solución a partir de los requisitos, eligiendo patrones y tecnologías según restricciones de escala, costo y seguridad; moviliza patrones de diseño, bases de datos, arquitectura de software, criterio técnico y responsabilidad por las decisiones."
+  },
+  {
+   "codigo": "C1.3",
+   "accion": "Construir",
+   "nombre": "Construcción e integración de los componentes de software",
+   "definicion": "Capacidad de programar componentes de backend, frontend e integración de APIs conforme al diseño, en repositorios versionados con revisión de código y entrega incremental, adaptándose a distintos lenguajes y marcos de trabajo; moviliza dominio de programación, estructuras de datos, estándares de codificación, disciplina y trabajo colaborativo."
+  },
+  {
+   "codigo": "C1.4",
+   "accion": "Verificar",
+   "nombre": "Verificación de la calidad del software",
+   "definicion": "Capacidad de verificar que el software cumple los requisitos y los estándares de calidad mediante pruebas unitarias, de integración y de aceptación automatizadas y revisión de código, en ciclos de entrega continua; moviliza técnicas de prueba, análisis de defectos, pensamiento crítico, meticulosidad y compromiso con la calidad."
+  },
+  {
+   "codigo": "C1.5",
+   "accion": "Desplegar",
+   "nombre": "Despliegue y mantenimiento en producción",
+   "definicion": "Capacidad de liberar el software en producción mediante pipelines de integración y despliegue continuo, documentarlo y mantenerlo evolutivamente frente a fallos y nuevos requerimientos, en entornos de nube o locales; moviliza conocimientos de CI/CD, control de versiones, documentación técnica, responsabilidad operativa y orientación al usuario."
+  }
+ ],
+ "otras_competencias": [
+  {
+   "codigo": "C2",
+   "nombre": "Diseño y operación de la infraestructura tecnológica",
+   "capacidades": [
+    "C2.1 Diseñar: Diseño de la arquitectura de la plataforma",
+    "C2.2 Automatizar: Aprovisionamiento y automatización de la infraestructura",
+    "C2.3 Operar: Operación y soporte de la infraestructura",
+    "C2.4 Observar: Observabilidad y aseguramiento de la disponibilidad",
+    "C2.5 Optimizar: Optimización del rendimiento y de los costos"
+   ]
+  },
+  {
+   "codigo": "C3",
+   "nombre": "Desarrollo de soluciones de analítica e inteligencia artificial",
+   "capacidades": [
+    "C3.1 Gobernar: Gobierno e integración del dato",
+    "C3.2 Modelar: Modelado analítico y entrenamiento de algoritmos",
+    "C3.3 Evaluar: Evaluación de la validez y la ética del modelo",
+    "C3.4 Implantar: Implantación y monitoreo en producción",
+    "C3.5 Comunicar: Comunicación de resultados para la toma de decisiones"
+   ]
+  },
+  {
+   "codigo": "C4",
+   "nombre": "Gestión de la seguridad de la información y de los riesgos digitales",
+   "capacidades": [
+    "C4.1 Evaluar: Evaluación de riesgos y vulnerabilidades",
+    "C4.2 Proteger: Diseño e implantación de controles de seguridad",
+    "C4.3 Detectar: Monitoreo y detección de amenazas",
+    "C4.4 Responder: Respuesta a incidentes y análisis forense",
+    "C4.5 Recuperar: Continuidad, cumplimiento y auditoría de la seguridad"
+   ]
+  },
+  {
+   "codigo": "C5",
+   "nombre": "Gobierno y dirección de proyectos y servicios de tecnología de la información",
+   "capacidades": [
+    "C5.1 Alinear: Alineamiento de la tecnología con la estrategia organizacional",
+    "C5.2 Planificar: Planificación de proyectos tecnológicos",
+    "C5.3 Dirigir: Dirección, control y entrega de proyectos tecnológicos",
+    "C5.4 Operar: Operación de los servicios de tecnología de la información",
+    "C5.5 Evaluar: Auditoría de controles y riesgos de tecnología de la información"
+   ]
+  }
+ ]
+}

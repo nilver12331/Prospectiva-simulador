@@ -1,0 +1,91 @@
+{
+ "rol": "P4",
+ "perfil": "Empleador del sector",
+ "calificaciones": {
+  "NUT-01": {
+   "E": 4,
+   "comentario": "Es el puesto que más contrato: valorar, prescribir y registrar en historia clínica desde el primer día; NTS 103 me obliga a dotar la UPSS con colegiados.",
+   "fuente": "[E-9][E-13]"
+  },
+  "NUT-02": {
+   "E": 4,
+   "comentario": "Mi concesionaria vive de esto: menú, estandarización, HACCP y auditoría en regímenes 14x7. Contrato por decenas y el egresado llega sin manejar costos ni auditoría.",
+   "fuente": "[E-12][E-7][E-B15]"
+  },
+  "NUT-03": {
+   "E": 3,
+   "comentario": "No lo contrato yo, pero el Estado sí y es el mayor empleador del campo; todo egresado debe saber intervenir sobre una población, no solo sobre un paciente.",
+   "fuente": "[E-1][E-3]"
+  },
+  "NUT-04": {
+   "E": 3,
+   "comentario": "En mi hospital pediatría y neonatología exigen esta competencia a diario; no es plaza aparte, la pido como especialización dentro del puesto clínico.",
+   "fuente": "[E-9]"
+  },
+  "NUT-05": {
+   "E": 2,
+   "comentario": "Nunca he contratado un nutricionista deportivo ni en el hospital ni en la concesionaria; es mercado de gimnasios y consultoría, no de mis servicios.",
+   "fuente": "criterio del rol"
+  },
+  "NUT-06": {
+   "E": 2,
+   "comentario": "Antropometría y bioimpedancia las exijo dentro del puesto clínico; como especialidad autónoma no la contrato, es una tarea con equipo, no un perfil.",
+   "fuente": "[E-11]"
+  },
+  "NUT-07": {
+   "E": 2,
+   "comentario": "Fuera de mi giro: la industria contrata ingenieros de alimentos para reformular y rotular; el nutricionista compite en desventaja en esa plaza.",
+   "fuente": "[E-10][E-B10]"
+  },
+  "NUT-08": {
+   "E": 3,
+   "comentario": "Un nivel III opera bariátrica y un cuarto de mis pacientes tiene obesidad; necesito que el clínico maneje pre y posoperatorio sin que sea plaza separada.",
+   "fuente": "criterio del rol"
+  },
+  "NUT-09": {
+   "E": 3,
+   "comentario": "Mi perfil más difícil de conseguir: campamento minero con salud ocupacional y servicio de alimentación en el mismo contrato; pago sobre el promedio y no llegan.",
+   "fuente": "[E-12][E-6]"
+  },
+  "NUT-10": {
+   "E": 2,
+   "comentario": "No es mi contratación; el programa admite carreras afines y ha cerrado convocatorias, así que no lo pediría como eje del perfil de egreso.",
+   "fuente": "[E-10][E-4]"
+  },
+  "NUT-11": {
+   "E": 1,
+   "comentario": "No es un puesto que exista en mi nómina ni en la de ninguna institución seria: es freelance sin colegiatura, un modo de ejercer otras especialidades.",
+   "fuente": "[E-B14]"
+  },
+  "NUT-14": {
+   "E": 3,
+   "comentario": "Mis camas se llenan de adultos mayores con disfagia y sarcopenia; la concesionaria produce texturas modificadas a diario. Lo necesito dentro del clínico.",
+   "fuente": "criterio del rol"
+  },
+  "NUT-17": {
+   "E": 1,
+   "comentario": "Ningún hospital ni concesionaria del país contrata por esto; sin laboratorio genético ni norma, es curso electivo, no competencia de egreso.",
+   "fuente": "[E]"
+  },
+  "NUT-19": {
+   "E": 2,
+   "comentario": "Ese puesto lo cubro con auxiliares técnicos a S/ 1 200; el licenciado debe saber producir y despachar para supervisar, pero no formarse para ejecutarlo.",
+   "fuente": "[E-7]"
+  }
+ },
+ "faltan": [
+  "Soporte nutricional del paciente crítico (enteral y parenteral, NTS 212): en un nivel III la UCI la necesita a diario y hoy la pido como 90 h de especialización porque nadie la trae [E-9].",
+  "Nutrición renal y oncológica como perfil clínico especializado: 3 M con ERC y más de 80 000 cánceres nuevos pasan por mi servicio sin que exista egresado formado para diálisis y quimioterapia.",
+  "Gestión de contratos y costeo de servicios de alimentación (Perú Compras, licitaciones, fichas técnicas): el nutricionista que dirige un servicio debe sustentar el contrato, no solo el menú."
+ ],
+ "integrar": [
+  "NUT-02 con NUT-19: la concesionaria contrata al licenciado para dirigir producción y despacho; la dietética operativa es la capa auxiliar del mismo servicio, no una especialidad aparte.",
+  "NUT-02 con NUT-09: en campamento minero el mismo contrato exige servicio de alimentación con HACCP y vigilancia nutricional del trabajador; lo contrato como un solo perfil.",
+  "NUT-01 con NUT-06, NUT-08 y NUT-14: el puesto clínico hospitalario cubre composición corporal, obesidad-bariátrica y adulto mayor; no abro plazas separadas para ninguna de las tres."
+ ],
+ "noPuesto": [
+  "NUT-11 Consultoría privada y online: es un modo de ejercicio freelance, no un puesto que ninguna institución convoque con colegiatura.",
+  "NUT-17 Nutrición personalizada y nutrigenómica: sin un solo aviso ni laboratorio contratante en el país; no es puesto ni negocio hoy.",
+  "NUT-06 Evaluación nutricional avanzada y composición corporal: es una tarea con equipo dentro del puesto clínico o del gimnasio, no un perfil que se contrate."
+ ]
+}

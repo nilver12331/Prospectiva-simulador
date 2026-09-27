@@ -1,0 +1,309 @@
+{
+ "cod": "SIS",
+ "fecha": "24-09-2026",
+ "sello": "a ciegas del plan",
+ "competencias": [
+  {
+   "alias": "Ingeniería de software",
+   "n": "Desarrollo de soluciones de software",
+   "tipo": "construcción",
+   "def": "Construir soluciones de software que una organización usa en sus operaciones, analizando las necesidades del negocio, diseñando la arquitectura, programando los componentes de backend, frontend e integración, verificando con pruebas automatizadas y revisión de código, y desplegando en producción; en equipos de desarrollo o fábricas de software que trabajan con repositorios, integración continua, metodologías ágiles y estándares de calidad y seguridad, para entregar sistemas confiables y mantenibles que respondan a los requerimientos del negocio.",
+   "evid": "Software desplegado en producción con su repositorio de código, pruebas automatizadas, pipeline de despliegue y documentación técnica, aceptado por el usuario.",
+   "nivel": "Al egresar construye de forma autónoma una solución de mediana complejidad de principio a fin, y participa bajo dirección de un arquitecto en sistemas de gran escala.",
+   "caps": [
+    {
+     "a": "Analizar",
+     "n": "Análisis y especificación de requisitos",
+     "d": "Capacidad de relevar las necesidades del negocio y traducirlas en requisitos y especificaciones verificables, modelando procesos y casos de uso con los usuarios, en contextos de cambio organizacional; moviliza técnicas de elicitación, modelado de procesos, escucha activa, rigor y comunicación con áreas no técnicas."
+    },
+    {
+     "a": "Diseñar",
+     "n": "Diseño de la arquitectura de la solución",
+     "d": "Capacidad de diseñar la arquitectura, los modelos de datos y las interfaces de una solución a partir de los requisitos, eligiendo patrones y tecnologías según restricciones de escala, costo y seguridad; moviliza patrones de diseño, bases de datos, arquitectura de software, criterio técnico y responsabilidad por las decisiones."
+    },
+    {
+     "a": "Construir",
+     "n": "Construcción e integración de los componentes de software",
+     "d": "Capacidad de programar componentes de backend, frontend e integración de APIs conforme al diseño, en repositorios versionados con revisión de código y entrega incremental, adaptándose a distintos lenguajes y marcos de trabajo; moviliza dominio de programación, estructuras de datos, estándares de codificación, disciplina y trabajo colaborativo."
+    },
+    {
+     "a": "Verificar",
+     "n": "Verificación de la calidad del software",
+     "d": "Capacidad de verificar que el software cumple los requisitos y los estándares de calidad mediante pruebas unitarias, de integración y de aceptación automatizadas y revisión de código, en ciclos de entrega continua; moviliza técnicas de prueba, análisis de defectos, pensamiento crítico, meticulosidad y compromiso con la calidad."
+    },
+    {
+     "a": "Desplegar",
+     "n": "Despliegue y mantenimiento en producción",
+     "d": "Capacidad de liberar el software en producción mediante pipelines de integración y despliegue continuo, documentarlo y mantenerlo evolutivamente frente a fallos y nuevos requerimientos, en entornos de nube o locales; moviliza conocimientos de CI/CD, control de versiones, documentación técnica, responsabilidad operativa y orientación al usuario."
+    }
+   ],
+   "esp": [
+    {
+     "n": "Desarrollo de software e ingeniería de aplicaciones",
+     "eq": "competencia",
+     "cap": "",
+     "nota": "Ejecuta el ciclo completo analizar–desplegar y entrega la misma evidencia: software en producción."
+    },
+    {
+     "n": "Análisis funcional y de sistemas de información",
+     "eq": "capacidad",
+     "cap": "Análisis y especificación de requisitos",
+     "nota": "Tramo inicial: devuelve la especificación al equipo de desarrollo; no construye ni despliega."
+    }
+   ],
+   "auditoria": {
+    "verbo": "Sí",
+    "objeto": "Sí",
+    "condiciones": "Sí",
+    "proposito": "Sí",
+    "evidencia": "Sí",
+    "nivel": "Sí",
+    "sustento": "Sí",
+    "capacidades": "Sí"
+   }
+  },
+  {
+   "alias": "Plataforma e infraestructura",
+   "n": "Diseño y operación de la infraestructura tecnológica",
+   "tipo": "construcción",
+   "def": "Diseñar, automatizar y operar la plataforma tecnológica sobre la que corren los sistemas de una organización —infraestructura en la nube, contenedores, pipelines, redes y comunicaciones—, aprovisionándola como código, monitoreándola con observabilidad y asegurando su disponibilidad, seguridad perimetral y costo, en entornos locales, híbridos, multinube y de servicios gestionados, para que las aplicaciones y las comunicaciones de la organización operen de forma continua, escalable y eficiente.",
+   "evid": "Plataforma operando con su infraestructura como código o configuración documentada, pipelines de despliegue, tablero de observabilidad e indicadores de disponibilidad y costo.",
+   "nivel": "Al egresar diseña y opera de forma autónoma la plataforma de una organización mediana en la nube o en red local, y participa bajo supervisión en arquitecturas multinube o de telecomunicaciones de gran escala.",
+   "caps": [
+    {
+     "a": "Diseñar",
+     "n": "Diseño de la arquitectura de la plataforma",
+     "d": "Capacidad de diseñar la arquitectura de la plataforma —servicios en la nube, contenedores, topología de red y comunicaciones— dimensionándola según carga, disponibilidad, seguridad y costo, en escenarios locales, híbridos o multinube; moviliza arquitectura cloud, redes, protocolos, criterio de diseño y responsabilidad por la continuidad del negocio."
+    },
+    {
+     "a": "Automatizar",
+     "n": "Aprovisionamiento y automatización de la infraestructura",
+     "d": "Capacidad de aprovisionar y configurar la plataforma mediante infraestructura como código, contenedores, pipelines de integración y despliegue y configuración de equipos de red, de forma reproducible y versionada, adaptándose a distintos proveedores; moviliza herramientas de automatización, scripting, control de versiones, rigor y orientación a la reproducibilidad."
+    },
+    {
+     "a": "Operar",
+     "n": "Operación y soporte de la infraestructura",
+     "d": "Capacidad de operar la plataforma día a día —respaldos, soporte, gestión de cambios, incidentes y capacidad— con procedimientos documentados y acuerdos de nivel, en contextos de operación continua; moviliza administración de sistemas y redes, procedimientos operativos, disciplina, atención a la continuidad y servicio al usuario."
+    },
+    {
+     "a": "Observar",
+     "n": "Observabilidad y aseguramiento de la disponibilidad",
+     "d": "Capacidad de instrumentar la plataforma con monitoreo, registros, trazas y alertas, medir su disponibilidad y rendimiento y proteger su perímetro, anticipando fallos en entornos distribuidos; moviliza observabilidad, seguridad perimetral, análisis de métricas, vigilancia proactiva y responsabilidad por la disponibilidad del servicio."
+    },
+    {
+     "a": "Optimizar",
+     "n": "Optimización del rendimiento y de los costos",
+     "d": "Capacidad de analizar el uso de la plataforma y optimizar su rendimiento, escalabilidad y costo —FinOps, ajuste de recursos, mejora de arquitectura— con base en evidencia de operación, en organizaciones con presupuesto restringido; moviliza análisis de costos, ingeniería de rendimiento, pensamiento económico, mejora continua y transparencia ante la dirección."
+    }
+   ],
+   "esp": [
+    {
+     "n": "Infraestructura en la nube y DevOps",
+     "eq": "competencia",
+     "cap": "",
+     "nota": "Ejecuta el ciclo completo diseñar–optimizar y entrega la plataforma operando con código y observabilidad."
+    },
+    {
+     "n": "Redes y telecomunicaciones",
+     "eq": "ambito",
+     "cap": "",
+     "nota": "Mismo ciclo diseñar–implementar–operar–asegurar; la rúbrica de plataforma sirve cambiando nube por red."
+    }
+   ],
+   "auditoria": {
+    "verbo": "Sí",
+    "objeto": "Sí",
+    "condiciones": "Sí",
+    "proposito": "Sí",
+    "evidencia": "Sí",
+    "nivel": "Sí",
+    "sustento": "Sí",
+    "capacidades": "Sí"
+   }
+  },
+  {
+   "alias": "Datos e inteligencia artificial",
+   "n": "Desarrollo de soluciones de analítica e inteligencia artificial",
+   "tipo": "construcción",
+   "def": "Construir soluciones que convierten los datos de una organización en decisiones y en modelos que aprenden, gobernando e integrando el dato, modelando, entrenando y evaluando modelos descriptivos, predictivos o de inteligencia artificial, e implantándolos en producción con monitoreo y tableros de decisión, bajo principios de calidad del dato, ética algorítmica y protección de datos, en empresas, consultoras y equipos remotos, para que las decisiones de gerencia y los procesos automatizados se sustenten en evidencia confiable.",
+   "evid": "Modelo analítico o de inteligencia artificial en producción con su modelo de datos documentado, su informe de evaluación y su tablero de decisión en uso por la gerencia.",
+   "nivel": "Al egresar construye de forma autónoma una solución analítica completa —del dato al tablero o modelo en producción— para un problema de negocio de mediana complejidad, y colabora bajo supervisión en modelos de gran escala o alto riesgo.",
+   "caps": [
+    {
+     "a": "Gobernar",
+     "n": "Gobierno e integración del dato",
+     "d": "Capacidad de ingerir, integrar y modelar los datos de la organización asegurando su calidad, linaje, seguridad y gobierno, mediante pipelines de extracción, transformación y carga sobre fuentes heterogéneas; moviliza bases de datos, modelado dimensional, arquitectura de datos, rigor, ética y responsabilidad sobre la protección de la información."
+    },
+    {
+     "a": "Modelar",
+     "n": "Modelado analítico y entrenamiento de algoritmos",
+     "d": "Capacidad de formular un problema de negocio como problema analítico y construir modelos estadísticos, de aprendizaje automático o de inteligencia artificial generativa, entrenándolos y ajustándolos con datos reales, adaptándose a distintos dominios; moviliza matemática, estadística, algoritmos de aprendizaje, programación científica, curiosidad y pensamiento crítico."
+    },
+    {
+     "a": "Evaluar",
+     "n": "Evaluación de la validez y la ética del modelo",
+     "d": "Capacidad de evaluar el desempeño, la robustez, el sesgo y el impacto ético de un modelo con métricas y pruebas adecuadas al problema, antes y después de implantarlo, en contextos regulados; moviliza estadística inferencial, diseño experimental, ética algorítmica, honestidad intelectual y responsabilidad por las consecuencias de la decisión."
+    },
+    {
+     "a": "Implantar",
+     "n": "Implantación y monitoreo en producción",
+     "d": "Capacidad de poner el modelo en producción como servicio o proceso automatizado, con prácticas de MLOps, versionado, monitoreo de deriva y reentrenamiento, integrándolo con los sistemas de la organización; moviliza ingeniería de software, contenedores y pipelines, automatización, disciplina operativa y compromiso con la continuidad del servicio."
+    },
+    {
+     "a": "Comunicar",
+     "n": "Comunicación de resultados para la toma de decisiones",
+     "d": "Capacidad de construir tableros de indicadores, visualizaciones y narrativas que traduzcan los resultados analíticos en decisiones de gerencia, adaptando el mensaje a públicos no técnicos; moviliza diseño de visualizaciones, definición de indicadores, análisis descriptivo, claridad expositiva, empatía con el decisor y transparencia sobre las limitaciones del análisis."
+    }
+   ],
+   "esp": [
+    {
+     "n": "Ciencia de datos e inteligencia artificial",
+     "eq": "competencia",
+     "cap": "",
+     "nota": "Ejecuta el ciclo completo gobernar–implantar y entrega modelo en producción con informe y tablero."
+    },
+    {
+     "n": "Inteligencia de negocios y analítica empresarial",
+     "eq": "ambito",
+     "cap": "",
+     "nota": "Mismo ciclo dato–modelo–producto en operación; objeto descriptivo, sin modelos que aprenden; rúbrica sirve."
+    }
+   ],
+   "auditoria": {
+    "verbo": "Sí",
+    "objeto": "Sí",
+    "condiciones": "Sí",
+    "proposito": "Sí",
+    "evidencia": "Sí",
+    "nivel": "Sí",
+    "sustento": "Sí",
+    "capacidades": "Sí"
+   }
+  },
+  {
+   "alias": "Ciberseguridad",
+   "n": "Gestión de la seguridad de la información y de los riesgos digitales",
+   "tipo": "gestión",
+   "def": "Gestionar la seguridad de la información y de los sistemas de una organización a lo largo del ciclo evaluar el riesgo, proteger, detectar, responder y recuperar, aplicando análisis de riesgos, pruebas de penetración, controles técnicos y de identidad, monitoreo, respuesta a incidentes, forense y continuidad, conforme a marcos y normas de seguridad y de protección de datos personales, en banca, fintech, telecomunicaciones, Estado y servicios gestionados, para proteger la información, sostener la operación y garantizar el cumplimiento ante reguladores y autoridad.",
+   "evid": "Informe de riesgos con su plan de tratamiento y plan de respuesta a incidentes aprobados por la organización, con registro de incidentes gestionados y reportes de cumplimiento a la autoridad.",
+   "nivel": "Al egresar evalúa riesgos, implanta controles y responde a incidentes de forma autónoma en una organización mediana, y opera bajo supervisión de un jefe de seguridad en entornos regulados o de infraestructura crítica.",
+   "caps": [
+    {
+     "a": "Evaluar",
+     "n": "Evaluación de riesgos y vulnerabilidades",
+     "d": "Capacidad de identificar activos y tratamientos de información, analizar amenazas, vulnerabilidades y riesgos mediante metodologías de riesgo, escaneos y pruebas de penetración, y priorizar su tratamiento, en organizaciones de distinto tamaño y sector; moviliza marcos de riesgo, hacking ético, normativa, pensamiento adversarial, objetividad y confidencialidad."
+    },
+    {
+     "a": "Proteger",
+     "n": "Diseño e implantación de controles de seguridad",
+     "d": "Capacidad de diseñar e implantar políticas y controles técnicos, de identidad y organizacionales —incluida la concientización— que reduzcan el riesgo a un nivel aceptable, adaptados al presupuesto y a la regulación aplicable; moviliza arquitectura de seguridad, gestión de identidades, criptografía, normativa, rigor y responsabilidad ante la organización."
+    },
+    {
+     "a": "Detectar",
+     "n": "Monitoreo y detección de amenazas",
+     "d": "Capacidad de monitorear la infraestructura y los sistemas desde un centro de operaciones de seguridad, correlacionar eventos y detectar incidentes y brechas de datos de forma temprana, en operación continua; moviliza herramientas de monitoreo, inteligencia de amenazas, análisis de registros, vigilancia sostenida y capacidad de discriminar señales relevantes."
+    },
+    {
+     "a": "Responder",
+     "n": "Respuesta a incidentes y análisis forense",
+     "d": "Capacidad de contener, erradicar y analizar forensemente un incidente de seguridad o brecha de datos, coordinar la comunicación y notificar a afectados y autoridad en los plazos legales, bajo presión; moviliza respuesta a incidentes, forense digital, normativa de notificación, serenidad, ética y trabajo coordinado."
+    },
+    {
+     "a": "Recuperar",
+     "n": "Continuidad, cumplimiento y auditoría de la seguridad",
+     "d": "Capacidad de restaurar la operación tras un incidente, mantener y probar los planes de continuidad, y sostener el cumplimiento del programa de seguridad y de datos personales mediante auditorías y reportes al regulador, en organizaciones supervisadas; moviliza gestión de continuidad, normativa, auditoría, mejora continua, responsabilidad y transparencia."
+    }
+   ],
+   "esp": [
+    {
+     "n": "Ciberseguridad y gestión de riesgos digitales",
+     "eq": "competencia",
+     "cap": "",
+     "nota": "Ejecuta el ciclo completo evaluar–recuperar y entrega informe de riesgos y plan de respuesta aprobados."
+    },
+    {
+     "n": "Protección de datos personales y privacidad",
+     "eq": "ambito",
+     "cap": "",
+     "nota": "Mismo ciclo inventariar–controlar–operar–notificar–auditar; la rúbrica sirve cambiando información por datos personales."
+    }
+   ],
+   "auditoria": {
+    "verbo": "Sí",
+    "objeto": "Sí",
+    "condiciones": "Sí",
+    "proposito": "Sí",
+    "evidencia": "Sí",
+    "nivel": "Sí",
+    "sustento": "Sí",
+    "capacidades": "Sí"
+   }
+  },
+  {
+   "alias": "Gobierno y gestión de TI",
+   "n": "Gobierno y dirección de proyectos y servicios de tecnología de la información",
+   "tipo": "gestión",
+   "def": "Dirigir la tecnología de una organización desde la estrategia hasta el servicio, alineando la hoja de ruta tecnológica con la estrategia del negocio, planificando y dirigiendo proyectos con equipos y proveedores, operando los servicios bajo acuerdos de nivel y evaluando los controles y riesgos de TI ante la dirección y el comité de auditoría, con marcos de gestión de proyectos, de servicios y de gobierno de TI, en empresas, Estado y consultoras, para que la inversión tecnológica genere valor, cumpla sus compromisos y se gobierne con control.",
+   "evid": "Expediente de gestión de TI con proyecto entregado y acta de cierre, catálogo de servicios operando bajo acuerdos de nivel, trazado a una hoja de ruta aprobada y con informe de evaluación de controles.",
+   "nivel": "Al egresar planifica, dirige y cierra de forma autónoma un proyecto tecnológico de mediana complejidad y opera su servicio, y participa bajo supervisión en la hoja de ruta de transformación y en auditorías de sistemas.",
+   "caps": [
+    {
+     "a": "Alinear",
+     "n": "Alineamiento de la tecnología con la estrategia organizacional",
+     "d": "Capacidad de diagnosticar la madurez digital, alinear la tecnología con la estrategia, diseñar la arquitectura objetivo y priorizar el portafolio en una hoja de ruta con medición de valor, en organizaciones en transformación; moviliza arquitectura empresarial, gestión del cambio, análisis financiero, visión sistémica y comunicación con la alta dirección."
+    },
+    {
+     "a": "Planificar",
+     "n": "Planificación de proyectos tecnológicos",
+     "d": "Capacidad de definir el alcance, el cronograma, los recursos, los riesgos y los proveedores de un proyecto tecnológico, en enfoques predictivos o ágiles según el contexto de la organización; moviliza marcos de gestión de proyectos, estimación, contratación y negociación con proveedores, realismo, orden y compromiso con lo pactado."
+    },
+    {
+     "a": "Dirigir",
+     "n": "Dirección, control y entrega de proyectos tecnológicos",
+     "d": "Capacidad de dirigir equipos y proveedores, gestionar los cambios de alcance, controlar avance, costo y calidad, y entregar el proyecto con aceptación formal del cliente, en entornos de incertidumbre; moviliza liderazgo, gestión de equipos y conflictos, control de proyectos, reporte a la dirección, responsabilidad y orientación a resultados."
+    },
+    {
+     "a": "Operar",
+     "n": "Operación de los servicios de tecnología de la información",
+     "d": "Capacidad de operar el catálogo de servicios tecnológicos bajo acuerdos de nivel, gestionando incidentes, cambios, problemas y mejora continua con marcos de gestión de servicios, en organizaciones que dependen de la tecnología para operar; moviliza ITIL, medición de servicios, atención al usuario, disciplina operativa y orientación al servicio."
+    },
+    {
+     "a": "Evaluar",
+     "n": "Auditoría de controles y riesgos de tecnología de la información",
+     "d": "Capacidad de planificar y ejecutar auditorías de sistemas, evaluar los controles y riesgos de TI frente a marcos de gobierno y cumplimiento, reportar los hallazgos al comité de auditoría y seguir su remediación, con independencia; moviliza COBIT, auditoría, normativa, objetividad, integridad, rigor probatorio y comunicación de hallazgos."
+    }
+   ],
+   "esp": [
+    {
+     "n": "Gestión de proyectos y servicios de TI",
+     "eq": "competencia",
+     "cap": "",
+     "nota": "Ejecuta el ciclo base planificar–operar y entrega proyecto cerrado y servicio bajo acuerdos de nivel."
+    },
+    {
+     "n": "Arquitectura empresarial y transformación digital",
+     "eq": "capacidad",
+     "cap": "Alineamiento de la tecnología con la estrategia",
+     "nota": "Tramo previo: devuelve la hoja de ruta a la alta dirección; la ejecución la hacen los proyectos."
+    },
+    {
+     "n": "Auditoría de sistemas y gobierno de TI",
+     "eq": "capacidad",
+     "cap": "Auditoría de controles y riesgos de TI",
+     "nota": "Tramo de aseguramiento con informe propio: evalúa y reporta al comité; no ejecuta la remediación."
+    }
+   ],
+   "auditoria": {
+    "verbo": "Sí",
+    "objeto": "Sí",
+    "condiciones": "Sí",
+    "proposito": "Sí",
+    "evidencia": "Sí",
+    "nivel": "Sí",
+    "sustento": "Sí",
+    "capacidades": "Sí"
+   }
+  }
+ ],
+ "resumen": "Dirección: del campo salen cinco competencias —tres de construcción (ingeniería de software, plataforma e infraestructura, datos e inteligencia artificial) y dos de gestión (ciberseguridad, gobierno y gestión de TI)— con veinticinco capacidades, cinco por competencia. De las once especialidades que entraron al plan, cinco equivalen a una competencia (desarrollo de software, infraestructura en la nube y DevOps, ciencia de datos e IA, ciberseguridad, gestión de proyectos y servicios de TI); tres son ámbito de aplicación (redes y telecomunicaciones, inteligencia de negocios, protección de datos personales); y tres equivalen a una capacidad: análisis funcional ⊂ Analizar, arquitectura empresarial ⊂ Alinear y auditoría de sistemas ⊂ Evaluar. El proceso corrigió al grupo «gestión TI» de la Escuela: la auditoría de sistemas no es un mismo puesto sino un tramo de aseguramiento con informe propio, y la arquitectura empresarial es el tramo previo a la dirección del proyecto. Ninguna especialidad quedó sin correspondencia."
+}

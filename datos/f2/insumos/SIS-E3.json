@@ -1,0 +1,106 @@
+{
+ "carrera": "Ingeniería de Sistemas",
+ "cod": "SIS",
+ "k": "E3",
+ "especialidad": "Ciencia de datos, inteligencia artificial e inteligencia de negocios",
+ "especialidad_base": "Ciencia de datos e inteligencia artificial",
+ "integradas": [
+  "Inteligencia de negocios y analítica empresarial"
+ ],
+ "ambitos_y_absorbidas": [
+  "Inteligencia de negocios y analítica empresarial (ámbito)"
+ ],
+ "descripcion_f1": {
+  "vol": 4,
+  "amp": 4,
+  "esc": 4,
+  "rem": 4,
+  "for": 2
+ },
+ "proceso_f1": "Gobernar el dato → modelar → entrenar → evaluar → implantar",
+ "evidencia_f1": "Modelo en producción con su informe de evaluación y su tablero de decisión",
+ "competencia": {
+  "codigo": "C3",
+  "alias": "Datos e inteligencia artificial",
+  "nombre": "Desarrollo de soluciones de analítica e inteligencia artificial",
+  "definicion_conceptual": "Construir soluciones que convierten los datos de una organización en decisiones y en modelos que aprenden, gobernando e integrando el dato, modelando, entrenando y evaluando modelos descriptivos, predictivos o de inteligencia artificial, e implantándolos en producción con monitoreo y tableros de decisión, bajo principios de calidad del dato, ética algorítmica y protección de datos, en empresas, consultoras y equipos remotos, para que las decisiones de gerencia y los procesos automatizados se sustenten en evidencia confiable."
+ },
+ "capacidades_SOLO_PARA_MOMENTO_4": [
+  {
+   "codigo": "C3.1",
+   "accion": "Gobernar",
+   "nombre": "Gobierno e integración del dato",
+   "definicion": "Capacidad de ingerir, integrar y modelar los datos de la organización asegurando su calidad, linaje, seguridad y gobierno, mediante pipelines de extracción, transformación y carga sobre fuentes heterogéneas; moviliza bases de datos, modelado dimensional, arquitectura de datos, rigor, ética y responsabilidad sobre la protección de la información."
+  },
+  {
+   "codigo": "C3.2",
+   "accion": "Modelar",
+   "nombre": "Modelado analítico y entrenamiento de algoritmos",
+   "definicion": "Capacidad de formular un problema de negocio como problema analítico y construir modelos estadísticos, de aprendizaje automático o de inteligencia artificial generativa, entrenándolos y ajustándolos con datos reales, adaptándose a distintos dominios; moviliza matemática, estadística, algoritmos de aprendizaje, programación científica, curiosidad y pensamiento crítico."
+  },
+  {
+   "codigo": "C3.3",
+   "accion": "Evaluar",
+   "nombre": "Evaluación de la validez y la ética del modelo",
+   "definicion": "Capacidad de evaluar el desempeño, la robustez, el sesgo y el impacto ético de un modelo con métricas y pruebas adecuadas al problema, antes y después de implantarlo, en contextos regulados; moviliza estadística inferencial, diseño experimental, ética algorítmica, honestidad intelectual y responsabilidad por las consecuencias de la decisión."
+  },
+  {
+   "codigo": "C3.4",
+   "accion": "Implantar",
+   "nombre": "Implantación y monitoreo en producción",
+   "definicion": "Capacidad de poner el modelo en producción como servicio o proceso automatizado, con prácticas de MLOps, versionado, monitoreo de deriva y reentrenamiento, integrándolo con los sistemas de la organización; moviliza ingeniería de software, contenedores y pipelines, automatización, disciplina operativa y compromiso con la continuidad del servicio."
+  },
+  {
+   "codigo": "C3.5",
+   "accion": "Comunicar",
+   "nombre": "Comunicación de resultados para la toma de decisiones",
+   "definicion": "Capacidad de construir tableros de indicadores, visualizaciones y narrativas que traduzcan los resultados analíticos en decisiones de gerencia, adaptando el mensaje a públicos no técnicos; moviliza diseño de visualizaciones, definición de indicadores, análisis descriptivo, claridad expositiva, empatía con el decisor y transparencia sobre las limitaciones del análisis."
+  }
+ ],
+ "otras_competencias": [
+  {
+   "codigo": "C1",
+   "nombre": "Desarrollo de soluciones de software",
+   "capacidades": [
+    "C1.1 Analizar: Análisis y especificación de requisitos",
+    "C1.2 Diseñar: Diseño de la arquitectura de la solución",
+    "C1.3 Construir: Construcción e integración de los componentes de software",
+    "C1.4 Verificar: Verificación de la calidad del software",
+    "C1.5 Desplegar: Despliegue y mantenimiento en producción"
+   ]
+  },
+  {
+   "codigo": "C2",
+   "nombre": "Diseño y operación de la infraestructura tecnológica",
+   "capacidades": [
+    "C2.1 Diseñar: Diseño de la arquitectura de la plataforma",
+    "C2.2 Automatizar: Aprovisionamiento y automatización de la infraestructura",
+    "C2.3 Operar: Operación y soporte de la infraestructura",
+    "C2.4 Observar: Observabilidad y aseguramiento de la disponibilidad",
+    "C2.5 Optimizar: Optimización del rendimiento y de los costos"
+   ]
+  },
+  {
+   "codigo": "C4",
+   "nombre": "Gestión de la seguridad de la información y de los riesgos digitales",
+   "capacidades": [
+    "C4.1 Evaluar: Evaluación de riesgos y vulnerabilidades",
+    "C4.2 Proteger: Diseño e implantación de controles de seguridad",
+    "C4.3 Detectar: Monitoreo y detección de amenazas",
+    "C4.4 Responder: Respuesta a incidentes y análisis forense",
+    "C4.5 Recuperar: Continuidad, cumplimiento y auditoría de la seguridad"
+   ]
+  },
+  {
+   "codigo": "C5",
+   "nombre": "Gobierno y dirección de proyectos y servicios de tecnología de la información",
+   "capacidades": [
+    "C5.1 Alinear: Alineamiento de la tecnología con la estrategia organizacional",
+    "C5.2 Planificar: Planificación de proyectos tecnológicos",
+    "C5.3 Dirigir: Dirección, control y entrega de proyectos tecnológicos",
+    "C5.4 Operar: Operación de los servicios de tecnología de la información",
+    "C5.5 Evaluar: Auditoría de controles y riesgos de tecnología de la información"
+   ]
+  }
+ ]
+}

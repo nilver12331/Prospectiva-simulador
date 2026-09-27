@@ -1,0 +1,217 @@
+{
+ "cod": "SIS",
+ "k": "E1",
+ "competencia": "C1",
+ "funciones": {
+  "E1-01": {
+   "marcas": [
+    "●",
+    "○",
+    "",
+    "○",
+    ""
+   ],
+   "asig": "C1",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (DS 029-2021-PCM, reglamento de gobierno digital [20]) · E2 (O*NET 15-1252 [1], SFIA 9 REQM [7] y CAS SENACE con NTP-ISO/IEC 12207 [31]) · E3 (42 de 71 avisos de una muestra de 74 leídos [32])",
+    "tend": "E6 (Stack Overflow 2025: 84 % usa o planea usar IA [40]; Política Nacional de Transformación Digital al 2030, 2023 [26])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E1-02": {
+   "marcas": [
+    "○",
+    "●",
+    "",
+    "",
+    ""
+   ],
+   "asig": "C1",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (DS 029-2021-PCM [20] y DS 098-2025-PCM [21]) · E2 (ESCO 2512.2 [6], SFIA 9 SWDN [8] y CAS Pensión 65 [30]) · E3 (29 de 71 avisos [32])",
+    "tend": "E6 (CNCF 2025: 82 % con Kubernetes en producción frente a 66 % en 2023 [41]; DS 098-2025-PCM, julio de 2025 [21])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E1-03": {
+   "marcas": [
+    "",
+    "○",
+    "●",
+    "○",
+    ""
+   ],
+   "asig": "C1",
+   "otra": "",
+   "dic": {
+    "ev": "E2 (ESCO 2512.4 [5], SFIA 9 PROG [9], CAS SUNAFIL y Pensión 65 [29][30]) · E3 (56 de 71 avisos [32][33]; LinkedIn, más de 1 000 empleos [34]) · E4 (EDO 2025 del MTPE: 5 226 puestos proyectados para Ingeniería de Sistemas de Información [35])",
+    "tend": "E6 (WEF Future of Jobs 2025 [39]; crecimiento de 15 % de perfiles tecnológicos, estudio de 2024 [36]; Stack Overflow 2025 [40])",
+    "d": "S",
+    "acc": "Citar la EDO 2025 del MTPE en su fuente primaria: hoy se lee vía Infobae [35]."
+   }
+  },
+  "E1-04": {
+   "marcas": [
+    "",
+    "",
+    "●",
+    "○",
+    "○"
+   ],
+   "asig": "C1",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (DL 1412 [19], DS 029-2021-PCM [20]; WCAG 2.2 como estándar [18]) · E3 (34 de 71 avisos de frontend y 17 de móviles [32]) · E4 (89,0 % de usuarios de internet se conecta por celular, INEI II-2025 [37]; más de 350 servicios en GOB.PE, 2025 [38])",
+    "tend": "E6 (Política Nacional de Transformación Digital al 2030, 2023: meta de 30,4 % de trámites en línea [26]; WCAG 2.2, 2024 [18])",
+    "d": "S",
+    "acc": "Añadir una fuente ocupacional (O*NET 15-1254 Web Developers o ESCO de desarrollador web y móvil): hoy no hay E2."
+   }
+  },
+  "E1-06": {
+   "marcas": [
+    "○",
+    "○",
+    "●",
+    "○",
+    ""
+   ],
+   "asig": "C1",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (DL 1412 [19], DS 098-2025-PCM [21]) · E2 (O*NET 15-1211 [2]) · E3 (48 de 71 avisos de integración y 15 de automatización [32][33]) · E4 (PIDE con más de 500 millones de transacciones en 2025 y 267 entidades en Cero Papel [38])",
+    "tend": "E6 (DS 098-2025-PCM, obligatorio desde julio de 2025 [21]; WEF Future of Jobs 2025 [39])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E1-08": {
+   "marcas": [
+    "○",
+    "",
+    "",
+    "●",
+    ""
+   ],
+   "asig": "C1",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (RM 041-2017-PCM, NTP-ISO/IEC 12207 obligatoria [22]) · E2 (O*NET 15-1253 [3], SFIA 9 TEST [12], ISTQB CTFL 4.0 [16], CAS Pensión 65 [30]) · E3 (41 de 71 avisos [32])",
+    "tend": "E6 (Stack Overflow 2025: 46 % desconfía de la exactitud de la IA [40]; BLS, proyección 2025-2035 [4])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E1-09": {
+   "marcas": [
+    "",
+    "○",
+    "●",
+    "●",
+    ""
+   ],
+   "asig": "C1 · compartida con C4",
+   "otra": "C4.2 Proteger",
+   "dic": {
+    "ev": "E1 (Ley 29733 [23], DS 016-2024-JUS [24], DL 1412 [19]) · E3 (18 de 71 avisos [32])",
+    "tend": "E6 (DS 115-2025-PCM, plazos escalonados hasta 2029 [25]; OWASP Top 10:2025 [17])",
+    "d": "S",
+    "acc": "Añadir una fuente ocupacional (O*NET 15-1212 o SFIA SCTY/SWDN de desarrollo seguro): el fundamento descansa solo en E1 y E3; 18 de 71 avisos es la frecuencia más baja de E1."
+   }
+  },
+  "E1-10": {
+   "marcas": [
+    "",
+    "",
+    "○",
+    "○",
+    "●"
+   ],
+   "asig": "C1 · compartida con C2",
+   "otra": "C2.2 Automatizar",
+   "dic": {
+    "ev": "E1 (DS 029-2021-PCM [20]) · E2 (O*NET 15-1253 [3], SFIA 9 RELM [13], CAS Pensión 65 con Docker y CI/CD [30]) · E3 (33 de 71 avisos [32])",
+    "tend": "E6 (DORA 2025: 90 % usa IA [42]; WEF Future of Jobs 2025, ingeniero DevOps [39]; CNCF 2025 [41])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E1-11": {
+   "marcas": [
+    "○",
+    "",
+    "●",
+    "○",
+    "●"
+   ],
+   "asig": "C1",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (RM 041-2017-PCM [22], DS 098-2025-PCM [21]) · E2 (O*NET 15-1252 y 15-1211 [1][2], SFIA 9 ASUP [14]) · E3 (56 de 71 avisos [32][33])",
+    "tend": "E6 (Stack Overflow 2024: 62,4 % señala la deuda técnica [43]; DS 098-2025-PCM, julio de 2025 [21])",
+    "d": "S",
+    "acc": "—"
+   }
+  }
+ },
+ "reasignadas": [],
+ "alertas": [
+  [
+   "E1-09 · Seguridad y privacidad en aplicaciones",
+   "C1.3 y C1.4 con C4.2",
+   "Desarrollador de software y DevSecOps en banca, fintech y servicios digitales del Estado: los avisos piden desarrollo seguro, gestión de vulnerabilidades y protección de datos en el mismo puesto (18 de 71 avisos [32]; OWASP Top 10:2025 [17])",
+   "Si la certificación separa C1 de C4, el egresado certificado solo en C1 no evidencia la implantación de controles (autenticación, autorización, cifrado) y el certificado solo en C4 no evidencia su codificación ni su corrección; la seguridad de aplicaciones quedó solo en E1-09 al excluirse E4-05."
+  ],
+  [
+   "E1-10 · Integración y despliegue continuo del software",
+   "C1.5 con C2.2",
+   "Ingeniero DevOps en fábricas de software, banca y entidades públicas: CAS de programador con Docker y CI/CD (Pensión 65 [30]) y avisos DevOps con IaC, Kubernetes y GitOps (SIS-E2, Indra [23])",
+   "Si la certificación separa C1 de C2, la canalización (C1.5) se certifica sin el empaquetado en contenedores y la automatización reproducible (C2.2), o al revés; E1-10 es casa única tras absorber E2-06 y ninguna otra función cubre ese encargo completo."
+  ]
+ ],
+ "decisiones": [
+  [
+   "2026-09-25",
+   "Se asignan 9 funciones de E1: E1-01, E1-02, E1-03, E1-04, E1-06, E1-08, E1-09 y E1-11 (núcleo) y E1-10 (complementaria por decisión de la Escuela). Siete a C1 y dos compartidas: E1-09 con C4 (C4.2 Proteger) y E1-10 con C2 (C2.2 Automatizar).",
+   "Con decision2 del panel. No se asignan E1-05 (fusionada en E1-04) ni E1-07 (sublínea en E1-06). Se aplicaron los ajustes de SIS-E1-21-ajustes.json antes de marcar, incluida la absorción de E2-06 por E1-10."
+  ],
+  [
+   "2026-09-25",
+   "E1-10 absorbe E2-06 y es compartida con C2: moviliza de forma principal C1.5 (pipelines de integración y despliegue) y C2.2 (contenedores y pipelines de despliegue reproducibles, que la definición de C2.2 nombra).",
+   "Decisión de la Escuela: casa única de la integración y el despliegue continuo; la plataforma de contenedores quedó en E2-07. El lim deja a E2 la administración de los clústeres productivos."
+  ],
+  [
+   "2026-09-25",
+   "E1-09 es compartida con C4: implanta autenticación, autorización y cifrado (C4.2) y corrige vulnerabilidades del propio código (C1.3, C1.4).",
+   "La Escuela excluyó E4-05 por duplicar E1-09: la seguridad de aplicaciones queda en Desarrollo de software. El lim excluye pruebas de intrusión y la conformidad de seguridad del pase (C4.1 queda en E4-02)."
+  ],
+  [
+   "2026-09-25",
+   "Cobertura completa: C1.1 (E1-01), C1.2 (E1-02), C1.3 (E1-03, E1-04, E1-06, E1-09, E1-11), C1.4 (E1-08, E1-09) y C1.5 (E1-10, E1-11) tienen función principal.",
+   "C1.1 y C1.2 dependen de una sola función principal cada una (E1-01 y E1-02); no hay reasignadas, transversales ni brechas."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C1.3 (pendiente de la Escuela): «programar componentes de backend, frontend web y móvil e integración de APIs, y automatizar con flujos o bots las tareas repetitivas entre sistemas sin API».",
+   "E1-04 absorbió el desarrollo móvil (E1-05) y E1-06 la automatización de procesos (E1-07, T4); la definición no nombra lo móvil ni la automatización con flujos o bots. Es ajuste de redacción, no de estructura."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C1.4 (pendiente de la Escuela): añadir «incluidos el análisis estático y las pruebas dinámicas de seguridad del código y de sus dependencias».",
+   "E1-09 (T3 y T4) verifica la seguridad con análisis y pruebas que la definición de C1.4 no nombra (solo pruebas unitarias, de integración y de aceptación)."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C1.5 (pendiente de la Escuela): añadir «empaquetándolo en contenedores o artefactos versionados, con plan de reversión y medición de la entrega».",
+   "E1-10 (T2, T4 y T6) empaqueta en contenedores, pasa con reversión y mide frecuencia de despliegue y fallos de cambio; la definición no nombra esos métodos."
+  ],
+  [
+   "2026-09-25",
+   "Dictamen de suficiencia de E1: 9 S. Global: P.",
+   "Muestra de 74 avisos leídos (71 válidos, ≥ 30): E3 se cumple en todas las funciones; todas las referencias citadas están verificadas y las tendencias fechadas. E1-04 y E1-09 no tienen E2 (se sostienen en E1) y E1-03 usa la EDO vía Infobae. E5 (grupos de interés) y E7 (resultados) son de programa: no bajan el dictamen por función, pero el global nunca es S."
+  ]
+ ]
+}

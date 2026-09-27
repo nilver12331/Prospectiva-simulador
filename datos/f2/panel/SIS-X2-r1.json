@@ -1,0 +1,1585 @@
+{
+ "rol": "X2",
+ "perfil": "Empleador del sector público · jefe de la Oficina de Tecnologías de la Información de una entidad pública peruana · 12 años en OTI de ministerios y organismos · gobierno digital, contrataciones TIC y SGSI",
+ "cod": "SIS",
+ "ronda": 1,
+ "funciones": {
+  "E1-01": {
+   "R": "Sí",
+   "donde": "Analista de sistemas CAS en OTI; requerimientos para sistemas de trámite y SGD; términos de referencia de fábricas de software",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Especifica módulos acotados; en sistemas misionales multientidad trabaja bajo el coordinador funcional y el dueño del proceso.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Función que más pido en CAS. El impacto apoya en IA (Stack Overflow) con vínculo indirecto; mejor citar la obligación de servicios centrados en el ciudadano del DS 029-2021-PCM.",
+   "bloque": "S"
+  },
+  "E1-02": {
+   "R": "Sí",
+   "donde": "Diseño de sistemas propios de la OTI; revisión de arquitectura en consultorías; lineamientos de arquitectura digital de la SGTD",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña modelos de datos y componentes de módulos; la arquitectura de plataformas institucionales la aprueba el jefe de desarrollo.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Un recién egresado en mi OTI diseña bajo supervisión directa, no indirecta. La base de datos normalizada es donde más fallan; el diseño de arquitectura por microservicios excede lo que verán al egreso.",
+   "bloque": "F"
+  },
+  "E1-03": {
+   "R": "Sí",
+   "donde": "Programador CAS (SUNAFIL, Pensión 65); backend de sistemas de trámite, planillas y registros administrativos",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Programa sin supervisión servicios de complejidad moderada; los pases a producción de sistemas misionales requieren revisión y aprobación del jefe de desarrollo.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Sustento sólido: verifiqué en Infobae los 5 226 puestos proyectados para Ingeniería de Sistemas de Información (EDO-MTPE).",
+   "bloque": "S",
+   "fuente": "https://www.infobae.com/peru/2026/01/20/conoce-las-carreras-de-ingenieria-que-tendran-mayor-demanda-laboral-este-2026/"
+  },
+  "E1-04": {
+   "R": "Sí",
+   "donde": "Portales institucionales y servicios en GOB.PE; formularios de mesa de partes digital; convocatorias de desarrollador frontend",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye interfaces sobre prototipos y la guía de estilos GOB.PE; no define la línea gráfica institucional.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Cifra de GOB.PE inconsistente en el paquete: aquí «más de 350 servicios» (Prensa Perú) y en E5 «5 162» (indicadores SGTD). Verifiqué ambas; miden cosas distintas y conviene unificar el dato.",
+   "bloque": "S",
+   "fuente": "https://indicadores.digital.gob.pe/"
+  },
+  "E1-05": {
+   "R": "Sí",
+   "donde": "Aplicativos móviles de programas sociales y fiscalización de campo; convocatoria CAS Pensión 65 (Android/Flutter)",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Desarrolla y prueba funcionalidades; la publicación en tiendas con cuentas institucionales la gestiona el responsable de la OTI.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "En el Estado es ocasional: priorizamos web adaptable y pocas entidades publican apps propias. Útil, no esencial; la publicación en tiendas rara vez la hace un junior.",
+   "bloque": "F"
+  },
+  "E1-06": {
+   "R": "Sí",
+   "donde": "Consumo de servicios PIDE (RENIEC, SUNAT, SUNARP); integración con SIAF, SIGA y SGD PERÚ; DS 098-2025-PCM",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [
+     "Tramitar el acceso a los servicios de la PIDE y administrar sus credenciales y convenios de consumo"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Implementa integraciones con contratos definidos; el acceso a datos de otras entidades lo autoriza la jefatura de TI conforme a la normativa.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "La función más crítica en una OTI pública. Verifiqué el art. 87.3 del DS 098-2025-PCM: uso obligatorio de bloques básicos. Falta la tarea de gestionar el acceso a la PIDE, que consume tiempo real.",
+   "bloque": "S",
+   "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2423580-2"
+  },
+  "E1-07": {
+   "R": "Sí",
+   "donde": "Automatización de mesa de partes, reportes de planillas y conciliaciones en entidades; iniciativa Cero Papel",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 2,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Automatiza procesos departamentales; no automatiza decisiones sobre administrados sin aprobación del dueño del proceso y de la OTI.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Real y en ascenso. Se solapa con E5-08 (digitalización de procesos): aquí debe quedar la construcción técnica y en E5-08 el rediseño del servicio. Dato Cero Papel (267 entidades) verificado.",
+   "bloque": "F",
+   "fuente": "https://prensaperu.pe/2026/01/03/transformacion-digital-en-perupcm-consolida-avances-historicos-en-modernizacion-estatal-con-mas-de-500-millones-de-transacciones-digitales-y-6-5-millones-de-atenciones-al-ciudadano-en-2025/"
+  },
+  "E1-08": {
+   "R": "Sí",
+   "donde": "Pruebas de sistemas antes del pase; conformidad técnica de entregables de fábricas de software contratadas; NTP-ISO/IEC 12207",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña y ejecuta pruebas; la conformidad del entregable contratado la firma el área usuaria con el informe técnico de la OTI.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "En el Estado pesa mucho verificar software que entregan terceros antes de dar conformidad; convendría mencionarlo en el producto. Sustento correcto.",
+   "bloque": "P"
+  },
+  "E1-09": {
+   "R": "Sí",
+   "donde": "Desarrollo de sistemas que tratan datos de administrados; DS 016-2024-JUS; exigencias del oficial de seguridad y confianza digital",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Aplica controles en sus aplicaciones; pruebas de intrusión y respuesta a incidentes corresponden a la especialidad de ciberseguridad.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Esencial pero se solapa con E4-05 (seguridad de aplicaciones). Delimitar: aquí codificar seguro; en E4-05 verificar y dictaminar. El impacto con la Ley 31814 se aleja de la seguridad de aplicaciones.",
+   "bloque": "F"
+  },
+  "E1-10": {
+   "R": "Sí",
+   "donde": "Pases a producción en OTI con control de cambios; convocatorias CAS que piden Docker y CI/CD",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Configura canalizaciones y ejecuta pases con aprobación del jefe de desarrollo y registro en el control de cambios.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Duplica casi por completo E2-06 (integración y despliegue continuo): mismas tareas de contenedores y despliegue. Debe quedar en una sola especialidad; en E1 basta integración continua y liberación de sus aplicaciones.",
+   "bloque": "F"
+  },
+  "E1-11": {
+   "R": "Sí",
+   "donde": "Soporte de sistemas propios y legados (FoxPro, .NET antiguos) en OTI; atención de tickets de áreas usuarias",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Corrige y mejora módulos; las correcciones directas de datos en producción requieren autorización escrita del área dueña.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 3,
+   "P2": 4,
+   "P3": 4,
+   "com": "Es lo que más hace un analista de OTI. El producto «informe de mantenimiento» es poco auténtico: lo real es el registro de tickets y las versiones liberadas con su documentación.",
+   "bloque": "P"
+  },
+  "E2-01": {
+   "R": "Sí",
+   "donde": "Diseño de soluciones en NUBE PERÚ y nubes públicas; SUNAT administrador de operaciones cloud",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña con supervisión directa arquitecturas de alcance acotado; decisiones de proveedor y gasto las aprueba la jefatura de TI.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Relevante, pero en el Estado el recién egresado no diseña zonas de aterrizaje: participa. Bajaría el nivel a supervisión directa. Sustento del mercado (24 de 61) consistente.",
+   "bloque": "F"
+  },
+  "E2-02": {
+   "R": "Sí",
+   "donde": "Proyectos de migración de centros de datos de entidades a nube; integradores",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Participa en migraciones de cargas no críticas; el corte de sistemas misionales lo autoriza el comité de cambios.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Frecuencia baja (7 de 61 avisos). El dato de madurez digital del 9 % y 73 % (EY) no prueba demanda de migración; falta evidencia peruana directa de proyectos de migración.",
+   "bloque": "S"
+  },
+  "E2-03": {
+   "R": "Sí",
+   "donde": "Especialista de redes CAS (SUNAT); redes de sedes desconcentradas, hospitales y municipalidades",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña redes de sede de tamaño medio; los cambios en el núcleo y enlaces WAN los aprueba el responsable de infraestructura.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Función muy real en OTI. Pero la brecha rural de acceso a internet en hogares no sustenta la demanda de redes corporativas; mejor usar avisos y convocatorias.",
+   "bloque": "S"
+  },
+  "E2-04": {
+   "R": "Sí",
+   "donde": "Coordinación con operadores de enlaces y telefonía IP en entidades; INDECI comunicaciones de emergencia",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [
+     "E2-04-T4"
+    ],
+    "corregir": []
+   },
+   "lim": "Especifica y recibe servicios de comunicaciones; el aprovisionamiento en redes de acceso de fibra lo ejecuta el operador.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "En la entidad coordinamos enlaces y telefonía IP, pero aprovisionar redes de acceso de fibra es trabajo del operador y de Telecomunicaciones, no de Sistemas. OSIPTEL verificado (4,38 millones; 82 % fibra).",
+   "bloque": "F",
+   "fuente": "https://www.osiptel.gob.pe/portal-del-usuario/noticias/mas-del-82-de-conexiones-de-internet-fijo-usa-fibra-optica/"
+  },
+  "E2-05": {
+   "R": "Sí",
+   "donde": "Equipos DevOps de empresas; en el Estado solo en entidades grandes (SUNAT, RENIEC)",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 2,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Escribe módulos con revisión por pares; la aplicación en producción la aprueba el responsable de plataforma.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Vigencia alta, pero en la mayoría de OTI públicas es rara. El 23 % de caídas por fallas de TI y red (Uptime, verificado) no prueba demanda de infraestructura como código; solo 4 avisos la piden.",
+   "bloque": "S",
+   "fuente": "https://uptimeinstitute.com/about-ui/press-releases/uptime-announces-annual-outage-analysis-report-2025"
+  },
+  "E2-06": {
+   "R": "Sí",
+   "donde": "Equipos de plataforma en banca y fintech; entidades con desarrollo propio grande",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye flujos con supervisión indirecta; la liberación de sistemas críticos la autoriza el responsable de plataforma.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Duplica E1-10. Solo 7 de 61 avisos y la evidencia es extranjera (CNCF, DORA). Propongo fusionarla con E1-10 en una sola función y ubicarla en una especialidad.",
+   "bloque": "F"
+  },
+  "E2-07": {
+   "R": "Sí",
+   "donde": "Administrador de servidores CAS en toda OTI; directorio activo, virtualización, correo institucional",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Administra servidores departamentales con procedimientos aprobados; cambios mayores en sistemas críticos pasan por el comité de cambios.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Esencial en el Estado: casi toda entidad opera centro de datos propio. Sustento adecuado con avisos y SUNAT.",
+   "bloque": "F"
+  },
+  "E2-08": {
+   "R": "Sí",
+   "donde": "Soporte técnico y mesa de ayuda de OTI; centros de operaciones de proveedores de internet",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Resuelve incidentes de nivel 1 y 2; los incidentes mayores los escala al responsable de infraestructura.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Se solapa con E5-10 (incidentes, problemas y cambios). Delimitar: aquí resolver técnicamente; en E5-10 gestionar el proceso. Muestra de avisos sesgada a proveedores de fibra.",
+   "bloque": "F"
+  },
+  "E2-09": {
+   "R": "Sí",
+   "donde": "Planes de continuidad operativa (RM 320-2021-PCM); respaldos de bases de datos SIAF y SIGA locales",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Ejecuta respaldos y pruebas; los objetivos de recuperación y la activación del plan los decide la alta dirección.",
+   "S1": 4,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Duplica casi por completo E4-08. El impacto es genérico («los incidentes crecen») sin tendencia fechada propia. Dato de Uptime (40 % por error humano) verificado.",
+   "bloque": "F",
+   "fuente": "https://uptimeinstitute.com/about-ui/press-releases/uptime-announces-annual-outage-analysis-report-2025"
+  },
+  "E2-10": {
+   "R": "Sí",
+   "donde": "Monitoreo de servicios digitales de la entidad; centros de operaciones de red",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Instrumenta y configura alertas; los objetivos de nivel comprometidos los aprueba el responsable del servicio.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Real, aunque en el Estado se practica como monitoreo y disponibilidad, no como presupuesto de error. La tarea T5 (presupuesto de error) excede la práctica pública habitual.",
+   "bloque": "F"
+  },
+  "E2-11": {
+   "R": "Sí",
+   "donde": "Administración de cortafuegos y VPN en OTI; exigencias del Marco de Confianza Digital",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Configura reglas según la política de seguridad; la política y la respuesta a incidentes mayores corresponden a seguridad de la información.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Se solapa con E4-03 (cortafuegos, segmentación, bastionado). Una sola función o una frontera clara: aquí operación de red; en E4 línea base y verificación.",
+   "bloque": "F"
+  },
+  "E2-12": {
+   "R": "Sí",
+   "donde": "Gestión de contratos de nube y licencias en entidades con presupuesto restringido",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 2,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Analiza gasto y propone ajustes; compromisos de compra y reservas los aprueban la jefatura de TI y administración.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "En el Estado el gasto se fija por contrato anual y la optimización fina es rara. Útil, con vigencia creciente. Flexera verificado (84 %; 17 %).",
+   "bloque": "S",
+   "fuente": "https://www.flexera.com/about-us/press-center/new-flexera-report-finds-84-percent-of-organizations-struggle-to-manage-cloud-spend"
+  },
+  "E3-01": {
+   "R": "Sí",
+   "donde": "Integración de datos para reportes de gestión e interoperabilidad; ingeniero de datos (INDRA)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye flujos estándar sobre arquitectura definida; cambios en sistemas fuente críticos los aprueba el responsable de datos.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Buen sustento: verifiqué en Gestión la brecha de 2 700 posiciones (3 800 frente a 1 100 egresados) y los porcentajes por rol.",
+   "bloque": "S",
+   "fuente": "https://gestion.pe/economia/empresas/peru-enfrenta-una-escasez-de-especialistas-en-ciencia-de-datos-2700-vacantes-sin-cubrir-noticia/"
+  },
+  "E3-02": {
+   "R": "Sí",
+   "donde": "Almacenes de datos de gestión en entidades grandes y empresas; BI corporativo",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 2,
+   "V": 3,
+   "L": 3,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña modelos dimensionales departamentales; la plataforma corporativa la valida el arquitecto de datos.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "La justificación de impacto cierra con «gobierno y la integración del dato», que no es esta función. En OTI medianas el almacén se reduce al modelo del tablero.",
+   "bloque": "S"
+  },
+  "E3-03": {
+   "R": "Sí",
+   "donde": "Oficial de Gobierno de Datos (Directiva 001-2022-PCM/SGTD); planes de gobierno de datos de la ENGD 2026-2030",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Implementa catálogo y controles del modelo aprobado; no asume el rol de oficial ni la interpretación legal.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 3,
+   "P3": 4,
+   "com": "Muy vigente en el Estado: verifiqué que la RM 049-2026-PCM obliga a cada entidad a aprobar su plan de gobierno de datos. La T4 (datos personales) se superpone con E4-10.",
+   "bloque": "S",
+   "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2487229-1"
+  },
+  "E3-04": {
+   "R": "Sí",
+   "donde": "Analista de datos CAS (Hospital de Jaén); tableros de seguimiento del POI y de metas presupuestales",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye tableros de su área; los indicadores institucionales los define planeamiento y el acceso a datos sensibles lo autoriza el dueño.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Lo más pedido por la alta dirección en el Estado. Sustento sólido.",
+   "bloque": "S"
+  },
+  "E3-05": {
+   "R": "Sí",
+   "donde": "Informes de análisis para la alta dirección; analistas de planeamiento e inteligencia de negocios",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Formula análisis y recomendaciones; la decisión es de la dirección y los análisis con impacto presupuestal los revisa un analista senior.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Real. El dato «creció 40 %» (La República) no precisa periodo ni base; conviene reforzarlo con el estudio de APOYO que ya usa E3-01.",
+   "bloque": "S"
+  },
+  "E3-06": {
+   "R": "Sí",
+   "donde": "Modelos de riesgo en cajas municipales; focalización de programas sociales",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye modelos con técnicas establecidas; los de riesgo alto requieren revisión independiente antes de usarse.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "En el Estado es ocasional (focalización, fiscalización). Relevante sobre todo para banca. Sustento correcto.",
+   "bloque": "F"
+  },
+  "E3-07": {
+   "R": "Sí",
+   "donde": "Asistentes de atención ciudadana y búsqueda de normativa; planes de IA de la ENIA",
+   "P": 4,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Desarrolla prototipos bajo supervisión directa; su uso con datos personales requiere aprobación del responsable de datos.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Vigencia muy alta y pedido creciente de la dirección, pero solo 10 de 80 avisos; la demanda es aún más expectativa que puesto. Nivel 2 es correcto.",
+   "bloque": "S"
+  },
+  "E3-08": {
+   "R": "Sí",
+   "donde": "Riesgo de modelo en banca (SBS); evaluación de sistemas de IA de riesgo alto bajo DS 115-2025-PCM",
+   "P": 3,
+   "E": "Útil",
+   "F": 1,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Ejecuta pruebas y documenta bajo supervisión directa; la validación independiente y el dictamen corresponden a validadores con experiencia.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 3,
+   "P2": 4,
+   "P3": 2,
+   "com": "Solo 4 de 80 avisos. Para un egresado sería parte de E3-06 (validar su propio modelo); el dictamen independiente no es alcanzable con nivel 2. Propongo fusionar con E3-06.",
+   "bloque": "P"
+  },
+  "E3-09": {
+   "R": "Sí",
+   "donde": "MLOps en banca y telecomunicaciones; casi inexistente en OTI públicas",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Despliega y monitorea modelos bajo supervisión directa; la plataforma de aprendizaje automático la aprueba el líder técnico.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Imprecisión: la Res. SBS 00053-2023 exige presentar el inventario anualmente con corte al primer semestre (art. 5.2), no un inventario «semestral». Verificado en El Peruano.",
+   "bloque": "S",
+   "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2141173-1"
+  },
+  "E4-01": {
+   "R": "Sí",
+   "donde": "SGSI obligatorio en entidades públicas (NTP-ISO/IEC 27001); oficial de seguridad y confianza digital",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Aplica la metodología aprobada; la aceptación del riesgo residual la decide el titular o el comité de gobierno digital.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Esencial. Se superpone con E5-12 (riesgo tecnológico): delimitar seguridad de la información aquí y riesgo de TI, terceros y cumplimiento allá. Dato FortiGuard verificado.",
+   "bloque": "F",
+   "fuente": "https://www.infobae.com/peru/2025/08/27/ciberataques-en-peru-superan-los-748-millones-de-intentos-en-lo-que-va-del-2025/"
+  },
+  "E4-02": {
+   "R": "Sí",
+   "donde": "Análisis de vulnerabilidades anual en entidades; banca (SBS 504-2021); consultoras de hacking ético",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Solo con autorización escrita y alcance firmado; en el Estado la prueba de intrusión suele contratarse y el egresado la supervisa técnicamente.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Relevante. La justificación de impacto cierra con «identificación y evaluación del riesgo digital», frase de otra función. Verizon DBIR verificado (34 %; 20 %).",
+   "bloque": "S",
+   "fuente": "https://www.verizon.com/about/news/2025-data-breach-investigations-report"
+  },
+  "E4-03": {
+   "R": "Sí",
+   "donde": "Bastionado de servidores y estaciones en OTI; antimalware institucional; SBS 504-2021",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Implanta sobre líneas base aprobadas con control de cambios; la arquitectura de seguridad la define un perfil senior.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Solapamiento con E2-11 en cortafuegos y VPN. El dato de 36 000 escaneos por segundo en Perú aparece en Infobae (FortiGuard); verificado.",
+   "bloque": "F"
+  },
+  "E4-04": {
+   "R": "Sí",
+   "donde": "Altas y bajas de cuentas por rotación CAS; accesos a SIAF, SIGA y sistemas propios; DS 126-2025-PCM",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E4-04-T2",
+      "t": "Gestionar altas, cambios y bajas de cuentas y credenciales según los movimientos de personal"
+     }
+    ]
+   },
+   "lim": "Opera sobre políticas aprobadas; los privilegios críticos requieren aprobación del propietario del activo.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 4,
+   "com": "Crítica en el Estado por la alta rotación CAS y las cuentas huérfanas. La T2 (altas y bajas) debería tener su propio entregable, no ir en el informe de recertificación.",
+   "bloque": "P"
+  },
+  "E4-05": {
+   "R": "Sí",
+   "donde": "Seguridad de aplicaciones en banca y fábricas de software; revisión de código de sistemas contratados por el Estado",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Revisa y prueba dentro de un proceso definido; la aceptación del riesgo residual la decide el responsable del producto.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Se superpone con E1-09. El impacto se apoya en políticas de gobierno de IA (IBM), sin vínculo directo con la seguridad de aplicaciones.",
+   "bloque": "S"
+  },
+  "E4-06": {
+   "R": "Sí",
+   "donde": "Centros de operaciones de seguridad de banca y servicios gestionados; poco en OTI públicas",
+   "P": 3,
+   "E": "Útil",
+   "F": 4,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Actúa como analista de primer y segundo nivel; la declaración de incidente mayor la hace el responsable del centro.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "En el Estado se contrata como servicio; en banca es un puesto de entrada frecuente. Sustento correcto.",
+   "bloque": "F"
+  },
+  "E4-07": {
+   "R": "Sí",
+   "donde": "Equipos de respuesta institucionales (guía del CNSD); notificación al Centro Nacional de Seguridad Digital",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Actúa bajo supervisión directa; la contención con impacto en el servicio y la firma de notificaciones corresponden al responsable.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Esencial por la obligación de notificar en 48 horas. El análisis forense con cadena de custodia excede el egreso; bastaría preservar evidencia y apoyar el análisis.",
+   "bloque": "F"
+  },
+  "E4-08": {
+   "R": "Sí",
+   "donde": "Pruebas de restauración de respaldos; planes de continuidad operativa de entidades",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña y prueba la recuperación tecnológica; la estrategia de continuidad la aprueba la alta dirección.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Duplica E2-09. Recomiendo ubicarla en una sola especialidad (infraestructura) y dejar aquí la resiliencia ante ransomware (respaldos inmutables).",
+   "bloque": "F"
+  },
+  "E4-09": {
+   "R": "Sí",
+   "donde": "SGSI obligatorio en entidades (DU 007-2020); convocatorias CAS de INDECI y MINSA; auditorías internas",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Mantiene documentación y audita internamente; la aprobación de políticas corresponde al titular y la certificación a un organismo acreditado.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 4,
+   "com": "El 63 % sin políticas de IA (IBM) no sustenta la demanda de un SGSI. La T5 (concientización) no encaja en el cuerpo normativo. Se superpone con E5-11.",
+   "bloque": "S"
+  },
+  "E4-10": {
+   "R": "Sí",
+   "donde": "Oficial de datos personales en entidades y OSIPTEL; inscripción de bancos de datos ante la ANPD",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E4-10-T1",
+      "t": "Inventariar los bancos de datos personales y gestionar su inscripción ante la Autoridad Nacional de Protección de Datos Personales"
+     }
+    ]
+   },
+   "lim": "Apoya al oficial de datos personales; la interpretación jurídica y la designación como oficial corresponden a otros perfiles.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Verifiqué (Andina/MINJUSDH): 454 entidades fiscalizadas, 133 procedimientos y S/ 13,4 millones en multas en 2024. Sustento sólido.",
+   "bloque": "S",
+   "fuente": "https://andina.pe/agencia/noticia-autoridad-proteccion-datos-impuso-multas-mas-s-13-millones-el-2024-1014555.aspx"
+  },
+  "E5-01": {
+   "R": "Sí",
+   "donde": "Plan de Gobierno Digital de cada entidad (DS 029-2021-PCM), articulado al PEI y POI",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E5-01-T5",
+      "t": "Reportar el avance anual del plan a la dirección y al comité de gobierno y transformación digital"
+     }
+    ]
+   },
+   "lim": "Elabora diagnóstico y borrador bajo supervisión directa; aprobación y priorización corresponden al comité y al titular.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Real, pero anual y no para un junior sin supervisión directa. Las 55 600 vacantes de O*NET son de EE. UU. y no sustentan demanda peruana. PRODUCE (54 %) verificado.",
+   "bloque": "S",
+   "fuente": "https://www.gob.pe/institucion/produce/informes-publicaciones/4954834-estudio-de-la-madurez-digital-en-las-empresas-peruanas"
+  },
+  "E5-02": {
+   "R": "Sí",
+   "donde": "Arquitectura digital del Estado (SGTD); arquitecto de negocio en banca (Interbank)",
+   "P": 3,
+   "E": "Útil",
+   "F": 1,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 3,
+   "tareas": {
+    "agregar": [
+     "Mantener actualizado el catálogo de aplicaciones y datos de la entidad"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Modela vistas y brechas bajo supervisión directa de un arquitecto; no aprueba arquitectura objetivo ni estándares.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 2,
+   "com": "Solo 4 de 45 avisos; en entidades medianas no existe el puesto. Falta la tarea de mantener el catálogo de aplicaciones de la entidad. Al egreso no emite dictamen de conformidad.",
+   "bloque": "P"
+  },
+  "E5-03": {
+   "R": "Sí",
+   "donde": "Portafolio de proyectos del Plan de Gobierno Digital; PMO de entidades grandes y banca",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Elabora casos de negocio y reportes; la decisión de inversión corresponde al comité de gobierno digital o a la alta dirección.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 3,
+   "com": "Relevante, pero el producto «tablero» es forzado: lo auténtico es el portafolio priorizado con casos de negocio. La T5 (estándares de proyectos) pertenece a una PMO, no al portafolio.",
+   "bloque": "P"
+  },
+  "E5-04": {
+   "R": "Sí",
+   "donde": "Secretaría técnica del comité de gobierno y transformación digital; reportes de compromisos a la SGTD",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diagnostica, propone políticas y apoya al comité; la aprobación y la rendición de cuentas corresponden al titular.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Muy real para mi rol: soporte al comité y reporte de compromisos digitales. No pude abrir las bases CAS 161-2026 del MIMP (acceso denegado), así que no confirmé los S/ 9 000.",
+   "bloque": "S"
+  },
+  "E5-05": {
+   "R": "Sí",
+   "donde": "Formulación de proyectos informáticos; planes de trabajo de consultorías de TI",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Planifica proyectos de complejidad baja o media; en proyectos grandes actúa como coordinador bajo un jefe de proyecto.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "El sustento cuantitativo es de EE. UU. (472 000 empleos, O*NET); falta evidencia pública peruana. En el Estado la planificación se ata a Invierte.pe y al POI.",
+   "bloque": "S"
+  },
+  "E5-06": {
+   "R": "Sí",
+   "donde": "Coordinador de proyectos de sistemas CAS (SENACE); supervisión de consultorías y fábricas de software",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Dirige proyectos acotados; los cambios que alteran costo o plazo contractual los aprueba el área usuaria y la entidad.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Real y frecuente. PMI (2,3 millones al año; 25 millones de brecha) verificado vía Columbia SPS, pero es fuente secundaria global. Añadiría la conformidad contractual del Estado.",
+   "bloque": "S",
+   "fuente": "https://sps.columbia.edu/news/rising-demand-project-managers-why-world-needs-more-project-leaders"
+  },
+  "E5-07": {
+   "R": "Sí",
+   "donde": "Requerimientos y términos de referencia TIC (Ley 32069); conformidades de servicios; área usuaria técnica",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [
+     "Elaborar la indagación técnica de mercado y absolver consultas y observaciones del procedimiento de selección"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Formula requerimientos y da conformidad técnica; no adjudica ni aplica penalidades, que corresponden al órgano encargado de contrataciones.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Una de las funciones más frecuentes en una OTI pública: casi todo se contrata. Falta la tarea de indagación de mercado y absolución de consultas, donde más fallan los recién egresados.",
+   "bloque": "F"
+  },
+  "E5-08": {
+   "R": "Sí",
+   "donde": "Mesa de partes digital (Ley 31170); rediseño de trámites para GOB.PE y Facilita Perú",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Rediseña procesos bajo supervisión indirecta; la aprobación del nuevo procedimiento corresponde al área dueña y a la dirección.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "El dato de 15 % y 3 % de trámites digitales es de 2023 y está desactualizado; los indicadores SGTD actuales (5 162 servicios, verificado) sirven mejor. Solapa con E1-01 y E1-07.",
+   "bloque": "S",
+   "fuente": "https://indicadores.digital.gob.pe/"
+  },
+  "E5-09": {
+   "R": "Sí",
+   "donde": "Catálogo de servicios de TI y acuerdos con proveedores en entidades; proveedores de banca",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Mide y reporta niveles de servicio; los acuerdos con proveedores los formaliza el contrato y los negocia la jefatura.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Real, pero en el Estado el acuerdo de nivel vive en el contrato. Los 774 millones de transacciones PIDE (verificado, acumulado a julio 2026) no prueban demanda de esta función.",
+   "bloque": "S",
+   "fuente": "https://indicadores.digital.gob.pe/"
+  },
+  "E5-10": {
+   "R": "Sí",
+   "donde": "Mesa de servicio de la OTI; comité de cambios; líder de centro de operaciones (financiera)",
+   "P": 3,
+   "E": "Útil",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Coordina incidentes y analiza causas raíz; los cambios de alto riesgo los aprueba el comité de cambios.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Se solapa con E2-08. Propongo fusionar E5-09 y E5-10 en «Gestión de servicios de TI» y dejar la atención técnica en E2-08.",
+   "bloque": "F"
+  },
+  "E5-11": {
+   "R": "Sí",
+   "donde": "Auditoría de TI en órganos de control institucional y Contraloría; auditoría interna de banca",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Ejecuta pruebas y papeles de trabajo bajo supervisión directa de un auditor senior; no firma informes ni emite opinión.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Real en OCI y firmas auditoras, poco frecuente en la OTI. La Contraloría ejecuta servicios de control a sistemas; convendría citarlo. Superpuesta con E4-09 en auditoría interna.",
+   "bloque": "F"
+  },
+  "E5-12": {
+   "R": "Sí",
+   "donde": "Riesgo tecnológico en banca (SBS 504-2021); evaluación de riesgos de IA (DS 115-2025-PCM)",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Identifica y valora riesgos bajo supervisión directa; la aceptación del riesgo y la respuesta al regulador corresponden a la gerencia.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "El dato de 71 % de crecimiento de ciberataques es de 2021, antiguo y de seguridad, no de riesgo de TI. Solapa con E4-01; delimitar terceros, nube e IA como propio.",
+   "bloque": "S"
+  }
+ },
+ "abiertas": {
+  "E1": {
+   "faltantes": [
+    {
+     "t": "Implantación y soporte funcional de sistemas administrativos transversales del Estado",
+     "tareas": [
+      "Parametrizar y actualizar SIGA, SIAF y SGD PERÚ en la entidad",
+      "Atender incidencias funcionales de los sistemas transversales",
+      "Integrar los sistemas propios con los transversales del MEF y la SGTD"
+     ],
+     "evidencia": "Tarea diaria de toda OTI pública; los bloques básicos incluyen SGD PERÚ (DS 098-2025-PCM, art. 87.2)."
+    }
+   ],
+   "fusiones": [
+    "E1-10 con E2-06: integración y despliegue continuo duplicado; una sola función en una especialidad",
+    "E1-09 con E4-05: delimitar codificación segura (E1) frente a verificación y dictamen de seguridad (E4)",
+    "E1-07 y E1-01 con E5-08: separar construcción técnica del rediseño del servicio"
+   ]
+  },
+  "E2": {
+   "faltantes": [
+    {
+     "t": "Soporte a usuarios finales y gestión de activos informáticos",
+     "tareas": [
+      "Atender requerimientos de equipos y software de los usuarios",
+      "Mantener el inventario y el ciclo de vida de equipos informáticos",
+      "Gestionar licencias y bajas de bienes informáticos"
+     ],
+     "evidencia": "Es el puesto CAS más convocado en OTI públicas (técnico o especialista en soporte informático) y la puerta de entrada de muchos egresados."
+    }
+   ],
+   "fusiones": [
+    "E2-06 con E1-10 (despliegue continuo duplicado)",
+    "E2-09 con E4-08 (respaldo y recuperación duplicados)",
+    "E2-11 con E4-03 (cortafuegos, VPN y bastionado)",
+    "E2-08 con E5-10 (incidentes)",
+    "E2-04 podría integrarse en E2-03 como servicios de comunicaciones de la red corporativa"
+   ]
+  },
+  "E3": {
+   "faltantes": [
+    {
+     "t": "Gestión de registros administrativos y datos maestros institucionales",
+     "tareas": [
+      "Mantener padrones y datos maestros con reglas de calidad",
+      "Conciliar registros con fuentes oficiales vía PIDE (RENIEC, SUNAT)",
+      "Atender pedidos de información estadística de entes rectores"
+     ],
+     "evidencia": "La ENGD 2026-2030 (RM 049-2026-PCM) exige gestionar los datos como activo; programas sociales y entidades mantienen padrones de beneficiarios."
+    }
+   ],
+   "fusiones": [
+    "E3-08 dentro de E3-06: al egreso el profesional valida su propio modelo; la validación independiente es de un perfil senior",
+    "E3-03 T4 con E4-10: clasificación de datos personales repetida"
+   ]
+  },
+  "E4": {
+   "faltantes": [
+    {
+     "t": "Gestión de la seguridad de proveedores y servicios de terceros",
+     "tareas": [
+      "Incluir requisitos de seguridad en los términos de referencia TIC",
+      "Evaluar la seguridad de proveedores y servicios en nube",
+      "Verificar el cumplimiento de cláusulas de seguridad durante el contrato"
+     ],
+     "evidencia": "Verizon DBIR 2025: la participación de terceros en brechas se duplicó al 30 %; en el Estado casi todo servicio TIC se contrata."
+    }
+   ],
+   "fusiones": [
+    "E4-08 con E2-09 (recuperación duplicada)",
+    "E4-03 con E2-11",
+    "E4-01 con E5-12: delimitar riesgo de seguridad de la información frente a riesgo tecnológico",
+    "E4-09 con E5-11 en auditoría interna"
+   ]
+  },
+  "E5": {
+   "faltantes": [
+    {
+     "t": "Formulación de inversiones TIC en el Sistema Invierte.pe",
+     "tareas": [
+      "Elaborar fichas técnicas de proyectos e IOARR de tecnologías de información",
+      "Sustentar costos y beneficios de la inversión TIC",
+      "Registrar y dar seguimiento a la ejecución en el banco de inversiones"
+     ],
+     "evidencia": "Toda inversión TIC pública de capital pasa por Invierte.pe; es tarea habitual de las OTI y los proyectos del Plan de Gobierno Digital dependen de ello."
+    }
+   ],
+   "fusiones": [
+    "E5-09 con E5-10 en «Gestión de servicios de TI»",
+    "E5-05 y E5-06 pueden mantenerse separadas, pero E5-03 T5 (estándares de proyectos) debe pasar a ellas",
+    "E5-12 con E4-01 (delimitar)"
+   ]
+  }
+ },
+ "verificadas": [
+  {
+   "ref": "E1 [38]",
+   "url": "https://prensaperu.pe/2026/01/03/transformacion-digital-en-perupcm-consolida-avances-historicos-en-modernizacion-estatal-con-mas-de-500-millones-de-transacciones-digitales-y-6-5-millones-de-atenciones-al-ciudadano-en-2025/",
+   "sostiene": true,
+   "nota": "Confirma más de 500 millones de transacciones PIDE en 2025, Cero Papel en 267 entidades y más de 350 servicios en GOB.PE."
+  },
+  {
+   "ref": "E1 [35]",
+   "url": "https://www.infobae.com/peru/2026/01/20/conoce-las-carreras-de-ingenieria-que-tendran-mayor-demanda-laboral-este-2026/",
+   "sostiene": true,
+   "nota": "Confirma Ingeniería de Sistemas de Información como la más demandada para 2025 con 5 226 puestos."
+  },
+  {
+   "ref": "E1 [21]",
+   "url": "https://busquedas.elperuano.pe/dispositivo/NL/2423580-2",
+   "sostiene": true,
+   "nota": "Art. 87.3 obliga a usar bloques básicos (PIDE, ID GOB.PE, PÁGALO.PE, FIRMA PERÚ, SGD PERÚ, NUBE PERÚ)."
+  },
+  {
+   "ref": "E2 [28]",
+   "url": "https://www.osiptel.gob.pe/portal-del-usuario/noticias/mas-del-82-de-conexiones-de-internet-fijo-usa-fibra-optica/",
+   "sostiene": true,
+   "nota": "4,38 millones de conexiones fijas, 82,47 % por fibra; regiones crecieron 15,02 %."
+  },
+  {
+   "ref": "E2 [37]",
+   "url": "https://uptimeinstitute.com/about-ui/press-releases/uptime-announces-annual-outage-analysis-report-2025",
+   "sostiene": true,
+   "nota": "23 % de caídas por TI y red; cerca de 40 % por error humano; +10 puntos por no seguir procedimientos. El dato es real, pero su uso para E2-05 es un vínculo débil."
+  },
+  {
+   "ref": "E2 [32]",
+   "url": "https://www.flexera.com/about-us/press-center/new-flexera-report-finds-84-percent-of-organizations-struggle-to-manage-cloud-spend",
+   "sostiene": true,
+   "nota": "84 % reporta el gasto en nube como principal reto; presupuestos excedidos 17 %; gasto crece 28 %; 60 % usa proveedores gestionados."
+  },
+  {
+   "ref": "E3 [25]",
+   "url": "https://gestion.pe/economia/empresas/peru-enfrenta-una-escasez-de-especialistas-en-ciencia-de-datos-2700-vacantes-sin-cubrir-noticia/",
+   "sostiene": true,
+   "nota": "3 800 posiciones frente a 1 100 egresados, brecha de 2 700; analista 35 %, científico 24 %, ingeniero 16 %."
+  },
+  {
+   "ref": "E3 [11]",
+   "url": "https://busquedas.elperuano.pe/dispositivo/NL/2487229-1",
+   "sostiene": true,
+   "nota": "El enlace de TVPerú devolvió 403; por búsqueda confirmé la RM 049-2026-PCM: cada entidad aprueba su plan de acción de gobierno de datos y designa oficial."
+  },
+  {
+   "ref": "E3 [14]",
+   "url": "https://busquedas.elperuano.pe/dispositivo/NL/2141173-1",
+   "sostiene": false,
+   "nota": "Sostiene validación previa y monitoreo al menos anual, pero el inventario se presenta anualmente con corte al primer semestre, no «semestral» como afirma E3-09."
+  },
+  {
+   "ref": "E4 [32]",
+   "url": "https://www.verizon.com/about/news/2025-data-breach-investigations-report",
+   "sostiene": true,
+   "nota": "Terceros 30 %, explotación de vulnerabilidades +34 % y 20 %, ransomware 44 % (+37 %), credenciales 22 %."
+  },
+  {
+   "ref": "E4 [28]",
+   "url": "https://www.infobae.com/peru/2025/08/27/ciberataques-en-peru-superan-los-748-millones-de-intentos-en-lo-que-va-del-2025/",
+   "sostiene": true,
+   "nota": "748,2 millones de intentos en el primer semestre de 2025 y 36 000 escaneos por segundo (FortiGuard)."
+  },
+  {
+   "ref": "E4 [19]",
+   "url": "https://andina.pe/agencia/noticia-autoridad-proteccion-datos-impuso-multas-mas-s-13-millones-el-2024-1014555.aspx",
+   "sostiene": true,
+   "nota": "El enlace gob.pe devolvió 418; por búsqueda (Andina) confirmé 454 entidades, 133 procedimientos y S/ 13,4 millones en 2024."
+  },
+  {
+   "ref": "E5 [18]",
+   "url": "https://indicadores.digital.gob.pe/",
+   "sostiene": true,
+   "nota": "5 162 servicios digitales en gob.pe y más de 774 millones de transacciones PIDE (acumulado a julio de 2026). No coincide con la cifra de 350 servicios de E1-04."
+  },
+  {
+   "ref": "E5 [20]",
+   "url": "https://www.gob.pe/institucion/produce/informes-publicaciones/4954834-estudio-de-la-madurez-digital-en-las-empresas-peruanas",
+   "sostiene": true,
+   "nota": "El PDF devolvió 403; por búsqueda confirmé el índice de 54 % (PRODUCE, 2023). No pude confirmar el 32 % en nivel básico."
+  },
+  {
+   "ref": "E5 [30]",
+   "url": "https://sps.columbia.edu/news/rising-demand-project-managers-why-world-needs-more-project-leaders",
+   "sostiene": true,
+   "nota": "2,3 millones de roles nuevos al año y brecha de 25 millones al 2030, con 13 millones de jubilaciones (PMI, fuente secundaria)."
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "E3-01": {
+  "t": "Integración de datos y almacenes analíticos",
+  "d": "Construir y mantener los flujos que extraen, transforman, integran y cargan los datos de fuentes heterogéneas, y modelar los almacenes o mercados de datos analíticos, clásicos o en arquitecturas lakehouse, para disponer de una fuente única, confiable y oportuna para el análisis y los modelos.",
+  "amb": "Empresas de todos los sectores, banca y microfinanzas, retail y consumo masivo, salud privada, consultoras de datos, entidades públicas y equipos remotos; inteligencia de negocios y analítica empresarial",
+  "tasks": [
+   {
+    "code": "E3-01-T1",
+    "t": "Inventariar las fuentes de datos internas y externas con su estructura y periodicidad",
+    "ent": "1. Flujos de integración de datos en operación"
+   },
+   {
+    "code": "E3-01-T2",
+    "t": "Construir flujos de extracción, transformación y carga de datos",
+    "ent": "1. Flujos de integración de datos en operación"
+   },
+   {
+    "code": "E3-01-T3",
+    "t": "Limpiar, normalizar y enriquecer los conjuntos de datos",
+    "ent": "2. Conjunto analítico y modelo dimensional documentados"
+   },
+   {
+    "code": "E3-01-T4",
+    "t": "Diseñar el modelo dimensional del almacén o mercado de datos, en plataforma clásica o lakehouse",
+    "ent": "2. Conjunto analítico y modelo dimensional documentados"
+   },
+   {
+    "code": "E3-01-T5",
+    "t": "Programar y monitorear las cargas y verificar su cuadre contra las fuentes",
+    "ent": "1. Flujos de integración de datos en operación"
+   },
+   {
+    "code": "E3-01-T6",
+    "t": "Documentar las reglas de transformación, el modelo y el origen de cada dato",
+    "ent": "2. Conjunto analítico y modelo dimensional documentados"
+   }
+  ],
+  "prod": {
+   "name": "Flujo de integración de datos con su mercado de datos analítico",
+   "desc": "Flujo de integración de datos que extrae la información de sistemas transaccionales, archivos y servicios externos y la entrega depurada e integrada en un mercado de datos dimensional listo para el análisis o el entrenamiento de modelos. Integra el inventario de fuentes, las reglas de transformación, los procesos programados de carga, el modelo dimensional con su granularidad y el diccionario de datos con su origen. Se elabora a partir de las preguntas y requerimientos de datos del área usuaria y se verifica con pruebas de conteo, cuadres contra la fuente y registros de ejecución sin errores. Orienta qué datos e indicadores son confiables para alimentar tableros y modelos, y demuestra que el egresado integra y modela datos con calidad y oportunidad.",
+   "ents": [
+    {
+     "n": "1",
+     "t": "Flujos de integración de datos en operación",
+     "codes": "E3-01-T1, E3-01-T2, E3-01-T5",
+     "sum": "inventario de fuentes, flujos construidos y su programación con registros de ejecución y cuadres",
+     "ev": [
+      "flujo ejecutado sin errores con su registro de corridas",
+      "conciliación de conteos y totales entre fuente y destino"
+     ]
+    },
+    {
+     "n": "2",
+     "t": "Conjunto analítico y modelo dimensional documentados",
+     "codes": "E3-01-T3, E3-01-T4, E3-01-T6",
+     "sum": "datos depurados, modelo dimensional del almacén o mercado de datos y reglas de transformación con su origen",
+     "ev": [
+      "diagrama del modelo dimensional con granularidad declarada",
+      "informe de perfilado antes y después de la limpieza",
+      "documento de reglas de transformación y origen por campo"
+     ]
+    }
+   ]
+  },
+  "fd": "Esta función tiene demanda porque las empresas peruanas requieren unas 3 800 posiciones de datos frente a unos 1 100 egresados anuales, y el ingeniero de datos representa el 16 % de esos equipos [25]. O*NET asigna importancia 86 al diseño de procesos del almacén y a la verificación de su calidad, y SFIA ubica el desarrollo de procesos de extracción, transformación y carga en la ingeniería de datos [3] [15]. En el mercado peruano, 35 de 80 avisos revisados piden construir flujos de carga o integrar fuentes y 22 piden modelado dimensional o almacenes de datos [28] [29] [30] [37]. Ello exige profesionales capaces de integrar y modelar datos confiables y oportunos.",
+  "ji": "En los próximos 5 años, esta función tendrá impacto porque la Estrategia Nacional de Gobierno de Datos, aprobada en febrero de 2026, obliga a cada entidad pública a aprobar un plan de acción de gobierno de datos de al menos tres años [41]. Además, el informe del Foro Económico Mundial de 2025 ubica a los especialistas en grandes datos y en almacenes de datos entre los empleos de mayor crecimiento al 2030 [24]. Por eso es necesario que el egresado domine la integración de datos y los almacenes analíticos.",
+  "refs": "[3] [15] [24] [25] [28] [29] [30] [37] [41]",
+  "conf": 3,
+  "lim": "Construye flujos y modelos dimensionales departamentales sobre una arquitectura definida; no diseña la plataforma de datos corporativa ni modifica sistemas fuente críticos sin aprobación.",
+  "absorbe": [
+   "E3-02"
+  ],
+  "cambios": "Absorbe E3-02: integración y almacenes analíticos en una función (seis tareas, lakehouse en T4); JI con la RM 049-2026-PCM directa de El Peruano y cierre con la función; refs sin citas retiradas."
+ },
+ "E3-03": {
+  "t": "Gobierno y calidad del dato",
+  "d": "Implementar los roles, metadatos, reglas de calidad y clasificación que aseguran que los datos de la organización sean confiables y trazables, y preparar su publicación como datos abiertos; la protección de datos personales corresponde a la especialidad de ciberseguridad.",
+  "amb": "Entidades públicas (Oficial de Gobierno de Datos, datos abiertos), banca, salud, inmobiliarias y consultoras",
+  "tasks": [
+   {
+    "code": "E3-03-T1",
+    "t": "Elaborar el glosario de negocio, el catálogo de metadatos y el linaje de los datos",
+    "ent": "1. Catálogo de datos con glosario, linaje y clasificación"
+   },
+   {
+    "code": "E3-03-T2",
+    "t": "Clasificar los datos del catálogo por sensibilidad como insumo para la protección de datos personales",
+    "ent": "1. Catálogo de datos con glosario, linaje y clasificación"
+   },
+   {
+    "code": "E3-03-T3",
+    "t": "Definir reglas e indicadores de calidad de datos por dominio",
+    "ent": "2. Tablero de calidad de datos"
+   },
+   {
+    "code": "E3-03-T4",
+    "t": "Monitorear la calidad de los datos y dar seguimiento a los planes de corrección",
+    "ent": "2. Tablero de calidad de datos"
+   },
+   {
+    "code": "E3-03-T5",
+    "t": "Preparar los conjuntos de datos abiertos con sus metadatos para su publicación",
+    "ent": "3. Conjuntos de datos abiertos preparados"
+   }
+  ],
+  "prod": {
+   "name": "Catálogo y tablero de calidad de datos de un dominio",
+   "desc": "Catálogo y tablero de calidad de datos que establecen, para un dominio de información de la organización, qué significa cada dato, de dónde viene, quién responde por él, qué sensibilidad tiene y con qué calidad se entrega. Integra el glosario con metadatos y linaje, la clasificación de sensibilidad, las reglas e indicadores de calidad con su seguimiento y los conjuntos preparados para publicarse como datos abiertos. Se elabora con los dueños de procesos siguiendo marcos como DAMA-DMBOK y la Directiva del Oficial de Gobierno de Datos, y se verifica con mediciones periódicas de calidad y la aprobación de las definiciones por los dueños de datos. Orienta las decisiones de corrección y publicación de los datos, y demuestra que el egresado gestiona el dato con rigor.",
+   "ents": [
+    {
+     "n": "1",
+     "t": "Catálogo de datos con glosario, linaje y clasificación",
+     "codes": "E3-03-T1, E3-03-T2",
+     "sum": "glosario de negocio, metadatos, linaje y clasificación de sensibilidad",
+     "ev": [
+      "catálogo con definiciones aprobadas por los dueños de datos",
+      "matriz de clasificación de sensibilidad entregada al responsable de datos personales"
+     ]
+    },
+    {
+     "n": "2",
+     "t": "Tablero de calidad de datos",
+     "codes": "E3-03-T3, E3-03-T4",
+     "sum": "reglas e indicadores de calidad por dominio con su seguimiento y planes de corrección",
+     "ev": [
+      "tablero con indicadores de completitud, exactitud y oportunidad",
+      "registro de incidencias de calidad con su estado de corrección"
+     ]
+    },
+    {
+     "n": "3",
+     "t": "Conjuntos de datos abiertos preparados",
+     "codes": "E3-03-T5",
+     "sum": "conjuntos depurados con su ficha de metadatos listos para publicarse",
+     "ev": [
+      "conjunto de datos con su ficha de metadatos"
+     ]
+    }
+   ]
+  },
+  "fd": "Esta función tiene demanda porque la Directiva 001-2022-PCM/SGTD encarga al Oficial de Gobierno de Datos asegurar la calidad, integridad y trazabilidad de los datos de cada entidad [12], y la Estrategia Nacional de Gobierno de Datos obliga desde 2026 a designar ese oficial y a aprobar un plan de acción [41]. SFIA y DAMA describen la gestión de datos como disciplina profesional [16] [23]. En el mercado, 21 de 80 avisos piden gobierno, calidad, metadatos o linaje de datos [35]. Ello exige profesionales capaces de asegurar datos confiables, trazables y bien clasificados.",
+  "ji": "En los próximos 5 años, esta función tendrá impacto porque la ENIA, aprobada en mayo de 2026, exige que las entidades aprueben su plan de gobierno de datos antes de su plan de inteligencia artificial y publiquen sus conjuntos de datos y metadatos en el Catálogo IA Perú [9]. Además, a marzo de 2026 la Plataforma Nacional de Datos Abiertos superaba los 4 000 conjuntos publicados por 350 entidades [13]. Por eso es necesario que el egresado domine el gobierno y la calidad del dato.",
+  "refs": "[9] [12] [13] [16] [23] [35] [41]",
+  "conf": 2,
+  "lim": "Implementa catálogo, calidad y clasificación dentro del modelo aprobado; no es oficial de datos y la protección de datos personales corresponde a ciberseguridad.",
+  "cambios": "Se retira la protección de datos personales (duplicaba E4-10): T4 pasa a clasificar la sensibilidad como insumo; los datos abiertos tienen entregable propio; producto sin «programa de gobierno»; FD sin la Ley 29733; JI con años."
+ },
+ "E3-04": {
+  "ji": "En los próximos 5 años, esta función tendrá impacto porque, según APOYO, entre 2024 y 2025 los equipos de datos de las empresas peruanas crecieron de 19 a 26 integrantes en promedio [26], y el analista de datos concentra el 35 % de ellos [25]. Además, el informe del Foro Económico Mundial de 2025 ubica a los analistas de inteligencia de negocios entre los roles de mayor crecimiento al 2030 [24]. Por eso es necesario que el egresado domine el diseño de tableros de indicadores para la gestión.",
+  "refs": "[2] [17] [18] [24] [25] [26] [28] [29] [38]",
+  "conf": 4,
+  "lim": "Construye tableros en áreas definidas; los indicadores estratégicos se acuerdan con la gerencia y el acceso a datos sensibles requiere autorización del dueño.",
+  "cambios": "JI reescrito con tendencia fechada (crecimiento de los equipos de datos 2024-2025 y WEF 2025) en lugar de obligaciones normativas; cierre con la función; ref [4] sin cita retirada; lim del panel."
+ },
+ "E3-05": {
+  "fd": "Esta función tiene demanda porque, según un estudio de APOYO difundido en 2026, los equipos de datos de las empresas peruanas crecieron de 19 a 26 integrantes en promedio entre 2024 y 2025, cerca de 40 %, y priorizan a quienes convierten hallazgos en decisiones [26]. O*NET asigna importancia 79 a recomendar soluciones basadas en datos y 78 a identificar problemas abordables con análisis [1], y ESCO incluye interpretar datos e informar resultados entre las habilidades del analista de datos [5]. En el mercado, 54 de 80 avisos piden analizar tendencias o proponer mejoras [28]. Ello exige profesionales capaces de convertir datos en recomendaciones accionables.",
+  "ji": "En los próximos 5 años, esta función tendrá impacto porque el informe del Foro Económico Mundial de 2025 ubica a los analistas de inteligencia de negocios y a los científicos de datos entre los roles con mayor crecimiento al 2030 [24]. Además, en 2024 solo 14 % de las empresas peruanas usaba inteligencia artificial y 23 % la estaba implementando, lo que amplía la analítica previa a la automatización [27]. Por eso es necesario que el egresado domine el análisis de datos para decisiones de negocio.",
+  "refs": "[1] [5] [24] [26] [27] [28]",
+  "conf": 3,
+  "lim": "Formula análisis y recomendaciones; la decisión es de la gerencia y los análisis con impacto financiero significativo se revisan con un analista senior.",
+  "cambios": "FD: el 40 % es el crecimiento del tamaño promedio de los equipos (de 19 a 26), no de la demanda; JI con años y cierre con la función; refs [2] y [19] sin cita retiradas."
+ },
+ "E3-06": {
+  "d": "Formular problemas de negocio como problemas de predicción, clasificación o consulta automatizada del conocimiento de la organización, y construir, validar y poner en preproducción los modelos que los resuelven, para anticipar comportamientos, priorizar acciones y automatizar la atención con supervisión humana.",
+  "amb": "Banca, microfinanzas y seguros; retail; salud; educación; telecomunicaciones; atención al cliente; consultoras y equipos remotos; entidades públicas con planes de inteligencia artificial",
+  "tasks": [
+   {
+    "code": "E3-06-T1",
+    "t": "Formular el problema de negocio como problema de predicción, clasificación o consulta automatizada con su métrica de éxito",
+    "ent": "1. Modelo entrenado y seleccionado"
+   },
+   {
+    "code": "E3-06-T2",
+    "t": "Construir variables y particionar los datos en entrenamiento, validación y prueba evitando fuga de información",
+    "ent": "1. Modelo entrenado y seleccionado"
+   },
+   {
+    "code": "E3-06-T3",
+    "t": "Entrenar y comparar modelos alternativos, incluidos modelos de lenguaje sobre la base de conocimiento de la organización",
+    "ent": "1. Modelo entrenado y seleccionado"
+   },
+   {
+    "code": "E3-06-T4",
+    "t": "Validar el desempeño, la robustez y el sesgo del propio modelo con datos independientes",
+    "ent": "2. Informe de validación y ficha técnica del modelo"
+   },
+   {
+    "code": "E3-06-T5",
+    "t": "Documentar el modelo en su ficha técnica con supuestos, limitaciones, explicabilidad y nivel de riesgo",
+    "ent": "2. Informe de validación y ficha técnica del modelo"
+   },
+   {
+    "code": "E3-06-T6",
+    "t": "Poner el modelo en preproducción integrado al proceso y configurar el monitoreo de su desempeño y deriva",
+    "ent": "3. Modelo en preproducción con monitoreo"
+   }
+  ],
+  "prod": {
+   "name": "Modelo predictivo validado con su ficha técnica",
+   "desc": "Modelo predictivo validado que estima un evento de negocio, como la morosidad de un cliente, la deserción de un estudiante o la demanda de un producto, o que automatiza la consulta del conocimiento de la organización, para priorizar acciones con supervisión humana. Integra la formulación del problema, la tabla de variables con su partición, el código de entrenamiento versionado, la comparación de modelos, el informe de validación de desempeño, robustez y sesgo, la ficha técnica y el servicio en preproducción con su monitoreo. Se elabora con datos de entrenamiento, validación y prueba, y se verifica con métricas sobre datos no vistos, análisis de sesgo por grupo y pruebas del servicio en preproducción. Orienta decisiones de focalización y asignación de recursos, y demuestra que el egresado modela problemas reales con rigor y responsabilidad.",
+   "ents": [
+    {
+     "n": "1",
+     "t": "Modelo entrenado y seleccionado",
+     "codes": "E3-06-T1, E3-06-T2, E3-06-T3",
+     "sum": "formulación del problema, tabla de variables, partición de datos, modelos entrenados y comparación de desempeño",
+     "ev": [
+      "código de entrenamiento versionado",
+      "tabla comparativa de métricas sobre datos de prueba"
+     ]
+    },
+    {
+     "n": "2",
+     "t": "Informe de validación y ficha técnica del modelo",
+     "codes": "E3-06-T4, E3-06-T5",
+     "sum": "desempeño, robustez y sesgo con datos independientes, supuestos, limitaciones y nivel de riesgo",
+     "ev": [
+      "informe de validación con pruebas reproducibles",
+      "ficha técnica revisada por el líder de analítica"
+     ]
+    },
+    {
+     "n": "3",
+     "t": "Modelo en preproducción con monitoreo",
+     "codes": "E3-06-T6",
+     "sum": "servicio o proceso programado integrado al proceso de negocio con su tablero de desempeño y deriva",
+     "ev": [
+      "servicio respondiendo en preproducción",
+      "tablero de monitoreo con alertas configuradas"
+     ]
+    }
+   ]
+  },
+  "fd": "Esta función tiene demanda porque el científico de datos representa el 24 % de los equipos de datos del país y la brecha estimada supera las 2 700 posiciones [25]. En el mercado, 23 de 80 avisos piden modelos predictivos, 10 asistentes basados en modelos de lenguaje y 8 la puesta en producción de modelos [32] [33] [37]. La Resolución SBS 053-2023 exige validar los modelos antes de aprobarlos y hacerles seguimiento al menos anual, con un inventario anual con corte al primer semestre [14]. O*NET asigna importancia 81 a probar y validar modelos [1], y SFIA incluye su entrenamiento, despliegue y monitoreo [21]. Ello exige profesionales capaces de construir y validar modelos útiles para el negocio.",
+  "ji": "En los próximos 5 años, esta función tendrá impacto porque el informe del Foro Económico Mundial de 2025 reporta que 86 % de los empleadores espera que la inteligencia artificial transforme su negocio al 2030 [24]. Además, el reglamento de la Ley 31814, vigente desde enero de 2026, califica como de riesgo alto los modelos de crédito, salud y selección de personal y exige transparencia y supervisión humana [8]. Por eso es necesario que el egresado domine los modelos predictivos para procesos de negocio.",
+  "refs": "[1] [8] [14] [21] [24] [25] [32] [33] [37]",
+  "conf": 3,
+  "lim": "Construye, valida y pone en preproducción sus modelos; la validación independiente de modelos de riesgo alto y la plataforma de despliegue no le corresponden.",
+  "absorbe": [
+   "E3-07",
+   "E3-08",
+   "E3-09"
+  ],
+  "cambios": "Absorbe E3-07 (consulta automatizada con modelos de lenguaje, reformulada como encargo), E3-08 (validación del propio modelo) y E3-09 (puesta en preproducción y monitoreo); inventario SBS anual, no semestral; seis tareas; conf 3."
+ },
+ "_refsNuevas": [
+  [
+   "[41]",
+   "Presidencia del Consejo de Ministros. Resolución Ministerial N.° 049-2026-PCM, aprueba la Estrategia Nacional de Gobierno de Datos 2026-2030 (arts. 4.4, 5.2, 6.2 y 7.3). El Peruano, 15-02-2026",
+   "https://busquedas.elperuano.pe/dispositivo/NL/2487229-1",
+   "Verificado"
+  ]
+ ]
+}

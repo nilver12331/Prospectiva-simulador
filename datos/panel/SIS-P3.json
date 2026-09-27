@@ -1,0 +1,41 @@
+{
+ "rol": "P3",
+ "perfil": "Experto regulatorio y de acreditación",
+ "calificaciones": {
+  "SIS-01": {"E": 4, "comentario": "Núcleo del título: Ley 28858 exige colegiatura para ejercer y el DL 1412 demanda software público; sin esta competencia SINEACE no reconoce un perfil de ingeniero de sistemas.", "fuente": "[N-1][N-5]"},
+  "SIS-02": {"E": 3, "comentario": "Ley 31814 y DS 115-2025-PCM obligan a clasificar riesgos, análisis de impacto y supervisión humana desde 2026; el egresado debe dominar IA gobernada, no todos ser científicos de datos.", "fuente": "[N-4]"},
+  "SIS-03": {"E": 4, "comentario": "Única especialidad con nivel 4 pleno: SBS 504-2021, DS 126-2025-PCM y Oficial de Seguridad obligatorio en el Estado; ningún perfil de egreso se defiende sin ella.", "fuente": "[N-2][N-3][N-8]"},
+  "SIS-04": {"E": 3, "comentario": "Sin norma propia, pero la SBS exige ISO 27017/27018 y SOC 2 a la nube regulada; el egresado debe operar plataformas bajo cumplimiento, no solo desplegarlas.", "fuente": "[N-3]"},
+  "SIS-05": {"E": 3, "comentario": "DL 1412 y DS 029-2021-PCM estructuran proyectos y servicios digitales del Estado, que exige título y colegiatura CIP; SINEACE espera gestión de proyectos en todo perfil de ingeniería.", "fuente": "[N-5][N-1]"},
+  "SIS-06": {"E": 3, "comentario": "Líder de Gobierno Digital del DL 1412 y PNTD 2030 con 82 servicios exigen arquitectura y hoja de ruta; esencial para cargos de dirección, no para el egresado inicial.", "fuente": "[N-5][N-9]"},
+  "SIS-07": {"E": 2, "comentario": "Ninguna norma nombra el canal móvil; se ejerce con la colegiatura genérica y se forma como capacidad dentro de desarrollo de software, no como especialidad defendible.", "fuente": "[N-1]"},
+  "SIS-08": {"E": 2, "comentario": "Sin norma ni figura obligatoria; el mercado no exige título y la certificación la otorga el proveedor. Útil como electivo, indefendible como núcleo del perfil ante SINEACE.", "fuente": "criterio del rol"},
+  "SIS-09": {"E": 3, "comentario": "El Estado convoca analistas de sistemas con título y colegiatura CIP; especificar requisitos es la competencia que da nombre al ingeniero de sistemas de información. Esencial, no autónoma.", "fuente": "[N-1]"},
+  "SIS-10": {"E": 2, "comentario": "NTP-ISO/IEC 12207 es vacío declarado y ninguna norma exige la función; SINEACE espera verificación como capacidad de desarrollo, no como especialidad separada.", "fuente": "[N] vacío NTP 12207; criterio del rol"},
+  "SIS-11": {"E": 2, "comentario": "Nivel 2: el TUO de Telecomunicaciones no reserva ni habilita al ingeniero de sistemas; es territorio del capítulo de electrónica del CIP. Base útil, no especialidad del título.", "fuente": "[N-B12]"},
+  "SIS-12": {"E": 3, "comentario": "SBS 504-2021 art. 27.2 exige evaluación independiente certificada y la NTP 27001 es obligatoria en el Estado; el egresado debe dominar control de TI aunque audite una minoría.", "fuente": "[N-3][N-8][N-7]"},
+  "SIS-13": {"E": 3, "comentario": "Ley 29733 y DS 016-2024-JUS imponen Oficial de Datos, notificación en 48 h y sanciones de la ANPDP; el ingeniero implementa los controles, el abogado comparte la función.", "fuente": "[N-6]"},
+  "SIS-14": {"E": 2, "comentario": "La Ley 31814 alcanza sistemas de IA, no tableros; sin norma propia ni figura obligatoria, se defiende como capacidad de datos dentro de SIS-02, no como especialidad.", "fuente": "[N-4]"},
+  "SIS-15": {"E": 2, "comentario": "Sin norma que habilite ni reserve; el DS 126-2025-PCM alcanza a sectores críticos por su servicio digital, no por el dispositivo. Útil en minería, no esencial al título.", "fuente": "[N-2]; criterio del rol"},
+  "SIS-16": {"E": 1, "comentario": "Sin norma, sin figura obligatoria y sin puestos; no existe marco peruano de activos digitales que habilite la función. Indefendible ante SINEACE como especialidad.", "fuente": "[N]; criterio del rol"},
+  "SIS-17": {"E": 2, "comentario": "Solo la colegiatura genérica; el Estado lo convoca con título, pero la SBS exige respaldo y continuidad como control, no como puesto. Capacidad de datos, no especialidad.", "fuente": "[N-1][N-3]"},
+  "SIS-18": {"E": 1, "comentario": "Colegiatura no exigida, campo compartido con diseño gráfico y fuera del alcance que habilita el título de ingeniero; SINEACE no lo espera en un perfil de ingeniería.", "fuente": "[N-1]; criterio del rol"},
+  "SIS-19": {"E": 1, "comentario": "Puesto técnico sin exigencia de título ni norma; formar ingenieros para nivel 1 contradice el perfil que la Ley 28858 y SINEACE reservan al profesional colegiado.", "fuente": "[N-1]; criterio del rol"}
+ },
+ "faltan": [
+  "Peritaje e informática forense digital: la tabla normativa le asigna nivel 3 (Ley 30096 hasta DL 1741; SBS 504-2021 art. 15.2) y no figura en la cartera.",
+  "Gobierno y ética de la IA (clasificación por riesgo, análisis de impacto, transparencia algorítmica, supervisión humana) exigidos por Ley 31814 y DS 115-2025-PCM; hoy queda implícito en SIS-02.",
+  "Continuidad del negocio y recuperación de TI: control exigido por SBS 504-2021 y NTP-ISO/IEC 27001 sin especialidad que lo recoja."
+ ],
+ "integrar": [
+  "SIS-03 + SIS-13: la norma pide juntos al Oficial de Seguridad y al Oficial de Datos, ambos con notificación en 48 h (DS 126-2025-PCM, DS 016-2024-JUS); una sola especialidad de seguridad, privacidad y cumplimiento.",
+  "SIS-12 + SIS-06: gobierno de TI y transformación digital comparten marco (DL 1412, NTP 27001, PNTD 2030) y comité de dirección; el mercado contrata gobierno y arquitectura en el mismo cargo.",
+  "SIS-14 + SIS-02 + SIS-17: inteligencia de negocios, ciencia de datos y administración de bases de datos son un solo ciclo del dato bajo Ley 31814 y Ley 29733.",
+  "SIS-07 + SIS-01 (+ SIS-10): móvil y pruebas se contratan dentro de desarrollo de software; ninguna norma los distingue."
+ ],
+ "noPuesto": [
+  "SIS-19 Soporte técnico y mesa de ayuda: puesto técnico, no de ingeniero, sin negocio propio.",
+  "SIS-16 Blockchain y activos digitales: sin puestos con ese nombre ni marco normativo en el Perú; no es negocio autónomo.",
+  "SIS-18 UX/UI: es puesto, pero de diseñador, no del título de ingeniero; fuera del alcance que habilita la colegiatura."
+ ]
+}

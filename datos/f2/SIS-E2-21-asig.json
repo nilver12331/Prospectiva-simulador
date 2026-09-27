@@ -1,0 +1,177 @@
+{
+ "cod": "SIS",
+ "k": "E2",
+ "competencia": "C2",
+ "funciones": {
+  "E2-01": {
+   "marcas": [
+    "●",
+    "○",
+    "",
+    "",
+    "○"
+   ],
+   "asig": "C2",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (RSGD 001-2018-PCM/SEGDI [10], DS 098-2025-PCM, NUBE PERÚ [11]) · E2 (O*NET 15-1299.08 [3], CAS SUNAT de operaciones cloud [18]) · E3 (24 de 61 avisos piden nube, 9 diseño explícito [21])",
+    "tend": "E6 (Política Nacional de Transformación Digital al 2030, 2023 [12]; AWS en Lima, 2025 [30])",
+    "d": "S",
+    "acc": "Solo 9 de 61 avisos piden diseño explícito de arquitectura: reforzar con avisos de arquitecto o ingeniero cloud de nivel de entrada."
+   }
+  },
+  "E2-03": {
+   "marcas": [
+    "●",
+    "○",
+    "○",
+    "○",
+    ""
+   ],
+   "asig": "C2",
+   "otra": "",
+   "dic": {
+    "ev": "E2 (O*NET 15-1244 y 15-1241 [1][2], ESCO administrador de redes [6], CAS SUNAT 285-2025 [19]) · E3 (28 de 61 avisos, 11 de diseño [21][24])",
+    "tend": "E6 (OSIPTEL, cierre de 2025: 4,38 millones de conexiones fijas, 82 % por fibra [28]; SFIA 9 NTDS, 2024 [9])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E2-05": {
+   "marcas": [
+    "○",
+    "●",
+    "",
+    "",
+    ""
+   ],
+   "asig": "C2",
+   "otra": "",
+   "dic": {
+    "ev": "E2 (ESCO administrador de sistemas [5], SFIA 9 ITOP [8]) · E3 (17 de 61 avisos de automatización, solo 4 de IaC explícita [21]; aviso DevOps de Indra [23])",
+    "tend": "E6 (DORA 2025: 90 % con plataforma interna [35]; AWS Well-Architected, 2025 [39]; Uptime 2025 [37])",
+    "d": "S",
+    "acc": "Demanda explícita de infraestructura como código baja (4 de 61): sumar un dato peruano de adopción o avisos específicos de IaC."
+   }
+  },
+  "E2-07": {
+   "marcas": [
+    "",
+    "○",
+    "●",
+    "",
+    ""
+   ],
+   "asig": "C2",
+   "otra": "",
+   "dic": {
+    "ev": "E2 (O*NET 15-1244 [1], ESCO administrador de sistemas [5], CAS SUNAT de infraestructura [18]) · E3 (32 de 61 avisos [21][22])",
+    "tend": "E6 (CNCF 2025: 82 % con Kubernetes en producción [36]; Flexera 2025 [32])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E2-08": {
+   "marcas": [
+    "",
+    "",
+    "●",
+    "○",
+    ""
+   ],
+   "asig": "C2",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (DS 098-2025-PCM, acuerdos de disponibilidad de los bloques básicos [11]) · E2 (O*NET 15-1244 [1], ESCO [5], SFIA 9 ITOP [8]) · E3 (48 de 61 avisos [21][26])",
+    "tend": "E6 (Uptime Institute 2025 [37]; DS 098-2025-PCM, 2025 [11])",
+    "d": "S",
+    "acc": "La muestra de E2-08 se concentra en proveedores de internet: ampliar con mesas de servicio de empresas y entidades públicas."
+   }
+  },
+  "E2-09": {
+   "marcas": [
+    "",
+    "○",
+    "●",
+    "",
+    ""
+   ],
+   "asig": "C2 · compartida con C4",
+   "otra": "C4.5 Recuperar",
+   "dic": {
+    "ev": "E1 (RM 320-2021-PCM [14], DS 098-2025-PCM [11]) · E2 (O*NET 15-1244 [1], ESCO [5]) · E3 (25 de 61 avisos [21][22])",
+    "tend": "E6 (Sophos 2025: 54 % restauró desde respaldos [41]; DS 126-2025-PCM, vigente desde febrero de 2026 [13])",
+    "d": "S",
+    "acc": "Citar el DS 126-2025-PCM en El Peruano (hoy vía EY Perú [13]) y Sophos en su publicación original (hoy copia alojada por Grey Matter [41])."
+   }
+  },
+  "E2-10": {
+   "marcas": [
+    "",
+    "",
+    "○",
+    "●",
+    "●"
+   ],
+   "asig": "C2",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (DS 098-2025-PCM [11]) · E2 (O*NET 15-1244 y 15-1241 [1][2]) · E3 (51 de 61 avisos [21][26])",
+    "tend": "E6 (CNCF 2025, OpenTelemetry [36]; Flexera 2025: 84 % con dificultades de gasto en nube [32])",
+    "d": "S",
+    "acc": "—"
+   }
+  }
+ },
+ "reasignadas": [],
+ "alertas": [
+  [
+   "E2-09 · Respaldo y recuperación ante desastres",
+   "C2.3 con C4.5",
+   "Administrador de infraestructura y especialista de continuidad operativa en entidades públicas (RM 320-2021-PCM [14]) y en banca: 25 de 61 avisos piden respaldos, contingencia o continuidad en el mismo puesto [21][22]",
+   "Si la certificación separa C2 de C4, la operación de respaldos (C2.3) se certifica sin la restauración y prueba del plan de continuidad (C4.5), o al revés; E2-09 es la única casa de la recuperación tecnológica tras excluirse E4-08."
+  ]
+ ],
+ "decisiones": [
+  [
+   "2026-09-25",
+   "Se asignan 7 funciones de E2: E2-03, E2-07, E2-09 y E2-10 (núcleo) y E2-01, E2-05 y E2-08 (complementarias). Seis a C2 y una compartida: E2-09 con C4 (C4.5 Recuperar).",
+   "Con decision2 del panel. No se asignan E2-04 y E2-11 (excluidas por la Escuela: telefonía IP, segmentación y VPN pasaron a E2-03), E2-02 (fusionada en E2-01), E2-12 (sublínea en E2-10) ni E2-06 (fusionada en E1-10, que está en el archivo de ajustes de E1). Se aplicaron los ajustes de SIS-E2-21-ajustes.json antes de marcar."
+  ],
+  [
+   "2026-09-25",
+   "E2-06 se evalúa en SIS-E1-21-asig.json como parte de E1-10 (C1 · compartida con C2, otra C2.2 Automatizar).",
+   "Decisión de la Escuela: casa única de la integración y el despliegue continuo en E1; la plataforma de contenedores pasó como tarea a E2-07 (T5)."
+  ],
+  [
+   "2026-09-25",
+   "Cobertura completa: C2.1 (E2-01, E2-03), C2.2 (E2-05; además E1-10 compartida), C2.3 (E2-07, E2-08, E2-09), C2.4 (E2-10) y C2.5 (E2-10) tienen función principal.",
+   "C2.4 y C2.5 dependen de una sola función (E2-10, con la sublínea de costos y capacidad de E2-12). La protección del perímetro que nombra C2.4 se moviliza de forma principal en E4-03 (compartida con C2) y como apoyo en E2-03 (segmentación y VPN); la alerta de certificación de E4-03 está en SIS-E4-21-asig.json."
+  ],
+  [
+   "2026-09-25",
+   "E2-09 es compartida con C4: configura y opera los respaldos (C2.3) y ejecuta simulacros y actualiza los procedimientos de recuperación del plan de continuidad (C4.5 «restaurar la operación… mantener y probar los planes de continuidad»).",
+   "La Escuela excluyó E4-08 por duplicar E2-09; la resiliencia ante ransomware pasó a E4-07 (T4). El lim deja fuera fijar RTO y RPO y activar el plan."
+  ],
+  [
+   "2026-09-25",
+   "Frontera E2-08 / E5-09: E2-08 resuelve técnicamente los incidentes (C2.3); la gestión del proceso de incidentes, problemas y cambios es de E5-09 (C5.4).",
+   "No es compartida: E2-08 no moviliza de forma principal C5.4; ejecuta cambios estándar y aporta datos al análisis de problemas."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C2.1 (pendiente de la Escuela): añadir «y planificar la migración por oleadas de las cargas locales a la nube».",
+   "E2-01 absorbió E2-02 (T5: inventariar cargas y proponer su migración); la definición de C2.1 no nombra la migración. Es ajuste de redacción, no de estructura."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C2.3 (pendiente de la Escuela): añadir «incluida la administración de servidores, virtualización y la plataforma de contenedores en operación».",
+   "E2-07 (T4 y T5) administra virtualización y los clústeres de contenedores recibidos de E2-06; la definición de C2.3 enumera respaldos, soporte, cambios, incidentes y capacidad, pero no la plataforma que se opera."
+  ],
+  [
+   "2026-09-25",
+   "Dictamen de suficiencia de E2: 7 S. Global: P.",
+   "Muestra de 61 avisos (≥ 30): E3 se cumple en todas; referencias citadas verificadas y tendencias fechadas. Observaciones de forma: IaC explícita en 4 de 61 avisos (E2-05), muestra de E2-08 concentrada en proveedores de internet y DS 126-2025-PCM citado vía EY (E2-09). E5 y E7 son de programa: el global nunca es S."
+  ]
+ ]
+}

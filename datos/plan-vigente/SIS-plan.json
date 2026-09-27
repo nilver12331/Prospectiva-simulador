@@ -1,0 +1,65 @@
+{
+ "cod": "SIS",
+ "fuente": "Formulación literal entregada por la Escuela el 24-09-2026 (competencias de especialidad del plan vigente, tal como están escritas)",
+ "competencias": [
+  {
+   "n": "Ingeniería de software",
+   "np": "Competencia de especialidad 1 · plan vigente",
+   "d": "Gestiona y desarrolla software de manera eficiente y efectiva, basándose en estándares internacionales de calidad a fin de lograr el control y aseguramiento de la calidad según el contexto de la organización.",
+   "caps": [
+    "Ingeniería de requerimientos",
+    "Ingeniería de la información",
+    "Programación",
+    "Calidad de software"
+   ],
+   "cd": [
+    "Define requerimientos y diseña su arquitectura de sistemas.",
+    "Define requerimientos y diseña su arquitectura de sistemas.",
+    "Desarrolla aplicaciones de escritorio, web y móvil.",
+    "Gestionar la calidad de software y madurez de procesos de desarrollo."
+   ],
+   "tipo": "A"
+  },
+  {
+   "n": "Gestión de la infraestructura tecnológica",
+   "np": "Competencia de especialidad 2 · plan vigente",
+   "d": "Gestión de la infraestructura tecnológica.",
+   "caps": [
+    "Conectividad de datos",
+    "Gestión de la seguridad de la información",
+    "Implementa centro de datos"
+   ],
+   "cd": [
+    "Diseña, implementa, testea y controla la red; siguiendo las normas nacionales e internacionales en conectividad a fin de asegurar la transferencia de información en la organización.",
+    "Diseña y desarrolla sistemas de gestión de seguridad de la información, para la recolección de datos basándose en normas y estándares a fin de lograr el aseguramiento de la información de la organización.",
+    "Diseña, desarrolla y controla los servicios de un centro de datos basándose en metodologías y estándares a fin de lograr el adecuado manejo de la información para el alcance de los objetivos de la organización."
+   ],
+   "tipo": "A"
+  },
+  {
+   "n": "Ciencia de datos e inteligencia artificial",
+   "np": "Competencia de especialidad 3 · plan vigente",
+   "d": "Diseña y gestiona sistemas inteligentes basándose en metodologías, estándares y herramientas a fin de lograr estrategias de mejora para la organización.",
+   "caps": [
+    "Analista de negocios",
+    "Ingeniería de datos",
+    "Científico de datos",
+    "Analista de datos",
+    "Requerimiento de inteligencia"
+   ],
+   "cd": [
+    "Analiza y define requerimientos para sistemas inteligentes.",
+    "Construye una infraestructura de extracción y preparación de datos para analítica de datos (Data Engineer).",
+    "Explora y transforma los datos para generar modelos estadísticos y/o de Inteligencia Artificial (Data Scientist).",
+    "Analiza los datos y crea reportes/informes y/o visualizaciones estratégicas para la toma de decisiones (Data Analyst).",
+    "Analiza y define requerimientos para sistemas inteligentes."
+   ],
+   "tipo": "A"
+  }
+ ],
+ "notas": [
+  "El plan vigente no define una competencia de seguridad de la información: la trata como capacidad dentro de la infraestructura tecnológica.",
+  "La definición de la competencia de infraestructura repite su título; se conserva literal.",
+  "«Ingeniería de requerimientos» e «Ingeniería de la información» comparten la misma definición literal; «Analista de negocios» y «Requerimiento de inteligencia» también. Se conservan literales para la línea base."
+ ]
+}

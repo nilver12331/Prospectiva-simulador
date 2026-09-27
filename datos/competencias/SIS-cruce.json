@@ -1,0 +1,144 @@
+{
+ "cod": "SIS",
+ "fecha": "24-09-2026",
+ "eq": {
+  "Desarrollo de software e ingeniería de aplicaciones": {
+   "c": 0,
+   "k": null,
+   "t": "comp"
+  },
+  "Análisis funcional y de sistemas de información": {
+   "c": 0,
+   "k": 0,
+   "t": "cap"
+  },
+  "Infraestructura en la nube y DevOps": {
+   "c": 1,
+   "k": null,
+   "t": "comp"
+  },
+  "Redes y telecomunicaciones": {
+   "c": 1,
+   "k": null,
+   "t": "amb"
+  },
+  "Ciencia de datos e inteligencia artificial": {
+   "c": 2,
+   "k": null,
+   "t": "comp"
+  },
+  "Inteligencia de negocios y analítica empresarial": {
+   "c": 2,
+   "k": null,
+   "t": "amb"
+  },
+  "Ciberseguridad y gestión de riesgos digitales": {
+   "c": 3,
+   "k": null,
+   "t": "comp"
+  },
+  "Protección de datos personales y privacidad": {
+   "c": 3,
+   "k": null,
+   "t": "amb"
+  },
+  "Gestión de proyectos y servicios de TI": {
+   "c": 4,
+   "k": null,
+   "t": "comp"
+  },
+  "Arquitectura empresarial y transformación digital": {
+   "c": 4,
+   "k": null,
+   "t": "cap"
+  },
+  "Auditoría de sistemas y gobierno de TI": {
+   "c": 4,
+   "k": null,
+   "t": "cap"
+  }
+ },
+ "extra": {},
+ "sinEncaje": [],
+ "capSinEsp": [],
+ "resumen": " 5 especialidades equivalen a una competencia completa, 3 son ámbito de aplicación, 3 equivalen a una capacidad. Prueba de cobertura: ninguna especialidad sin correspondencia y las 25 capacidades quedan cubiertas.",
+ "filas": [
+  {
+   "esp": "Desarrollo de software e ingeniería de aplicaciones",
+   "comp": "Ingeniería de software",
+   "cap": "",
+   "t": "comp",
+   "nota": "Ejecuta el ciclo completo analizar–desplegar y entrega la misma evidencia: software en producción."
+  },
+  {
+   "esp": "Análisis funcional y de sistemas de información",
+   "comp": "Ingeniería de software",
+   "cap": "Análisis y especificación de requisitos",
+   "t": "cap",
+   "nota": "Tramo inicial: devuelve la especificación al equipo de desarrollo; no construye ni despliega."
+  },
+  {
+   "esp": "Infraestructura en la nube y DevOps",
+   "comp": "Plataforma e infraestructura",
+   "cap": "",
+   "t": "comp",
+   "nota": "Ejecuta el ciclo completo diseñar–optimizar y entrega la plataforma operando con código y observabilidad."
+  },
+  {
+   "esp": "Redes y telecomunicaciones",
+   "comp": "Plataforma e infraestructura",
+   "cap": "",
+   "t": "amb",
+   "nota": "Mismo ciclo diseñar–implementar–operar–asegurar; la rúbrica de plataforma sirve cambiando nube por red."
+  },
+  {
+   "esp": "Ciencia de datos e inteligencia artificial",
+   "comp": "Datos e inteligencia artificial",
+   "cap": "",
+   "t": "comp",
+   "nota": "Ejecuta el ciclo completo gobernar–implantar y entrega modelo en producción con informe y tablero."
+  },
+  {
+   "esp": "Inteligencia de negocios y analítica empresarial",
+   "comp": "Datos e inteligencia artificial",
+   "cap": "",
+   "t": "amb",
+   "nota": "Mismo ciclo dato–modelo–producto en operación; objeto descriptivo, sin modelos que aprenden; rúbrica sirve."
+  },
+  {
+   "esp": "Ciberseguridad y gestión de riesgos digitales",
+   "comp": "Ciberseguridad",
+   "cap": "",
+   "t": "comp",
+   "nota": "Ejecuta el ciclo completo evaluar–recuperar y entrega informe de riesgos y plan de respuesta aprobados."
+  },
+  {
+   "esp": "Protección de datos personales y privacidad",
+   "comp": "Ciberseguridad",
+   "cap": "",
+   "t": "amb",
+   "nota": "Mismo ciclo inventariar–controlar–operar–notificar–auditar; la rúbrica sirve cambiando información por datos personales."
+  },
+  {
+   "esp": "Gestión de proyectos y servicios de TI",
+   "comp": "Gobierno y gestión de TI",
+   "cap": "",
+   "t": "comp",
+   "nota": "Ejecuta el ciclo base planificar–operar y entrega proyecto cerrado y servicio bajo acuerdos de nivel."
+  },
+  {
+   "esp": "Arquitectura empresarial y transformación digital",
+   "comp": "Gobierno y gestión de TI",
+   "cap": "",
+   "t": "cap",
+   "nota": "Tramo previo: devuelve la hoja de ruta a la alta dirección; la ejecución la hacen los proyectos."
+  },
+  {
+   "esp": "Auditoría de sistemas y gobierno de TI",
+   "comp": "Gobierno y gestión de TI",
+   "cap": "",
+   "t": "cap",
+   "nota": "Tramo de aseguramiento con informe propio: evalúa y reporta al comité; no ejecuta la remediación."
+  }
+ ]
+}

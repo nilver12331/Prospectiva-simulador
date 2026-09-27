@@ -1,0 +1,51 @@
+{"rol":"V6",
+"SIS":{
+"A":[
+{"E":false,"D":3,"R":3,"S":"E","V":2,"c":"Diferencial real, pero «audita controles y riesgos de TI» es jerga para un postulante; decir qué hace. C5 anticipa imitación antes de 2029."},
+{"E":false,"D":3,"R":2,"S":"U","V":3,"c":"«Infraestructura como código» y «observabilidad» no se entienden en una lectura; el hecho existe, el texto no lo transmite."},
+{"E":false,"D":3,"R":3,"S":"U","V":2,"c":"El más memorable: tilapia y heladas se recuerdan. Pero habla de docentes, no del egresado; alcance 60 % y plana 2026 sin confirmar."},
+{"E":true,"D":2,"R":2,"S":"N","V":2,"c":"Fórmula que cualquier facultad firma; «28 convenios sin desglose» no diferencia y carece de vigencia verificada."},
+{"E":true,"D":2,"R":2,"S":"N","V":2,"c":"Lista de inauguraciones 2020-2023; laboratorios y AWS Academy los declaran UTP y UPC. Sin horas por estudiante, no se sostiene."}
+],
+"B":{"t":{"L":3,"So":false,"Au":false},
+"vp":[
+{"L":4,"So":true,"Au":true},
+{"L":3,"So":true,"Au":false},
+{"L":4,"So":true,"Au":true},
+{"L":3,"So":false,"Au":true},
+{"L":3,"So":false,"Au":true}
+]},
+"C":{"car":{"An":true,"At":3,"Mo":3,"Dg":false},
+"esp":[
+{"An":true,"At":3,"Mo":2,"Dg":false},
+{"An":true,"At":3,"Mo":2,"Dg":false},
+{"An":true,"At":3,"Mo":3,"Dg":false},
+{"An":true,"At":3,"Mo":3,"Dg":false},
+{"An":true,"At":3,"Mo":2,"Dg":false}
+]},
+"falta":"La misma carrera en tres sedes (Lima, Juliaca, Tarapoto) con proyectos en su región: ninguna competidora de C3 cubre costa, altiplano y selva a la vez.",
+"problema":"La dependencia tecnológica del Estado regional: municipalidades y gobiernos regionales sin equipo técnico propio ni continuidad de sus sistemas, y la exclusión digital de sus ciudadanos."
+},
+"NUT":{
+"A":[
+{"E":true,"D":3,"R":2,"S":"U","V":2,"c":"UNA Puno puede firmar tesis sobre anemia. Un conteo de asesores no se recuerda ni decide la matrícula; grados y vínculo sin verificar."},
+{"E":true,"D":3,"R":2,"S":"U","V":2,"c":"Casi duplica el anterior y se confunde con él. Renacyt citado venció el 27-05-2024: no respalda hoy."},
+{"E":false,"D":3,"R":3,"S":"E","V":3,"c":"El más claro y recordable: practicar en un comedor y una planta que la universidad opera. Falta el dato de horas por estudiante."},
+{"E":false,"D":2,"R":3,"S":"E","V":2,"c":"Frase-lista de 30 palabras que no se retiene; «ámbitos declarados» es vocabulario interno. Plan sin aprobar."},
+{"E":true,"D":2,"R":2,"S":"U","V":2,"c":"Internado municipal es común; el plan PAIS no nombra Nutrición. Sin vigencia ni vacantes, «campo en el Estado» es promesa."}
+],
+"B":{"t":{"L":3,"So":true,"Au":true},
+"vp":[
+{"L":2,"So":false,"Au":false},
+{"L":4,"So":true,"Au":true},
+{"L":4,"So":true,"Au":true}
+]},
+"C":{"car":{"An":true,"At":2,"Mo":3,"Dg":false},
+"esp":[
+{"An":true,"At":3,"Mo":2,"Dg":false},
+{"An":true,"At":2,"Mo":4,"Dg":false},
+{"An":true,"At":3,"Mo":3,"Dg":false}
+]},
+"falta":"La tradición de alimentación saludable y vegetariana de la institución, con la planta «Unión» y sus acuerdos con Superbom e Inter-American Health Food: una identidad que el postulante ya reconoce.",
+"problema":"La inseguridad alimentaria de los hogares (precio y acceso a los alimentos) y la doble carga de malnutrición en la misma familia; el texto la reduce a atención y programas."
+}}

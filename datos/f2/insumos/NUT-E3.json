@@ -1,0 +1,74 @@
+{
+ "carrera": "Nutrición Humana",
+ "cod": "NUT",
+ "k": "E3",
+ "especialidad": "Servicios de alimentación, inocuidad y salud ocupacional",
+ "especialidad_base": "Gestión de servicios de alimentación e inocuidad",
+ "integradas": [
+  "Nutrición ocupacional y salud en minería"
+ ],
+ "ambitos_y_absorbidas": [],
+ "descripcion_f1": {
+  "vol": 4,
+  "amp": 4,
+  "esc": 3,
+  "rem": 2,
+  "for": 3
+ },
+ "proceso_f1": "Planificar → estandarizar → asegurar inocuidad → auditar",
+ "evidencia_f1": "Plan HACCP y expediente de auditoría del servicio",
+ "competencia": {
+  "codigo": "C3",
+  "alias": "Alimentación colectiva",
+  "nombre": "Gestión de servicios de alimentación colectiva y aseguramiento de la inocuidad",
+  "definicion_conceptual": "Dirigir el servicio de alimentación que provee a pacientes, trabajadores, escolares o usuarios de programas sociales —planificando el menú, estandarizando preparaciones y fichas técnicas, costeando y comprando, asegurando la inocuidad con HACCP y auditando el cumplimiento— en hospitales, concesionarias, campamentos y unidades territoriales del Estado, bajo la norma sanitaria vigente y con indicadores de gestión, para entregar una alimentación nutricionalmente adecuada, segura y sostenible económicamente."
+ },
+ "capacidades_SOLO_PARA_MOMENTO_4": [
+  {
+   "codigo": "C3.1",
+   "accion": "Planificar",
+   "nombre": "Planificación del menú y del plan alimentario",
+   "definicion": "Capacidad para planificar menús y planes alimentarios por ciclos que cubran los requerimientos del colectivo atendido —pacientes, trabajadores, escolares, usuarios de programas— dentro del presupuesto y la disponibilidad local, adaptándolos a la cultura y al clima, con criterio nutricional, sentido económico y equidad."
+  },
+  {
+   "codigo": "C3.2",
+   "accion": "Estandarizar",
+   "nombre": "Estandarización y costeo de las preparaciones",
+   "definicion": "Capacidad para estandarizar recetas, raciones y fichas técnicas con su perfil nutricional y costo, y gestionar compras y proveedores, adaptando la estandarización al tipo de servicio y a la escala, con precisión, orden y transparencia en el uso de los recursos."
+  },
+  {
+   "codigo": "C3.3",
+   "accion": "Asegurar",
+   "nombre": "Aseguramiento de la inocuidad",
+   "definicion": "Capacidad para implementar y mantener el sistema HACCP y las buenas prácticas de manipulación, identificando puntos críticos, controlándolos y capacitando al personal, en cocinas hospitalarias, concesionarias y campamentos, con disciplina normativa, prevención del riesgo y responsabilidad por la salud del comensal."
+  },
+  {
+   "codigo": "C3.4",
+   "accion": "Auditar",
+   "nombre": "Supervisión y auditoría del servicio de alimentación",
+   "definicion": "Capacidad para supervisar operaciones y proveedores, auditar el cumplimiento sanitario, gestionar no conformidades y reportar indicadores de gestión a la dirección o a la entidad, en servicios propios, concesionados o de programas sociales, con objetividad, integridad y orientación a la mejora continua."
+  }
+ ],
+ "otras_competencias": [
+  {
+   "codigo": "C1",
+   "nombre": "Conducción del proceso de atención nutricional de la persona",
+   "capacidades": [
+    "C1.1 Valorar: Valoración del estado nutricional",
+    "C1.2 Diagnosticar: Diagnóstico nutricional",
+    "C1.3 Prescribir: Prescripción del tratamiento nutricional",
+    "C1.4 Seguir: Seguimiento del caso y consejería nutricional"
+   ]
+  },
+  {
+   "codigo": "C2",
+   "nombre": "Intervención nutricional en salud pública y poblaciones",
+   "capacidades": [
+    "C2.1 Diagnosticar: Diagnóstico nutricional poblacional",
+    "C2.2 Planificar: Diseño de la intervención nutricional poblacional",
+    "C2.3 Intervenir: Ejecución de la intervención nutricional poblacional",
+    "C2.4 Evaluar: Monitoreo y evaluación del impacto de la intervención"
+   ]
+  }
+ ]
+}

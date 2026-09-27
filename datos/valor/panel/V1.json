@@ -1,0 +1,51 @@
+{"rol":"V1",
+"SIS":{
+"A":[
+{"E":false,"D":2,"R":2,"S":"U","V":3,"c":"Único en el barrido, pero «auditar controles de TI» no mueve a un chico de 17; la capacidad 2–3 estimada solo está declarada."},
+{"E":false,"D":3,"R":2,"S":"U","V":3,"c":"Real frente a C3, pero «infraestructura como código» es jerga opaca para el postulante; pesa más en el padre ingeniero que en el hijo."},
+{"E":false,"D":3,"R":4,"S":"E","V":3,"c":"El más movilizador: IA aplicada a tilapia y heladas de su propia región. Tangible y se cuenta en una frase. Falta confirmar plana 2026."},
+{"E":true,"D":2,"R":3,"S":"U","V":2,"c":"A la familia le importan prácticas y empleo, pero cualquier universidad de C3 firma «convenios de prácticas»; sin vigencia ni vacantes no diferencia."},
+{"E":true,"D":2,"R":2,"S":"N","V":2,"c":"Laboratorios y AWS Academy son paridad en UPC, UTP o Lima; noticias de 2020–2023 sin vigencia, y Juliaca sin laboratorio documentado."}
+],
+"B":{"t":{"L":2,"So":true,"Au":false},
+"vp":[
+{"L":3,"So":true,"Au":true},
+{"L":2,"So":true,"Au":false},
+{"L":4,"So":true,"Au":true},
+{"L":3,"So":true,"Au":true},
+{"L":3,"So":true,"Au":false}
+]},
+"C":{"car":{"An":true,"At":3,"Mo":3,"Dg":false},
+"esp":[
+{"An":true,"At":3,"Mo":2,"Dg":false},
+{"An":true,"At":3,"Mo":2,"Dg":false},
+{"An":true,"At":3,"Mo":4,"Dg":false},
+{"An":true,"At":3,"Mo":3,"Dg":false},
+{"An":true,"At":3,"Mo":2,"Dg":false}
+]},
+"falta":"Estudiar la carrera en Juliaca o Tarapoto sin migrar a Lima, con campus y residencia propios; y datos de empleabilidad del egresado (D7), lo primero que pregunta la familia.",
+"problema":"La brecha digital del interior: mipymes, cooperativas y municipalidades de Puno y San Martín sin quien diseñe, opere y mantenga su tecnología; el texto nombra la organización mediana, no esa brecha."
+},
+"NUT":{
+"A":[
+{"E":true,"D":3,"R":2,"S":"U","V":2,"c":"Un postulante no elige por número de asesores de tesis; UNA Puno probablemente firma algo similar en anemia. Vínculo docente vigente sin verificar."},
+{"E":true,"D":3,"R":2,"S":"U","V":2,"c":"Comunitaria está saturada (11 de 18); el dato docente no se traduce en decisión. Renacyt citado venció en 2024 según la propia ficha."},
+{"E":false,"D":3,"R":4,"S":"E","V":3,"c":"Lo más concreto para un joven: practicar en un comedor y una planta que operan de verdad. Otros tienen comedor, no planta propia. Faltan horas."},
+{"E":false,"D":2,"R":3,"S":"U","V":3,"c":"Niño, gestante, adulto mayor u obesidad conectan con vocaciones reales, pero redactado como «ámbitos declarados» no se entiende en una lectura; plan sin resolución."},
+{"E":true,"D":2,"R":3,"S":"U","V":2,"c":"Atrae a quien tiene vocación social, pero UNA Puno o UNMSM pueden firmar campo en el Estado; PAIS no nombra Nutrición y falta vigencia publicada."}
+],
+"B":{"t":{"L":3,"So":true,"Au":true},
+"vp":[
+{"L":3,"So":false,"Au":false},
+{"L":4,"So":true,"Au":true},
+{"L":4,"So":true,"Au":true}
+]},
+"C":{"car":{"An":true,"At":2,"Mo":4,"Dg":false},
+"esp":[
+{"An":true,"At":3,"Mo":3,"Dg":false},
+{"An":true,"At":2,"Mo":4,"Dg":false},
+{"An":true,"At":3,"Mo":3,"Dg":false}
+]},
+"falta":"El estilo de vida saludable y la alimentación basada en plantas del modelo de salud adventista, con investigación propia en dietas vegetarianas: identidad que ninguna de C3 puede firmar. Tampoco figura nutrición deportiva.",
+"problema":"El entorno alimentario: ultraprocesados, inseguridad alimentaria del hogar y la doble carga de malnutrición en la misma familia; el texto nombra anemia y obesidad por separado, no su causa común."
+}}

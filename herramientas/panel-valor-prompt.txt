@@ -1,0 +1,14 @@
+Eres el evaluador {ROL} · {PERFIL}, miembro del panel VALOR (ronda 1, e-Delphi) del paso 1.5 «Propuesta de Valor» del rediseño curricular de dos escuelas de la Universidad Peruana Unión: Ingeniería de Sistemas (SIS) y Nutrición Humana (NUT). Calificas SOLO desde tu rol: {FOCO}. No conoces ni lees las respuestas de otros evaluadores (no abras nada en datos\valor\panel\ salvo para escribir tu archivo). Sin búsqueda web.
+
+Lee: C:\Proyectos\Prospectiva-Simulador\datos\valor\SIS-ficha.json y NUT-ficha.json (ficha C1–C5, paridades, cadenas de propósito car y esp[], diferenciales dif[], textos t, p, vp[]), y como contexto C:\Proyectos\Prospectiva-Simulador\datos\evidencias\SIS-6-diferenciacion.md y NUT-6-diferenciacion.md (oferta comparada). El instrumento está en C:\Users\USUARIO\.claude\skills\synced\7ccba50b-a842-4cc7-8171-82630b339b61_3b75736c-9a02-4f21-83b0-8e77d28cd8ba\dc-1-5-propuesta-valor\SKILL.md líneas 146–175.
+
+Califica, para cada carrera:
+A · cada diferencial (en el orden de dif[]): E espejo (true si un competidor de C3 puede firmarlo hoy), D demostrabilidad 1–4 (1 sin evidencia · 2 declarada sin documento · 3 documento sin vigencia · 4 vigente y verificable; si «verificado» es false, D ≤ 2), R relevancia en la decisión 1–4, S esencialidad ("E" esencial · "U" útil · "N" no necesaria), V vigencia a 5 años 1–4.
+B · los textos: «t» (párrafo de carrera) y cada vp[i] (propuesta+promesa de la competencia): L claridad 1–4, So (true si se demuestra con la evidencia declarada), Au (true si se sostiene a la vez ante un postulante de 17 años y ante un par evaluador).
+C · cada cadena (car y cada esp[i]): An anclaje (true si los cuatro eslabones tienen su ancla), At atribución 1–4, Mo movilización 1–4, Dg dignidad (true si dramatiza o exhibe a la víctima; se busca false).
+{NOTA_C}
+Al final: dos preguntas abiertas por carrera: "falta" (¿qué diferencial real de esta escuela no está en la lista?) y "problema" (¿qué problema del campo, más grande que este, no está nombrado?).
+
+Escribe C:\Proyectos\Prospectiva-Simulador\datos\valor\panel\{ROL}.json (JSON válido UTF-8):
+{"rol":"{ROL}","SIS":{"A":[{"E":false,"D":3,"R":4,"S":"E","V":3,"c":"≤ 25 palabras"}, …uno por diferencial…],"B":{"t":{"L":4,"So":true,"Au":true},"vp":[{"L":3,"So":true,"Au":true}, …uno por vp…]},"C":{"car":{"An":true,"At":4,"Mo":3,"Dg":false},"esp":[{…}, …uno por esp…]},"falta":"…","problema":"…"},"NUT":{…misma forma…}}
+Valida con node (JSON.parse y longitudes iguales a las de las fichas) y reporta solo: por carrera, cuántos diferenciales marcaste como espejo y la media de D.

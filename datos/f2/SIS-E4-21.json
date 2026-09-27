@@ -1,0 +1,981 @@
+{
+ "cod": "SIS",
+ "k": "E4",
+ "especialidad": "Ciberseguridad y protección de datos",
+ "competencia": "C4",
+ "proposito": "Gestionar la seguridad de la información y la protección de datos personales de organizaciones públicas y privadas, evaluando riesgos, implantando controles y detectando, respondiendo y recuperándose de incidentes conforme a la normativa peruana y a marcos internacionales, para proteger sus activos de información, sostener su operación y cumplir ante reguladores y titulares de datos.",
+ "fuentes": {
+  "O": 5,
+  "N": 14,
+  "M": 3,
+  "P": 6,
+  "A": 0,
+  "D": 0,
+  "avisos_revisados": 67,
+  "nota": "O: O*NET 15-1212.00, 15-1299.05 y 15-1299.06; ESCO 2529.6 y cruce ESCO-ECSF de ENISA. N: Res. SBS 504-2021 y 877-2020, DU 007-2020, DS 126-2025-PCM (texto en LP Derecho), Ley 30999, DS 016-2024-JUS (separata), tres notas del MINJUSDH (ANPD), guía CSIRT del CNSD y tres convocatorias CAS (INDECI 0090-2025, MINSA 050-2025, OSIPTEL 010-2025, esta solo en su página sin abrir las bases). M: tres búsquedas de LinkedIn Empleos Perú y 67 avisos individuales leídos completos; Computrabajo y Bumeran no devolvieron avisos al lector automático. P: NICE v2.2.0 (NIST y NICCS), SFIA 9 (vista cyber y PENT), ISO/IEC 27001:2022 (ficha IEC; iso.org bloqueó el acceso) y NIST CSF 2.0. Estudios de tendencia: ISC2 2024, IBM 2025, Verizon DBIR 2025, Sophos 2025; datos de ataques de FortiGuard y Kaspersky vía prensa. No se pudo abrir: iso.org, WEF Global Cybersecurity Outlook 2025 (403), texto de El Peruano en su visor, bases PDF de OSIPTEL. La frecuencia por función se contó por palabras clave en los 67 avisos (aproximada)."
+ },
+ "funciones": [
+  {
+   "c": "E4-01",
+   "t": "Evaluación de riesgos de ciberseguridad",
+   "d": "Evaluar los riesgos de seguridad de la información de los activos y procesos de la organización para priorizar su tratamiento y sustentar las decisiones de la dirección y los reportes al regulador.",
+   "fclave": "Identificar y evaluar el riesgo digital",
+   "tipo": "Actual",
+   "amb": "Banca, seguros y AFP supervisadas por la SBS; fintech; telecomunicaciones; entidades públicas obligadas a implementar SGSI; consultoras y servicios gestionados de seguridad",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "25 de 67 avisos",
+   "conf": 3,
+   "lim": "Aplica metodologías aprobadas por la organización; la aceptación del riesgo residual y el apetito de riesgo los decide la dirección o el comité de riesgos.",
+   "tasks": [
+    {
+     "code": "E4-01-T1",
+     "t": "Inventariar y clasificar los activos de información con sus propietarios",
+     "ent": "1. Inventario valorado de activos de información"
+    },
+    {
+     "code": "E4-01-T2",
+     "t": "Identificar amenazas y vulnerabilidades por activo y proceso",
+     "ent": "2. Matriz de riesgos y plan de tratamiento"
+    },
+    {
+     "code": "E4-01-T3",
+     "t": "Estimar probabilidad e impacto y calcular el nivel de riesgo",
+     "ent": "2. Matriz de riesgos y plan de tratamiento"
+    },
+    {
+     "code": "E4-01-T4",
+     "t": "Proponer opciones de tratamiento y controles con responsable y plazo",
+     "ent": "2. Matriz de riesgos y plan de tratamiento"
+    },
+    {
+     "code": "E4-01-T5",
+     "t": "Actualizar la matriz de riesgos y reportar su evolución",
+     "ent": "2. Matriz de riesgos y plan de tratamiento"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque el Perú recibió 748,2 millones de intentos de ciberataque solo en el primer semestre de 2025 [28] y cada organización debe decidir qué proteger primero. La Resolución SBS 504-2021 obliga a identificar activos, analizar amenazas y vulnerabilidades y formular medidas de reducción [12], y el Decreto de Urgencia 007-2020 exige a entidades públicas y proveedores de servicios digitales gestionar el riesgo de seguridad digital [14]. O*NET incluye la evaluación de riesgos entre las tareas del analista de seguridad [1] y 25 de 67 avisos peruanos la solicitan [25] [26]. Ello exige profesionales capaces de evaluar y priorizar riesgos de seguridad de la información con una metodología reconocida.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la NIST CSF 2.0 incorpora la función Gobernar y extiende la gestión del riesgo a la cadena de suministro [11]. Además, la participación de terceros en las brechas se duplicó hasta el 30 % [32], lo que obliga a evaluar también a proveedores y servicios en la nube. Por eso es necesario que el egresado domine la identificación y evaluación del riesgo digital.",
+   "refs": "[1] [11] [12] [14] [25] [26] [28] [32]",
+   "prod": {
+    "name": "Informe de evaluación de riesgos de seguridad de la información",
+    "desc": "Informe de evaluación de riesgos de seguridad de la información que establece, para un alcance definido, qué activos están expuestos, a qué amenazas y con qué nivel de riesgo, y sirve para decidir qué tratar primero. Integra el inventario valorado de activos, el catálogo de amenazas y vulnerabilidades, la estimación de probabilidad e impacto y el plan de tratamiento con responsables y plazos. Se elabora con una metodología reconocida, como la de la ISO/IEC 27005 o la NIST CSF 2.0, a partir de entrevistas, revisión documental y resultados de escaneo, y se verifica contrastando las valoraciones con los propietarios de los activos. Orienta la aceptación del riesgo residual y la asignación del presupuesto de seguridad, y demuestra que el egresado traduce hallazgos técnicos en riesgo de negocio.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Inventario valorado de activos de información",
+      "codes": "E4-01-T1",
+      "sum": "activos, propietarios, clasificación y valor según confidencialidad, integridad y disponibilidad",
+      "ev": [
+       "inventario con propietario y clasificación por activo",
+       "criterios de valoración aprobados"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Matriz de riesgos y plan de tratamiento",
+      "codes": "E4-01-T2, E4-01-T3, E4-01-T4, E4-01-T5",
+      "sum": "amenazas, vulnerabilidades, nivel de riesgo y controles propuestos con responsable y plazo",
+      "ev": [
+       "matriz de riesgos con cálculo trazable",
+       "plan de tratamiento validado por los propietarios"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E4-02",
+   "t": "Evaluación de vulnerabilidades y pruebas de intrusión",
+   "d": "Detectar y verificar las vulnerabilidades de redes, sistemas y aplicaciones mediante escaneos y pruebas de intrusión autorizadas para que la organización las corrija antes de que sean explotadas.",
+   "fclave": "Identificar y evaluar el riesgo digital",
+   "tipo": "Actual",
+   "amb": "Banca y fintech (obligación de pruebas sobre canales digitales y API); telecomunicaciones; empresas de servicios gestionados y consultoras de hacking ético; Estado",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "44 de 67 avisos (13 piden pruebas de penetración o hacking ético)",
+   "conf": 3,
+   "lim": "Solo con autorización escrita y alcance firmado; la explotación se hace de forma controlada y sin afectar producción crítica; las operaciones de equipo rojo avanzado exceden el pregrado.",
+   "tasks": [
+    {
+     "code": "E4-02-T1",
+     "t": "Acordar el alcance, las ventanas y las reglas de intervención de la prueba",
+     "ent": "1. Plan de pruebas autorizado"
+    },
+    {
+     "code": "E4-02-T2",
+     "t": "Ejecutar escaneos de vulnerabilidades sobre infraestructura y aplicaciones",
+     "ent": "2. Informe técnico y ejecutivo de hallazgos"
+    },
+    {
+     "code": "E4-02-T3",
+     "t": "Validar manualmente y explotar de forma controlada las vulnerabilidades críticas",
+     "ent": "2. Informe técnico y ejecutivo de hallazgos"
+    },
+    {
+     "code": "E4-02-T4",
+     "t": "Clasificar los hallazgos por severidad y proponer su remediación",
+     "ent": "2. Informe técnico y ejecutivo de hallazgos"
+    },
+    {
+     "code": "E4-02-T5",
+     "t": "Verificar el cierre de las vulnerabilidades corregidas",
+     "ent": "3. Registro de verificación de remediación"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque la explotación de vulnerabilidades creció 34 % y ya origina el 20 % de las brechas analizadas en el mundo [32]. En el Perú, la Resolución SBS 504-2021 exige análisis de vulnerabilidades y pruebas de penetración en los servicios provistos mediante API y la gestión priorizada de vulnerabilidades [12]. O*NET y SFIA reconocen las pruebas de penetración como tarea y habilidad, esta última desde el nivel 2 de entrada [2] [9], y 44 de 67 avisos peruanos las mencionan [25] [26]. Ello exige profesionales capaces de detectar, validar y priorizar vulnerabilidades mediante pruebas autorizadas.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque los atacantes pasan de campañas masivas a operaciones focalizadas que usan inteligencia artificial para acelerar la explotación [28]. A ello se suma el aumento de ataques de día cero contra dispositivos perimetrales y redes privadas virtuales [32], que acorta el tiempo disponible para corregir. Por eso es necesario que el egresado domine la identificación y evaluación del riesgo digital.",
+   "refs": "[2] [9] [12] [25] [26] [28] [32]",
+   "prod": {
+    "name": "Informe de pruebas de intrusión y gestión de vulnerabilidades",
+    "desc": "Informe de pruebas de intrusión y gestión de vulnerabilidades que demuestra, con evidencia reproducible, qué debilidades de un alcance autorizado son explotables y cómo corregirlas. Integra el plan de pruebas firmado, los resultados de escaneo depurados de falsos positivos, las pruebas de concepto de las vulnerabilidades críticas, la clasificación por severidad y el registro de verificación del cierre. Se elabora siguiendo una metodología pública de pruebas y se verifica repitiendo la prueba sobre cada hallazgo corregido. Orienta el orden de remediación y las decisiones de salida a producción, y demuestra que el egresado piensa como atacante dentro de límites éticos y legales.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Plan de pruebas autorizado",
+      "codes": "E4-02-T1",
+      "sum": "alcance, ventanas, reglas de intervención y autorización del propietario",
+      "ev": [
+       "documento de alcance firmado"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe técnico y ejecutivo de hallazgos",
+      "codes": "E4-02-T2, E4-02-T3, E4-02-T4",
+      "sum": "vulnerabilidades validadas con evidencia, severidad y recomendación de remediación",
+      "ev": [
+       "pruebas de concepto reproducibles",
+       "resumen ejecutivo con riesgo por hallazgo"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Registro de verificación de remediación",
+      "codes": "E4-02-T5",
+      "sum": "estado de cierre de cada hallazgo tras la nueva prueba",
+      "ev": [
+       "matriz de hallazgos con fecha y resultado de la nueva prueba"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E4-03",
+   "t": "Implantación de controles técnicos de seguridad",
+   "d": "Configurar, bastionar y mantener los controles técnicos de seguridad de redes, servidores, estaciones y servicios en la nube para reducir la superficie de ataque a un nivel aceptable.",
+   "fclave": "Proteger los activos de información",
+   "tipo": "Actual",
+   "amb": "Banca y fintech; telecomunicaciones; energía y otras actividades críticas; Estado; integradores y servicios gestionados de seguridad",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "37 de 67 avisos",
+   "conf": 3,
+   "lim": "Implanta sobre diseños y líneas base aprobadas; los cambios en producción pasan por control de cambios; la arquitectura de seguridad corporativa la define un perfil senior.",
+   "tasks": [
+    {
+     "code": "E4-03-T1",
+     "t": "Definir líneas base de configuración segura por tipo de activo",
+     "ent": "1. Líneas base de configuración segura"
+    },
+    {
+     "code": "E4-03-T2",
+     "t": "Configurar cortafuegos, segmentación de red y accesos remotos seguros",
+     "ent": "2. Expediente de implantación de controles"
+    },
+    {
+     "code": "E4-03-T3",
+     "t": "Desplegar y ajustar la protección de puntos finales y antimalware",
+     "ent": "2. Expediente de implantación de controles"
+    },
+    {
+     "code": "E4-03-T4",
+     "t": "Aplicar cifrado a los datos en reposo y en tránsito",
+     "ent": "2. Expediente de implantación de controles"
+    },
+    {
+     "code": "E4-03-T5",
+     "t": "Verificar el cumplimiento de la línea base y corregir las desviaciones",
+     "ent": "1. Líneas base de configuración segura"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque los sistemas en el Perú soportan del orden de 36 000 intentos de escaneo por segundo [28], y cada configuración débil es una puerta abierta. La Resolución SBS 504-2021 exige líneas base de configuración segura, segregación de redes y restricción de software [12], y el reglamento de la Ley 29733 exige medidas de seguridad en los sistemas que tratan datos personales [17]. O*NET incluye cifrar transmisiones y levantar cortafuegos [1], y 37 de 67 avisos peruanos piden estos controles [25] [26]. Ello exige profesionales capaces de implantar y mantener controles técnicos de seguridad verificables.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la seguridad en la nube figura entre las habilidades técnicas más buscadas por los empleadores [30]. Además, los ataques de día cero contra dispositivos perimetrales y redes privadas virtuales están en aumento [32], lo que exige bastionado continuo y no solo inicial. Por eso es necesario que el egresado domine la protección de los activos de información.",
+   "refs": "[1] [12] [17] [25] [26] [28] [30] [32]",
+   "prod": {
+    "name": "Expediente de bastionado y controles técnicos implantados",
+    "desc": "Expediente de bastionado y controles técnicos implantados que documenta cómo quedó protegido un conjunto de sistemas y sirve de referencia para operarlos y auditarlos. Integra las líneas base de configuración segura, las reglas de cortafuegos y segmentación, la configuración de protección de puntos finales, el esquema de cifrado y el informe de cumplimiento de la línea base. Se elabora a partir de guías de configuración reconocidas y del resultado de la evaluación de riesgos, y se verifica con escaneos de configuración antes y después del cambio. Orienta la aprobación de pases a producción y las auditorías de controles, y demuestra que el egresado convierte una política en configuraciones concretas y comprobables.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Líneas base de configuración segura",
+      "codes": "E4-03-T1, E4-03-T5",
+      "sum": "parámetros de seguridad por tipo de activo y resultado de su verificación",
+      "ev": [
+       "línea base aprobada",
+       "informe de cumplimiento antes y después"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Expediente de implantación de controles",
+      "codes": "E4-03-T2, E4-03-T3, E4-03-T4",
+      "sum": "reglas de red, protección de puntos finales y cifrado implantados con su evidencia",
+      "ev": [
+       "reglas documentadas con justificación",
+       "capturas o registros de configuración"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E4-04",
+   "t": "Gestión de identidades y accesos",
+   "d": "Administrar el ciclo de vida de identidades, credenciales y privilegios de usuarios y sistemas para que cada persona acceda solo a lo que necesita y todo acceso quede trazado.",
+   "fclave": "Proteger los activos de información",
+   "tipo": "Actual",
+   "amb": "Banca y fintech (autenticación reforzada en canales digitales); Estado (niveles de confianza en la autenticación); telecomunicaciones; empresas con servicios en la nube",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "28 de 67 avisos",
+   "conf": 3,
+   "lim": "Opera sobre políticas de acceso aprobadas; la concesión de privilegios críticos requiere aprobación del propietario del activo.",
+   "tasks": [
+    {
+     "code": "E4-04-T1",
+     "t": "Definir roles y matrices de acceso con mínimo privilegio y segregación de funciones",
+     "ent": "1. Modelo de roles y matriz de accesos"
+    },
+    {
+     "code": "E4-04-T2",
+     "t": "Gestionar altas, cambios y bajas de cuentas y credenciales",
+     "ent": "3. Informe de recertificación de accesos"
+    },
+    {
+     "code": "E4-04-T3",
+     "t": "Configurar autenticación multifactor según el nivel de riesgo del servicio",
+     "ent": "2. Configuración de autenticación y privilegios"
+    },
+    {
+     "code": "E4-04-T4",
+     "t": "Controlar y registrar el uso de cuentas privilegiadas",
+     "ent": "2. Configuración de autenticación y privilegios"
+    },
+    {
+     "code": "E4-04-T5",
+     "t": "Ejecutar la recertificación periódica de accesos",
+     "ent": "3. Informe de recertificación de accesos"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque el abuso de credenciales es el principal vector inicial de las brechas, con el 22 % de los casos analizados [32]. La Resolución SBS 504-2021 exige mínimo privilegio, segregación de funciones y autenticación reforzada en canales digitales [12], y el Decreto Supremo 126-2025-PCM fija niveles de confianza en la autenticación para los proveedores de servicios digitales [15]. ESCO incluye mantener la gestión de identidades entre las habilidades esenciales del administrador de seguridad [4], y 28 de 67 avisos peruanos la piden [25] [26]. Ello exige profesionales capaces de gobernar identidades, credenciales y privilegios con trazabilidad.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el Decreto Supremo 126-2025-PCM obliga a autenticar a las personas según el riesgo de cada servicio digital [15]. Además, el 97 % de las organizaciones con incidentes ligados a inteligencia artificial carecía de controles de acceso para ella [31], lo que extiende la gestión a identidades no humanas. Por eso es necesario que el egresado domine la protección de los activos de información.",
+   "refs": "[4] [12] [15] [25] [26] [31] [32]",
+   "prod": {
+    "name": "Modelo de gestión de identidades y accesos",
+    "desc": "Modelo de gestión de identidades y accesos que define quién puede hacer qué en los sistemas de la organización y cómo se comprueba. Integra el modelo de roles y la matriz de accesos, la configuración de autenticación multifactor y de cuentas privilegiadas, y el informe de recertificación periódica. Se elabora a partir de las funciones de cada puesto y de la clasificación de los activos, y se verifica cruzando las cuentas activas con las altas y bajas de personal. Orienta las decisiones de concesión y retiro de privilegios y demuestra que el egresado aplica el mínimo privilegio con evidencia auditable.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Modelo de roles y matriz de accesos",
+      "codes": "E4-04-T1",
+      "sum": "roles, permisos y reglas de segregación de funciones por sistema",
+      "ev": [
+       "matriz de accesos aprobada por los propietarios"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Configuración de autenticación y privilegios",
+      "codes": "E4-04-T3, E4-04-T4",
+      "sum": "factores de autenticación por servicio y control de cuentas privilegiadas",
+      "ev": [
+       "parámetros de autenticación documentados",
+       "registro de sesiones privilegiadas"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Informe de recertificación de accesos",
+      "codes": "E4-04-T2, E4-04-T5",
+      "sum": "altas, bajas y revisiones periódicas con las desviaciones corregidas",
+      "ev": [
+       "listado de cuentas revisadas con decisión del propietario",
+       "cuentas huérfanas eliminadas"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E4-05",
+   "t": "Aseguramiento de la seguridad de aplicaciones",
+   "d": "Incorporar requisitos, revisiones y pruebas de seguridad en el ciclo de desarrollo de aplicaciones e interfaces para que el software llegue a producción sin vulnerabilidades críticas.",
+   "fclave": "Proteger los activos de información",
+   "tipo": "Emergente",
+   "amb": "Banca y fintech (aplicaciones y API de canales digitales); fábricas de software y empresas de servicios de TI; comercio electrónico; Estado con servicios digitales",
+   "evid": "N,M,P",
+   "unica": false,
+   "frec": "17 de 67 avisos",
+   "conf": 3,
+   "lim": "Revisa y prueba el software de terceros o propio dentro de un proceso de desarrollo definido; la aceptación de riesgos residuales la decide el responsable del producto.",
+   "tasks": [
+    {
+     "code": "E4-05-T1",
+     "t": "Definir requisitos de seguridad y modelar amenazas de la aplicación",
+     "ent": "1. Requisitos de seguridad y modelo de amenazas"
+    },
+    {
+     "code": "E4-05-T2",
+     "t": "Analizar el código fuente con herramientas de análisis estático",
+     "ent": "2. Informe de pruebas de seguridad y conformidad de pase"
+    },
+    {
+     "code": "E4-05-T3",
+     "t": "Ejecutar pruebas dinámicas de seguridad sobre aplicaciones e interfaces",
+     "ent": "2. Informe de pruebas de seguridad y conformidad de pase"
+    },
+    {
+     "code": "E4-05-T4",
+     "t": "Acompañar a los desarrolladores en la corrección de los hallazgos",
+     "ent": "2. Informe de pruebas de seguridad y conformidad de pase"
+    },
+    {
+     "code": "E4-05-T5",
+     "t": "Emitir la conformidad de seguridad previa al pase a producción",
+     "ent": "2. Informe de pruebas de seguridad y conformidad de pase"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque la explotación de vulnerabilidades ya explica el 20 % de las brechas y creció 34 % en un año [32]. La Resolución SBS 504-2021 exige prácticas de desarrollo seguro, pruebas de seguridad antes del pase a producción y revisión de codificación segura en las API [12]. El marco NICE define los roles de desarrollo seguro de software y de evaluación de seguridad del software [7], y 17 de 67 avisos peruanos piden seguridad aplicativa, análisis estático o dinámico o prácticas de desarrollo seguro integrado [25] [26]. Ello exige profesionales capaces de asegurar el software durante todo su ciclo de desarrollo.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el 63 % de las organizaciones carece de políticas para gobernar la inteligencia artificial y el uso no autorizado de estas herramientas encarece cada brecha en 670 000 dólares [31]. Además, la participación de terceros en las brechas se duplicó [32], lo que alcanza a componentes y proveedores de software. Por eso es necesario que el egresado domine la protección de los activos de información.",
+   "refs": "[7] [12] [25] [26] [31] [32]",
+   "prod": {
+    "name": "Dictamen de seguridad de la aplicación para pase a producción",
+    "desc": "Dictamen de seguridad de la aplicación para pase a producción que certifica, para una versión concreta, que no quedan vulnerabilidades críticas abiertas o que su riesgo fue aceptado formalmente. Integra los requisitos de seguridad y el modelo de amenazas, los resultados del análisis estático y de las pruebas dinámicas, el seguimiento de correcciones y la conformidad final. Se elabora junto con el equipo de desarrollo durante el ciclo de construcción y se verifica repitiendo las pruebas sobre la versión candidata. Orienta la decisión de liberar o detener la versión y demuestra que el egresado integra la seguridad en el desarrollo sin frenar la entrega.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Requisitos de seguridad y modelo de amenazas",
+      "codes": "E4-05-T1",
+      "sum": "amenazas por componente y requisitos de seguridad trazados a historias o casos de uso",
+      "ev": [
+       "modelo de amenazas con contramedidas"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de pruebas de seguridad y conformidad de pase",
+      "codes": "E4-05-T2, E4-05-T3, E4-05-T4, E4-05-T5",
+      "sum": "hallazgos de análisis estático y dinámico, correcciones y conformidad de la versión",
+      "ev": [
+       "reporte de herramientas depurado",
+       "registro de correcciones verificadas",
+       "conformidad firmada"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E4-06",
+   "t": "Monitoreo y detección de amenazas",
+   "d": "Vigilar de forma continua los eventos de seguridad de la infraestructura y los sistemas, correlacionarlos y clasificar las alertas para detectar a tiempo incidentes y fugas de datos.",
+   "fclave": "Detectar y responder a incidentes de seguridad",
+   "tipo": "Actual",
+   "amb": "Centros de operaciones de seguridad propios y de servicios gestionados; banca y fintech; telecomunicaciones; Estado",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "27 de 67 avisos",
+   "conf": 3,
+   "lim": "Actúa como analista de primer y segundo nivel con procedimientos definidos; la declaración formal de incidente mayor la hace el responsable del centro.",
+   "tasks": [
+    {
+     "code": "E4-06-T1",
+     "t": "Integrar las fuentes de registros en la plataforma de correlación",
+     "ent": "1. Catálogo de casos de uso de detección"
+    },
+    {
+     "code": "E4-06-T2",
+     "t": "Ajustar reglas y casos de uso de detección",
+     "ent": "1. Catálogo de casos de uso de detección"
+    },
+    {
+     "code": "E4-06-T3",
+     "t": "Clasificar y triar las alertas del turno de monitoreo",
+     "ent": "2. Bitácora de triaje y escalamiento"
+    },
+    {
+     "code": "E4-06-T4",
+     "t": "Enriquecer las alertas con inteligencia de amenazas",
+     "ent": "1. Catálogo de casos de uso de detección"
+    },
+    {
+     "code": "E4-06-T5",
+     "t": "Escalar los eventos confirmados como incidentes",
+     "ent": "2. Bitácora de triaje y escalamiento"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque en el Perú se detectaron más de 110 millones de intentos de phishing en doce meses, 22 % más que en el periodo anterior [29]. La Resolución SBS 504-2021 exige un servicio de operaciones de seguridad con detección, monitoreo de la red interna e inteligencia de amenazas [12]. O*NET incluye vigilar el uso de archivos y los reportes de amenazas [1], el marco NICE define los roles de ciberdefensa y análisis de amenazas [6] [7], y 27 de 67 avisos peruanos piden monitoreo o centro de operaciones [25] [26]. Ello exige profesionales capaces de detectar y clasificar amenazas en operación continua.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque las organizaciones aún tardan en promedio 241 días en identificar y contener una brecha [31], y reducir ese tiempo es la principal palanca de costo. Además, el 45 % de los equipos de ciberseguridad ya adoptó inteligencia artificial generativa [30], lo que cambia el trabajo del analista hacia la supervisión y el ajuste. Por eso es necesario que el egresado domine la detección y respuesta a incidentes de seguridad.",
+   "refs": "[1] [6] [7] [12] [25] [26] [29] [30] [31]",
+   "prod": {
+    "name": "Catálogo de casos de uso de detección con bitácora de triaje",
+    "desc": "Catálogo de casos de uso de detección con bitácora de triaje que muestra qué amenazas vigila la organización, con qué reglas y cómo se atendieron las alertas. Integra las fuentes de registro conectadas, las reglas de correlación con su lógica y umbrales, los indicadores de inteligencia de amenazas incorporados y el registro de alertas clasificadas y escaladas. Se elabora mapeando técnicas de ataque conocidas a las fuentes disponibles y se verifica midiendo falsos positivos y tiempos de atención. Orienta qué nuevas fuentes o reglas priorizar y demuestra que el egresado sostiene una vigilancia efectiva y medible.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Catálogo de casos de uso de detección",
+      "codes": "E4-06-T1, E4-06-T2, E4-06-T4",
+      "sum": "fuentes integradas, reglas de correlación y amenazas cubiertas",
+      "ev": [
+       "reglas documentadas con técnica cubierta",
+       "prueba de disparo de cada regla"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Bitácora de triaje y escalamiento",
+      "codes": "E4-06-T3, E4-06-T5",
+      "sum": "alertas atendidas, clasificación, tiempos y escalamientos",
+      "ev": [
+       "registro de alertas con decisión",
+       "indicadores de falsos positivos y tiempos"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E4-07",
+   "t": "Respuesta a incidentes de seguridad",
+   "d": "Contener, erradicar y analizar los incidentes de seguridad y las brechas de datos personales, preservar la evidencia y preparar las notificaciones a la autoridad para limitar el daño y restablecer la operación.",
+   "fclave": "Detectar y responder a incidentes de seguridad",
+   "tipo": "Actual",
+   "amb": "Equipos de respuesta a incidentes institucionales y sectoriales; banca, seguros y fintech (reporte a la SBS); Estado (notificación al Centro Nacional de Seguridad Digital); servicios gestionados y consultoras forenses",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "34 de 67 avisos (6 piden análisis forense)",
+   "conf": 2,
+   "lim": "Actúa bajo supervisión directa del líder de respuesta; las decisiones de contención con impacto en el negocio y la firma de las notificaciones corresponden al responsable; el peritaje judicial exige acreditación.",
+   "tasks": [
+    {
+     "code": "E4-07-T1",
+     "t": "Clasificar el incidente según su severidad e impacto",
+     "ent": "1. Registro de gestión del incidente"
+    },
+    {
+     "code": "E4-07-T2",
+     "t": "Ejecutar las acciones de contención y erradicación del procedimiento",
+     "ent": "1. Registro de gestión del incidente"
+    },
+    {
+     "code": "E4-07-T3",
+     "t": "Preservar y adquirir la evidencia digital con cadena de custodia",
+     "ent": "2. Informe forense del incidente"
+    },
+    {
+     "code": "E4-07-T4",
+     "t": "Analizar la evidencia para determinar causa raíz y alcance",
+     "ent": "2. Informe forense del incidente"
+    },
+    {
+     "code": "E4-07-T5",
+     "t": "Preparar las notificaciones a la SBS, al Centro Nacional de Seguridad Digital o a la autoridad de datos personales dentro del plazo",
+     "ent": "3. Expediente de notificación regulatoria"
+    },
+    {
+     "code": "E4-07-T6",
+     "t": "Documentar las lecciones aprendidas y las mejoras al procedimiento",
+     "ent": "1. Registro de gestión del incidente"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque el ransomware está presente en el 44 % de las brechas y creció 37 % en un año [32]. La Resolución SBS 504-2021 obliga a reportar incidentes significativos y a realizar análisis forense [12], el Decreto Supremo 126-2025-PCM exige notificar los incidentes críticos al Centro Nacional de Seguridad Digital en 48 horas [15] y el reglamento de la Ley 29733 fija el mismo plazo ante la autoridad de datos [17]. O*NET describe las tareas forenses [3] y 34 de 67 avisos peruanos piden respuesta a incidentes [25] [26]. Ello exige profesionales capaces de contener, investigar y notificar incidentes en plazo.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el Decreto Supremo 126-2025-PCM crea una plataforma obligatoria de notificación de incidentes con plazos definidos [15]. A la vez, la guía del Centro Nacional de Seguridad Digital impulsa que las entidades públicas conformen sus propios equipos de respuesta [21], lo que multiplica los puestos. Por eso es necesario que el egresado domine la detección y respuesta a incidentes de seguridad.",
+   "refs": "[3] [12] [15] [17] [21] [25] [26] [32]",
+   "prod": {
+    "name": "Expediente de gestión del incidente de seguridad",
+    "desc": "Expediente de gestión del incidente de seguridad que reconstruye un incidente de principio a fin y sustenta ante la dirección y la autoridad lo que ocurrió y lo que se hizo. Integra el registro cronológico de clasificación, contención y erradicación, el informe forense con la evidencia preservada y la causa raíz, y los reportes de notificación a las autoridades competentes. Se elabora siguiendo el procedimiento de respuesta de la organización y se verifica comprobando la cadena de custodia y la consistencia de la línea de tiempo. Orienta las medidas correctivas y las comunicaciones a afectados, y demuestra que el egresado actúa con método, serenidad y apego a los plazos legales.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Registro de gestión del incidente",
+      "codes": "E4-07-T1, E4-07-T2, E4-07-T6",
+      "sum": "clasificación, acciones de contención y erradicación y lecciones aprendidas",
+      "ev": [
+       "línea de tiempo de acciones",
+       "acta de lecciones aprendidas"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe forense del incidente",
+      "codes": "E4-07-T3, E4-07-T4",
+      "sum": "evidencia preservada, análisis, causa raíz y alcance",
+      "ev": [
+       "formularios de cadena de custodia",
+       "hallazgos con evidencia técnica"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Expediente de notificación regulatoria",
+      "codes": "E4-07-T5",
+      "sum": "reportes a la SBS, al Centro Nacional de Seguridad Digital o a la autoridad de datos personales",
+      "ev": [
+       "reporte con fecha y hora de envío dentro del plazo"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E4-08",
+   "t": "Recuperación tecnológica y continuidad operativa",
+   "d": "Planificar, probar y mantener las estrategias de respaldo y recuperación de los servicios de tecnología para restablecer la operación dentro de los tiempos objetivo tras un incidente.",
+   "fclave": "Recuperar la operación tras incidentes",
+   "tipo": "Actual",
+   "amb": "Banca, seguros y AFP (obligación de pruebas anuales); operadores de actividades críticas; telecomunicaciones; Estado",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "14 de 67 avisos",
+   "conf": 3,
+   "lim": "Diseña y prueba la recuperación de servicios de tecnología; la estrategia de continuidad del negocio y la gestión de crisis las aprueban el directorio y el comité de crisis.",
+   "tasks": [
+    {
+     "code": "E4-08-T1",
+     "t": "Participar en el análisis de impacto y fijar los tiempos y puntos objetivo de recuperación",
+     "ent": "1. Plan de recuperación de servicios de tecnología"
+    },
+    {
+     "code": "E4-08-T2",
+     "t": "Diseñar la estrategia de copias de respaldo y restauración",
+     "ent": "1. Plan de recuperación de servicios de tecnología"
+    },
+    {
+     "code": "E4-08-T3",
+     "t": "Elaborar el plan de recuperación de los servicios de tecnología",
+     "ent": "1. Plan de recuperación de servicios de tecnología"
+    },
+    {
+     "code": "E4-08-T4",
+     "t": "Ejecutar pruebas de restauración y recuperación",
+     "ent": "2. Informe de pruebas de recuperación"
+    },
+    {
+     "code": "E4-08-T5",
+     "t": "Informar los resultados de las pruebas y los planes de acción",
+     "ent": "2. Informe de pruebas de recuperación"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque solo el 54 % de las organizaciones afectadas por ransomware pudo restaurar sus datos desde respaldos, el nivel más bajo en seis años [33]. La Resolución SBS 877-2020 obliga a probar cada año los planes de recuperación de servicios de tecnología [13] y la Resolución SBS 504-2021 exige estrategia de respaldo y restauración [12]. O*NET incluye planes para atender necesidades de procesamiento de emergencia [1], SFIA ubica la gestión de continuidad en la resiliencia cibernética [8], y 14 de 67 avisos la piden [25] [26]. Ello exige profesionales capaces de recuperar servicios tecnológicos dentro de tiempos comprometidos.",
+   "imp": "Medio",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque los ataques de ransomware crecieron 37 % [32] y apuntan cada vez más a los repositorios de respaldo. La Ley 30999 reconoce además la protección de los activos críticos nacionales frente a ataques en el ciberespacio [16], lo que refuerza la resiliencia de servicios esenciales. Por eso es necesario que el egresado domine la recuperación de la operación tras incidentes.",
+   "refs": "[1] [8] [12] [13] [16] [25] [26] [32] [33]",
+   "prod": {
+    "name": "Plan de recuperación de servicios de tecnología probado",
+    "desc": "Plan de recuperación de servicios de tecnología probado que asegura que los servicios priorizados vuelven a operar dentro de los tiempos objetivo tras un incidente. Integra los tiempos y puntos objetivo de recuperación derivados del análisis de impacto, la estrategia de respaldo y restauración, los procedimientos de recuperación y el informe de pruebas con sus planes de acción. Se elabora con los responsables de negocio y de infraestructura y se verifica mediante pruebas de restauración que miden los tiempos reales frente a los comprometidos. Orienta las inversiones en respaldo y sitios alternos y demuestra que el egresado sostiene la operación bajo condiciones adversas.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Plan de recuperación de servicios de tecnología",
+      "codes": "E4-08-T1, E4-08-T2, E4-08-T3",
+      "sum": "tiempos objetivo, estrategia de respaldo y procedimientos de recuperación",
+      "ev": [
+       "plan aprobado con tiempos objetivo por servicio",
+       "política de respaldo documentada"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de pruebas de recuperación",
+      "codes": "E4-08-T4, E4-08-T5",
+      "sum": "escenario, tiempos logrados frente a los objetivos y acciones de mejora",
+      "ev": [
+       "registro de la prueba con tiempos medidos",
+       "plan de acción con responsables"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E4-09",
+   "t": "Gestión del cumplimiento y auditoría de seguridad",
+   "d": "Implantar y mantener el sistema de gestión de seguridad de la información, sus políticas y su programa de concientización, y auditar su cumplimiento para sostener la certificación y responder a reguladores.",
+   "fclave": "Gobernar la seguridad y la privacidad de los datos",
+   "tipo": "Actual",
+   "amb": "Entidades públicas obligadas a implementar SGSI; banca, seguros y AFP supervisadas por la SBS; telecomunicaciones; firmas de auditoría y consultoría; empresas que buscan certificación",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "45 de 67 avisos",
+   "conf": 3,
+   "lim": "Ejecuta auditorías internas y mantiene documentación bajo un responsable del sistema; la aprobación de políticas corresponde a la dirección y la auditoría de certificación a un organismo acreditado.",
+   "tasks": [
+    {
+     "code": "E4-09-T1",
+     "t": "Redactar y actualizar políticas y procedimientos de seguridad",
+     "ent": "1. Cuerpo normativo del sistema de gestión"
+    },
+    {
+     "code": "E4-09-T2",
+     "t": "Elaborar la declaración de aplicabilidad de controles",
+     "ent": "1. Cuerpo normativo del sistema de gestión"
+    },
+    {
+     "code": "E4-09-T3",
+     "t": "Ejecutar auditorías internas de controles y registrar no conformidades",
+     "ent": "2. Informe de auditoría interna y seguimiento"
+    },
+    {
+     "code": "E4-09-T4",
+     "t": "Dar seguimiento a los planes de acción correctiva",
+     "ent": "2. Informe de auditoría interna y seguimiento"
+    },
+    {
+     "code": "E4-09-T5",
+     "t": "Conducir el programa de concientización y capacitación en seguridad",
+     "ent": "1. Cuerpo normativo del sistema de gestión"
+    },
+    {
+     "code": "E4-09-T6",
+     "t": "Preparar los reportes de cumplimiento para la dirección y el regulador",
+     "ent": "2. Informe de auditoría interna y seguimiento"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque el 63 % de las organizaciones estudiadas carece de políticas para gobernar la inteligencia artificial [31], una brecha de gobierno que se traduce en incidentes. El Decreto de Urgencia 007-2020 obliga a toda entidad pública a implementar un sistema de gestión de seguridad de la información [14] y la Resolución SBS 504-2021 exige ese sistema y un programa de ciberseguridad [12], en línea con la ISO/IEC 27001:2022 [10]. Convocatorias del INDECI y del MINSA piden auditorías internas y normas de seguridad [22] [23], y 45 de 67 avisos lo solicitan [25] [26]. Ello exige profesionales capaces de mantener y auditar un sistema de gestión de seguridad.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el Decreto Supremo 126-2025-PCM establece el monitoreo y la supervisión del cumplimiento de las obligaciones de seguridad digital y la figura del oficial de seguridad y confianza digital [15]. Además, la NIST CSF 2.0 eleva el gobierno de la ciberseguridad a función propia [11]. Por eso es necesario que el egresado domine el gobierno de la seguridad y la privacidad de los datos.",
+   "refs": "[10] [11] [12] [14] [15] [22] [23] [25] [26] [31]",
+   "prod": {
+    "name": "Informe de auditoría interna del sistema de gestión de seguridad",
+    "desc": "Informe de auditoría interna del sistema de gestión de seguridad que establece en qué medida los controles declarados funcionan y qué debe corregirse antes de una certificación o una supervisión. Integra la declaración de aplicabilidad y el cuerpo de políticas vigente, el programa de auditoría, las no conformidades con su evidencia, el seguimiento de acciones correctivas y los indicadores del programa de concientización. Se elabora con listas de verificación derivadas de la ISO/IEC 27001 y de la norma sectorial aplicable, y se verifica con muestras de evidencia y entrevistas a los responsables. Orienta la revisión por la dirección y la preparación ante el regulador, y demuestra que el egresado evalúa controles con objetividad y rigor.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Cuerpo normativo del sistema de gestión",
+      "codes": "E4-09-T1, E4-09-T2, E4-09-T5",
+      "sum": "políticas, procedimientos, declaración de aplicabilidad y programa de concientización",
+      "ev": [
+       "políticas aprobadas y versionadas",
+       "declaración de aplicabilidad justificada",
+       "registro de capacitaciones y simulaciones"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de auditoría interna y seguimiento",
+      "codes": "E4-09-T3, E4-09-T4, E4-09-T6",
+      "sum": "hallazgos, no conformidades, acciones correctivas y reporte de cumplimiento",
+      "ev": [
+       "papeles de trabajo con evidencia muestreada",
+       "matriz de seguimiento de acciones correctivas"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E4-10",
+   "t": "Gestión de la protección de datos personales",
+   "d": "Asistir al responsable del tratamiento en inventariar los bancos de datos, evaluar el impacto de los tratamientos y aplicar las medidas de seguridad y los derechos de los titulares para cumplir la Ley 29733 y su reglamento.",
+   "fclave": "Gobernar la seguridad y la privacidad de los datos",
+   "tipo": "Emergente",
+   "amb": "Protección de datos personales y privacidad: banca y fintech; telecomunicaciones; salud; educación; comercio electrónico; entidades públicas; consultoras de cumplimiento",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "23 de 67 avisos; 316 vacantes en la búsqueda «protección de datos personales»",
+   "conf": 2,
+   "lim": "Apoya al Oficial de Datos Personales; la designación como oficial exige cualidades profesionales y conocimiento especializado; la interpretación jurídica corresponde a abogados.",
+   "tasks": [
+    {
+     "code": "E4-10-T1",
+     "t": "Inventariar los bancos de datos y tratamientos y gestionar su inscripción",
+     "ent": "1. Registro de tratamientos y evaluación de impacto"
+    },
+    {
+     "code": "E4-10-T2",
+     "t": "Realizar la evaluación de impacto relativa a la protección de datos personales",
+     "ent": "1. Registro de tratamientos y evaluación de impacto"
+    },
+    {
+     "code": "E4-10-T3",
+     "t": "Elaborar el documento de seguridad de los tratamientos",
+     "ent": "2. Documento de seguridad y controles de datos personales"
+    },
+    {
+     "code": "E4-10-T4",
+     "t": "Implantar controles de prevención de fuga de datos y registro de accesos a datos personales",
+     "ent": "2. Documento de seguridad y controles de datos personales"
+    },
+    {
+     "code": "E4-10-T5",
+     "t": "Atender las solicitudes de acceso, rectificación, cancelación y oposición de los titulares",
+     "ent": "3. Expediente de atención de derechos e incidentes"
+    },
+    {
+     "code": "E4-10-T6",
+     "t": "Preparar la notificación de incidentes de datos personales y la comunicación a los titulares",
+     "ent": "3. Expediente de atención de derechos e incidentes"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque en 2024 la autoridad de protección de datos fiscalizó 454 entidades, inició 133 procedimientos sancionadores e impuso multas por más de 13 millones de soles [19]. El reglamento de la Ley 29733 exige oficial de datos personales en supuestos definidos, documento de seguridad, medidas en medios digitales y notificación de incidentes en 48 horas [17]. ENISA vincula el perfil de oficial de protección de datos con ESCO [5], OSIPTEL convoca un oficial de seguridad y protección de datos [24], y 23 de 67 avisos piden esta materia [25] [27]. Ello exige profesionales capaces de llevar a la práctica técnica las obligaciones de protección de datos.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el nuevo reglamento incorpora la evaluación de impacto y la designación progresiva del oficial de datos personales [18]. Además, la directiva de 2025 fija cuándo es obligatoria esa designación y una metodología para calcular multas [20], lo que eleva la demanda de cumplimiento verificable. Por eso es necesario que el egresado domine el gobierno de la seguridad y la privacidad de los datos.",
+   "refs": "[5] [17] [18] [19] [20] [24] [25] [27]",
+   "prod": {
+    "name": "Expediente de cumplimiento en protección de datos personales",
+    "desc": "Expediente de cumplimiento en protección de datos personales que demuestra ante la autoridad y los titulares cómo la organización trata y protege sus datos. Integra el registro de bancos de datos y tratamientos, la evaluación de impacto de los tratamientos de mayor riesgo, el documento de seguridad con los controles técnicos implantados y el registro de atención de derechos e incidentes. Se elabora con las áreas que tratan datos y con asesoría legal, y se verifica contrastando los flujos reales de datos con lo inscrito y lo declarado. Orienta la decisión de iniciar, ajustar o suspender tratamientos y demuestra que el egresado une seguridad técnica y cumplimiento legal.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Registro de tratamientos y evaluación de impacto",
+      "codes": "E4-10-T1, E4-10-T2",
+      "sum": "bancos de datos, finalidades, flujos y riesgos de los tratamientos",
+      "ev": [
+       "registro de tratamientos actualizado",
+       "evaluación de impacto con medidas propuestas"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Documento de seguridad y controles de datos personales",
+      "codes": "E4-10-T3, E4-10-T4",
+      "sum": "medidas organizativas y técnicas, incluidos controles de fuga y registro de accesos",
+      "ev": [
+       "documento de seguridad aprobado",
+       "reglas de prevención de fuga activas"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Expediente de atención de derechos e incidentes",
+      "codes": "E4-10-T5, E4-10-T6",
+      "sum": "solicitudes de titulares atendidas y notificaciones de incidentes",
+      "ev": [
+       "registro de solicitudes con plazos cumplidos",
+       "modelo de notificación a la autoridad y a los titulares"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "refs": [
+  [
+   "[1]",
+   "O*NET OnLine. 15-1212.00 Information Security Analysts (tareas y perspectivas 2024-2034). 2025",
+   "https://www.onetonline.org/link/summary/15-1212.00",
+   "Verificado"
+  ],
+  [
+   "[2]",
+   "O*NET OnLine. 15-1299.05 Information Security Engineers. 2025",
+   "https://www.onetonline.org/link/summary/15-1299.05",
+   "Verificado"
+  ],
+  [
+   "[3]",
+   "O*NET OnLine. 15-1299.06 Digital Forensics Analysts. 2025",
+   "https://www.onetonline.org/link/summary/15-1299.06",
+   "Verificado"
+  ],
+  [
+   "[4]",
+   "Comisión Europea. ESCO v1.2. ICT security administrator (código 2529.6), descripción y habilidades esenciales. 2024",
+   "https://esco.ec.europa.eu/sites/default/files/ICT%20security%20administrator.pdf",
+   "Verificado"
+  ],
+  [
+   "[5]",
+   "ENISA. Crosswalk between ESCO and ECSF (perfiles: respondedor de incidentes, gestor de riesgos, auditor, forense, pentester, oficial de protección de datos). 2024",
+   "https://www.enisa.europa.eu/sites/default/files/2024-12/esco-ecsf-crosswalk.pdf",
+   "Verificado"
+  ],
+  [
+   "[6]",
+   "NIST. NICE Framework Components v2.2.0 (versión vigente, SP 800-181 Rev. 1). 2025",
+   "https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions",
+   "Verificado"
+  ],
+  [
+   "[7]",
+   "CISA-NICCS. NICE Framework: categorías y roles de trabajo (Protection and Defense, Oversight and Governance, Design and Development). 2025",
+   "https://niccs.cisa.gov/tools/nice-framework",
+   "Verificado"
+  ],
+  [
+   "[8]",
+   "SFIA Foundation. SFIA 9, vista Information and cyber security (resumen de habilidades). 2024",
+   "https://sfia-online.org/en/sfia-9/sfia-views/sfia-9-multi-view/sfia-cyber-en-summary-chart-with-roles",
+   "Verificado"
+  ],
+  [
+   "[9]",
+   "SFIA Foundation. SFIA 9, Penetration testing (PENT), niveles 2 a 6. 2024",
+   "https://sfia-online.org/en/sfia-9/skills/penetration-testing",
+   "Verificado"
+  ],
+  [
+   "[10]",
+   "ISO/IEC. ISO/IEC 27001:2022 Information security management systems - Requirements (ficha IEC Webstore). 2022",
+   "https://webstore.iec.ch/en/publication/79694",
+   "Verificado"
+  ],
+  [
+   "[11]",
+   "NIST (Pascoe, Quinn y Scarfone). The NIST Cybersecurity Framework (CSF) 2.0, CSWP 29. 2024",
+   "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+   "Verificado"
+  ],
+  [
+   "[12]",
+   "Superintendencia de Banca, Seguros y AFP. Resolución SBS N.° 504-2021, Reglamento para la Gestión de la Seguridad de la Información y la Ciberseguridad. 2021",
+   "https://intranet2.sbs.gob.pe/dv_int_cn/2046/v2.0/Adjuntos/504-2021.R.pdf",
+   "Verificado"
+  ],
+  [
+   "[13]",
+   "Superintendencia de Banca, Seguros y AFP. Resolución SBS N.° 877-2020, Reglamento para la Gestión de la Continuidad del Negocio. 2020",
+   "https://intranet2.sbs.gob.pe/dv_int_cn/1894/v1.0/Adjuntos/877-2020.R.pdf",
+   "Verificado"
+  ],
+  [
+   "[14]",
+   "Presidencia del Consejo de Ministros. Decreto de Urgencia N.° 007-2020, Marco de Confianza Digital. 2020",
+   "https://cdn.www.gob.pe/uploads/document/file/2790485/Decreto%20de%20Urgencia%20N%C2%BA%20007-2020.pdf?v=1643322610",
+   "Verificado"
+  ],
+  [
+   "[15]",
+   "Presidencia del Consejo de Ministros. Decreto Supremo N.° 126-2025-PCM, Reglamento del DU 007-2020 (texto reproducido por LP Derecho). 2025",
+   "https://lpderecho.pe/reglamento-marco-confianza-digital-decreto-supremo-126-2025-pcm/",
+   "Verificado"
+  ],
+  [
+   "[16]",
+   "Congreso de la República. Ley N.° 30999, Ley de Ciberdefensa. 2019",
+   "https://cdn.www.gob.pe/uploads/document/file/1671813/Ley%20N%C2%B030999,%20Ley%20de%20Ciberdefensa.pdf",
+   "Verificado"
+  ],
+  [
+   "[17]",
+   "Ministerio de Justicia y Derechos Humanos. Decreto Supremo N.° 016-2024-JUS, Reglamento de la Ley N.° 29733, Ley de Protección de Datos Personales (separata El Peruano). 2024",
+   "https://img.lpderecho.pe/wp-content/uploads/2024/11/Decreto-Supremo-016-2024-JUS-LPDerecho.pdf",
+   "Verificado"
+  ],
+  [
+   "[18]",
+   "Ministerio de Justicia y Derechos Humanos. Ejecutivo aprueba nuevo reglamento de la ley de Protección de Datos Personales (nota de prensa). 2024",
+   "https://www.gob.pe/institucion/minjus/noticias/1067368-ejecutivo-aprueba-nuevo-reglamento-de-la-ley-de-proteccion-de-datos-personales",
+   "Verificado"
+  ],
+  [
+   "[19]",
+   "Ministerio de Justicia y Derechos Humanos. ANPD impuso multas por más de S/ 13 millones por infracciones a la normativa el año 2024 (nota de prensa). 2025",
+   "https://www.gob.pe/institucion/minjus/noticias/1088896-autoridad-nacional-de-proteccion-de-datos-personales-impuso-multas-por-mas-de-s-13-millones-por-infracciones-a-la-normativa-el-ano-2024",
+   "Verificado"
+  ],
+  [
+   "[20]",
+   "Ministerio de Justicia y Derechos Humanos. MINJUSDH refuerza la protección de datos personales con nueva directiva (Oficial de Datos Personales) y metodología de cálculo de multas. 2025",
+   "https://www.gob.pe/institucion/minjus/noticias/1324603-minjusdh-refuerza-la-proteccion-de-datos-personales-con-nueva-directiva-y-metodologia-de-calculo-de-multas",
+   "Verificado"
+  ],
+  [
+   "[21]",
+   "PCM, Centro Nacional de Seguridad Digital. Guía para la conformación e implementación de equipos de respuestas ante incidentes de seguridad digital. 2024",
+   "https://cdn.www.gob.pe/uploads/document/file/5696308/5057847-guia-para-la-conformacion-e-implementacion-del-equipo-de-respuestas-ante-incidentes-de-seguridad-digital.pdf",
+   "Verificado"
+  ],
+  [
+   "[22]",
+   "INDECI. Proceso CAS N.° 0090-2025, Especialista de Seguridad Informática y Confianza Digital (bases). 2025",
+   "https://portal.indeci.gob.pe/wp-content/uploads/2025/03/Proceso-CAS-0090-2025-ESPECIALISTA-DE-SEGURIDAD-INFORMATICA-Y-CONFIANZA-DIGITAL.pdf",
+   "Verificado"
+  ],
+  [
+   "[23]",
+   "Ministerio de Salud. Proceso CAS N.° 050-2025, Oficial de Seguridad y Confianza Digital (difundido por el CIP Lima). 2025",
+   "https://ciplima.org.pe/wp-content/uploads/2025/06/OFICIAL-DE-SEGURIDAD-MINSA.pdf",
+   "Verificado"
+  ],
+  [
+   "[24]",
+   "OSIPTEL. CAS 010-2025, Oficial de Seguridad de la Información y Protección de Datos Personales y Abiertos (página de la convocatoria; bases en PDF no leídas). 2025",
+   "https://www.osiptel.gob.pe/convocatorias-laborales/cas-010-2025-oficial-de-seguridad-de-la-informacion-y-proteccion-de-datos-personales-y-abiertos/",
+   "Verificado"
+  ],
+  [
+   "[25]",
+   "LinkedIn Empleos Perú. Búsqueda «ciberseguridad» (342 vacantes; avisos individuales leídos el 25/09/2026). 2026",
+   "https://pe.linkedin.com/jobs/ciberseguridad-empleos",
+   "Verificado"
+  ],
+  [
+   "[26]",
+   "LinkedIn Empleos Perú. Búsqueda «seguridad de la información» (737 vacantes). 2026",
+   "https://pe.linkedin.com/jobs/seguridad-de-la-informaci%C3%B3n-empleos",
+   "Verificado"
+  ],
+  [
+   "[27]",
+   "LinkedIn Empleos Perú. Búsqueda «protección de datos personales» (316 vacantes). 2026",
+   "https://pe.linkedin.com/jobs/protecci%C3%B3n-de-datos-personales-empleos",
+   "Verificado"
+  ],
+  [
+   "[28]",
+   "Infobae. Ciberataques en Perú superan los 748 millones de intentos en lo que va del 2025 (datos de FortiGuard Labs). 2025",
+   "https://www.infobae.com/peru/2025/08/27/ciberataques-en-peru-superan-los-748-millones-de-intentos-en-lo-que-va-del-2025/",
+   "Verificado"
+  ],
+  [
+   "[29]",
+   "El Peruano. Ciberataques al sector público peruano crecen y amenazan servicios críticos (datos de Kaspersky). 2026",
+   "https://elperuano.pe/noticia/301651--ciberataques-al-sector-publico-peruano-crecen-y-amenazan-servicios-criticos",
+   "Verificado"
+  ],
+  [
+   "[30]",
+   "ISC2. 2024 ISC2 Cybersecurity Workforce Study. 2024",
+   "https://www.isc2.org/Insights/2024/10/ISC2-2024-Cybersecurity-Workforce-Study",
+   "Verificado"
+  ],
+  [
+   "[31]",
+   "IBM. 2025 Cost of a Data Breach Report: Navigating the AI rush without sidelining security. 2025",
+   "https://www.ibm.com/think/x-force/2025-cost-of-a-data-breach-navigating-ai",
+   "Verificado"
+  ],
+  [
+   "[32]",
+   "Verizon. 2025 Data Breach Investigations Report (nota de lanzamiento con hallazgos). 2025",
+   "https://www.verizon.com/about/news/2025-data-breach-investigations-report",
+   "Verificado"
+  ],
+  [
+   "[33]",
+   "Sophos. The State of Ransomware 2025 (whitepaper, copia alojada por Grey Matter). 2025",
+   "https://greymatter.com/wp-content/uploads/2025/06/sophos-state-of-ransomware-2025.pdf",
+   "Verificado"
+  ]
+ ]
+}

@@ -1,0 +1,976 @@
+{
+ "cod": "NUT",
+ "k": "E2",
+ "especialidad": "Nutrición comunitaria y programas sociales",
+ "competencia": "C2",
+ "proposito": "Intervenir sobre el estado nutricional de poblaciones —comunidades, territorios, escolares y colectivos laborales— diagnosticando, diseñando, ejecutando y evaluando programas alimentario-nutricionales en el marco de la salud pública, los programas sociales del Estado y la salud ocupacional, para reducir la anemia, la desnutrición, el exceso de peso y el riesgo cardiometabólico y rendir cuenta del resultado con indicadores.",
+ "fuentes": {
+  "O": 2,
+  "N": 15,
+  "M": 12,
+  "P": 1,
+  "A": 0,
+  "D": 0,
+  "avisos_revisados": 55,
+  "nota": "O: O*NET 29-1031.00 con tareas e importancia y CIUO-08 grupo 2265 (OIT); ESCO no se pudo leer (el portal no devolvió la ficha). N: Ley 30188, Ley 30021, Ley 29783, Ley 31782, DS 002-2024-SA, RM 251-2024/MINSA (NTS 213), RM 312-2011/MINSA, DS 010-2024-MIDIS, DS 006-2025-MIDIS, DS 003-2024-MIDAGRI, DS 002-2022-MIDIS, PP 1001, Programa de Incentivos 2025, criterios del CPVC y perfiles CAS. M: 55 avisos del Perú (Convocatoriasdetrabajo, Computrabajo, Jooble, PortalTrabajos, Newrest, Save the Children); 40 relevantes para la especialidad. P: estándares de la Academy of Nutrition and Dietetics en salud pública y nutrición comunitaria. No se pudieron leer: ficha ESCO, Compromiso 1 del PI en la web del MEF (se leyó el PDF del taller), PubMed (captcha), ReliefWeb (403), avisos de Computrabajo de minería en detalle (solo títulos). A y D: no hay."
+ },
+ "funciones": [
+  {
+   "c": "E2-01",
+   "t": "Diagnóstico nutricional de poblaciones y territorios",
+   "d": "Diagnostica el estado nutricional de una población con línea de base, vigilancia y tamizaje de riesgo para priorizar problemas, grupos y territorios de intervención.",
+   "fclave": "Diagnosticar la situación nutricional de la población",
+   "tipo": "Actual",
+   "amb": "Primer nivel de atención y redes de salud; gobiernos locales; programas sociales; ONG; colectivos laborales",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "3 de 55 avisos (DIRESA Cajamarca, Redes Lima Este, Save the Children)",
+   "conf": 3,
+   "lim": "Supervisión indirecta; la interpretación oficial de prevalencias y la notificación a la autoridad sanitaria las valida el responsable del establecimiento o del programa; no incluye diagnóstico clínico individual (C1).",
+   "tasks": [
+    {
+     "code": "E2-01-T1",
+     "t": "Levantar mediciones antropométricas y de hemoglobina en la población objetivo",
+     "ent": "1. Línea de base nutricional"
+    },
+    {
+     "code": "E2-01-T2",
+     "t": "Procesar y depurar bases de datos nutricionales con indicadores estandarizados",
+     "ent": "1. Línea de base nutricional"
+    },
+    {
+     "code": "E2-01-T3",
+     "t": "Analizar tendencias de las fuentes oficiales de vigilancia nutricional",
+     "ent": "2. Sala situacional nutricional"
+    },
+    {
+     "code": "E2-01-T4",
+     "t": "Identificar determinantes y grupos de riesgo nutricional",
+     "ent": "2. Sala situacional nutricional"
+    },
+    {
+     "code": "E2-01-T5",
+     "t": "Presentar la situación nutricional a autoridades y actores locales",
+     "ent": "2. Sala situacional nutricional"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque la anemia afecta al 43,7 % de niños de 6 a 35 meses y la desnutrición crónica al 12,1 % de menores de cinco años, con brechas rurales marcadas [1]. El Plan Multisectorial 2024-2030 y la NTS 213 exigen medir hemoglobina y estado nutricional para focalizar acciones [4] [5], y el SIEN opera en 7 938 establecimientos que generan datos para decisiones locales [8]. La CIUO-08 y O*NET incluyen evaluar necesidades nutricionales [11] [12], y los avisos piden evaluación antropométrica e identificación de casos de anemia y desnutrición [33] [34]. Ello exige profesionales capaces de levantar y analizar una línea de base nutricional confiable.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la guía OMS 2024 de hemoglobina, adoptada por la NTS 213, cambia los puntos de corte y el ajuste por altitud [5] [6]. Un estudio con 120 711 niños peruanos mostró que la prevalencia varía 6,3 puntos y de forma heterogénea entre regiones con el nuevo criterio [7], lo que obliga a recalcular líneas de base y metas. Por eso es necesario que el egresado domine el diagnóstico nutricional poblacional.",
+   "refs": "[1] [4] [5] [6] [7] [8] [11] [12] [33] [34]",
+   "prod": {
+    "name": "Diagnóstico nutricional poblacional con línea de base",
+    "desc": "Diagnóstico nutricional poblacional que establece la magnitud, la distribución y los determinantes de la anemia, la desnutrición y el exceso de peso en una comunidad, un territorio o un colectivo laboral, y sirve de punto de partida medible para cualquier intervención. Integra la caracterización de la población, los indicadores antropométricos y de hemoglobina ajustados por altitud, los datos de las fuentes oficiales de vigilancia, el tamizaje de riesgo y el análisis de determinantes. Se elabora con un padrón o una muestra definidos, instrumentos estandarizados y control de calidad del dato, y se verifica contrastando las prevalencias con las fuentes oficiales y los puntos de corte vigentes. Orienta la priorización de grupos, zonas y problemas, y demuestra que el egresado mide con rigor y lee críticamente la situación nutricional de una población.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Línea de base nutricional",
+      "codes": "E2-01-T1, E2-01-T2",
+      "sum": "prevalencias de anemia, desnutrición y exceso de peso con su base de datos depurada",
+      "ev": [
+       "base de datos con control de calidad del dato",
+       "cuadro de prevalencias con puntos de corte y ajuste por altitud vigentes"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Sala situacional nutricional",
+      "codes": "E2-01-T3, E2-01-T4, E2-01-T5",
+      "sum": "tendencias, determinantes, grupos de riesgo y mapa de prioridades del territorio",
+      "ev": [
+       "mapa o tablero de prioridades por zona",
+       "acta o registro de presentación a actores locales"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-02",
+   "t": "Diseño de programas nutricionales poblacionales",
+   "d": "Diseña la intervención nutricional con objetivos, metas, actividades, presupuesto e indicadores dentro de la lógica de los programas presupuestales para orientar la acción del Estado, del empleador o de la cooperación.",
+   "fclave": "Diseñar y gestionar programas alimentario-nutricionales",
+   "tipo": "Actual",
+   "amb": "Gobiernos locales y regionales; redes de salud; programas sociales del Estado; ONG y cooperación; empresas",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "2 de 55 avisos (Municipalidad de Cerro Colorado, Save the Children)",
+   "conf": 3,
+   "lim": "Supervisión indirecta; la aprobación presupuestal y la firma de compromisos intersectoriales corresponden al funcionario competente; el egresado formula la propuesta técnica.",
+   "tasks": [
+    {
+     "code": "E2-02-T1",
+     "t": "Priorizar problemas y causas a partir del diagnóstico nutricional",
+     "ent": "1. Marco lógico de la intervención"
+    },
+    {
+     "code": "E2-02-T2",
+     "t": "Formular objetivos, metas e indicadores de resultado de la intervención",
+     "ent": "1. Marco lógico de la intervención"
+    },
+    {
+     "code": "E2-02-T3",
+     "t": "Programar actividades, productos y presupuesto según el programa presupuestal aplicable",
+     "ent": "2. Programación operativa y presupuestal"
+    },
+    {
+     "code": "E2-02-T4",
+     "t": "Concertar compromisos con sectores, gobierno local y organizaciones comunitarias",
+     "ent": "3. Acta de compromisos intersectoriales"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque la anemia infantil subió de 43,1 % a 43,7 % entre 2023 y 2024 pese a la inversión pública [1]. La Ley 30188 faculta al nutricionista para formular y evaluar planes y programas de alimentación y nutrición [10], y el PP 1001 y el Programa de Incentivos organizan el gasto por productos e indicadores [14] [15]. O*NET registra el desarrollo de políticas para programas nutricionales [11], los estándares de la Academy of Nutrition and Dietetics incluyen crear y gestionar programas [13] y los perfiles municipales piden formular directivas [28]. Ello exige profesionales capaces de diseñar intervenciones con metas, presupuesto e indicadores.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el Plan Multisectorial 2024-2030 compromete a seis ministerios y a los gobiernos subnacionales en acciones articuladas contra la anemia [4]. Además, el Programa de Incentivos 2025 condiciona recursos de 945 municipalidades al indicador de niños sin anemia [15], lo que eleva la demanda de planes técnicamente sustentados. Por eso es necesario que el egresado domine el diseño de programas nutricionales poblacionales.",
+   "refs": "[1] [4] [10] [11] [13] [14] [15] [28]",
+   "prod": {
+    "name": "Plan de intervención nutricional con marco lógico y presupuesto",
+    "desc": "Plan de intervención nutricional que traduce el diagnóstico en objetivos, metas, actividades, presupuesto e indicadores para una población y un periodo definidos, y sirve para asignar recursos y conducir la acción de los actores. Integra el árbol de problemas, la matriz de marco lógico, la programación física y financiera alineada al programa presupuestal y los compromisos de los sectores y del gobierno local. Se elabora a partir de la línea de base y de la normativa vigente, y se verifica por la coherencia vertical entre problema, objetivo y producto y por la factibilidad de sus metas. Orienta la decisión de financiar y ejecutar la intervención, y demuestra que el egresado planifica con lógica de resultados y gestión pública.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Marco lógico de la intervención",
+      "codes": "E2-02-T1, E2-02-T2",
+      "sum": "árbol de problemas, objetivos, metas e indicadores con sus fuentes de verificación",
+      "ev": [
+       "matriz de marco lógico completa",
+       "fichas de indicadores con línea de base y meta"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Programación operativa y presupuestal",
+      "codes": "E2-02-T3",
+      "sum": "actividades, productos, cronograma y costeo alineados al programa presupuestal",
+      "ev": [
+       "cuadro de programación física y financiera",
+       "cronograma de actividades"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Acta de compromisos intersectoriales",
+      "codes": "E2-02-T4",
+      "sum": "acuerdos de responsables, recursos y plazos entre actores",
+      "ev": [
+       "acta firmada o registro de acuerdos"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-03",
+   "t": "Consejería y educación alimentaria comunitaria",
+   "d": "Conduce la consejería y la educación alimentaria de familias y grupos comunitarios para mejorar las prácticas de alimentación, lactancia y prevención de la anemia.",
+   "fclave": "Ejecutar intervenciones educativas, comunitarias y de entorno",
+   "tipo": "Actual",
+   "amb": "Primer nivel de atención; hogares y comunidades; programas sociales (Cuna Más, alimentación escolar); ONG",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "17 de 55 avisos (13 de Cuna Más, acompañamiento a familias; 2 de redes de salud; municipalidad; Save the Children)",
+   "conf": 4,
+   "lim": "Sin supervisión en sesiones y consejería grupal; la consejería de casos con enfermedad o anemia moderada o severa se deriva al establecimiento y a la atención individual (C1).",
+   "tasks": [
+    {
+     "code": "E2-03-T1",
+     "t": "Diseñar sesiones educativas y demostrativas con pertinencia cultural",
+     "ent": "1. Paquete educativo intercultural"
+    },
+    {
+     "code": "E2-03-T2",
+     "t": "Elaborar materiales educativos adaptados a la lengua y la cultura local",
+     "ent": "1. Paquete educativo intercultural"
+    },
+    {
+     "code": "E2-03-T3",
+     "t": "Brindar consejería nutricional a familias y grupos priorizados",
+     "ent": "2. Registro de consejerías y visitas"
+    },
+    {
+     "code": "E2-03-T4",
+     "t": "Realizar visitas domiciliarias de seguimiento de prácticas alimentarias",
+     "ent": "2. Registro de consejerías y visitas"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque solo el 67,4 % de menores de seis meses recibe lactancia materna, frente al 69,3 % del año previo [1]. La NTS 213 incorpora la consejería y la educación alimentaria en la prevención de la anemia [5], y el PP 1001 financia sesiones y visitas domiciliarias a familias [14]. La CIUO-08 y O*NET describen instruir a familias y comunidades en nutrición [11] [12], y el mercado lo pide: 13 avisos de acompañamiento a familias de Cuna Más admiten nutricionistas [29] [30] y las ONG solicitan consejería comunitaria [34]. Ello exige profesionales capaces de conducir educación alimentaria culturalmente pertinente.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el Programa de Incentivos 2025 mide la adherencia al suplemento de hierro en niños hasta los 12 meses, que depende del cambio de prácticas familiares [15]. A ello se suma la NTS 213, que extiende la prevención a adolescentes, mujeres en edad fértil y gestantes [5]. Por eso es necesario que el egresado domine la consejería y la educación alimentaria comunitaria.",
+   "refs": "[1] [5] [11] [12] [14] [15] [29] [30] [34]",
+   "prod": {
+    "name": "Plan educativo alimentario comunitario ejecutado",
+    "desc": "Plan educativo alimentario que organiza y registra las sesiones, consejerías y visitas con las que una comunidad mejora sus prácticas de alimentación, lactancia y prevención de la anemia. Integra el paquete de sesiones demostrativas, los materiales en lengua local, las fichas de consejería con acuerdos de cambio y el registro de visitas de seguimiento. Se elabora a partir de las prácticas identificadas en el diagnóstico, se valida con la población y se verifica por la cobertura alcanzada y por las prácticas observadas en las visitas. Orienta la decisión de reforzar, adaptar o ampliar la estrategia educativa, y demuestra que el egresado comunica con eficacia y respeto por la cultura local.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Paquete educativo intercultural",
+      "codes": "E2-03-T1, E2-03-T2",
+      "sum": "sesiones, guiones y materiales validados con la población",
+      "ev": [
+       "guía de sesiones demostrativas",
+       "materiales educativos en lengua local validados"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registro de consejerías y visitas",
+      "codes": "E2-03-T3, E2-03-T4",
+      "sum": "familias atendidas, prácticas observadas y acuerdos de cambio",
+      "ev": [
+       "fichas de consejería con acuerdos",
+       "registro de visitas domiciliarias"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-04",
+   "t": "Formación de agentes comunitarios en nutrición",
+   "d": "Capacita y acompaña a agentes comunitarios, comités y actores sociales en prácticas clave de alimentación y vigilancia para ampliar la cobertura de la intervención.",
+   "fclave": "Ejecutar intervenciones educativas, comunitarias y de entorno",
+   "tipo": "Actual",
+   "amb": "Gobiernos locales (centros de promoción y vigilancia comunal); programas sociales; redes de salud; ONG",
+   "evid": "O,N,M",
+   "unica": false,
+   "frec": "20 de 55 avisos (15 de Cuna Más, cuidado diurno; 4 de monitores de alimentación escolar; Save the Children)",
+   "conf": 3,
+   "lim": "Supervisión indirecta; el reconocimiento formal de agentes y la validación de los módulos corresponden al establecimiento de salud o al programa.",
+   "tasks": [
+    {
+     "code": "E2-04-T1",
+     "t": "Identificar y seleccionar agentes comunitarios y actores sociales",
+     "ent": "1. Plan y módulos de capacitación"
+    },
+    {
+     "code": "E2-04-T2",
+     "t": "Capacitar a los agentes en prácticas clave de alimentación y vigilancia comunal",
+     "ent": "1. Plan y módulos de capacitación"
+    },
+    {
+     "code": "E2-04-T3",
+     "t": "Acompañar en campo las visitas y sesiones que realizan los agentes",
+     "ent": "2. Informe de acompañamiento y desempeño"
+    },
+    {
+     "code": "E2-04-T4",
+     "t": "Evaluar el desempeño de los agentes capacitados",
+     "ent": "2. Informe de acompañamiento y desempeño"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque el sistema público dispone de 2,4 a 18,9 nutricionistas por 100 000 habitantes según el departamento, sin estándar para el primer nivel [9]. Los criterios del Centro de Promoción y Vigilancia Comunal y el PP 1001 incluyen capacitar a agentes comunitarios y actores comunales [16] [14]. O*NET registra planificar capacitaciones en nutrición para el público [11], y el mercado lo confirma: los monitores de gestión local de alimentación escolar capacitan a comités de padres [31] [40]. Ello exige profesionales capaces de formar y acompañar a agentes que multipliquen la intervención.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la brecha de nutricionistas en el primer nivel no se cerrará solo con contrataciones [9], y la intervención dependerá de agentes y comités capacitados. La capacitación en quechua a comités de alimentación escolar muestra además la exigencia intercultural del trabajo con actores locales [20]. Por eso es necesario que el egresado domine la formación de agentes comunitarios en nutrición.",
+   "refs": "[9] [11] [14] [16] [20] [31] [40]",
+   "prod": {
+    "name": "Programa de capacitación de agentes comunitarios en nutrición",
+    "desc": "Programa de capacitación que prepara y acompaña a agentes comunitarios, comités y actores sociales para que promuevan prácticas clave de alimentación y vigilen el crecimiento en su comunidad. Integra el perfil y la selección de los agentes, los módulos con su metodología participativa, el cronograma, las listas de cotejo de desempeño y el informe de acompañamiento en campo. Se elabora con los establecimientos de salud y los programas del territorio, y se verifica con evaluaciones de entrada y salida y con la observación directa de las visitas que realizan los agentes. Orienta la decisión de reforzar, reconocer o reemplazar agentes, y demuestra que el egresado enseña, lidera y trabaja con la comunidad.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Plan y módulos de capacitación",
+      "codes": "E2-04-T1, E2-04-T2",
+      "sum": "perfil de agentes, módulos, metodología y cronograma",
+      "ev": [
+       "módulos de capacitación con evaluación de entrada y salida",
+       "lista de agentes capacitados"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de acompañamiento y desempeño",
+      "codes": "E2-04-T3, E2-04-T4",
+      "sum": "observaciones de campo, desempeño de cada agente y medidas de refuerzo",
+      "ev": [
+       "lista de cotejo de desempeño",
+       "informe de acompañamiento"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-05",
+   "t": "Gestión nutricional de la alimentación escolar",
+   "d": "Gestiona el componente nutricional del servicio alimentario escolar programando raciones, adecuando menús y asistiendo a los comités para asegurar un aporte nutritivo, aceptable y oportuno.",
+   "fclave": "Diseñar y gestionar programas alimentario-nutricionales",
+   "tipo": "Actual",
+   "amb": "Programa de Alimentación Escolar del MIDIS (antes Qali Warma y Wasi Mikuna); instituciones educativas; gobiernos locales",
+   "evid": "O,N,M",
+   "unica": false,
+   "frec": "5 de 55 avisos (especialista alimentario de Qali Warma, monitores de Wasi Mikuna y del Programa de Alimentación Escolar)",
+   "conf": 3,
+   "lim": "Supervisión indirecta; no incluye supervisión de plantas de proveedores ni auditoría de inocuidad (C3); la aprobación de la programación corresponde a la unidad técnica del programa.",
+   "tasks": [
+    {
+     "code": "E2-05-T1",
+     "t": "Programar los requerimientos nutricionales y las raciones por modalidad y región",
+     "ent": "1. Programación nutricional escolar"
+    },
+    {
+     "code": "E2-05-T2",
+     "t": "Adecuar los menús escolares a los hábitos y productos locales",
+     "ent": "1. Programación nutricional escolar"
+    },
+    {
+     "code": "E2-05-T3",
+     "t": "Asistir técnicamente a los comités de alimentación escolar",
+     "ent": "2. Informe de monitoreo del servicio escolar"
+    },
+    {
+     "code": "E2-05-T4",
+     "t": "Monitorear el consumo, la aceptabilidad y las prácticas de higiene en la escuela",
+     "ent": "2. Informe de monitoreo del servicio escolar"
+    },
+    {
+     "code": "E2-05-T5",
+     "t": "Reportar incidencias y resultados del servicio escolar",
+     "ent": "2. Informe de monitoreo del servicio escolar"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque el servicio de alimentación escolar atiende en 2026 a 4 187 782 estudiantes de 67 055 instituciones educativas [19]. Los decretos 010-2024-MIDIS y 006-2025-MIDIS reorganizaron el servicio tras fallas en la inocuidad y lo declararon en emergencia [17] [18]. O*NET incluye recomendar estándares nutricionales para programas escolares [11], y el mercado lo confirma: especialistas alimentarios y monitores de gestión local exigen o admiten formación en nutrición [31] [32] [38]. Ello exige profesionales capaces de programar, adecuar y monitorear el aporte nutricional del servicio escolar.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el nuevo Programa de Alimentación Escolar opera desde 2026 con mayores estándares de control y vigilancia y con productos fortificados y locales [19]. La extinción de Wasi Mikuna muestra que el diseño institucional seguirá cambiando [18], lo que exige una gestión técnica sólida y estable. Por eso es necesario que el egresado domine la gestión nutricional de la alimentación escolar.",
+   "refs": "[11] [17] [18] [19] [31] [32] [38]",
+   "prod": {
+    "name": "Plan de gestión nutricional del servicio alimentario escolar",
+    "desc": "Plan de gestión nutricional que asegura que la ración escolar cubra el aporte previsto, se adapte al territorio y sea consumida por los estudiantes. Integra la programación de requerimientos y raciones por modalidad, los menús regionales adecuados, el plan de asistencia técnica a los comités de alimentación escolar y el informe de monitoreo de consumo, aceptabilidad e incidencias. Se elabora con las normas del programa y los hábitos locales, y se verifica con el cálculo del aporte nutricional y con fichas de monitoreo en las instituciones educativas. Orienta la decisión de ajustar raciones, menús o asistencia técnica, y demuestra que el egresado gestiona un programa social con criterio nutricional y cultural.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Programación nutricional escolar",
+      "codes": "E2-05-T1, E2-05-T2",
+      "sum": "requerimientos, raciones y menús por modalidad adecuados al contexto",
+      "ev": [
+       "cuadro de aporte nutricional por ración",
+       "juego de menús regionales adecuados"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de monitoreo del servicio escolar",
+      "codes": "E2-05-T3, E2-05-T4, E2-05-T5",
+      "sum": "asistencia a comités, consumo, aceptabilidad, incidencias y alertas",
+      "ev": [
+       "fichas de monitoreo en institución educativa",
+       "registro de asistencia técnica a comités"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-06",
+   "t": "Gestión nutricional de programas alimentarios municipales",
+   "d": "Gestiona el componente técnico de los programas alimentarios municipales focalizando beneficiarios, definiendo la ración y supervisando la distribución para asegurar que la ayuda llegue a quienes la necesitan.",
+   "fclave": "Diseñar y gestionar programas alimentario-nutricionales",
+   "tipo": "Actual",
+   "amb": "Municipalidades (Vaso de Leche, complementación alimentaria, ollas comunes, comedores populares)",
+   "evid": "O,N,M",
+   "unica": false,
+   "frec": "1 de 55 avisos (Municipalidad de Cerro Colorado); la demanda proviene sobre todo de la norma",
+   "conf": 4,
+   "lim": "Sin supervisión en la gestión técnica del programa; las decisiones de compra y los actos administrativos corresponden al comité de administración y a la gerencia municipal.",
+   "tasks": [
+    {
+     "code": "E2-06-T1",
+     "t": "Focalizar y empadronar a los beneficiarios según la prelación normativa",
+     "ent": "1. Padrón y ración técnica"
+    },
+    {
+     "code": "E2-06-T2",
+     "t": "Determinar la ración y su aporte nutricional",
+     "ent": "1. Padrón y ración técnica"
+    },
+    {
+     "code": "E2-06-T3",
+     "t": "Supervisar el almacenamiento y la distribución de los insumos",
+     "ent": "2. Informe de supervisión y evaluación"
+    },
+    {
+     "code": "E2-06-T4",
+     "t": "Evaluar el programa con los comités de beneficiarios",
+     "ent": "2. Informe de supervisión y evaluación"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque 17,6 millones de peruanos, el 51,7 % de la población, enfrentan inseguridad alimentaria moderada o grave [25]. La Ley 31782 obliga a priorizar a niños de 0 a 6 años y gestantes en el Vaso de Leche [22], y el reglamento de la Ley 31458 asigna a los gobiernos locales la logística de las ollas comunes [23]. O*NET registra la gestión de servicios de nutrición comunitaria [11], y los perfiles municipales piden programar la ración y supervisar la distribución [28]. Ello exige profesionales capaces de gestionar técnicamente los programas alimentarios locales.",
+   "imp": "Medio",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el reglamento de la Ley 31315 asigna a los gobiernos locales la ejecución de programas sociales de apoyo alimentario y la asistencia alimentaria en emergencias [24]. Además, la prelación de la Ley 31782 exige demostrar que la ración llega al grupo prioritario [22]. Por eso es necesario que el egresado domine la gestión nutricional de programas alimentarios municipales.",
+   "refs": "[11] [22] [23] [24] [25] [28]",
+   "prod": {
+    "name": "Plan técnico del programa alimentario municipal",
+    "desc": "Plan técnico que ordena la focalización, la ración y la supervisión de un programa alimentario municipal para que el apoyo llegue a la población priorizada con el aporte nutricional previsto. Integra el padrón depurado según la prelación legal, la ficha técnica de la ración con su valor nutricional, el plan de supervisión de almacenamiento y distribución y el informe de evaluación con los comités. Se elabora con la normativa del programa y los datos del territorio, y se verifica con cruces de padrón, actas de supervisión y reportes mensuales. Orienta la decisión de reprogramar raciones o reorientar beneficiarios, y demuestra que el egresado gestiona recursos públicos con transparencia y criterio nutricional.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Padrón y ración técnica",
+      "codes": "E2-06-T1, E2-06-T2",
+      "sum": "beneficiarios priorizados y ración con su aporte nutricional",
+      "ev": [
+       "padrón depurado según prelación",
+       "ficha técnica de la ración"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de supervisión y evaluación",
+      "codes": "E2-06-T3, E2-06-T4",
+      "sum": "hallazgos de almacenamiento y distribución y acuerdos con los comités",
+      "ev": [
+       "actas de supervisión",
+       "informe mensual de ejecución"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-07",
+   "t": "Promoción de entornos alimentarios saludables",
+   "d": "Promueve entornos alimentarios saludables en escuelas y comunidades implementando kioscos y comedores saludables y acuerdos locales para reducir el exceso de peso.",
+   "fclave": "Ejecutar intervenciones educativas, comunitarias y de entorno",
+   "tipo": "Emergente",
+   "amb": "Instituciones educativas; gobiernos locales (municipios saludables); redes de salud; empresas",
+   "evid": "O,N,P",
+   "unica": false,
+   "frec": "0 de 55 avisos; la demanda proviene de la norma y de los estándares profesionales",
+   "conf": 3,
+   "lim": "Supervisión indirecta; la fiscalización y la sanción corresponden a las autoridades competentes; el egresado diagnostica, propone e implementa.",
+   "tasks": [
+    {
+     "code": "E2-07-T1",
+     "t": "Diagnosticar la oferta alimentaria en escuelas y espacios comunitarios",
+     "ent": "1. Diagnóstico de la oferta alimentaria"
+    },
+    {
+     "code": "E2-07-T2",
+     "t": "Implementar criterios de kioscos y comedores escolares saludables",
+     "ent": "2. Propuesta normativa y de implementación"
+    },
+    {
+     "code": "E2-07-T3",
+     "t": "Promover ordenanzas y acuerdos locales de alimentación saludable",
+     "ent": "2. Propuesta normativa y de implementación"
+    },
+    {
+     "code": "E2-07-T4",
+     "t": "Verificar el cumplimiento de los parámetros de alimentación saludable",
+     "ent": "3. Informe de verificación"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque el 36,5 % de personas de 15 y más años tiene sobrepeso y el 25,7 % obesidad [2], y el exceso de peso alcanza al 8,9 % de menores de cinco años urbanos [3]. La Ley 30021 ordena kioscos y comedores saludables en la educación básica y supervisar la publicidad de alimentos dirigida a menores [21]. O*NET registra recomendaciones sobre estándares nutricionales para programas escolares [11], y los estándares de la Academy of Nutrition and Dietetics incluyen intervenciones ambientales y de política [13]. Ello exige profesionales capaces de transformar la oferta alimentaria de escuelas y comunidades.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la obesidad en personas de 15 y más años pasó de 18,5 % en 2014 a 25,7 % en 2024 [2], una tendencia que la consejería individual no revierte sola. La Ley 30021 ofrece el marco para intervenir kioscos, comedores y publicidad dirigida a menores [21]. Por eso es necesario que el egresado domine la promoción de entornos alimentarios saludables.",
+   "refs": "[2] [3] [11] [13] [21]",
+   "prod": {
+    "name": "Plan de entornos alimentarios saludables",
+    "desc": "Plan de entornos alimentarios que transforma la oferta de alimentos de una escuela, un mercado o un espacio comunitario para facilitar elecciones saludables y reducir el exceso de peso. Integra el diagnóstico de la oferta con su clasificación nutricional, los criterios de kiosco o comedor saludable, la propuesta de ordenanza o acuerdo local y la lista de verificación de cumplimiento. Se elabora con la comunidad educativa y el gobierno local conforme a la Ley 30021, y se verifica comparando la oferta antes y después de la implementación. Orienta la decisión de normar, adecuar o fiscalizar la oferta alimentaria, y demuestra que el egresado incide en políticas y entornos, no solo en personas.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Diagnóstico de la oferta alimentaria",
+      "codes": "E2-07-T1",
+      "sum": "inventario de alimentos ofertados y su clasificación nutricional",
+      "ev": [
+       "ficha de inventario de la oferta",
+       "clasificación de productos según parámetros"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Propuesta normativa y de implementación",
+      "codes": "E2-07-T2, E2-07-T3",
+      "sum": "criterios, ordenanza o acuerdo y plan de implementación en el entorno",
+      "ev": [
+       "propuesta de ordenanza o acuerdo",
+       "plan de implementación de kiosco o comedor saludable"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Informe de verificación",
+      "codes": "E2-07-T4",
+      "sum": "cumplimiento de parámetros y recomendaciones",
+      "ev": [
+       "lista de verificación aplicada"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-08",
+   "t": "Programa nutricional para colectivos laborales",
+   "d": "Ejecuta programas nutricionales para colectivos laborales a partir de la vigilancia de la salud del trabajador para reducir el exceso de peso y el riesgo cardiometabólico.",
+   "fclave": "Diseñar y gestionar programas alimentario-nutricionales",
+   "tipo": "Emergente",
+   "amb": "Minería y campamentos (régimen 14x7); empresas con servicio de seguridad y salud en el trabajo; entidades públicas",
+   "evid": "N,M",
+   "unica": false,
+   "frec": "3 de 55 avisos (Newrest, Sodexo y aviso de minería en Oyón); 1 aviso adicional del MTPE sin funciones detalladas",
+   "conf": 3,
+   "lim": "Supervisión indirecta; trabaja con el médico ocupacional, que decide la aptitud; la atención dietoterapéutica de enfermedades se deriva (C1) y la gestión del servicio de alimentación es de C3.",
+   "tasks": [
+    {
+     "code": "E2-08-T1",
+     "t": "Analizar los indicadores nutricionales de los exámenes médico ocupacionales",
+     "ent": "1. Diagnóstico nutricional del colectivo laboral"
+    },
+    {
+     "code": "E2-08-T2",
+     "t": "Estratificar el riesgo cardiometabólico del colectivo laboral",
+     "ent": "1. Diagnóstico nutricional del colectivo laboral"
+    },
+    {
+     "code": "E2-08-T3",
+     "t": "Ejecutar consejería y talleres de alimentación saludable para trabajadores",
+     "ent": "2. Plan de intervención nutricional laboral"
+    },
+    {
+     "code": "E2-08-T4",
+     "t": "Coordinar con el servicio de alimentación menús acordes al riesgo y al régimen de trabajo",
+     "ent": "2. Plan de intervención nutricional laboral"
+    },
+    {
+     "code": "E2-08-T5",
+     "t": "Reportar indicadores nutricionales al servicio de seguridad y salud en el trabajo",
+     "ent": "3. Reporte de indicadores al empleador"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque el 40,1 % de personas de 15 y más años presenta al menos una comorbilidad entre obesidad, diabetes o hipertensión [2]. La Ley 29783 obliga al empleador a vigilar la salud de los trabajadores y practicar exámenes médicos [26], y el protocolo de la RM 312-2011 registra peso, talla, IMC y perímetro abdominal [27]. El mercado lo confirma: concesionarias de campamentos mineros piden nutricionistas para consultas, programa nutricional y capacitación de trabajadores en régimen 14x7 [35] [36] [37], y el Ministerio de Trabajo convocó un nutricionista para su propio personal [39]. Ello exige profesionales capaces de convertir la vigilancia ocupacional en un programa nutricional con resultados.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la obesidad se mantiene en alrededor de una cuarta parte de la población de 15 y más años desde 2020 [2], y los exámenes médico ocupacionales ya generan los datos antropométricos del colectivo [27]. La Ley 29783 hace al empleador responsable de la vigilancia de la salud [26], lo que abre espacio para programas preventivos medibles. Por eso es necesario que el egresado domine el programa nutricional para colectivos laborales.",
+   "refs": "[2] [26] [27] [35] [36] [37] [39]",
+   "prod": {
+    "name": "Programa de nutrición y salud del colectivo laboral",
+    "desc": "Programa de nutrición laboral que reduce el exceso de peso y el riesgo cardiometabólico de un colectivo de trabajadores a partir de los datos de su vigilancia ocupacional. Integra el diagnóstico nutricional anonimizado por área o turno, la estratificación del riesgo, el plan de talleres y consejería, los lineamientos de menú acordados con el servicio de alimentación y el reporte periódico al empleador. Se elabora con el médico ocupacional y el comité de seguridad y salud en el trabajo, y se verifica con la evolución de los indicadores entre exámenes médicos sucesivos. Orienta la decisión del empleador sobre acciones preventivas y la oferta alimentaria del campamento o centro de trabajo, y demuestra que el egresado aplica la salud pública al mundo laboral.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Diagnóstico nutricional del colectivo laboral",
+      "codes": "E2-08-T1, E2-08-T2",
+      "sum": "distribución del IMC, perímetro abdominal y riesgo cardiometabólico por grupo de trabajadores",
+      "ev": [
+       "tabla de riesgo por área o turno",
+       "base anonimizada de indicadores"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Plan de intervención nutricional laboral",
+      "codes": "E2-08-T3, E2-08-T4",
+      "sum": "talleres, consejería y lineamientos de menú por riesgo y régimen",
+      "ev": [
+       "cronograma de talleres ejecutados",
+       "lineamientos de menú acordados con el servicio"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Reporte de indicadores al empleador",
+      "codes": "E2-08-T5",
+      "sum": "evolución de indicadores y recomendaciones al comité de seguridad y salud",
+      "ev": [
+       "reporte periódico de indicadores"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-09",
+   "t": "Asistencia nutricional en emergencias alimentarias",
+   "d": "Organiza la asistencia alimentario-nutricional en emergencias y crisis alimentarias evaluando necesidades y focalizando a los grupos vulnerables para proteger su estado nutricional.",
+   "fclave": "Ejecutar intervenciones educativas, comunitarias y de entorno",
+   "tipo": "Emergente",
+   "amb": "Gobiernos locales y regionales; ollas comunes; ONG humanitarias; población migrante y afectada por desastres",
+   "evid": "N,M",
+   "unica": false,
+   "frec": "1 de 55 avisos (Save the Children, alimentación materno infantil en emergencias)",
+   "conf": 2,
+   "lim": "Supervisión directa; actúa dentro del equipo de respuesta y del plan de la autoridad a cargo de la emergencia.",
+   "tasks": [
+    {
+     "code": "E2-09-T1",
+     "t": "Realizar la evaluación rápida de necesidades alimentarias y nutricionales",
+     "ent": "1. Evaluación rápida y focalización"
+    },
+    {
+     "code": "E2-09-T2",
+     "t": "Focalizar a los grupos vulnerables para la asistencia alimentaria",
+     "ent": "1. Evaluación rápida y focalización"
+    },
+    {
+     "code": "E2-09-T3",
+     "t": "Definir la composición nutricional de la asistencia alimentaria",
+     "ent": "2. Plan de asistencia nutricional"
+    },
+    {
+     "code": "E2-09-T4",
+     "t": "Proteger y promover la lactancia materna y la alimentación infantil en la emergencia",
+     "ent": "2. Plan de asistencia nutricional"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque 17,6 millones de peruanos enfrentan inseguridad alimentaria moderada o grave [25]. La Ley 30188 faculta al nutricionista para la intervención alimentario-nutricional en emergencias y desastres [10], el reglamento de la Ley 31315 activa respuestas ante riesgo alimentario sin declaratoria previa [24] y el reglamento de ollas comunes regula su activación temporal tras emergencias [23]. En el mercado, las ONG buscan nutricionistas para alimentación materno infantil en emergencias con población migrante [34]. Ello exige profesionales capaces de evaluar necesidades y organizar asistencia nutricional oportuna.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el reglamento de la Ley 31315 incluye desastres, emergencias sanitarias y emergencias ambientales entre los eventos que activan la respuesta alimentaria [24]. A ello se suma la continuidad de respuestas humanitarias con componente nutricional para población migrante y comunidades anfitrionas [34]. Por eso es necesario que el egresado domine la asistencia nutricional en emergencias alimentarias.",
+   "refs": "[10] [23] [24] [25] [34]",
+   "prod": {
+    "name": "Plan de respuesta alimentario-nutricional en emergencias",
+    "desc": "Plan de respuesta alimentario-nutricional que protege el estado nutricional de la población afectada por un desastre, una emergencia sanitaria o una crisis alimentaria durante las primeras semanas. Integra la evaluación rápida de necesidades, la focalización de gestantes, niños pequeños y otros grupos vulnerables, la composición nutricional de raciones o canastas y las acciones de protección de la lactancia y la alimentación infantil. Se elabora con la autoridad a cargo de la emergencia y las organizaciones locales, y se verifica con el cálculo del aporte de la asistencia y con el seguimiento de la cobertura en los grupos priorizados. Orienta la decisión de qué entregar, a quién y por cuánto tiempo, y demuestra que el egresado actúa con rapidez y criterio técnico en contextos de crisis.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Evaluación rápida y focalización",
+      "codes": "E2-09-T1, E2-09-T2",
+      "sum": "necesidades, población afectada y grupos priorizados",
+      "ev": [
+       "ficha de evaluación rápida aplicada",
+       "listado de grupos priorizados"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Plan de asistencia nutricional",
+      "codes": "E2-09-T3, E2-09-T4",
+      "sum": "composición de raciones o canastas y acciones de protección de la alimentación infantil",
+      "ev": [
+       "cálculo del aporte de la canasta o ración",
+       "plan de acciones de lactancia y alimentación infantil"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-10",
+   "t": "Evaluación de impacto de intervenciones nutricionales",
+   "d": "Evalúa el avance y el impacto de la intervención nutricional contra la línea de base y reporta indicadores a la autoridad o al empleador para rendir cuenta y mejorar el programa.",
+   "fclave": "Evaluar y rendir cuenta del resultado nutricional",
+   "tipo": "Actual",
+   "amb": "Gobiernos locales y regionales; programas sociales; redes de salud; ONG y cooperación; empresas",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "2 de 55 avisos (Municipalidad de Cerro Colorado, Save the Children)",
+   "conf": 3,
+   "lim": "Supervisión indirecta; los diseños de evaluación con grupo de comparación y la publicación oficial de resultados requieren un evaluador o responsable de mayor nivel.",
+   "tasks": [
+    {
+     "code": "E2-10-T1",
+     "t": "Diseñar el plan de monitoreo con indicadores, fuentes y frecuencia",
+     "ent": "1. Plan de monitoreo y evaluación"
+    },
+    {
+     "code": "E2-10-T2",
+     "t": "Monitorear el avance de los indicadores de proceso y resultado",
+     "ent": "2. Tablero de seguimiento de indicadores"
+    },
+    {
+     "code": "E2-10-T3",
+     "t": "Comparar los resultados obtenidos con la línea de base",
+     "ent": "3. Informe de impacto y mejora"
+    },
+    {
+     "code": "E2-10-T4",
+     "t": "Elaborar informes de resultados para la autoridad o el empleador",
+     "ent": "3. Informe de impacto y mejora"
+    },
+    {
+     "code": "E2-10-T5",
+     "t": "Proponer mejoras a la intervención a partir de la evaluación",
+     "ent": "3. Informe de impacto y mejora"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque el Programa de Incentivos 2025 verifica en 945 municipalidades el porcentaje de niños de 6 a 12 meses sin anemia antes de transferir recursos [15]. La Ley 30188 faculta al nutricionista para evaluar planes y programas de alimentación y nutrición [10], y el Plan Multisectorial 2024-2030 fija resultados que deben medirse [4]. O*NET registra planificar, conducir y evaluar investigación nutricional y epidemiológica [11], los estándares profesionales incluyen evaluar programas [13] y los perfiles municipales piden informar la ejecución [28]. Ello exige profesionales capaces de medir resultados contra la línea de base y reportarlos con honestidad.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el presupuesto por resultados condiciona las transferencias municipales al cumplimiento verificado de metas nutricionales [15]. Además, el cambio de puntos de corte de hemoglobina obliga a reinterpretar series e impactos con cautela [7]. Por eso es necesario que el egresado domine la evaluación de impacto de intervenciones nutricionales.",
+   "refs": "[4] [7] [10] [11] [13] [15] [28]",
+   "prod": {
+    "name": "Informe de evaluación de impacto de la intervención nutricional",
+    "desc": "Informe de evaluación que mide cuánto cambió el estado nutricional de la población intervenida frente a la línea de base y explica por qué, para rendir cuenta y mejorar el programa. Integra el plan de monitoreo con sus indicadores y fuentes, el tablero de seguimiento, el análisis comparativo con la línea de base, la interpretación de los resultados y el plan de mejora. Se elabora con datos verificables del programa y de las fuentes oficiales, y se verifica por la trazabilidad de cada indicador y por la coherencia entre hallazgos y recomendaciones. Orienta la decisión de continuar, ajustar o escalar la intervención, y demuestra que el egresado evalúa con honestidad en el dato y pensamiento crítico.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Plan de monitoreo y evaluación",
+      "codes": "E2-10-T1",
+      "sum": "indicadores, fuentes, frecuencia, responsables y metas",
+      "ev": [
+       "matriz de monitoreo aprobada"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Tablero de seguimiento de indicadores",
+      "codes": "E2-10-T2",
+      "sum": "avance periódico de indicadores de proceso y resultado",
+      "ev": [
+       "tablero actualizado con fuentes"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Informe de impacto y mejora",
+      "codes": "E2-10-T3, E2-10-T4, E2-10-T5",
+      "sum": "cambio frente a la línea de base, interpretación y recomendaciones",
+      "ev": [
+       "informe de resultados entregado",
+       "plan de mejora con responsables"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "refs": [
+  [
+   "[1]",
+   "Infobae (con datos del INEI, ENDES 2024). Anemia infantil en menores de 3 años subió a 43,7 % y la desnutrición crónica en menores de 5 años llegó al 12,1 %, según la ENDES 2024. 2025",
+   "https://www.infobae.com/peru/2025/04/02/anemia-infantil-en-menores-de-3-anos-subio-a-437-y-la-desnutricion-cronica-en-menores-de-5-anos-llego-al-121-segun-la-endes-2024/",
+   "Verificado"
+  ],
+  [
+   "[2]",
+   "Instituto Nacional de Estadística e Informática (INEI). Perú: Enfermedades no transmisibles y transmisibles, 2024. Principales indicadores. 2025",
+   "https://cdn.www.gob.pe/uploads/document/file/8134023/6813669-principales-indicadores-peru-enfermedades-no-transmisibles-y-transmisibles-2024.pdf?v=1748450986",
+   "Verificado"
+  ],
+  [
+   "[3]",
+   "Instituto Nacional de Estadística e Informática (INEI). Perú: Series anuales de indicadores principales de la ENDES, 1986-2024. 2025",
+   "https://proyectos.inei.gob.pe/files/publicaciones/2024/SERIES_ANUALES_1986_2024.pdf",
+   "Verificado"
+  ],
+  [
+   "[4]",
+   "Ministerio de Salud. Decreto Supremo N.° 002-2024-SA que aprueba el Plan Multisectorial para la Prevención y Reducción de la Anemia Materno Infantil en el Perú, periodo 2024-2030. El Peruano. 2024",
+   "https://busquedas.elperuano.pe/dispositivo/NL/2255412-3",
+   "Verificado"
+  ],
+  [
+   "[5]",
+   "Ministerio de Salud. Resolución Ministerial N.° 251-2024/MINSA que aprueba la NTS N.° 213-MINSA/DGIESP-2024, Prevención y control de la anemia por deficiencia de hierro. El Peruano. 2024",
+   "https://busquedas.elperuano.pe/dispositivo/NL/2277624-1",
+   "Verificado"
+  ],
+  [
+   "[6]",
+   "Organización Mundial de la Salud. Guideline on haemoglobin cutoffs to define anaemia in individuals and populations. 2024",
+   "https://www.who.int/publications/i/item/9789240088542",
+   "Verificado"
+  ],
+  [
+   "[7]",
+   "Campos-Sánchez M, Cordero-Muñoz L, Velásquez-Hurtado E, et al. New World Health Organization guideline on anemia cut-off points: implications for children aged 6-35 months in Peru. Rev Peru Med Exp Salud Publica. 2025",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12377884/",
+   "Verificado"
+  ],
+  [
+   "[8]",
+   "Instituto Nacional de Salud / CENAN. Sistema de información del estado nutricional de niños menores de cinco años y gestantes (SIEN). Boletín del Instituto Nacional de Salud, año 24, n.° 3-4 (datos 2017). s. f.",
+   "https://boletin.ins.gob.pe/ano24n3-4/",
+   "Verificado"
+  ],
+  [
+   "[9]",
+   "Guerra Valencia J, Hernández-Vásquez A. Analysis of the departmental availability of nutritionists and indicators of anemia and maternal-child malnutrition in Peru. Rev Peru Med Exp Salud Publica. 2026",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13245977/fullTextXML",
+   "Verificado"
+  ],
+  [
+   "[10]",
+   "Congreso de la República. Ley N.° 30188, Ley del ejercicio profesional del nutricionista. 2014",
+   "https://cnp.org.pe/wp-content/uploads/2017/12/LEYDELNUTRICIONISTA.pdf",
+   "Verificado"
+  ],
+  [
+   "[11]",
+   "O*NET OnLine. 29-1031.00 Dietitians and Nutritionists: tasks and importance. 2025",
+   "https://www.onetonline.org/link/details/29-1031.00",
+   "Verificado"
+  ],
+  [
+   "[12]",
+   "Organización Internacional del Trabajo. International Standard Classification of Occupations ISCO-08, grupo 2265 Dieticians and nutritionists. 2012",
+   "https://www.ilo.org/media/42041/download",
+   "Verificado"
+  ],
+  [
+   "[13]",
+   "Bruening M, Udarbe AZ, Yakes Jimenez E, et al. Academy of Nutrition and Dietetics: Standards of Practice and Standards of Professional Performance for RDNs in Public Health and Community Nutrition. J Acad Nutr Diet. 2015",
+   "https://mchnutritionpartners.ucla.edu/wp-content/uploads/2019/10/AND-Standards-of-Practice-and-Professional-Performance_0.pdf",
+   "Verificado"
+  ],
+  [
+   "[14]",
+   "Ministerio de Economía y Finanzas. Programa presupuestal 1001: Productos específicos para desarrollo infantil temprano (gobiernos locales). 2023",
+   "https://www.mef.gob.pe/contenidos/presu_publ/ppr/estr_program/PP_1001_GL_2023.PDF",
+   "Verificado"
+  ],
+  [
+   "[15]",
+   "Ministerio de Economía y Finanzas. Programa de Incentivos a la Mejora de la Gestión Municipal 2025: talleres de presentación de compromisos, indicadores y metas. 2025",
+   "https://www.mef.gob.pe/contenidos/presu_publ/migl/PI2025_C3.pdf",
+   "Verificado"
+  ],
+  [
+   "[16]",
+   "Ministerio de Salud / MEF. Criterios técnicos para la implementación del Centro de Promoción y Vigilancia Comunal del cuidado de la madre y del niño. 2012",
+   "https://www.mef.gob.pe/contenidos/presu_publ/capacita/MINSA_vigilancia_comunal.pdf",
+   "Verificado"
+  ],
+  [
+   "[17]",
+   "Infobae. MIDIS oficializa desaparición de Qali Warma y cambio total por Wasi Mikuna desde abril 2025 (D. S. N.° 010-2024-MIDIS). 2024",
+   "https://www.infobae.com/peru/2024/12/04/midis-oficializa-desaparicion-de-qali-warma-y-cambio-total-por-wasi-mikuna-desde-abril-2025-a-quienes-atendera-desde-ahora/",
+   "Verificado"
+  ],
+  [
+   "[18]",
+   "Ministerio de Desarrollo e Inclusión Social. Decreto Supremo N.° 006-2025-MIDIS que aprueba la extinción del Programa Nacional de Alimentación Escolar Comunitaria Wasi Mikuna. 2025",
+   "https://www.gob.pe/institucion/midis/normas-legales/6666332-006-2025-midis",
+   "Verificado"
+  ],
+  [
+   "[19]",
+   "Ministerio de Desarrollo e Inclusión Social. Midis asegura alimentación para más de 4.1 millones de estudiantes durante el 2026 (Programa de Alimentación Escolar). 2026",
+   "https://www.gob.pe/institucion/midis/noticias/1366300-midis-asegura-alimentacion-para-mas-de-4-1-millones-de-estudiantes-durante-el-2026",
+   "Verificado"
+  ],
+  [
+   "[20]",
+   "Programa Nacional de Alimentación Escolar Comunitaria Wasi Mikuna. Cusco: Wasi Mikuna brinda asistencias técnicas en quechua a integrantes de Comités de Alimentación Escolar. 2025",
+   "https://www.gob.pe/institucion/wasimikuna/noticias/1133041-cusco-wasi-mikuna-brinda-asistencias-tecnicas-en-quechua-a-integrantes-de-comites-de-alimentacion-escolar",
+   "Verificado"
+  ],
+  [
+   "[21]",
+   "Congreso de la República. Ley N.° 30021, Ley de promoción de la alimentación saludable para niños, niñas y adolescentes. 2013",
+   "https://www2.congreso.gob.pe/sicr/cendocbib/con4_uibd.nsf/A40123F0A0544D8605257E6700743FD5/$FILE/30021.pdf",
+   "Verificado"
+  ],
+  [
+   "[22]",
+   "Congreso de la República. Ley N.° 31782 que modifica la Ley 27470, normas complementarias para la ejecución del Programa del Vaso de Leche. El Peruano. 2023",
+   "https://busquedas.elperuano.pe/dispositivo/NL/2186594-1",
+   "Verificado"
+  ],
+  [
+   "[23]",
+   "Agencia Andina. Gobierno aprueba reglamento de ley que reconoce a las ollas comunes (D. S. N.° 002-2022-MIDIS). 2022",
+   "https://andina.pe/agencia/noticia-gobierno-aprueba-reglamento-ley-reconoce-a-las-ollas-comunes-896760.aspx",
+   "Verificado"
+  ],
+  [
+   "[24]",
+   "Ministerio de Desarrollo Agrario y Riego. Decreto Supremo N.° 003-2024-MIDAGRI que aprueba el Reglamento de la Ley N.° 31315, Ley de Seguridad Alimentaria y Nutricional. El Peruano. 2024",
+   "https://busquedas.elperuano.pe/dispositivo/NL/2264983-2",
+   "Verificado"
+  ],
+  [
+   "[25]",
+   "Centro Peruano de Estudios Sociales (CEPES). SOFI 2024: Perú alcanza el 51.7 % en inseguridad alimentaria. 2024",
+   "https://cepes.org.pe/2024/07/24/sofi-2024-peru-alcanza-el-51-7-en-inseguridad-alimentaria/",
+   "Verificado"
+  ],
+  [
+   "[26]",
+   "Congreso de la República. Ley N.° 29783, Ley de Seguridad y Salud en el Trabajo. 2011",
+   "https://www.saludarequipa.gob.pe/desa/archivos/Normas_Legales/LEY%2029783%20LEY%20DE%20SEGURIDAD%20Y%20SALUD%20EN%20EL%20TRABAJO.pdf",
+   "Verificado"
+  ],
+  [
+   "[27]",
+   "Ministerio de Salud, DIGESA. Protocolos de exámenes médico ocupacionales y guías de diagnóstico de los exámenes médicos obligatorios por actividad (R. M. N.° 312-2011/MINSA). 2011",
+   "https://repositorio.minsa.gob.pe/handle/MINSA/79871",
+   "Verificado"
+  ],
+  [
+   "[28]",
+   "Municipalidad Distrital de Cerro Colorado. Términos de referencia CAS N.° 04-2025-MDCC: Nutricionista, Gerencia de Desarrollo Social. 2025",
+   "https://mdcc.gob.pe/wp-content/uploads/2025/12/TDR-CAS-04-2025.pdf",
+   "Verificado"
+  ],
+  [
+   "[29]",
+   "ConvocatoriasDeTrabajo.com. Convocatorias de trabajo para nutricionistas en el sector público 2026 (Cuna Más CAS 355-382, Hospital General de Jaén). 2026",
+   "https://www.convocatoriasdetrabajo.com/ofertas-de-empleo-para-NUTRICIONISTAS-41.html",
+   "Verificado"
+  ],
+  [
+   "[30]",
+   "ConvocatoriasDeTrabajo.com. Cuna Más, CAS N.° 357: Acompañante técnico para el Servicio de Acompañamiento a Familias, Puno. 2026",
+   "https://www.convocatoriasdetrabajo.com/oportunidad-laboral-cas-357-acompanante-tecnico-servicio-acompanamiento-familias-cuna-mas-puno-631727.html",
+   "Verificado"
+  ],
+  [
+   "[31]",
+   "PortalTrabajos.pe. Wasi Mikuna: 58 vacantes CAS (monitores de gestión local, especialistas alimentarios y otros). 2025",
+   "https://www.portaltrabajos.pe/2025/06/wasi-mikuna-monitores-de-gestion-local-supervisores.html?m=1",
+   "Verificado"
+  ],
+  [
+   "[32]",
+   "ConvocatoriasDeTrabajo.com. Qali Warma, CAS N.° 100: Especialista alimentario/a, Unidad Territorial Tacna. 2024",
+   "https://www.convocatoriasdetrabajo.com/oportunidad-laboral-cas-100-especialista-alimentario-qali-warma-tacna-377130.html",
+   "Verificado"
+  ],
+  [
+   "[33]",
+   "ConvocatoriasDeTrabajo.com. DIRESA Cajamarca, CAS N.° 050: Nutricionista. 2025",
+   "https://www.convocatoriasdetrabajo.com/oportunidad-laboral-cas-050-nutricionista-diresa-cajamarca-513352.html",
+   "Verificado"
+  ],
+  [
+   "[34]",
+   "Save the Children International. Oficial de Nutrición, Lima (respuesta a la crisis migratoria, sector nutrición). 2024",
+   "https://www.savethechildren.net/careers/apply/details?jid=7775",
+   "Verificado"
+  ],
+  [
+   "[35]",
+   "Newrest Group. Nutricionista con experiencia en servicios de alimentación en campamento minero, Perú. 2026",
+   "https://careers.newrest.eu/es/annonce/3854023-nutricionista-con-experiencia-en-servicios-de-alimentacion-en-campamento-m-peru",
+   "Verificado"
+  ],
+  [
+   "[36]",
+   "Jooble Perú. Ofertas de nutricionista para campamento minero (Sodexo Perú, campamento Chincha 14x7). 2026",
+   "https://pe.jooble.org/trabajo-nutricionista+-campamento+minero",
+   "Verificado"
+  ],
+  [
+   "[37]",
+   "Computrabajo Perú. Ofertas de trabajo de nutricionista (incluye nutricionista en alimentación colectiva y minería, Oyón 14x7). 2026",
+   "https://pe.computrabajo.com/trabajo-de-nutricionista",
+   "Verificado"
+  ],
+  [
+   "[38]",
+   "ConvocatoriasDeTrabajo.com. Convocatorias de nutrición en Puno 2026 (Programa de Alimentación Escolar, CAS N.° 085: Monitor/a de gestión local). 2026",
+   "https://www.convocatoriasdetrabajo.com/bolsa-empleos-practicas-para-NUTRICION-PUNO-45-21.html",
+   "Verificado"
+  ],
+  [
+   "[39]",
+   "ConvocatoriasDeTrabajo.com. Ministerio de Trabajo y Promoción del Empleo, CAS N.° 149: Nutricionista. 2025",
+   "https://www.convocatoriasdetrabajo.com/oportunidad-laboral-cas-149-nutricionista-ministerio-trabajo-mtpe-lima-496991.html",
+   "Verificado"
+  ],
+  [
+   "[40]",
+   "ConvocatoriasDeTrabajo.com. Programa Wasi Mikuna, CAS N.° 115: Monitor/a de gestión local, Lima Provincias. 2025",
+   "https://www.convocatoriasdetrabajo.com/oportunidad-laboral-cas-115-monitor-gestion-local-programa-wasi-mikuna-lima-499642.html",
+   "Verificado"
+  ]
+ ]
+}

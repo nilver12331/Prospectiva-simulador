@@ -1,0 +1,221 @@
+{
+ "rol": "V3",
+ "SIS": {
+  "A": [
+   {
+    "E": false,
+    "D": 2,
+    "R": 3,
+    "S": "E",
+    "V": 3,
+    "c": "El 0 de 21 está documentado, pero la capacidad propia es 2-3 estimada y sin resolución: «todo egresado» aún no es demostrable."
+   },
+   {
+    "E": false,
+    "D": 3,
+    "R": 3,
+    "S": "E",
+    "V": 4,
+    "c": "Tesis CI/CD fechadas en repositorio; prueban capacidad docente, no que todo egresado lo logre. Falta sílabo o resolución que institucionalice la línea."
+   },
+   {
+    "E": true,
+    "D": 3,
+    "R": 2,
+    "S": "U",
+    "V": 2,
+    "c": "Proyectos fechados y verificables, pero UNA Puno y UNSM pueden firmar investigación regional; plana 2026 sin confirmar debilita la vigencia."
+   },
+   {
+    "E": true,
+    "D": 2,
+    "R": 2,
+    "S": "N",
+    "V": 2,
+    "c": "Verificado false: 28 convenios sin desglose, vigencia ni vacantes. Todo competidor declara prácticas; es paridad, no diferencial."
+   },
+   {
+    "E": true,
+    "D": 2,
+    "R": 2,
+    "S": "N",
+    "V": 2,
+    "c": "Verificado false: noticias 2020-2023 sin inventario ni horas; Juliaca sin laboratorio; AWS Academy lo ofrecen otras. No sostiene diferencia."
+   }
+  ],
+  "B": {
+   "t": {
+    "L": 3,
+    "So": false,
+    "Au": false
+   },
+   "vp": [
+    {
+     "L": 4,
+     "So": false,
+     "Au": true
+    },
+    {
+     "L": 3,
+     "So": false,
+     "Au": false
+    },
+    {
+     "L": 4,
+     "So": false,
+     "Au": true
+    },
+    {
+     "L": 3,
+     "So": false,
+     "Au": true
+    },
+    {
+     "L": 3,
+     "So": false,
+     "Au": true
+    }
+   ]
+  },
+  "C": {
+   "car": {
+    "An": true,
+    "At": 3,
+    "Mo": 3,
+    "Dg": false
+   },
+   "esp": [
+    {
+     "An": true,
+     "At": 3,
+     "Mo": 2,
+     "Dg": false
+    },
+    {
+     "An": true,
+     "At": 3,
+     "Mo": 2,
+     "Dg": false
+    },
+    {
+     "An": true,
+     "At": 3,
+     "Mo": 3,
+     "Dg": false
+    },
+    {
+     "An": true,
+     "At": 3,
+     "Mo": 3,
+     "Dg": false
+    },
+    {
+     "An": true,
+     "At": 2,
+     "Mo": 2,
+     "Dg": false
+    }
+   ]
+  },
+  "falta": "El estado de acreditación SINEACE de la escuela y la operación de una sola malla en tres sedes (Lima, Juliaca, Tarapoto); ambos se prueban con resolución vigente y no figuran.",
+  "problema": "La baja madurez digital de gobiernos locales y regionales frente a la política nacional de gobierno digital: municipalidades sin personal ni procesos para operar, proteger y rendir cuentas de sus sistemas."
+ },
+ "NUT": {
+  "A": [
+   {
+    "E": true,
+    "D": 3,
+    "R": 3,
+    "S": "E",
+    "V": 2,
+    "c": "Repositorio fechado y verificable, pero sin grados ni vínculo vigente; UNA Puno puede exhibir docentes que investigan anemia en Puno."
+   },
+   {
+    "E": true,
+    "D": 3,
+    "R": 2,
+    "S": "U",
+    "V": 2,
+    "c": "Tesis 2017-2025 verificables; Renacyt vencido en 2024 y formación en salud pública sin verificar. UNMSM y UNA Puno firman algo equivalente."
+   },
+   {
+    "E": false,
+    "D": 3,
+    "R": 3,
+    "S": "E",
+    "V": 3,
+    "c": "Comedor y planta Unión documentados y en operación; falta inventario de horas por estudiante y convenio interno que asigne la práctica."
+   },
+   {
+    "E": false,
+    "D": 2,
+    "R": 3,
+    "S": "E",
+    "V": 3,
+    "c": "Verificado false: el 0 de 18 está probado, pero la estructura propia existe solo en un plan sin resolución. Es intención, no hecho."
+   },
+   {
+    "E": true,
+    "D": 2,
+    "R": 2,
+    "S": "U",
+    "V": 2,
+    "c": "Verificado false: Pacllón sin vigencia publicada, PAIS sin Nutrición explícita ni vacantes. Internado comunitario en el Estado es común en C3."
+   }
+  ],
+  "B": {
+   "t": {
+    "L": 3,
+    "So": false,
+    "Au": false
+   },
+   "vp": [
+    {
+     "L": 3,
+     "So": false,
+     "Au": false
+    },
+    {
+     "L": 4,
+     "So": false,
+     "Au": true
+    },
+    {
+     "L": 4,
+     "So": true,
+     "Au": true
+    }
+   ]
+  },
+  "C": {
+   "car": {
+    "An": true,
+    "At": 2,
+    "Mo": 3,
+    "Dg": false
+   },
+   "esp": [
+    {
+     "An": true,
+     "At": 3,
+     "Mo": 3,
+     "Dg": false
+    },
+    {
+     "An": true,
+     "At": 2,
+     "Mo": 4,
+     "Dg": false
+    },
+    {
+     "An": true,
+     "At": 3,
+     "Mo": 3,
+     "Dg": false
+    }
+   ]
+  },
+  "falta": "El estado de acreditación SINEACE de la carrera y un campo clínico de la red adventista (por ejemplo, Clínica Good Hope) con convenio vigente; ninguno aparece y ambos son verificables por resolución.",
+  "problema": "La inseguridad alimentaria de los hogares y el costo de una dieta saludable, junto con la vulnerabilidad climática de la producción altoandina: el sistema alimentario, no solo la persona o el programa."
+ }
+}

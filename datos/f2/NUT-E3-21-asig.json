@@ -1,0 +1,192 @@
+{
+ "cod": "NUT",
+ "k": "E3",
+ "competencia": "C3",
+ "funciones": {
+  "E3-01": {
+   "marcas": [
+    "●",
+    "○",
+    "",
+    ""
+   ],
+   "asig": "C3",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (NTS 103 [6]) · E2 (O*NET 29-1031 [2]) · E3 (15 de 38 avisos [28][35]) · E4 (4 187 782 estudiantes del PAE en 2026 [41])",
+    "tend": "E6 (PAE desde 2026 tras el DS 006-2025-MIDIS [42][41]; Ley 31071 de 2020 [15])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E3-02": {
+   "marcas": [
+    "○",
+    "●",
+    "",
+    "○"
+   ],
+   "asig": "C3",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (Ley 30988 [16]) · E2 (O*NET 11-9051 y 29-1031 [1][2]) · E3 (11 de 38 avisos [30][38]) · E4 (más de 107 000 t de alimentos programados por el PAE en 2026 [41])",
+    "tend": "E6 (Índice de Desperdicio del PNUMA 2024, datos de 2022: servicios de comida 28 % [43])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E3-03": {
+   "marcas": [
+    "○",
+    "●",
+    "○",
+    "○"
+   ],
+   "asig": "C3",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (Ley 31071 [15], Ley 32069 [44], NTS 103 [6]) · E2 (O*NET [2], MAPRO del HNHU [25]) · E3 (14 de 38 avisos [29][40])",
+    "tend": "E6 (Ley 32069 de 2024 [44]; Operativo Control del PAE 2026 [41] tras los casos de 2024 [21])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E3-04": {
+   "marcas": [
+    "",
+    "○",
+    "○",
+    "●"
+   ],
+   "asig": "C3 · compartida con C1",
+   "otra": "C1.3 Prescribir",
+   "dic": {
+    "ev": "E1 (NTS 103 [6]) · E2 (O*NET 11-9051 [1], MAPRO del HNHU [25]) · E3 (18 de 38 avisos [29][34])",
+    "tend": "E6 (empleo minero de 276 765 trabajadores en diciembre de 2025, MINEM vía Forbes [18]; tercerización admitida por la NTS 103 [6])",
+    "d": "S",
+    "acc": "Confirmar en la fuente del MINEM el 73 % de empleo en contratistas (X6 no lo halló en [18]) o retirarlo del texto."
+   }
+  },
+  "E3-05": {
+   "marcas": [
+    "",
+    "",
+    "●",
+    ""
+   ],
+   "asig": "C3",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (NTS 173 [8], NTS 098 [7], RM 449-2006 [9]) · E2 (ESCO 2263.2 [4]) · E3 (21 de 38 avisos [31][33]) · E4 (600 millones de enfermos por ETA al año [22]; brote de Shigella en Tacna, 49 %, 2023 [20])",
+    "tend": "E6 (revisión 2022 de los Principios generales de higiene del Codex [10]; Operativo Control del PAE 2026 [41])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E3-07": {
+   "marcas": [
+    "",
+    "",
+    "○",
+    "●"
+   ],
+   "asig": "C3",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (Ley 30188 [5], NTS 098 [7], NTS 103 [6]) · E2 (O*NET 11-9051 [1], procedimiento SSOpr0030 de Cerro Verde [26]) · E3 (11 de 38 avisos [33][37]) · E4 (unos 59 escolares afectados en 2024 en Puno, Cajamarca y Áncash [21])",
+    "tend": "E6 (DS 006-2025-MIDIS [42]; PAE 2026 con Operativo Control [41])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E3-08": {
+   "marcas": [
+    "",
+    "○",
+    "",
+    "●"
+   ],
+   "asig": "C3",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (NTS 103, costo-beneficio para tercerizar [6]) · E2 (O*NET 11-9051 [1], estándares AND 2021 [23]) · E3 (12 de 38 avisos [32][36][38])",
+    "tend": "E6 (PNUMA 2024, servicios de comida 28 % del desperdicio en 2022 [43]; Ley 30988 de 2019 [16])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E3-09": {
+   "marcas": [
+    "●",
+    "",
+    "",
+    ""
+   ],
+   "asig": "C3 · compartida con C2",
+   "otra": "C2.1 Diagnosticar · C2.2 Planificar · C2.3 Intervenir · C2.4 Evaluar",
+   "dic": {
+    "ev": "E1 (Ley 29783 [45], RM 312-2011/MINSA [46], DS 024-2016-EM [11]) · E2 (OIT, Food at work [24]) · E3 (7 de 38 avisos [28][35]) · E4 (25,7 % de obesidad [17]; 36 % de 1198 mediciones con cintura alterada en una mina a 4100 m [19])",
+    "tend": "E6 (obesidad de 18,5 % en 2014 a 25,7 % en 2024 [17]; récord de empleo minero en 2025 [18])",
+    "d": "S",
+    "acc": "[19] es un estudio de una sola mina: completar con un dato de riesgo cardiometabólico de trabajadores de más de un centro; de [46] solo se leyó la ficha."
+   }
+  }
+ },
+ "reasignadas": [],
+ "alertas": [
+  [
+   "E3-04 · Producción y distribución de raciones",
+   "C3.4 con C1.3",
+   "Nutricionista supervisor de distribución de regímenes en hospital (NTS 103 [6]: uno por cada 40 camas) y nutricionista de concesionario hospitalario (avisos [29] [34])",
+   "Si C1 y C3 se certifican por separado, ninguna certificación cubre la verificación de la dieta y la fórmula enteral servidas contra la orden: riesgo de errores de régimen, textura o fórmula en el paciente"
+  ],
+  [
+   "E3-09 · Nutrición ocupacional en centros de trabajo",
+   "C3.1 con C2.1 a C2.4",
+   "Nutricionista de campamento minero 14x7 de concesionaria (avisos [28] Newrest y [35] Sodexo), en coordinación con salud ocupacional",
+   "Si C2 y C3 se certifican por separado, quien adecua el menú del campamento no queda acreditado para diagnosticar al colectivo ni conducir el programa preventivo, y viceversa: el empleador exige ambas en el mismo puesto"
+  ]
+ ],
+ "decisiones": [
+  [
+   "2026-09-25",
+   "Se asignan 8 funciones de E3: E3-01, E3-02, E3-04 y E3-05 (núcleo) y E3-03, E3-07, E3-08 y E3-09 (complementarias por decisión de la Escuela).",
+   "Con decision2 del panel. No se asignan E3-06 (fusionada en E3-05) ni E3-10 (fusionada en E3-07). Se aplicaron los ajustes y las referencias nuevas [41] a [46] de NUT-E3-21-ajustes.json."
+  ],
+  [
+   "2026-09-25",
+   "E3-04 queda compartida con C1 (C1.3 Prescribir).",
+   "Por decisión de la Escuela recibió de E1-04 el armado y la distribución de dietas con verificación de su correspondencia con la orden (T4), además de la preparación de fórmulas enterales (T5) y el registro de incidencias al nutricionista clínico (T6): es la implementación del tratamiento que nombra C1.3. La dirección de la producción moviliza C3.4 como principal."
+  ],
+  [
+   "2026-09-25",
+   "E3-09 queda compartida con C2 (C2.1 a C2.4).",
+   "Solo T3 (adecuar menús a turnos, exigencia física y altitud) moviliza de forma principal C3.1; T1-T2 (diagnóstico y riesgo del colectivo), T3 (diseño del programa), T4 (educación y consejería) y T5 (reporte a salud ocupacional) movilizan C2, cuya definición nombra al «colectivo de trabajadores» y la «salud ocupacional». Se mantiene en E3 por la decisión de la Escuela (casa única tras excluir E2-08); no se reasigna porque moviliza C3.1."
+  ],
+  [
+   "2026-09-25",
+   "Cobertura completa: C3.1 (E3-01, E3-09), C3.2 (E3-02, E3-03), C3.3 (E3-05) y C3.4 (E3-04, E3-07, E3-08).",
+   "Ninguna capacidad queda sin función; no hay reasignadas, transversales ni brechas. C3.3 depende de una sola función (E3-05, que absorbió E3-06)."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C3.4 (pendiente de la Escuela): «supervisar las operaciones de producción, porcionado y distribución, al personal operativo y a los proveedores…».",
+   "E3-04 dirige la producción y la distribución de raciones y organiza al personal y sus turnos; ni C3.4 ni la definición de C3 nombran la producción."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C3.2 (pendiente de la Escuela): «gestionar compras, recepción, almacenamiento e inventarios y el desempeño de los proveedores, conforme a la Ley 32069 en el sector público».",
+   "E3-03 (T3 a T5) exige recepción, almacenamiento y rotación de existencias y el marco de la Ley 32069, que la definición no nombra."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C3.1 (pendiente de la Escuela): «adaptándolos a la cultura, al clima, a la altitud y a la exigencia física y los turnos del colectivo».",
+   "E3-01-T3 y E3-09-T3 adecuan menús a la altitud y a los turnos 14x7; la definición solo nombra cultura y clima."
+  ],
+  [
+   "2026-09-25",
+   "Dictamen de suficiencia de E3: 8 S. Global: P.",
+   "La muestra de mercado de E3 es de 38 avisos pertinentes (≥ 30) y todas las fuentes citadas están verificadas, con [19] corregido y [13] y [14] (Wasi Mikuna) retirados. E5 y E7 son de programa: el global nunca es S."
+  ]
+ ]
+}

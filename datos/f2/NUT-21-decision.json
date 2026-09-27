@@ -1,0 +1,22 @@
+{
+ "cod": "NUT", "fecha": "2026-09-25", "momento": "2.1 · M3 · decisión de la Escuela sobre las propuestas de exclusión de la ronda 1",
+ "criterio": "Duplicados a una sola especialidad; fusiones pedidas por el guardián o por dos o más expertos; se rescatan como complementarias las funciones reales y relevantes que son la única que moviliza una capacidad o que la mitad del panel juzgó esenciales.",
+ "funciones": {
+  "E1-04": {"accion": "excluir", "motivo": "Duplica el armado de dietas de E3-04 (NTS 103: la Unidad Central de Producción arma y distribuye). Sus tareas de especificación pasan a E1-02 y las de armado y control a E3-04."},
+  "E1-07": {"accion": "fusionar", "destino": "E1-06", "motivo": "Sin avisos propios; la cirugía bariátrica queda como ámbito del tratamiento de la obesidad."},
+  "E1-11": {"accion": "rescatar", "motivo": "Cierre del proceso de atención (C1.4 Seguir); real para todo el panel y esencial para la mitad."},
+  "E1-12": {"accion": "excluir", "motivo": "Transversal de jefatura; al egreso se reduce a registrar y señalar desfases: esas tareas pasan a E1-02."},
+  "E2-02": {"accion": "rescatar", "motivo": "Única función que moviliza C2.2 Planificar; el producto se ajusta a lo alcanzable al egreso (sin acta firmada)."},
+  "E2-04": {"accion": "fusionar", "destino": "E2-03", "motivo": "La formación de agentes comunitarios es una modalidad de la educación alimentaria comunitaria (C2.3)."},
+  "E2-06": {"accion": "fusionar", "destino": "E2-05", "motivo": "Un solo aviso; los programas alimentarios municipales se gestionan con el mismo encargo que la alimentación escolar."},
+  "E2-07": {"accion": "fusionar", "destino": "E2-03", "motivo": "Sin avisos; la promoción de entornos saludables (octógonos, Ley 30021) queda como tarea de la educación comunitaria."},
+  "E2-08": {"accion": "excluir", "motivo": "Duplica E3-09: la nutrición ocupacional queda solo en Servicios de alimentación y salud ocupacional."},
+  "E2-09": {"accion": "sublinea", "destino": "E2-01", "motivo": "Demanda solo normativa; la asistencia en emergencias queda como sublínea del diagnóstico poblacional."},
+  "E3-03": {"accion": "rescatar", "motivo": "Compras y abastecimiento es parte de C3.2 (proveedores); en el sector público se enmarca en la Ley 32069."},
+  "E3-06": {"accion": "fusionar", "destino": "E3-05", "motivo": "El Codex ubica la capacitación de manipuladores como programa prerrequisito del sistema HACCP."},
+  "E3-07": {"accion": "rescatar", "motivo": "Única casa de C3.4 Auditar; absorbe la supervisión de plantas y servicios de los programas sociales (ex E3-10), reformulada sobre el PAE."},
+  "E3-08": {"accion": "rescatar", "motivo": "Control de gestión e indicadores forma parte de C3.4; la mitad del panel la juzgó esencial."},
+  "E3-09": {"accion": "rescatar", "motivo": "Casa única de la nutrición ocupacional tras excluir E2-08; incorpora lo preventivo del colectivo laboral."},
+  "E3-10": {"accion": "fusionar", "destino": "E3-07", "motivo": "Wasi Mikuna se extinguió (DS 006-2025-MIDIS); la supervisión del PAE es una auditoría sanitaria: T5 se retira (es de E2-05) y T2 se une a E3-07-T3."}
+ }
+}

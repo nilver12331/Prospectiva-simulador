@@ -1,0 +1,536 @@
+{
+ "E3-01": {
+  "amb": "Hospitales y clínicas; concesionarios de comedores industriales, institucionales y universitarios; campamentos mineros de altura; proveedores de programas alimentarios del Estado",
+  "tasks": [
+   {
+    "code": "E3-01-T1",
+    "t": "Calcular los requerimientos de energía y nutrientes del colectivo",
+    "ent": "1. Estudio de requerimientos y ciclo base"
+   },
+   {
+    "code": "E3-01-T2",
+    "t": "Elaborar el ciclo de menús por tipo de servicio",
+    "ent": "1. Estudio de requerimientos y ciclo base"
+   },
+   {
+    "code": "E3-01-T3",
+    "t": "Adaptar los menús a las dietas especiales prescritas, la cultura y la altitud",
+    "ent": "2. Adaptación y validación del ciclo"
+   },
+   {
+    "code": "E3-01-T4",
+    "t": "Validar el ciclo de menús con el cliente o la entidad",
+    "ent": "2. Adaptación y validación del ciclo"
+   }
+  ],
+  "prod": {
+   "name": "Programa de menús cíclicos del servicio de alimentación",
+   "desc": "Programa de menús cíclicos que define, para un colectivo concreto, qué se sirve en cada tiempo de comida durante el ciclo y con qué aporte nutricional. Integra el perfil y los requerimientos de los comensales, el ciclo de menús con sus variantes para dietas especiales y la verificación de su adecuación nutricional, cultural y presupuestal. Se elabora a partir de las características del colectivo, el presupuesto y la oferta local, y se verifica contrastando el aporte calculado con los requerimientos y con la aceptación de los usuarios. Orienta las decisiones de compra y producción del servicio y demuestra que el egresado traduce requerimientos nutricionales en una oferta alimentaria viable.",
+   "ents": [
+    {
+     "n": "1",
+     "t": "Estudio de requerimientos y ciclo base",
+     "codes": "E3-01-T1, E3-01-T2",
+     "sum": "requerimientos por grupo de comensales y ciclo de menús con su aporte",
+     "ev": [
+      "hoja de cálculo de requerimientos por grupo de comensales",
+      "ciclo de menús con análisis de aporte nutricional"
+     ]
+    },
+    {
+     "n": "2",
+     "t": "Adaptación y validación del ciclo",
+     "codes": "E3-01-T3, E3-01-T4",
+     "sum": "variantes para dietas especiales, cultura y altitud, y conformidad",
+     "ev": [
+      "variantes del ciclo para dietas especiales y altitud",
+      "acta o conformidad del cliente o la entidad"
+     ]
+    }
+   ]
+  },
+  "fd": "Esta función tiene demanda porque los servicios colectivos alimentan a diario a pacientes, trabajadores y escolares: el Programa de Alimentación Escolar atiende en 2026 a 4 187 782 estudiantes con preparaciones que deben cubrir su requerimiento [41], y la NTS 103 encarga a la unidad de producción programar preparaciones para pacientes y personal [6]. O*NET registra el desarrollo de menús como tarea del nutricionista [2] y 15 de 38 avisos peruanos revisados lo exigen, desde clínicas hasta campamentos mineros de altura [28] [35]. Ello exige profesionales capaces de planificar menús adecuados, viables y culturalmente pertinentes.",
+  "ji": "En los próximos 5 años, esta función tendrá impacto porque el Programa de Alimentación Escolar, que opera desde 2026 tras la extinción de Wasi Mikuna en 2025 [42], exige mayores estándares de control y productos fortificados y locales para más de 4,1 millones de estudiantes [41]. Además, la Ley 31071, de 2020, obliga a los programas sociales a comprar al menos el 30 % de sus alimentos a la agricultura familiar [15]. Por eso es necesario que el egresado domine la planificación de la alimentación del colectivo.",
+  "refs": "[2] [6] [15] [28] [35] [41] [42]",
+  "conf": 4,
+  "lim": "Sin supervisión en menús de colectivos sanos y dietas estándar; los regímenes complejos los prescribe E1; la programación nutricional escolar es de E2-05.",
+  "cambios": "Impacto y demanda reescritos con el PAE 2026 y el DS 006-2025-MIDIS (se retiran [13], [14] y el dato de exceso de peso); entregable 1 con dos tareas; frontera con E2-05 y E1 en ámbito y lim."
+ },
+ "E3-02": {
+  "fd": "Esta función tiene demanda porque un comedor concesionado atiende cientos de comensales por turno —un aviso exige experiencia con 400 por turno [38]— y cada desviación de gramaje altera costo y aporte. O*NET incluye crear recetas estandarizadas y estimar el consumo de alimentos entre las tareas del nutricionista y del gerente de servicios de alimentación [1] [2]. En el sector público, el Programa de Alimentación Escolar distribuye en 2026 más de 107 000 toneladas de alimentos programados [41]. En el mercado, 11 de 38 avisos piden fichas técnicas, gramajes o control del costo de alimentos [30]. Ello exige profesionales capaces de estandarizar y costear preparaciones con precisión.",
+  "ji": "En los próximos 5 años, esta función tendrá impacto porque el Índice de Desperdicio de Alimentos del PNUMA, publicado en 2024, estimó que en 2022 se desperdiciaron 1050 millones de toneladas de alimentos y que los servicios de comida generaron el 28 % [43]. En el Perú, la Ley 30988, de 2019, promueve reducir ese desperdicio [16], y la porción estandarizada es su primera herramienta. Por eso es necesario que el egresado domine la estandarización y el costeo de preparaciones.",
+  "refs": "[1] [2] [16] [30] [38] [41] [43]",
+  "conf": 4,
+  "lim": "Estandariza y costea sin supervisión; los precios de venta y márgenes contractuales corresponden a la administración o gerencia.",
+  "cambios": "Se retira el manual de Wasi Mikuna [13]; demanda con el volumen programado del PAE 2026; impacto con tendencia fechada del desperdicio en servicios de comida (PNUMA 2024, datos de 2022) y el año de la Ley 30988."
+ },
+ "E3-03": {
+  "d": "Programa los requerimientos de alimentos, elabora sus especificaciones técnicas de compra y controla la recepción, el desempeño de los proveedores, el almacenamiento y la rotación de insumos, para asegurar un abastecimiento oportuno, inocuo y al costo previsto del servicio.",
+  "tasks": [
+   {
+    "code": "E3-03-T1",
+    "t": "Programar los requerimientos de alimentos según el menú y el número de comensales",
+    "ent": "1. Plan de requerimientos y especificaciones de compra"
+   },
+   {
+    "code": "E3-03-T2",
+    "t": "Elaborar las especificaciones técnicas y el requerimiento de compra; en el sector público, como área usuaria conforme a la Ley 32069",
+    "ent": "1. Plan de requerimientos y especificaciones de compra"
+   },
+   {
+    "code": "E3-03-T3",
+    "t": "Verificar en la recepción el cumplimiento de las especificaciones y registrar el desempeño de cada proveedor",
+    "ent": "2. Registros de recepción, proveedores e inventario"
+   },
+   {
+    "code": "E3-03-T4",
+    "t": "Controlar el almacenamiento de los insumos",
+    "ent": "2. Registros de recepción, proveedores e inventario"
+   },
+   {
+    "code": "E3-03-T5",
+    "t": "Controlar los inventarios y la rotación de existencias",
+    "ent": "2. Registros de recepción, proveedores e inventario"
+   }
+  ],
+  "prod": {
+   "name": "Plan de abastecimiento alimentario del servicio",
+   "desc": "Plan de abastecimiento alimentario que establece qué alimentos se piden, en qué cantidad y con qué especificaciones para un periodo del servicio, y cómo se controla lo que llega y lo que se almacena. Integra el cálculo de requerimientos desde el ciclo de menús, las especificaciones técnicas de compra, los registros de recepción con el desempeño de cada proveedor y el control de almacén e inventario. Se elabora a partir del menú, el número de comensales, el presupuesto y, en el sector público, las reglas de la contratación pública, y se verifica con inspecciones de recepción y conteos de inventario. Orienta las decisiones de pedido y de reposición y demuestra que el egresado asegura insumos inocuos y oportunos al costo previsto.",
+   "ents": [
+    {
+     "n": "1",
+     "t": "Plan de requerimientos y especificaciones de compra",
+     "codes": "E3-03-T1, E3-03-T2",
+     "sum": "requerimientos por periodo y fichas de especificación de alimentos",
+     "ev": [
+      "cuadro de requerimientos por periodo",
+      "fichas de especificación técnica o requerimiento del área usuaria"
+     ]
+    },
+    {
+     "n": "2",
+     "t": "Registros de recepción, proveedores e inventario",
+     "codes": "E3-03-T3, E3-03-T4, E3-03-T5",
+     "sum": "controles de recepción, desempeño de proveedores, almacenamiento y rotación",
+     "ev": [
+      "registro de recepción con temperaturas, rechazos y desempeño del proveedor",
+      "kárdex o inventario valorizado"
+     ]
+    }
+   ]
+  },
+  "fd": "Esta función tiene demanda porque las entidades con programas sociales deben comprar al menos el 30 % de sus alimentos a la agricultura familiar [15], y en el sector público el área usuaria formula el requerimiento con especificaciones técnicas y otorga la conformidad según la Ley 32069 [44]. La NTS 103 encarga supervisar la cantidad y calidad de los víveres y su almacenamiento [6], y el MAPRO del Hospital Hipólito Unanue formaliza la recepción de insumos [25]. O*NET registra la compra de alimentos conforme a códigos sanitarios [2] y 14 de 38 avisos piden controlar pedidos, recepción o inventarios [29] [40]. Ello exige profesionales capaces de asegurar un abastecimiento oportuno e inocuo.",
+  "ji": "En los próximos 5 años, esta función tendrá impacto porque la Ley 32069, publicada en 2024, renovó las compras públicas y exige que el área usuaria formule el requerimiento en especificaciones técnicas [44]. Además, en 2026 los supervisores del Programa de Alimentación Escolar verificaron cada producto en plantas y almacenes antes de distribuirlo [41], después de que en 2024 alimentos no aptos llegaran a escolares [21]. Por eso es necesario que el egresado domine la gestión del abastecimiento alimentario.",
+  "refs": "[2] [6] [15] [21] [25] [29] [40] [41] [44]",
+  "conf": 3,
+  "lim": "Programa requerimientos y controla recepción con supervisión indirecta; no homologa proveedores (E3-07); adjudicación y contratos corresponden a logística o funcionarios autorizados.",
+  "cambios": "Rescatada como complementaria: T2 enmarca el requerimiento público en la Ley 32069; T3 pasa de homologar proveedores a verificar su desempeño en la recepción (sin solape con E3-07); entregables 1 y 2 fusionados; [13] reemplazado por el PAE 2026."
+ },
+ "E3-04": {
+  "d": "Dirige la producción, el porcionado y la distribución de raciones normales y de dietas hospitalarias, verificando que cada dieta corresponda a la orden recibida, incluida la preparación de fórmulas enterales, y organiza al personal operativo y sus turnos, para entregar cada ración conforme a lo programado, a tiempo y en condiciones seguras.",
+  "tasks": [
+   {
+    "code": "E3-04-T1",
+    "t": "Programar la producción diaria de raciones",
+    "ent": "1. Programa diario de producción y personal"
+   },
+   {
+    "code": "E3-04-T2",
+    "t": "Organizar al personal operativo y sus turnos",
+    "ent": "1. Programa diario de producción y personal"
+   },
+   {
+    "code": "E3-04-T3",
+    "t": "Supervisar la preparación y el porcionado de raciones",
+    "ent": "2. Registros de control de producción"
+   },
+   {
+    "code": "E3-04-T4",
+    "t": "Supervisar el armado y la distribución de dietas hospitalarias y verificar su correspondencia con la orden de dieta",
+    "ent": "3. Control de correspondencia de dietas"
+   },
+   {
+    "code": "E3-04-T5",
+    "t": "Supervisar la preparación de fórmulas enterales",
+    "ent": "2. Registros de control de producción"
+   },
+   {
+    "code": "E3-04-T6",
+    "t": "Registrar las incidencias de correspondencia y de aceptación de las dietas y comunicarlas al nutricionista clínico",
+    "ent": "3. Control de correspondencia de dietas"
+   }
+  ],
+  "prod": {
+   "name": "Plan operativo de producción y distribución de raciones",
+   "desc": "Plan operativo de producción que organiza, para cada día y turno, cuántas raciones y dietas se producen, con qué personal y en qué horarios se distribuyen, y deja constancia de que cada dieta llegó conforme a la orden. Integra la programación de producción, la asignación de personal y turnos, los registros de preparación, porcionado y fórmulas, y la lista de correspondencia de bandejas con su registro de incidencias. Se elabora a partir del ciclo de menús, la orden diaria de dietas y la capacidad instalada, y se verifica con controles de gramaje, temperatura, puntualidad y porcentaje de correspondencia. Orienta la asignación diaria de recursos y demuestra que el egresado conduce una operación de alto volumen sin perder calidad ni seguridad.",
+   "ents": [
+    {
+     "n": "1",
+     "t": "Programa diario de producción y personal",
+     "codes": "E3-04-T1, E3-04-T2",
+     "sum": "raciones por servicio, asignación de personal y turnos",
+     "ev": [
+      "programa de producción diario",
+      "rol de turnos del personal"
+     ]
+    },
+    {
+     "n": "2",
+     "t": "Registros de control de producción",
+     "codes": "E3-04-T3, E3-04-T5",
+     "sum": "controles de porcionado y fórmulas preparadas",
+     "ev": [
+      "registro de gramajes y temperaturas de servido",
+      "registro de preparación de fórmulas"
+     ]
+    },
+    {
+     "n": "3",
+     "t": "Control de correspondencia de dietas",
+     "codes": "E3-04-T4, E3-04-T6",
+     "sum": "dietas distribuidas por cama, correspondencia con la orden e incidencias",
+     "ev": [
+      "lista diaria de correspondencia bandeja-orden con su porcentaje",
+      "registro de incidencias de correspondencia y aceptación"
+     ]
+    }
+   ]
+  },
+  "conf": 3,
+  "lim": "Dirige un turno con supervisión indirecta; no ejerce jefatura ni prescribe ni especifica dietas (E1-02); las fórmulas enterales siguen la prescripción clínica.",
+  "absorbe": [
+   "E1-04"
+  ],
+  "cambios": "Recibe de E1-04 el armado y control de correspondencia (T4 reescrita) y el registro de incidencias (T6); nuevo entregable 3 de correspondencia de dietas; lim con la frontera frente a E1-02."
+ },
+ "E3-05": {
+  "d": "Implementa y mantiene el plan HACCP y sus programas prerrequisito —buenas prácticas, higiene y saneamiento y capacitación sanitaria de los manipuladores—, vigilando límites críticos y registros, para prevenir enfermedades transmitidas por alimentos en los comensales.",
+  "tasks": [
+   {
+    "code": "E3-05-T1",
+    "t": "Elaborar el diagnóstico sanitario del servicio",
+    "ent": "1. Plan HACCP y programas prerrequisito"
+   },
+   {
+    "code": "E3-05-T2",
+    "t": "Formular el plan HACCP del servicio",
+    "ent": "1. Plan HACCP y programas prerrequisito"
+   },
+   {
+    "code": "E3-05-T3",
+    "t": "Documentar los programas de buenas prácticas y de higiene y saneamiento",
+    "ent": "1. Plan HACCP y programas prerrequisito"
+   },
+   {
+    "code": "E3-05-T4",
+    "t": "Capacitar a los manipuladores en higiene y buenas prácticas y evaluar su aplicación en el puesto",
+    "ent": "1. Plan HACCP y programas prerrequisito"
+   },
+   {
+    "code": "E3-05-T5",
+    "t": "Monitorear puntos críticos de control y temperaturas",
+    "ent": "2. Registros de monitoreo y acciones correctivas"
+   },
+   {
+    "code": "E3-05-T6",
+    "t": "Aplicar acciones correctivas ante desviaciones",
+    "ent": "2. Registros de monitoreo y acciones correctivas"
+   }
+  ],
+  "prod": {
+   "name": "Plan HACCP del servicio de alimentación con sus programas prerrequisito",
+   "desc": "Plan HACCP que identifica los peligros de cada etapa del servicio, desde la recepción hasta el servido, y fija cómo se controlan en los puntos críticos y con qué prácticas del personal. Integra el diagnóstico sanitario, el análisis de peligros, los límites críticos, los procedimientos de monitoreo y corrección, y los programas de buenas prácticas, de higiene y saneamiento y de capacitación de manipuladores que lo sostienen. Se elabora con un equipo del servicio siguiendo los principios del Codex y la norma sanitaria, y se verifica con los registros de monitoreo, la evaluación del personal en el puesto y las auditorías internas. Orienta las decisiones de liberar, corregir o descartar alimentos y demuestra que el egresado previene brotes de enfermedades transmitidas por alimentos.",
+   "ents": [
+    {
+     "n": "1",
+     "t": "Plan HACCP y programas prerrequisito",
+     "codes": "E3-05-T1, E3-05-T2, E3-05-T3, E3-05-T4",
+     "sum": "diagnóstico, análisis de peligros, puntos críticos, programas de higiene y capacitación",
+     "ev": [
+      "plan HACCP del equipo del servicio",
+      "manual de buenas prácticas y programa de higiene y saneamiento",
+      "plan de capacitación con registro de asistencia y evaluación en el puesto"
+     ]
+    },
+    {
+     "n": "2",
+     "t": "Registros de monitoreo y acciones correctivas",
+     "codes": "E3-05-T5, E3-05-T6",
+     "sum": "monitoreo de límites críticos y correcciones aplicadas",
+     "ev": [
+      "registros de temperatura y puntos críticos",
+      "registro de acciones correctivas cerradas"
+     ]
+    }
+   ]
+  },
+  "fd": "Esta función tiene demanda porque las enfermedades transmitidas por alimentos enferman a 600 millones de personas al año [22], y en Perú un brote por Shigella en un comedor policial de Tacna alcanzó 49 % de incidencia en 2023 [20]. La NTS 173 exige principios de higiene en toda alimentación colectiva [8]; la NTS 098 lo hace en establecimientos de salud y pide capacitar a los manipuladores al menos cada seis meses [7]; y la RM 449-2006 regula el plan HACCP [9]. ESCO describe al especialista en seguridad alimentaria [4] y 21 de 38 avisos exigen HACCP, BPM o POES [31] [33]. Ello exige profesionales capaces de implementar y sostener sistemas de inocuidad.",
+  "ji": "En los próximos 5 años, esta función tendrá impacto porque la revisión de 2022 de los Principios generales de higiene del Codex articula las buenas prácticas, la capacitación del personal y el HACCP como un solo sistema [10]. Además, desde 2026 el Programa de Alimentación Escolar somete cada producto a un «Operativo Control» de higiene y certificaciones en plantas y almacenes [41], lo que eleva la exigencia de inocuidad a sus proveedores. Por eso es necesario que el egresado domine el aseguramiento de la inocuidad del servicio.",
+  "refs": "[4] [7] [8] [9] [10] [20] [22] [31] [33] [41]",
+  "conf": 3,
+  "lim": "Implementa y capacita con supervisión indirecta; validación oficial y vigilancia sanitaria son de DIGESA o DIRESA; la certificación de manipuladores, de entidad acreditada.",
+  "absorbe": [
+   "E3-06"
+  ],
+  "cambios": "Absorbe E3-06 como programa prerrequisito del HACCP (T4 agrupa capacitar y evaluar en el puesto); [13] de Wasi Mikuna se reemplaza por el Operativo Control del PAE 2026; año del brote de Tacna."
+ },
+ "E3-07": {
+  "t": "Auditoría sanitaria de servicios de alimentación y proveedores",
+  "d": "Audita e inspecciona servicios de alimentación propios, concesionados y de proveedores, incluida la prestación de programas sociales como el Programa de Alimentación Escolar, frente a la norma sanitaria, el contrato y los estándares, y gestiona las no conformidades y alertas hasta su cierre, para asegurar el cumplimiento y la inocuidad.",
+  "amb": "Entidades contratantes de concesionarios (hospitales, empresas mineras e industriales); áreas de calidad de concesionarios; plantas y almacenes de proveedores; supervisión del Programa de Alimentación Escolar e instituciones usuarias",
+  "tasks": [
+   {
+    "code": "E3-07-T1",
+    "t": "Planificar el programa de auditorías e inspecciones con listas de verificación basadas en la norma y el contrato",
+    "ent": "1. Programa y listas de verificación de auditoría"
+   },
+   {
+    "code": "E3-07-T2",
+    "t": "Inspeccionar cocinas, almacenes y comedores con listas de verificación",
+    "ent": "2. Informes de auditoría e inspección"
+   },
+   {
+    "code": "E3-07-T3",
+    "t": "Auditar plantas y almacenes de proveedores, incluidos los de programas sociales, en higiene, certificaciones y control de productos",
+    "ent": "2. Informes de auditoría e inspección"
+   },
+   {
+    "code": "E3-07-T4",
+    "t": "Supervisar la entrega y la preparación de los alimentos en las instituciones usuarias de programas sociales",
+    "ent": "2. Informes de auditoría e inspección"
+   },
+   {
+    "code": "E3-07-T5",
+    "t": "Registrar las no conformidades, alertas y reclamos con su plan de acción",
+    "ent": "3. Registro de no conformidades y alertas"
+   },
+   {
+    "code": "E3-07-T6",
+    "t": "Verificar el cierre de las acciones correctivas",
+    "ent": "3. Registro de no conformidades y alertas"
+   }
+  ],
+  "prod": {
+   "name": "Expediente de auditoría sanitaria de servicios y proveedores",
+   "desc": "Expediente de auditoría sanitaria que documenta cómo cumplen un servicio de alimentación, sus proveedores o la prestación de un programa social la norma sanitaria, el contrato y los estándares en un periodo. Integra el programa y las listas de verificación, los informes de cada auditoría, inspección o supervisión de entrega con su evidencia, y el registro de no conformidades, alertas y reclamos con sus planes de acción. Se elabora aplicando listas de verificación basadas en la norma vigente, con supervisión indirecta, y se verifica con el seguimiento documentado del cierre de cada no conformidad. Aporta a la entidad la evidencia para decidir continuidad, corrección o penalidad, y demuestra que el egresado audita con objetividad y trazabilidad.",
+   "ents": [
+    {
+     "n": "1",
+     "t": "Programa y listas de verificación de auditoría",
+     "codes": "E3-07-T1",
+     "sum": "calendario de auditorías y listas basadas en la norma y el contrato",
+     "ev": [
+      "programa anual de auditorías",
+      "listas de verificación aplicables"
+     ]
+    },
+    {
+     "n": "2",
+     "t": "Informes de auditoría e inspección",
+     "codes": "E3-07-T2, E3-07-T3, E3-07-T4",
+     "sum": "hallazgos con evidencia por servicio, proveedor e institución usuaria",
+     "ev": [
+      "informe de auditoría con registro fotográfico",
+      "fichas de supervisión de plantas, almacenes y entregas"
+     ]
+    },
+    {
+     "n": "3",
+     "t": "Registro de no conformidades y alertas",
+     "codes": "E3-07-T5, E3-07-T6",
+     "sum": "no conformidades, alertas, responsables, plazos y cierre",
+     "ev": [
+      "matriz de no conformidades y alertas con estado de cierre"
+     ]
+    }
+   ]
+  },
+  "fd": "Esta función tiene demanda porque en 2024 tres episodios en escuelas atendidas por el programa escolar afectaron a unos 59 estudiantes en Puno, Cajamarca y Áncash [21], y en 2026 los supervisores del Programa de Alimentación Escolar verificaron cada producto en plantas y almacenes [41]. La Ley 30188 reconoce las auditorías en alimentación y nutrición como función del nutricionista [5], la NTS 098 somete los servicios a inspección [7] y Cerro Verde inspecciona periódicamente a sus proveedores [26]. O*NET incluye vigilar normas sanitarias [1] y 11 de 38 avisos piden auditorías o inspecciones [33] [37]. Ello exige profesionales capaces de auditar con objetividad.",
+  "ji": "En los próximos 5 años, esta función tendrá impacto porque el DS 006-2025-MIDIS extinguió en 2025 el programa escolar Wasi Mikuna y declaró en emergencia el servicio [42], y su sucesor opera desde 2026 con mayores estándares de control y vigilancia y un «Operativo Control» en plantas y almacenes [41]. Además, la tercerización de la alimentación hospitalaria que admite la NTS 103 obliga a auditar al concesionario [6]. Por eso es necesario que el egresado domine la auditoría sanitaria de servicios y proveedores.",
+  "refs": "[1] [5] [6] [7] [21] [26] [33] [37] [41] [42]",
+  "conf": 3,
+  "lim": "Audita con supervisión indirecta; no ejerce vigilancia oficial, ni sanciona ni otorga conformidad a proveedores; la certificación requiere auditor acreditado.",
+  "absorbe": [
+   "E3-10"
+  ],
+  "cambios": "Rescatada y absorbe E3-10 sobre el PAE: T3 une la auditoría de plantas (ex E3-10-T2), T4 la supervisión de la entrega y T5 las alertas; se retiran E3-10-T1 y T5 (de E2-05); impacto con DS 006-2025 y PAE 2026."
+ },
+ "E3-08": {
+  "tasks": [
+   {
+    "code": "E3-08-T1",
+    "t": "Definir el tablero de indicadores del servicio",
+    "ent": "1. Tablero de indicadores del servicio"
+   },
+   {
+    "code": "E3-08-T2",
+    "t": "Controlar el costo de alimentos con el costo por ración estandarizado, los consumos y las mermas",
+    "ent": "1. Tablero de indicadores del servicio"
+   },
+   {
+    "code": "E3-08-T3",
+    "t": "Medir el desperdicio de alimentos con el pesaje de restos en producción y en plato",
+    "ent": "1. Tablero de indicadores del servicio"
+   },
+   {
+    "code": "E3-08-T4",
+    "t": "Medir la satisfacción de los comensales",
+    "ent": "1. Tablero de indicadores del servicio"
+   },
+   {
+    "code": "E3-08-T5",
+    "t": "Atender reclamos y observaciones del cliente",
+    "ent": "2. Informe de gestión y mejora"
+   },
+   {
+    "code": "E3-08-T6",
+    "t": "Elaborar el informe periódico de gestión",
+    "ent": "2. Informe de gestión y mejora"
+   }
+  ],
+  "prod": {
+   "name": "Informe de gestión del servicio de alimentación",
+   "desc": "Informe de gestión que muestra, para un periodo, cómo rinde el servicio de alimentación en costo, desperdicio, cumplimiento contractual y satisfacción de los comensales. Integra el tablero de indicadores con sus metas, el registro de pesaje de restos, el análisis de desviaciones, el resumen de reclamos atendidos y las acciones de mejora propuestas. Se elabora con el costo por ración estandarizado y con datos de consumo, inventario, pesaje, encuestas y reclamos, y se verifica cruzando lo reportado con los registros de producción y almacén. Orienta las decisiones de ajuste de menú, porciones y costos ante la dirección o el cliente y demuestra que el egresado gestiona el servicio con datos.",
+   "ents": [
+    {
+     "n": "1",
+     "t": "Tablero de indicadores del servicio",
+     "codes": "E3-08-T1, E3-08-T2, E3-08-T3, E3-08-T4",
+     "sum": "indicadores de costo, merma, desperdicio y satisfacción con metas",
+     "ev": [
+      "tablero de indicadores actualizado",
+      "registro de pesaje de restos en producción y en plato",
+      "resultados de encuesta de satisfacción"
+     ]
+    },
+    {
+     "n": "2",
+     "t": "Informe de gestión y mejora",
+     "codes": "E3-08-T5, E3-08-T6",
+     "sum": "análisis de desviaciones, reclamos y plan de mejora",
+     "ev": [
+      "informe periódico entregado al cliente o a la dirección",
+      "registro de reclamos con respuesta"
+     ]
+    }
+   ]
+  },
+  "ji": "En los próximos 5 años, esta función tendrá impacto porque el informe del PNUMA de 2024 atribuyó a los servicios de comida el 28 % de los alimentos desperdiciados en el mundo en 2022 [43], y la Ley 30988, de 2019, promueve prevenir ese desperdicio en el Perú [16]. Además, en 2026 un hospital operado por asociación público-privada busca jefe de alimentación con indicadores a su cargo [32]. Por eso es necesario que el egresado domine el control de gestión del servicio.",
+  "refs": "[1] [6] [16] [23] [32] [36] [38] [43]",
+  "conf": 3,
+  "lim": "Mide y reporta indicadores con supervisión indirecta; decisiones presupuestales y contractuales corresponden a jefatura, gerencia o entidad.",
+  "cambios": "Rescatada como complementaria: T3 mide el desperdicio con pesaje de restos (pedido del panel); T2 usa el costo por ración de E3-02; impacto con tendencia fechada del PNUMA 2024 y el año de la Ley 30988; se retira [13]."
+ },
+ "E3-09": {
+  "d": "Diseña y conduce programas de nutrición para trabajadores a partir de la vigilancia de su salud —diagnóstico y riesgo cardiometabólico del colectivo, menús según gasto energético, turnos y altitud, educación y consejería— en coordinación con salud ocupacional, para prevenir el exceso de peso y el riesgo cardiometabólico de la población laboral.",
+  "amb": "Campamentos mineros de altura en regímenes 14x7 y 28x14; comedores industriales y agroindustriales; empresas y entidades públicas con servicio de seguridad y salud en el trabajo",
+  "tasks": [
+   {
+    "code": "E3-09-T1",
+    "t": "Caracterizar el perfil nutricional y laboral de los trabajadores con los indicadores de los exámenes médico ocupacionales",
+    "ent": "1. Diagnóstico nutricional y de riesgo del colectivo"
+   },
+   {
+    "code": "E3-09-T2",
+    "t": "Estratificar el riesgo cardiometabólico del colectivo laboral",
+    "ent": "1. Diagnóstico nutricional y de riesgo del colectivo"
+   },
+   {
+    "code": "E3-09-T3",
+    "t": "Diseñar el programa nutricional y adecuar con el servicio los menús a turnos, exigencia física y altitud",
+    "ent": "2. Programa de alimentación saludable"
+   },
+   {
+    "code": "E3-09-T4",
+    "t": "Ejecutar sesiones de educación nutricional y consejería grupal e individual a los trabajadores",
+    "ent": "2. Programa de alimentación saludable"
+   },
+   {
+    "code": "E3-09-T5",
+    "t": "Evaluar los indicadores del programa y reportarlos a salud ocupacional y al comité de seguridad y salud en el trabajo",
+    "ent": "3. Informe de resultados al empleador"
+   }
+  ],
+  "prod": {
+   "name": "Programa de nutrición ocupacional de la empresa",
+   "desc": "Programa de nutrición ocupacional que organiza, para la población trabajadora de una empresa o campamento, qué se come, qué se enseña y cómo se mide el efecto en su salud nutricional. Integra el diagnóstico nutricional anonimizado desde los exámenes médico ocupacionales, la estratificación del riesgo cardiometabólico, la adecuación de menús a turnos, exigencia física y altitud, las actividades educativas y de consejería, y el reporte de indicadores al empleador. Se elabora con el médico ocupacional y el comité de seguridad y salud en el trabajo, y se verifica con la evolución del índice de masa corporal, el perímetro abdominal y la elección de platos saludables entre exámenes sucesivos. Orienta las decisiones preventivas y la oferta alimentaria de la empresa, y demuestra que el egresado vincula el servicio de alimentación con la salud del trabajador.",
+   "ents": [
+    {
+     "n": "1",
+     "t": "Diagnóstico nutricional y de riesgo del colectivo",
+     "codes": "E3-09-T1, E3-09-T2",
+     "sum": "perfil antropométrico, hábitos, condiciones de trabajo y riesgo por área o turno",
+     "ev": [
+      "base anonimizada de indicadores del personal",
+      "tabla de riesgo cardiometabólico por área o turno"
+     ]
+    },
+    {
+     "n": "2",
+     "t": "Programa de alimentación saludable",
+     "codes": "E3-09-T3, E3-09-T4",
+     "sum": "menús adecuados, cronograma educativo y consejería",
+     "ev": [
+      "programa aprobado por la empresa con lineamientos de menú",
+      "registro de sesiones y consejerías"
+     ]
+    },
+    {
+     "n": "3",
+     "t": "Informe de resultados al empleador",
+     "codes": "E3-09-T5",
+     "sum": "evolución de indicadores y recomendaciones al comité de seguridad y salud",
+     "ev": [
+      "informe de indicadores compartido con salud ocupacional y el comité"
+     ]
+    }
+   ]
+  },
+  "fd": "Esta función tiene demanda porque el 25,7 % de los peruanos de 15 años y más tiene obesidad [17] y, en 1198 mediciones de trabajadores de una mina a 4100 m s. n. m., el 36 % tuvo el perímetro de cintura alterado y todos ellos cumplían además los criterios de síndrome metabólico [19]. La Ley 29783 obliga al empleador a vigilar la salud y practicar exámenes médicos [45], con protocolos fijados por la RM 312-2011/MINSA [46]; el DS 024-2016-EM incluye programas de orientación alimenticia en minería [11]. La OIT recomienda programas de alimentación en el trabajo [24] y 7 de 38 avisos piden programas o consejería nutricional [28] [35]. Ello exige profesionales capaces de conducir programas nutricionales laborales.",
+  "refs": "[11] [17] [18] [19] [24] [28] [35] [45] [46]",
+  "conf": 3,
+  "lim": "Supervisión indirecta de salud ocupacional; la vigilancia médica y la aptitud son del médico ocupacional; deriva casos clínicos.",
+  "absorbe": [
+   "E2-08"
+  ],
+  "cambios": "Casa única de la nutrición ocupacional: incorpora de E2-08 el diagnóstico desde los exámenes ocupacionales, la estratificación del riesgo y el reporte al comité SST; T4 agrupa educación y consejería; corrige la lectura de [19]; suma Ley 29783."
+ },
+ "_refsNuevas": [
+  [
+   "[41]",
+   "Ministerio de Desarrollo e Inclusión Social. Midis asegura alimentación para más de 4.1 millones de estudiantes durante el 2026 (Programa de Alimentación Escolar, Operativo Control en plantas y almacenes). 2026",
+   "https://www.gob.pe/institucion/midis/noticias/1366300-midis-asegura-alimentacion-para-mas-de-4-1-millones-de-estudiantes-durante-el-2026",
+   "Verificado (leído el 25/09/2026: 4 187 782 estudiantes, 67 055 II. EE., 107 837,08 t, Operativo Control)"
+  ],
+  [
+   "[42]",
+   "Ministerio de Desarrollo e Inclusión Social. Decreto Supremo N.° 006-2025-MIDIS que aprueba la extinción del Programa Nacional de Alimentación Escolar Comunitaria Wasi Mikuna. 2025",
+   "https://www.gob.pe/institucion/midis/normas-legales/6666332-006-2025-midis",
+   "Verificado (leído el 25/09/2026: fecha 13/04/2025, art. 1; la emergencia del servicio la confirmó X6 en el acta de E2)"
+  ],
+  [
+   "[43]",
+   "Programa de las Naciones Unidas para el Medio Ambiente (PNUMA). World squanders over 1 billion meals a day – UN report (Food Waste Index Report 2024). 2024",
+   "https://www.unep.org/news-and-stories/press-release/world-squanders-over-1-billion-meals-day-un-report",
+   "Verificado (leído el 25/09/2026: 1,05 mil millones de t en 2022; hogares 60 %, servicios de comida 28 %, comercio 12 %)"
+  ],
+  [
+   "[44]",
+   "Congreso de la República. Ley N.° 32069, Ley General de Contrataciones Públicas (texto consolidado; publicada el 24/06/2024). 2024",
+   "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32069-TXM.pdf",
+   "Verificado (leído el 25/09/2026: art. 25.1 c, área usuaria formula el requerimiento y emite la conformidad; art. 46, requerimiento en especificaciones técnicas)"
+  ],
+  [
+   "[45]",
+   "Congreso de la República. Ley N.° 29783, Ley de Seguridad y Salud en el Trabajo. 2011",
+   "https://www.saludarequipa.gob.pe/desa/archivos/Normas_Legales/LEY%2029783%20LEY%20DE%20SEGURIDAD%20Y%20SALUD%20EN%20EL%20TRABAJO.pdf",
+   "Verificado (leído el 25/09/2026: art. 49 d, exámenes médicos antes, durante y al término de la relación laboral; vigilancia de la salud)"
+  ],
+  [
+   "[46]",
+   "Ministerio de Salud, DIGESA. Protocolos de exámenes médico ocupacionales y guías de diagnóstico de los exámenes médicos obligatorios por actividad (R. M. N.° 312-2011/MINSA). 2011",
+   "https://repositorio.minsa.gob.pe/handle/MINSA/79871",
+   "Verificado (ficha del repositorio leída el 25/09/2026; el PDF no se descargó: el contenido antropométrico no se cita)"
+  ]
+ ]
+}

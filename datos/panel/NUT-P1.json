@@ -1,0 +1,37 @@
+{
+ "rol": "P1",
+ "perfil": "Analista de mercado laboral y ocupaciones",
+ "calificaciones": {
+  "NUT-01": {"E": 4, "comentario": "Mayor volumen del campo (9 103 avisos), público y privado en todas las regiones; único puesto con reserva legal y colegiatura exigida en todos los avisos.", "fuente": "[E-13][E-9][E-1][N-2]"},
+  "NUT-02": {"E": 4, "comentario": "Segundo bloque con puesto propio: Sodexo, Newrest, NATCLAR en regímenes 14x7 y 21x7; PAE con S/ 2 636,6 M. Exigen colegiatura y HACCP.", "fuente": "[E-12][E-7][E-B15][P-L4]"},
+  "NUT-03": {"E": 3, "comentario": "Tercer bloque contratante: DIRESA, redes, Cuna Más con CAS; señal de escasez más fuerte (recorte SERUMS). Dependiente del Estado, sin negocio propio.", "fuente": "[E-1][E-3][E-5]"},
+  "NUT-04": {"E": 3, "comentario": "No hay puesto separado, pero toda plaza de primer nivel y Cuna Más exige manejar anemia, CRED y gestante; Tarapoto la admite como especialización.", "fuente": "[E-1][E-9][E-3]"},
+  "NUT-05": {"E": 2, "comentario": "Mercado en crecimiento (736 → 1 013 avisos) pero entrada baja S/ 1 320–2 400, freelance y colegiatura no siempre exigida. Diferenciador, no núcleo.", "fuente": "[E-11][E-B6][E-2]"},
+  "NUT-06": {"E": 2, "comentario": "Sin puesto propio: un aviso con ISAK 1 como tarea añadida a S/ 2 400. Es competencia instrumental de clínica y deporte, no especialidad contratada.", "fuente": "[E-11][E-B9]"},
+  "NUT-07": {"E": 2, "comentario": "Sin conteo de avisos; Nestlé y Alicorp no piden nutricionista; plaza compartida con ingeniería de alimentos. El mercado prefiere al ingeniero aquí.", "fuente": "[E-B10][E-10][E-B7]"},
+  "NUT-08": {"E": 3, "comentario": "Centros de control de peso y clínicas contratan con colegiatura; 8 M adultos con obesidad sostienen consulta privada. Sin datos bariátricos, el manejo de obesidad sí es núcleo.", "fuente": "[E-B8][E-B13][P-S]"},
+  "NUT-09": {"E": 2, "comentario": "Pocos avisos pero remuneración atípica S/ 8 000 y habilitación indispensable; nicho regional minero en expansión. Útil como mención, no exigible al egresado.", "fuente": "[E-6][E-12][E-B5]"},
+  "NUT-10": {"E": 2, "comentario": "Contratación a la baja: Wasi Mikuna de 1 a 0 convocatorias, dos programas disueltos, admite carreras afines a S/ 3 200. Misma convocatoria que comunitaria.", "fuente": "[E-4][E-10][E-1]"},
+  "NUT-11": {"E": 2, "comentario": "Sector de mayor demanda según prensa y 913 avisos online, pero freelance sin colegiatura desde S/ 1 800 y expuesta a apps. Es modo de ejercicio, no campo.", "fuente": "[E-B14][E-2][E-6]"},
+  "NUT-14": {"E": 2, "comentario": "Ningún aviso menciona geriatría o residencias hoy; el driver demográfico (60+ = 14,3 %) aún no genera puesto diferenciado. Tarea dentro de clínica a cinco años.", "fuente": "[E][P-S]"},
+  "NUT-17": {"E": 1, "comentario": "Cero avisos en 15 búsquedas, sin cifras peruanas ni laboratorio contratante. No es puesto ni negocio en el país; a lo sumo electivo.", "fuente": "[E][P-S]"},
+  "NUT-19": {"E": 1, "comentario": "Puesto de auxiliar con secundaria o técnico, S/ 1 200 sin colegiatura; compite con el titulado hacia abajo y se automatiza. No forma perfil profesional.", "fuente": "[E-7][E-13]"}
+ },
+ "faltan": [
+  "Nutrición renal y en diálisis: 3 M con ERC, 23 000 que deberían dializarse, ingreso a diálisis +8 %/año en EsSalud y segunda especialidad inscrita en el CNP; hoy es tarea del puesto clínico pero es el nicho clínico con mayor crecimiento observado [P-L9][N-7]",
+  "Nutricionista comercial / asesoría técnico-comercial de industria y suplementos: puesto real descubierto en el barrido (NC Company, Nestlé) que ninguna especialidad de la cartera recoge [E-B7][E-B10]"
+ ],
+ "integrar": [
+  "NUT-03 + NUT-10: el Estado las contrata en la misma convocatoria CAS (DIRESA, Cuna Más, PAE) con el mismo perfil colegiado; programas sociales es una unidad territorial de la comunitaria [E-1][E-10]",
+  "NUT-02 + NUT-19: las concesionarias y clínicas cubren la producción y despacho con auxiliares bajo el licenciado que dirige el servicio; la dietética operativa es función subordinada de servicios de alimentación [E-7][E-13]",
+  "NUT-02 + NUT-09: Sodexo, Newrest y NATCLAR contratan servicio de alimentación y vigilancia nutricional del trabajador en el mismo campamento minero con regímenes 14x7 y 21x7 [E-12][E-7]",
+  "NUT-08 + NUT-11: los centros de control de peso y las start-ups de coaching contratan la misma consulta privada presencial o virtual de manejo de peso [E-B8][E-B13][E-B14]",
+  "NUT-06 dentro de NUT-01 y NUT-05: ISAK y composición corporal se piden como requisito del puesto clínico o deportivo, nunca como puesto propio [E-11]"
+ ],
+ "noPuesto": [
+  "NUT-17 Nutrición personalizada y nutrigenómica: ningún aviso ni negocio identificado en el país [E]",
+  "NUT-19 Dietética hospitalaria operativa: es puesto, pero auxiliar sin colegiatura a S/ 1 200; no es puesto profesional ni negocio [E-7]",
+  "NUT-06 Evaluación nutricional avanzada: tarea añadida a otro puesto, sin empleador dedicado [E-11]",
+  "NUT-11 Consultoría privada y online: es negocio y modo de ejercicio, no puesto contratado con perfil propio [E-B14][E-2]"
+ ]
+}

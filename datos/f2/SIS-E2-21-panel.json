@@ -1,0 +1,1012 @@
+{
+ "cod": "SIS",
+ "k": "E2",
+ "expertos": [
+  "X1 · Académico-investigador · doctor en Ciencias de la Computación · 15 años de docencia e investigación en ingeniería de software, redes y nube, ciencia de datos, ciberseguridad y gobierno de TI · ACM/IEEE CC2020, SWEBOK v4, SFIA 9",
+  "X2 · Empleador del sector público · jefe de la Oficina de Tecnologías de la Información de una entidad pública peruana · 12 años en OTI de ministerios y organismos · gobierno digital, contrataciones TIC y SGSI",
+  "X3 · Empleador del sector privado · gerente de tecnología · 16 años · banca, retail y consultora de TI en Lima · contrata desarrollo, datos, infraestructura, seguridad y proyectos",
+  "X4 · Profesional senior · 15 años · desarrollo, infraestructura, seguridad y gestión de TI en banca, fábricas de software y sector público peruano · SFIA, ITIL, ISO/IEC 27001, PMBOK",
+  "X5 · Egresado reciente · 3 años · desarrollo backend en fintech, soporte de infraestructura en ISP y analítica de datos en retail; contacto con pares en SOC, auditoría de TI y oficinas de TI del Estado",
+  "X6 · Experto contextual · 15 años · consultor en transformación digital del Estado y regulación TIC (gobierno digital, datos personales, ciberseguridad, IA) para entidades públicas y banca"
+ ],
+ "cvrCrit": "1,00",
+ "acta": "Panel de 6 expertos simulados (X1–X6) y guardián metodológico · rondas 1 y 2 · N = 6: I-CVI ≥ 0,83 y CVR crítico 1,00 (Ayre y Scally, 2014). Un solo panel por carrera: cada experto calificó en su rol todas las especialidades. Pre-validación de agentes: la validación oficial la repiten especialistas humanos con el mismo instrumento.",
+ "resumen": "4 núcleo · 3 complementarias · 5 propuestas de exclusión · 9 con bloques observados en R1 · S-CVI/Ave 0,94",
+ "sCVI": "0,94",
+ "funciones": {
+  "E2-01": {
+   "icvi": "1,00",
+   "cvr": "0,67",
+   "prioridad": 8,
+   "N": 2,
+   "lim": "Propone diseños de nube de complejidad media con revisión de un arquitecto senior; no aprueba arquitectura corporativa, contratos ni compromisos de gasto.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función complementaria",
+   "decision2": "Función complementaria",
+   "escuela": null,
+   "demDelphi": "Baja",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "rev"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {
+    "pb": "Un egresado no diseña zonas de aterrizaje ni multinube. Alcanzable: arquitectura de una aplicación en una cuenta. N=2 y producto acotado. La descripción usa verbo conjugado («Diseña»). · N=2: diseñar zonas de aterrizaje al egreso requiere supervisión directa. P3=2: la revisión por pilares con plan de mejoras excede ese nivel. Verifiqué NUBE PERÚ como bloque básico (DS 098-2025)."
+   },
+   "ajustes": {
+    "d": "Diseñar con supervisión la arquitectura en la nube de una aplicación o servicio y la migración de sus cargas desde la infraestructura local, dimensionando cómputo, almacenamiento, red y servicios gestionados según carga, disponibilidad, seguridad y costo.",
+    "amb": "Nube pública e híbrida; migración por oleadas de cargas locales a la nube; centros de datos locales; entidades públicas (NUBE PERÚ) y empresas privadas",
+    "tasks": [
+     {
+      "code": "E2-01-T1",
+      "t": "Levantar requisitos no funcionales de carga, disponibilidad, seguridad y costo de la aplicación",
+      "ent": "1. Especificación de requisitos y decisiones de arquitectura"
+     },
+     {
+      "code": "E2-01-T2",
+      "t": "Comparar modelos de servicio y de despliegue (IaaS, PaaS o híbrido) con criterios explícitos",
+      "ent": "1. Especificación de requisitos y decisiones de arquitectura"
+     },
+     {
+      "code": "E2-01-T3",
+      "t": "Configurar la cuenta, las redes virtuales, las identidades y las políticas base sobre la zona de aterrizaje definida",
+      "ent": "2. Diseño de la cuenta, dimensionamiento y plan de migración"
+     },
+     {
+      "code": "E2-01-T4",
+      "t": "Dimensionar recursos de cómputo, almacenamiento y red para la carga estimada",
+      "ent": "2. Diseño de la cuenta, dimensionamiento y plan de migración"
+     },
+     {
+      "code": "E2-01-T5",
+      "t": "Inventariar las cargas locales y sus dependencias y proponer su estrategia de migración por oleadas",
+      "ent": "2. Diseño de la cuenta, dimensionamiento y plan de migración"
+     },
+     {
+      "code": "E2-01-T6",
+      "t": "Documentar la arquitectura con diagramas y registros de decisión",
+      "ent": "1. Especificación de requisitos y decisiones de arquitectura"
+     }
+    ],
+    "prod": {
+     "name": "Documento de arquitectura en la nube de una aplicación",
+     "desc": "Documento de arquitectura en la nube de una aplicación que define cómo se desplegará y, cuando corresponde, cómo se migrará desde la infraestructura local, y sirve de base para aprovisionarla y operarla. Integra los requisitos no funcionales, el modelo de servicio elegido con sus alternativas, la configuración de cuenta, redes e identidades, el dimensionamiento de recursos, la estrategia de migración por oleadas y los registros de decisión. Se elabora a partir de entrevistas y datos de carga, se modela con diagramas estándar y se verifica en una revisión técnica con un arquitecto senior y contra los lineamientos de nube del Estado. Orienta la decisión de despliegue y de migración, y demuestra que el egresado propone una plataforma que equilibra disponibilidad, seguridad y costo.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Especificación de requisitos y decisiones de arquitectura",
+       "codes": "E2-01-T1, E2-01-T2, E2-01-T6",
+       "sum": "requisitos no funcionales, alternativas evaluadas y registros de decisión",
+       "ev": [
+        "matriz de requisitos no funcionales validada con el usuario",
+        "registro de decisiones de arquitectura con alternativas y criterios"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Diseño de la cuenta, dimensionamiento y plan de migración",
+       "codes": "E2-01-T3, E2-01-T4, E2-01-T5",
+       "sum": "diagrama de cuenta, redes e identidades, cálculo de capacidad y estrategia de migración por carga",
+       "ev": [
+        "diagrama de arquitectura de la cuenta",
+        "hoja de dimensionamiento con supuestos de carga",
+        "inventario de cargas con estrategia de migración por oleadas"
+       ]
+      }
+     ]
+    },
+    "conf": 2,
+    "lim": "Propone diseños y migraciones de nube de complejidad media con revisión de un arquitecto; no aprueba arquitectura corporativa, contratos, gasto ni cortes de sistemas críticos.",
+    "absorbe": [
+     "E2-02"
+    ],
+    "cambios": "Absorbe E2-02: la migración por oleadas queda como ámbito y tarea; producto acotado a la arquitectura de una aplicación en una cuenta (sin diseño de zona de aterrizaje ni revisión por pilares); descripción en infinitivo; conf 2."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 6 tareas, todas con entregable y códigos",
+    "5": "Cumple · 111 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 85 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 7 palabras"
+   },
+   "ind": {
+    "F": 2,
+    "C": 4,
+    "V": 4,
+    "L": 3,
+    "ricP": 0.25,
+    "icviS": "1,00",
+    "icviP": "0,67",
+    "Tm": 4
+   }
+  },
+  "E2-02": {
+   "icvi": "1,00",
+   "cvr": "-1,00",
+   "prioridad": 6,
+   "N": 2,
+   "lim": "Ejecuta migraciones de cargas no críticas por oleadas con supervisión; no decide la ventana de corte ni la aceptación de sistemas críticos.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Fusionada en E2-01",
+   "escuela": {
+    "accion": "fusionar",
+    "destino": "E2-01",
+    "motivo": "La migración es por proyecto y ocasional: queda como ámbito de la arquitectura de la plataforma en la nube."
+   },
+   "demDelphi": "Baja",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "Es por proyecto (ocasional) y la ejecutan mayormente consultoras; útil como experiencia, no como encargo continuo. Podría integrarse a E2-01 como fase de adopción.",
+    "sb": "S1 débil: el índice de madurez digital no mide demanda de migración y solo 7 de 61 avisos la piden. Podría integrarse a E2-01 como tarea o etapa. · Frecuencia baja (7 de 61 avisos). El dato de madurez digital del 9 % y 73 % (EY) no prueba demanda de migración; falta evidencia peruana directa de proyectos de migración."
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 119 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 74 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "ind": {
+    "F": 2,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "0,17",
+    "icviP": "0,83",
+    "Tm": 4
+   }
+  },
+  "E2-03": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 9,
+   "N": 3,
+   "lim": "Diseña e implementa redes de sede o campus mediano; cambios del núcleo, enrutamiento con proveedores y diseños multisede críticos requieren aprobación de un ingeniero senior.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": "Función núcleo",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Medio",
+   "r1": {
+    "fb": "ok",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {
+    "sb": "S1: la brecha de internet en hogares rurales no sustenta demanda de redes corporativas y una convocatoria SUNAT no es norma; el dato principal deberían ser los 28 de 61 avisos y O*NET. · Función muy real en OTI. Pero la brecha rural de acceso a internet en hogares no sustenta la demanda de redes corporativas; mejor usar avisos y convocatorias."
+   },
+   "ajustes": {
+    "d": "Diseñar, configurar y poner en servicio las redes de datos locales, de área amplia e inalámbricas de la organización, con su direccionamiento, segmentación, redes privadas virtuales y telefonía IP, para que sedes, usuarios y sistemas se comuniquen de forma fiable y segura.",
+    "tasks": [
+     {
+      "code": "E2-03-T1",
+      "t": "Levantar requisitos de conectividad, tráfico y crecimiento de las sedes",
+      "ent": "1. Diseño lógico y físico de la red"
+     },
+     {
+      "code": "E2-03-T2",
+      "t": "Diseñar la topología, el direccionamiento IP, la segmentación en redes virtuales y las zonas de la red",
+      "ent": "1. Diseño lógico y físico de la red"
+     },
+     {
+      "code": "E2-03-T3",
+      "t": "Calcular el dimensionamiento de enlaces y equipos de red",
+      "ent": "1. Diseño lógico y físico de la red"
+     },
+     {
+      "code": "E2-03-T4",
+      "t": "Configurar conmutadores, enrutadores, puntos de acceso inalámbricos y redes privadas virtuales entre sedes y para acceso remoto",
+      "ent": "2. Configuración y protocolo de pruebas de la red"
+     },
+     {
+      "code": "E2-03-T5",
+      "t": "Configurar la telefonía IP sobre la red corporativa y coordinar los enlaces con los operadores",
+      "ent": "2. Configuración y protocolo de pruebas de la red"
+     },
+     {
+      "code": "E2-03-T6",
+      "t": "Probar conectividad y rendimiento y documentar la red instalada",
+      "ent": "2. Configuración y protocolo de pruebas de la red"
+     }
+    ],
+    "prod": {
+     "name": "Expediente técnico de la red corporativa",
+     "desc": "Expediente técnico de la red corporativa que describe cómo se conectan las sedes, los usuarios y los sistemas de la organización y sirve como referencia para instalar, operar y ampliar la red. Integra los requisitos de tráfico y crecimiento, la topología lógica y física, el plan de direccionamiento, segmentación y zonas, el cálculo de enlaces y equipos, las redes privadas virtuales, la telefonía IP y las configuraciones finales. Se elabora con levantamiento en sitio y herramientas de diseño, y se verifica con pruebas de conectividad, rendimiento, voz y conmutación por falla antes de la entrega. Orienta la decisión de compra de equipos y enlaces, y demuestra que el egresado entrega una red funcional, segmentada y documentada.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Diseño lógico y físico de la red",
+       "codes": "E2-03-T1, E2-03-T2, E2-03-T3",
+       "sum": "topología, plan de direccionamiento, segmentación, zonas y cálculo de capacidad",
+       "ev": [
+        "diagrama de topología lógica y física",
+        "plan de direccionamiento y segmentación"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Configuración y protocolo de pruebas de la red",
+       "codes": "E2-03-T4, E2-03-T5, E2-03-T6",
+       "sum": "configuraciones de equipos, redes privadas virtuales y telefonía IP, pruebas de aceptación y diagramas finales",
+       "ev": [
+        "respaldo de configuraciones de equipos",
+        "protocolo de pruebas de conectividad, rendimiento y voz firmado"
+       ]
+      }
+     ]
+    },
+    "fd": "Esta función tiene demanda porque 28 de 61 avisos revisados en el Perú piden configurar redes corporativas y 11 exigen diseñarlas o calcularlas [21] [24]. O*NET y ESCO describen el diseño, la configuración y la prueba de redes LAN y WAN como tarea central de arquitectos y administradores de red [2] [6]; O*NET incluye además implementar servicios de voz, y ESCO administrar pasarelas VPN [1] [6]. En el sector público, la SUNAT convoca especialistas para administrar la plataforma de red, el cableado estructurado, los enlaces y la telefonía IP [19]. Ello exige profesionales capaces de diseñar e implementar redes corporativas segmentadas y documentadas.",
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque al cierre de 2025 las conexiones fijas a internet llegaron a 4,38 millones, 82 % de ellas por fibra, con un crecimiento de 15 % en regiones [28], lo que amplía la capacidad disponible para sedes y enlaces corporativos. Además, SFIA 9 extiende el diseño de red a topologías virtuales y conectividad híbrida con la nube [9]. Por eso es necesario que el egresado domine el diseño y la implementación de redes corporativas.",
+    "refs": "[1] [2] [6] [9] [19] [21] [24] [28]",
+    "conf": 3,
+    "lim": "Diseña e implementa redes de sede o campus mediano; cambios del núcleo, enrutamiento con proveedores y diseños multisede críticos requieren aprobación de un ingeniero senior.",
+    "cambios": "Recibe la telefonía IP (de E2-04, excluida) y la segmentación y las VPN (de E2-11, excluida) en seis tareas. FD sin brecha rural de hogares ni CAS como norma; JI sin la Ley 29904 de 2012; descripción en infinitivo."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 116 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 79 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "ind": {
+    "F": 3,
+    "C": 3,
+    "V": 2,
+    "L": 4,
+    "ricP": 0.25,
+    "icviS": "0,17",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E2-04": {
+   "icvi": "0,33",
+   "cvr": "-1,00",
+   "prioridad": 6,
+   "N": 3,
+   "lim": "Implementa enlaces, voz IP y accesos locales coordinando con operadores; no hace ingeniería de radiofrecuencia, red troncal del operador ni trámites de concesión.",
+   "real": "100 %",
+   "acuerdo": "67 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Excluida por la Escuela",
+   "escuela": {
+    "accion": "excluir",
+    "motivo": "Fibra de acceso y comunicaciones de campo son de Ingeniería de Telecomunicaciones o Electrónica; la telefonía IP pasa como tarea a E2-03."
+   },
+   "demDelphi": "Baja",
+   "impDelphi": "Medio",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "Función de frontera con Ingeniería de Telecomunicaciones o Electrónica (fibra, operador, radio). Para Sistemas conviene reducirla a voz IP y enlaces del cliente y fusionarla con E2-03. · En la entidad coordinamos enlaces y telefonía IP, pero aprovisionar redes de acceso de fibra es trabajo del operador y de Telecomunicaciones, no de Sistemas. OSIPTEL verificado (4,38 millones; 82 % fibra).",
+    "sb": "La función (fibra de acceso, telefonía IP, comunicaciones de campo) roza el campo de Ingeniería de Telecomunicaciones o Electrónica; el panel debe confirmar que corresponde a la carrera. · Real en ISP, pero la telefonía IP tradicional declina frente a comunicaciones en la nube. Frontera difusa con Ingeniería de Telecomunicaciones. Vigencia se mantiene, no crece."
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 104 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · fondo · no hay tendencia fechada: la Ley 29904 es de 2012 y la PNTD se cita sin dato ni fecha · 67 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "ind": {
+    "F": 2,
+    "C": 3,
+    "V": 2,
+    "L": 4,
+    "ricP": 1,
+    "icviS": "0,17",
+    "icviP": "1,00",
+    "Tm": 3
+   }
+  },
+  "E2-05": {
+   "icvi": "1,00",
+   "cvr": "0,33",
+   "prioridad": 9,
+   "N": 3,
+   "lim": "Escribe y prueba módulos de infraestructura con revisión por pares; no aplica cambios en producción sin aprobación del responsable de plataforma.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función complementaria",
+   "decision2": "Función complementaria",
+   "escuela": null,
+   "demDelphi": "Media",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {},
+   "ajustes": {
+    "d": "Aprovisionar y configurar servidores, redes y servicios en la nube mediante código versionado y reutilizable, para que la plataforma se cree de forma reproducible, auditable y sin errores manuales.",
+    "fd": "Esta función tiene demanda porque las fallas de TI y de red ya explican el 23 % de las caídas graves, atribuidas a la mayor complejidad, a errores de configuración y a la gestión de cambios [37]. ESCO asigna al administrador de sistemas automatizar tareas rutinarias y SFIA 9 exige automatizar la administración con herramientas y guiones desde el nivel 3 [5] [8]. En el mercado, 17 de 61 avisos piden automatización y el aviso de DevOps de Indra exige diseñar infraestructura con Terraform, Ansible y GitOps [21] [23]. Ello exige profesionales capaces de aprovisionar infraestructura reproducible y auditable.",
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque el informe DORA de 2025 encontró que el 90 % de las organizaciones ya adoptó al menos una plataforma interna y que su calidad determina el valor que obtienen de la IA [35]. Los proveedores de nube también fijan la excelencia operativa como pilar de arquitectura [39]. Por eso es necesario que el egresado domine el aprovisionamiento automatizado de la infraestructura.",
+    "refs": "[5] [8] [21] [23] [35] [37] [39]",
+    "conf": 3,
+    "lim": "Escribe y prueba módulos de infraestructura con revisión por pares; no aplica cambios en producción sin aprobación del responsable de plataforma.",
+    "cambios": "Descripción en infinitivo; JI declara el año (DORA 2025); se retira del FD el dato no específico del 60 % de vacantes difíciles; lim del panel."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 115 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 63 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "ind": {
+    "F": 3,
+    "C": 3,
+    "V": 4,
+    "L": 4,
+    "ricP": 1,
+    "icviS": "0,83",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E2-06": {
+   "icvi": "1,00",
+   "cvr": "-0,67",
+   "prioridad": 9,
+   "N": 3,
+   "lim": "Construye y ajusta flujos de despliegue; la liberación a producción de sistemas críticos y la administración de clústeres productivos las autoriza el responsable de plataforma.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Fusionada en E1-10",
+   "escuela": {
+    "accion": "fusionar",
+    "destino": "E1-10",
+    "motivo": "Duplica E1-10; la plataforma de contenedores pasa como tarea a E2-07."
+   },
+   "demDelphi": "Media",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "Duplica E1-10 y solo 7 de 61 avisos la piden. Sugiero dejar la canalización en E1 y aquí solo la plataforma de contenedores y clústeres. · Duplica E1-10. Solo 7 de 61 avisos y la evidencia es extranjera (CNCF, DORA). Propongo fusionarla con E1-10 en una sola función y ubicarla en una especialidad.",
+    "sb": "no alcanzó el umbral"
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 97 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 70 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "ind": {
+    "F": 3,
+    "C": 3,
+    "V": 4,
+    "L": 4,
+    "ricP": 0.25,
+    "icviS": "0,33",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E2-07": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 12,
+   "N": 3,
+   "lim": "Administra servidores y virtualización con procedimientos aprobados; los cambios mayores en sistemas críticos pasan por el comité de cambios.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": "Función núcleo",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Medio",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {},
+   "ajustes": {
+    "d": "Instalar, configurar, actualizar y mantener servidores físicos y virtuales, sistemas operativos, servicios de directorio, almacenamiento y la plataforma de contenedores, en local y en la nube, para que los sistemas de la organización funcionen de forma estable y segura.",
+    "tasks": [
+     {
+      "code": "E2-07-T1",
+      "t": "Instalar y configurar servidores físicos, máquinas virtuales y sistemas operativos",
+      "ent": "1. Servidores y plataformas configurados con línea base"
+     },
+     {
+      "code": "E2-07-T2",
+      "t": "Administrar servicios de directorio, identidades y permisos",
+      "ent": "1. Servidores y plataformas configurados con línea base"
+     },
+     {
+      "code": "E2-07-T3",
+      "t": "Aplicar actualizaciones y parches según calendario de cambios",
+      "ent": "2. Registro de mantenimiento y manual de procedimientos"
+     },
+     {
+      "code": "E2-07-T4",
+      "t": "Administrar almacenamiento y plataformas de virtualización",
+      "ent": "1. Servidores y plataformas configurados con línea base"
+     },
+     {
+      "code": "E2-07-T5",
+      "t": "Administrar la plataforma de contenedores y sus clústeres en operación",
+      "ent": "1. Servidores y plataformas configurados con línea base"
+     },
+     {
+      "code": "E2-07-T6",
+      "t": "Documentar configuraciones y procedimientos operativos",
+      "ent": "2. Registro de mantenimiento y manual de procedimientos"
+     }
+    ],
+    "prod": {
+     "name": "Línea base de configuración y manual operativo de servidores",
+     "desc": "Línea base de configuración y manual operativo de servidores que fija cómo debe estar configurado cada servidor, máquina virtual o clúster de contenedores y cómo se mantiene en el tiempo. Integra el inventario de servidores físicos, virtuales y clústeres, los estándares de sistema operativo, directorio, almacenamiento y contenedores, el calendario de parches y los procedimientos operativos. Se elabora a partir de las guías del fabricante y de la política de seguridad de la organización, y se verifica con revisiones de cumplimiento de la línea base y el registro de cambios aplicados. Orienta la decisión de actualizar, reemplazar o reforzar servidores, y demuestra que el egresado mantiene la plataforma estable y segura.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Servidores y plataformas configurados con línea base",
+       "codes": "E2-07-T1, E2-07-T2, E2-07-T4, E2-07-T5",
+       "sum": "servidores, directorio, almacenamiento, virtualización y clústeres de contenedores configurados según estándar",
+       "ev": [
+        "línea base de configuración aplicada",
+        "inventario de servidores, máquinas virtuales y clústeres actualizado"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Registro de mantenimiento y manual de procedimientos",
+       "codes": "E2-07-T3, E2-07-T6",
+       "sum": "parches aplicados, cambios ejecutados y procedimientos documentados",
+       "ev": [
+        "registro de parches y cambios aplicados",
+        "manual de procedimientos operativos vigente"
+       ]
+      }
+     ]
+    },
+    "fd": "Esta función tiene demanda porque 32 de 61 avisos revisados en el Perú piden administrar servidores Windows y Linux, virtualización o directorio, en sectores como salud, retail, minería y educación [21] [22]. O*NET describe mantener y administrar redes, hardware, software de sistemas y sus configuraciones, y ESCO asigna al administrador de sistemas la configuración, el funcionamiento fiable y la seguridad de servidores [1] [5]. La SUNAT convoca expertos de infraestructura tecnológica y su plataforma cloud ya opera servicios de contenedores [18] [17]. Ello exige profesionales capaces de administrar servidores y plataformas virtualizadas de forma estable y segura.",
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque en 2025 el 82 % de las organizaciones que usan contenedores ya los ejecutaba con Kubernetes en producción, frente al 66 % en 2023 [36]. La nube no elimina los servidores: según Flexera, en 2025 el gasto en nube proyectaba crecer 28 % y el 60 % de las organizaciones recurría a proveedores gestionados [32]. Por eso es necesario que el egresado domine la administración de servidores y plataformas virtualizadas.",
+    "refs": "[1] [5] [17] [18] [21] [22] [32] [36]",
+    "conf": 3,
+    "lim": "Administra servidores y virtualización con procedimientos aprobados; los cambios mayores en sistemas críticos pasan por el comité de cambios.",
+    "cambios": "Recibe de E2-06 la administración de la plataforma de contenedores como tarea; JI con años (CNCF 2025, Flexera 2025); descripción en infinitivo; conf baja de 4 a 3 y lim del panel."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 95 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 74 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "ind": {
+    "F": 4,
+    "C": 3,
+    "V": 2,
+    "L": 4,
+    "ricP": 0.25,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E2-08": {
+   "icvi": "1,00",
+   "cvr": "0,67",
+   "prioridad": 12,
+   "N": 4,
+   "lim": "Resuelve incidentes y requerimientos de niveles 1 y 2 con procedimientos; escala incidentes mayores y no ejecuta cambios de alto riesgo sin aprobación.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función complementaria",
+   "decision2": "Función complementaria",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Medio",
+   "r1": {
+    "fb": "rev",
+    "sb": "rev",
+    "pb": "rev"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "Acotar al diagnóstico y restablecimiento técnico (T2, T3) y dejar la gestión de problemas y cambios (T4, T5) a E5-10, o delimitar el nivel de cada una. · Se solapa con E5-10 (incidentes, problemas y cambios). Delimitar: aquí resolver técnicamente; en E5-10 gestionar el proceso. Muestra de avisos sesgada a proveedores de fibra.",
+    "sb": "Demanda real pero de perfil técnico (NOC, sobre todo ISP) y solapa con E5-10. S2 cita la notificación de incidentes de seguridad, que corresponde a E4. · S2 impreciso: el DS 126-2025-PCM (vigente desde 03-02-2026) exige 48 horas solo para incidentes críticos y a proveedores de servicios digitales, no para toda incidencia. Se superpone con E5-10.",
+    "pb": "Acotar al diagnóstico y restablecimiento técnico (T2, T3) y dejar la gestión de problemas y cambios (T4, T5) a E5-10, o delimitar el nivel de cada una. · Se superpone con E5-10: aquí la atención técnica, allá la gestión del proceso. ENT2 descansa en una sola tarea y una sola evidencia; podría integrarse en ENT1."
+   },
+   "ajustes": {
+    "d": "Atender, diagnosticar y resolver técnicamente los incidentes y requerimientos de la infraestructura y de la red desde un centro de operaciones o mesa de soporte especializada, para restablecer el servicio dentro de los acuerdos de nivel; la gestión del proceso de incidentes, problemas y cambios corresponde a la gestión de servicios.",
+    "tasks": [
+     {
+      "code": "E2-08-T1",
+      "t": "Registrar y clasificar técnicamente los incidentes y requerimientos recibidos",
+      "ent": "1. Registro de incidentes y requerimientos resueltos"
+     },
+     {
+      "code": "E2-08-T2",
+      "t": "Diagnosticar fallas de servidores, red y servicios con herramientas de prueba",
+      "ent": "1. Registro de incidentes y requerimientos resueltos"
+     },
+     {
+      "code": "E2-08-T3",
+      "t": "Restablecer el servicio o escalar según procedimiento y acuerdo de nivel",
+      "ent": "1. Registro de incidentes y requerimientos resueltos"
+     },
+     {
+      "code": "E2-08-T4",
+      "t": "Ejecutar los cambios estándar preaprobados siguiendo el procedimiento",
+      "ent": "2. Registro de cambios estándar y base de conocimiento"
+     },
+     {
+      "code": "E2-08-T5",
+      "t": "Documentar la solución en la base de conocimiento y aportar datos al análisis de problemas",
+      "ent": "2. Registro de cambios estándar y base de conocimiento"
+     }
+    ],
+    "prod": {
+     "name": "Registro de atención técnica de incidentes y requerimientos",
+     "desc": "Registro de atención técnica de incidentes y requerimientos que documenta cómo se diagnosticaron, restablecieron o escalaron las fallas de la infraestructura y de la red en un periodo. Integra los tickets con su clasificación técnica, diagnóstico, solución y tiempos, los cambios estándar ejecutados y las soluciones documentadas en la base de conocimiento. Se elabora en la herramienta de gestión de servicios durante la operación diaria y se verifica con indicadores de tiempo de respuesta y de resolución frente a los acuerdos de nivel. Orienta la decisión de corregir procedimientos o escalar problemas recurrentes a la gestión de servicios, y demuestra que el egresado sostiene la operación con disciplina y trazabilidad.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Registro de incidentes y requerimientos resueltos",
+       "codes": "E2-08-T1, E2-08-T2, E2-08-T3",
+       "sum": "tickets con clasificación, diagnóstico, solución, tiempos y escalamientos",
+       "ev": [
+        "tickets cerrados dentro del acuerdo de nivel",
+        "registro de escalamientos con su motivo"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Registro de cambios estándar y base de conocimiento",
+       "codes": "E2-08-T4, E2-08-T5",
+       "sum": "cambios preaprobados ejecutados y soluciones documentadas para reutilizar",
+       "ev": [
+        "registro de cambios estándar ejecutados",
+        "artículos de la base de conocimiento publicados"
+       ]
+      }
+     ]
+    },
+    "fd": "Esta función tiene demanda porque 48 de 61 avisos revisados piden atender incidentes, tickets o turnos de centro de operaciones; la muestra está concentrada en proveedores de internet [21] [26]. O*NET incluye diagnosticar y resolver problemas de hardware, software y red, y consultar a los usuarios sobre soluciones [1]. ESCO asigna al administrador de sistemas dar soporte a los usuarios [5]. SFIA 9 describe investigar problemas operativos y ejecutar cambios acordados [8]. Ello exige profesionales capaces de diagnosticar fallas y restablecer servicios dentro de acuerdos de nivel.",
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque, según Uptime Institute, en 2025 casi el 40 % de las organizaciones había sufrido una caída grave por error humano en tres años, y las caídas por no seguir procedimientos subieron diez puntos [37]. Además, el DS 098-2025-PCM fija desde 2025 acuerdos de disponibilidad para los bloques básicos del Estado [11]. Por eso es necesario que el egresado domine la operación y el soporte de servicios de infraestructura.",
+    "refs": "[1] [5] [8] [11] [21] [26] [37]",
+    "conf": 4,
+    "lim": "Resuelve incidentes y requerimientos de niveles 1 y 2 con procedimientos; escala incidentes mayores; la gestión de problemas y cambios corresponde a gestión de servicios.",
+    "cambios": "Acotada a la atención técnica (diagnóstico, restablecimiento, cambios estándar); la gestión de problemas y cambios pasa a E5-09. JI sin la notificación de incidentes de seguridad; entregables reagrupados; descripción en infinitivo; conf 4."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "No cumple · fondo · solapa con E5-10 (clasificación de incidentes, cambios estándar y análisis de problemas recurrentes)",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 92 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 69 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 7 palabras"
+   },
+   "ind": {
+    "F": 4,
+    "C": 3,
+    "V": 2,
+    "L": 4,
+    "ricP": 1,
+    "icviS": "0,67",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E2-09": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 12,
+   "N": 3,
+   "lim": "Ejecuta respaldos y pruebas de recuperación; no fija los objetivos de tiempo y punto de recuperación ni activa el plan ante desastre.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": "Función núcleo",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {
+    "sb": "no alcanzó el umbral"
+   },
+   "ajustes": {
+    "d": "Configurar, ejecutar y probar las políticas de respaldo, réplica y recuperación de servidores, datos y servicios, en local y en la nube, para que la organización restablezca sus sistemas dentro de los tiempos acordados ante fallas, desastres o ataques.",
+    "tasks": [
+     {
+      "code": "E2-09-T1",
+      "t": "Registrar los objetivos de tiempo y punto de recuperación acordados por el responsable de cada servicio",
+      "ent": "1. Política de respaldo y réplica configurada"
+     },
+     {
+      "code": "E2-09-T2",
+      "t": "Configurar políticas de respaldo, réplica y copias inmutables o aisladas en local y en la nube",
+      "ent": "1. Política de respaldo y réplica configurada"
+     },
+     {
+      "code": "E2-09-T3",
+      "t": "Verificar la integridad de los respaldos periódicamente",
+      "ent": "1. Política de respaldo y réplica configurada"
+     },
+     {
+      "code": "E2-09-T4",
+      "t": "Ejecutar simulacros de recuperación y medir tiempos reales",
+      "ent": "2. Informe de simulacro y procedimientos de recuperación"
+     },
+     {
+      "code": "E2-09-T5",
+      "t": "Actualizar los procedimientos de recuperación tecnológica del plan de continuidad",
+      "ent": "2. Informe de simulacro y procedimientos de recuperación"
+     }
+    ],
+    "fd": "Esta función tiene demanda porque 25 de 61 avisos revisados en el Perú piden respaldos, contingencia o continuidad operativa [21] [22]. La RM 320-2021-PCM obliga a las entidades públicas a gestionar su continuidad operativa, y el DS 098-2025-PCM exige medidas de continuidad a los bloques de gobierno digital [14] [11]. O*NET incluye realizar respaldos y operaciones de recuperación ante desastres, y ESCO implementar sistemas de recuperación [1] [5]. Además, casi el 40 % de las organizaciones sufrió caídas graves por error humano en los últimos tres años [37]. Ello exige profesionales capaces de recuperar servicios dentro de los tiempos acordados.",
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque en 2025 solo el 54 % de las organizaciones cuyos datos fueron cifrados por ransomware los restauró desde respaldos, la tasa más baja en seis años [41]. Además, el reglamento del Marco de Confianza Digital, vigente desde febrero de 2026, obliga a gestionar riesgos e incidentes de seguridad digital en actividades críticas [13]. Por eso es necesario que el egresado domine el respaldo y la recuperación ante desastres.",
+    "refs": "[1] [5] [11] [13] [14] [21] [22] [37] [41]",
+    "conf": 3,
+    "lim": "Ejecuta respaldos y pruebas de recuperación; no fija los objetivos de tiempo y punto de recuperación ni activa el plan ante desastre.",
+    "cambios": "Casa única del respaldo y la recuperación (E4-08 excluida): copias inmutables en T2; T1 registra objetivos que fija el responsable; FD abre con avisos; JI con tendencia fechada (Sophos 2025, 54 % de organizaciones con datos cifrados)."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 95 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 61 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "ind": {
+    "F": 3,
+    "C": 4,
+    "V": 3,
+    "L": 4,
+    "ricP": 0.25,
+    "icviS": "0,67",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E2-10": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 12,
+   "N": 3,
+   "lim": "Instrumenta servicios y configura tableros y alertas; los objetivos de nivel comprometidos con clientes y el presupuesto de error los aprueba el responsable del servicio.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": "Función núcleo",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {},
+   "ajustes": {
+    "d": "Instrumentar la plataforma con métricas, registros, trazas y alertas, proponer indicadores de nivel de servicio y analizar su cumplimiento, así como el uso, la capacidad y el costo de los recursos (sublínea de optimización de costos y capacidad), para anticipar fallas y sostener la disponibilidad.",
+    "amb": "Centros de operaciones, equipos de confiabilidad de sitio y de plataforma en proveedores de internet, fintech, banca y entidades con servicios digitales; sublínea de optimización de costos y capacidad en nube pública e híbrida",
+    "tasks": [
+     {
+      "code": "E2-10-T1",
+      "t": "Proponer indicadores de nivel de servicio a partir de las métricas disponibles",
+      "ent": "2. Informe de confiabilidad, capacidad y costo"
+     },
+     {
+      "code": "E2-10-T2",
+      "t": "Instrumentar servidores, redes y aplicaciones con métricas, registros y trazas",
+      "ent": "1. Tablero de observabilidad con alertas"
+     },
+     {
+      "code": "E2-10-T3",
+      "t": "Configurar tableros y alertas con umbrales accionables",
+      "ent": "1. Tablero de observabilidad con alertas"
+     },
+     {
+      "code": "E2-10-T4",
+      "t": "Analizar tendencias de disponibilidad y rendimiento",
+      "ent": "2. Informe de confiabilidad, capacidad y costo"
+     },
+     {
+      "code": "E2-10-T5",
+      "t": "Analizar el uso, la capacidad y el gasto de los recursos y proponer ajustes de tamaño",
+      "ent": "2. Informe de confiabilidad, capacidad y costo"
+     },
+     {
+      "code": "E2-10-T6",
+      "t": "Reportar el cumplimiento de los objetivos de nivel de servicio",
+      "ent": "2. Informe de confiabilidad, capacidad y costo"
+     }
+    ],
+    "prod": {
+     "name": "Sistema de observabilidad con indicadores de servicio y capacidad",
+     "desc": "Sistema de observabilidad con indicadores de servicio y capacidad que permite ver en tiempo real el estado de la plataforma, saber si cumple lo prometido a los usuarios y cuánto cuesta sostenerla. Integra la instrumentación de servidores, redes y aplicaciones, los tableros y alertas, el catálogo de indicadores propuestos, el análisis de uso, capacidad y gasto con sus ajustes recomendados y el informe periódico de cumplimiento. Se elabora con herramientas de monitoreo, registros centralizados y datos de facturación, y se verifica con pruebas de alerta, revisión de falsos positivos y contraste con incidentes reales. Orienta la decisión de priorizar confiabilidad, capacidad o ahorro, y demuestra que el egresado anticipa fallas y sostiene la disponibilidad.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Tablero de observabilidad con alertas",
+       "codes": "E2-10-T2, E2-10-T3",
+       "sum": "métricas, registros, trazas, tableros y alertas en operación",
+       "ev": [
+        "tablero en operación con datos reales",
+        "catálogo de alertas con umbrales y responsables"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Informe de confiabilidad, capacidad y costo",
+       "codes": "E2-10-T1, E2-10-T4, E2-10-T5, E2-10-T6",
+       "sum": "indicadores propuestos, tendencias, cumplimiento de objetivos y ajustes de capacidad y gasto recomendados",
+       "ev": [
+        "documento de indicadores propuestos",
+        "informe periódico de cumplimiento",
+        "análisis de uso y gasto con ajustes recomendados"
+       ]
+      }
+     ]
+    },
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque en 2025 OpenTelemetry fue el segundo proyecto de mayor velocidad de la CNCF [36], y el 84 % de las organizaciones declaró que gestionar el gasto en nube es su principal desafío, con presupuestos excedidos en 17 % [32]. Observar el servicio incluye así su capacidad y su costo. Por eso es necesario que el egresado domine la observabilidad y la confiabilidad del servicio.",
+    "refs": "[1] [2] [11] [21] [26] [32] [36] [38]",
+    "conf": 3,
+    "lim": "Instrumenta servicios y configura tableros y alertas; los objetivos de nivel comprometidos, el presupuesto de error y los compromisos de gasto los aprueba el responsable.",
+    "absorbe": [
+     "E2-12"
+    ],
+    "cambios": "Absorbe E2-12 como sublínea: una tarea de análisis de uso, capacidad y gasto; T1 propone indicadores y T6 reporta sin presupuesto de error, que aprueba el responsable; JI con año; descripción en infinitivo."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 85 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 70 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "ind": {
+    "F": 4,
+    "C": 3,
+    "V": 4,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E2-11": {
+   "icvi": "1,00",
+   "cvr": "-0,33",
+   "prioridad": 12,
+   "N": 3,
+   "lim": "Configura reglas y accesos según la política de seguridad aprobada; no define la política, no hace análisis forense ni conduce la respuesta a incidentes.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Excluida por la Escuela",
+   "escuela": {
+    "accion": "excluir",
+    "motivo": "Duplica E4-03; la segmentación y las VPN pasan al diseño de redes (E2-03)."
+   },
+   "demDelphi": "Media",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "ok",
+    "pb": "rev"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "ok",
+    "pb": "rev"
+   },
+   "motivo": {
+    "fb": "Marcada como transversal pero con tareas equivalentes a E4-03; llevar segmentación y VPN al diseño de E2-03 o dejar la protección perimetral solo en E4. · Solapa casi por completo con E4-03 (cortafuegos, segmentación, bastionado); definir frontera o fusionar.",
+    "pb": "Marcada como transversal pero con tareas equivalentes a E4-03; llevar segmentación y VPN al diseño de E2-03 o dejar la protección perimetral solo en E4."
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "No cumple · fondo · solapa con E4-03 (cortafuegos, segmentación, accesos remotos, bastionado y parches)",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 93 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 79 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "ind": {
+    "F": 3,
+    "C": 4,
+    "V": 3,
+    "L": 4,
+    "ricP": 1,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E2-12": {
+   "icvi": "1,00",
+   "cvr": "-1,00",
+   "prioridad": 4,
+   "N": 2,
+   "lim": "Analiza gasto y uso y propone ajustes; los compromisos de compra, reservas de capacidad y cambios de proveedor los aprueban TI y finanzas.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Sublínea en E2-10",
+   "escuela": {
+    "accion": "sublinea",
+    "destino": "E2-10",
+    "motivo": "Optimización de costos y capacidad: sublínea de la observabilidad y confiabilidad del servicio."
+   },
+   "demDelphi": "Baja",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "rev"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "rev"
+   },
+   "motivo": {
+    "fb": "no alcanzó el umbral",
+    "sb": "S1 se apoya en datos globales (Flexera) y en Perú solo 10 de 61 avisos. Proyectar capacidad y presentar costo unitario a la dirección excede al egresado: N2. · En el Estado el gasto se fija por contrato anual y la optimización fina es rara. Útil, con vigencia creciente. Flexera verificado (84 %; 17 %).",
+    "pb": "Crece rápido donde hay nube pública; al egreso analiza y propone, no decide. Presentar el costo unitario a la dirección es poco factible para un junior. Frecuencia ocasional."
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 97 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 70 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "ind": {
+    "F": 2,
+    "C": 2,
+    "V": 4,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "0,50",
+    "icviP": "0,67",
+    "Tm": 4
+   }
+  }
+ }
+}

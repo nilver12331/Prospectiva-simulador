@@ -1,0 +1,92 @@
+{
+ "rol": "P3",
+ "perfil": "Experto regulatorio y de acreditación",
+ "calificaciones": {
+  "NUT-01": {
+   "E": 4,
+   "comentario": "Único campo con reserva legal: NTS 103 asigna jefatura y consulta al colegiado y fija 1 licenciado por 40 camas; Ley 30188 lo ampara. Sin esto no hay perfil defendible.",
+   "fuente": "[N-1][N-2][N-tabla]"
+  },
+  "NUT-02": {
+   "E": 3,
+   "comentario": "NTS 103 pone la central de producción hospitalaria a cargo de licenciado; NTS 142, DS 007-98-SA y HACCP son obligatorios aunque compartidos con ingeniería. Dominio exigible en el perfil.",
+   "fuente": "[N-2][N-4][N-tabla]"
+  },
+  "NUT-03": {
+   "E": 4,
+   "comentario": "NTS 213 y PP 0001 encomiendan consejería, tamizaje y seguimiento; el SERUMS obligatorio se cumple en primer nivel. Ley 30188 nombra la salud pública como campo del ejercicio.",
+   "fuente": "[N-1][N-3][N-7]"
+  },
+  "NUT-04": {
+   "E": 3,
+   "comentario": "NTS 213 (RM 251-2024) fija tamizaje y suplementación nominal en niño, gestante y puérpera; PP 0001 lo presupuesta. Contenido obligatorio, aunque la norma no lo separa de comunitaria.",
+   "fuente": "[N-3]"
+  },
+  "NUT-05": {
+   "E": 2,
+   "comentario": "Ley 28036 y DS 018-2004-PCM no mencionan al nutricionista; ISAK carece de reconocimiento. Sin norma que lo exija, no sustenta un estándar de perfil ante SINEACE.",
+   "fuente": "[N-5]"
+  },
+  "NUT-06": {
+   "E": 2,
+   "comentario": "La valoración básica ya es parte del proceso de NTS 103 y NTS 213; la modalidad avanzada (ISAK, bioimpedancia) no tiene norma ni registro. Competencia transversal, no especialidad.",
+   "fuente": "[N-2][N-5][N-tabla]"
+  },
+  "NUT-07": {
+   "E": 2,
+   "comentario": "Ley 30021 y DS 017-2017-SA obligan a conocer parámetros y octógonos, pero NTP 209.038 es recomendable y no reserva firma. Función compartida con ingeniería de alimentos.",
+   "fuente": "[N-4][N-6][N-tabla]"
+  },
+  "NUT-08": {
+   "E": 2,
+   "comentario": "Sin NTS ni segunda especialidad en el RNE; el manejo de obesidad queda cubierto por clínica hospitalaria y el marco preventivo de Ley 30021. Bariátrica es posgrado.",
+   "fuente": "[N-4][N-7][N-tabla]"
+  },
+  "NUT-09": {
+   "E": 2,
+   "comentario": "Ninguna norma reserva la función ocupacional al nutricionista; el campamento se rige por NTS 142 y HACCP sin reserva. Empleadores exigen habilitación, pero es aplicación de clínica y servicios.",
+   "fuente": "[N-4][N-tabla]; criterio del rol"
+  },
+  "NUT-10": {
+   "E": 3,
+   "comentario": "DS 017-2017-SA arts. 6-9 y el PAE del MIDIS exigen vigilancia alimentaria escolar; convocatorias piden título y colegiatura aunque admiten afines. Esencial, integrable con comunitaria.",
+   "fuente": "[N-4][N-7][N-tabla]"
+  },
+  "NUT-11": {
+   "E": 2,
+   "comentario": "Ley 30188 ampara el ejercicio privado con colegiatura, pero ninguna norma regula telenutrición ni consulta online. Es un modo de ejercicio, no un campo del perfil.",
+   "fuente": "[N-1]; criterio del rol"
+  },
+  "NUT-14": {
+   "E": 2,
+   "comentario": "Sin NTS geriátrica ni segunda especialidad; NTS 103 no desagrega al adulto mayor. El curso de vida se cubre dentro de clínica; como especialidad diferenciada no es exigible.",
+   "fuente": "[N-2][N-7]; criterio del rol"
+  },
+  "NUT-17": {
+   "E": 1,
+   "comentario": "Sin norma, sin registro en el RNE y con evidencia clínica limitada. Indefendible como estándar del perfil de egreso; a lo sumo electivo.",
+   "fuente": "[N-1][N-7]; criterio del rol"
+  },
+  "NUT-19": {
+   "E": 1,
+   "comentario": "Puesto auxiliar con secundaria o técnico y sin colegiatura; no es función profesional de Ley 30188. Formar para él degrada el perfil que la norma reserva al licenciado.",
+   "fuente": "[N-1][N-2]; criterio del rol"
+  }
+ },
+ "faltan": [
+  "Soporte nutricional enteral y parenteral: única especialidad con norma propia reciente (NTS 212, RM 203-2024) y estándar de dotación en NTS 103 (1 licenciado por 15 camas UCI y pediátricas); no está en la cartera.",
+  "Nutrición renal: segunda especialidad inscrita en el Registro Nacional de Especialistas del CNP; el RNE es la única lista formal de especialidades y la cartera no la recoge.",
+  "Educación alimentaria y nutricional escolar: Ley 30021 y DS 017-2017-SA arts. 6-9 obligan a quioscos y comedores saludables; es función normada que ninguna de las 14 cubre."
+ ],
+ "integrar": [
+  "NUT-03 + NUT-04 + NUT-10: el Estado contrata un solo perfil colegiado de primer nivel bajo NTS 213, PP 0001, SERUMS y PAE; separarlos no tiene sustento normativo.",
+  "NUT-02 + NUT-19 (+ NUT-09): concesionarias y campamentos contratan gestión del servicio con HACCP y NTS 142; la dietética operativa y el componente ocupacional van dentro del mismo contrato.",
+  "NUT-01 + NUT-08 + NUT-14 + NUT-06: la consulta reservada por NTS 103 abarca obesidad, adulto mayor y valoración de composición corporal; son cursos de vida y técnicas de la misma clínica, no especialidades aparte."
+ ],
+ "noPuesto": [
+  "NUT-19: puesto auxiliar sin colegiatura, fuera del ejercicio profesional de Ley 30188.",
+  "NUT-06: competencia transversal de valoración; sin puesto propio, sin norma ni registro.",
+  "NUT-17: sin puesto, sin norma y sin especialidad en el RNE; especulativa.",
+  "NUT-11: modo de ejercicio (consulta particular o virtual) amparado por Ley 30188, no un campo ni un negocio distinto de las especialidades que se ejercen por ese medio."
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "rol": "P1",
+ "perfil": "Analista de mercado laboral y ocupaciones",
+ "calificaciones": {
+  "SIS-01": {"E": 4, "comentario": "Mayor volumen del país: 5 226 puestos EDO, 311 avisos, banca, outsourcing y Estado; sin esto no hay ingeniero de sistemas contratable.", "fuente": "[E-L10][E-B12][E-L2]"},
+  "SIS-02": {"E": 4, "comentario": "844 vacantes, 76 % de empleadores sin talento en IA, +20 % anual; remuneración muy sobre el promedio. El mercado lo exige ya.", "fuente": "[E-B10][E-L9][E-L7]"},
+  "SIS-03": {"E": 4, "comentario": "Brecha crítica declarada por PCM, 7 000–13 500 profesionales requeridos, mediana S/ 11 380; norma obliga Oficial de Seguridad.", "fuente": "[E-B7][E-L11][N-8]"},
+  "SIS-04": {"E": 4, "comentario": "617 avisos AWS, arquitectos cloud +15 %, nube híbrida +600 %; todo aviso de desarrollo pide despliegue en nube y CI/CD.", "fuente": "[E-B8][E-L7][P-L5]"},
+  "SIS-05": {"E": 3, "comentario": "598+ avisos de gestión de proyectos y 52 PMO; mediana S/ 7 290; se cubre sin escasez, pero es la ruta de ascenso del ingeniero.", "fuente": "[E-B14][E-L11]"},
+  "SIS-06": {"E": 3, "comentario": "El perfil que integra IA, nube y datos lidera la EDO; cargos senior S/ 10 850–15 210. Esencial como base, no como puesto de egresado.", "fuente": "[P-L7][E-L11]"},
+  "SIS-07": {"E": 2, "comentario": "Sin conteo propio: los portales lo contratan como desarrollo de software; el mismo pool cubre ambas vacantes.", "fuente": "[E-B15][P-L9]"},
+  "SIS-08": {"E": 2, "comentario": "Nicho con mediana S/ 6 420 en retail y consultoras; competencia ligada a un proveedor, se aprende en el puesto o certificación.", "fuente": "[E-L11][E-B9]"},
+  "SIS-09": {"E": 3, "comentario": "La EDO nombra analistas de sistemas entre los más requeridos; alto volumen en banca y Estado, aunque con sueldo al promedio y presión de IA.", "fuente": "[E-B15][E-B9][P-L10]"},
+  "SIS-10": {"E": 2, "comentario": "Volumen medio, QA S/ 3 500 sin prima; el tester manual es lo primero que se automatiza. Habilidad dentro de desarrollo, no especialidad.", "fuente": "[E-B9][P-L10]"},
+  "SIS-11": {"E": 2, "comentario": "Inversión sectorial S/ 5 800 M, pero los operadores contratan ingenieros de telecomunicaciones; avisos escasos para sistemas.", "fuente": "[P-L11][E-L1]"},
+  "SIS-12": {"E": 2, "comentario": "Pocos puestos, exige colegiatura y certificación internacional; mercado limitado a banca, seguros y Contraloría.", "fuente": "[E-B5][N-3]"},
+  "SIS-13": {"E": 2, "comentario": "Obligación legal escalonada 2025–2028 sin avisos en portales; el Oficial de Datos hoy lo cubren abogados y áreas de cumplimiento.", "fuente": "[N-6]"},
+  "SIS-14": {"E": 3, "comentario": "64–148 vacantes, jefe de BI mediana S/ 8 000, 78 % de empleadores demanda TI y datos; se contrata junto con ciencia de datos.", "fuente": "[E-B12][E-L11][P-L9]"},
+  "SIS-15": {"E": 2, "comentario": "Sin avisos en ninguna búsqueda; se contrata dentro de proyectos de minería 4.0. Demanda futura, no actual.", "fuente": "[E][P-L3]"},
+  "SIS-16": {"E": 1, "comentario": "Sin puestos con ese nombre en el Perú; fintech capta el capital sin pedir blockchain.", "fuente": "[E][P-S]"},
+  "SIS-17": {"E": 2, "comentario": "Solo el Estado convoca DBA (S/ 6 500–10 000); el privado lo absorbe en DevOps y datos y decrece con servicios gestionados.", "fuente": "[E-L2][P-L4]"},
+  "SIS-18": {"E": 2, "comentario": "39–56 vacantes compartidas con diseño gráfico, sin colegiatura; el mercado lo cubre con diseñadores, no con ingenieros.", "fuente": "[E-B12]"},
+  "SIS-19": {"E": 1, "comentario": "Puesto técnico con base S/ 1 200, 163 avisos sin experiencia; primer empleo automatizado. No forma parte del perfil de ingeniero.", "fuente": "[E-B1][P-L10]"}
+ },
+ "faltan": [
+  "Ingeniería de datos y MLOps: Data Engineer US$ 1 500–2 500 [E-L8], emergente declarado en la prospectiva [P]; es el puesto que hoy se contrata más que el científico de datos puro.",
+  "Ingeniería fintech y medios de pago: fintech capta 76,9 % del capital de riesgo 2025 [P-S] y contrata desarrollo, seguridad y datos con nombre propio.",
+  "Arquitectura de software y soluciones: 'arquitecto de soluciones' aparece como puesto en el barrido [E-B14], mediana S/ 10 850 [E-L11], distinto de arquitectura empresarial."
+ ],
+ "integrar": [
+  "SIS-01 + SIS-07: los portales integran móvil en desarrollo de software y reclutan del mismo pool [E-B15][P-L9].",
+  "SIS-02 + SIS-14 + SIS-17: ciencia de datos, BI y bases de datos se contratan como un solo equipo de datos e ingeniería de datos [E-B10][P].",
+  "SIS-03 + SIS-13 + SIS-12: ciberseguridad, protección de datos y auditoría se convocan como riesgo y cumplimiento (70k–100k anuales) [E-B5][N-3][N-6].",
+  "SIS-04 + SIS-11: nube/DevOps y redes se contratan como infraestructura; jefe de infraestructura mediana S/ 7 190 cubre ambas [E-L11].",
+  "SIS-09 + SIS-10 dentro de SIS-01: análisis funcional y QA son roles del equipo de desarrollo, no especialidades contratadas aparte [E-B9]."
+ ],
+ "noPuesto": [
+  "SIS-19 Soporte técnico y mesa de ayuda: puesto técnico de entrada, no de ingeniero, base S/ 1 200 [E-B1].",
+  "SIS-16 Blockchain y activos digitales: sin puestos ni negocio identificable en el Perú [E][P-S].",
+  "SIS-13 Protección de datos personales: función de cumplimiento obligatoria por norma, sin avisos de empleo ni negocio propio hoy [N-6]."
+ ]
+}

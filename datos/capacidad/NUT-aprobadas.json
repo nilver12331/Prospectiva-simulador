@@ -1,0 +1,74 @@
+[
+ {
+  "cod": "NUT-01",
+  "especialidad": "Nutrición clínica hospitalaria",
+  "descripcion": "Atiende al paciente internado y ambulatorio: valora, diagnostica, prescribe el tratamiento nutricional y lo sigue hasta el alta.",
+  "naturaleza": "atención individual",
+  "proceso": "Valorar → diagnosticar → tratar → seguir",
+  "evidencia": "Plan de atención nutricional individualizado y su registro en historia clínica"
+ },
+ {
+  "cod": "NUT-02",
+  "especialidad": "Gestión de servicios de alimentación e inocuidad",
+  "descripcion": "Dirige el servicio que alimenta a pacientes, trabajadores o escolares: planifica el menú, estandariza, asegura la inocuidad y audita.",
+  "naturaleza": "gestión de servicios",
+  "proceso": "Planificar → estandarizar → asegurar inocuidad → auditar",
+  "evidencia": "Plan HACCP y expediente de auditoría del servicio"
+ },
+ {
+  "cod": "NUT-03",
+  "especialidad": "Nutrición comunitaria y salud pública",
+  "descripcion": "Interviene sobre la nutrición de una población: diagnostica, planifica el programa, ejecuta y mide el impacto.",
+  "naturaleza": "salud poblacional",
+  "proceso": "Diagnosticar población → planificar → intervenir → evaluar",
+  "evidencia": "Plan de intervención poblacional con línea de base e informe de impacto"
+ },
+ {
+  "cod": "NUT-04",
+  "especialidad": "Nutrición pediátrica y materna",
+  "descripcion": "Atiende al niño y a la gestante en el primer nivel: crecimiento, anemia, lactancia y alimentación complementaria.",
+  "naturaleza": "atención individual",
+  "proceso": "Valorar → diagnosticar → tratar → seguir (niño y gestante)",
+  "evidencia": "Plan de atención nutricional individualizado"
+ },
+ {
+  "cod": "NUT-07",
+  "especialidad": "Desarrollo y reformulación de productos alimentarios",
+  "descripcion": "Reformula el perfil nutricional de la cartera de la industria y sustenta su rotulado y registro sanitario.",
+  "naturaleza": "producto",
+  "proceso": "Recibir la cartera → reformular → validar → registrar",
+  "evidencia": "Ficha técnica del producto reformulado y expediente de validación"
+ },
+ {
+  "cod": "NUT-08",
+  "especialidad": "Nutrición en obesidad y cirugía bariátrica",
+  "descripcion": "Atiende a la persona con obesidad y al paciente pre y posbariátrico: manejo de peso, deficiencias y conducta alimentaria.",
+  "naturaleza": "atención individual",
+  "proceso": "Valorar → planificar → intervenir → seguir",
+  "evidencia": "Plan de manejo nutricional con seguimiento documentado"
+ },
+ {
+  "cod": "NUT-09",
+  "especialidad": "Nutrición ocupacional y salud en minería",
+  "descripcion": "Atiende la alimentación y el estado nutricional del trabajador en campamentos y programas de salud ocupacional.",
+  "naturaleza": "atención individual",
+  "proceso": "Valorar al trabajador → planificar → intervenir → vigilar",
+  "evidencia": "Programa nutricional ocupacional con indicadores de salud del trabajador"
+ },
+ {
+  "cod": "NUT-10",
+  "especialidad": "Nutrición en programas sociales del Estado",
+  "descripcion": "Gestiona el componente alimentario y nutricional de programas del MIDIS y gobiernos locales por unidad territorial.",
+  "naturaleza": "salud poblacional",
+  "proceso": "Planificar la atención → supervisar → vigilar → reportar",
+  "evidencia": "Informe de supervisión de la unidad territorial con indicadores"
+ },
+ {
+  "cod": "NUT-14",
+  "especialidad": "Nutrición geriátrica y del envejecimiento",
+  "descripcion": "Atiende al adulto mayor: desnutrición, sarcopenia, disfagia y adaptación de texturas en residencias y consulta.",
+  "naturaleza": "atención individual",
+  "proceso": "Valorar → diagnosticar → tratar → seguir (adulto mayor)",
+  "evidencia": "Plan de atención nutricional individualizado"
+ }
+]

@@ -1,0 +1,1187 @@
+{
+ "cod": "SIS",
+ "k": "E5",
+ "especialidad": "Gobierno, proyectos y auditoría de TI",
+ "competencia": "C5",
+ "proposito": "Dirigir la tecnología de la información de empresas, entidades públicas y consultoras —desde la estrategia y la arquitectura hasta los proyectos, los servicios y su auditoría—, alineándola con la estrategia de la organización y los marcos de gobierno, proyectos, servicios y control, para que la inversión tecnológica genere valor, cumpla sus compromisos y se gobierne con control.",
+ "fuentes": {
+  "O": 6,
+  "N": 11,
+  "M": 12,
+  "P": 8,
+  "A": 0,
+  "D": 0,
+  "avisos_revisados": 45,
+  "nota": "O: O*NET 11-3021.00 y 15-1299.09; ESCO (gestor de proyectos de TIC, gestor auditor de TIC, arquitectura empresarial, ICT operations manager) leídas vía API/portal ESCO. N: DL 1412, DS 029-2021-PCM, Ley 31170, DS 085-2023-PCM, marco de arquitectura digital (gob.pe), RC 320-2006-CG, Res. SBS 504-2021, Ley 32069, DS 115-2025-PCM, bases CAS 161-2026 MIMP e informe situacional/indicadores SGTD. M: 45 avisos de LinkedIn Perú (API pública de empleos, septiembre de 2026) leídos completos; 24 búsquedas en Computrabajo Perú revisadas pero con pocos avisos pertinentes (no se usaron para frecuencias). P: COBIT 2019, ITAF 4, AAIA, SFIA 9, PMBOK 7 (PDF del PMI) y 8 (fuente secundaria), ITIL v5, TOGAF 10. No se pudo leer: páginas de pmi.org (403), portal de convocatorias de la Contraloría (504/tiempo agotado), gob.pe por WebFetch (418; se leyó con curl), Res. SBS 877-2020 y RM 041-2017-PCM (solo resultados de búsqueda, no citadas). Frecuencias por función calculadas con expresiones regulares sobre el texto completo de los 45 avisos."
+ },
+ "funciones": [
+  {
+   "c": "E5-01",
+   "t": "Planificación estratégica de tecnologías de información",
+   "d": "Formular el plan estratégico de tecnologías de información de la organización, diagnosticando su madurez digital y alineando las iniciativas tecnológicas con los objetivos del negocio o de la entidad, para orientar la inversión tecnológica hacia resultados institucionales medibles.",
+   "fclave": "Alinear la tecnología con la estrategia de la organización",
+   "tipo": "Actual",
+   "amb": "Empresas privadas; entidades públicas (Plan de Gobierno Digital); consultoras de TI; transformación digital",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "13 de 45 avisos",
+   "conf": 3,
+   "lim": "Formula el diagnóstico y el borrador del plan con supervisión indirecta; la aprobación y la priorización final corresponden a la alta dirección o al comité de gobierno digital.",
+   "tasks": [
+    {
+     "code": "E5-01-T1",
+     "t": "Diagnosticar la madurez digital y la situación actual de TI",
+     "ent": "1. Diagnóstico de madurez digital"
+    },
+    {
+     "code": "E5-01-T2",
+     "t": "Identificar necesidades tecnológicas con las áreas usuarias",
+     "ent": "1. Diagnóstico de madurez digital"
+    },
+    {
+     "code": "E5-01-T3",
+     "t": "Formular objetivos, iniciativas y hoja de ruta tecnológica",
+     "ent": "2. Hoja de ruta tecnológica alineada"
+    },
+    {
+     "code": "E5-01-T4",
+     "t": "Articular el plan con el plan estratégico y operativo institucional",
+     "ent": "2. Hoja de ruta tecnológica alineada"
+    },
+    {
+     "code": "E5-01-T5",
+     "t": "Reportar el avance anual del plan a la dirección",
+     "ent": "3. Reporte de seguimiento del plan"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque la madurez digital de las empresas peruanas es apenas intermedia: el índice global llega a 54% y 32% de las empresas se ubica en nivel básico [20]. En el Estado, el reglamento de la Ley de Gobierno Digital exige que cada entidad formule un Plan de Gobierno Digital con su portafolio de proyectos incorporado al PEI y al POI [8]. O*NET describe al gerente de sistemas como ocupación de perspectiva brillante con 55 600 vacantes proyectadas [1], y 13 de 45 avisos peruanos piden alinear la tecnología con la estrategia [40]. Ello exige profesionales capaces de diagnosticar la madurez digital y convertirla en una hoja de ruta tecnológica priorizada.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la Política Nacional de Transformación Digital al 2030 obliga a entidades públicas, empresas del Estado y alcanza al sector privado [10]. Además, 45% de las empresas peruanas reporta falta de personal capacitado para transformarse digitalmente, lo que eleva el valor de quien sabe planificarla [21]. Por eso es necesario que el egresado domine la alineación de la tecnología con la estrategia de la organización.",
+   "refs": "[1] [8] [10] [20] [21] [25] [40]",
+   "prod": {
+    "name": "Plan estratégico de tecnologías de información con hoja de ruta",
+    "desc": "Plan estratégico que traduce los objetivos de la organización en objetivos, iniciativas y metas tecnológicas para un horizonte de tres a cinco años; en el Estado adopta la forma del Plan de Gobierno y Transformación Digital. Integra el diagnóstico de madurez digital, el inventario de necesidades de las áreas usuarias, la hoja de ruta priorizada con presupuesto referencial y los indicadores de seguimiento. Se elabora con talleres y entrevistas a las áreas, contrastando la situación actual con un modelo de madurez, y se verifica con la trazabilidad de cada iniciativa hacia un objetivo del PEI o del negocio. Orienta la decisión de qué iniciativas financiar y en qué orden, y demuestra que el egresado alinea la tecnología con la estrategia.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Diagnóstico de madurez digital",
+      "codes": "E5-01-T1, E5-01-T2",
+      "sum": "situación actual de TI, nivel de madurez y necesidades priorizadas de las áreas",
+      "ev": [
+       "Informe de diagnóstico con puntaje por dimensión",
+       "Matriz de necesidades validada por las áreas usuarias"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Hoja de ruta tecnológica alineada",
+      "codes": "E5-01-T3, E5-01-T4",
+      "sum": "objetivos, iniciativas, cronograma plurianual y matriz de alineamiento con el PEI o la estrategia",
+      "ev": [
+       "Hoja de ruta con iniciativas, plazos y costos referenciales",
+       "Matriz de trazabilidad objetivo estratégico–iniciativa"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Reporte de seguimiento del plan",
+      "codes": "E5-01-T5",
+      "sum": "avance de metas e indicadores y propuestas de ajuste anual",
+      "ev": [
+       "Reporte anual con indicadores de avance del plan"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E5-02",
+   "t": "Arquitectura empresarial de la organización",
+   "d": "Modelar la arquitectura empresarial actual y objetivo de la organización —negocio, datos, aplicaciones y tecnología— e identificar las brechas entre ambas, para que las inversiones y los proyectos tecnológicos se integren de forma coherente con la estrategia.",
+   "fclave": "Alinear la tecnología con la estrategia de la organización",
+   "tipo": "Emergente",
+   "amb": "Banca y seguros; grandes empresas; entidades públicas (arquitectura digital del Estado); consultoras",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "4 de 45 avisos",
+   "conf": 2,
+   "lim": "Modela vistas de la arquitectura y analiza brechas con supervisión directa de un arquitecto empresarial; no aprueba la arquitectura objetivo ni los estándares corporativos.",
+   "tasks": [
+    {
+     "code": "E5-02-T1",
+     "t": "Levantar la arquitectura actual de procesos, datos, aplicaciones e infraestructura",
+     "ent": "1. Modelo de arquitectura actual"
+    },
+    {
+     "code": "E5-02-T2",
+     "t": "Diseñar la arquitectura objetivo según la estrategia y los lineamientos de arquitectura digital",
+     "ent": "2. Arquitectura objetivo y plan de transición"
+    },
+    {
+     "code": "E5-02-T3",
+     "t": "Analizar brechas y definir iniciativas de transición",
+     "ent": "2. Arquitectura objetivo y plan de transición"
+    },
+    {
+     "code": "E5-02-T4",
+     "t": "Evaluar soluciones tecnológicas propuestas frente a la arquitectura de referencia",
+     "ent": "3. Dictamen de conformidad arquitectónica"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque el Perú ocupa el puesto 58 del índice de gobierno electrónico de Naciones Unidas y necesita integrar mejor sus sistemas para sostener ese nivel [19]. La Ley de Gobierno Digital define la arquitectura digital como el conjunto de componentes y estándares que alinean sistemas, datos, seguridad e infraestructura con los objetivos de la entidad [7]. ESCO reconoce al ingeniero en arquitectura empresarial como ocupación propia [5], aunque solo 4 de 45 avisos peruanos la piden, sobre todo en banca, con TOGAF [39]. Ello exige profesionales capaces de modelar la arquitectura actual y objetivo y convertir sus brechas en iniciativas.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la SGTD aplica el Marco de Arquitectura Digital del Estado con principios de valor ganado, reusabilidad y automatización que las entidades deben seguir [11]. Además, TOGAF 10 amplía su guía a empresas ágiles y a la transformación digital, lo que extiende la práctica fuera de la gran empresa [29]. Por eso es necesario que el egresado domine la arquitectura empresarial como puente entre estrategia y tecnología.",
+   "refs": "[5] [7] [11] [19] [25] [29] [39]",
+   "prod": {
+    "name": "Documento de arquitectura empresarial actual y objetivo",
+    "desc": "Documento que describe cómo está organizada hoy la organización en sus capas de negocio, datos, aplicaciones y tecnología, y cómo debe organizarse para cumplir su estrategia. Integra el catálogo de procesos y capacidades, el mapa de aplicaciones y datos, la arquitectura objetivo, el análisis de brechas y el plan de transición por iniciativas. Se elabora con un método iterativo de arquitectura, como el ADM de TOGAF o el marco de arquitectura digital del Estado, y se verifica revisando la trazabilidad entre capacidades, aplicaciones y objetivos. Orienta la decisión sobre qué soluciones adquirir, reutilizar o retirar, y demuestra que el egresado integra negocio y tecnología con visión sistémica.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Modelo de arquitectura actual",
+      "codes": "E5-02-T1",
+      "sum": "vistas actuales de procesos, datos, aplicaciones e infraestructura",
+      "ev": [
+       "Catálogo de aplicaciones y mapa de capacidades",
+       "Diagramas de arquitectura actual en notación estándar"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Arquitectura objetivo y plan de transición",
+      "codes": "E5-02-T2, E5-02-T3",
+      "sum": "arquitectura objetivo, brechas identificadas e iniciativas de transición secuenciadas",
+      "ev": [
+       "Matriz de brechas actual–objetivo",
+       "Plan de transición con iniciativas priorizadas"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Dictamen de conformidad arquitectónica",
+      "codes": "E5-02-T4",
+      "sum": "evaluación de una solución propuesta frente a la arquitectura de referencia",
+      "ev": [
+       "Dictamen técnico con criterios de conformidad y recomendación"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E5-03",
+   "t": "Gestión del portafolio de proyectos tecnológicos",
+   "d": "Evaluar, priorizar y dar seguimiento al portafolio de iniciativas y proyectos tecnológicos mediante casos de negocio y criterios de valor, riesgo y capacidad, para que los recursos se asignen a las iniciativas que generan mayor valor y se verifique la obtención de sus beneficios.",
+   "fclave": "Alinear la tecnología con la estrategia de la organización",
+   "tipo": "Actual",
+   "amb": "Oficinas de gestión de proyectos (PMO) de empresas y entidades públicas; banca; consultoras",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "17 de 45 avisos",
+   "conf": 3,
+   "lim": "Elabora casos de negocio, matrices de priorización y reportes del portafolio con supervisión indirecta; la decisión de inversión es del comité o de la alta dirección.",
+   "tasks": [
+    {
+     "code": "E5-03-T1",
+     "t": "Elaborar casos de negocio de las iniciativas tecnológicas",
+     "ent": "1. Casos de negocio y matriz de priorización"
+    },
+    {
+     "code": "E5-03-T2",
+     "t": "Priorizar iniciativas según valor, riesgo y alineamiento estratégico",
+     "ent": "1. Casos de negocio y matriz de priorización"
+    },
+    {
+     "code": "E5-03-T3",
+     "t": "Mantener actualizado el portafolio y su cartera de iniciativas",
+     "ent": "2. Portafolio priorizado con estándares de gestión"
+    },
+    {
+     "code": "E5-03-T4",
+     "t": "Reportar avance y beneficios del portafolio al comité",
+     "ent": "3. Informe de desempeño y beneficios del portafolio"
+    },
+    {
+     "code": "E5-03-T5",
+     "t": "Establecer estándares y plantillas de gestión de proyectos",
+     "ent": "2. Portafolio priorizado con estándares de gestión"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque las empresas administran carteras tecnológicas cuantiosas: un aviso peruano asigna al gerente de TI un portafolio regional de unos USD 5 millones entre inversión y gasto [40]. En el Estado, el comité de gobierno digital debe presentar el portafolio de proyectos del Plan de Gobierno Digital para su priorización [8]. En el mercado, 17 de 45 avisos piden priorizar o controlar portafolios, y hay puestos de PMO dedicados a ello [33]. El PMI estima que se necesitarán 25 millones de nuevos profesionales de proyectos al 2030 [30]. Ello exige profesionales capaces de priorizar iniciativas con casos de negocio y verificar sus beneficios.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la octava edición del PMBOK, publicada en 2025, reorienta la dirección de proyectos hacia la entrega de valor y no solo de productos [27]. Además, SFIA 9 distingue la gestión de portafolio y la gestión de beneficios como habilidades propias, lo que muestra que el mercado las contrata por separado [25]. Por eso es necesario que el egresado domine la gestión del portafolio tecnológico orientada al valor.",
+   "refs": "[8] [25] [27] [30] [32] [33] [40]",
+   "prod": {
+    "name": "Tablero de gestión del portafolio de proyectos tecnológicos",
+    "desc": "Tablero que concentra el estado, la prioridad y el valor esperado de todas las iniciativas tecnológicas de la organización para sustentar decisiones de inversión. Integra los casos de negocio, la matriz de priorización por valor, riesgo y alineamiento, la cartera ordenada de iniciativas, los estándares de gestión de proyectos y los indicadores de avance y beneficios. Se elabora aplicando criterios de evaluación acordados con la dirección y se verifica contrastando los beneficios reportados con las metas de cada caso de negocio. Orienta qué iniciativas iniciar, pausar o cancelar, y demuestra que el egresado gestiona inversiones tecnológicas con criterio de valor.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Casos de negocio y matriz de priorización",
+      "codes": "E5-03-T1, E5-03-T2",
+      "sum": "justificación económica de cada iniciativa y su puntaje de prioridad",
+      "ev": [
+       "Caso de negocio con costos, beneficios y riesgos",
+       "Matriz de priorización aprobada en comité"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Portafolio priorizado con estándares de gestión",
+      "codes": "E5-03-T3, E5-03-T5",
+      "sum": "cartera ordenada de iniciativas y plantillas comunes de gestión de proyectos",
+      "ev": [
+       "Registro del portafolio actualizado",
+       "Guía y plantillas estándar de la oficina de proyectos"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Informe de desempeño y beneficios del portafolio",
+      "codes": "E5-03-T4",
+      "sum": "avance, desviaciones y beneficios obtenidos por el portafolio",
+      "ev": [
+       "Informe periódico al comité con indicadores de avance y beneficios"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E5-04",
+   "t": "Gobierno de tecnologías de información",
+   "d": "Diseñar y mantener el marco de gobierno de TI de la organización —estructuras de decisión, políticas, roles, indicadores y compromisos normativos— para que la dirección evalúe, oriente y supervise el uso de la tecnología y la entidad cumpla sus obligaciones de gobierno digital.",
+   "fclave": "Alinear la tecnología con la estrategia de la organización",
+   "tipo": "Actual",
+   "amb": "Entidades públicas (comités de gobierno y transformación digital); banca; grandes empresas; consultoras de gobierno de TI",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "17 de 45 avisos",
+   "conf": 3,
+   "lim": "Diagnostica, propone políticas y da soporte técnico al comité con supervisión indirecta; la aprobación de políticas y la rendición de cuentas corresponden a la dirección.",
+   "tasks": [
+    {
+     "code": "E5-04-T1",
+     "t": "Diagnosticar el gobierno de TI frente a un marco de referencia",
+     "ent": "1. Diagnóstico de gobierno de TI"
+    },
+    {
+     "code": "E5-04-T2",
+     "t": "Proponer estructuras de decisión, roles y políticas de TI",
+     "ent": "2. Modelo de gobierno con políticas y roles"
+    },
+    {
+     "code": "E5-04-T3",
+     "t": "Preparar sesiones, informes y acuerdos del comité de gobierno y transformación digital",
+     "ent": "3. Expediente de seguimiento del comité y de compromisos"
+    },
+    {
+     "code": "E5-04-T4",
+     "t": "Reportar indicadores de gobierno y cumplimiento de compromisos digitales",
+     "ent": "3. Expediente de seguimiento del comité y de compromisos"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque la Ley de Gobierno Digital obliga a las entidades a dirigir, evaluar y supervisar el uso de tecnologías digitales mediante procesos, estructuras y normas de gobernanza [7], y su reglamento crea un comité de gobierno digital en cada entidad [8]. Una convocatoria CAS de 2026 paga S/ 9 000 mensuales a un especialista que da soporte a ese comité y reporta los compromisos de transformación digital [16]. En el mercado, 17 de 45 avisos piden gobernanza o políticas de TI, y COBIT organiza 40 objetivos de gobierno y gestión [22]. Ello exige profesionales capaces de diseñar y operar el marco de gobierno de TI.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el reglamento de la ley de inteligencia artificial, vigente desde enero de 2026, exige a las entidades gobernar el uso de la IA [15]. Las entidades ya coordinan con oficiales de gobierno de datos, de seguridad y de inteligencia artificial, lo que amplía el alcance del gobierno de TI [16]. Por eso es necesario que el egresado domine el diseño y la operación del gobierno de tecnologías de información.",
+   "refs": "[7] [8] [12] [15] [16] [22] [25] [36]",
+   "prod": {
+    "name": "Marco de gobierno de tecnologías de información de la organización",
+    "desc": "Marco que establece quién decide sobre la tecnología, con qué reglas y cómo se rinde cuentas ante la dirección. Integra el diagnóstico frente a un modelo de referencia como COBIT, la estructura de comités y roles, las políticas de TI, el tablero de indicadores y el registro de compromisos normativos de gobierno digital. Se elabora contrastando las prácticas vigentes con los objetivos de gobierno aplicables y se verifica en las actas del comité y en el cumplimiento de los compromisos reportados a la autoridad. Orienta cómo la dirección supervisa la tecnología y demuestra que el egresado opera el gobierno de TI con criterio normativo.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Diagnóstico de gobierno de TI",
+      "codes": "E5-04-T1",
+      "sum": "brechas del gobierno de TI frente a un marco de referencia",
+      "ev": [
+       "Informe de diagnóstico con niveles de capacidad por objetivo"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Modelo de gobierno con políticas y roles",
+      "codes": "E5-04-T2",
+      "sum": "comités, roles, responsabilidades y políticas de TI propuestas",
+      "ev": [
+       "Matriz de responsabilidades de decisión",
+       "Políticas de TI propuestas para aprobación"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Expediente de seguimiento del comité y de compromisos",
+      "codes": "E5-04-T3, E5-04-T4",
+      "sum": "actas, acuerdos, indicadores y reporte de compromisos normativos",
+      "ev": [
+       "Actas y ayudas memoria del comité",
+       "Reporte de cumplimiento de compromisos de transformación digital"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E5-05",
+   "t": "Planificación de proyectos tecnológicos",
+   "d": "Planificar proyectos tecnológicos definiendo alcance, cronograma, costos, recursos, riesgos y enfoque de entrega predictivo, ágil o híbrido, para que el proyecto cuente con una línea base aprobada y viable antes de su ejecución.",
+   "fclave": "Dirigir proyectos tecnológicos con equipos y proveedores",
+   "tipo": "Actual",
+   "amb": "Consultoras e integradores de TI; banca y seguros; entidades públicas; retail e industria",
+   "evid": "O,M,P",
+   "unica": false,
+   "frec": "22 de 45 avisos",
+   "conf": 3,
+   "lim": "Planifica proyectos de complejidad baja o media con supervisión indirecta; en proyectos de alta complejidad actúa como coordinador bajo un jefe de proyecto.",
+   "tasks": [
+    {
+     "code": "E5-05-T1",
+     "t": "Elaborar el acta de constitución y el registro de interesados",
+     "ent": "1. Acta de constitución e interesados"
+    },
+    {
+     "code": "E5-05-T2",
+     "t": "Definir el alcance y la estructura de desglose del trabajo o el backlog",
+     "ent": "2. Línea base de alcance, cronograma y costo"
+    },
+    {
+     "code": "E5-05-T3",
+     "t": "Estimar esfuerzo y elaborar cronograma y presupuesto",
+     "ent": "2. Línea base de alcance, cronograma y costo"
+    },
+    {
+     "code": "E5-05-T4",
+     "t": "Identificar riesgos y planificar sus respuestas",
+     "ent": "3. Registro de riesgos con plan de respuesta"
+    },
+    {
+     "code": "E5-05-T5",
+     "t": "Seleccionar el enfoque de entrega y el plan de comunicaciones",
+     "ent": "2. Línea base de alcance, cronograma y costo"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque los gerentes de proyectos de TI suman 472 000 empleos en Estados Unidos y O*NET proyecta 31 300 vacantes al 2034 con crecimiento muy superior al promedio [2]. ESCO asigna a esta ocupación fijar presupuestos y plazos y realizar análisis de riesgos [3]. En el Perú, 22 de 45 avisos piden planificar alcance, cronograma y presupuesto, y una caja municipal exige gestión integral de alcance, costos, riesgos y adquisiciones de sus proyectos informáticos [32]. Ello exige profesionales capaces de construir una línea base de proyecto realista y aprobable.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la guía del PMI pide elegir el enfoque predictivo, adaptativo o híbrido y adaptar la planificación a cada contexto [26]. Además, la octava edición del PMBOK incorpora la inteligencia artificial como herramienta práctica de estimación y planificación [27]. Por eso es necesario que el egresado domine la planificación de proyectos tecnológicos en enfoques predictivos, ágiles e híbridos.",
+   "refs": "[2] [3] [25] [26] [27] [31] [32]",
+   "prod": {
+    "name": "Plan de dirección del proyecto tecnológico",
+    "desc": "Plan que fija cómo se ejecutará, controlará y cerrará un proyecto tecnológico y constituye su línea base aprobada. Integra el acta de constitución, el registro de interesados, el alcance con su estructura de desglose o backlog, el cronograma, el presupuesto, el registro de riesgos y el plan de comunicaciones. Se elabora con técnicas de estimación y secuenciamiento y se verifica revisando la coherencia entre alcance, tiempo y costo y su aprobación formal por el patrocinador. Orienta la decisión de iniciar la ejecución y demuestra que el egresado planifica proyectos con realismo y enfoque adecuado.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Acta de constitución e interesados",
+      "codes": "E5-05-T1",
+      "sum": "objetivo, justificación, patrocinador e interesados del proyecto",
+      "ev": [
+       "Acta de constitución firmada por el patrocinador",
+       "Registro de interesados con influencia e interés"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Línea base de alcance, cronograma y costo",
+      "codes": "E5-05-T2, E5-05-T3, E5-05-T5",
+      "sum": "alcance desglosado, cronograma, presupuesto, enfoque de entrega y plan de comunicaciones",
+      "ev": [
+       "Cronograma con ruta crítica o plan de releases",
+       "Presupuesto por fases o entregables"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Registro de riesgos con plan de respuesta",
+      "codes": "E5-05-T4",
+      "sum": "riesgos identificados, valorados y sus respuestas asignadas",
+      "ev": [
+       "Matriz de riesgos con probabilidad, impacto y responsable"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E5-06",
+   "t": "Dirección y control de proyectos tecnológicos",
+   "d": "Dirigir la ejecución de proyectos tecnológicos coordinando equipos, interesados y proveedores, controlando avance, costo, calidad y cambios de alcance, y conduciendo el cierre con aceptación formal, para entregar los resultados comprometidos con valor para el cliente.",
+   "fclave": "Dirigir proyectos tecnológicos con equipos y proveedores",
+   "tipo": "Actual",
+   "amb": "Consultoras e integradores de TI; banca; entidades públicas; empresas en transformación digital",
+   "evid": "O,M,P",
+   "unica": false,
+   "frec": "37 de 45 avisos",
+   "conf": 3,
+   "lim": "Dirige proyectos acotados o frentes de un proyecto mayor con supervisión indirecta; los cambios que alteran costo o plazo contractual los aprueba el patrocinador.",
+   "tasks": [
+    {
+     "code": "E5-06-T1",
+     "t": "Conducir reuniones de lanzamiento, seguimiento y comités del proyecto",
+     "ent": "1. Informes de estado y control del proyecto"
+    },
+    {
+     "code": "E5-06-T2",
+     "t": "Medir avance, costo y calidad frente a la línea base",
+     "ent": "1. Informes de estado y control del proyecto"
+    },
+    {
+     "code": "E5-06-T3",
+     "t": "Gestionar solicitudes de cambio e impedimentos",
+     "ent": "2. Registro de control de cambios"
+    },
+    {
+     "code": "E5-06-T4",
+     "t": "Reportar el estado del proyecto a la dirección",
+     "ent": "1. Informes de estado y control del proyecto"
+    },
+    {
+     "code": "E5-06-T5",
+     "t": "Gestionar la aceptación de entregables y el cierre con lecciones aprendidas",
+     "ent": "3. Acta de aceptación y cierre"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque es la más pedida en el mercado peruano analizado: 37 de 45 avisos exigen seguimiento, control de entregables o cierre de proyectos. O*NET ubica como tareas de mayor importancia del gerente de proyectos de TI gestionar la ejecución dentro de presupuesto, plazo y alcance y vigilar hitos [2]. Avisos de consultoras piden responsabilidad total sobre alcance, cronograma, presupuesto, calidad y riesgos [31] y conducir proyectos públicos hasta la conformidad y el cierre contractual [34]. El PMI estima 2,3 millones de nuevos puestos de proyectos cada año hasta 2030 [30]. Ello exige profesionales capaces de dirigir la ejecución y cerrar proyectos con aceptación formal.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el PMI prevé que 13 millones de profesionales de proyectos se retirarán al 2030, lo que abre espacio a nuevos directores [30]. Además, la octava edición del PMBOK mide el éxito por el valor entregado e integra la IA al seguimiento del proyecto [27]. Por eso es necesario que el egresado domine la dirección, el control y el cierre de proyectos tecnológicos.",
+   "refs": "[1] [2] [3] [26] [27] [30] [31] [34]",
+   "prod": {
+    "name": "Expediente de control y cierre del proyecto tecnológico",
+    "desc": "Expediente que documenta cómo avanzó el proyecto frente a su línea base y cómo se entregó al cliente. Integra los informes periódicos de estado con indicadores de avance, costo y calidad, el registro de cambios aprobados y rechazados, las actas de comités y el acta de aceptación y cierre con lecciones aprendidas. Se elabora a partir de las mediciones del equipo y de los proveedores y se verifica contrastando lo reportado con la línea base y con la conformidad firmada por el cliente. Orienta las decisiones de corrección durante la ejecución y demuestra que el egresado dirige proyectos hasta su entrega formal.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Informes de estado y control del proyecto",
+      "codes": "E5-06-T1, E5-06-T2, E5-06-T4",
+      "sum": "avance, desviaciones y acciones correctivas reportadas a la dirección",
+      "ev": [
+       "Informe de estado con indicadores de avance y costo",
+       "Actas de comité de seguimiento"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registro de control de cambios",
+      "codes": "E5-06-T3",
+      "sum": "solicitudes de cambio con su análisis de impacto y decisión",
+      "ev": [
+       "Registro de cambios con impacto en alcance, plazo y costo"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Acta de aceptación y cierre",
+      "codes": "E5-06-T5",
+      "sum": "conformidad del cliente, entrega de productos y lecciones aprendidas",
+      "ev": [
+       "Acta de aceptación firmada por el cliente",
+       "Registro de lecciones aprendidas"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E5-07",
+   "t": "Gestión de proveedores y contratos tecnológicos",
+   "d": "Gestionar la contratación y el desempeño de proveedores de bienes y servicios tecnológicos, desde los requerimientos técnicos y la evaluación de propuestas hasta el control de entregables y niveles de servicio pactados, para que los contratos cumplan lo acordado con transparencia y valor.",
+   "fclave": "Dirigir proyectos tecnológicos con equipos y proveedores",
+   "tipo": "Actual",
+   "amb": "Entidades públicas (contrataciones del Estado); banca (servicios de terceros y nube); empresas con servicios tercerizados",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "20 de 45 avisos",
+   "conf": 3,
+   "lim": "Formula requerimientos técnicos y verifica entregables con supervisión indirecta; no adjudica contratos ni aprueba penalidades, que corresponden al órgano de contrataciones o a la gerencia.",
+   "tasks": [
+    {
+     "code": "E5-07-T1",
+     "t": "Formular especificaciones técnicas o términos de referencia",
+     "ent": "1. Términos de referencia y evaluación técnica"
+    },
+    {
+     "code": "E5-07-T2",
+     "t": "Evaluar propuestas técnicas de proveedores",
+     "ent": "1. Términos de referencia y evaluación técnica"
+    },
+    {
+     "code": "E5-07-T3",
+     "t": "Verificar entregables y emitir la conformidad del servicio",
+     "ent": "2. Informes de conformidad y desempeño del proveedor"
+    },
+    {
+     "code": "E5-07-T4",
+     "t": "Evaluar el desempeño del proveedor y escalar incumplimientos",
+     "ent": "2. Informes de conformidad y desempeño del proveedor"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque 20 de 45 avisos peruanos exigen coordinar proveedores, contratistas o fabricantes, y una caja municipal pide verificar que los proveedores cumplan los entregables de sus proyectos informáticos [32]. La Ley General de Contrataciones Públicas regula cómo el Estado contrata bienes y servicios, incluidos los tecnológicos [14]. La SBS exige a las entidades financieras asegurar contractualmente los servicios de terceros y en la nube y verificar anualmente sus certificaciones [13]. ESCO asigna al gestor de operaciones de TIC negociar contratos y corregir incumplimientos de acuerdos [6]. Ello exige profesionales capaces de contratar y controlar proveedores tecnológicos con rigor.",
+   "imp": "Medio",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la Ley General de Contrataciones Públicas, vigente desde abril de 2025, cambia los procedimientos con que las entidades contratan tecnología [14]. Además, la SBS exige estrategias de salida e inventario de subcontrataciones en los servicios en la nube, lo que complica la gestión de terceros [13]. Por eso es necesario que el egresado domine la gestión de proveedores y contratos tecnológicos.",
+   "refs": "[6] [13] [14] [25] [32] [34] [39]",
+   "prod": {
+    "name": "Expediente de gestión del contrato tecnológico",
+    "desc": "Expediente que reúne el ciclo de un contrato de bienes o servicios tecnológicos desde el requerimiento hasta la evaluación del proveedor. Integra los términos de referencia o especificaciones técnicas, el cuadro de evaluación de propuestas, los informes de conformidad de entregables y la evaluación periódica del desempeño y de los niveles de servicio pactados. Se elabora conforme a la normativa de contrataciones aplicable y se verifica contrastando cada entregable con lo exigido en el contrato. Orienta decisiones de conformidad, penalidad o renovación y demuestra que el egresado controla proveedores con criterio técnico y normativo.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Términos de referencia y evaluación técnica",
+      "codes": "E5-07-T1, E5-07-T2",
+      "sum": "requerimiento técnico del bien o servicio y evaluación de las propuestas",
+      "ev": [
+       "Términos de referencia con criterios de aceptación",
+       "Cuadro comparativo de evaluación técnica"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informes de conformidad y desempeño del proveedor",
+      "codes": "E5-07-T3, E5-07-T4",
+      "sum": "conformidad de entregables, cumplimiento de niveles de servicio y escalamientos",
+      "ev": [
+       "Informe de conformidad por entregable",
+       "Evaluación periódica del proveedor con indicadores"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E5-08",
+   "t": "Digitalización de procesos y servicios institucionales",
+   "d": "Rediseñar y digitalizar procesos y servicios de la organización, desde el diagnóstico de la experiencia del usuario hasta la puesta en marcha y la medición de resultados, para reducir tiempos y costos y ofrecer servicios digitales centrados en las personas.",
+   "fclave": "Dirigir proyectos tecnológicos con equipos y proveedores",
+   "tipo": "Emergente",
+   "amb": "Entidades públicas (servicios digitales, mesas de partes digitales); empresas en transformación digital; consultoras",
+   "evid": "N,M,P",
+   "unica": false,
+   "frec": "17 de 45 avisos",
+   "conf": 3,
+   "lim": "Rediseña procesos y levanta requerimientos con supervisión indirecta; la aprobación del nuevo proceso y la gestión del cambio a escala corresponden a la dirección y a las áreas dueñas.",
+   "tasks": [
+    {
+     "code": "E5-08-T1",
+     "t": "Levantar el proceso actual y la experiencia del usuario",
+     "ent": "1. Diagnóstico del proceso y de la experiencia del usuario"
+    },
+    {
+     "code": "E5-08-T2",
+     "t": "Rediseñar el proceso de extremo a extremo con criterios de digitalización",
+     "ent": "2. Proceso rediseñado con requerimientos"
+    },
+    {
+     "code": "E5-08-T3",
+     "t": "Traducir el rediseño en historias de usuario y criterios de aceptación",
+     "ent": "2. Proceso rediseñado con requerimientos"
+    },
+    {
+     "code": "E5-08-T4",
+     "t": "Acompañar la adopción del proceso digital por los usuarios",
+     "ent": "3. Informe de adopción e impacto"
+    },
+    {
+     "code": "E5-08-T5",
+     "t": "Medir los indicadores de impacto del proceso digitalizado",
+     "ent": "3. Informe de adopción e impacto"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque, según datos citados por la SGTD, en el Perú solo 15% de los trámites puede iniciarse digitalmente y 3% completarse en línea [17]. La Ley 31170 obligó a todas las entidades a implementar mesas de partes digitales y notificación electrónica en doce meses [9], y gob.pe ya reúne 5 162 servicios digitales [18]. En el mercado, 17 de 45 avisos piden transformación digital o rediseño de procesos, con puestos dedicados a rediseñar procesos de extremo a extremo [42]. Ello exige profesionales capaces de rediseñar y digitalizar procesos midiendo su impacto.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la Política Nacional de Transformación Digital al 2030 prioriza servicios digitales centrados en las personas [10]. Además, el reglamento de la ley de inteligencia artificial promueve el uso de la IA en entidades públicas y privadas, lo que abre nuevos rediseños de procesos [15]. Por eso es necesario que el egresado domine la digitalización de procesos y servicios con medición de resultados.",
+   "refs": "[9] [10] [15] [17] [18] [20] [42]",
+   "prod": {
+    "name": "Propuesta de rediseño digital del proceso",
+    "desc": "Propuesta que describe cómo un proceso o servicio pasa de su forma actual a una forma digital más rápida y centrada en el usuario. Integra el mapa del proceso actual, el recorrido del usuario, el proceso rediseñado de extremo a extremo, las historias de usuario con criterios de aceptación, el plan de adopción y los indicadores de impacto. Se elabora con levantamiento en campo y herramientas de diseño de servicios, y se verifica con pruebas de la solución y con la comparación de indicadores antes y después. Orienta la decisión de implementar el nuevo proceso y demuestra que el egresado transforma servicios con evidencia.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Diagnóstico del proceso y de la experiencia del usuario",
+      "codes": "E5-08-T1",
+      "sum": "proceso actual, puntos de dolor y recorrido del usuario",
+      "ev": [
+       "Mapa del proceso actual con tiempos",
+       "Mapa del recorrido del usuario"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Proceso rediseñado con requerimientos",
+      "codes": "E5-08-T2, E5-08-T3",
+      "sum": "proceso digital objetivo e historias de usuario para su construcción",
+      "ev": [
+       "Diagrama del proceso rediseñado",
+       "Backlog con historias de usuario y criterios de aceptación"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Informe de adopción e impacto",
+      "codes": "E5-08-T4, E5-08-T5",
+      "sum": "acciones de adopción y comparación de indicadores antes y después",
+      "ev": [
+       "Informe de indicadores de tiempo, costo y satisfacción"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E5-09",
+   "t": "Gestión de niveles de servicio tecnológico",
+   "d": "Definir el catálogo de servicios de TI y acordar, medir e informar sus niveles de servicio con usuarios y proveedores, para que los servicios tecnológicos cumplan los compromisos de disponibilidad, tiempos de atención y calidad que requiere la operación.",
+   "fclave": "Operar los servicios de tecnología de la información bajo acuerdos de nivel",
+   "tipo": "Actual",
+   "amb": "Proveedores de servicios gestionados; banca; áreas de TI de empresas y entidades públicas",
+   "evid": "O,M,P",
+   "unica": false,
+   "frec": "21 de 45 avisos",
+   "conf": 3,
+   "lim": "Mide y reporta niveles de servicio y propone mejoras con supervisión indirecta; la negociación de acuerdos con clientes estratégicos la lidera un gestor de servicio sénior.",
+   "tasks": [
+    {
+     "code": "E5-09-T1",
+     "t": "Estructurar el catálogo de servicios con su criticidad",
+     "ent": "1. Catálogo de servicios y acuerdos de nivel"
+    },
+    {
+     "code": "E5-09-T2",
+     "t": "Acordar niveles de servicio con usuarios y proveedores",
+     "ent": "1. Catálogo de servicios y acuerdos de nivel"
+    },
+    {
+     "code": "E5-09-T3",
+     "t": "Medir y reportar el cumplimiento de los niveles de servicio",
+     "ent": "2. Informe de niveles de servicio y mejora"
+    },
+    {
+     "code": "E5-09-T4",
+     "t": "Formular planes de mejora continua del servicio",
+     "ent": "2. Informe de niveles de servicio y mejora"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque la operación digital depende de servicios continuos: gob.pe ofrece 5 162 servicios digitales y la plataforma de interoperabilidad del Estado registra más de 774 millones de transacciones [18]. ESCO asigna al gestor de operaciones de TIC coordinar servicios y corregir incumplimientos de acuerdos [6]. En el Perú, 21 de 45 avisos exigen cumplir SLA, indicadores o ITIL, y los proveedores de banca contratan responsables de asegurar niveles de servicio y compromisos contractuales [35]. Ello exige profesionales capaces de acordar, medir y mejorar niveles de servicio tecnológico.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque ITIL versión 5, lanzada en 2026, integra la gestión de productos y servicios digitales en entornos habilitados por IA [28]. Además, el Estado ya opera más de 5 000 servicios digitales cuya satisfacción se mide, lo que exige gestionar niveles de servicio también en el sector público [18]. Por eso es necesario que el egresado domine la gestión de niveles de servicio tecnológico.",
+   "refs": "[6] [18] [25] [28] [35] [36]",
+   "prod": {
+    "name": "Catálogo de servicios de TI con acuerdos de nivel",
+    "desc": "Catálogo que define qué servicios tecnológicos ofrece el área de TI o el proveedor, a quién y con qué compromisos medibles. Integra la descripción de cada servicio, su criticidad, los acuerdos de nivel con usuarios, los acuerdos operativos con proveedores, los indicadores de cumplimiento y el plan de mejora del servicio. Se elabora con las áreas usuarias y los equipos de soporte y se verifica con la medición periódica de disponibilidad, tiempos de respuesta y satisfacción. Orienta decisiones de mejora, inversión o renegociación del servicio y demuestra que el egresado gestiona servicios de TI con orientación al usuario.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Catálogo de servicios y acuerdos de nivel",
+      "codes": "E5-09-T1, E5-09-T2",
+      "sum": "servicios, criticidad y compromisos acordados con usuarios y proveedores",
+      "ev": [
+       "Catálogo de servicios publicado",
+       "Acuerdos de nivel de servicio firmados"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de niveles de servicio y mejora",
+      "codes": "E5-09-T3, E5-09-T4",
+      "sum": "cumplimiento de indicadores y acciones de mejora continua",
+      "ev": [
+       "Informe mensual de cumplimiento de acuerdos",
+       "Plan de mejora del servicio con responsables"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E5-10",
+   "t": "Gestión de incidentes, problemas y cambios tecnológicos",
+   "d": "Coordinar la atención de incidentes, el análisis de problemas recurrentes y la evaluación y control de cambios en los servicios en producción, para restablecer la operación con rapidez, eliminar causas raíz y evitar interrupciones no controladas.",
+   "fclave": "Operar los servicios de tecnología de la información bajo acuerdos de nivel",
+   "tipo": "Actual",
+   "amb": "Mesas de servicio y centros de operaciones de TI; banca; proveedores de servicios gestionados; entidades públicas",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "13 de 45 avisos",
+   "conf": 3,
+   "lim": "Coordina incidentes y analiza causas raíz con supervisión indirecta; los cambios de alto riesgo los aprueba el comité de cambios.",
+   "tasks": [
+    {
+     "code": "E5-10-T1",
+     "t": "Clasificar, priorizar y escalar incidentes según criticidad",
+     "ent": "1. Procedimiento y flujos de atención"
+    },
+    {
+     "code": "E5-10-T2",
+     "t": "Coordinar la resolución de incidentes mayores y comunicar a los interesados",
+     "ent": "2. Informe de incidente mayor y causa raíz"
+    },
+    {
+     "code": "E5-10-T3",
+     "t": "Conducir el análisis de causa raíz de problemas recurrentes",
+     "ent": "2. Informe de incidente mayor y causa raíz"
+    },
+    {
+     "code": "E5-10-T4",
+     "t": "Evaluar el riesgo e impacto de los cambios ante el comité de cambios",
+     "ent": "3. Registro de evaluación de cambios"
+    },
+    {
+     "code": "E5-10-T5",
+     "t": "Definir los flujos de atención en la herramienta de gestión de servicios",
+     "ent": "1. Procedimiento y flujos de atención"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque las Normas de Control Interno exigen a las entidades públicas controles de TIC que aseguren la continuidad del servicio y la segregación de funciones [12]. ESCO asigna al gestor de operaciones de TIC gestionar los cambios de los sistemas y usar sistemas de tickets [6]. En el Perú, 13 de 45 avisos piden gestionar incidentes, problemas o cambios, y una financiera busca un líder que clasifique incidencias, conduzca análisis de causa raíz y administre la mesa de servicios [36]. Ello exige profesionales capaces de restablecer servicios con rapidez y eliminar las causas de sus fallas.",
+   "imp": "Medio",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque ITIL versión 5 actualiza en 2026 las prácticas de incidentes, problemas y habilitación de cambios con casos de uso de IA [28]. Además, la automatización de la atención desplaza el trabajo repetitivo y deja al profesional la coordinación y el análisis de causas [28]. Por eso es necesario que el egresado domine la gestión de incidentes, problemas y cambios en los servicios de TI.",
+   "refs": "[6] [12] [25] [28] [35] [36]",
+   "prod": {
+    "name": "Registro de gestión de incidentes, problemas y cambios",
+    "desc": "Registro que documenta cómo se atendieron las interrupciones del servicio, qué causas se eliminaron y qué cambios se autorizaron en producción. Integra el procedimiento con flujos de clasificación y escalamiento, los informes de incidentes mayores, los análisis de causa raíz con sus acciones y las evaluaciones de riesgo de los cambios. Se elabora a partir de la herramienta de gestión de servicios y se verifica con indicadores de tiempo de resolución, recurrencia y cambios fallidos. Orienta decisiones de corrección y de aprobación de cambios, y demuestra que el egresado opera servicios con disciplina y control.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Procedimiento y flujos de atención",
+      "codes": "E5-10-T1, E5-10-T5",
+      "sum": "reglas de clasificación, prioridad, escalamiento y flujos en la herramienta",
+      "ev": [
+       "Procedimiento de gestión de incidentes aprobado",
+       "Flujos configurados en la herramienta de servicio"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de incidente mayor y causa raíz",
+      "codes": "E5-10-T2, E5-10-T3",
+      "sum": "cronología del incidente, causa raíz y acciones preventivas",
+      "ev": [
+       "Informe de incidente mayor",
+       "Análisis de causa raíz con plan de acción"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Registro de evaluación de cambios",
+      "codes": "E5-10-T4",
+      "sum": "cambios solicitados con su riesgo, impacto y decisión del comité",
+      "ev": [
+       "Actas del comité de cambios con decisiones"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E5-11",
+   "t": "Auditoría de sistemas de información",
+   "d": "Planificar y ejecutar auditorías de sistemas de información, evaluando los controles generales y de aplicación de TI frente a marcos de control y normativa, y comunicar hallazgos y recomendaciones al comité de auditoría, para dar aseguramiento independiente sobre la confiabilidad de la información y la tecnología.",
+   "fclave": "Evaluar los controles y riesgos de tecnología de la información",
+   "tipo": "Actual",
+   "amb": "Firmas de auditoría y consultoría; auditoría interna de banca, seguros y grandes empresas; órganos de control del Estado",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "13 de 45 avisos",
+   "conf": 2,
+   "lim": "Ejecuta pruebas de controles y documenta papeles de trabajo con supervisión directa de un auditor sénior; no firma el informe ni emite opinión de auditoría.",
+   "tasks": [
+    {
+     "code": "E5-11-T1",
+     "t": "Elaborar el plan de auditoría de TI basado en riesgos",
+     "ent": "1. Plan y programa de auditoría de TI"
+    },
+    {
+     "code": "E5-11-T2",
+     "t": "Probar el diseño y la eficacia de controles generales y de aplicación de TI",
+     "ent": "2. Papeles de trabajo con pruebas de control"
+    },
+    {
+     "code": "E5-11-T3",
+     "t": "Documentar evidencias en papeles de trabajo",
+     "ent": "2. Papeles de trabajo con pruebas de control"
+    },
+    {
+     "code": "E5-11-T4",
+     "t": "Redactar hallazgos y recomendaciones para el comité de auditoría",
+     "ent": "3. Informe de hallazgos y seguimiento"
+    },
+    {
+     "code": "E5-11-T5",
+     "t": "Hacer seguimiento a la implementación de las recomendaciones",
+     "ent": "3. Informe de hallazgos y seguimiento"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque la SBS exige que la auditoría externa de bancos, aseguradoras y AFP evalúe los sistemas de información de la empresa [13], y las Normas de Control Interno obligan a las entidades públicas a mantener controles de TIC verificables [12]. ESCO describe al gestor auditor de TIC como quien evalúa la infraestructura en términos de riesgo y recomienda controles [4]. En el Perú, 13 de 45 avisos piden auditoría de TI, con exigencias como CISA, COBIT y un plan anual de auditoría basado en riesgos [37]. Ello exige profesionales capaces de probar controles de TI y comunicar hallazgos con rigor probatorio.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque 85% de los profesionales de confianza digital, incluidos los auditores, declara que necesitará más competencias en IA en dos años, y ISACA creó una certificación de auditoría de IA [24]. Además, el marco ITAF refuerza la evaluación de riesgos en la planificación de cada auditoría [23]. Por eso es necesario que el egresado domine la auditoría de sistemas de información basada en riesgos.",
+   "refs": "[4] [12] [13] [22] [23] [24] [37] [38]",
+   "prod": {
+    "name": "Informe de auditoría de sistemas de información",
+    "desc": "Informe que comunica al comité de auditoría si los controles de TI de un proceso o sistema son adecuados y eficaces. Integra el plan y programa de auditoría basado en riesgos, los papeles de trabajo con las pruebas de controles generales y de aplicación, los hallazgos con su condición, criterio, causa y efecto, y las recomendaciones con su seguimiento. Se elabora aplicando normas de auditoría de TI y marcos como COBIT y se verifica mediante revisión de supervisión y la suficiencia de la evidencia obtenida. Orienta las decisiones de remediación de la dirección y demuestra que el egresado evalúa controles con independencia y objetividad.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Plan y programa de auditoría de TI",
+      "codes": "E5-11-T1",
+      "sum": "objetivos, alcance, riesgos y procedimientos de la auditoría",
+      "ev": [
+       "Plan de auditoría aprobado",
+       "Matriz de riesgos y controles a probar"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Papeles de trabajo con pruebas de control",
+      "codes": "E5-11-T2, E5-11-T3",
+      "sum": "pruebas de diseño y eficacia con su evidencia documentada",
+      "ev": [
+       "Papeles de trabajo referenciados",
+       "Evidencias de pruebas de controles generales de TI"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Informe de hallazgos y seguimiento",
+      "codes": "E5-11-T4, E5-11-T5",
+      "sum": "hallazgos, recomendaciones y estado de su implementación",
+      "ev": [
+       "Informe de auditoría con hallazgos",
+       "Matriz de seguimiento de recomendaciones"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E5-12",
+   "t": "Gestión del riesgo tecnológico y cumplimiento",
+   "d": "Identificar, evaluar y dar seguimiento a los riesgos tecnológicos —de proyectos, terceros, nube e inteligencia artificial— y al cumplimiento de la regulación aplicable a TI, para que la dirección decida con información sobre su exposición y la organización evite sanciones e interrupciones.",
+   "fclave": "Evaluar los controles y riesgos de tecnología de la información",
+   "tipo": "Emergente",
+   "amb": "Banca, seguros y AFP (supervisión SBS); firmas de consultoría de riesgos; grandes empresas; entidades públicas",
+   "evid": "N,M,P",
+   "unica": false,
+   "frec": "20 de 45 avisos",
+   "conf": 2,
+   "lim": "Identifica y valora riesgos y verifica requisitos regulatorios con supervisión directa; la aceptación del riesgo y la respuesta ante el regulador corresponden a la gerencia de riesgos o a la dirección. El diseño de controles de seguridad pertenece a la especialidad de seguridad de la información.",
+   "tasks": [
+    {
+     "code": "E5-12-T1",
+     "t": "Identificar y valorar riesgos tecnológicos de activos, procesos y proyectos",
+     "ent": "1. Matriz de riesgos tecnológicos y de terceros"
+    },
+    {
+     "code": "E5-12-T2",
+     "t": "Evaluar los riesgos de proveedores tecnológicos y servicios en la nube",
+     "ent": "1. Matriz de riesgos tecnológicos y de terceros"
+    },
+    {
+     "code": "E5-12-T3",
+     "t": "Verificar el cumplimiento de los requisitos regulatorios de TI",
+     "ent": "2. Informe de cumplimiento regulatorio con planes de acción"
+    },
+    {
+     "code": "E5-12-T4",
+     "t": "Proponer tratamientos y dar seguimiento a los planes de acción",
+     "ent": "2. Informe de cumplimiento regulatorio con planes de acción"
+    },
+    {
+     "code": "E5-12-T5",
+     "t": "Evaluar los riesgos de soluciones de inteligencia artificial antes de su implementación",
+     "ent": "1. Matriz de riesgos tecnológicos y de terceros"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque, según el informe de la SGTD, los ciberataques en el Perú crecieron 71% en 2021 y el país tuvo el tercer promedio de ataques por minuto de la región [17]. La SBS exige a bancos, aseguradoras y AFP gestionar los riesgos de terceros y de servicios en la nube y someterse a evaluaciones independientes [13]. En el mercado, 20 de 45 avisos piden gestionar riesgo tecnológico, continuidad o cumplimiento, incluidos puestos que evalúan riesgos de IA y de terceros [41]. Ello exige profesionales capaces de valorar riesgos tecnológicos y verificar el cumplimiento regulatorio de TI.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el reglamento de la ley de inteligencia artificial, vigente desde enero de 2026, exige un uso de la IA seguro, ético y con supervisión humana [15]. Además, 85% de los profesionales de confianza digital prevé necesitar más competencias en IA para mantenerse vigente [24]. Por eso es necesario que el egresado domine la gestión del riesgo tecnológico y del cumplimiento de TI.",
+   "refs": "[12] [13] [15] [17] [24] [25] [38] [41]",
+   "prod": {
+    "name": "Matriz de riesgos tecnológicos y cumplimiento regulatorio",
+    "desc": "Matriz que muestra a la dirección a qué riesgos tecnológicos y regulatorios está expuesta la organización y cómo se están tratando. Integra el inventario de riesgos de activos, procesos, proyectos, terceros, nube e inteligencia artificial, su valoración, los requisitos regulatorios aplicables con su estado de cumplimiento y los planes de acción con responsables. Se elabora con una metodología de riesgos reconocida y entrevistas a los dueños de procesos, y se verifica contrastando los controles declarados con evidencias de su operación. Orienta la decisión de aceptar, mitigar o transferir cada riesgo y demuestra que el egresado evalúa la tecnología con criterio de riesgo y cumplimiento.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Matriz de riesgos tecnológicos y de terceros",
+      "codes": "E5-12-T1, E5-12-T2, E5-12-T5",
+      "sum": "riesgos identificados y valorados de activos, proyectos, proveedores, nube e IA",
+      "ev": [
+       "Matriz de riesgos con probabilidad, impacto y nivel residual",
+       "Evaluación de riesgo de un proveedor o solución de IA"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de cumplimiento regulatorio con planes de acción",
+      "codes": "E5-12-T3, E5-12-T4",
+      "sum": "estado de cumplimiento de requisitos regulatorios y acciones de tratamiento",
+      "ev": [
+       "Matriz de cumplimiento regulatorio",
+       "Plan de acción con responsables y plazos"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "refs": [
+  [
+   "[1]",
+   "O*NET OnLine. Computer and Information Systems Managers (11-3021.00). 2025",
+   "https://www.onetonline.org/link/summary/11-3021.00",
+   "Verificado"
+  ],
+  [
+   "[2]",
+   "O*NET OnLine. Information Technology Project Managers (15-1299.09). 2025",
+   "https://www.onetonline.org/link/summary/15-1299.09",
+   "Verificado"
+  ],
+  [
+   "[3]",
+   "Comisión Europea. ESCO: gestor de proyectos de TIC (1330.7). 2024",
+   "https://data.europa.eu/esco/occupation/8b6388a4-4904-471b-9331-d3b1211f5525",
+   "Verificado"
+  ],
+  [
+   "[4]",
+   "Comisión Europea. ESCO: gestor auditor de TIC (2519.2). 2024",
+   "https://data.europa.eu/esco/occupation/76a1a76c-b014-4600-8901-56cb936de7ed",
+   "Verificado"
+  ],
+  [
+   "[5]",
+   "Comisión Europea. ESCO: ingeniero en arquitectura empresarial (2511.5). 2024",
+   "https://data.europa.eu/esco/occupation/2bef94db-0088-4507-982a-2ca717529adb",
+   "Verificado"
+  ],
+  [
+   "[6]",
+   "Comisión Europea. ESCO: ICT operations manager (1330.5). 2024",
+   "https://esco.ec.europa.eu/en/classification/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2Ff0ca39a8-1e30-487c-95f9-ef2d5e734adc",
+   "Verificado"
+  ],
+  [
+   "[7]",
+   "Presidencia de la República. Decreto Legislativo N.° 1412, Ley de Gobierno Digital. 2018",
+   "https://www2.congreso.gob.pe/sicr/cendocbib/con6_uibd.nsf/BC4C2F1C7A87C56F05258AAE00716268/$FILE/decr_legis_1412.pdf",
+   "Verificado"
+  ],
+  [
+   "[8]",
+   "PCM. Decreto Supremo N.° 029-2021-PCM, Reglamento del DL 1412. 2021",
+   "https://busquedas.elperuano.pe/dispositivo/NL/1929103-3",
+   "Verificado"
+  ],
+  [
+   "[9]",
+   "Congreso de la República. Ley N.° 31170, Ley que dispone la implementación de mesas de partes digitales y notificaciones electrónicas. 2021",
+   "https://www.leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Normas_Legales/31170-LEY.pdf",
+   "Verificado"
+  ],
+  [
+   "[10]",
+   "PCM. Decreto Supremo N.° 085-2023-PCM, Política Nacional de Transformación Digital al 2030. 2023",
+   "https://www.gob.pe/institucion/pcm/normas-legales/4471543-085-2023-pcm",
+   "Verificado"
+  ],
+  [
+   "[11]",
+   "PCM-SGTD. Arquitectura digital del Estado peruano (Marco de arquitectura digital). 2025",
+   "https://www.gob.pe/91900-arquitectura-digital-del-estado-peruano",
+   "Verificado"
+  ],
+  [
+   "[12]",
+   "Contraloría General de la República. Resolución de Contraloría N.° 320-2006-CG, Normas de Control Interno (norma 3.10, controles para las TIC). 2006",
+   "https://doc.contraloria.gob.pe/libros/2/pdf/RC_320_2006_CG.pdf",
+   "Verificado"
+  ],
+  [
+   "[13]",
+   "Superintendencia de Banca, Seguros y AFP. Resolución SBS N.° 504-2021, Reglamento para la Gestión de la Seguridad de la Información y la Ciberseguridad. 2021",
+   "https://intranet2.sbs.gob.pe/dv_int_cn/2046/v2.0/Adjuntos/504-2021.R.pdf",
+   "Verificado"
+  ],
+  [
+   "[14]",
+   "Congreso de la República. Ley N.° 32069, Ley General de Contrataciones Públicas (texto consolidado). 2024",
+   "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32069-TXM.pdf",
+   "Verificado"
+  ],
+  [
+   "[15]",
+   "PCM. Decreto Supremo N.° 115-2025-PCM, Reglamento de la Ley N.° 31814 sobre inteligencia artificial. 2025",
+   "https://www.gob.pe/institucion/pcm/normas-legales/7133522-115-2025-pcm",
+   "Verificado"
+  ],
+  [
+   "[16]",
+   "Ministerio de la Mujer y Poblaciones Vulnerables. Bases de la Convocatoria CAS N.° 161-2026: Especialista en Gobierno y Proyectos Digitales. 2026",
+   "https://cdn.www.gob.pe/uploads/document/file/10655067/8622521-bases-cas-161-2026-17-09-2026.pdf?v=1789698457",
+   "Verificado"
+  ],
+  [
+   "[17]",
+   "PCM-SGTD. Informe situacional de la Secretaría de Gobierno y Transformación Digital. 2023",
+   "https://cdn.www.gob.pe/uploads/document/file/4926629/SGTD_InformeSituacional_020823.pdf",
+   "Verificado"
+  ],
+  [
+   "[18]",
+   "PCM-SGTD. Reporte de avances en gobierno y transformación digital. 2026",
+   "https://indicadores.digital.gob.pe/",
+   "Verificado"
+  ],
+  [
+   "[19]",
+   "UN DESA. E-Government Survey 2024, capítulo 3 (regional). 2024",
+   "https://desapublications.un.org/sites/default/files/publications/2024-09/(Chapter%203)%20E-Government%20Survey%202024%201392024.pdf",
+   "Verificado"
+  ],
+  [
+   "[20]",
+   "Ministerio de la Producción. Madurez digital en las empresas peruanas: análisis de características y brechas para la transformación digital. 2023",
+   "https://cdn.www.gob.pe/uploads/document/file/5573137/4954834-estudio-de-madurez-digital-en-las-empresas-peruanas.pdf",
+   "Verificado"
+  ],
+  [
+   "[21]",
+   "EY Perú. Perú sigue avanzando hacia la madurez digital: el 73% de empresas ya se encuentra en un estado encaminado. 2024",
+   "https://www.ey.com/es_pe/newsroom/2024/10/peru-madurez-digital-avanzando-empresas",
+   "Verificado"
+  ],
+  [
+   "[22]",
+   "ISACA. COBIT 2019: framework for the governance and management of enterprise I&T. 2019",
+   "https://www.isaca.org/resources/cobit",
+   "Verificado"
+  ],
+  [
+   "[23]",
+   "ISACA. ISACA Updates IT Audit Framework (ITAF), 4th edition. 2020",
+   "https://www.isaca.org/about-us/newsroom/press-releases/2020/isaca-updates-it-audit-framework-itaf",
+   "Verificado"
+  ],
+  [
+   "[24]",
+   "ISACA. ISACA Launches Advanced in AI Audit (AAIA) Certification. 2025",
+   "https://www.isaca.org/about-us/newsroom/press-releases/2025/isaca-launches-groundbreaking-advanced-in-ai-audit-aaia-certification",
+   "Verificado"
+  ],
+  [
+   "[25]",
+   "SFIA Foundation. SFIA 9: skills A–Z (GOVN, STPL, POMG, PRMG, SLMO, USUP, CHMG, SUPP, AUDT, BURM). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/all-skills-a-z",
+   "Verificado"
+  ],
+  [
+   "[26]",
+   "Project Management Institute. The PMBOK Guide: Seven Facts About the Seventh Edition. 2021",
+   "https://www.pmi.org/-/media/pmi/documents/public/pdf/pmbok-standards/pmbok-guide-seven-facts.pdf?v=8dc5f84d-76f6-4405-8b1b-999dd3d4beef",
+   "Verificado"
+  ],
+  [
+   "[27]",
+   "Learning Tree. PMBOK Guide 8th Edition: key changes (fuente secundaria sobre la 8.ª edición del PMI). 2026",
+   "https://www.learningtree.com/blog/pmbok-guide-8th-edition-whats-new/",
+   "Verificado"
+  ],
+  [
+   "[28]",
+   "PeopleCert. ITIL Foundation (Version 5). 2026",
+   "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-5-foundation-version-50-4154",
+   "Verificado"
+  ],
+  [
+   "[29]",
+   "The Open Group. The TOGAF Standard, 10th Edition. 2022",
+   "https://www.opengroup.org/togaf",
+   "Verificado"
+  ],
+  [
+   "[30]",
+   "Columbia University SPS. The rising demand for project managers (cita el PMI Talent Gap). 2025",
+   "https://sps.columbia.edu/news/rising-demand-project-managers-why-world-needs-more-project-leaders",
+   "Verificado"
+  ],
+  [
+   "[31]",
+   "MÉTRICA Perú. Aviso: Project Manager TI (Lima). 2026",
+   "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4468671552",
+   "Verificado"
+  ],
+  [
+   "[32]",
+   "Caja Ica. Aviso: Especialista de Proyectos de Software (Ica). 2026",
+   "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4414804068",
+   "Verificado"
+  ],
+  [
+   "[33]",
+   "Empresa confidencial. Aviso: Project Management Officer (PMO) (Lima). 2026",
+   "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4468222436",
+   "Verificado"
+  ],
+  [
+   "[34]",
+   "TEKREA Perú. Aviso: Project Manager Senior, Tecnología y Ciberseguridad, sector público (Lima). 2026",
+   "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4469768212",
+   "Verificado"
+  ],
+  [
+   "[35]",
+   "Tata Consultancy Services Perú. Aviso: Delivery Manager, banca (Lima). 2026",
+   "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4465094563",
+   "Verificado"
+  ],
+  [
+   "[36]",
+   "Financiera Confianza. Aviso: Líder del Centro de Operaciones de TI (Lima). 2026",
+   "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4464270483",
+   "Verificado"
+  ],
+  [
+   "[37]",
+   "SENATI. Aviso: Auditor de TI y Seguridad de la Información (Lima). 2026",
+   "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4462717544",
+   "Verificado"
+  ],
+  [
+   "[38]",
+   "EY Perú. Aviso: Asistente de IT Risk (Lima). 2026",
+   "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4461941442",
+   "Verificado"
+  ],
+  [
+   "[39]",
+   "Interbank. Aviso: Business Architect (Lima). 2026",
+   "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4465862180",
+   "Verificado"
+  ],
+  [
+   "[40]",
+   "SMI. Aviso: Gerente Corporativo de TI (Lima). 2026",
+   "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4451266222",
+   "Verificado"
+  ],
+  [
+   "[41]",
+   "Banco Falabella Perú. Aviso: Especialista Senior de Riesgo Tecnológico y Resiliencia (Lima). 2026",
+   "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4451871495",
+   "Verificado"
+  ],
+  [
+   "[42]",
+   "MyApps Perú. Aviso: Analista de Transformación Digital TI (Lima). 2026",
+   "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4466223957",
+   "Verificado"
+  ]
+ ]
+}

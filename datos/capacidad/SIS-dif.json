@@ -1,0 +1,424 @@
+{
+ "cod": "SIS",
+ "indicador": "dif",
+ "fecha": "24-09-2026",
+ "universidades_revisadas": 22,
+ "items": [
+  {
+   "cod": "SIS-01",
+   "nivel": 2,
+   "declaran": 5,
+   "de": 21,
+   "quienes": [
+    "URP · certificación Desarrollador de Software y Redes de Datos / Especialista en Ing. de Software e IA (2024)",
+    "UTEC · concentración Desarrollo de Software y especialización Ingeniería de Software (2026)",
+    "U. Continental · certificación Desarrollador de Aplicaciones Web (s. f.)",
+    "UPN · certificación Bootcamp Web (s. f.)",
+    "ESAN · especialización Software Engineer Developer y certificación Desarrollo de Software (2025)"
+   ],
+   "sustento": "5 de 21 la declaran como línea nombrada (URP, UTEC, Continental, UPN, ESAN); en las otras 16 es tronco obligatorio sin nombre de línea. Varias la ofrecen: nivel 2.",
+   "fuentes": [
+    {
+     "t": "Universidad Ricardo Palma. (2024). Ingeniería Informática: plan de estudios 2024-I y certificaciones intermedias",
+     "u": "https://www.urp.edu.pe/pregrado/facultad-de-ingenieria/ingenieria-informatica/",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UTEC. (2026). Ciencia de la Computación: malla, concentraciones y especializaciones",
+     "u": "https://utec.edu.pe/carreras/ciencia-de-la-computacion",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "Universidad Continental. (s. f.). Ingeniería de Sistemas e Informática: certificaciones progresivas",
+     "u": "https://ucontinental.edu.pe/carrera/ingenieria-de-sistemas-e-informatica/",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UPN. (s. f.). Ingeniería de Sistemas Computacionales: certificaciones progresivas",
+     "u": "https://www.upn.edu.pe/carrera/ingenieria-de-sistemas-computacionales",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "Universidad ESAN. (2025). Ingeniería de Tecnologías de Información y Sistemas: áreas de especialización",
+     "u": "https://www.ue.edu.pe/pregrado/images/files/2025/Especializaciones/Ingenieria/Ingenieria%20de%20Tecnologias%20de%20Informacion%20y%20Sistemas_Especializacion.pdf",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "Universidad ESAN. (2025). Ingeniería de Tecnologías de Información y Sistemas: certificados",
+     "u": "https://www.ue.edu.pe/pregrado/images/files/2025/Certificaciones/Ingenieria/Ingenieria%20de%20Tecnologias%20de%20Informacion%20y%20Sistemas_Certificados.pdf",
+     "fecha": "24-09-2026"
+    }
+   ]
+  },
+  {
+   "cod": "SIS-02",
+   "nivel": 2,
+   "declaran": 8,
+   "de": 21,
+   "quienes": [
+    "USIL · mención Analítica de Datos No Estructurados (2025)",
+    "UTEC · concentraciones Ciencia de Datos Aplicada e Inteligencia Artificial; especializaciones IA, Deep Learning, Data Analytics (2026)",
+    "URP · certificación Especialista en Ingeniería de Software e Inteligencia Artificial (2024)",
+    "UCV · certificaciones Analista en Ciencia de Datos y Desarrollador de Soluciones con IA (s. f.)",
+    "UPAO · carrera Ingeniería de Sistemas e Inteligencia Artificial, tronco IA y Data & Analytics (2025)",
+    "U. Continental · certificación Experto en Ciencia de Datos y Machine Learning (s. f.)",
+    "ESAN · certificaciones Data Science y Especialista en Inteligencia Artificial (2025)",
+    "Tec de Monterrey · concentración Sistemas Inteligentes Avanzados (2026)"
+   ],
+   "sustento": "8 de 21 la declaran con nombre propio (USIL, UTEC, URP, UCV, UPAO, Continental, ESAN, Tec); es la línea más extendida del barrido pero no alcanza la mayoría. Nivel 2.",
+   "fuentes": [
+    {
+     "t": "USIL. (2025). Ingeniería de Sistemas de Información: malla y menciones",
+     "u": "https://usil.edu.pe/pregrado/ingenieria-sistemas-de-informacion/",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UTEC. (2026). Ciencia de la Computación: malla, concentraciones y especializaciones",
+     "u": "https://utec.edu.pe/carreras/ciencia-de-la-computacion",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "Universidad Ricardo Palma. (2024). Ingeniería Informática: plan de estudios 2024-I y certificaciones intermedias",
+     "u": "https://www.urp.edu.pe/pregrado/facultad-de-ingenieria/ingenieria-informatica/",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "Universidad César Vallejo. (s. f.). Ingeniería de Sistemas: certificaciones intermedias",
+     "u": "https://www.ucv.edu.pe/pregrado-presencial/ingenieria-de-sistemas",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UPAO. (2025). Ingeniería de Sistemas e Inteligencia Artificial: plan vigente desde 2025-10",
+     "u": "https://descubre.upao.edu.pe/sistemas-inteligencia-artificial",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "Universidad Continental. (s. f.). Ingeniería de Sistemas e Informática: certificaciones progresivas",
+     "u": "https://ucontinental.edu.pe/carrera/ingenieria-de-sistemas-e-informatica/",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "Universidad ESAN. (2025). Ingeniería de Tecnologías de Información y Sistemas: certificados",
+     "u": "https://www.ue.edu.pe/pregrado/images/files/2025/Certificaciones/Ingenieria/Ingenieria%20de%20Tecnologias%20de%20Informacion%20y%20Sistemas_Certificados.pdf",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "Tecnológico de Monterrey. (2026). Ingeniería en Tecnologías Computacionales: concentraciones",
+     "u": "https://tec.mx/es/ingenieria-y-ciencias/ingenieria-en-tecnologias-computacionales",
+     "fecha": "24-09-2026"
+    }
+   ]
+  },
+  {
+   "cod": "SIS-03",
+   "nivel": 2,
+   "declaran": 4,
+   "de": 21,
+   "quienes": [
+    "UPC · mención Gestión de Seguridad de la Información (2022)",
+    "UTEC · concentraciones Seguridad de Software y Sistemas y AI-Security; especializaciones Ciberseguridad Defensiva y Ofensiva Ética (2026)",
+    "URP · certificación Analista de Ciberseguridad (2024)",
+    "Tec de Monterrey · concentración Ciberseguridad (2026)"
+   ],
+   "sustento": "4 de 21 la declaran como mención o concentración (UPC, UTEC, URP, Tec); UNA Puno, ULima, UCSM, UTP y UCV solo dictan cursos. Varias la ofrecen: nivel 2.",
+   "fuentes": [
+    {
+     "t": "UPC. (2022). Malla curricular: Ingeniería de Sistemas de Información",
+     "u": "https://pregrado.upc.edu.pe/carrera-de-ingenieria-de-sistemas-de-informacion/malla-curricular/",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UTEC. (2026). Ciencia de la Computación: malla, concentraciones y especializaciones",
+     "u": "https://utec.edu.pe/carreras/ciencia-de-la-computacion",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "Universidad Ricardo Palma. (2024). Ingeniería Informática: plan de estudios 2024-I y certificaciones intermedias",
+     "u": "https://www.urp.edu.pe/pregrado/facultad-de-ingenieria/ingenieria-informatica/",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "Tecnológico de Monterrey. (2026). Ingeniería en Tecnologías Computacionales: concentraciones",
+     "u": "https://tec.mx/es/ingenieria-y-ciencias/ingenieria-en-tecnologias-computacionales",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UNA Puno. (s. f.). Estructura del plan de estudios, Ingeniería de Sistemas",
+     "u": "https://transparencia.unap.edu.pe/web/wp-content/uploads/2023/12/PLAN-DE-ESTUDIOS-INGENIERIA-DE-SISTEMAS.pdf",
+     "fecha": "24-09-2026"
+    }
+   ]
+  },
+  {
+   "cod": "SIS-04",
+   "nivel": 3,
+   "declaran": 1,
+   "de": 21,
+   "quienes": [
+    "UTEC · concentración Infraestructura, con cursos DevOps, DevSecOps y MLOps (2026)"
+   ],
+   "sustento": "Solo UTEC nombra una línea afín (Infraestructura, con DevOps). Nube aparece como curso suelto en ULima, UTP, USIL, UCV, UPAO y ESAN. Pocas la ofrecen: nivel 3.",
+   "fuentes": [
+    {
+     "t": "UTEC. (2026). Ciencia de la Computación: malla, concentraciones y especializaciones",
+     "u": "https://utec.edu.pe/carreras/ciencia-de-la-computacion",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "Universidad de Lima. (2025). Plan de estudios 2025-1, Ingeniería de Sistemas",
+     "u": "https://www.ulima.edu.pe/sites/default/files/page/file/plan_de_estudios_2025-1_1.pdf",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UTP. (s. f.). Malla curricular Ingeniería de Sistemas e Informática",
+     "u": "https://www.utp.edu.pe/pregrado/facultad-de-ingenieria/ingenieria-de-sistemas-e-informatica/malla-curricular",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "Universidad ESAN. (2025). Ingeniería de Tecnologías de Información y Sistemas: áreas de especialización",
+     "u": "https://www.ue.edu.pe/pregrado/images/files/2025/Especializaciones/Ingenieria/Ingenieria%20de%20Tecnologias%20de%20Informacion%20y%20Sistemas_Especializacion.pdf",
+     "fecha": "24-09-2026"
+    }
+   ]
+  },
+  {
+   "cod": "SIS-05",
+   "nivel": 3,
+   "declaran": 2,
+   "de": 21,
+   "quienes": [
+    "UPC · mención Gestión de Proyectos con Arquitectura Empresarial (2022)",
+    "UTEC · concentración Liderazgo y Gestión Tecnológica; especialización Gestión de Plataformas y Productos Digitales (2026)"
+   ],
+   "sustento": "2 de 21 la nombran (UPC, UTEC). Gestión de proyectos y servicios TI es curso obligatorio en UTP, ULima, UCSM, UCV y USIL, sin línea. Pocas: nivel 3.",
+   "fuentes": [
+    {
+     "t": "UPC. (2022). Malla curricular: Ingeniería de Sistemas de Información",
+     "u": "https://pregrado.upc.edu.pe/carrera-de-ingenieria-de-sistemas-de-informacion/malla-curricular/",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UTEC. (2026). Ciencia de la Computación: malla, concentraciones y especializaciones",
+     "u": "https://utec.edu.pe/carreras/ciencia-de-la-computacion",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UTP. (s. f.). Malla curricular Ingeniería de Sistemas e Informática",
+     "u": "https://www.utp.edu.pe/pregrado/facultad-de-ingenieria/ingenieria-de-sistemas-e-informatica/malla-curricular",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UCSM. (2026). Plan de estudios Ingeniería de Sistemas, Res. 9733-CU-2026",
+     "u": "https://www2.ucsm.edu.pe/wp-content/uploads/2026/04/9733-CU-2026-INGENIERIA-DE-SISTEMAS.pdf",
+     "fecha": "24-09-2026"
+    }
+   ]
+  },
+  {
+   "cod": "SIS-06",
+   "nivel": 3,
+   "declaran": 2,
+   "de": 21,
+   "quienes": [
+    "UPC · menciones Gestión de Procesos y Transformación Digital, y Gestión de Proyectos con Arquitectura Empresarial (2022)",
+    "USIL · mención Digital Transformation for Business (2025)"
+   ],
+   "sustento": "2 de 21 la declaran (UPC, USIL). Arquitectura empresarial es curso suelto en UNI, UTP, ULima y USIL; transformación digital, electivo en UPAO. Pocas: nivel 3.",
+   "fuentes": [
+    {
+     "t": "UPC. (2022). Malla curricular: Ingeniería de Sistemas de Información",
+     "u": "https://pregrado.upc.edu.pe/carrera-de-ingenieria-de-sistemas-de-informacion/malla-curricular/",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "USIL. (2025). Ingeniería de Sistemas de Información: malla y menciones",
+     "u": "https://usil.edu.pe/pregrado/ingenieria-sistemas-de-informacion/",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "USIL. (2025). Brochure digital Ingeniería de Sistemas de Información",
+     "u": "https://files.usil.edu.pe/wp-content/uploads/2025/08/ING-DE-SISTEMAS-DE-INFORMACION_BROCHURE-DIGITAL.pdf",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "FIIS-UNI. (2018). Plan de estudios Ingeniería de Sistemas 2018",
+     "u": "https://www.fiis.uni.edu.pe/images/contenidos/esc-ingenieria-sistemas/documentos/PLAN-ESTUDIOS-INGENIERIA-SISTEMAS-2018-v01_-_VERSION_01-pages-1-4.pdf",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UTP. (s. f.). Malla curricular Ingeniería de Sistemas e Informática",
+     "u": "https://www.utp.edu.pe/pregrado/facultad-de-ingenieria/ingenieria-de-sistemas-e-informatica/malla-curricular",
+     "fecha": "24-09-2026"
+    }
+   ]
+  },
+  {
+   "cod": "SIS-09",
+   "nivel": 3,
+   "declaran": 1,
+   "de": 21,
+   "quienes": [
+    "U. Continental · certificación progresiva Analista de Sistemas (s. f.)"
+   ],
+   "sustento": "Solo Continental nombra una línea de analista de sistemas. Análisis y diseño de SI es tronco obligatorio en UCSM, UTP, USIL, UNI y UNA Puno. Pocas: nivel 3.",
+   "fuentes": [
+    {
+     "t": "Universidad Continental. (s. f.). Ingeniería de Sistemas e Informática: certificaciones progresivas",
+     "u": "https://ucontinental.edu.pe/carrera/ingenieria-de-sistemas-e-informatica/",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UCSM. (2026). Plan de estudios Ingeniería de Sistemas, Res. 9733-CU-2026",
+     "u": "https://www2.ucsm.edu.pe/wp-content/uploads/2026/04/9733-CU-2026-INGENIERIA-DE-SISTEMAS.pdf",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UTP. (s. f.). Malla curricular Ingeniería de Sistemas e Informática",
+     "u": "https://www.utp.edu.pe/pregrado/facultad-de-ingenieria/ingenieria-de-sistemas-e-informatica/malla-curricular",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "FIIS-UNI. (2018). Plan de estudios Ingeniería de Sistemas 2018",
+     "u": "https://www.fiis.uni.edu.pe/images/contenidos/esc-ingenieria-sistemas/documentos/PLAN-ESTUDIOS-INGENIERIA-SISTEMAS-2018-v01_-_VERSION_01-pages-1-4.pdf",
+     "fecha": "24-09-2026"
+    }
+   ]
+  },
+  {
+   "cod": "SIS-11",
+   "nivel": 3,
+   "declaran": 1,
+   "de": 21,
+   "quienes": [
+    "URP · certificación Desarrollador de Software y Redes de Datos (2024)"
+   ],
+   "sustento": "Solo URP la incluye en el nombre de una certificación. Redes es curso obligatorio en casi todos (ULima, UCSM, UNA Puno, UPC, UNI, UTEC) sin línea. Pocas: nivel 3.",
+   "fuentes": [
+    {
+     "t": "Universidad Ricardo Palma. (2024). Ingeniería Informática: plan de estudios 2024-I y certificaciones intermedias",
+     "u": "https://www.urp.edu.pe/pregrado/facultad-de-ingenieria/ingenieria-informatica/",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "Universidad de Lima. (2025). Plan de estudios 2025-1, Ingeniería de Sistemas",
+     "u": "https://www.ulima.edu.pe/sites/default/files/page/file/plan_de_estudios_2025-1_1.pdf",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UCSM. (2026). Plan de estudios Ingeniería de Sistemas, Res. 9733-CU-2026",
+     "u": "https://www2.ucsm.edu.pe/wp-content/uploads/2026/04/9733-CU-2026-INGENIERIA-DE-SISTEMAS.pdf",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UNA Puno. (s. f.). Estructura del plan de estudios, Ingeniería de Sistemas",
+     "u": "https://transparencia.unap.edu.pe/web/wp-content/uploads/2023/12/PLAN-DE-ESTUDIOS-INGENIERIA-DE-SISTEMAS.pdf",
+     "fecha": "24-09-2026"
+    }
+   ]
+  },
+  {
+   "cod": "SIS-12",
+   "nivel": 4,
+   "declaran": 0,
+   "de": 21,
+   "quienes": [],
+   "sustento": "0 de 21 la declaran como línea. Auditoría de sistemas es curso obligatorio o electivo en UCSM, UNSA, UNSM, UNA Puno y ULima. Nadie la ofrece como línea: nivel 4.",
+   "fuentes": [
+    {
+     "t": "UCSM. (2026). Plan de estudios Ingeniería de Sistemas, Res. 9733-CU-2026",
+     "u": "https://www2.ucsm.edu.pe/wp-content/uploads/2026/04/9733-CU-2026-INGENIERIA-DE-SISTEMAS.pdf",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UNSA. (2017). Ingeniería de Sistemas: plan de estudios 2017",
+     "u": "https://fips.unsa.edu.pe/ingenieriadesistemas/categorias_cur/2017/",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UNSM. (s. f.). Plan de estudios Ingeniería de Sistemas e Informática (portal de transparencia)",
+     "u": "https://transparencia.unsm.edu.pe/facultades/plan-estudio/detalle/a28f6299-d3e8-ddbe-870b-425c42fc2b74",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UNA Puno. (s. f.). Estructura del plan de estudios, Ingeniería de Sistemas",
+     "u": "https://transparencia.unap.edu.pe/web/wp-content/uploads/2023/12/PLAN-DE-ESTUDIOS-INGENIERIA-DE-SISTEMAS.pdf",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "Universidad de Lima. (2025). Plan de estudios 2025-1, Ingeniería de Sistemas",
+     "u": "https://www.ulima.edu.pe/sites/default/files/page/file/plan_de_estudios_2025-1_1.pdf",
+     "fecha": "24-09-2026"
+    }
+   ]
+  },
+  {
+   "cod": "SIS-13",
+   "nivel": 4,
+   "declaran": 0,
+   "de": 21,
+   "quienes": [],
+   "sustento": "0 de 21 la declaran. Ningún plan leído nombra protección de datos personales ni privacidad como línea; lo más cercano son cursos de seguridad de la información. Nivel 4.",
+   "fuentes": [
+    {
+     "t": "UNA Puno. (s. f.). Estructura del plan de estudios, Ingeniería de Sistemas",
+     "u": "https://transparencia.unap.edu.pe/web/wp-content/uploads/2023/12/PLAN-DE-ESTUDIOS-INGENIERIA-DE-SISTEMAS.pdf",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UTEC. (2026). Ciencia de la Computación: malla, concentraciones y especializaciones",
+     "u": "https://utec.edu.pe/carreras/ciencia-de-la-computacion",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UPC. (2022). Malla curricular: Ingeniería de Sistemas de Información",
+     "u": "https://pregrado.upc.edu.pe/carrera-de-ingenieria-de-sistemas-de-informacion/malla-curricular/",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "Universidad de Lima. (2025). Plan de estudios 2025-1, Ingeniería de Sistemas",
+     "u": "https://www.ulima.edu.pe/sites/default/files/page/file/plan_de_estudios_2025-1_1.pdf",
+     "fecha": "24-09-2026"
+    }
+   ]
+  },
+  {
+   "cod": "SIS-14",
+   "nivel": 3,
+   "declaran": 3,
+   "de": 21,
+   "quienes": [
+    "UTEC · especializaciones Business Intelligence y Data Analytics (2026)",
+    "ESAN · especialización Business Analytics Specialist y certificado en Análisis de Datos (2025)",
+    "UPN · certificación progresiva Data Analytics (s. f.)"
+   ],
+   "sustento": "3 de 21 la nombran (UTEC, ESAN, UPN). Inteligencia de negocios es curso suelto en UTP, UCV, UNSM, ULima y UCSM. Pocas: nivel 3.",
+   "fuentes": [
+    {
+     "t": "UTEC. (2026). Ciencia de la Computación: malla, concentraciones y especializaciones",
+     "u": "https://utec.edu.pe/carreras/ciencia-de-la-computacion",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "Universidad ESAN. (2025). Ingeniería de Tecnologías de Información y Sistemas: áreas de especialización",
+     "u": "https://www.ue.edu.pe/pregrado/images/files/2025/Especializaciones/Ingenieria/Ingenieria%20de%20Tecnologias%20de%20Informacion%20y%20Sistemas_Especializacion.pdf",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "Universidad ESAN. (2025). Ingeniería de Tecnologías de Información y Sistemas: certificados",
+     "u": "https://www.ue.edu.pe/pregrado/images/files/2025/Certificaciones/Ingenieria/Ingenieria%20de%20Tecnologias%20de%20Informacion%20y%20Sistemas_Certificados.pdf",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UPN. (s. f.). Ingeniería de Sistemas Computacionales: certificaciones progresivas",
+     "u": "https://www.upn.edu.pe/carrera/ingenieria-de-sistemas-computacionales",
+     "fecha": "24-09-2026"
+    },
+    {
+     "t": "UTP. (s. f.). Malla curricular Ingeniería de Sistemas e Informática",
+     "u": "https://www.utp.edu.pe/pregrado/facultad-de-ingenieria/ingenieria-de-sistemas-e-informatica/malla-curricular",
+     "fecha": "24-09-2026"
+    }
+   ]
+  }
+ ]
+}

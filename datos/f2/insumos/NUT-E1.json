@@ -1,0 +1,79 @@
+{
+ "carrera": "Nutrición Humana",
+ "cod": "NUT",
+ "k": "E1",
+ "especialidad": "Nutrición clínica: hospitalaria, obesidad y geriátrica",
+ "especialidad_base": "Nutrición clínica hospitalaria",
+ "integradas": [
+  "Nutrición en obesidad y cirugía bariátrica",
+  "Nutrición geriátrica y del envejecimiento"
+ ],
+ "ambitos_y_absorbidas": [
+  "Nutrición en obesidad y cirugía bariátrica (ámbito)",
+  "Nutrición geriátrica y del envejecimiento (ámbito)",
+  "Nutrición pediátrica y materna (ámbito)"
+ ],
+ "descripcion_f1": {
+  "vol": 4,
+  "amp": 4,
+  "esc": 3,
+  "rem": 3,
+  "for": 4
+ },
+ "proceso_f1": "Valorar → diagnosticar → tratar → seguir",
+ "evidencia_f1": "Plan de atención nutricional individualizado y su registro en historia clínica",
+ "competencia": {
+  "codigo": "C1",
+  "alias": "Atención nutricional",
+  "nombre": "Conducción del proceso de atención nutricional de la persona",
+  "definicion_conceptual": "Conducir la atención nutricional de la persona sana o enferma a lo largo del ciclo de vida —tamizar, valorar, diagnosticar, prescribir el tratamiento dietoterápico o de soporte, seguir y aconsejar al alta— en hospitalización, consulta ambulatoria presencial o virtual, primer nivel y residencias, aplicando el proceso de atención nutricional, el registro en historia clínica y la interconsulta con el equipo de salud, para recuperar o mantener el estado nutricional y responder por el resultado ante el paciente, su familia y la institución."
+ },
+ "capacidades_SOLO_PARA_MOMENTO_4": [
+  {
+   "codigo": "C1.1",
+   "accion": "Valorar",
+   "nombre": "Valoración del estado nutricional",
+   "definicion": "Capacidad para tamizar y valorar el estado nutricional de la persona con antropometría, bioquímica, examen clínico y evaluación dietética, adaptando técnicas e instrumentos a la edad, la condición clínica y el escenario de atención, con rigor en la medición, respeto por la persona y registro veraz."
+  },
+  {
+   "codigo": "C1.2",
+   "accion": "Diagnosticar",
+   "nombre": "Diagnóstico nutricional",
+   "definicion": "Capacidad para formular el diagnóstico nutricional a partir de la valoración, identificando el problema, su etiología y sus signos en personas de distinta edad y patología, integrando la interconsulta y la evidencia científica, con juicio clínico, pensamiento crítico y responsabilidad por la decisión que toma."
+  },
+  {
+   "codigo": "C1.3",
+   "accion": "Prescribir",
+   "nombre": "Prescripción del tratamiento nutricional",
+   "definicion": "Capacidad para prescribir e implementar el tratamiento nutricional —dietoterapia, soporte enteral, manejo de peso, corrección de deficiencias, adaptación de texturas— ajustado al diagnóstico, la cultura y los recursos del paciente en cada escenario, movilizando fisiopatología, dietoterapia, ética profesional y comunicación con el equipo y la familia."
+  },
+  {
+   "codigo": "C1.4",
+   "accion": "Seguir",
+   "nombre": "Seguimiento del caso y consejería nutricional",
+   "definicion": "Capacidad para monitorear la respuesta al tratamiento, reajustar la prescripción, educar al paciente y a su familia y cerrar el caso con consejería al alta, en consulta presencial o virtual, hospital o residencia, con constancia, empatía y compromiso con la adherencia y el resultado."
+  }
+ ],
+ "otras_competencias": [
+  {
+   "codigo": "C2",
+   "nombre": "Intervención nutricional en salud pública y poblaciones",
+   "capacidades": [
+    "C2.1 Diagnosticar: Diagnóstico nutricional poblacional",
+    "C2.2 Planificar: Diseño de la intervención nutricional poblacional",
+    "C2.3 Intervenir: Ejecución de la intervención nutricional poblacional",
+    "C2.4 Evaluar: Monitoreo y evaluación del impacto de la intervención"
+   ]
+  },
+  {
+   "codigo": "C3",
+   "nombre": "Gestión de servicios de alimentación colectiva y aseguramiento de la inocuidad",
+   "capacidades": [
+    "C3.1 Planificar: Planificación del menú y del plan alimentario",
+    "C3.2 Estandarizar: Estandarización y costeo de las preparaciones",
+    "C3.3 Asegurar: Aseguramiento de la inocuidad",
+    "C3.4 Auditar: Supervisión y auditoría del servicio de alimentación"
+   ]
+  }
+ ]
+}

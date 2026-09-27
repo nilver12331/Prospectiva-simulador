@@ -1,0 +1,949 @@
+{
+ "cod": "NUT",
+ "k": "E1",
+ "expertos": [
+  "X1 · Académico-investigador · docente universitario de pregrado y posgrado 16 años · doctor en salud pública · líneas en malnutrición hospitalaria, anemia infantil y gestión de servicios de alimentación · ASPEN, ESPEN, GLIM, Codex",
+  "X2 · Empleador del sector público · jefe de departamento de nutrición de hospital MINSA con experiencia en DIRESA (estrategia de anemia) y supervisión de programa alimentario social · 16 años",
+  "X3 · Empleador del sector privado · 15 años · gerente de nutrición y calidad de una concesionaria de alimentación (campamentos mineros de altura, clínicas y comedores industriales) · antes jefe de nutrición de clínica privada en Lima",
+  "X4 · Nutricionista senior · 15 años · hospitales del MINSA y EsSalud, redes de primer nivel, programas sociales y concesionarios de alimentación · GLIM, ESPEN, NTS 103, HACCP",
+  "X5 · Nutricionista egresado reciente · 4 años · SERUMS en microrred rural, hospital MINSA de Lima, concesionario de alimentación en campamento minero y consulta privada",
+  "X6 · Experto contextual · prospectiva laboral en salud y alimentación · normativa del MINSA, MIDIS, DIGESA y SENASA · transformación digital en salud (SIHCE, telesalud)"
+ ],
+ "cvrCrit": "1,00",
+ "acta": "Panel de 6 expertos simulados (X1–X6) y guardián metodológico · rondas 1 y 2 · N = 6: I-CVI ≥ 0,83 y CVR crítico 1,00 (Ayre y Scally, 2014). Un solo panel por carrera: cada experto calificó en su rol todas las especialidades. Pre-validación de agentes: la validación oficial la repiten especialistas humanos con el mismo instrumento.",
+ "resumen": "7 núcleo · 1 complementarias · 4 propuestas de exclusión · 6 con bloques observados en R1 · S-CVI/Ave 0,97",
+ "sCVI": "0,97",
+ "funciones": {
+  "E1-01": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 16,
+   "N": 3,
+   "lim": "Nivel 3 en UCI, neonatos y pediatría grave; no emite diagnóstico médico; el diagnóstico GLIM lo refrenda el nutricionista responsable.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": null,
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": null,
+   "motivo": {},
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 4,
+    "C": 4,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E1-02": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 14,
+   "N": 3,
+   "lim": "Nivel 3 en diálisis, hepatopatía avanzada, oncología y pediatría crítica; ante conflicto prevalece la indicación médica.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": "Función núcleo",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {},
+   "ajustes": {
+    "d": "Prescribe y especifica el régimen dietoterapéutico del paciente hospitalizado, incluida su textura, transmite la orden diaria de dieta a la unidad de producción, lo monitorea con el equipo de salud y registra los indicadores de la atención, para cubrir sus requerimientos y favorecer su recuperación.",
+    "tasks": [
+     {
+      "code": "E1-02-T1",
+      "t": "Calcular los requerimientos de energía, proteínas, líquidos y micronutrientes críticos",
+      "ent": "1. Prescripción dietoterapéutica"
+     },
+     {
+      "code": "E1-02-T2",
+      "t": "Prescribir la dieta con su tipo, consistencia y nivel de textura IDDSI, fraccionamiento y restricciones, según las especificaciones de regímenes del servicio",
+      "ent": "1. Prescripción dietoterapéutica"
+     },
+     {
+      "code": "E1-02-T3",
+      "t": "Acordar el plan nutricional con el equipo de salud en la visita médica o la interconsulta",
+      "ent": "1. Prescripción dietoterapéutica"
+     },
+     {
+      "code": "E1-02-T4",
+      "t": "Transmitir diariamente las órdenes de dieta a la unidad de producción o al concesionario",
+      "ent": "2. Orden y seguimiento documentado"
+     },
+     {
+      "code": "E1-02-T5",
+      "t": "Monitorear la ingesta, la tolerancia y la aceptación de la dieta, y ajustar la prescripción en las notas de evolución",
+      "ent": "2. Orden y seguimiento documentado"
+     },
+     {
+      "code": "E1-02-T6",
+      "t": "Registrar los indicadores de la atención nutricional, como el tamizaje oportuno, y señalar a la jefatura los desfases frente al protocolo",
+      "ent": "2. Orden y seguimiento documentado"
+     }
+    ],
+    "prod": {
+     "name": "Plan dietoterapéutico hospitalario con orden diaria y registro de evolución",
+     "desc": "Plan dietoterapéutico que traduce el diagnóstico nutricional en la dieta que el paciente recibe cada día y documenta cómo responde a ella. Integra los requerimientos calculados, el tipo de dieta con su consistencia y textura, el fraccionamiento, las restricciones, los acuerdos con el equipo, la orden diaria enviada a producción, las notas de evolución y los indicadores de la atención. Se formula con el diagnóstico, las indicaciones médicas, las guías vigentes y el marco IDDSI, y se verifica comparando lo ingerido con lo prescrito en el control diario. Orienta cuándo mantener, progresar o cambiar la dieta, y demuestra el dominio de la dietoterapia y del trabajo interdisciplinario.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Prescripción dietoterapéutica",
+       "codes": "E1-02-T1, E1-02-T2, E1-02-T3",
+       "sum": "cálculo, especificación con textura y acuerdo de la dieta individual",
+       "ev": [
+        "Cálculo de requerimientos con el método empleado",
+        "Prescripción de dieta con tipo, consistencia, nivel IDDSI, fraccionamiento y restricciones",
+        "Nota de visita o interconsulta con los acuerdos del equipo"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Orden y seguimiento documentado",
+       "codes": "E1-02-T4, E1-02-T5, E1-02-T6",
+       "sum": "orden diaria a producción, control de la dieta, ajustes e indicadores",
+       "ev": [
+        "Orden diaria de dietas enviada a la unidad de producción o al concesionario",
+        "Hoja de control de ingesta y tolerancia con notas de evolución ADIME o SOAP",
+        "Registro de indicadores con los desfases señalados a la jefatura"
+       ]
+      }
+     ]
+    },
+    "fd": "Esta función tiene demanda porque todo paciente hospitalizado recibe un régimen según su patología, y 10 de los 14 avisos clínicos revisados en 2026 piden prescribir, asignar o monitorear dietas [39][40]. La Ley 30188 incluye las actividades terapéuticas del nutricionista en todos los niveles [3]; la NTS 103 crea la unidad de dietoterapia y una unidad central de producción que prepara los regímenes [7]; y los MOF de Cusco y Huacho asignan la programación diaria de regímenes y la visita a hospitalizados [4][5]. O*NET registra los planes dietéticos como tarea central [1]. Ello exige profesionales capaces de prescribir, ordenar y ajustar la dieta con el equipo.",
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque el ensayo EFFORT, publicado en 2019, demostró que el soporte nutricional individualizado redujo los eventos adversos y la mortalidad a 30 días del 10 % al 7 % en pacientes en riesgo [12], y la guía de EsSalud de 2021 ya lo recomienda [8]. Además, el marco IDDSI, publicado en 2017, unificó los niveles de textura que la dieta debe especificar [28]. Por eso es necesario que el egresado domine la prescripción individualizada y su seguimiento.",
+    "refs": "[1] [3] [4] [5] [7] [8] [12] [28] [39] [40]",
+    "conf": 3,
+    "lim": "Nivel 3 en diálisis, hepatopatía avanzada, oncología y pediatría crítica; prevalece la indicación médica; no produce ni arma dietas (E3-04).",
+    "absorbe": [
+     "E1-04",
+     "E1-12"
+    ],
+    "cambios": "Absorbe la especificación de texturas y la orden diaria de dieta de E1-04 y el registro de indicadores de E1-12 (6 tareas agrupadas); año de EFFORT e IDDSI en el impacto; conf 3; frontera con E3-04 en lim."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (EFFORT, 2019).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 4,
+    "C": 3.5,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E1-03": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 12,
+   "N": 2,
+   "lim": "Nivel 2 en UCI y pediatría; no indica vía de acceso ni corrige electrolitos; en parenteral solo integra el equipo.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": "Función núcleo",
+   "escuela": null,
+   "demDelphi": "Media",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "rev"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {
+    "pb": "Pocos pregrados rotan por soporte o UCI; clasificar el riesgo de realimentación exige supervisión directa (N2). El entregable 1 concentra cuatro tareas: separar la coordinación con el médico. · Nivel 3 es optimista. Pocos internos calculan y progresan enteral con riesgo de realimentación sin un tutor; son errores de consecuencia grave. Propongo nivel 2 al egreso."
+   },
+   "ajustes": {
+    "tasks": [
+     {
+      "code": "E1-03-T1",
+      "t": "Evaluar la indicación de nutrición enteral con los criterios de la guía institucional",
+      "ent": "1. Indicación y formulación"
+     },
+     {
+      "code": "E1-03-T2",
+      "t": "Clasificar el riesgo de síndrome de realimentación y proponer el aporte inicial y su progresión",
+      "ent": "1. Indicación y formulación"
+     },
+     {
+      "code": "E1-03-T3",
+      "t": "Seleccionar la fórmula y calcular el volumen, la velocidad y las metas diarias",
+      "ent": "1. Indicación y formulación"
+     },
+     {
+      "code": "E1-03-T4",
+      "t": "Coordinar con el médico tratante la vía de acceso y el control de fósforo, potasio y magnesio",
+      "ent": "2. Coordinación y monitoreo del soporte"
+     },
+     {
+      "code": "E1-03-T5",
+      "t": "Monitorear diariamente la tolerancia y el porcentaje de la meta recibido",
+      "ent": "2. Coordinación y monitoreo del soporte"
+     },
+     {
+      "code": "E1-03-T6",
+      "t": "Ajustar el esquema de soporte y registrar el motivo del ajuste",
+      "ent": "2. Coordinación y monitoreo del soporte"
+     }
+    ],
+    "prod": {
+     "name": "Plan de soporte nutricional enteral con reinicio seguro, elaborado bajo supervisión",
+     "desc": "Plan de soporte que define cómo alimentar por sonda u ostomía al paciente que no cubre sus requerimientos por vía oral, sin exponerlo a complicaciones metabólicas, y que el egresado elabora bajo la supervisión directa del nutricionista del equipo de soporte. Integra la justificación de la indicación, la clasificación del riesgo de realimentación, la fórmula, el volumen, la velocidad, la progresión, la nota de coordinación con el médico y la hoja de monitoreo. Se diseña con la valoración, el diagnóstico y las guías de EsSalud y ASPEN, y se verifica con el porcentaje de la meta alcanzado y el visto bueno del tutor. Sustenta el inicio, la progresión o el cambio de fórmula, y demuestra el dominio inicial de la terapia nutricional especializada.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Indicación y formulación",
+       "codes": "E1-03-T1, E1-03-T2, E1-03-T3",
+       "sum": "decisión, reinicio seguro y diseño del soporte",
+       "ev": [
+        "Justificación de la indicación con los criterios aplicados",
+        "Clasificación del riesgo de realimentación con esquema de aporte progresivo revisado por el tutor"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Coordinación y monitoreo del soporte",
+       "codes": "E1-03-T4, E1-03-T5, E1-03-T6",
+       "sum": "acuerdo con el médico, seguimiento diario y ajustes",
+       "ev": [
+        "Nota de coordinación con el médico sobre vía de acceso y control de electrolitos",
+        "Hoja de monitoreo diario con tolerancia y porcentaje de la meta",
+        "Registro de ajustes con su motivo"
+       ]
+      }
+     ]
+    },
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque el consenso de ASPEN de 2020 estandarizó la clasificación del riesgo y la prevención del síndrome de realimentación [13], y el ensayo EFFORT, de 2019, mostró menor mortalidad con soporte individualizado [12]. Con solo 21 unidades de soporte en el país en 2020 [14], el nutricionista de sala asumirá estos casos. Por eso es necesario que el egresado domine la terapia enteral segura.",
+    "conf": 2,
+    "lim": "Nivel 2 en UCI y pediatría; no indica vía de acceso ni corrige electrolitos; no prepara fórmulas (E3-04); en parenteral solo integra el equipo.",
+    "cambios": "Producto ajustado a N2 (elaborado bajo supervisión); la coordinación con el médico pasa al entregable 2, que ya no concentra cuatro tareas; T2 propone el aporte; años de ASPEN y EFFORT en el impacto; lim sin preparación de fórmulas."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (ASPEN, 2020; EFFORT, 2019).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 3,
+    "C": 4,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "1,00",
+    "icviP": "0,67",
+    "Tm": 4
+   }
+  },
+  "E1-04": {
+   "icvi": "1,00",
+   "cvr": "-0,67",
+   "prioridad": 12,
+   "N": 3,
+   "lim": "Verifica la correspondencia de dietas; no gestiona producción, menús ni inocuidad; la actualización del manual la aprueba la jefatura.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Excluida por la Escuela",
+   "escuela": {
+    "accion": "excluir",
+    "motivo": "Duplica el armado de dietas de E3-04 (NTS 103: la Unidad Central de Producción arma y distribuye). Sus tareas de especificación pasan a E1-02 y las de armado y control a E3-04."
+   },
+   "demDelphi": "Alta",
+   "impDelphi": "Medio",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "rev"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "rev"
+   },
+   "motivo": {
+    "fb": "Recomiendo retirar la función. T1 (texturas IDDSI) pasa a E1-08 o a E1-02; T2 (orden de dieta) pasa a E1-02; T3 y T4 pasan a E3-04. El propio fundamento cita la unidad de producción de la NTS 103 y avisos de concesionario, que son evidencia de E3. · T3 duplica E3-04-T4 (armado y distribución de dietas). IDDSI data de 2019 y el envejecimiento no está fechado: el impacto no es tendencia. Delimitar: E1 especifica, E3 produce y distribuye.",
+    "sb": "Recomiendo retirar la función. T1 (texturas IDDSI) pasa a E1-08 o a E1-02; T2 (orden de dieta) pasa a E1-02; T3 y T4 pasan a E3-04. El propio fundamento cita la unidad de producción de la NTS 103 y avisos de concesionario, que son evidencia de E3.",
+    "pb": "Recomiendo retirar la función. T1 (texturas IDDSI) pasa a E1-08 o a E1-02; T2 (orden de dieta) pasa a E1-02; T3 y T4 pasan a E3-04. El propio fundamento cita la unidad de producción de la NTS 103 y avisos de concesionario, que son evidencia de E3. · Nivel 4 es realista: suele ser la primera asignación. El entregable único mezcla actualizar el manual (ocasional) con el control diario; conviene dos entregables. Se superpone con E3-04-T4."
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "No cumple · fondo · es de E3: la NTS 103 ubica al planificador de regímenes y al supervisor de su distribución en la Unidad Central de Producción, y T3 duplica E3-04-T4 (armado y distribución de dietas hospitalarias)",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · fondo · no hay tendencia fechada: IDDSI y ESPEN se citan sin año, y la afirmación de una «población hospitalizada cada vez más envejecida» no trae dato",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 4,
+    "C": 3,
+    "V": 2,
+    "L": 3,
+    "ricP": 0,
+    "icviS": "0,00",
+    "icviP": "1,00",
+    "Tm": 3
+   }
+  },
+  "E1-05": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 12,
+   "N": 4,
+   "lim": "Nivel 3 en enfermedad renal avanzada, diabetes descompensada, trastornos alimentarios y multimorbilidad no controlada; deriva al médico o a salud mental.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": null,
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": null,
+   "motivo": {},
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (RM 764-2022; RM 553-2025).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 4,
+    "C": 3,
+    "V": 3.5,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E1-06": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 10.5,
+   "N": 3,
+   "lim": "Nivel 3 en obesidad severa, obesidad infantil con comorbilidad, trastornos alimentarios y tratamiento farmacológico; la indicación de fármacos es médica.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": "Función núcleo",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {},
+   "ajustes": {
+    "d": "Diseña y conduce el tratamiento nutricional de niños, adolescentes y adultos con sobrepeso u obesidad, con consejería conductual, seguimiento de la composición corporal y acompañamiento de quienes reciben fármacos o cirugía bariátrica, para reducir el exceso de peso y sus comorbilidades.",
+    "amb": "Consulta externa, primer nivel y teleconsulta; programas de obesidad y cirugía bariátrica; niños, adolescentes y adultos",
+    "tasks": [
+     {
+      "code": "E1-06-T1",
+      "t": "Valorar el grado de obesidad con índice de masa corporal, perímetro abdominal y composición corporal, e identificar las comorbilidades y los hábitos que lo sostienen",
+      "ent": "1. Valoración y plan de manejo de peso"
+     },
+     {
+      "code": "E1-06-T2",
+      "t": "Prescribir el plan de alimentación con déficit energético individualizado",
+      "ent": "1. Valoración y plan de manejo de peso"
+     },
+     {
+      "code": "E1-06-T3",
+      "t": "Aplicar consejería conductual para metas graduales de alimentación y actividad física",
+      "ent": "2. Seguimiento del peso"
+     },
+     {
+      "code": "E1-06-T4",
+      "t": "Monitorear el peso, la composición corporal y la adherencia, y ajustar el plan",
+      "ent": "2. Seguimiento del peso"
+     },
+     {
+      "code": "E1-06-T5",
+      "t": "Acompañar el tratamiento nutricional de la persona que recibe fármacos para la obesidad, en coordinación con el médico",
+      "ent": "3. Acompañamiento farmacológico y bariátrico"
+     },
+     {
+      "code": "E1-06-T6",
+      "t": "Preparar al candidato a cirugía bariátrica y conducir la progresión de la dieta posoperatoria y la adherencia a la suplementación, dentro del equipo multidisciplinario",
+      "ent": "3. Acompañamiento farmacológico y bariátrico"
+     }
+    ],
+    "prod": {
+     "name": "Plan de tratamiento nutricional del exceso de peso",
+     "desc": "Plan de tratamiento que organiza la reducción del exceso de peso de una persona como un proceso crónico, con metas graduales y controles periódicos, también cuando recibe fármacos o se somete a cirugía bariátrica. Integra la valoración antropométrica y de composición corporal, las comorbilidades, el plan de alimentación con déficit energético, las metas conductuales, la curva de seguimiento y, cuando corresponde, la guía de progresión posoperatoria. Se elabora con la RM 764-2022/MINSA, las guías de EsSalud y la entrevista motivacional, y se verifica con los cambios de peso, perímetro abdominal y masa grasa en cada control. Orienta la continuidad, el ajuste o la derivación, y demuestra el dominio del tratamiento nutricional de la obesidad.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Valoración y plan de manejo de peso",
+       "codes": "E1-06-T1, E1-06-T2",
+       "sum": "grado de obesidad, comorbilidades y plan de alimentación",
+       "ev": [
+        "Ficha con índice de masa corporal, perímetro abdominal, composición corporal y comorbilidades",
+        "Plan de alimentación con déficit energético justificado"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Seguimiento del peso",
+       "codes": "E1-06-T3, E1-06-T4",
+       "sum": "metas conductuales, controles y ajustes",
+       "ev": [
+        "Curva de peso y composición corporal con metas por control",
+        "Registro de consejería conductual y adherencia"
+       ]
+      },
+      {
+       "n": "3",
+       "t": "Acompañamiento farmacológico y bariátrico",
+       "codes": "E1-06-T5, E1-06-T6",
+       "sum": "plan nutricional con fármacos y fases pre y posoperatorias",
+       "ev": [
+        "Nota de coordinación con el médico sobre el tratamiento farmacológico",
+        "Guía de progresión de la dieta posoperatoria con registro de adherencia a la suplementación"
+       ]
+      }
+     ]
+    },
+    "fd": "Esta función tiene demanda porque el 62,2 % de los peruanos de 15 y más años tenía exceso de peso en 2024 y el 25,7 % obesidad [17]. La RM 764-2022/MINSA aprobó el abordaje nutricional del sobrepeso y la obesidad tipo I, con consulta, consejería y orientación virtual a cargo del nutricionista [19]; la guía de EsSalud de 2020 exige evaluación prequirúrgica y seguimiento posoperatorio multidisciplinario en la cirugía bariátrica [20]; ESCO incluye la obesidad entre los conocimientos del dietista [2]; y un aviso de atención remota pide planes y seguimiento de la composición corporal [39]. Ello exige profesionales capaces de conducir tratamientos de peso sostenidos y medibles.",
+    "refs": "[2] [17] [19] [20] [22] [39]",
+    "conf": 3,
+    "lim": "Nivel 3 en obesidad severa, infantil con comorbilidad, trastornos alimentarios y fármacos; nivel 2 en cirugía bariátrica; fármacos y cirugía los indica el médico.",
+    "absorbe": [
+     "E1-07"
+    ],
+    "cambios": "Absorbe E1-07: la cirugía bariátrica pasa al ámbito y a T6 (T1 agrupa valoración y comorbilidades); nuevo entregable 3; se cita la guía de EsSalud 2020 y se retira la nota [23]; conf 3."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 3.5,
+    "C": 3,
+    "V": 4,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E1-07": {
+   "icvi": "0,67",
+   "cvr": "-1,00",
+   "prioridad": 6,
+   "N": 2,
+   "lim": "Actúa con supervisión directa dentro del equipo bariátrico; la indicación quirúrgica y la suplementación farmacológica son médicas.",
+   "real": "100 %",
+   "acuerdo": "67 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Fusionada en E1-06",
+   "escuela": {
+    "accion": "fusionar",
+    "destino": "E1-06",
+    "motivo": "Sin avisos propios; la cirugía bariátrica queda como ámbito del tratamiento de la obesidad."
+   },
+   "demDelphi": "Baja",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "rev"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "rev"
+   },
+   "motivo": {
+    "fb": "Demanda baja (0 avisos, un programa) y competencia de posgrado. La guía de 2019 no es tendencia; los GLP-1 podrían reducir cirugías. Integrarla como variante de E1-06. · Oferta concentrada en EsSalud Lima; 0 avisos. S2 usa una guía de 2019 como tendencia. Un protocolo al primer año no es alcanzable con N=2. Propongo integrarla como escenario de E1-06.",
+    "sb": "Reemplace [23] por una fuente que muestre la participación del nutricionista en el programa bariátrico, o reformule. La guía perioperatoria es de 2019: la tendencia está fechada, pero es antigua. · En clínicas privadas es frecuente, pero 0 de 14 avisos y un solo dato de EsSalud dejan la demanda poco sustentada. Al egreso actúa solo con supervisión directa del equipo.",
+    "pb": "no alcanzó el umbral"
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "No cumple · fondo · [23] no sostiene lo que se le atribuye: los más de 100 pacientes se derivan al programa psicoterapéutico del Departamento de Salud Mental del Rebagliati, y el comité bariátrico que describe la nota no menciona nutricionistas"
+   },
+   "ind": {
+    "F": 2,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 1,
+    "icviS": "0,00",
+    "icviP": "0,33",
+    "Tm": 4
+   }
+  },
+  "E1-08": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 9,
+   "N": 3,
+   "lim": "Nivel 3 en fragilidad severa, demencia avanzada y final de vida; la evaluación instrumental de la deglución corresponde a otros profesionales.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": null,
+   "escuela": null,
+   "demDelphi": "Media",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": null,
+   "motivo": {},
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "No cumple · forma · el primer dato («las personas de 60 y más años ya representan el 14,6 % en el indicador de la ENDES 2024») es confuso: el cuadro 1.24.B da el peso de ese grupo en la muestra; redáctelo como proporción de la población",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (ESPEN, 2019; IDDSI, 2016).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 3,
+    "C": 3,
+    "V": 4,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E1-09": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 16,
+   "N": 3,
+   "lim": "Nivel 2 en neonatología y UCI pediátrica; la suplementación de hierro sigue la NTS 213 y la indicación médica.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": null,
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": null,
+   "motivo": {},
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (consenso AND/ASPEN, 2014; estudio latinoamericano).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 4,
+    "C": 4,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E1-10": {
+   "icvi": "1,00",
+   "cvr": "0,67",
+   "prioridad": 9,
+   "N": 4,
+   "lim": "Nivel 3 en gestación de alto riesgo, diabetes gestacional e hipertensión del embarazo, con manejo del equipo obstétrico.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función complementaria",
+   "decision2": "Función complementaria",
+   "escuela": null,
+   "demDelphi": "Media",
+   "impDelphi": "Medio",
+   "r1": {
+    "fb": "ok",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {
+    "sb": "El impacto solo invoca la renovación normativa, sin tendencia fechada; podría citarse el aumento de la diabetes gestacional o la guía OMS 2016 de atención prenatal. Falta la suplementación. · S2 no aporta tendencia fechada: repite normas vigentes (NTS 213 y RM 460-2015). Agregar la verificación de la suplementación, que el establecimiento reporta como indicador."
+   },
+   "ajustes": {
+    "tasks": [
+     {
+      "code": "E1-10-T1",
+      "t": "Valorar el estado nutricional pregestacional y la ganancia de peso según la edad gestacional",
+      "ent": "1. Valoración y plan materno"
+     },
+     {
+      "code": "E1-10-T2",
+      "t": "Prescribir el plan de alimentación según el estado nutricional y la presencia de anemia",
+      "ent": "1. Valoración y plan materno"
+     },
+     {
+      "code": "E1-10-T3",
+      "t": "Brindar consejería nutricional a la gestante o la puérpera y a su familia",
+      "ent": "2. Consejería y seguimiento materno"
+     },
+     {
+      "code": "E1-10-T4",
+      "t": "Orientar la alimentación de la madre durante la lactancia",
+      "ent": "2. Consejería y seguimiento materno"
+     },
+     {
+      "code": "E1-10-T5",
+      "t": "Controlar la ganancia de peso, la hemoglobina y la adherencia a la suplementación con hierro y ácido fólico en cada atención",
+      "ent": "2. Consejería y seguimiento materno"
+     }
+    ],
+    "prod": {
+     "name": "Plan nutricional de la gestante y la puérpera",
+     "desc": "Plan nutricional que acompaña a la mujer durante la gestación y el puerperio para lograr una ganancia de peso adecuada, prevenir la anemia y sostener la lactancia. Integra la valoración pregestacional, la curva de ganancia de peso, el plan de alimentación, los acuerdos de consejería y los controles de hemoglobina y de adherencia a la suplementación. Se elabora con la RM 460-2015/MINSA y la NTS 213-MINSA/DGIESP-2024, y se verifica con la ganancia de peso por trimestre, la hemoglobina y el cumplimiento de los acuerdos. Orienta el ajuste del plan o la derivación en el embarazo de riesgo, y demuestra el dominio de la nutrición materna.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Valoración y plan materno",
+       "codes": "E1-10-T1, E1-10-T2",
+       "sum": "estado nutricional, ganancia de peso y plan de alimentación",
+       "ev": [
+        "Ficha con índice de masa corporal pregestacional y curva de ganancia de peso",
+        "Plan de alimentación según estado nutricional y anemia"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Consejería y seguimiento materno",
+       "codes": "E1-10-T3, E1-10-T4, E1-10-T5",
+       "sum": "acuerdos, lactancia, controles y suplementación",
+       "ev": [
+        "Registro de consejería con acuerdos",
+        "Control por atención de ganancia de peso, hemoglobina y adherencia a la suplementación"
+       ]
+      }
+     ]
+    },
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque la anemia en mujeres de 15 a 49 años subió de 18,8 % en 2021 a 24,6 % en 2024, según la serie anual de la ENDES [29]. A la vez, la NTS 213 renovó en 2024 las intervenciones de prevención, suplementación y control de la anemia en gestantes y puérperas [30]. Por eso es necesario que el egresado domine la atención nutricional de la gestante y la puérpera, con el control de la suplementación.",
+    "refs": "[29] [30] [34] [39]",
+    "conf": 4,
+    "cambios": "Impacto con tendencia fechada (anemia en mujeres 18,8 % en 2021 → 24,6 % en 2024, ENDES) y la NTS 213 de 2024; T5 y el entregable 2 incorporan la verificación de la suplementación que pidió el panel."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 3,
+    "C": 3,
+    "V": 2,
+    "L": 4,
+    "ricP": 1,
+    "icviS": "0,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E1-11": {
+   "icvi": "1,00",
+   "cvr": "0,00",
+   "prioridad": 9,
+   "N": 4,
+   "lim": "Nivel 3 en altas con nutrición enteral domiciliaria; la decisión de alta y traslado es médica.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Complementaria por decisión de la Escuela",
+   "escuela": {
+    "accion": "rescatar",
+    "motivo": "Cierre del proceso de atención (C1.4 Seguir); real para todo el panel y esencial para la mitad."
+   },
+   "demDelphi": "Media",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "Real, pero en el sector privado la continuidad va a la EPS o al consultorio, no a la red integrada de salud; incluir ese circuito en T3 y T4. · El nutricionista no emite la referencia: aporta el resumen nutricional. 0 de 14 avisos; el dato de reingreso es de adultos mayores, no del alta en general.",
+    "sb": "0 de 14 avisos; la demanda se apoya en un estudio y un MOF. Es la etapa de cierre del proceso de atención nutricional: evaluar su integración en E1-02 y E1-05. · El dato de reingreso [35] es danés; falta evidencia peruana y avisos (0 de 14). La recepción del caso en destino es difícil de evidenciar en la práctica."
+   },
+   "ajustes": {
+    "tasks": [
+     {
+      "code": "E1-11-T1",
+      "t": "Elaborar la guía dietética domiciliaria según el diagnóstico al alta y las condiciones del hogar",
+      "ent": "1. Paquete de alta"
+     },
+     {
+      "code": "E1-11-T2",
+      "t": "Brindar consejería al paciente y a su familia y verificar su comprensión con el método de retorno de la explicación",
+      "ent": "1. Paquete de alta"
+     },
+     {
+      "code": "E1-11-T3",
+      "t": "Redactar el resumen nutricional del alta para la hoja de referencia o contrarreferencia, o para el informe a la EPS o al consultorio que continúa la atención",
+      "ent": "2. Continuidad documentada"
+     },
+     {
+      "code": "E1-11-T4",
+      "t": "Coordinar el control nutricional ambulatorio en la red integrada de salud, la EPS o el consultorio privado",
+      "ent": "2. Continuidad documentada"
+     }
+    ],
+    "prod": {
+     "name": "Plan nutricional de alta y continuidad del cuidado",
+     "desc": "Plan de alta que traslada el tratamiento nutricional del hospital al hogar y al servicio que continúa la atención sin pérdida de información. Integra la guía dietética domiciliaria, el registro de consejería y de comprensión, el resumen nutricional para la referencia, la contrarreferencia o el informe a la EPS, y la cita de control. Se elabora con el diagnóstico al alta, las condiciones del hogar y los formatos del sistema de referencia, y se verifica con la comprensión demostrada por el paciente y la constancia de la cita o del envío del resumen. Define quién continúa la atención y con qué indicaciones, y demuestra el dominio de la continuidad del cuidado nutricional.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Paquete de alta",
+       "codes": "E1-11-T1, E1-11-T2",
+       "sum": "indicaciones para el hogar y verificación de su comprensión",
+       "ev": [
+        "Guía dietética domiciliaria personalizada",
+        "Registro de consejería con verificación de comprensión"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Continuidad documentada",
+       "codes": "E1-11-T3, E1-11-T4",
+       "sum": "resumen nutricional para el destino y cita de control",
+       "ev": [
+        "Resumen nutricional del alta adjunto a la referencia, la contrarreferencia o el informe a la EPS",
+        "Constancia de la cita de control o del envío del resumen al destino"
+       ]
+      }
+     ]
+    },
+    "fd": "Esta función tiene demanda porque, en un estudio de 2024 con adultos mayores hospitalizados en Dinamarca, el riesgo nutricional durante la hospitalización hizo 1,44 veces más probable el reingreso a 30 días del alta [35]. En el Perú, el MOF de Huacho asigna al nutricionista la consejería y la entrega de guías dietéticas a los pacientes dados de alta [5]; la NT 018-MINSA/DGSP-V.01 regula la referencia y la contrarreferencia entre establecimientos [37]; y O*NET registra la orientación a pacientes y familias como tarea central [1]. Ello exige profesionales capaces de preparar el alta y trasladar el plan nutricional sin pérdida de información.",
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque la Ley 30885, de 2018, organiza las Redes Integradas de Salud que enlazan el hospital con el primer nivel [36], y la RM 553-2025/MINSA hizo obligatoria en 2025 la historia clínica electrónica en el primer nivel, lo que permitirá que el resumen nutricional del alta llegue al establecimiento que continúa la atención [16]. Por eso es necesario que el egresado domine la planificación del alta y la continuidad nutricional.",
+    "refs": "[1] [5] [16] [35] [36] [37]",
+    "conf": 4,
+    "lim": "Nivel 3 en altas con nutrición enteral domiciliaria; la decisión de alta y traslado es médica.",
+    "cambios": "Rescatada como complementaria: T3 aporta el resumen nutricional (no emite la referencia) e incluye el circuito EPS o consultorio privado; el dato de reingreso se declara danés; años de la Ley 30885 y la RM 553-2025; evidencia de destino alcanzable."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (Ley 30885, 2018; RM 553-2025).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 3,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 1,
+    "icviS": "0,50",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E1-12": {
+   "icvi": "1,00",
+   "cvr": "-1,00",
+   "prioridad": 6,
+   "N": 3,
+   "lim": "Aplica protocolos y registra indicadores; no modifica protocolos ni aprueba planes correctivos: escala a la jefatura o al comité.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Excluida por la Escuela",
+   "escuela": {
+    "accion": "excluir",
+    "motivo": "Transversal de jefatura; al egreso se reduce a registrar y señalar desfases: esas tareas pasan a E1-02."
+   },
+   "demDelphi": "Baja",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "Contrastar protocolos con GPC es tarea de jefatura; al egreso solo señala desfases. Es transversal: podría ser tarea de E1-01 y E1-02 más que función propia. · Es más transversal que función propia; podría integrarse como tareas de E1-01 y E1-02. La RM 519-2006 es antigua y el impacto no trae una tendencia peruana fechada.",
+    "sb": "Reutiliza el 46,9 % como argumento indirecto; la revisión periódica de GLIM no es tendencia de calidad. Contrastar protocolos con evidencia exige lectura crítica propia de jefatura. · S1 reutiliza la prevalencia de desnutrición de 2012; no prueba demanda de esta función. Contrastar protocolos con guías es tarea de jefatura, no del egresado."
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 2,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "0,17",
+    "icviP": "1,00",
+    "Tm": 3
+   }
+  }
+ }
+}

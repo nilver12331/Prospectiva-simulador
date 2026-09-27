@@ -1,0 +1,77 @@
+{
+ "carrera": "Nutrición Humana",
+ "cod": "NUT",
+ "k": "E2",
+ "especialidad": "Nutrición comunitaria y programas sociales",
+ "especialidad_base": "Nutrición comunitaria y salud pública",
+ "integradas": [
+  "Nutrición en programas sociales del Estado"
+ ],
+ "ambitos_y_absorbidas": [
+  "Nutrición ocupacional y salud en minería (ámbito)",
+  "Nutrición en programas sociales del Estado (ámbito)"
+ ],
+ "descripcion_f1": {
+  "vol": 3,
+  "amp": 3,
+  "esc": 3,
+  "rem": 2,
+  "for": 4
+ },
+ "proceso_f1": "Diagnosticar población → planificar → intervenir → evaluar",
+ "evidencia_f1": "Plan de intervención poblacional con línea de base e informe de impacto",
+ "competencia": {
+  "codigo": "C2",
+  "alias": "Intervención poblacional",
+  "nombre": "Intervención nutricional en salud pública y poblaciones",
+  "definicion_conceptual": "Intervenir sobre el estado nutricional de una población —comunidad, unidad territorial, colectivo de trabajadores— diagnosticando su situación con línea de base y vigilancia, diseñando y ejecutando el programa y evaluando su impacto, en el marco de la salud pública, los programas presupuestales del Estado y la salud ocupacional, con articulación intersectorial y capacitación de agentes, para reducir la anemia, la desnutrición, el exceso de peso y el riesgo cardiometabólico y rendir cuenta del resultado con indicadores."
+ },
+ "capacidades_SOLO_PARA_MOMENTO_4": [
+  {
+   "codigo": "C2.1",
+   "accion": "Diagnosticar",
+   "nombre": "Diagnóstico nutricional poblacional",
+   "definicion": "Capacidad para levantar la línea de base y el diagnóstico nutricional de una población con vigilancia, indicadores epidemiológicos y tamizaje del riesgo, adaptando los instrumentos a comunidades, unidades territoriales o colectivos laborales, con rigor estadístico, sensibilidad cultural y compromiso con la equidad."
+  },
+  {
+   "codigo": "C2.2",
+   "accion": "Planificar",
+   "nombre": "Diseño de la intervención nutricional poblacional",
+   "definicion": "Capacidad para diseñar el programa o la intervención nutricional con objetivos, metas, actividades, presupuesto e indicadores a partir del diagnóstico, dentro de la lógica de los programas presupuestales, la salud ocupacional o la cooperación, con pensamiento estratégico, gestión pública y responsabilidad social."
+  },
+  {
+   "codigo": "C2.3",
+   "accion": "Intervenir",
+   "nombre": "Ejecución de la intervención nutricional poblacional",
+   "definicion": "Capacidad para ejecutar la intervención mediante consejería, educación alimentaria, capacitación de agentes comunitarios y articulación con actores locales y sectoriales, adaptándola al territorio y a su cultura, con liderazgo, comunicación efectiva, trabajo intersectorial y respeto por la comunidad."
+  },
+  {
+   "codigo": "C2.4",
+   "accion": "Evaluar",
+   "nombre": "Monitoreo y evaluación del impacto de la intervención",
+   "definicion": "Capacidad para monitorear el programa, medir su impacto contra la línea de base y reportar resultados con indicadores a la autoridad o al empleador, en contextos públicos, comunitarios y laborales, con honestidad en el dato, pensamiento crítico y orientación a la mejora de la intervención."
+  }
+ ],
+ "otras_competencias": [
+  {
+   "codigo": "C1",
+   "nombre": "Conducción del proceso de atención nutricional de la persona",
+   "capacidades": [
+    "C1.1 Valorar: Valoración del estado nutricional",
+    "C1.2 Diagnosticar: Diagnóstico nutricional",
+    "C1.3 Prescribir: Prescripción del tratamiento nutricional",
+    "C1.4 Seguir: Seguimiento del caso y consejería nutricional"
+   ]
+  },
+  {
+   "codigo": "C3",
+   "nombre": "Gestión de servicios de alimentación colectiva y aseguramiento de la inocuidad",
+   "capacidades": [
+    "C3.1 Planificar: Planificación del menú y del plan alimentario",
+    "C3.2 Estandarizar: Estandarización y costeo de las preparaciones",
+    "C3.3 Asegurar: Aseguramiento de la inocuidad",
+    "C3.4 Auditar: Supervisión y auditoría del servicio de alimentación"
+   ]
+  }
+ ]
+}

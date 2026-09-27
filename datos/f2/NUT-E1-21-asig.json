@@ -1,0 +1,185 @@
+{
+ "cod": "NUT",
+ "k": "E1",
+ "competencia": "C1",
+ "funciones": {
+  "E1-01": {
+   "marcas": [
+    "●",
+    "●",
+    "",
+    ""
+   ],
+   "asig": "C1",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (guía IETSI-EsSalud de desnutrición hospitalaria [8]) · E2 (O*NET 29-1031 [1] y MAPRO del HNHU [6]) · E4 (46,9 % de desnutrición en medicina y cirugía de un hospital de Lima [9]) · E3 no alcanzado (5 de 14 avisos clínicos; 24 avisos leídos < 30)",
+    "tend": "E6 (actualización GLIM 2025 con perímetro de pantorrilla [11]; RM 553-2025/MINSA [16])",
+    "d": "S",
+    "acc": "Acotar [16] al primer nivel: X6 dictaminó que la RM 553-2025 no sostiene la trazabilidad hospitalaria; actualizar el dato de [9] (2012) con un estudio reciente."
+   }
+  },
+  "E1-02": {
+   "marcas": [
+    "○",
+    "",
+    "●",
+    "●"
+   ],
+   "asig": "C1",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (Ley 30188 [3], NTS 103 [7]) · E2 (O*NET [1], MOF de Cusco y Huacho [4][5]) · E3 no alcanzado (10 de 14 avisos clínicos; 24 avisos leídos < 30) · sin E4: la demanda no trae dato de necesidad",
+    "tend": "E6 (ensayo EFFORT 2019 [12], guía EsSalud 2021 [8], IDDSI 2017 [28])",
+    "d": "P",
+    "acc": "Añadir a la demanda un dato de necesidad (p. ej., prevalencia de desnutrición hospitalaria [9]) o completar la muestra a ≥ 30 avisos; confirmar la Ley 30188 en El Peruano [3]."
+   }
+  },
+  "E1-03": {
+   "marcas": [
+    "○",
+    "○",
+    "●",
+    "●"
+   ],
+   "asig": "C1",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (guía IETSI-EsSalud [8]) · E2 (MAPRO del HNHU [6] y avisos, entre ellos la CAS del Hospital de Jaén [40]) · E4 (21 unidades de soporte para más de 500 establecimientos, 2020 [14]) · E3 no alcanzado (6 de 14 avisos clínicos; 24 leídos < 30)",
+    "tend": "E6 (consenso ASPEN 2020 de realimentación [13]; EFFORT 2019 [12])",
+    "d": "S",
+    "acc": "Sustituir o respaldar [14] (nota periodística de 2020) con un registro oficial de unidades de soporte nutricional."
+   }
+  },
+  "E1-05": {
+   "marcas": [
+    "●",
+    "●",
+    "●",
+    "●"
+   ],
+   "asig": "C1",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (RM 763-2022/MINSA [18]) · E2 (O*NET [1], ESCO [2], MOF de Cusco y Huacho [4][5]) · E4 (40,1 % con obesidad, diabetes o hipertensión, ENDES 2024 [17]) · E3 no alcanzado (5 de 14 avisos clínicos; 24 leídos < 30)",
+    "tend": "E6 (RM 764-2022 con teleconsulta y telemonitoreo [19]; RM 553-2025 [16])",
+    "d": "S",
+    "acc": "Forma (regla 6 del guardián): escribir el año de la tendencia en la justificación; remitir el manejo del peso a E1-06 en la consolidación."
+   }
+  },
+  "E1-06": {
+   "marcas": [
+    "●",
+    "○",
+    "●",
+    "●"
+   ],
+   "asig": "C1",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (RM 764-2022/MINSA [19], guía IETSI-EsSalud 2020 de cirugía de la obesidad [20]) · E2 (ESCO [2] y un aviso [39]) · E4 (62,2 % con exceso de peso y 25,7 % con obesidad en 2024 [17]) · E3 no alcanzado (1 de 14 avisos clínicos)",
+    "tend": "E6 (guía OMS de 01/12/2025 sobre GLP-1 y proyección de la obesidad a 2030 [22])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E1-08": {
+   "marcas": [
+    "●",
+    "●",
+    "●",
+    "●"
+   ],
+   "asig": "C1",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (NTS 207-MINSA/DGIESP-2023 [24], reglamento de la Ley 30490 [25]) · E4 (45,0 % de riesgo de desnutrición en adultos mayores con cáncer, Lima [27]) · E3 no alcanzado (1 de 14 avisos clínicos)",
+    "tend": "E6 (guía ESPEN de geriatría 2019 [26]; IDDSI 2017 [28])",
+    "d": "S",
+    "acc": "Forma (reglas 5 y 6 del guardián): reescribir el dato del 14,6 % de [17] y escribir el año de la tendencia en la justificación."
+   }
+  },
+  "E1-09": {
+   "marcas": [
+    "●",
+    "●",
+    "●",
+    "●"
+   ],
+   "asig": "C1",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (NTS 213-MINSA/DGIESP-2024 [30], ficha de procedimiento del INSN-San Borja [31]) · E4 (43,7 % de anemia en niños de 6 a 35 meses y 12,1 % de desnutrición crónica, ENDES 2024 [29]) · E3 no alcanzado (1 de 14 avisos clínicos)",
+    "tend": "E6 (consenso AND/ASPEN de indicadores de desnutrición pediátrica [32]; estudio en 9 países latinoamericanos [33])",
+    "d": "S",
+    "acc": "Forma (regla 6 del guardián): escribir el año de la tendencia en la justificación."
+   }
+  },
+  "E1-10": {
+   "marcas": [
+    "●",
+    "○",
+    "●",
+    "●"
+   ],
+   "asig": "C1",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (RM 460-2015/MINSA [34], NTS 213-2024 [30]) · E4 (24,6 % de anemia en mujeres de 15 a 49 años, ENDES 2024 [29]) · E3 no alcanzado (1 de 14 avisos clínicos)",
+    "tend": "E6 (anemia en mujeres de 15 a 49 años de 18,8 % en 2021 a 24,6 % en 2024 [29]; NTS 213 de 2024 [30])",
+    "d": "S",
+    "acc": "—"
+   }
+  },
+  "E1-11": {
+   "marcas": [
+    "",
+    "",
+    "○",
+    "●"
+   ],
+   "asig": "C1",
+   "otra": "",
+   "dic": {
+    "ev": "E1 (NT 018-MINSA/DGSP-V.01 de referencia y contrarreferencia [37]) · E2 (O*NET [1], MOF de Huacho [5]) · sin E3 (0 de 14 avisos) · E4 solo extranjero (reingreso 1,44 veces mayor, Dinamarca 2024 [35])",
+    "tend": "E6 (Ley 30885 de 2018 [36]; RM 553-2025/MINSA [16])",
+    "d": "P",
+    "acc": "Buscar un dato peruano de reingreso o de desnutrición al alta ligado al riesgo nutricional, o avisos que pidan planificar el alta nutricional."
+   }
+  }
+ },
+ "reasignadas": [],
+ "alertas": [],
+ "decisiones": [
+  [
+   "2026-09-25",
+   "Se asignan 9 funciones de E1, todas a C1: E1-01, E1-02, E1-03, E1-05, E1-06, E1-08 y E1-09 (núcleo), E1-10 (complementaria) y E1-11 (complementaria por decisión de la Escuela).",
+   "Con decision2 del panel (o la decisión de ronda 1 cuando la función no pasó a ronda 2). No se asignan E1-04 y E1-12 (excluidas por la Escuela: sus tareas pasaron a E1-02 y E3-04) ni E1-07 (fusionada en E1-06). Se aplicaron los ajustes de NUT-E1-21-ajustes.json antes de marcar."
+  ],
+  [
+   "2026-09-25",
+   "Cobertura completa: C1.1 (E1-01, E1-05, E1-06, E1-08, E1-09, E1-10), C1.2 (E1-01, E1-05, E1-08, E1-09), C1.3 (E1-02, E1-03, E1-05, E1-06, E1-08, E1-09, E1-10) y C1.4 (E1-02, E1-03, E1-05, E1-06, E1-08, E1-09, E1-10, E1-11) tienen función principal.",
+   "Ninguna capacidad queda sin función; no hay compartidas, reasignadas, transversales ni brechas."
+  ],
+  [
+   "2026-09-25",
+   "Frontera E1-02 / E3-04: la orden diaria de dieta (E1-02-T4) es la entrada de la función compartida E3-04 (C3 · compartida con C1).",
+   "E1-02 transmite la orden como parte de la prescripción (C1.3); el armado y la verificación de correspondencia de la dieta quedan en E3-04 por decisión de la Escuela (NTS 103). Ver la alerta de certificación en NUT-E3-21-asig.json."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C1.4 (pendiente de la Escuela): añadir «y asegurar la continuidad nutricional al alta mediante el resumen para la referencia o contrarreferencia en la red, la EPS o el consultorio que continúa la atención».",
+   "E1-11 (T3 y T4) exige coordinar la continuidad del cuidado, contexto que la definición de C1.4 no nombra (solo «cerrar el caso con consejería al alta»). Es ajuste de redacción, no de estructura."
+  ],
+  [
+   "2026-09-25",
+   "Ajuste de redacción de C1.3 (pendiente de la Escuela): en «manejo de peso», añadir «incluido el acompañamiento nutricional de tratamientos farmacológicos y de la cirugía bariátrica, dentro del equipo».",
+   "E1-06 absorbió E1-07 (cirugía bariátrica, T6) y acompaña fármacos GLP-1 (T5); la definición no nombra esos contextos."
+  ],
+  [
+   "2026-09-25",
+   "Dictamen de suficiencia de E1: 7 S (E1-01, E1-03, E1-05, E1-06, E1-08, E1-09, E1-10) y 2 P (E1-02 sin dato de necesidad; E1-11 sin dato peruano ni avisos). Global: P.",
+   "La muestra de mercado de E1 es de 24 avisos (< 30), por lo que E3 no se cumple en ninguna función y el fundamento descansa en E4. E5 (grupos de interés) y E7 (resultados) son de programa: no bajan el dictamen por función, pero el global nunca es S."
+  ]
+ ]
+}

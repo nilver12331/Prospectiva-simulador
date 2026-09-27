@@ -1,0 +1,106 @@
+{
+ "carrera": "Ingeniería de Sistemas",
+ "cod": "SIS",
+ "k": "E4",
+ "especialidad": "Ciberseguridad y protección de datos",
+ "especialidad_base": "Ciberseguridad y gestión de riesgos digitales",
+ "integradas": [
+  "Protección de datos personales y privacidad"
+ ],
+ "ambitos_y_absorbidas": [
+  "Protección de datos personales y privacidad (ámbito)"
+ ],
+ "descripcion_f1": {
+  "vol": 3,
+  "amp": 4,
+  "esc": 4,
+  "rem": 4,
+  "for": 3
+ },
+ "proceso_f1": "Evaluar el riesgo → proteger → detectar → responder → recuperar",
+ "evidencia_f1": "Informe de riesgos y plan de respuesta a incidentes aprobado por la organización",
+ "competencia": {
+  "codigo": "C4",
+  "alias": "Ciberseguridad",
+  "nombre": "Gestión de la seguridad de la información y de los riesgos digitales",
+  "definicion_conceptual": "Gestionar la seguridad de la información y de los sistemas de una organización a lo largo del ciclo evaluar el riesgo, proteger, detectar, responder y recuperar, aplicando análisis de riesgos, pruebas de penetración, controles técnicos y de identidad, monitoreo, respuesta a incidentes, forense y continuidad, conforme a marcos y normas de seguridad y de protección de datos personales, en banca, fintech, telecomunicaciones, Estado y servicios gestionados, para proteger la información, sostener la operación y garantizar el cumplimiento ante reguladores y autoridad."
+ },
+ "capacidades_SOLO_PARA_MOMENTO_4": [
+  {
+   "codigo": "C4.1",
+   "accion": "Evaluar",
+   "nombre": "Evaluación de riesgos y vulnerabilidades",
+   "definicion": "Capacidad de identificar activos y tratamientos de información, analizar amenazas, vulnerabilidades y riesgos mediante metodologías de riesgo, escaneos y pruebas de penetración, y priorizar su tratamiento, en organizaciones de distinto tamaño y sector; moviliza marcos de riesgo, hacking ético, normativa, pensamiento adversarial, objetividad y confidencialidad."
+  },
+  {
+   "codigo": "C4.2",
+   "accion": "Proteger",
+   "nombre": "Diseño e implantación de controles de seguridad",
+   "definicion": "Capacidad de diseñar e implantar políticas y controles técnicos, de identidad y organizacionales —incluida la concientización— que reduzcan el riesgo a un nivel aceptable, adaptados al presupuesto y a la regulación aplicable; moviliza arquitectura de seguridad, gestión de identidades, criptografía, normativa, rigor y responsabilidad ante la organización."
+  },
+  {
+   "codigo": "C4.3",
+   "accion": "Detectar",
+   "nombre": "Monitoreo y detección de amenazas",
+   "definicion": "Capacidad de monitorear la infraestructura y los sistemas desde un centro de operaciones de seguridad, correlacionar eventos y detectar incidentes y brechas de datos de forma temprana, en operación continua; moviliza herramientas de monitoreo, inteligencia de amenazas, análisis de registros, vigilancia sostenida y capacidad de discriminar señales relevantes."
+  },
+  {
+   "codigo": "C4.4",
+   "accion": "Responder",
+   "nombre": "Respuesta a incidentes y análisis forense",
+   "definicion": "Capacidad de contener, erradicar y analizar forensemente un incidente de seguridad o brecha de datos, coordinar la comunicación y notificar a afectados y autoridad en los plazos legales, bajo presión; moviliza respuesta a incidentes, forense digital, normativa de notificación, serenidad, ética y trabajo coordinado."
+  },
+  {
+   "codigo": "C4.5",
+   "accion": "Recuperar",
+   "nombre": "Continuidad, cumplimiento y auditoría de la seguridad",
+   "definicion": "Capacidad de restaurar la operación tras un incidente, mantener y probar los planes de continuidad, y sostener el cumplimiento del programa de seguridad y de datos personales mediante auditorías y reportes al regulador, en organizaciones supervisadas; moviliza gestión de continuidad, normativa, auditoría, mejora continua, responsabilidad y transparencia."
+  }
+ ],
+ "otras_competencias": [
+  {
+   "codigo": "C1",
+   "nombre": "Desarrollo de soluciones de software",
+   "capacidades": [
+    "C1.1 Analizar: Análisis y especificación de requisitos",
+    "C1.2 Diseñar: Diseño de la arquitectura de la solución",
+    "C1.3 Construir: Construcción e integración de los componentes de software",
+    "C1.4 Verificar: Verificación de la calidad del software",
+    "C1.5 Desplegar: Despliegue y mantenimiento en producción"
+   ]
+  },
+  {
+   "codigo": "C2",
+   "nombre": "Diseño y operación de la infraestructura tecnológica",
+   "capacidades": [
+    "C2.1 Diseñar: Diseño de la arquitectura de la plataforma",
+    "C2.2 Automatizar: Aprovisionamiento y automatización de la infraestructura",
+    "C2.3 Operar: Operación y soporte de la infraestructura",
+    "C2.4 Observar: Observabilidad y aseguramiento de la disponibilidad",
+    "C2.5 Optimizar: Optimización del rendimiento y de los costos"
+   ]
+  },
+  {
+   "codigo": "C3",
+   "nombre": "Desarrollo de soluciones de analítica e inteligencia artificial",
+   "capacidades": [
+    "C3.1 Gobernar: Gobierno e integración del dato",
+    "C3.2 Modelar: Modelado analítico y entrenamiento de algoritmos",
+    "C3.3 Evaluar: Evaluación de la validez y la ética del modelo",
+    "C3.4 Implantar: Implantación y monitoreo en producción",
+    "C3.5 Comunicar: Comunicación de resultados para la toma de decisiones"
+   ]
+  },
+  {
+   "codigo": "C5",
+   "nombre": "Gobierno y dirección de proyectos y servicios de tecnología de la información",
+   "capacidades": [
+    "C5.1 Alinear: Alineamiento de la tecnología con la estrategia organizacional",
+    "C5.2 Planificar: Planificación de proyectos tecnológicos",
+    "C5.3 Dirigir: Dirección, control y entrega de proyectos tecnológicos",
+    "C5.4 Operar: Operación de los servicios de tecnología de la información",
+    "C5.5 Evaluar: Auditoría de controles y riesgos de tecnología de la información"
+   ]
+  }
+ ]
+}

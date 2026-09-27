@@ -1,0 +1,1509 @@
+{
+ "rol": "X5",
+ "perfil": "Egresado reciente · 3 años · desarrollo backend en fintech, soporte de infraestructura en ISP y analítica de datos en retail; contacto con pares en SOC, auditoría de TI y oficinas de TI del Estado",
+ "cod": "SIS",
+ "ronda": 1,
+ "funciones": {
+  "E1-01": {
+   "R": "Sí",
+   "donde": "Analista funcional junior en fábrica de software y en oficina de TI de un gobierno regional; avisos de analista de sistemas",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Especifica requerimientos de módulos acotados; la priorización final del backlog la decide el dueño de producto.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Alcanzable al egreso en módulos pequeños. Pero T4 «priorizar y mantener el backlog» lo hace el dueño de producto; el egresado lo mantiene, no lo prioriza. Ajustar redacción.",
+   "bloque": "F"
+  },
+  "E1-02": {
+   "R": "Sí",
+   "donde": "Desarrollador junior que diseña el modelo de datos de su módulo; la arquitectura la define el líder técnico",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E1-02-T1",
+      "t": "Proponer la estructura por capas o servicios del módulo dentro de la arquitectura de referencia"
+     }
+    ]
+   },
+   "lim": "Diseña el modelo de datos y componentes de su módulo; la arquitectura de la solución la aprueba un arquitecto o líder técnico.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 2,
+   "com": "Nivel 3 es optimista: al egreso nadie me dejó definir microservicios. Sí diseñé modelos de datos. Producto alcanzable solo si se acota a un módulo; bajar N a 2 en arquitectura.",
+   "bloque": "P"
+  },
+  "E1-03": {
+   "R": "Sí",
+   "donde": "Mi primer empleo: desarrollador backend junior en fintech limeña; convocatorias CAS de programador",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Programa componentes y APIs de complejidad moderada; todo cambio pasa por revisión de código antes de integrarse.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Función núcleo y la más real. N=4 no es exacto: en ningún equipo serio un junior integra sin revisión; es supervisión indirecta (3). Producto perfectamente alcanzable.",
+   "bloque": "F"
+  },
+  "E1-04": {
+   "R": "Sí",
+   "donde": "Desarrolladores frontend junior en agencias y en equipos de servicios GOB.PE",
+   "P": 3,
+   "E": "Útil",
+   "F": 4,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [
+     "Implementar pruebas de componentes de interfaz"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye módulos de interfaz sobre prototipos aprobados; no define el sistema de diseño ni la arquitectura del frontend.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Real, pero la auditoría WCAG completa rara vez la hace un junior; suele ser checklist automatizado. Falta la tarea de pruebas de interfaz que el producto sí menciona.",
+   "bloque": "P"
+  },
+  "E1-05": {
+   "R": "Sí",
+   "donde": "Compañeros de promoción en startups de delivery y billeteras; menos frecuente que web",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Desarrolla funcionalidades y genera versiones; la publicación en tiendas y la firma de paquetes las gestiona el líder técnico.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Alcanzable. La publicación en tiendas se hace al egreso solo en proyectos propios; en empresa la hace el líder. La evidencia «versión aprobada en tienda» es exigente para el pregrado.",
+   "bloque": "P"
+  },
+  "E1-06": {
+   "R": "Sí",
+   "donde": "Integraciones con ERP, facturación electrónica SUNAT y pasarelas de pago en mi primer empleo",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Implementa integraciones con contratos definidos; la conexión con PIDE u otras entidades la autoriza la jefatura de TI.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Muy real (facturación electrónica es casi universal). Alcanzable con contratos ya definidos; integrar con PIDE real al egreso es improbable, bastaría un entorno simulado.",
+   "bloque": "P"
+  },
+  "E1-07": {
+   "R": "Sí",
+   "donde": "Practicantes y juniors haciendo RPA y flujos low-code en banca y retail",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 2,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Automatiza procesos departamentales acotados; el pase a producción y el uso de datos personales lo aprueba el dueño del proceso.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "Real y creciente, muchos egresados entran por RPA. El entregable 1 queda con una sola tarea y es casi un anexo; podría integrarse al entregable 2.",
+   "bloque": "P"
+  },
+  "E1-08": {
+   "R": "Sí",
+   "donde": "Analistas QA junior en banca y fintech; es una puerta de entrada frecuente de egresados",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E1-08-T1",
+      "t": "Elaborar el plan de pruebas del módulo según la estrategia de calidad definida"
+     }
+    ]
+   },
+   "lim": "Diseña y ejecuta pruebas de módulos; la estrategia de calidad y la recomendación final de pase las firma el líder de calidad.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Muy alcanzable salvo T1 y T6: la estrategia por riesgos y la recomendación de pase las hace el líder QA; el junior prepara el informe. Ajustar T1.",
+   "bloque": "F"
+  },
+  "E1-09": {
+   "R": "Sí",
+   "donde": "Observaciones de seguridad (SAST, dependencias) que atendí como desarrollador; banca exige desarrollo seguro",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E1-09-T1",
+      "t": "Aplicar los requisitos de seguridad y privacidad definidos para la aplicación"
+     }
+    ]
+   },
+   "lim": "Aplica controles y corrige vulnerabilidades de su código; el modelado de amenazas lo conduce un especialista de seguridad.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 2,
+   "com": "El modelado de amenazas no lo hace un recién egresado; corregir vulnerabilidades señaladas sí. Solapa con E4-05. N=2 más honesto; producto «expediente» ambicioso para el egreso.",
+   "bloque": "P"
+  },
+  "E1-10": {
+   "R": "Sí",
+   "donde": "Pipelines de CI en GitLab/GitHub configurados por el equipo; juniors los ajustan",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Ajusta canalizaciones existentes y ejecuta despliegues en ambientes de prueba; el pase a producción lo aprueba el líder técnico.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 2,
+   "com": "Duplica casi exacto E2-06 (mismo producto). Como egresado usé pipelines, no los diseñé; pase a producción con reversión es de líder. Definir en cuál especialidad queda.",
+   "bloque": "F"
+  },
+  "E1-11": {
+   "R": "Sí",
+   "donde": "Soporte y mantenimiento de sistemas en universidad y clínica: es donde más egresados trabajan",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Atiende incidencias y mejoras de módulos; las migraciones de componentes críticos requieren aprobación del comité de cambios.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "La función más frecuente en el día a día del egresado. Refactorizar o migrar componentes obsoletos (T4) suele requerir supervisión cercana; el resto es alcanzable.",
+   "bloque": "F"
+  },
+  "E2-01": {
+   "R": "Sí",
+   "donde": "Asistente de arquitectura cloud en integrador; el diseño de landing zone lo firma el arquitecto",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 4,
+   "V": 4,
+   "L": 3,
+   "N": 2,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [
+     "E2-01-T6"
+    ],
+    "corregir": []
+   },
+   "lim": "Participa en el diseño y dimensiona cargas acotadas; la arquitectura y la zona de aterrizaje las aprueba un arquitecto de nube senior.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 2,
+   "com": "Un egresado no diseña zonas de aterrizaje ni multinube. Alcanzable: arquitectura de una aplicación en una cuenta. N=2 y producto acotado. La descripción usa verbo conjugado («Diseña»).",
+   "bloque": "P"
+  },
+  "E2-02": {
+   "R": "Sí",
+   "donde": "Proyectos de migración en integradores; juniors ejecutan tareas de oleadas",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Ejecuta tareas de migración de cargas no críticas bajo un líder de migración; no define la estrategia ni conduce el corte.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 2,
+   "com": "Demanda débil (7 de 61) y el 9 % de madurez digital no prueba demanda de migración. Conducir el corte a producción (T5) no es de egresado. N=2.",
+   "bloque": "S"
+  },
+  "E2-03": {
+   "R": "Sí",
+   "donde": "Ingenieros junior de redes en integradores TIC y en minería; cableado y configuración de switches",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña e implementa redes de sede de tamaño medio; los cambios en el núcleo o multisede los aprueba un ingeniero senior.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Real y alcanzable. Pero el dato de brecha rural de hogares no sustenta demanda de redes corporativas; mejor usar los avisos y convocatorias como dato principal.",
+   "bloque": "S"
+  },
+  "E2-04": {
+   "R": "Sí",
+   "donde": "Egresados en ISP de fibra haciendo aprovisionamiento; poca telefonía IP",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [
+     "Diagnosticar fallas de enlaces y accesos junto con el operador"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Implementa enlaces y voz IP locales; la ingeniería de radiofrecuencia y la red troncal quedan fuera de su alcance.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 3,
+   "P2": 4,
+   "P3": 3,
+   "com": "Real en ISP, pero la telefonía IP tradicional declina frente a comunicaciones en la nube. Frontera difusa con Ingeniería de Telecomunicaciones. Vigencia se mantiene, no crece.",
+   "bloque": "S"
+  },
+  "E2-05": {
+   "R": "Sí",
+   "donde": "Juniors DevOps escribiendo módulos Terraform con revisión; muy pedido en consultoras",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Escribe módulos de infraestructura con revisión por pares; la aplicación en producción la aprueba el responsable de plataforma.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Alcanzable si el pregrado practica en nube real. La cifra de caídas por errores de configuración es global, no peruana; 4 avisos de IaC explícito es poco.",
+   "bloque": "S"
+  },
+  "E2-06": {
+   "R": "Sí",
+   "donde": "Juniors DevOps en fintech y consultoras; Kubernetes productivo lo maneja el senior",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye y ajusta flujos de despliegue; la administración de clústeres productivos la autoriza el responsable de plataforma.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "Duplica E1-10 casi por completo. 7 de 61 avisos es demanda baja y el dato del 82 % es global. El tablero de métricas de entrega con una sola tarea queda débil.",
+   "bloque": "F"
+  },
+  "E2-07": {
+   "R": "Sí",
+   "donde": "Administrador de servidores junior en clínica y universidad; es trabajo común del egresado",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Administra servidores departamentales con procedimientos aprobados; los cambios mayores en sistemas críticos pasan por el comité de cambios.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Muy alcanzable. N=4 es exagerado para el egreso: los primeros meses todo cambio en servidores se revisa; 3 es realista. Producto claro.",
+   "bloque": "F"
+  },
+  "E2-08": {
+   "R": "Sí",
+   "donde": "Turnos NOC y mesa de nivel 2 en ISP; mi primer trabajo fue ahí",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Resuelve incidentes de nivel 1 y 2 con procedimientos; los incidentes mayores y cambios de alto riesgo se escalan.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 4,
+   "com": "Nivel 4 correcto para nivel 1-2 con procedimiento. El informe de problemas recurrentes queda con una sola tarea. Solapa con E5-10 (lado de gestión).",
+   "bloque": "P"
+  },
+  "E2-09": {
+   "R": "Sí",
+   "donde": "Respaldo y pruebas de restauración en empresa mediana; lo hacen juniors",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E2-09-T1",
+      "t": "Registrar los objetivos de tiempo y punto de recuperación acordados por el responsable del servicio"
+     }
+    ]
+   },
+   "lim": "Configura respaldos y ejecuta pruebas de restauración; los objetivos de recuperación y la activación del plan los decide la dirección.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Real y alcanzable, salvo T1: el egresado no define los objetivos de recuperación con usuarios, los registra. Solapa con E4-08; decidir cuál conserva el plan de recuperación.",
+   "bloque": "F"
+  },
+  "E2-10": {
+   "R": "Sí",
+   "donde": "Monitoreo con tableros y alertas en NOC; objetivos de nivel formales solo en fintech grandes",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E2-10-T1",
+      "t": "Proponer indicadores de nivel de servicio a partir de las métricas disponibles"
+     }
+    ]
+   },
+   "lim": "Instrumenta servicios y configura tableros y alertas; los objetivos de nivel y el presupuesto de error los aprueba el responsable.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Monitoreo y alertas: alcanzable. Presupuesto de error y objetivos pactados con usuarios no son del egresado. «51 de 61» mezcla monitoreo básico con ingeniería de confiabilidad.",
+   "bloque": "S"
+  },
+  "E2-11": {
+   "R": "Sí",
+   "donde": "Configuración de firewalls y VPN en integradores; juniors aplican reglas aprobadas",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Configura reglas y VPN según política aprobada; el diseño de zonas y la respuesta a incidentes corresponden a seguridad.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Real. Solapa fuerte con E4-03 (cortafuegos, segmentación, bastionado). Definir si el perímetro es de infraestructura o de ciberseguridad para no formar dos veces lo mismo.",
+   "bloque": "F"
+  },
+  "E2-12": {
+   "R": "Sí",
+   "donde": "Optimización de costos de nube solo la vi en una consultora grande; en empresas medianas la hace el jefe de TI",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 2,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Analiza gasto y uso y propone ajustes; los compromisos de compra y reservas los aprueban la jefatura de TI y finanzas.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 3,
+   "P2": 4,
+   "P3": 2,
+   "com": "Emergente pero poco accesible al egreso: reportar costo unitario a la dirección no lo hace un junior. Demanda basada en encuestas globales; 10 de 61 avisos.",
+   "bloque": "S"
+  },
+  "E3-01": {
+   "R": "Sí",
+   "donde": "Analista de datos junior construyendo flujos de carga en SQL y Python; muy común en egresados",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye flujos estándar sobre arquitectura definida; los cambios en sistemas fuente críticos los aprueba el ingeniero de datos.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Función alcanzable y de alta empleabilidad. Buen sustento. El impacto repite frase genérica «gobierno e integración del dato».",
+   "bloque": "S"
+  },
+  "E3-02": {
+   "R": "Sí",
+   "donde": "Modelado estrella en área de BI de retail; lo hice con supervisión",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña modelos dimensionales departamentales; la arquitectura de datos corporativa la valida el arquitecto de datos.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Real y alcanzable. La vigencia no crece mucho por plataformas lakehouse; la justificación repite frase genérica y cita solo al WEF.",
+   "bloque": "S"
+  },
+  "E3-03": {
+   "R": "Sí",
+   "donde": "Tareas de catálogo y calidad de datos en banca; entidades públicas designan oficial de gobierno de datos",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 4,
+   "L": 3,
+   "N": 2,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [
+     "E3-03-T5"
+    ],
+    "corregir": []
+   },
+   "lim": "Documenta metadatos y mide calidad dentro del modelo aprobado; clasificar datos personales requiere revisión del oficial.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 2,
+   "com": "Mezcla gobierno de datos, datos abiertos y protección de datos (esta última duplicada con E4-10). Al egreso solo se apoya; «programa de gobierno» como producto excede el nivel.",
+   "bloque": "P"
+  },
+  "E3-04": {
+   "R": "Sí",
+   "donde": "Todos mis compañeros de BI arman tableros desde el primer mes",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye tableros en áreas definidas; los indicadores estratégicos se acuerdan con la gerencia usuaria.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "La función más alcanzable y frecuente de la especialidad. N=4 correcto. Producto y evidencias muy realistas.",
+   "bloque": "F"
+  },
+  "E3-05": {
+   "R": "Sí",
+   "donde": "Analista de datos en inteligencia comercial; los informes a gerencia los revisa el jefe",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Formula análisis y recomendaciones; los análisis con impacto financiero significativo los revisa un analista senior.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Alcanzable. El dato de crecimiento del 40 % no indica periodo ni fuente fechada precisa. La presentación a gerencia al egreso la hace el jefe con el analista.",
+   "bloque": "S"
+  },
+  "E3-06": {
+   "R": "Sí",
+   "donde": "Modelos de riesgo en caja municipal y de fuga de clientes en telecom; juniors bajo supervisión",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye y calibra modelos con técnicas establecidas; los modelos de riesgo alto requieren revisión independiente.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "Alcanzable. La ficha técnica queda como entregable de una sola tarea; podría integrarse al primero.",
+   "bloque": "P"
+  },
+  "E3-07": {
+   "R": "Sí",
+   "donde": "Muchos egresados recientes construyen asistentes con recuperación de información en consultoras y áreas de innovación",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye asistentes acotados con base de conocimiento; el uso con datos personales requiere aprobación y supervisión humana.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "conf 2 subestima: hoy un egresado arma un asistente funcional con supervisión indirecta. El entregable 2 concentra cuatro tareas; separar la evaluación.",
+   "bloque": "P"
+  },
+  "E3-08": {
+   "R": "Sí",
+   "donde": "Validación de modelos en banca la hace un equipo independiente con experiencia",
+   "P": 3,
+   "E": "Útil",
+   "F": 1,
+   "C": 4,
+   "V": 4,
+   "L": 3,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Ejecuta pruebas de desempeño y sesgo bajo supervisión; el dictamen y la validación independiente corresponden a validadores experimentados.",
+   "S1": 2,
+   "S2": 4,
+   "P1": 3,
+   "P2": 4,
+   "P3": 2,
+   "com": "Solo 4 de 80 avisos: poca demanda de entrada. El egresado puede medir sesgo y desempeño, pero «dictamina si el modelo es apto» excede el nivel. Mejor como tarea de E3-06.",
+   "bloque": "S"
+  },
+  "E3-09": {
+   "R": "Sí",
+   "donde": "Operación de modelos en fintech; juniors despliegan con plantillas del equipo",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Despliega y monitorea modelos con plantillas definidas; la plataforma y los cambios críticos los aprueba el líder técnico.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 2,
+   "com": "Real pero en pocas empresas locales. Pruebas de carga y reentrenamiento en producción real son difíciles al egreso; el inventario como entregable aparte sobra.",
+   "bloque": "P"
+  },
+  "E4-01": {
+   "R": "Sí",
+   "donde": "Analista junior de riesgos de TI en banca y consultoras de ciberseguridad",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Aplica la metodología aprobada; la valoración final y la aceptación del riesgo residual las decide la dirección o el comité.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Alcanzable con metodología dada. Solapa con E5-12; diferenciar por objeto: seguridad de la información aquí, riesgo tecnológico y de terceros allá.",
+   "bloque": "F"
+  },
+  "E4-02": {
+   "R": "Sí",
+   "donde": "Egresados en consultoras de hacking ético haciendo escaneos; explotación con acompañamiento",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Ejecuta escaneos y pruebas autorizadas bajo supervisión; la explotación de vulnerabilidades críticas la valida un pentester senior.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Muy demandada por egresados. N=3 es alto para explotación controlada: los primeros meses se hace con un senior. Escaneo y reporte sí son alcanzables.",
+   "bloque": "F"
+  },
+  "E4-03": {
+   "R": "Sí",
+   "donde": "Bastionado y configuración de protección de puntos finales en servicios gestionados",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Implanta controles sobre líneas base aprobadas; los cambios en producción pasan por control de cambios.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Alcanzable. Solapa con E2-11 en cortafuegos y segmentación; aquí debería quedar lo de estaciones, cifrado y líneas base.",
+   "bloque": "F"
+  },
+  "E4-04": {
+   "R": "Sí",
+   "donde": "Administración de altas, bajas y MFA en banca; recertificaciones en auditoría",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Opera altas, bajas y recertificaciones con políticas aprobadas; los privilegios críticos los aprueba el propietario del activo.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 2,
+   "P3": 3,
+   "com": "Alcanzable. Partición incoherente: T2 (altas y bajas) está en el informe de recertificación, cuando es operación diaria. Diseñar roles con segregación (T1) al egreso es solo propuesta.",
+   "bloque": "P"
+  },
+  "E4-05": {
+   "R": "Sí",
+   "donde": "Analista de seguridad de aplicaciones junior en banca; revisa reportes de análisis estático y dinámico",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E4-05-T5",
+      "t": "Preparar el informe de conformidad de seguridad para la aprobación del responsable"
+     }
+    ]
+   },
+   "lim": "Ejecuta análisis estático y dinámico y apoya correcciones; la conformidad de pase la emite el responsable de seguridad.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 2,
+   "com": "Emitir conformidad de pase no es de egresado. Solapa con E1-09; decidir el reparto. El entregable 2 concentra cuatro tareas.",
+   "bloque": "P"
+  },
+  "E4-06": {
+   "R": "Sí",
+   "donde": "Analista SOC nivel 1 en proveedor de servicios gestionados: principal puerta de entrada a ciberseguridad",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Tría y escala alertas como analista de nivel 1 y 2; el ajuste de reglas de correlación lo aprueba el líder del SOC.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Muy alcanzable como nivel 1. Ajustar reglas e integrar fuentes (T1, T2) es de nivel 2-3; al egreso se participa.",
+   "bloque": "F"
+  },
+  "E4-07": {
+   "R": "Sí",
+   "donde": "Equipos de respuesta a incidentes; el egresado apoya contención y documentación",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Apoya contención y documenta bajo el líder de respuesta; el análisis forense con cadena de custodia requiere acreditación.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 2,
+   "com": "N=2 correcto. El informe forense completo excede el egreso; sí el registro y la línea de tiempo. La evidencia de notificación en plazo es realista si se simula.",
+   "bloque": "P"
+  },
+  "E4-08": {
+   "R": "Sí",
+   "donde": "Pruebas de restauración anuales en banca; las ejecutan juniors",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Prueba la recuperación de servicios de tecnología; la estrategia de continuidad la aprueban el directorio y el comité de crisis.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Duplica casi exacto E2-09 (plan de recuperación probado). Una especialidad debe conservarla; la otra, remitir.",
+   "bloque": "F"
+  },
+  "E4-09": {
+   "R": "Sí",
+   "donde": "Asistente de SGSI en entidad pública y consultoras ISO 27001; auditorías internas",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E4-09-T2",
+      "t": "Actualizar la declaración de aplicabilidad de controles con el responsable del sistema"
+     }
+    ]
+   },
+   "lim": "Mantiene documentación y apoya auditorías internas; aprobar políticas y la declaración de aplicabilidad corresponde a la dirección.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Alcanzable como asistente. El fundamento inicia con un dato de IA ajeno al SGSI. Solapa parcial con E5-11 (auditoría).",
+   "bloque": "S"
+  },
+  "E4-10": {
+   "R": "Sí",
+   "donde": "Apoyo al oficial de datos personales en banca y salud",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Apoya inventario, documento de seguridad y atención de derechos; la evaluación jurídica y la designación de oficial exceden el egreso.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "N=2 correcto. Buen sustento normativo y datos de fiscalización. Solapa con E3-03 T4 (clasificar datos personales).",
+   "bloque": "F"
+  },
+  "E5-01": {
+   "R": "Sí",
+   "donde": "Apoyo en la formulación del Plan de Gobierno Digital de una municipalidad como asistente",
+   "P": 4,
+   "E": "Esencial",
+   "F": 1,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Participa en el diagnóstico y redacta secciones del plan; la formulación y priorización las conduce el jefe de TI o el consultor.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 2,
+   "com": "conf 3 es alto: un egresado no formula el plan estratégico de TI, apoya el diagnóstico. Frecuencia rara (anual). Producto alcanzable solo como ejercicio académico.",
+   "bloque": "P"
+  },
+  "E5-02": {
+   "R": "Sí",
+   "donde": "Solo vi arquitectura empresarial en banca grande; roles senior con TOGAF",
+   "P": 2,
+   "E": "Útil",
+   "F": 1,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Modela vistas actuales bajo un arquitecto empresarial; no diseña la arquitectura objetivo ni emite dictámenes.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 3,
+   "P2": 4,
+   "P3": 2,
+   "com": "Poco realista para egresado: 4 de 45 avisos y roles senior. El dictamen de conformidad no lo emite un junior. Considerar fusionar con E5-01.",
+   "bloque": "S"
+  },
+  "E5-03": {
+   "R": "Sí",
+   "donde": "Analista de PMO junior en banca; arma reportes del portafolio",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [
+     "E5-03-T5"
+    ],
+    "corregir": []
+   },
+   "lim": "Prepara casos de negocio y reportes del portafolio; los estándares de gestión y la priorización los define la PMO.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 2,
+   "com": "Establecer estándares de PMO (T5) no es de egresado. El tamaño de portafolio de un aviso (USD 5 millones) no es dato de demanda.",
+   "bloque": "P"
+  },
+  "E5-04": {
+   "R": "Sí",
+   "donde": "Especialista que apoya al comité de gobierno digital en entidad pública",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 3,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Prepara informes y actas del comité; el diseño del marco de gobierno y las políticas corresponden a la dirección.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 3,
+   "P2": 4,
+   "P3": 2,
+   "com": "Diseñar el marco de gobierno con COBIT no es alcanzable al egreso; sí la secretaría técnica del comité. El producto «Marco de gobierno» está sobredimensionado.",
+   "bloque": "P"
+  },
+  "E5-05": {
+   "R": "Sí",
+   "donde": "Coordinadores de proyectos junior en consultoras; planifican proyectos pequeños",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Planifica proyectos de complejidad baja; en proyectos mayores elabora partes del plan bajo un jefe de proyecto.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Alcanzable. El sustento usa sobre todo datos de EE. UU. (O*NET, 472 000 empleos); falta un dato peruano cuantitativo fuerte.",
+   "bloque": "S"
+  },
+  "E5-06": {
+   "R": "Sí",
+   "donde": "Egresados como coordinadores o facilitadores ágiles junior; dirigir proyectos llega a los 3-5 años",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Coordina frentes o proyectos pequeños bajo un jefe de proyecto; los cambios de alcance, costo o plazo los aprueba el patrocinador.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 2,
+   "com": "El título «Dirección» no corresponde al egresado; se coordina y controla. N=3 alto: 2. El 37 de 45 incluye puestos senior de gerencia.",
+   "bloque": "F"
+  },
+  "E5-07": {
+   "R": "Sí",
+   "donde": "Elaboración de TDR y conformidades en oficinas de TI del Estado; muy frecuente",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Formula términos de referencia y verifica entregables; la adjudicación y las penalidades corresponden a contrataciones o a la gerencia.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Muy real en el Estado; los egresados redactan TDR y conformidades desde temprano. Producto alcanzable.",
+   "bloque": "F"
+  },
+  "E5-08": {
+   "R": "Sí",
+   "donde": "Analista de procesos en proyectos de transformación digital y mesas de partes digitales",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Rediseña procesos acotados y levanta requerimientos; la aprobación del nuevo proceso corresponde a la dirección y al área dueña.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Alcanzable. Solapa con E1-01 (T3 de historias de usuario idéntica). Diferenciar por foco en el servicio completo y la medición de impacto.",
+   "bloque": "F"
+  },
+  "E5-09": {
+   "R": "Sí",
+   "donde": "Analista de servicios en proveedor gestionado midiendo niveles de servicio mensuales",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Mide y reporta niveles de servicio; la negociación de acuerdos con clientes y proveedores la lidera un gestor senior.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Alcanzable en medición y reporte. «Acuerdos firmados» como evidencia excede al egresado.",
+   "bloque": "P"
+  },
+  "E5-10": {
+   "R": "Sí",
+   "donde": "Coordinador de mesa de servicio junior; el gestor de incidentes mayores es senior",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E5-10-T2",
+      "t": "Apoyar la coordinación de incidentes mayores y registrar su cronología"
+     }
+    ]
+   },
+   "lim": "Clasifica y analiza incidentes con supervisión; la coordinación de incidentes mayores y la aprobación de cambios corresponden a gestores senior.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Solapa con E2-08. Coordinar incidentes mayores (T2) no es de egresado. Demanda baja (13 de 45).",
+   "bloque": "F"
+  },
+  "E5-11": {
+   "R": "Sí",
+   "donde": "Asistente de auditoría de TI en firma auditora: primer empleo de varios compañeros",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Ejecuta pruebas de controles y papeles de trabajo bajo un auditor senior; no firma informe ni emite opinión.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Real y alcanzable como asistente (N=2 correcto). El plan de auditoría basado en riesgos (T1) lo hace el senior.",
+   "bloque": "F"
+  },
+  "E5-12": {
+   "R": "Sí",
+   "donde": "Analista de riesgo tecnológico junior en banca",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Identifica riesgos y verifica requisitos regulatorios bajo supervisión; la aceptación del riesgo la decide la gerencia.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "El dato de ciberataques de 2021 está desactualizado y no sustenta riesgo tecnológico. Solapa con E4-01.",
+   "bloque": "S"
+  }
+ },
+ "abiertas": {
+  "E1": {
+   "faltantes": [
+    {
+     "t": "Documentación técnica y transferencia del software",
+     "tareas": [
+      "Documentar APIs y componentes",
+      "Preparar manuales de usuario y de operación",
+      "Capacitar a usuarios clave"
+     ],
+     "evidencia": "Tarea presente en avisos de soporte y mantenimiento; hoy dispersa en E1-11-T5"
+    },
+    {
+     "t": "Programación asistida por IA con verificación",
+     "tareas": [
+      "Generar y revisar código con asistentes de IA",
+      "Verificar calidad, seguridad y licencias del código generado"
+     ],
+     "evidencia": "El propio fundamento cita que 84 % de desarrolladores usa o planea usar IA [40]; debería ser tarea explícita de E1-03"
+    }
+   ],
+   "fusiones": [
+    "E1-10 con E2-06: dejar el despliegue continuo en una sola especialidad",
+    "E1-09 con E4-05: definir el reparto entre codificación segura y aseguramiento de seguridad",
+    "E1-02: separar diseño de datos (alcanzable) de arquitectura (senior)"
+   ]
+  },
+  "E2": {
+   "faltantes": [
+    {
+     "t": "Soporte a puestos de trabajo y activos de TI",
+     "tareas": [
+      "Configurar y mantener equipos de usuario",
+      "Gestionar el inventario de activos de TI"
+     ],
+     "evidencia": "Primer empleo frecuente del egresado en mesas de ayuda de universidades, clínicas y entidades públicas"
+    }
+   ],
+   "fusiones": [
+    "E2-06 con E1-10",
+    "E2-09 con E4-08",
+    "E2-11 con E4-03",
+    "E2-01 y E2-02 podrían unirse en diseño y migración de la plataforma en la nube para el nivel de egreso"
+   ]
+  },
+  "E3": {
+   "faltantes": [
+    {
+     "t": "Administración y optimización de bases de datos analíticas",
+     "tareas": [
+      "Optimizar consultas SQL",
+      "Administrar permisos y rendimiento de bases analíticas"
+     ],
+     "evidencia": "Los avisos de analista de datos junior piden SQL avanzado y optimización de consultas de forma casi universal"
+    }
+   ],
+   "fusiones": [
+    "E3-08 dentro de E3-06 como tarea de validación",
+    "E3-03-T4 con E4-10 (datos personales)",
+    "E3-01 y E3-02 son contiguas; mantenerlas separadas solo si el producto difiere claramente"
+   ]
+  },
+  "E4": {
+   "faltantes": [
+    {
+     "t": "Concientización y simulación de ingeniería social",
+     "tareas": [
+      "Ejecutar campañas de phishing simulado",
+      "Medir y reportar resultados de concientización"
+     ],
+     "evidencia": "Hoy es solo la tarea T5 de E4-09; el fundamento de E4-06 cita más de 110 millones de intentos de phishing [29]"
+    }
+   ],
+   "fusiones": [
+    "E4-08 con E2-09",
+    "E4-03 con E2-11",
+    "E4-01 con E5-12",
+    "E4-05 con E1-09"
+   ]
+  },
+  "E5": {
+   "faltantes": [
+    {
+     "t": "Implantación y soporte funcional de ERP",
+     "tareas": [
+      "Parametrizar módulos del ERP",
+      "Capacitar usuarios en la implantación",
+      "Atender consultas funcionales"
+     ],
+     "evidencia": "Consultor funcional junior de ERP es un puesto de entrada frecuente del ingeniero de sistemas en el Perú"
+    }
+   ],
+   "fusiones": [
+    "E5-02 dentro de E5-01 para el nivel de egreso",
+    "E5-05 con E5-06 como ciclo completo del proyecto",
+    "E5-10 con E2-08",
+    "E5-12 con E4-01"
+   ]
+  }
+ },
+ "verificadas": []
+}

@@ -1,0 +1,983 @@
+{
+ "cod": "NUT",
+ "k": "E3",
+ "especialidad": "Servicios de alimentación, inocuidad y salud ocupacional",
+ "competencia": "C3",
+ "proposito": "Dirigir servicios de alimentación colectiva hospitalarios, institucionales, industriales, de concesionarios, de campamentos mineros y de programas sociales, planificando, produciendo, asegurando la inocuidad y auditando el servicio conforme a la normativa sanitaria peruana, para entregar a pacientes, trabajadores y escolares una alimentación nutricionalmente adecuada, inocua y económicamente sostenible que proteja su salud.",
+ "fuentes": {
+  "O": 4,
+  "N": 14,
+  "M": 13,
+  "P": 3,
+  "A": 0,
+  "D": 0,
+  "avisos_revisados": 38,
+  "nota": "O: O*NET 11-9051 y 29-1031, ESCO 2265.1 y 2263.2 (CIUO-08 2265/2263). N: Ley 30188, NTS 103, NTS 098, NTS 173 (vía nota DIGESA; El Peruano devolvió 404), RM 449-2006, DS 024-2016-EM, Ley 28051, MOP Wasi Mikuna, DS 010-2024-MIDIS (vía Andina), Leyes 31071 y 30988, MAPRO HNHU, procedimiento SSOpr0030 de Cerro Verde, CAS Wasi Mikuna. M: 47 avisos de Computrabajo abiertos (setiembre 2026) tras filtrar unos 300 títulos de 16 búsquedas; 38 pertinentes; se citan 13. P: Codex CXC 1-1969/39-1993, AND SOPP 2021, OIT Food at Work. No se pudo leer: texto de El Peruano de la NTS 173 y del MOP (404), ficha INEI en gob.pe (418, se leyó el PDF), JAND a texto completo (403, se leyó el resumen en PubMed), bases CAS completas de Wasi Mikuna (solo requisitos), Indeed y Bumeran no se consultaron. A y D: no hay."
+ },
+ "funciones": [
+  {
+   "c": "E3-01",
+   "t": "Planificación de menús para colectividades",
+   "d": "Planifica menús cíclicos y programas alimentarios que cubren los requerimientos del colectivo atendido —pacientes, trabajadores, escolares o usuarios de programas— según presupuesto, oferta local, cultura y altitud, para asegurar una alimentación adecuada y viable en el servicio.",
+   "fclave": "FC1. Planificar la alimentación del colectivo atendido",
+   "tipo": "Actual",
+   "amb": "Hospitales y clínicas; concesionarios de comedores industriales, institucionales y universitarios; campamentos mineros de altura; programas alimentarios del Estado",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "15 de 38 avisos",
+   "conf": 4,
+   "lim": "Planifica sin supervisión menús para colectivos sanos y dietas hospitalarias estándar; los regímenes terapéuticos complejos requieren validación del nutricionista clínico; la aprobación final corresponde al cliente o a la entidad.",
+   "tasks": [
+    {
+     "code": "E3-01-T1",
+     "t": "Calcular los requerimientos de energía y nutrientes del colectivo",
+     "ent": "1. Estudio de requerimientos del colectivo"
+    },
+    {
+     "code": "E3-01-T2",
+     "t": "Elaborar el ciclo de menús por tipo de servicio",
+     "ent": "2. Ciclo de menús validado"
+    },
+    {
+     "code": "E3-01-T3",
+     "t": "Adaptar los menús a dietas especiales, cultura y altitud",
+     "ent": "2. Ciclo de menús validado"
+    },
+    {
+     "code": "E3-01-T4",
+     "t": "Validar el ciclo de menús con el cliente o la entidad",
+     "ent": "2. Ciclo de menús validado"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque el 62,2 % de los peruanos de 15 años y más tenía exceso de peso en 2024 [17], y los servicios colectivos alimentan a diario a pacientes, trabajadores y escolares. La NTS 103 encarga a la unidad de producción programar preparaciones que cubran los requerimientos de pacientes y personal [6], y el Manual de Operaciones de Wasi Mikuna asigna a su subunidad de nutrición la programación del menú escolar [13]. O*NET registra el desarrollo de menús como tarea del nutricionista [2] y 15 de 38 avisos peruanos revisados lo exigen [28] [35]. Ello exige profesionales capaces de planificar menús adecuados, viables y culturalmente pertinentes.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque Wasi Mikuna reemplazó a Qali Warma con un servicio que se adecua a los hábitos de consumo locales para más de 4 millones de escolares [14]. Además, la Ley 31071 obliga a los programas sociales a comprar al menos el 30 % de sus alimentos a la agricultura familiar, lo que exige menús con productos locales [15]. Por eso es necesario que el egresado domine la planificación de la alimentación del colectivo.",
+   "refs": "[2] [6] [13] [14] [15] [17] [28] [35]",
+   "prod": {
+    "name": "Programa de menús cíclicos del servicio de alimentación",
+    "desc": "Programa de menús cíclicos que define, para un colectivo concreto, qué se sirve en cada tiempo de comida durante el ciclo y con qué aporte nutricional. Integra el perfil y los requerimientos de los comensales, el ciclo de menús con sus variantes para dietas especiales y la verificación de su adecuación nutricional, cultural y presupuestal. Se elabora a partir de las características del colectivo, el presupuesto y la oferta local, y se verifica contrastando el aporte calculado con los requerimientos y con la aceptación de los usuarios. Orienta las decisiones de compra y producción del servicio y demuestra que el egresado traduce requerimientos nutricionales en una oferta alimentaria viable.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Estudio de requerimientos del colectivo",
+      "codes": "E3-01-T1",
+      "sum": "perfil de los comensales y requerimientos de energía y nutrientes por grupo",
+      "ev": [
+       "hoja de cálculo de requerimientos por grupo de comensales"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Ciclo de menús validado",
+      "codes": "E3-01-T2, E3-01-T3, E3-01-T4",
+      "sum": "ciclo de menús con variantes de dietas especiales, análisis de aporte y conformidad",
+      "ev": [
+       "ciclo de menús con análisis de aporte nutricional",
+       "acta o conformidad del cliente o la entidad"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-02",
+   "t": "Estandarización y costeo de preparaciones",
+   "d": "Estandariza recetas, porciones y fichas técnicas de las preparaciones con su aporte nutricional, rendimiento y costo por ración, para asegurar una producción uniforme, controlar el costo de alimentos y sustentar las propuestas y contratos del servicio.",
+   "fclave": "FC1. Planificar la alimentación del colectivo atendido",
+   "tipo": "Actual",
+   "amb": "Concesionarios de alimentos; cocinas hospitalarias; comedores industriales y campamentos mineros; programas alimentarios",
+   "evid": "O,N,M",
+   "unica": false,
+   "frec": "11 de 38 avisos",
+   "conf": 4,
+   "lim": "Estandariza y costea sin supervisión preparaciones del servicio; la fijación de precios de venta y márgenes contractuales corresponde a la administración o gerencia.",
+   "tasks": [
+    {
+     "code": "E3-02-T1",
+     "t": "Estandarizar recetas con gramajes y rendimientos",
+     "ent": "1. Recetario estandarizado"
+    },
+    {
+     "code": "E3-02-T2",
+     "t": "Elaborar fichas técnicas con aporte nutricional",
+     "ent": "1. Recetario estandarizado"
+    },
+    {
+     "code": "E3-02-T3",
+     "t": "Calcular el costo por ración y el costo de alimentos del menú",
+     "ent": "2. Estructura de costos por ración"
+    },
+    {
+     "code": "E3-02-T4",
+     "t": "Actualizar el banco de recetas del servicio",
+     "ent": "1. Recetario estandarizado"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque un comedor concesionado atiende cientos de comensales por turno —un aviso exige experiencia con 400 por turno [38]— y cada desviación de gramaje altera costo y aporte. O*NET incluye crear recetas estandarizadas y estimar el consumo de alimentos entre las tareas del nutricionista y del gerente de servicios de alimentación [1] [2]. El Manual de Operaciones de Wasi Mikuna fija la validación de recetas y la dosificación de alimentos como funciones del programa [13]. En el mercado, 11 de 38 avisos piden fichas técnicas, gramajes o control del costo de alimentos [30]. Ello exige profesionales capaces de estandarizar y costear preparaciones con precisión.",
+   "imp": "Medio",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la Ley 30988 promueve reducir y prevenir el desperdicio de alimentos, asociado sobre todo a los servicios de venta de comida y al consumo [16], y la porción estandarizada es su primera herramienta. A la vez, el Manual de Operaciones de Wasi Mikuna exige validar recetas y combinaciones con criterios técnicos antes de incluirlas en el menú escolar [13]. Por eso es necesario que el egresado domine la estandarización y el costeo de preparaciones.",
+   "refs": "[1] [2] [13] [16] [30] [38]",
+   "prod": {
+    "name": "Recetario estandarizado con costeo por ración",
+    "desc": "Recetario estandarizado que fija, para cada preparación del servicio, ingredientes, gramajes, rendimiento, aporte nutricional y costo por ración. Integra las fichas técnicas de las recetas, la estructura de costos por ración y el banco de recetas vigente del servicio. Se elabora pesando y registrando pruebas de producción y se verifica comparando rendimiento, porción servida y costo real con lo estandarizado. Orienta la programación de compras y el control del costo de alimentos y demuestra que el egresado asegura uniformidad nutricional y económica en la producción.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Recetario estandarizado",
+      "codes": "E3-02-T1, E3-02-T2, E3-02-T4",
+      "sum": "fichas técnicas con gramajes, rendimientos y aporte nutricional",
+      "ev": [
+       "fichas técnicas firmadas por preparación",
+       "registro de pruebas de rendimiento"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Estructura de costos por ración",
+      "codes": "E3-02-T3",
+      "sum": "costo por ración y costo de alimentos del ciclo de menús",
+      "ev": [
+       "hoja de costeo por ración y por ciclo"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-03",
+   "t": "Gestión de compras y abastecimiento alimentario",
+   "d": "Programa los requerimientos de alimentos, evalúa y selecciona proveedores, y controla la recepción, el almacenamiento y la rotación de insumos, para asegurar un abastecimiento oportuno, inocuo y al costo previsto del servicio.",
+   "fclave": "FC2. Gestionar la producción y los recursos del servicio de alimentación",
+   "tipo": "Actual",
+   "amb": "Hospitales (cuadro anual de necesidades); concesionarios; campamentos mineros; programas sociales con compras a la agricultura familiar",
+   "evid": "O,N,M",
+   "unica": false,
+   "frec": "14 de 38 avisos",
+   "conf": 3,
+   "lim": "Programa requerimientos y controla recepción e inventarios con supervisión indirecta; la adjudicación de compras y los contratos con proveedores corresponden a logística o a funcionarios autorizados.",
+   "tasks": [
+    {
+     "code": "E3-03-T1",
+     "t": "Programar los requerimientos de alimentos según menú y comensales",
+     "ent": "1. Plan de requerimientos y especificaciones de compra"
+    },
+    {
+     "code": "E3-03-T2",
+     "t": "Elaborar especificaciones técnicas de compra de alimentos",
+     "ent": "1. Plan de requerimientos y especificaciones de compra"
+    },
+    {
+     "code": "E3-03-T3",
+     "t": "Evaluar y homologar proveedores de alimentos",
+     "ent": "2. Registro de proveedores evaluados"
+    },
+    {
+     "code": "E3-03-T4",
+     "t": "Controlar la recepción y el almacenamiento de insumos",
+     "ent": "3. Registros de recepción e inventario"
+    },
+    {
+     "code": "E3-03-T5",
+     "t": "Controlar inventarios y rotación de existencias",
+     "ent": "3. Registros de recepción e inventario"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque las entidades con programas sociales deben comprar al menos el 30 % de sus alimentos a la agricultura familiar [15], lo que multiplica proveedores pequeños que hay que evaluar. La NTS 103 encarga supervisar la cantidad y calidad de los víveres y sus condiciones de almacenamiento [6], y el MAPRO del Hospital Hipólito Unanue formaliza la recepción y el almacenamiento de insumos [25]. O*NET registra la compra de alimentos conforme a códigos sanitarios [2] y 14 de 38 avisos piden controlar pedidos, recepción o inventarios [29] [40]. Ello exige profesionales capaces de asegurar un abastecimiento oportuno, inocuo y eficiente.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la Ley 31071 mantiene la obligación de compra a la agricultura familiar [15] y el Manual de Operaciones de Wasi Mikuna dispone supervisar plantas y almacenes de los proveedores [13]. Los casos de alimentos no aptos que llegaron a escolares en 2024 mostraron el costo de fallar en la selección de proveedores [21]. Por eso es necesario que el egresado domine la gestión de compras y abastecimiento alimentario.",
+   "refs": "[2] [6] [13] [15] [21] [25] [29] [40]",
+   "prod": {
+    "name": "Plan de abastecimiento alimentario del servicio",
+    "desc": "Plan de abastecimiento alimentario que establece qué alimentos se compran, en qué cantidad, con qué especificaciones y a qué proveedores, para un periodo del servicio. Integra el cálculo de requerimientos desde el ciclo de menús, las especificaciones técnicas de compra, la evaluación de proveedores y los registros de recepción, almacenamiento e inventario. Se elabora a partir del menú, el número de comensales y el presupuesto, y se verifica con inspecciones de recepción, conteos de inventario y el seguimiento del desempeño de cada proveedor. Orienta las decisiones de compra y de reposición y demuestra que el egresado asegura insumos inocuos y oportunos al costo previsto.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Plan de requerimientos y especificaciones de compra",
+      "codes": "E3-03-T1, E3-03-T2",
+      "sum": "requerimientos por periodo y fichas de especificación de alimentos",
+      "ev": [
+       "cuadro de requerimientos por periodo",
+       "fichas de especificación técnica"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registro de proveedores evaluados",
+      "codes": "E3-03-T3",
+      "sum": "criterios, visitas y calificación de proveedores",
+      "ev": [
+       "lista de verificación de visita a proveedor",
+       "matriz de calificación de proveedores"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Registros de recepción e inventario",
+      "codes": "E3-03-T4, E3-03-T5",
+      "sum": "controles de recepción, almacenamiento y rotación",
+      "ev": [
+       "registro de recepción con temperaturas y rechazos",
+       "kárdex o inventario valorizado"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-04",
+   "t": "Producción y distribución de raciones",
+   "d": "Dirige la producción, el porcionado y la distribución de raciones normales y de dietas hospitalarias, incluida la preparación de fórmulas enterales, organizando al personal operativo y sus turnos, para entregar cada ración conforme a lo programado, a tiempo y en condiciones seguras.",
+   "fclave": "FC2. Gestionar la producción y los recursos del servicio de alimentación",
+   "tipo": "Actual",
+   "amb": "Unidad central de producción de regímenes y fórmulas de hospitales; concesionarios hospitalarios e industriales; campamentos mineros en régimen 14x7",
+   "evid": "O,N,M",
+   "unica": false,
+   "frec": "18 de 38 avisos",
+   "conf": 3,
+   "lim": "Dirige un turno o una línea de producción con supervisión indirecta; la jefatura del servicio y la prescripción de dietas terapéuticas no son exigibles al egreso; las fórmulas enterales siguen la prescripción del equipo clínico.",
+   "tasks": [
+    {
+     "code": "E3-04-T1",
+     "t": "Programar la producción diaria de raciones",
+     "ent": "1. Programa diario de producción y personal"
+    },
+    {
+     "code": "E3-04-T2",
+     "t": "Organizar al personal operativo y sus turnos",
+     "ent": "1. Programa diario de producción y personal"
+    },
+    {
+     "code": "E3-04-T3",
+     "t": "Supervisar la preparación y el porcionado de raciones",
+     "ent": "2. Registros de control de producción y distribución"
+    },
+    {
+     "code": "E3-04-T4",
+     "t": "Supervisar el armado y la distribución de dietas hospitalarias",
+     "ent": "2. Registros de control de producción y distribución"
+    },
+    {
+     "code": "E3-04-T5",
+     "t": "Supervisar la preparación de fórmulas enterales",
+     "ent": "2. Registros de control de producción y distribución"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque la NTS 103 recomienda un nutricionista supervisor de producción y otro de distribución de regímenes por cada 40 camas hospitalarias [6]. El MAPRO del Hospital Hipólito Unanue incluye la preparación de fórmulas enterales como procedimiento del departamento [25], y O*NET registra coordinar al personal de cocina y vigilar los métodos de preparación [1]. En el mercado, 18 de 38 avisos piden supervisar producción, porcionado o distribución, desde clínicas hasta campamentos mineros [29] [34]. Ello exige profesionales capaces de dirigir la producción de raciones con calidad, puntualidad y seguridad.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la NTS 103 permite que la unidad de nutrición y dietética preste el servicio mediante terceros, de manera total o parcial [6], lo que traslada la producción hospitalaria a concesionarios. Además, el empleo minero llegó a 276 765 trabajadores en diciembre de 2025, 73 % en empresas contratistas y conexas, según el MINEM [18]. Por eso es necesario que el egresado domine la dirección de la producción y distribución de raciones.",
+   "refs": "[1] [6] [18] [25] [29] [34]",
+   "prod": {
+    "name": "Plan operativo de producción y distribución de raciones",
+    "desc": "Plan operativo de producción que organiza, para cada día y turno, cuántas raciones y dietas se producen, con qué personal y en qué horarios se distribuyen. Integra la programación de producción, la asignación de personal y turnos, y los registros de control de preparación, porcionado, armado de bandejas y fórmulas. Se elabora a partir del ciclo de menús, el censo de comensales o pacientes y la capacidad instalada, y se verifica con controles de gramaje, temperatura y puntualidad de entrega. Orienta la asignación diaria de recursos y demuestra que el egresado conduce una operación de alto volumen sin perder calidad ni seguridad.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Programa diario de producción y personal",
+      "codes": "E3-04-T1, E3-04-T2",
+      "sum": "raciones por servicio, asignación de personal y turnos",
+      "ev": [
+       "programa de producción diario firmado",
+       "rol de turnos del personal"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registros de control de producción y distribución",
+      "codes": "E3-04-T3, E3-04-T4, E3-04-T5",
+      "sum": "controles de porcionado, dietas distribuidas y fórmulas preparadas",
+      "ev": [
+       "registro de gramajes y temperaturas de servido",
+       "hoja de distribución de dietas por cama",
+       "registro de preparación de fórmulas"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-05",
+   "t": "Aseguramiento de la inocuidad alimentaria del servicio",
+   "d": "Implementa y mantiene el plan de análisis de peligros y puntos críticos de control y los programas de buenas prácticas y de higiene y saneamiento del servicio, vigilando límites críticos y registros, para prevenir enfermedades transmitidas por alimentos en los comensales.",
+   "fclave": "FC3. Asegurar la inocuidad de los alimentos servidos",
+   "tipo": "Actual",
+   "amb": "Cocinas hospitalarias y lactarios; concesionarios; comedores industriales, escolares y de campamentos mineros; plantas de alimentos preparados",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "21 de 38 avisos",
+   "conf": 3,
+   "lim": "Formula e implementa el plan con supervisión indirecta; la validación técnica oficial y la vigilancia sanitaria corresponden a DIGESA o a la DIRESA; la responsabilidad legal recae en el titular del servicio.",
+   "tasks": [
+    {
+     "code": "E3-05-T1",
+     "t": "Elaborar el diagnóstico sanitario del servicio",
+     "ent": "1. Plan HACCP y programas prerrequisito"
+    },
+    {
+     "code": "E3-05-T2",
+     "t": "Formular el plan HACCP del servicio",
+     "ent": "1. Plan HACCP y programas prerrequisito"
+    },
+    {
+     "code": "E3-05-T3",
+     "t": "Documentar los programas de buenas prácticas y de higiene y saneamiento",
+     "ent": "1. Plan HACCP y programas prerrequisito"
+    },
+    {
+     "code": "E3-05-T4",
+     "t": "Monitorear puntos críticos de control y temperaturas",
+     "ent": "2. Registros de monitoreo y acciones correctivas"
+    },
+    {
+     "code": "E3-05-T5",
+     "t": "Aplicar acciones correctivas ante desviaciones",
+     "ent": "2. Registros de monitoreo y acciones correctivas"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque las enfermedades transmitidas por alimentos enferman a 600 millones de personas al año [22], y en Perú un brote por Shigella en un comedor policial de Tacna alcanzó 49 % de incidencia [20]. La NTS 173 exige principios de higiene en toda alimentación colectiva [8], la NTS 098 lo hace en establecimientos de salud [7] y la RM 449-2006 regula el plan HACCP [9]. ESCO describe al especialista en seguridad alimentaria [4] y 21 de 38 avisos exigen HACCP, BPM o POES [31] [33]. Ello exige profesionales capaces de implementar y sostener sistemas de inocuidad.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el Codex mantiene actualizados, con revisión de 2022, los Principios generales de higiene que articulan buenas prácticas y HACCP en toda la cadena [10]. Además, el Manual de Operaciones de Wasi Mikuna encarga proponer estándares de calidad, inocuidad y certificación del servicio escolar [13]. Por eso es necesario que el egresado domine el aseguramiento de la inocuidad alimentaria del servicio.",
+   "refs": "[4] [7] [8] [9] [10] [13] [20] [22] [31] [33]",
+   "prod": {
+    "name": "Plan HACCP del servicio de alimentación",
+    "desc": "Plan HACCP que identifica los peligros de cada etapa del servicio, desde la recepción hasta el servido, y fija cómo se controlan en los puntos críticos. Integra el diagnóstico sanitario, el análisis de peligros, los límites críticos, los procedimientos de monitoreo y corrección, y los programas de buenas prácticas y de higiene y saneamiento que lo sostienen. Se elabora con un equipo del servicio siguiendo los principios del Codex y la norma sanitaria, y se verifica con los registros de monitoreo, análisis microbiológicos y auditorías internas. Orienta las decisiones de liberar, corregir o descartar alimentos y demuestra que el egresado previene brotes de enfermedades transmitidas por alimentos.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Plan HACCP y programas prerrequisito",
+      "codes": "E3-05-T1, E3-05-T2, E3-05-T3",
+      "sum": "diagnóstico, análisis de peligros, puntos críticos y programas de higiene",
+      "ev": [
+       "plan HACCP firmado por el equipo",
+       "manual de buenas prácticas y programa de higiene y saneamiento"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registros de monitoreo y acciones correctivas",
+      "codes": "E3-05-T4, E3-05-T5",
+      "sum": "monitoreo de límites críticos y correcciones aplicadas",
+      "ev": [
+       "registros de temperatura y puntos críticos",
+       "registro de acciones correctivas cerradas"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-06",
+   "t": "Capacitación sanitaria de manipuladores de alimentos",
+   "d": "Diseña, ejecuta y evalúa la capacitación sanitaria del personal manipulador en higiene, buenas prácticas y control de peligros, para sostener la cultura de inocuidad del servicio y cumplir la exigencia normativa de capacitación periódica.",
+   "fclave": "FC3. Asegurar la inocuidad de los alimentos servidos",
+   "tipo": "Transversal",
+   "amb": "Hospitales y clínicas; concesionarios; campamentos mineros; comités de alimentación escolar y comedores populares",
+   "evid": "O,N,M",
+   "unica": false,
+   "frec": "12 de 38 avisos",
+   "conf": 4,
+   "lim": "Capacita sin supervisión al personal del servicio; la certificación oficial de manipuladores, cuando la exige la autoridad, la emite la entidad acreditada.",
+   "tasks": [
+    {
+     "code": "E3-06-T1",
+     "t": "Diagnosticar las necesidades de capacitación del personal",
+     "ent": "1. Plan anual de capacitación sanitaria"
+    },
+    {
+     "code": "E3-06-T2",
+     "t": "Elaborar el plan anual de capacitación sanitaria",
+     "ent": "1. Plan anual de capacitación sanitaria"
+    },
+    {
+     "code": "E3-06-T3",
+     "t": "Ejecutar sesiones prácticas de manipulación higiénica",
+     "ent": "2. Registro de capacitación y evaluación"
+    },
+    {
+     "code": "E3-06-T4",
+     "t": "Evaluar la aplicación de lo aprendido en el puesto",
+     "ent": "2. Registro de capacitación y evaluación"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque la NTS 098 exige capacitar a los manipuladores de alimentos de los establecimientos de salud al menos cada seis meses [7], y la NTS 173 pide certificación en buenas prácticas de manipulación en los servicios de alimentación colectiva [8]. O*NET registra organizar y dirigir programas de formación de trabajadores [1], ESCO incluye las normas de higiene alimentaria entre los conocimientos del dietista [3] y 12 de 38 avisos revisados piden capacitar o inducir al personal en manipulación e inocuidad [29] [39]. Ello exige profesionales capaces de formar manipuladores y verificar el cambio de práctica.",
+   "imp": "Medio",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el Manual de Operaciones de Wasi Mikuna fija como objetivo incrementar las capacidades en inocuidad alimentaria de quienes preparan los alimentos escolares [13]. Además, los Principios generales de higiene del Codex, revisados en 2022, sitúan las buenas prácticas del personal en la base de todo control de peligros [10]. Por eso es necesario que el egresado domine la capacitación sanitaria de manipuladores de alimentos.",
+   "refs": "[1] [3] [7] [8] [10] [13] [29] [39]",
+   "prod": {
+    "name": "Programa anual de capacitación sanitaria del personal",
+    "desc": "Programa anual de capacitación sanitaria que define qué debe aprender cada puesto del servicio sobre higiene y manipulación, cuándo y cómo se comprobará. Integra el diagnóstico de brechas, el plan de sesiones con sus materiales, los registros de asistencia y la evaluación del desempeño en el puesto. Se elabora a partir de las observaciones de auditoría y de la norma sanitaria, y se verifica con pruebas prácticas y con la reducción de desviaciones en las inspecciones siguientes. Orienta las decisiones sobre reentrenamiento y asignación de puestos y demuestra que el egresado convierte la norma en prácticas seguras del personal.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Plan anual de capacitación sanitaria",
+      "codes": "E3-06-T1, E3-06-T2",
+      "sum": "brechas por puesto, temas, cronograma y materiales",
+      "ev": [
+       "plan anual aprobado",
+       "materiales de sesión"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registro de capacitación y evaluación",
+      "codes": "E3-06-T3, E3-06-T4",
+      "sum": "asistencia, resultados y verificación en el puesto",
+      "ev": [
+       "registro de asistencia firmado",
+       "lista de verificación de práctica en el puesto"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-07",
+   "t": "Auditoría sanitaria del servicio de alimentación",
+   "d": "Audita e inspecciona servicios de alimentación propios, concesionados y de proveedores frente a la norma sanitaria, el contrato y los estándares internos, y gestiona las no conformidades hasta su cierre, para asegurar el cumplimiento y preparar al servicio ante la vigilancia sanitaria oficial.",
+   "fclave": "FC4. Supervisar y auditar el servicio propio, concesionado o de programas sociales",
+   "tipo": "Actual",
+   "amb": "Entidades contratantes de concesionarios (hospitales, empresas mineras e industriales); áreas de calidad de concesionarios; plantas y almacenes de proveedores",
+   "evid": "O,N,M",
+   "unica": false,
+   "frec": "11 de 38 avisos",
+   "conf": 3,
+   "lim": "Ejecuta auditorías internas y de segunda parte con supervisión indirecta; no ejerce la vigilancia sanitaria oficial ni aplica sanciones; las auditorías de certificación requieren acreditación como auditor.",
+   "tasks": [
+    {
+     "code": "E3-07-T1",
+     "t": "Planificar el programa anual de auditorías e inspecciones",
+     "ent": "1. Programa y listas de verificación de auditoría"
+    },
+    {
+     "code": "E3-07-T2",
+     "t": "Inspeccionar cocinas, almacenes y comedores con listas de verificación",
+     "ent": "2. Informes de auditoría e inspección"
+    },
+    {
+     "code": "E3-07-T3",
+     "t": "Auditar plantas y almacenes de proveedores de alimentos",
+     "ent": "2. Informes de auditoría e inspección"
+    },
+    {
+     "code": "E3-07-T4",
+     "t": "Registrar no conformidades y planes de acción",
+     "ent": "3. Registro de no conformidades"
+    },
+    {
+     "code": "E3-07-T5",
+     "t": "Verificar el cierre de las acciones correctivas",
+     "ent": "3. Registro de no conformidades"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque en 2024 al menos tres episodios en escuelas atendidas por el programa escolar afectaron a unos 60 estudiantes en Puno, Cajamarca y Áncash [21]. La Ley 30188 reconoce las auditorías en alimentación y nutrición como función del nutricionista [5], la NTS 098 somete los servicios a vigilancia con ficha de inspección [7] y Cerro Verde dispone inspecciones periódicas a sus proveedores de alimentos [26]. O*NET incluye vigilar el cumplimiento de normas sanitarias [1] y 11 de 38 avisos piden auditorías o inspecciones [33] [37]. Ello exige profesionales capaces de auditar con objetividad y cerrar no conformidades.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el Manual de Operaciones de Wasi Mikuna crea una Unidad de Supervisión Alimentaria que supervisa plantas y almacenes de proveedores y el servicio en las escuelas [13]. Además, la NTS 103 permite tercerizar la alimentación hospitalaria sin eximir al establecimiento de garantizar la prestación [6], lo que obliga a auditar al concesionario. Por eso es necesario que el egresado domine la auditoría sanitaria del servicio de alimentación.",
+   "refs": "[1] [5] [6] [7] [13] [21] [26] [33] [37]",
+   "prod": {
+    "name": "Expediente de auditoría sanitaria del servicio",
+    "desc": "Expediente de auditoría sanitaria que documenta cómo cumple un servicio de alimentación, o su proveedor, la norma sanitaria, el contrato y los estándares internos en un periodo. Integra el programa y las listas de verificación, los informes de cada auditoría o inspección con su evidencia, y el registro de no conformidades con sus planes de acción. Se elabora aplicando listas de verificación basadas en la norma vigente y se verifica con el seguimiento documentado del cierre de cada no conformidad. Orienta decisiones de continuidad, penalidad o mejora frente al operador y demuestra que el egresado audita con objetividad y trazabilidad.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Programa y listas de verificación de auditoría",
+      "codes": "E3-07-T1",
+      "sum": "calendario de auditorías y listas basadas en la norma y el contrato",
+      "ev": [
+       "programa anual de auditorías",
+       "listas de verificación aplicables"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informes de auditoría e inspección",
+      "codes": "E3-07-T2, E3-07-T3",
+      "sum": "hallazgos con evidencia por servicio y proveedor",
+      "ev": [
+       "informe de auditoría con registro fotográfico",
+       "lista de verificación llenada y firmada"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Registro de no conformidades",
+      "codes": "E3-07-T4, E3-07-T5",
+      "sum": "no conformidades, responsables, plazos y cierre",
+      "ev": [
+       "matriz de no conformidades con estado de cierre"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-08",
+   "t": "Control de gestión del servicio de alimentación",
+   "d": "Mide y analiza los indicadores del servicio —costo de alimentos, consumos, mermas y desperdicio, cumplimiento contractual y satisfacción del comensal— y los reporta a la dirección, al cliente o a la entidad, para sostener económicamente el servicio y orientar su mejora continua.",
+   "fclave": "FC2. Gestionar la producción y los recursos del servicio de alimentación",
+   "tipo": "Actual",
+   "amb": "Concesionarios de alimentos; servicios de nutrición hospitalarios, incluidos los operados por asociación público-privada; comedores industriales y de campamentos",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "12 de 38 avisos",
+   "conf": 3,
+   "lim": "Mide y reporta indicadores con supervisión indirecta; las decisiones presupuestales y contractuales corresponden a la jefatura, la gerencia o la entidad.",
+   "tasks": [
+    {
+     "code": "E3-08-T1",
+     "t": "Definir el tablero de indicadores del servicio",
+     "ent": "1. Tablero de indicadores del servicio"
+    },
+    {
+     "code": "E3-08-T2",
+     "t": "Controlar costo de alimentos, consumos y mermas",
+     "ent": "1. Tablero de indicadores del servicio"
+    },
+    {
+     "code": "E3-08-T3",
+     "t": "Medir la satisfacción de los comensales",
+     "ent": "1. Tablero de indicadores del servicio"
+    },
+    {
+     "code": "E3-08-T4",
+     "t": "Atender reclamos y observaciones del cliente",
+     "ent": "2. Informe de gestión y mejora"
+    },
+    {
+     "code": "E3-08-T5",
+     "t": "Elaborar el informe periódico de gestión",
+     "ent": "2. Informe de gestión y mejora"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque 12 de 38 avisos revisados piden controlar costo de alimentos, mermas, indicadores o reclamos, con remuneraciones de supervisión de S/ 3200 [38] [36], y un hospital operado por asociación público-privada busca jefe con indicadores y presupuesto a su cargo [32]. O*NET registra gestionar presupuestos y resolver quejas sobre la calidad del servicio [1], y el estándar de la Academy of Nutrition and Dietetics incluye la utilización y gestión de recursos como dominio de desempeño [23]. La NTS 103 exige demostrar técnicamente el costo-beneficio para tercerizar el servicio [6]. Ello exige profesionales capaces de medir, analizar y reportar la gestión del servicio.",
+   "imp": "Medio",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la Ley 30988 promueve prevenir el desperdicio de alimentos en los servicios de venta de comida [16], lo que convierte la merma en indicador de gestión. Además, el Manual de Operaciones de Wasi Mikuna exige supervisar y evaluar indicadores de desempeño y gestión, e informar sobre alertas y reclamos del servicio [13]. Por eso es necesario que el egresado domine el control de gestión del servicio de alimentación.",
+   "refs": "[1] [6] [13] [16] [23] [32] [36] [38]",
+   "prod": {
+    "name": "Informe de gestión del servicio de alimentación",
+    "desc": "Informe de gestión que muestra, para un periodo, cómo rinde el servicio de alimentación en costo, desperdicio, cumplimiento contractual y satisfacción de los comensales. Integra el tablero de indicadores con sus metas, el análisis de desviaciones, el resumen de reclamos atendidos y las acciones de mejora propuestas. Se elabora con datos de consumo, inventario, encuestas y registros de reclamos, y se verifica cruzando lo reportado con los registros de producción y almacén. Orienta las decisiones de ajuste de menú, dotación y costos ante la dirección o el cliente y demuestra que el egresado gestiona el servicio con datos.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Tablero de indicadores del servicio",
+      "codes": "E3-08-T1, E3-08-T2, E3-08-T3",
+      "sum": "indicadores de costo, merma y satisfacción con metas",
+      "ev": [
+       "tablero de indicadores actualizado",
+       "resultados de encuesta de satisfacción"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de gestión y mejora",
+      "codes": "E3-08-T4, E3-08-T5",
+      "sum": "análisis de desviaciones, reclamos y plan de mejora",
+      "ev": [
+       "informe periódico entregado al cliente o a la dirección",
+       "registro de reclamos con respuesta"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-09",
+   "t": "Nutrición ocupacional en centros de trabajo",
+   "d": "Diseña y conduce programas de alimentación saludable para trabajadores —menús según gasto energético, turnos y altitud, educación y consejería nutricional— en coordinación con salud ocupacional, para prevenir el exceso de peso y el riesgo cardiometabólico de la población laboral.",
+   "fclave": "FC5. Promover la salud nutricional de la población trabajadora",
+   "tipo": "Emergente",
+   "amb": "Campamentos mineros de altura en regímenes 14x7 y 28x14; comedores industriales y agroindustriales; empresas con prestaciones alimentarias y servicios de salud ocupacional",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "7 de 38 avisos",
+   "conf": 3,
+   "lim": "Conduce el programa con supervisión indirecta del área de salud ocupacional; la vigilancia médica, el diagnóstico de enfermedades y la aptitud laboral corresponden al médico ocupacional; deriva casos clínicos a la atención nutricional individual.",
+   "tasks": [
+    {
+     "code": "E3-09-T1",
+     "t": "Caracterizar el perfil nutricional y laboral de los trabajadores",
+     "ent": "1. Diagnóstico nutricional de la población trabajadora"
+    },
+    {
+     "code": "E3-09-T2",
+     "t": "Diseñar el programa nutricional según turnos, exigencia física y altitud",
+     "ent": "2. Programa de alimentación saludable"
+    },
+    {
+     "code": "E3-09-T3",
+     "t": "Ejecutar sesiones de educación nutricional y menús saludables temáticos",
+     "ent": "2. Programa de alimentación saludable"
+    },
+    {
+     "code": "E3-09-T4",
+     "t": "Brindar consejería nutricional grupal e individual a trabajadores",
+     "ent": "2. Programa de alimentación saludable"
+    },
+    {
+     "code": "E3-09-T5",
+     "t": "Evaluar los indicadores del programa con salud ocupacional",
+     "ent": "3. Informe de resultados del programa"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque el 25,7 % de los peruanos de 15 años y más tiene obesidad [17] y, en una mina a 4100 m s. n. m., el 36 % de los trabajadores con perímetro abdominal alterado presentó síndrome metabólico [19]. El DS 024-2016-EM obliga a los titulares mineros a construir comedores e incluye programas de orientación alimenticia [11], y la Ley 28051 regula las prestaciones alimentarias del empleador [12]. La OIT recomienda programas de alimentación en el trabajo [24] y 7 de 38 avisos piden programas o consejería nutricional para comensales [28] [35]. Ello exige profesionales capaces de conducir programas nutricionales para trabajadores.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el empleo minero directo alcanzó un récord de más de 264 000 puestos promedio en 2025, según el MINEM [18], con gran parte del personal alimentado en campamentos. Además, la obesidad en la población de 15 años y más subió de 18,5 % en 2014 a 25,7 % en 2024 [17], lo que presiona a las empresas a prevenir enfermedades crónicas. Por eso es necesario que el egresado domine la nutrición ocupacional en centros de trabajo.",
+   "refs": "[11] [12] [17] [18] [19] [24] [28] [35]",
+   "prod": {
+    "name": "Programa de nutrición ocupacional de la empresa",
+    "desc": "Programa de nutrición ocupacional que organiza, para la población trabajadora de una empresa o campamento, qué se come, qué se enseña y cómo se mide el efecto en su salud nutricional. Integra el diagnóstico nutricional y laboral de los trabajadores, la adecuación de menús a turnos, exigencia física y altitud, las actividades educativas y de consejería, y los indicadores de seguimiento acordados con salud ocupacional. Se elabora a partir de los datos antropométricos y de hábitos del personal y de las condiciones de trabajo, y se verifica con la evolución de indicadores como índice de masa corporal, perímetro abdominal y elección de platos saludables. Orienta las decisiones de la empresa sobre su oferta alimentaria y sus acciones preventivas y demuestra que el egresado vincula el servicio de alimentación con la salud del trabajador.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Diagnóstico nutricional de la población trabajadora",
+      "codes": "E3-09-T1",
+      "sum": "perfil antropométrico, hábitos y condiciones de trabajo",
+      "ev": [
+       "base de datos antropométrica del personal",
+       "informe de diagnóstico"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Programa de alimentación saludable",
+      "codes": "E3-09-T2, E3-09-T3, E3-09-T4",
+      "sum": "menús adecuados, cronograma educativo y consejería",
+      "ev": [
+       "programa aprobado por la empresa",
+       "registro de sesiones y consejerías"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Informe de resultados del programa",
+      "codes": "E3-09-T5",
+      "sum": "evolución de indicadores y recomendaciones",
+      "ev": [
+       "informe de indicadores compartido con salud ocupacional"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-10",
+   "t": "Supervisión del servicio alimentario de programas sociales",
+   "d": "Supervisa la prestación del servicio alimentario de programas sociales del Estado —programación de raciones y recetas, plantas y almacenes de proveedores, y entrega y preparación en las instituciones usuarias— frente a los estándares nutricionales, de inocuidad y de compra, para garantizar a escolares y usuarios una alimentación adecuada y segura.",
+   "fclave": "FC4. Supervisar y auditar el servicio propio, concesionado o de programas sociales",
+   "tipo": "Actual",
+   "amb": "Unidades territoriales de Wasi Mikuna; instituciones educativas y comités de alimentación escolar; gobiernos locales y comedores populares",
+   "evid": "N,P",
+   "unica": false,
+   "frec": "0 de 38 avisos privados; 2 convocatorias CAS de Wasi Mikuna que admiten nutrición",
+   "conf": 2,
+   "lim": "Al egreso actúa como integrante del equipo de una unidad territorial con supervisión directa; la conformidad de proveedores, las penalidades y la vigilancia sanitaria oficial corresponden a funcionarios acreditados y a DIGESA o la DIRESA.",
+   "tasks": [
+    {
+     "code": "E3-10-T1",
+     "t": "Verificar la programación de raciones y recetas por modalidad",
+     "ent": "1. Informe de supervisión del servicio alimentario"
+    },
+    {
+     "code": "E3-10-T2",
+     "t": "Supervisar plantas y almacenes de proveedores del programa",
+     "ent": "1. Informe de supervisión del servicio alimentario"
+    },
+    {
+     "code": "E3-10-T3",
+     "t": "Supervisar la entrega y preparación en instituciones usuarias",
+     "ent": "1. Informe de supervisión del servicio alimentario"
+    },
+    {
+     "code": "E3-10-T4",
+     "t": "Atender alertas, quejas y reclamos del servicio alimentario",
+     "ent": "2. Registro de alertas y asistencia técnica"
+    },
+    {
+     "code": "E3-10-T5",
+     "t": "Asistir técnicamente a los comités de alimentación escolar",
+     "ent": "2. Registro de alertas y asistencia técnica"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque Wasi Mikuna atiende a más de 4 millones de escolares [14] cuyo predecesor, Qali Warma, registró en 2024 episodios de intoxicación escolar en varias regiones [21]. Su Manual de Operaciones asigna a la Unidad de Supervisión Alimentaria supervisar plantas y almacenes de proveedores y el servicio en las instituciones beneficiarias [13], y el programa convoca por CAS a especialistas alimentarios que admiten profesionales de nutrición [27]. El estándar de la Academy of Nutrition and Dietetics abarca la gestión de la alimentación escolar [23]. Ello exige profesionales capaces de supervisar programas alimentarios con rigor técnico y transparencia.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el DS 010-2024-MIDIS reorganizó la alimentación escolar con comunidades educativas, sector privado y gobiernos locales como prestadores [14], lo que multiplica los puntos que supervisar. Además, la Ley 31071 exige que al menos el 30 % de las compras de los programas provenga de la agricultura familiar [15]. Por eso es necesario que el egresado domine la supervisión del servicio alimentario de programas sociales.",
+   "refs": "[13] [14] [15] [21] [23] [27]",
+   "prod": {
+    "name": "Informe de supervisión de la prestación alimentaria",
+    "desc": "Informe de supervisión que da cuenta, para un ámbito y periodo, de cómo se programa, produce, almacena y entrega el servicio alimentario de un programa social. Integra la verificación de raciones y recetas, las actas de supervisión de plantas, almacenes e instituciones usuarias, el registro de alertas y reclamos atendidos y la asistencia técnica brindada a los comités. Se elabora aplicando los instrumentos del programa en visitas de campo y se verifica con la trazabilidad de cada hallazgo hasta su atención. Orienta decisiones de continuidad, corrección o penalidad de proveedores y de mejora del servicio, y demuestra que el egresado resguarda la calidad e inocuidad de la alimentación pública.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Informe de supervisión del servicio alimentario",
+      "codes": "E3-10-T1, E3-10-T2, E3-10-T3",
+      "sum": "verificación de programación, proveedores y entrega en instituciones",
+      "ev": [
+       "actas de supervisión firmadas",
+       "fichas de supervisión de plantas y almacenes"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registro de alertas y asistencia técnica",
+      "codes": "E3-10-T4, E3-10-T5",
+      "sum": "alertas, reclamos y asistencia a comités",
+      "ev": [
+       "registro de alertas con estado de atención",
+       "actas de asistencia técnica a comités"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "refs": [
+  [
+   "[1]",
+   "O*NET OnLine. 11-9051.00 Food Service Managers (tareas). 2025",
+   "https://www.onetonline.org/link/summary/11-9051.00",
+   "Verificado"
+  ],
+  [
+   "[2]",
+   "O*NET OnLine. 29-1031.00 Dietitians and Nutritionists (tareas). 2025",
+   "https://www.onetonline.org/link/summary/29-1031.00",
+   "Verificado"
+  ],
+  [
+   "[3]",
+   "Comisión Europea. ESCO: dietista (código 2265.1, grupo CIUO-08 2265 Dietistas y nutricionistas). 2024",
+   "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f&language=es",
+   "Verificado"
+  ],
+  [
+   "[4]",
+   "Comisión Europea. ESCO: especialista en seguridad alimentaria (código 2263.2, grupo CIUO-08 2263). 2024",
+   "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/00ab5610-e715-428f-99f6-b1e5e469dbcd&language=es",
+   "Verificado"
+  ],
+  [
+   "[5]",
+   "Congreso de la República. Ley N.º 30188, Ley del Ejercicio Profesional del Nutricionista. 2014",
+   "https://cnp.org.pe/wp-content/uploads/2017/12/LEYDELNUTRICIONISTA.pdf",
+   "Verificado"
+  ],
+  [
+   "[6]",
+   "MINSA. RM N.º 665-2013/MINSA, NTS N.º 103-MINSA/DGSP-V.01 Norma Técnica de Salud de la UPSS de Nutrición y Dietética. 2013",
+   "https://docs.bvsalud.org/biblioref/2019/04/948680/rm_665-2013-minsa.pdf",
+   "Verificado"
+  ],
+  [
+   "[7]",
+   "MINSA/DIGESA. RM N.º 749-2012/MINSA, NTS N.º 098-MINSA/DIGESA-V.01 Norma sanitaria para los servicios de alimentación en establecimientos de salud. 2012",
+   "https://docs.bvsalud.org/biblioref/2019/04/948675/rm_749-2012-minsa.pdf",
+   "Verificado"
+  ],
+  [
+   "[8]",
+   "DIGESA. MINSA aprueba Norma Técnica Sanitaria para servicios de alimentación colectiva (RM N.º 157-2021/MINSA, NTS N.º 173-MINSA/2021/DIGESA). 2021",
+   "https://www.digesa.minsa.gob.pe/noticias/Febrero2021/nota8.asp",
+   "Verificado"
+  ],
+  [
+   "[9]",
+   "MINSA. RM N.º 449-2006/MINSA, Norma sanitaria para la aplicación del sistema HACCP en la fabricación de alimentos y bebidas. 2006",
+   "https://www.saludarequipa.gob.pe/desa/archivos/Normas_Legales/alimentos/RM_449_2006.pdf",
+   "Verificado"
+  ],
+  [
+   "[10]",
+   "FAO/OMS Codex Alimentarius. Códigos de prácticas: CXC 1-1969 Principios generales de higiene de los alimentos (última revisión 2022) y CXC 39-1993 servicios de comidas para colectividades. 2022",
+   "https://www.fao.org/fao-who-codexalimentarius/codex-texts/codes-of-practice/es/",
+   "Verificado"
+  ],
+  [
+   "[11]",
+   "MINEM. DS N.º 024-2016-EM, Reglamento de Seguridad y Salud Ocupacional en Minería (texto con modificaciones, arts. 188 y 199). 2016",
+   "https://www.osinergmin.gob.pe/seccion/centro_documental/PlantillaMarcoLegalBusqueda/DS-024-2016-EM.pdf",
+   "Verificado"
+  ],
+  [
+   "[12]",
+   "Congreso de la República. Ley N.º 28051, Ley de prestaciones alimentarias en beneficio de los trabajadores sujetos al régimen laboral de la actividad privada. 2003",
+   "https://www2.congreso.gob.pe/sicr/cendocbib/con4_uibd.nsf/763AF0BB60F8052805257E230074B436/$FILE/1_LEY_28051_02_08_2003.pdf",
+   "Verificado"
+  ],
+  [
+   "[13]",
+   "MIDIS. RM N.º D000015-2025-MIDIS, Manual de Operaciones del Programa Nacional de Alimentación Escolar Comunitaria Wasi Mikuna. 2025",
+   "https://cdn.www.gob.pe/uploads/document/file/7571993/6429129-6406173-mop_wasi_mikuna_22-01-25_version_limpia_-1-f-_-1-1-f-f-f.pdf",
+   "Verificado"
+  ],
+  [
+   "[14]",
+   "Agencia Andina. ¡Ya es oficial! Gobierno crea el Programa de Alimentación Escolar Comunitaria Wasi Mikuna (DS N.º 010-2024-MIDIS). 2024",
+   "https://andina.pe/agencia/noticia-ya-es-oficial-gobierno-crea-programa-alimentacion-escolar-comunitaria-wasi-mikuna-1010229.aspx",
+   "Verificado"
+  ],
+  [
+   "[15]",
+   "Congreso de la República. Ley N.º 31071, Ley de compras estatales de alimentos de origen en la agricultura familiar. El Peruano. 2020",
+   "https://busquedas.elperuano.pe/dispositivo/NL/1905307-2",
+   "Verificado"
+  ],
+  [
+   "[16]",
+   "Congreso de la República. Ley N.º 30988, Ley que promueve la reducción y prevención de pérdidas y desperdicios de alimentos. 2019",
+   "https://www.leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Normas_Legales/30988-LEY.pdf",
+   "Verificado"
+  ],
+  [
+   "[17]",
+   "INEI. Perú: Enfermedades No Transmisibles y Transmisibles, 2024 (principales indicadores). 2025",
+   "https://cdn.www.gob.pe/uploads/document/file/8134023/6813669-principales-indicadores-peru-enfermedades-no-transmisibles-y-transmisibles-2024.pdf",
+   "Verificado"
+  ],
+  [
+   "[18]",
+   "Forbes Perú. La minería generó más de 264 000 empleos directos en 2025, informó el MINEM. 2026",
+   "https://forbes.pe/economia-y-finanzas/2026-02-26/la-mineria-genero-mas-de-264-000-empleos-directos-en-2025-informo-el-minem/",
+   "Verificado"
+  ],
+  [
+   "[19]",
+   "Mejia CR, Quiñones-Laveriano DM, Cruzalegui-Solari CC, et al. Edad como factor de riesgo para desarrollar síndrome metabólico en trabajadores mineros a gran altura. Rev Argent Endocrinol Metab 53(1). 2016",
+   "https://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-30342016000100005",
+   "Verificado"
+  ],
+  [
+   "[20]",
+   "Tejada E, Villanueva J, Pérez M. Brote de enfermedad transmitida por alimentos (ETAS) en personal de la Unidad de Servicios Especiales de la PNP, Región Tacna. Revista Médica Basadrina. 2023",
+   "https://revistas.unjbg.edu.pe/index.php/rmb/article/view/1931",
+   "Verificado"
+  ],
+  [
+   "[21]",
+   "Infobae. Crisis en Qali Warma: corrupción, denuncias y cronología de los casos que han puesto en peligro la salud de millones de escolares. 2024",
+   "https://www.infobae.com/peru/2024/11/12/crisis-en-qali-warma-corrupcion-denuncias-y-cronologia-de-los-casos-que-han-puesto-en-peligro-la-salud-de-millones-de-escolares-en-peru/",
+   "Verificado"
+  ],
+  [
+   "[22]",
+   "MINSA. Cada año 600 millones de personas enferman debido a 200 tipos de enfermedades transmitidas por los alimentos (nota de prensa). 2022",
+   "https://www.gob.pe/institucion/minsa/noticias/612946-cada-ano-600-millones-de-personas-enferman-debido-a-200-tipos-de-enfermedades-transmitidas-por-los-alimentos",
+   "Verificado"
+  ],
+  [
+   "[23]",
+   "Roseman MG, Miller SN. Academy of Nutrition and Dietetics: Revised 2021 Standards of Professional Performance for RDNs in Management of Food and Nutrition Systems. J Acad Nutr Diet 121(6):1157-1174. 2021",
+   "https://pubmed.ncbi.nlm.nih.gov/34874011/",
+   "Verificado"
+  ],
+  [
+   "[24]",
+   "Wanjek C. Food at work: Workplace solutions for malnutrition, obesity and chronic diseases. Organización Internacional del Trabajo. 2005",
+   "https://www.ilo.org/publications/food-work-workplace-solutions-malnutrition-obesity-and-chronic-diseases",
+   "Verificado"
+  ],
+  [
+   "[25]",
+   "Hospital Nacional Hipólito Unanue. Manual de Procedimientos (MAPRO) del Departamento de Nutrición y Dietética. s. f.",
+   "https://www.hnhu.gob.pe/transparencia/Datos%20generales/MAPROS/MAPRO-%20Nutrici%C3%B3n.pdf",
+   "Verificado"
+  ],
+  [
+   "[26]",
+   "Sociedad Minera Cerro Verde. Procedimiento SSOpr0030 Control de preparación y transporte de alimentos, v05. 2023",
+   "https://publicportal.fmi.com/sites/publicportal/files/SSOpr0030_Control%20de%20preparaci%C3%B3n%20y%20transporte%20de%20alimentos%20v05.pdf",
+   "Verificado"
+  ],
+  [
+   "[27]",
+   "Wasi Mikuna. Convocatoria CAS N.º 010: Especialista alimentario/a, Unidad Territorial Cajamarca (vía convocatoriasdetrabajo.com). 2025",
+   "https://www.convocatoriasdetrabajo.com/oportunidad-laboral-cas-010-especialista-alimentario-programa-wasi-mikuna-cajamarca-465189.html",
+   "Verificado"
+  ],
+  [
+   "[28]",
+   "Newrest Perú. Aviso: Nutricionista colegiado(a) con experiencia en alimentación colectiva y minería, Oyón 14x7 (Computrabajo). 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-nutricionista-colegiadoa-con-exp-en-alimentacion-colectiva-y-mineria-oyon-14x7-en-lima-5909EDE6BA499F8161373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[29]",
+   "Servicios Brickell. Aviso: Nutricionista, concesionario de alimentos hospitalario (Computrabajo). 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-nutricionista-concesionario-de-alimentos-hospitalario-en-san-miguel-9906BCDCEF6AD41A61373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[30]",
+   "Empresa de servicios de alimentación en campamentos mineros. Aviso: Nutricionista y planificador(a) de operaciones (Computrabajo). 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-nutricionista-y-planificador-de-operaciones-lima-concesionario-de-alimentos-en-san-isidro-5FEAC14B35BFBBAC61373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[31]",
+   "Conexis Asesores y Consultores. Aviso: Nutricionista administrador de comedor industrial (Computrabajo). 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-nutricionista-administrador-de-comedor-industrial-en-callao-E4A6B167F5930A3461373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[32]",
+   "Operador del Proyecto APP Hospital de Apoyo II-2 Sullana. Aviso: Jefe del Servicio de Alimentación (Computrabajo). 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-del-servicio-de-alimentacion-en-san-isidro-89AE2DD1269DE7B561373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[33]",
+   "Newrest Perú. Aviso: Supervisor de calidad con experiencia en concesionarias de alimentos, Moquegua 14x7 (Computrabajo). 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-supervisor-de-calidad-cexperiencia-en-concesionarias-de-alimentos-moquegua14x7-en-arequipa-495B19C380A05D7561373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[34]",
+   "Sodexo Perú. Aviso: Nutricionista, Clínica Ricardo Palma (Computrabajo). 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-nutricionista-clinica-ricardo-palma-san-isidro-en-san-borja-8035249A4900520D61373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[35]",
+   "Sodexo Perú. Aviso: Nutricionista campamento Chincha 14x7 (Computrabajo). 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-nutricionista-campamento-chincha-14x7-en-chincha-alta-664A16618E462FA061373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[36]",
+   "Empleador no identificado. Aviso: Supervisor de servicios de alimentación, Chiclayo (Computrabajo). 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-supervisor-de-servicios-de-alimentacion-en-chiclayo-7D1B38635B0C049D61373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[37]",
+   "Copega. Aviso: Asistente de QHSE, concesionario de alimentos, Callao (Computrabajo). 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-de-qhse-concesionario-de-alimentos-callao-en-callao-3479EAD69C7926A061373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[38]",
+   "Empresa de servicios de alimentación (vía consultora). Aviso: Supervisor de concesionaria de alimentos, Lince y Lurín (Computrabajo). 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-supervisor-concesionaria-de-alimentos-bono-de-movilidad-alimentacion-lince-y-lurin-presencial-en-lima-C022AB3B20ED938161373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[39]",
+   "Agrocacao Cataleya. Aviso: Nutricionista, servicio de alimentación del personal, Trujillo (Computrabajo). 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-nutricionista-en-trujillo-CE04495BC6627E4E61373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[40]",
+   "CP Group / Explosupport. Aviso: Nutricionista supervisor(a) de alimentación y hotelería en operación minera (Computrabajo). 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-nutricionista-en-san-isidro-714D1A862384074361373E686DCF3405",
+   "Verificado"
+  ]
+ ]
+}

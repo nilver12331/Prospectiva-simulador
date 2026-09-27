@@ -1,0 +1,117 @@
+{
+ "rol": "P6",
+ "perfil": "Analista territorial y de oferta comparada",
+ "calificaciones": {
+  "SIS-01": {
+   "E": 4,
+   "comentario": "Base del título en todo el país: 5 226 puestos, Estado en todas las regiones; cuatro universidades la formalizan como línea, ninguna en provincias.",
+   "fuente": "[E-L10][E-L2][O-tabla]"
+  },
+  "SIS-02": {
+   "E": 3,
+   "comentario": "Esencial pero saturada en Lima: UTEC, Continental y UPN ya la declaran; en Juliaca y Tarapoto la contratan minería y agro dentro de proyectos, no como puesto.",
+   "fuente": "[O-tabla][E-L7]"
+  },
+  "SIS-03": {
+   "E": 4,
+   "comentario": "Norma obliga a toda entidad pública con Oficial de Seguridad: gobiernos regionales, UGEL y hospitales de provincia. Solo UPC y UTEC la formalizan, ambas en Lima.",
+   "fuente": "[E-B7][O-tabla]"
+  },
+  "SIS-04": {
+   "E": 3,
+   "comentario": "Ninguna universidad la declara como línea: diferencia clara. Pero data centers y consultoras cloud están en Lima; en regiones la contrata el Estado.",
+   "fuente": "[O-tabla][E-B8]"
+  },
+  "SIS-05": {
+   "E": 3,
+   "comentario": "Gobiernos regionales y universidades públicas contratan jefes de proyecto TI con colegiatura; solo UPC lo declara como mención. Esencial para el ejercicio en provincia.",
+   "fuente": "[E-L2][O-tabla]"
+  },
+  "SIS-06": {
+   "E": 2,
+   "comentario": "Cargos senior de banca y consultoras en Lima, sin conteo propio; es trayectoria de posgrado, no perfil de egreso. Solo UPC la declara.",
+   "fuente": "[E-B14][O-tabla]"
+  },
+  "SIS-07": {
+   "E": 2,
+   "comentario": "Los portales no la separan de desarrollo; equipos de producto en Lima. Solo Continental la formaliza. Útil como módulo, no como especialidad.",
+   "fuente": "[E-B15][O-tabla]"
+  },
+  "SIS-08": {
+   "E": 3,
+   "comentario": "Ninguna universidad la declara: nicho abierto. Minería en Puno, agroindustria en San Martín y retail operan ERP; ejercicio independiente viable en provincia.",
+   "fuente": "[O-tabla][E-B9]"
+  },
+  "SIS-09": {
+   "E": 3,
+   "comentario": "La EDO nombra analistas de sistemas entre los más requeridos y el Estado regional los convoca por CAS. Es la puerta de entrada real fuera de Lima.",
+   "fuente": "[E-B15][E-L2]"
+  },
+  "SIS-10": {
+   "E": 2,
+   "comentario": "Ninguna universidad la formaliza y la demanda es de consultoras y banca en Lima; va integrada en desarrollo. Útil, no esencial como línea.",
+   "fuente": "[O-tabla][E-B9]"
+  },
+  "SIS-11": {
+   "E": 3,
+   "comentario": "Lo que contrata el territorio: 437 localidades rurales, fibra a 24 minas, Bitel en provincias. ULima y UTEC la declaran, pero desde Lima.",
+   "fuente": "[P-L11][O-tabla]"
+  },
+  "SIS-12": {
+   "E": 3,
+   "comentario": "Ninguna universidad la declara; exige colegiatura; Contraloría, OCI y SGSI obligatorio alcanzan entidades públicas de todas las regiones.",
+   "fuente": "[O-tabla][N-8]"
+  },
+  "SIS-13": {
+   "E": 2,
+   "comentario": "Oficial de Datos obligatorio, pero abogados cubren parte de la función y ninguna universidad la declara como línea. Integrable en ciberseguridad y auditoría.",
+   "fuente": "[N-6][O-tabla]"
+  },
+  "SIS-14": {
+   "E": 3,
+   "comentario": "En regiones, gobiernos, cooperativas, universidades y agro contratan analistas de BI antes que científicos de datos; tres universidades de Lima ya la declaran.",
+   "fuente": "[E-B12][O-tabla]"
+  },
+  "SIS-15": {
+   "E": 2,
+   "comentario": "Sin avisos y sin universidad que la declare; minería 4.0 y agro en Puno y San Martín la contratan dentro de proyectos, no como perfil de egreso.",
+   "fuente": "[O-tabla][P-L3]"
+  },
+  "SIS-16": {
+   "E": 1,
+   "comentario": "Sin puestos en el país ni universidad que la declare; fintech capta el capital sin nombrarla. No forma parte del perfil de egreso.",
+   "fuente": "[O-tabla][P-S]"
+  },
+  "SIS-17": {
+   "E": 2,
+   "comentario": "El Estado regional convoca DBA recurrente (S/ 6 500–10 000), pero el privado lo absorbe en nube y datos. Competencia base, no especialidad.",
+   "fuente": "[E-L2]"
+  },
+  "SIS-18": {
+   "E": 2,
+   "comentario": "Solo UTEC la declara; 39–56 vacantes compartidas con diseño gráfico y concentradas en Lima. Útil como módulo de desarrollo.",
+   "fuente": "[O-tabla][E-B12]"
+  },
+  "SIS-19": {
+   "E": 1,
+   "comentario": "Puesto técnico con base S/ 1 200; clínicas, UGEL y universidades de provincia lo contratan, pero no exige ni justifica título de ingeniero.",
+   "fuente": "[E-B1][E-L2]"
+  }
+ },
+ "faltan": [
+  "Sistemas de información para el Estado y gobierno digital (SIAF, SIGA, interoperabilidad, DL 1412): es lo que contratan gobiernos regionales, municipios y UGEL en Juliaca y Tarapoto; ninguna universidad lo declara como línea [E-L2][O-tabla]",
+  "Ingeniería de datos y gobernanza del dato como línea propia, distinta de ciencia de datos: UTEC la declara como Gobernanza de Datos y ULima solo como curso suelto [O-tabla][E-L8]",
+  "Tecnologías para minería 4.0 y agroindustria (OT, automatización, telemetría) como especialidad territorial de las sedes de regiones; hoy solo aparece dispersa en IoT y redes [P-L3][P-L11]"
+ ],
+ "integrar": [
+  "SIS-14 inteligencia de negocios con SIS-02 ciencia de datos: misma naturaleza y UTEC, Continental y UPN las ofrecen como una sola línea de datos [O-tabla]",
+  "SIS-07 desarrollo móvil, SIS-10 calidad y SIS-18 UX/UI dentro de SIS-01 desarrollo de software: los portales y la EDO no las separan y ninguna universidad las declara como línea propia salvo casos aislados [E-B15][O-tabla]",
+  "SIS-13 protección de datos con SIS-03 ciberseguridad y SIS-12 auditoría: en entidades públicas el Oficial de Seguridad, el Oficial de Datos y el SGSI recaen en la misma unidad de TI [N-6][N-8]",
+  "SIS-17 administración de bases de datos con SIS-04 nube y DevOps: el privado ya lo absorbe en DevOps y datos [E-L2]"
+ ],
+ "noPuesto": [
+  "SIS-16 blockchain: sin puestos en ninguna búsqueda ni universidad que la declare [O-tabla]",
+  "SIS-19 soporte técnico y mesa de ayuda: es puesto técnico de entrada, no de ingeniero, y no sostiene negocio propio [E-B1]",
+  "SIS-13 protección de datos: es un cargo de cumplimiento obligatorio por norma, compartido con abogados, no una especialidad de ingeniería ni un negocio [N-6]"
+ ]
+}

@@ -1,0 +1,1039 @@
+{
+ "cod": "SIS",
+ "ronda": 1,
+ "funciones": {
+  "E1-01": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 100 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 77 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 7 palabras"
+   },
+   "fondo": [],
+   "nota": "La tendencia (84 % de desarrolladores con IA, Stack Overflow 2025) no declara su año en el texto."
+  },
+  "E1-02": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 96 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 72 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 7 palabras"
+   },
+   "fondo": [],
+   "nota": ""
+  },
+  "E1-03": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 104 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 80 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 7 palabras"
+   },
+   "fondo": [],
+   "nota": "La cifra de la EDO 2025 (5 226 puestos para Ingeniería de Sistemas de Información) se verificó en [35]. «Crece 15 % al año» [36]: la nota de Gestión habla de un crecimiento del 15 %, no de una tasa anual; revisar la redacción."
+  },
+  "E1-04": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 4 tareas, todas con entregable y códigos",
+    "5": "Cumple · 93 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 72 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": "La partición web/móvil (E1-04, E1-05) es por plataforma; se acepta porque el mercado tiene puestos diferenciados, pero el panel debe juzgar si se fusionan. «Más de 350 servicios» [38] contradice los «5 162 servicios» de E5 [18]: unificar el dato."
+  },
+  "E1-05": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 4 tareas, todas con entregable y códigos",
+    "5": "Cumple · 85 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 66 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": ""
+  },
+  "E1-06": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 100 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 63 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 7 palabras"
+   },
+   "fondo": [],
+   "nota": ""
+  },
+  "E1-07": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 4 tareas, todas con entregable y códigos",
+    "5": "Cumple · 91 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 77 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": "Mantener la frontera con E5-08: E1-07 construye la automatización y E5-08 rediseña el proceso."
+  },
+  "E1-08": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 6 tareas, todas con entregable y códigos",
+    "5": "Cumple · 93 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 69 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": ""
+  },
+  "E1-09": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "No cumple · fondo · solapa con E4-05 (modelado de amenazas, análisis estático, corrección de hallazgos y expediente de seguridad previo al pase)",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 97 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 68 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "fondo": [
+    "F",
+    "P"
+   ],
+   "nota": "Acotar a la codificación segura del propio código (T2, T4) y dejar el modelado de amenazas, el análisis de vulnerabilidades y el dictamen de pase a E4-05; T5 (registro de tratamientos) repite E4-10 T1."
+  },
+  "E1-10": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "No cumple · fondo · solapa con E2-06 (canalización CI/CD, contenedores, despliegue automatizado y reversión)",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 91 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 69 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [
+    "F",
+    "P"
+   ],
+   "nota": "Una sola casa para la canalización de despliegue: en E1 dejar la gestión de liberaciones de la aplicación (versionado, notas de cambio, pase con reversión) o fusionar con E2-06."
+  },
+  "E1-11": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 91 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 70 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": ""
+  },
+  "E2-01": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 6 tareas, todas con entregable y códigos",
+    "5": "Cumple · 111 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 85 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 7 palabras"
+   },
+   "fondo": [],
+   "nota": ""
+  },
+  "E2-02": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 119 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 74 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": ""
+  },
+  "E2-03": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 116 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 79 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": "El FD rotula como «plano normativo» una convocatoria CAS de SUNAT [19] (forma). La brecha rural de internet [27] justifica redes de acceso, no redes corporativas: dato poco pertinente para la función."
+  },
+  "E2-04": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 104 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · fondo · no hay tendencia fechada: la Ley 29904 es de 2012 y la PNTD se cita sin dato ni fecha · 67 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "fondo": [
+    "S"
+   ],
+   "nota": "La función (fibra de acceso, telefonía IP, comunicaciones de campo) roza el campo de Ingeniería de Telecomunicaciones o Electrónica; el panel debe confirmar que corresponde a la carrera."
+  },
+  "E2-05": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 115 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 63 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "fondo": [],
+   "nota": "El dato «60 % de empresas con dificultad para cubrir vacantes» [31] no es específico de la función. Posible fusión con E2-07 si el panel ve la infraestructura como código como método y no como encargo."
+  },
+  "E2-06": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 97 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 70 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": "Casa de la canalización de despliegue; ver E1-10."
+  },
+  "E2-07": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 95 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 74 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": ""
+  },
+  "E2-08": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "No cumple · fondo · solapa con E5-10 (clasificación de incidentes, cambios estándar y análisis de problemas recurrentes)",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 92 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 69 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 7 palabras"
+   },
+   "fondo": [
+    "F",
+    "P"
+   ],
+   "nota": "Acotar al diagnóstico y restablecimiento técnico (T2, T3) y dejar la gestión de problemas y cambios (T4, T5) a E5-10, o delimitar el nivel de cada una."
+  },
+  "E2-09": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 95 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 61 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "fondo": [],
+   "nota": "Solapa casi por completo con E4-08; se deja la casa en E2 y se marca E4-08."
+  },
+  "E2-10": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 85 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 70 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "fondo": [],
+   "nota": ""
+  },
+  "E2-11": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "No cumple · fondo · solapa con E4-03 (cortafuegos, segmentación, accesos remotos, bastionado y parches)",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 93 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 79 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [
+    "F",
+    "P"
+   ],
+   "nota": "Marcada como transversal pero con tareas equivalentes a E4-03; llevar segmentación y VPN al diseño de E2-03 o dejar la protección perimetral solo en E4."
+  },
+  "E2-12": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 97 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 70 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "fondo": [],
+   "nota": "«Frente al 31 % del año anterior» sin año explícito."
+  },
+  "E3-01": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 101 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 85 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": "El cierre del JI repite la función clave («gobierno y la integración del dato») y no la función (forma). Refs [4] y [22] listadas sin cita en el texto."
+  },
+  "E3-02": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 4 tareas, todas con entregable y códigos",
+    "5": "Cumple · 94 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 72 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": "El cierre del JI («domine el gobierno y la integración del dato») no corresponde a la función de almacenes (forma). Ref [23] listada sin cita."
+  },
+  "E3-03": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "No cumple · fondo · mezcla gobierno de datos, protección de datos personales (T4, duplica E4-10) y publicación de datos abiertos (T5)",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 103 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 82 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [
+    "F",
+    "P"
+   ],
+   "nota": "Retirar T4 o reformularla como insumo de clasificación para E4-10; decidir si datos abiertos pertenece a esta función. Ref [5] listada sin cita."
+  },
+  "E3-04": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 4 tareas, todas con entregable y códigos",
+    "5": "Cumple · 95 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · fondo · no hay tendencia: cita obligaciones de la Directiva 2022 y de la ENIA y una distribución de roles (35 %) · 78 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [
+    "S"
+   ],
+   "nota": "Ref [4] listada sin cita."
+  },
+  "E3-05": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 94 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 83 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 7 palabras"
+   },
+   "fondo": [],
+   "nota": "«La demanda creció 40 %» [26]: la fuente mide el tamaño promedio de los equipos (de 19 a 26); precisar. Refs [2] y [19] listadas sin cita."
+  },
+  "E3-06": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 96 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 81 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": "Refs [4], [20] y [22] listadas sin cita en el texto."
+  },
+  "E3-07": {
+   "reglas": {
+    "1": "No cumple · fondo · la función se define por la tecnología (asistentes y agentes basados en modelos de lenguaje), no por el encargo",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 87 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 71 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "No cumple · forma · el título nombra una tecnología («asistentes inteligentes») · 5 palabras"
+   },
+   "fondo": [
+    "F"
+   ],
+   "nota": "Reformular como encargo (p. ej., automatizar la atención y la consulta del conocimiento organizacional con IA). La evidencia de mercado es débil (10 de 80 avisos). Refs [7] y [31] listadas sin cita."
+  },
+  "E3-08": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 101 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 83 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": "Refs [7], [22] y [40] listadas sin cita; [40] además figura como «No verificado» en el archivo."
+  },
+  "E3-09": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 97 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 76 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "fondo": [],
+   "nota": "Ref [32] listada sin cita."
+  },
+  "E4-01": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 112 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 73 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "fondo": [],
+   "nota": "Frontera con E5-12: distinguibles (ciberseguridad frente a riesgo tecnológico, de terceros y de IA); mantener la delimitación."
+  },
+  "E4-02": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 99 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 69 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 7 palabras"
+   },
+   "fondo": [],
+   "nota": ""
+  },
+  "E4-03": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 99 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 67 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": "Casa de los controles perimetrales; ver E2-11."
+  },
+  "E4-04": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 100 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 73 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "fondo": [],
+   "nota": ""
+  },
+  "E4-05": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 105 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 75 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": "Casa de la seguridad de aplicaciones; ver E1-09."
+  },
+  "E4-06": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 106 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 79 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "fondo": [],
+   "nota": "Los 241 días [31] son el mínimo en nueve años según IBM; el texto los presenta como problema sin decir que mejoran."
+  },
+  "E4-07": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 6 tareas, todas con entregable y códigos",
+    "5": "Cumple · 105 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 70 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "fondo": [],
+   "nota": ""
+  },
+  "E4-08": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "No cumple · fondo · solapa con E2-09 (RTO/RPO, estrategia de respaldo, pruebas de restauración y plan de recuperación)",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 102 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 70 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "fondo": [
+    "F",
+    "P"
+   ],
+   "nota": "Reorientar a ciberresiliencia (respaldos inmutables, recuperación tras ransomware, enlace con la respuesta a incidentes) o fusionar con E2-09. El 54 % de Sophos [33] corresponde a organizaciones con datos cifrados, no a todas las afectadas: precisar."
+  },
+  "E4-09": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 6 tareas, todas con entregable y códigos",
+    "5": "Cumple · 111 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 73 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 7 palabras"
+   },
+   "fondo": [],
+   "nota": "Frontera con E5-11: E4-09 audita el SGSI (ISO 27001) y E5-11 los controles de TI (COBIT/ITAF); mantener la distinción. El dato inicial (63 % sin políticas de IA) no es pertinente para un SGSI."
+  },
+  "E4-10": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 6 tareas, todas con entregable y códigos",
+    "5": "Cumple · 110 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 73 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 7 palabras"
+   },
+   "fondo": [],
+   "nota": "Casa de la protección de datos personales; ver E3-03 T4 y E1-09 T5."
+  },
+  "E5-01": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 114 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 74 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": "Ref [25] listada sin cita."
+  },
+  "E5-02": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 4 tareas, todas con entregable y códigos",
+    "5": "Cumple · 104 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 76 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "fondo": [],
+   "nota": "Demanda de mercado débil (4 de 45 avisos). Ref [25] listada sin cita."
+  },
+  "E5-03": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 107 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 77 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": "Ref [32] listada sin cita."
+  },
+  "E5-04": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 4 tareas, todas con entregable y códigos",
+    "5": "Cumple · 109 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 79 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "fondo": [],
+   "nota": "Refs [12], [25] y [36] listadas sin cita."
+  },
+  "E5-05": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 93 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 67 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 4 palabras"
+   },
+   "fondo": [],
+   "nota": "O*NET da 31 300 vacantes anuales promedio 2024-2034, no «al 2034» (forma). Refs [25] y [31] listadas sin cita."
+  },
+  "E5-06": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 108 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 72 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": "El dato «37 de 45 avisos» no lleva referencia (forma). Refs [1], [3] y [26] listadas sin cita."
+  },
+  "E5-07": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 4 tareas, todas con entregable y códigos",
+    "5": "Cumple · 102 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 71 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": "Refs [25], [34] y [39] listadas sin cita."
+  },
+  "E5-08": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "No cumple · fondo · T2 y T3 duplican E1-01 (modelar el proceso y redactar historias de usuario con criterios de aceptación)",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 95 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 72 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [
+    "F"
+   ],
+   "nota": "Acotar a rediseño del servicio y gestión de la adopción; la especificación de requerimientos es de E1-01. El dato 15 %/3 % proviene de un estudio BID de 2018 citado por la SGTD en 2023: actualizar. Ref [20] listada sin cita."
+  },
+  "E5-09": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 4 tareas, todas con entregable y códigos",
+    "5": "Cumple · 91 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 73 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": "«5 162 servicios» [18] contradice los «más de 350 servicios» de E1 [38]; la página [18] no expone la cifra sin JavaScript. Refs [25] y [36] listadas sin cita."
+  },
+  "E5-10": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 100 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 74 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 7 palabras"
+   },
+   "fondo": [],
+   "nota": "Casa de la gestión de incidentes, problemas y cambios; ver E2-08. Refs [25] y [35] listadas sin cita."
+  },
+  "E5-11": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 105 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 73 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "fondo": [],
+   "nota": "Refs [22] y [38] listadas sin cita."
+  },
+  "E5-12": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 100 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 72 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "fondo": [],
+   "nota": "El dato de demanda (ciberataques +71 % en 2021, Kaspersky vía SGTD 2023) está desactualizado; sustituir por uno reciente. Refs [12], [25] y [38] listadas sin cita."
+  }
+ },
+ "referencias": [
+  {
+   "esp": "E1",
+   "ref": "[35]",
+   "url": "https://www.infobae.com/peru/2026/01/20/conoce-las-carreras-de-ingenieria-que-tendran-mayor-demanda-laboral-este-2026/",
+   "abre": true,
+   "sostiene": true,
+   "nota": "«Ingeniería de Sistemas de Información encabeza la demanda nacional para 2025, con 5,226 puestos proyectados» (E1-03)."
+  },
+  {
+   "esp": "E1",
+   "ref": "[40]",
+   "url": "https://survey.stackoverflow.co/2025/ai",
+   "abre": true,
+   "sostiene": true,
+   "nota": "84 % usa o planea usar IA; 50,6 % de los profesionales la usa a diario (el texto redondea a 51 %); 46 % desconfía de su exactitud."
+  },
+  {
+   "esp": "E1",
+   "ref": "[38]",
+   "url": "https://prensaperu.pe/2026/01/03/transformacion-digital-en-perupcm-consolida-avances-historicos-en-modernizacion-estatal-con-mas-de-500-millones-de-transacciones-digitales-y-6-5-millones-de-atenciones-al-ciudadano-en-2025/",
+   "abre": true,
+   "sostiene": true,
+   "nota": "PIDE con más de 500 millones de transacciones en 2025, más de 350 servicios en GOB.PE y 267 entidades en Cero Papel (E1-04, E1-06, E1-07)."
+  },
+  {
+   "esp": "E1",
+   "ref": "[4]",
+   "url": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+   "abre": true,
+   "sostiene": true,
+   "nota": "106 100 vacantes anuales promedio 2025-35 (E1-08)."
+  },
+  {
+   "esp": "E1",
+   "ref": "[37]",
+   "url": "https://www.inei.gob.pe/media/MenuRecursivo/boletines/informetecnico_tics_iit25.pdf",
+   "abre": true,
+   "sostiene": true,
+   "nota": "89,0 % de los usuarios de internet se conecta por celular; 95,4 % de hogares con telefonía móvil (E1-05)."
+  },
+  {
+   "esp": "E2",
+   "ref": "[37]",
+   "url": "https://uptimeinstitute.com/about-ui/press-releases/uptime-announces-annual-outage-analysis-report-2025",
+   "abre": true,
+   "sostiene": true,
+   "nota": "23 % de caídas por TI y red; casi 40 % con caída grave por error humano; +10 puntos por no seguir procedimientos; incidentes cibernéticos en aumento."
+  },
+  {
+   "esp": "E2",
+   "ref": "[36]",
+   "url": "https://www.cncf.io/announcements/2026/01/20/kubernetes-established-as-the-de-facto-operating-system-for-ai-as-production-use-hits-82-in-2025-cncf-annual-cloud-native-survey/",
+   "abre": true,
+   "sostiene": true,
+   "nota": "82 % con Kubernetes en producción (66 % en 2023); 66 % sirve IA generativa sobre Kubernetes; OpenTelemetry segundo en velocidad; ~20 % usa perfilado."
+  },
+  {
+   "esp": "E2",
+   "ref": "[32]",
+   "url": "https://www.flexera.com/about-us/press-center/new-flexera-report-finds-84-percent-of-organizations-struggle-to-manage-cloud-spend",
+   "abre": true,
+   "sostiene": true,
+   "nota": "84 % declara el gasto en nube como principal desafío; presupuestos excedidos en 17 %; el gasto crecerá 28 %; 60 % recurre a MSP."
+  },
+  {
+   "esp": "E2",
+   "ref": "[28]",
+   "url": "https://www.osiptel.gob.pe/portal-del-usuario/noticias/mas-del-82-de-conexiones-de-internet-fijo-usa-fibra-optica/",
+   "abre": true,
+   "sostiene": true,
+   "nota": "4,38 millones de conexiones fijas, 82,47 % por fibra; regiones +15,02 %."
+  },
+  {
+   "esp": "E2",
+   "ref": "[30]",
+   "url": "https://gestion.pe/economia/empresas/aws-consolida-su-operacion-en-peru-y-proyecta-expansion-en-la-region-andina-noticia/",
+   "abre": true,
+   "sostiene": true,
+   "nota": "AWS con 49 % del mercado IaaS; estudio EY 2024: 9 % con madurez avanzada y 73 % en proceso. La inferencia «lo que empuja el traslado a la nube» (E2-02) es del autor, no de la fuente."
+  },
+  {
+   "esp": "E2",
+   "ref": "[27]",
+   "url": "https://www.inei.gob.pe/media/MenuRecursivo/boletines/informetecnico_tics_iit25.pdf",
+   "abre": true,
+   "sostiene": true,
+   "nota": "23,6 % de hogares rurales frente a 80,5 % en Lima Metropolitana con internet (E2-03); cifra cierta pero poco pertinente para redes corporativas."
+  },
+  {
+   "esp": "E3",
+   "ref": "[25]",
+   "url": "https://gestion.pe/economia/empresas/peru-enfrenta-una-escasez-de-especialistas-en-ciencia-de-datos-2700-vacantes-sin-cubrir-noticia/",
+   "abre": true,
+   "sostiene": true,
+   "nota": "~3 800 puestos frente a 1 100 egresados y 2 700 sin cubrir; analistas 35 %, científicos 24 %, ingenieros de datos 16 %."
+  },
+  {
+   "esp": "E3",
+   "ref": "[26]",
+   "url": "https://especial.larepublica.pe/apunte-educativo/desarrollo-profesional/2026/05/04/demanda-de-especialistas-en-datos-en-peru-sube-40-y-asi-impacta-el-mercado-laboral-320060",
+   "abre": true,
+   "sostiene": true,
+   "nota": "Equipos de 19 a 26 integrantes entre 2024 y 2025; AI Engineer, Data Architect y MLOps Engineer entre los más buscados; S/ 6 000-12 000."
+  },
+  {
+   "esp": "E3",
+   "ref": "[27]",
+   "url": "https://forbes.pe/negocios/2024-12-10/solo-el-14-de-las-empresas-en-peru-emplea-inteligencia-artificial-en-sus-procesos",
+   "abre": true,
+   "sostiene": true,
+   "nota": "14 % usa IA, 23 % la está implementando y 51 % considera adoptarla."
+  },
+  {
+   "esp": "E3",
+   "ref": "[3]",
+   "url": "https://www.onetonline.org/link/details/15-1243.01",
+   "abre": true,
+   "sostiene": true,
+   "nota": "Importancia 86 para modelar los procesos del almacén y verificar la calidad de sus datos (E3-02)."
+  },
+  {
+   "esp": "E3",
+   "ref": "[9]",
+   "url": "https://iuslatin.pe/wp-content/uploads/2026/05/Estrategia-Nacional-de-Inteligencia-Artificial-2026-2030.pdf",
+   "abre": true,
+   "sostiene": true,
+   "nota": "Art. 5.4: el Plan de Acción de IA exige el Plan de Gobierno de Datos aprobado; art. 10.3: las entidades publican en el Catálogo IA Perú sus modelos y datos; art. 6.5: el OIA supervisa la calidad y la ética de los modelos de riesgo alto."
+  },
+  {
+   "esp": "E3",
+   "ref": "[13]",
+   "url": "https://www.gob.pe/institucion/pcm/noticias/1362816-pcm-mas-de-1-2-millones-de-peruanos-utilizan-la-plataforma-nacional-de-datos-abiertos-para-investigar-innovar-y-crear-soluciones-digitales",
+   "abre": false,
+   "sostiene": null,
+   "nota": "gob.pe devuelve HTTP 418; no se pudo contrastar «más de 4 000 conjuntos de 350 entidades»."
+  },
+  {
+   "esp": "E3",
+   "ref": "[11]",
+   "url": "https://www.tvperu.gob.pe/noticias/politica/poder-ejecutivo-aprueba-la-estrategia-nacional-de-gobierno-de-datos-2026-2030",
+   "abre": false,
+   "sostiene": null,
+   "nota": "HTTP 403; no se pudo contrastar."
+  },
+  {
+   "esp": "E3",
+   "ref": "[32]",
+   "url": "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-senior-data-scientist-acoe-sede-lima-en-lima-836B5A2A0CAC3CD061373E686DCF3405",
+   "abre": false,
+   "sostiene": null,
+   "nota": "HTTP 403 (aviso individual de Computrabajo); no se pudo contrastar la «fábrica de modelos»."
+  },
+  {
+   "esp": "E4",
+   "ref": "[32]",
+   "url": "https://www.verizon.com/about/news/2025-data-breach-investigations-report",
+   "abre": true,
+   "sostiene": true,
+   "nota": "Explotación de vulnerabilidades +34 % y 20 % de brechas; credenciales 22 %; ransomware en 44 % (+37 %); terceros 30 %; día cero contra perímetro y VPN."
+  },
+  {
+   "esp": "E4",
+   "ref": "[31]",
+   "url": "https://www.ibm.com/think/x-force/2025-cost-of-a-data-breach-navigating-ai",
+   "abre": true,
+   "sostiene": true,
+   "nota": "241 días para identificar y contener (mínimo en nueve años); 63 % sin políticas de IA; +USD 670 000 por IA no autorizada; 97 % sin controles de acceso a IA."
+  },
+  {
+   "esp": "E4",
+   "ref": "[28]",
+   "url": "https://www.infobae.com/peru/2025/08/27/ciberataques-en-peru-superan-los-748-millones-de-intentos-en-lo-que-va-del-2025/",
+   "abre": true,
+   "sostiene": true,
+   "nota": "748,2 millones de intentos en el primer semestre de 2025; ~36 000 escaneos por segundo; paso a operaciones focalizadas con IA."
+  },
+  {
+   "esp": "E4",
+   "ref": "[33]",
+   "url": "https://greymatter.com/wp-content/uploads/2025/06/sophos-state-of-ransomware-2025.pdf",
+   "abre": true,
+   "sostiene": true,
+   "nota": "54 % restauró con respaldos, mínimo en seis años; la base son organizaciones con datos cifrados, no todas las afectadas (precisar en E4-08)."
+  },
+  {
+   "esp": "E4",
+   "ref": "[12]",
+   "url": "https://intranet2.sbs.gob.pe/dv_int_cn/2046/v2.0/Adjuntos/504-2021.R.pdf",
+   "abre": true,
+   "sostiene": true,
+   "nota": "Exige servicio de operaciones de seguridad con detección e inteligencia de amenazas, preservación de evidencias y análisis forense (art. 15.2), y análisis de vulnerabilidades y pruebas de penetración en servicios mediante API."
+  },
+  {
+   "esp": "E4",
+   "ref": "[19]",
+   "url": "https://www.gob.pe/institucion/minjus/noticias/1088896-autoridad-nacional-de-proteccion-de-datos-personales-impuso-multas-por-mas-de-s-13-millones-por-infracciones-a-la-normativa-el-ano-2024",
+   "abre": false,
+   "sostiene": null,
+   "nota": "gob.pe devuelve HTTP 418; no se pudieron contrastar las 454 fiscalizaciones y 133 procedimientos."
+  },
+  {
+   "esp": "E5",
+   "ref": "[30]",
+   "url": "https://sps.columbia.edu/news/rising-demand-project-managers-why-world-needs-more-project-leaders",
+   "abre": true,
+   "sostiene": true,
+   "nota": "PMI: 2,3 millones de nuevos puestos al año hasta 2030; déficit de hasta 25 millones, incluidos 13 millones que se retiran."
+  },
+  {
+   "esp": "E5",
+   "ref": "[2]",
+   "url": "https://www.onetonline.org/link/summary/15-1299.09",
+   "abre": true,
+   "sostiene": true,
+   "nota": "472 000 empleos (2024), 31 300 vacantes proyectadas (promedio anual 2024-2034), crecimiento muy superior al promedio; la tarea principal es gestionar la ejecución dentro de presupuesto, plazo y alcance."
+  },
+  {
+   "esp": "E5",
+   "ref": "[1]",
+   "url": "https://www.onetonline.org/link/summary/11-3021.00",
+   "abre": true,
+   "sostiene": true,
+   "nota": "Bright Outlook; 55 600 vacantes proyectadas 2024-2034."
+  },
+  {
+   "esp": "E5",
+   "ref": "[21]",
+   "url": "https://www.ey.com/es_pe/newsroom/2024/10/peru-madurez-digital-avanzando-empresas",
+   "abre": true,
+   "sostiene": true,
+   "nota": "La falta de personal capacitado es barrera para el 45 %; 73 % encaminado."
+  },
+  {
+   "esp": "E5",
+   "ref": "[17]",
+   "url": "https://cdn.www.gob.pe/uploads/document/file/4926629/SGTD_InformeSituacional_020823.pdf",
+   "abre": true,
+   "sostiene": true,
+   "nota": "Sostiene el 15 %/3 % de trámites (estudio BID de 2018) y el +71 % de ciberataques en 2021 (Kaspersky), tercer promedio de ataques por minuto: la cita es fiel pero los datos son antiguos."
+  },
+  {
+   "esp": "E5",
+   "ref": "[18]",
+   "url": "https://indicadores.digital.gob.pe/",
+   "abre": true,
+   "sostiene": null,
+   "nota": "Página dinámica (JavaScript): abre pero no expone en el HTML la cifra de 5 162 servicios ni los 774 millones de transacciones. Contradice los «más de 350 servicios» de E1 [38]."
+  }
+ ],
+ "general": "Las 54 funciones cumplen en su mayoría las reglas mecánicas: todas tienen 4 a 6 tareas con entregable y códigos coherentes, FD de 70 a 120 y JI de 50 a 90 palabras, referencias [n] existentes, productos de 4 oraciones que no empiezan con «Es el/Es la/Se trata de» y títulos de 3 a 7 palabras sin siglas; no hay cursos, créditos ni resultados de aprendizaje. Los incumplimientos de fondo son sobre todo de delimitación entre especialidades (regla 3): E1-09 con E4-05, E1-10 con E2-06, E2-11 con E4-03, E4-08 con E2-09, E2-08 con E5-10, E5-08 con E1-01 y E3-03 con E4-10; se marca la función que debe ceder o acotarse. E3-07 se define por la tecnología (regla 1). E2-04 y E3-04 no traen una tendencia fechada real (regla 6, fondo). De forma: 17 JI no declaran el año de la tendencia; los JI de E3 y E4 cierran con la frase de la función clave y no con la de la función; el campo refs de E3 y E5 lista referencias que el texto no cita; E2 redacta la descripción en tercera persona («Diseña…») y las demás en infinitivo; el dato de servicios de GOB.PE es inconsistente (350 en E1, 5 162 en E5). Referencias: se abrieron 31 (5 a 8 por especialidad); 26 abren y sostienen la cita, 1 abre sin exponer el dato (E5 [18]) y 4 no abren por bloqueo del servidor (gob.pe 418, TVPerú y Computrabajo 403); ninguna parece inventada. Hay datos antiguos en E5 (BID 2018, Kaspersky 2021), y E3 [40] figura «No verificado» y no se cita. Queda para el panel: la pertinencia de E2-04 (telecomunicaciones) para la carrera y la partición web/móvil de E1-04 y E1-05."
+}

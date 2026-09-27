@@ -1,0 +1,1607 @@
+{
+ "rol": "X6",
+ "perfil": "Experto contextual · 15 años · consultor en transformación digital del Estado y regulación TIC (gobierno digital, datos personales, ciberseguridad, IA) para entidades públicas y banca",
+ "cod": "SIS",
+ "ronda": 1,
+ "funciones": {
+  "E1-01": {
+   "R": "Sí",
+   "donde": "Oficinas de TI del Estado bajo DS 029-2021-PCM (diseño de servicios digitales); analistas funcionales en banca y fábricas de software",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Especifica módulos de complejidad moderada; en programas multientidad o de gran escala trabaja bajo un analista o dueño de producto senior.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Sustento normativo correcto. S2 se apoya en la adopción de IA por desarrolladores (dato global); convendría una tendencia peruana fechada sobre servicios digitales centrados en el ciudadano con meta cuantificada.",
+   "bloque": "S"
+  },
+  "E1-02": {
+   "R": "Sí",
+   "donde": "Arquitectos y analistas de soluciones en fábricas de software y OTI; lineamientos de arquitectura digital de la SGTD",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña componentes y modelos de datos de alcance moderado; la arquitectura empresarial y de plataformas críticas la valida un arquitecto senior.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "S2 débil: la Estrategia de Gobierno de Datos se cita vía Infobae (fuente secundaria) y que SWEBOK tenga un área no es una tendencia con efecto en el servicio. Citar la RM 049-2026-PCM directa.",
+   "bloque": "S"
+  },
+  "E1-03": {
+   "R": "Sí",
+   "donde": "Analista programador y desarrollador backend en CAS del Estado (SUNAFIL, Pensión 65) y en empresas privadas",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye servicios y APIs dentro de la arquitectura definida; los cambios en componentes críticos de alto volumen pasan por revisión senior.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Demanda bien sustentada. N=3 y no 4: al egreso los cambios pasan por revisión de código obligatoria. El 15% anual de ISIL es de 2024; actualizar.",
+   "bloque": "S"
+  },
+  "E1-04": {
+   "R": "Sí",
+   "donde": "Desarrolladores frontend en fábricas de software y equipos de GOB.PE; exigencia de accesibilidad del DS 029-2021-PCM",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E1-04-T3",
+      "t": "Aplicar criterios de accesibilidad WCAG 2.2 y diseño adaptable, y verificarlos con usuarios y herramientas"
+     }
+    ]
+   },
+   "lim": "Construye módulos sobre prototipos aprobados; no define el sistema de diseño corporativo ni aprueba la conformidad de accesibilidad institucional.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Incoherencia de datos: aquí GOB.PE tiene «más de 350 servicios digitales» y en E5-08 «5 162». Unificar la cifra y su fecha con una fuente oficial SGTD.",
+   "bloque": "S"
+  },
+  "E1-05": {
+   "R": "Sí",
+   "donde": "Desarrolladores móviles en banca, retail y programas sociales; CAS Pensión 65 (Android/Flutter)",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [
+     "Aplicar seguridad y protección de datos personales en el dispositivo (almacenamiento cifrado, permisos)"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Desarrolla y publica versiones con supervisión indirecta; la arquitectura móvil y las cuentas de las tiendas las gestiona el líder técnico.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Falta una tarea de seguridad en el dispositivo, exigible por la Ley 29733 y su reglamento. La función podría tratarse como variante de E1-04 (interfaces) si se busca reducir el paquete.",
+   "bloque": "F"
+  },
+  "E1-06": {
+   "R": "Sí",
+   "donde": "Integración con PIDE, ID GOB.PE y PÁGALO.PE en OTI del Estado; integradores ERP en empresas privadas",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E1-06-T2",
+      "t": "Desarrollar y consumir servicios de integración, incluidos los bloques básicos del Estado (PIDE, ID GOB.PE, PÁGALO.PE, FIRMA PERÚ)"
+     }
+    ]
+   },
+   "lim": "Implementa integraciones con contratos definidos; los convenios de intercambio con otras entidades y la exposición de datos sensibles los aprueba la jefatura de TI.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "Verifiqué el DS 098-2025-PCM (art. 87): uso obligatorio de los bloques básicos. Nombrarlos en una tarea ancla la función a la norma. P2: el entregable 1 concentra tres tareas.",
+   "bloque": "S",
+   "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2423580-2"
+  },
+  "E1-07": {
+   "R": "Sí",
+   "donde": "Analistas de automatización (RPA, flujos low-code) en banca, seguros y centros de servicios compartidos",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 2,
+   "V": 4,
+   "L": 3,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [
+     "Evaluar el tratamiento de datos personales y los riesgos antes de automatizar decisiones"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Automatiza procesos departamentales; las automatizaciones que tratan datos personales o deciden sobre personas requieren aprobación del dueño del proceso y de seguridad.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "S1 débil: que Cero Papel interconecte 267 entidades no prueba demanda de bots ni de scripts. Se superpone con E5-08 (digitalización de procesos); conviene delimitar la construcción técnica frente al rediseño.",
+   "bloque": "S"
+  },
+  "E1-08": {
+   "R": "Sí",
+   "donde": "Analistas QA en banca y fintech; RM 041-2017-PCM (NTP-ISO/IEC 12207, verificación y validación)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña y ejecuta pruebas de módulos y versiones; la estrategia de calidad de programas críticos y el pase final los aprueba el líder de calidad.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Verifiqué que la RM 041-2017-PCM hace obligatoria la NTP-ISO/IEC 12207:2016 en el Sistema Nacional de Informática. El sustento es sólido.",
+   "bloque": "S",
+   "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/1491441-1"
+  },
+  "E1-09": {
+   "R": "Sí",
+   "donde": "Desarrollo seguro exigido por la Res. SBS 504-2021 (art. 21) y el reglamento de la Ley 29733; equipos AppSec de banca",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [
+     "Aplicar minimización y seudonimización de datos personales en el diseño de la aplicación"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Aplica controles en sus aplicaciones; las pruebas de intrusión, la respuesta a incidentes y la gestión corporativa corresponden a la especialidad de seguridad.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "El plazo de 48 horas del DS 016-2024-JUS se confirmó. Se superpone con E4-05: conviene fijar la frontera (aquí controles propios del desarrollador; en E4 la conformidad independiente).",
+   "bloque": "F"
+  },
+  "E1-10": {
+   "R": "Sí",
+   "donde": "Desarrolladores con CI/CD en fábricas de software; CAS del Estado piden Docker y CI/CD",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Configura canalizaciones de sus aplicaciones con aprobación del líder técnico; la plataforma y la nube corporativa corresponden a infraestructura.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Duplica en gran parte E2-06. Recomiendo dejar la canalización en una sola especialidad y aquí solo la liberación de versiones de la aplicación.",
+   "bloque": "F"
+  },
+  "E1-11": {
+   "R": "Sí",
+   "donde": "Soporte de aplicaciones en OTI del Estado y en empresas con sistemas heredados; mantenimiento según la NTP-ISO/IEC 12207",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Resuelve incidencias y mejoras de módulos con supervisión indirecta; las migraciones de plataformas críticas requieren aprobación del comité de cambios.",
+   "S1": 4,
+   "S2": 2,
+   "P1": 3,
+   "P2": 4,
+   "P3": 3,
+   "com": "S2 especulativo: que la IA «acelere código que luego debe mantenerse» no tiene fuente con efecto medido, y la Estrategia de Datos se cita por prensa. P1: un «informe» es más un reporte que un producto.",
+   "bloque": "S"
+  },
+  "E2-01": {
+   "R": "Sí",
+   "donde": "Arquitectos cloud en integradores y banca; SUNAT (plataforma cloud del CPE); NUBE PERÚ del DS 098-2025-PCM",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 4,
+   "V": 4,
+   "L": 3,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña arquitecturas de una región y pocas cuentas bajo supervisión; la arquitectura corporativa y los compromisos de gasto los aprueba un arquitecto senior.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 2,
+   "com": "N=2: diseñar zonas de aterrizaje al egreso requiere supervisión directa. P3=2: la revisión por pilares con plan de mejoras excede ese nivel. Verifiqué NUBE PERÚ como bloque básico (DS 098-2025).",
+   "bloque": "P",
+   "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2423580-2"
+  },
+  "E2-02": {
+   "R": "Sí",
+   "donde": "Migraciones a nube en integradores y universidades (UPCH); lineamientos de nube de la SEGDI",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Migra cargas no críticas por oleadas acotadas; la migración de sistemas críticos y la ventana de corte las autoriza el responsable del servicio.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "S1 débil: 7 de 61 avisos, y el dato de madurez digital (9 %) proviene de una nota sobre AWS, no de una medición de migraciones. Podría integrarse con E2-01 como fase de adopción.",
+   "bloque": "S"
+  },
+  "E2-03": {
+   "R": "Sí",
+   "donde": "Ingenieros de redes en ISP, minería y entidades públicas; CAS SUNAT de infraestructura de red",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña redes de sede o campus medianas; los cambios de núcleo o del proveedor y los diseños multisede críticos requieren un ingeniero senior.",
+   "S1": 2,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "S1 y S2 mal vinculados: la brecha rural del INEI y la Ley 29904 (red dorsal) no sustentan el diseño de redes corporativas. Una convocatoria CAS no es «plano normativo». Buscar evidencia de redes empresariales.",
+   "bloque": "S"
+  },
+  "E2-04": {
+   "R": "Sí",
+   "donde": "Operadores de telecomunicaciones y contratistas de fibra; CAS SUNAT (telefonía IP) e INDECI",
+   "P": 2,
+   "E": "Útil",
+   "F": 2,
+   "C": 2,
+   "V": 2,
+   "L": 3,
+   "N": 2,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [
+     "E2-04-T4"
+    ],
+    "corregir": []
+   },
+   "lim": "Implementa enlaces y voz IP de alcance local; la radiofrecuencia, la red troncal del operador y las concesiones quedan fuera de su alcance.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 3,
+   "P2": 4,
+   "P3": 3,
+   "com": "Es más propia de Ingeniería de Telecomunicaciones que de Sistemas. El aprovisionamiento en redes de fibra (T4) es tarea de ISP. Sugiero fusionarla con E2-03 como conectividad WAN y voz.",
+   "bloque": "F"
+  },
+  "E2-05": {
+   "R": "Sí",
+   "donde": "DevOps e ingenieros de plataforma (Indra, integradores); Terraform y Ansible en avisos peruanos",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Escribe módulos de infraestructura con revisión por pares; la aplicación en producción y las políticas como código las aprueba el responsable de plataforma.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Vigencia alta y bien argumentada. S1: solo 4 avisos piden IaC explícita. El dato de Uptime sobre caídas es global y no mide demanda peruana.",
+   "bloque": "S"
+  },
+  "E2-06": {
+   "R": "Sí",
+   "donde": "DevOps en banca e integradores; plataforma de contenedores de la SUNAT",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye flujos con supervisión indirecta; la liberación de sistemas críticos y los clústeres productivos los autoriza el responsable de plataforma.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "Duplica E1-10. S1: 7 de 61 avisos y datos CNCF globales, sin norma peruana. Recomiendo fusionarla con E1-10 o dejar aquí solo la plataforma de contenedores. P2: métricas con una sola tarea.",
+   "bloque": "F"
+  },
+  "E2-07": {
+   "R": "Sí",
+   "donde": "Administradores de sistemas en salud, retail, minería y el Estado (CAS SUNAT de infraestructura)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Administra servidores departamentales con procedimientos aprobados; los cambios mayores en sistemas críticos pasan por el comité de cambios.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 3,
+   "P2": 4,
+   "P3": 4,
+   "com": "Demanda sólida. V=2: la nube desplaza parte de la administración local hacia servicios gestionados. N=3 y no 4: el directorio y los permisos son sensibles al egreso.",
+   "bloque": "F"
+  },
+  "E2-08": {
+   "R": "Sí",
+   "donde": "NOC y mesas de soporte de ISP de fibra; mesas de ayuda de entidades públicas",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Atiende incidentes de nivel 1 y 2 con procedimientos; los incidentes mayores y los cambios de alto riesgo se escalan a operaciones.",
+   "S1": 4,
+   "S2": 2,
+   "P1": 3,
+   "P2": 4,
+   "P3": 4,
+   "com": "S2 impreciso: el DS 126-2025-PCM (vigente desde 03-02-2026) exige 48 horas solo para incidentes críticos y a proveedores de servicios digitales, no para toda incidencia. Se superpone con E5-10.",
+   "bloque": "S",
+   "fuente": "https://www.ey.com/es_pe/technical/tax-alert/reglamento-ley-marco-confianza-digital-medidas-fortalecimiento"
+  },
+  "E2-09": {
+   "R": "Sí",
+   "donde": "Administradores de respaldo en banca (SBS 877-2020) y OTI; planes de continuidad operativa (RM 320-2021-PCM)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Ejecuta respaldos y pruebas de recuperación; los objetivos RTO/RPO y la activación ante desastre los decide la dirección.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Confirmé que la RM 320-2021-PCM regula la continuidad operativa de entidades, pero no exige recuperación de TI específica. Duplica E4-08: conviene conservar una sola función.",
+   "bloque": "F",
+   "fuente": "https://busquedas.elperuano.pe/normaslegales/aprueban-los-lineamientos-para-la-gestion-de-la-continuidad-resolucion-ministerial-no-320-2021-pcm-2026593-2/"
+  },
+  "E2-10": {
+   "R": "Sí",
+   "donde": "SRE y equipos de monitoreo en banca, ISP y nube; disponibilidad de bloques básicos (DS 098-2025-PCM)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Instrumenta servicios y configura alertas; los SLO comprometidos con clientes y la política de presupuesto de error los aprueba el responsable del servicio.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "El recuento de 51 de 61 avisos mezcla «monitoreo» genérico con observabilidad; los SLO y el presupuesto de error aparecen en pocos avisos peruanos. Vigencia alta.",
+   "bloque": "S"
+  },
+  "E2-11": {
+   "R": "Sí",
+   "donde": "Administradores de seguridad de red en integradores e ISP; controles de la Res. SBS 504-2021",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Configura reglas según la política aprobada; la política, el análisis forense y los incidentes mayores corresponden a seguridad de la información.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Duplica E4-03 (cortafuegos, segmentación, VPN, bastionado). Recomiendo asignarla a una sola especialidad o limitar esta a la operación de red.",
+   "bloque": "F"
+  },
+  "E2-12": {
+   "R": "Sí",
+   "donde": "FinOps en integradores y empresas con nube pública (WIN, UPCH)",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 2,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Analiza gasto y uso y propone ajustes; las reservas, compras y cambios de proveedor los aprueban TI y finanzas.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 2,
+   "com": "S1 débil: los datos de Flexera son globales y solo 10 avisos locales. P3=2: reportar costo unitario y ahorros a la dirección excede al egresado en supervisión directa.",
+   "bloque": "S"
+  },
+  "E3-01": {
+   "R": "Sí",
+   "donde": "Ingenieros de datos en banca, retail e Indra; oficiales de gobierno de datos del Estado",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye flujos estándar sobre una arquitectura definida; la plataforma corporativa de datos y los sistemas fuente críticos quedan bajo un arquitecto.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Sustento sólido. La ENGD se cita por TVPerú; conviene citar la RM 049-2026-PCM en El Peruano. La frase final del JI es genérica y no nombra la función.",
+   "bloque": "S"
+  },
+  "E3-02": {
+   "R": "Sí",
+   "donde": "Analistas BI y modeladores de datos en banca, retail y seguros",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña modelos dimensionales departamentales; la arquitectura corporativa de datos y la plataforma se validan con el arquitecto de datos.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "V=2: los almacenes evolucionan hacia arquitecturas lakehouse; la función se mantiene, pero cambia de forma. Convendría mencionarlo en la tarea T3.",
+   "bloque": "F"
+  },
+  "E3-03": {
+   "R": "Sí",
+   "donde": "Oficial de Gobierno de Datos (Directiva 001-2022-PCM/SGTD); analistas de data governance en empresas privadas",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Implementa controles dentro del modelo aprobado; no puede ser designado Oficial de Datos Personales ni de Gobierno de Datos, ni interpreta la ley.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "Verifiqué que la ENIA (RM 152-2026-PCM) condiciona el plan de IA a un plan de gobierno de datos vigente. T4 se superpone con E4-10; P2: datos abiertos y catálogo mezclados.",
+   "bloque": "S",
+   "fuente": "https://www.garrigues.com/es_ES/noticia/peru-aprueba-estrategia-nacional-inteligencia-artificial-enia-establece-obligaciones"
+  },
+  "E3-04": {
+   "R": "Sí",
+   "donde": "Analistas BI en empresas y entidades; CAS de analista de datos (Hospital de Jaén)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye tableros en áreas definidas; los indicadores estratégicos se acuerdan con la gerencia y los datos sensibles requieren autorización del dueño del dato.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Función bien sustentada y alcanzable al egreso. La IA generativa automatizará parte de la visualización, lo que desplaza el valor hacia la definición del indicador (T2).",
+   "bloque": "F"
+  },
+  "E3-05": {
+   "R": "Sí",
+   "donde": "Analistas de negocio y de datos en banca, consumo masivo y retail",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Formula análisis y recomendaciones; la decisión es de la gerencia, y los análisis con alto impacto financiero se revisan con un analista senior.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "El «40 %» de La República no precisa periodo ni fuente primaria. El 14 % de uso de IA (CCL 2024) debe actualizarse.",
+   "bloque": "S"
+  },
+  "E3-06": {
+   "R": "Sí",
+   "donde": "Científicos de datos en cajas municipales, banca y seguros; modelos sujetos a la Res. SBS 053-2023",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Construye modelos con técnicas establecidas; los modelos de riesgo alto (crédito, salud, selección) requieren validación independiente previa.",
+   "S1": 3,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "S2 correcto: el DS 115-2025-PCM, vigente desde el 22-01-2026, clasifica crédito, salud y selección de personal como riesgo alto. Falta citar la Res. SBS 053-2023 en la demanda de la banca.",
+   "bloque": "S"
+  },
+  "E3-07": {
+   "R": "Sí",
+   "donde": "Ingenieros de IA en integradores y banca; equipos técnicos de datos e IA exigidos por la ENIA",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E3-07-T5",
+      "t": "Evaluar exactitud, seguridad (inyección de instrucciones, fuga de datos) y transparencia de las respuestas del asistente con usuarios"
+     }
+    ]
+   },
+   "lim": "Desarrolla pilotos acotados con supervisión directa; el uso con datos personales o en decisiones de riesgo alto requiere aprobación y supervisión humana.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Vigencia muy alta. S1=2: 10 de 80 avisos y fuentes de prensa, sin dato cuantitativo robusto. La T5 debe nombrar los riesgos propios de los LLM.",
+   "bloque": "S"
+  },
+  "E3-08": {
+   "R": "Sí",
+   "donde": "Validación de modelos en banca (Res. SBS 053-2023); sistemas de IA de riesgo alto (DS 115-2025-PCM)",
+   "P": 3,
+   "E": "Útil",
+   "F": 1,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Ejecuta pruebas y documenta resultados; la validación independiente de la SBS y el dictamen sobre riesgo alto corresponden a validadores experimentados.",
+   "S1": 2,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Impulso normativo real (ENIA: oficial de IA; DS 115-2025), pero la demanda actual es baja (4 de 80). Se superpone con E5-12-T5; conviene fusionar la evaluación de riesgo de IA.",
+   "bloque": "S"
+  },
+  "E3-09": {
+   "R": "Sí",
+   "donde": "MLOps en banca y fintech; inventario de modelos de la Res. SBS 053-2023",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Despliega y monitorea modelos en entornos definidos; la plataforma de ML y los cambios en sistemas críticos los aprueba el líder técnico.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 2,
+   "com": "Dato inexacto: la Res. SBS 053-2023 fija un reporte de inventario anual (31 días tras el primer semestre), no semestral, y solo para modelos de gestión de riesgos. P3: producción y reentrenamiento exceden N2.",
+   "bloque": "S",
+   "fuente": "https://intranet2.sbs.gob.pe/dv_int_cn/2240/v1.0/Adjuntos/0053-2023.R.pdf"
+  },
+  "E4-01": {
+   "R": "Sí",
+   "donde": "Analistas de riesgo de seguridad en banca (Res. SBS 504-2021) y entidades públicas (DU 007-2020)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Aplica metodologías aprobadas; la aceptación del riesgo residual y el apetito de riesgo los decide la dirección o el comité de riesgos.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Verifiqué en el texto de la Res. SBS 504-2021 la identificación de activos y amenazas. Se superpone con E5-12 (riesgo tecnológico): delimitar seguridad frente a riesgo de TI general.",
+   "bloque": "S",
+   "fuente": "https://intranet2.sbs.gob.pe/dv_int_cn/2046/v2.0/Adjuntos/504-2021.R.pdf"
+  },
+  "E4-02": {
+   "R": "Sí",
+   "donde": "Pentesters y analistas de vulnerabilidades en consultoras y banca; art. 21 de la Res. SBS 504-2021 (API)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Solo con autorización escrita y alcance firmado, sin afectar producción crítica; las operaciones de equipo rojo exceden al egresado.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Confirmé que el art. 21 de la Res. SBS 504-2021 exige análisis de vulnerabilidades y pruebas de penetración en las API. N=2 por la explotación controlada.",
+   "bloque": "S",
+   "fuente": "https://intranet2.sbs.gob.pe/dv_int_cn/2046/v2.0/Adjuntos/504-2021.R.pdf"
+  },
+  "E4-03": {
+   "R": "Sí",
+   "donde": "Ingenieros de seguridad en integradores, banca y entidades; líneas base de la Res. SBS 504-2021",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Implanta sobre diseños y líneas base aprobadas con control de cambios; la arquitectura de seguridad corporativa la define un perfil senior.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "Confirmé en la Res. SBS 504-2021 las líneas base de configuración segura. Duplica E2-11; P2: la línea base agrupa T1 y T5 y el expediente el resto, lo que es aceptable.",
+   "bloque": "F"
+  },
+  "E4-04": {
+   "R": "Sí",
+   "donde": "Analistas IAM en banca (mínimo privilegio, autenticación reforzada, SBS 504-2021) y PSD (DS 126-2025-PCM)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Opera sobre políticas de acceso aprobadas; los privilegios críticos requieren aprobación del propietario del activo.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "Sustento normativo verificado (arts. 19-20 de la SBS 504-2021). Vigencia alta por las identidades no humanas y de IA. P2: altas y bajas (T2) encajan mejor con la configuración que con la recertificación.",
+   "bloque": "S"
+  },
+  "E4-05": {
+   "R": "Sí",
+   "donde": "AppSec en banca y fintech; desarrollo seguro y pruebas previas al pase (Res. SBS 504-2021)",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Revisa y prueba software dentro de un proceso definido; la aceptación de riesgos residuales la decide el responsable del producto.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "S2 desenfocado: el dato de IBM sobre políticas de IA no es una tendencia de seguridad aplicativa. Se superpone con E1-09; conviene dejar aquí la conformidad independiente.",
+   "bloque": "S"
+  },
+  "E4-06": {
+   "R": "Sí",
+   "donde": "Analistas SOC N1-N2 en MSSP y banca; servicio de operaciones de seguridad exigido por la Res. SBS 504-2021",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Analista de primer y segundo nivel con procedimientos; la declaración de incidente mayor la hace el responsable del centro.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Verifiqué en la Res. SBS 504-2021 el SOC con detección, monitoreo de la red interna e inteligencia de amenazas. Sustento sólido.",
+   "bloque": "S",
+   "fuente": "https://intranet2.sbs.gob.pe/dv_int_cn/2046/v2.0/Adjuntos/504-2021.R.pdf"
+  },
+  "E4-07": {
+   "R": "Sí",
+   "donde": "Equipos CSIRT de entidades (guía CNSD) y banca; notificación al CNSD (DS 126-2025-PCM)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Actúa bajo el líder de respuesta; la contención con impacto en el negocio y la firma de notificaciones son del responsable; el peritaje exige acreditación.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Verificado: DS 126-2025-PCM, 48 h para incidentes críticos al CNSD y vigencia desde el 03-02-2026; DS 016-2024-JUS, 48 h ante la ANPD. Precisar en T5 que el plazo aplica a incidentes críticos.",
+   "bloque": "S",
+   "fuente": "https://www.ey.com/es_pe/technical/tax-alert/reglamento-ley-marco-confianza-digital-medidas-fortalecimiento"
+  },
+  "E4-08": {
+   "R": "Sí",
+   "donde": "Continuidad de TI en banca (Res. SBS 877-2020) y OTI (RM 320-2021-PCM)",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diseña y prueba la recuperación de servicios de TI; la estrategia de continuidad y la gestión de crisis las aprueban el directorio y el comité.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Duplica E2-09. S2: la Ley 30999 (ciberdefensa) es de ámbito militar y no sustenta la continuidad empresarial. Recomiendo fusionarla con E2-09.",
+   "bloque": "S"
+  },
+  "E4-09": {
+   "R": "Sí",
+   "donde": "Oficial de Seguridad y Confianza Digital (CAS MINSA, INDECI); analistas SGSI en banca",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Ejecuta auditorías internas y mantiene documentación; la aprobación de políticas es de la dirección y la certificación, de un organismo acreditado.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 3,
+   "com": "La FD abre con un dato de IBM sobre IA ajeno al SGSI; debería abrir con el DU 007-2020. P1: el producto (informe de auditoría) no refleja la implantación ni la concientización.",
+   "bloque": "P"
+  },
+  "E4-10": {
+   "R": "Sí",
+   "donde": "Oficial de Datos Personales y asistentes de cumplimiento (DS 016-2024-JUS); CAS OSIPTEL",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Apoya al Oficial de Datos Personales; no puede ser designado oficial al egreso ni emite interpretación jurídica.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Confirmé en el reglamento (DS 016-2024-JUS) las 48 h, el oficial obligatorio en supuestos definidos y el documento de seguridad. No pude abrir la nota ANPD de multas (gob.pe 418).",
+   "bloque": "S"
+  },
+  "E5-01": {
+   "R": "Sí",
+   "donde": "OTI y comités de gobierno digital (Plan de Gobierno Digital, DS 029-2021-PCM); jefaturas de TI privadas",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Elabora el diagnóstico y el borrador del plan; la aprobación y la priorización corresponden a la alta dirección o al comité de gobierno digital.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Las vacantes de O*NET corresponden a gerentes en EE. UU., no al egresado. El Plan de Gobierno Digital del reglamento es el ancla correcta. N=2 al egreso.",
+   "bloque": "S"
+  },
+  "E5-02": {
+   "R": "Sí",
+   "donde": "Arquitectos de negocio en banca (Interbank, TOGAF); Marco de Arquitectura Digital del Estado",
+   "P": 3,
+   "E": "Útil",
+   "F": 1,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [
+     "E5-02-T4"
+    ],
+    "corregir": []
+   },
+   "lim": "Modela vistas y brechas bajo un arquitecto empresarial; no aprueba la arquitectura objetivo ni los estándares, ni emite dictámenes de conformidad.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 2,
+   "com": "S1 débil: el puesto 58 del EGDI no es un dato de demanda y solo 4 de 45 avisos la piden. Retirar T4: el dictamen de conformidad no es alcanzable con N2.",
+   "bloque": "S"
+  },
+  "E5-03": {
+   "R": "Sí",
+   "donde": "PMO y analistas de portafolio en banca y entidades (portafolio del Plan de Gobierno Digital)",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [
+     "E5-03-T5"
+    ],
+    "corregir": []
+   },
+   "lim": "Elabora casos de negocio y reportes del portafolio; la decisión de inversión es del comité o de la alta dirección.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 3,
+   "com": "S1 se apoya en un solo aviso (USD 5 millones) y en proyecciones globales del PMI. Retirar T5: los estándares de la PMO son tarea de dirección de proyectos, no de portafolio.",
+   "bloque": "S"
+  },
+  "E5-04": {
+   "R": "Sí",
+   "donde": "Especialista de gobierno digital que asiste al comité (CAS MIMP 2026); gobierno de la IA (DS 115-2025-PCM, ENIA)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [
+     "Articular el gobierno de TI con los roles de oficial de gobierno de datos, de seguridad y de IA"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diagnostica y propone políticas con supervisión; la aprobación de políticas y la rendición de cuentas corresponden a la dirección.",
+   "S1": 3,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Verificado: el DS 115-2025-PCM rige desde el 22-01-2026 y la ENIA crea el oficial de IA con informes trimestrales. Vigencia muy alta; conviene una tarea que articule los tres oficiales.",
+   "bloque": "S",
+   "fuente": "https://www.garrigues.com/es_ES/noticia/peru-aprueba-estrategia-nacional-inteligencia-artificial-enia-establece-obligaciones"
+  },
+  "E5-05": {
+   "R": "Sí",
+   "donde": "Coordinadores y jefes de proyecto TI en cajas municipales, consultoras y OTI",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Planifica proyectos de complejidad baja o media; en proyectos complejos coordina bajo un jefe de proyecto.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "S1 usa datos de empleo de EE. UU. S2=2: la 8.ª edición del PMBOK se cita por un blog secundario (Learning Tree) y el enfoque híbrido no es una tendencia fechada.",
+   "bloque": "S"
+  },
+  "E5-06": {
+   "R": "Sí",
+   "donde": "Jefes de proyecto TI en consultoras (sector público) y banca",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Dirige proyectos acotados o frentes de un proyecto mayor; los cambios de costo o plazo contractual los aprueba el patrocinador.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "La primera frase de la FD no cita referencia. S2: retiros del PMI (global) y PMBOK 8 por fuente secundaria. N=2: dirigir al egreso requiere supervisión directa.",
+   "bloque": "S"
+  },
+  "E5-07": {
+   "R": "Sí",
+   "donde": "Áreas usuarias de TI que formulan TDR bajo la Ley 32069; gestión de terceros en banca (SBS 504-2021, art. 24)",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E5-07-T1",
+      "t": "Formular el requerimiento, las especificaciones técnicas o los términos de referencia y apoyar la indagación de mercado"
+     }
+    ]
+   },
+   "lim": "Formula requerimientos y verifica entregables; no adjudica contratos ni aplica penalidades, que corresponden al órgano de contrataciones.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Verifiqué que la Ley 32069 entra en vigor 90 días después de su reglamento (DS 009-2025-EF, 22-01-2025), es decir, en abril de 2025. La SBS 504-2021 exige estrategia de salida en la nube.",
+   "bloque": "S",
+   "fuente": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32069-TXM.pdf"
+  },
+  "E5-08": {
+   "R": "Sí",
+   "donde": "Analistas de transformación digital; OTI que implementan la Ley 31170 y servicios en GOB.PE",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Rediseña procesos con supervisión indirecta; la aprobación del proceso y la gestión del cambio a escala corresponden a la dirección.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "El «15 % de trámites» viene de un informe de 2023, desactualizado. GOB.PE: «5 162» servicios aquí frente a «350» en E1-04. Se superpone con E1-01 (T3) y con E1-07.",
+   "bloque": "S"
+  },
+  "E5-09": {
+   "R": "Sí",
+   "donde": "Gestores de servicio en proveedores de banca (TCS) y mesas de servicio corporativas",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Mide y reporta niveles de servicio y propone mejoras; la negociación con clientes estratégicos la lidera un gestor senior.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "La página de ITIL 5 que revisé no fecha el lanzamiento ni detalla prácticas. Las transacciones PIDE (774 M aquí, 500 M en E1-06) son incoherentes entre especialidades.",
+   "bloque": "S",
+   "fuente": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-5-foundation-version-50-4154"
+  },
+  "E5-10": {
+   "R": "Sí",
+   "donde": "Líder de mesa de servicios y centro de operaciones (Financiera Confianza); NCI 3.10 de la Contraloría",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [
+     "E5-10-T5"
+    ],
+    "corregir": []
+   },
+   "lim": "Coordina incidentes y analiza causas raíz; los cambios de alto riesgo los aprueba el comité de cambios.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "Verifiqué la norma 3.10 de la RC 320-2006-CG (continuidad y segregación). S2: ambas frases citan solo ITIL 5, sin respaldo verificable. Se superpone con E2-08; T5 es configuración de herramienta.",
+   "bloque": "S",
+   "fuente": "https://doc.contraloria.gob.pe/libros/2/pdf/RC_320_2006_CG.pdf"
+  },
+  "E5-11": {
+   "R": "Sí",
+   "donde": "Auditores de TI en sociedades de auditoría y banca (SBS: auditoría externa de sistemas); OCI del Estado",
+   "P": 4,
+   "E": "Esencial",
+   "F": 2,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Ejecuta pruebas de control y papeles de trabajo bajo un auditor senior; no firma el informe ni emite opinión de auditoría.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Confirmé que la Res. SBS 504-2021 modifica el Reglamento de Auditoría Externa para incluir la evaluación de los sistemas de información. El impacto de la IA en la auditoría está bien indicado.",
+   "bloque": "S",
+   "fuente": "https://intranet2.sbs.gob.pe/dv_int_cn/2046/v2.0/Adjuntos/504-2021.R.pdf"
+  },
+  "E5-12": {
+   "R": "Sí",
+   "donde": "Riesgo tecnológico en banca (Banco Falabella) y consultoras (EY IT Risk)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 4,
+   "L": 4,
+   "N": 2,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [
+     "E5-12-T5"
+    ],
+    "corregir": []
+   },
+   "lim": "Identifica y valora riesgos con supervisión directa; la aceptación del riesgo y la respuesta al regulador son de la gerencia de riesgos.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "S1 usa un dato de ciberataques de 2021, desactualizado. Se superpone con E4-01; la T5 (riesgo de IA) duplica E3-08-T5. Recomiendo concentrar el riesgo de IA en una sola función.",
+   "bloque": "S"
+  }
+ },
+ "abiertas": {
+  "E1": {
+   "faltantes": [
+    {
+     "t": "Integración de servicios de IA generativa en aplicaciones",
+     "tareas": [
+      "Consumir APIs de modelos de lenguaje en funcionalidades de la aplicación",
+      "Aplicar controles de privacidad y transparencia exigidos por el DS 115-2025-PCM"
+     ],
+     "evidencia": "DS 115-2025-PCM (vigente desde el 22-01-2026) y ENIA RM 152-2026-PCM; o bien delimitarla frente a E3-07"
+    }
+   ],
+   "fusiones": [
+    "E1-10 con E2-06 (CI/CD duplicado)",
+    "E1-09 con E4-05: delimitar controles del desarrollador frente a la conformidad independiente",
+    "E1-07 con E5-08: automatización técnica frente al rediseño de procesos"
+   ]
+  },
+  "E2": {
+   "faltantes": [
+    {
+     "t": "Operación de plataformas bajo los bloques básicos del Estado (NUBE PERÚ)",
+     "tareas": [
+      "Desplegar servicios en NUBE PERÚ según sus acuerdos de disponibilidad y seguridad"
+     ],
+     "evidencia": "DS 098-2025-PCM art. 87 (uso obligatorio; acuerdos de disponibilidad, escalabilidad y seguridad)"
+    }
+   ],
+   "fusiones": [
+    "E2-04 con E2-03 (conectividad WAN y voz), o retirarla por ser de Ingeniería de Telecomunicaciones",
+    "E2-09 con E4-08 (respaldo y recuperación duplicados)",
+    "E2-11 con E4-03 (seguridad perimetral duplicada)",
+    "E2-02 dentro de E2-01 como fase de adopción de la nube"
+   ]
+  },
+  "E3": {
+   "faltantes": [
+    {
+     "t": "Gestión de datos abiertos e interoperabilidad de datos públicos",
+     "tareas": [
+      "Publicar conjuntos en la Plataforma Nacional de Datos Abiertos",
+      "Registrar modelos y conjuntos en el Catálogo IA Perú"
+     ],
+     "evidencia": "ENIA RM 152-2026-PCM (Catálogo IA Perú); hoy dispersa en E3-03-T5; podría ser tarea y no función"
+    }
+   ],
+   "fusiones": [
+    "E3-08 con E5-12-T5 (evaluación de riesgo de IA)",
+    "E3-03-T4 con E4-10 (clasificación de datos personales)",
+    "E3-01 y E3-02 podrían fusionarse en ingeniería de datos si se requiere reducir"
+   ]
+  },
+  "E4": {
+   "faltantes": [
+    {
+     "t": "Seguridad de sistemas de inteligencia artificial",
+     "tareas": [
+      "Evaluar amenazas propias de modelos (inyección de instrucciones, envenenamiento, fuga)",
+      "Definir controles de acceso para servicios de IA"
+     ],
+     "evidencia": "IBM Cost of a Data Breach 2025 (97 % sin controles de acceso para IA); DS 115-2025-PCM"
+    },
+    {
+     "t": "Gestión de la seguridad de terceros y la cadena de suministro",
+     "tareas": [
+      "Evaluar la seguridad de proveedores y servicios en la nube",
+      "Verificar sus certificaciones y cláusulas de seguridad"
+     ],
+     "evidencia": "Res. SBS 504-2021 arts. 23-24 (nube y subcontratación); Verizon DBIR 2025 (terceros en el 30 % de las brechas)"
+    }
+   ],
+   "fusiones": [
+    "E4-08 con E2-09",
+    "E4-03 con E2-11",
+    "E4-05 con E1-09 (fijar frontera)",
+    "E4-01 con E5-12 (riesgo de seguridad frente a riesgo tecnológico)"
+   ]
+  },
+  "E5": {
+   "faltantes": [
+    {
+     "t": "Gobierno y gestión de la inteligencia artificial en la organización",
+     "tareas": [
+      "Elaborar el plan de acción de IA alineado al plan de gobierno de datos",
+      "Apoyar al oficial de IA en los informes trimestrales y el registro en el Catálogo IA Perú"
+     ],
+     "evidencia": "ENIA RM 152-2026-PCM (oficial de IA, planes de acción, Catálogo IA Perú); DS 115-2025-PCM"
+    }
+   ],
+   "fusiones": [
+    "E5-10 con E2-08 (incidentes y cambios)",
+    "E5-09 y E5-10 podrían ser una sola función de gestión de servicios de TI",
+    "E5-03 con E5-01 (portafolio dentro de la planificación estratégica) si se requiere reducir",
+    "E5-12-T5 con E3-08"
+   ]
+  }
+ },
+ "verificadas": [
+  {
+   "ref": "E1 [21]",
+   "url": "https://busquedas.elperuano.pe/dispositivo/NL/2423580-2",
+   "sostiene": true,
+   "nota": "DS 098-2025-PCM (31-07-2025), art. 87: uso obligatorio de PIDE, PÁGALO.PE, ID GOB.PE, FIRMA PERÚ, SGD PERÚ, NUBE PERÚ, entre otros."
+  },
+  {
+   "ref": "E1 [22]",
+   "url": "https://busquedas.elperuano.pe/dispositivo/NL/1491441-1",
+   "sostiene": true,
+   "nota": "RM 041-2017-PCM (02-03-2017): uso obligatorio de la NTP-ISO/IEC 12207:2016 en el Sistema Nacional de Informática."
+  },
+  {
+   "ref": "E1 [24] / E4 [17]",
+   "url": "https://img.lpderecho.pe/wp-content/uploads/2024/11/Decreto-Supremo-016-2024-JUS-LPDerecho.pdf",
+   "sostiene": true,
+   "nota": "Por búsqueda (IAPP, Pérez-Llorca): DS 016-2024-JUS (30-11-2024), notificación a la ANPD en 48 h y oficial de datos obligatorio en supuestos definidos."
+  },
+  {
+   "ref": "E2 [11]",
+   "url": "https://busquedas.elperuano.pe/dispositivo/NL/2423580-2",
+   "sostiene": true,
+   "nota": "NUBE PERÚ es un bloque básico; el art. 87.5 fija acuerdos de disponibilidad, escalabilidad y seguridad."
+  },
+  {
+   "ref": "E2 [13]",
+   "url": "https://www.ey.com/es_pe/technical/tax-alert/reglamento-ley-marco-confianza-digital-medidas-fortalecimiento",
+   "sostiene": true,
+   "nota": "DS 126-2025-PCM publicado el 04-11-2025 y vigente desde el 03-02-2026; 48 h solo para incidentes críticos. En E2-08 el alcance se generaliza en exceso."
+  },
+  {
+   "ref": "E2 [14]",
+   "url": "https://busquedas.elperuano.pe/normaslegales/aprueban-los-lineamientos-para-la-gestion-de-la-continuidad-resolucion-ministerial-no-320-2021-pcm-2026593-2/",
+   "sostiene": true,
+   "nota": "RM 320-2021-PCM: lineamientos de continuidad operativa de las entidades públicas; no es específica de la recuperación de TI."
+  },
+  {
+   "ref": "E3 [9]",
+   "url": "https://www.garrigues.com/es_ES/noticia/peru-aprueba-estrategia-nacional-inteligencia-artificial-enia-establece-obligaciones",
+   "sostiene": true,
+   "nota": "ENIA RM 152-2026-PCM (vigente desde el 02-05-2026): plan de IA condicionado al plan de gobierno de datos, oficial de IA, equipos técnicos y Catálogo IA Perú."
+  },
+  {
+   "ref": "E3 [14]",
+   "url": "https://intranet2.sbs.gob.pe/dv_int_cn/2240/v1.0/Adjuntos/0053-2023.R.pdf",
+   "sostiene": false,
+   "nota": "Res. SBS 053-2023: el inventario de modelos se reporta una vez al año, 31 días después del cierre del primer semestre, no cada semestre; alcanza a modelos de gestión de riesgos. Sostiene parcialmente E3-09."
+  },
+  {
+   "ref": "E3 [8] / E5 [15]",
+   "url": "https://www.gob.pe/institucion/pcm/normas-legales/7133522-115-2025-pcm",
+   "sostiene": true,
+   "nota": "Por búsqueda (Cuatrecasas, LP): DS 115-2025-PCM, publicado el 09-09-2025 y vigente desde el 22-01-2026; riesgo alto en crédito, selección, salud e infraestructura crítica; implementación gradual para el sector privado."
+  },
+  {
+   "ref": "E4 [12]",
+   "url": "https://intranet2.sbs.gob.pe/dv_int_cn/2046/v2.0/Adjuntos/504-2021.R.pdf",
+   "sostiene": true,
+   "nota": "Texto leído: líneas base seguras, SOC con inteligencia de amenazas, evidencia forense, art. 19 (autenticación reforzada), art. 21 (API: pentest y desarrollo seguro), art. 23 (nube), estrategia de salida."
+  },
+  {
+   "ref": "E4 [15]",
+   "url": "https://lpderecho.pe/reglamento-marco-confianza-digital-decreto-supremo-126-2025-pcm/",
+   "sostiene": true,
+   "nota": "LP devolvió 403; por búsqueda: 48 h al CNSD para incidentes críticos y vigencia desde el 03-02-2026. No pude verificar los niveles de confianza en la autenticación."
+  },
+  {
+   "ref": "E4 [19]",
+   "url": "https://www.gob.pe/institucion/minjus/noticias/1088896-autoridad-nacional-de-proteccion-de-datos-personales-impuso-multas-por-mas-de-s-13-millones-por-infracciones-a-la-normativa-el-ano-2024",
+   "sostiene": null,
+   "nota": "No abrió (HTTP 418); las cifras de 454 entidades y 133 procedimientos siguen sin verificar."
+  },
+  {
+   "ref": "E5 [14]",
+   "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32069-TXM.pdf",
+   "sostiene": true,
+   "nota": "Vigésima novena DCF: rige 90 días después del reglamento (DS 009-2025-EF, 22-01-2025), es decir, en abril de 2025."
+  },
+  {
+   "ref": "E5 [12]",
+   "url": "https://doc.contraloria.gob.pe/libros/2/pdf/RC_320_2006_CG.pdf",
+   "sostiene": true,
+   "nota": "La norma 3.10 de controles para las TIC incluye segregación de funciones y continuidad del servicio."
+  },
+  {
+   "ref": "E5 [13]",
+   "url": "https://intranet2.sbs.gob.pe/dv_int_cn/2046/v2.0/Adjuntos/504-2021.R.pdf",
+   "sostiene": true,
+   "nota": "Modifica el Reglamento de Auditoría Externa para incluir la evaluación de los sistemas de información; regula terceros y nube (E5-07, E5-11 y E5-12)."
+  },
+  {
+   "ref": "E5 [28]",
+   "url": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-5-foundation-version-50-4154",
+   "sostiene": false,
+   "nota": "Confirma que ITIL 5 existe y trata productos y servicios digitales en entornos con IA, pero no fecha el lanzamiento en 2026 ni menciona las prácticas de incidentes, problemas y cambios."
+  }
+ ]
+}

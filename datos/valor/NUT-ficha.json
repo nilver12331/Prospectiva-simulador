@@ -1,0 +1,177 @@
+{
+ "cod": "NUT",
+ "fecha": "24-09-2026",
+ "ficha": {
+  "c1": "postulante",
+  "c2": {
+   "t": "La anemia no cede: afecta a 43,4 % de niños de 6 a 35 meses en el Perú y a 75,4 % en Puno.",
+   "f": "INEI, ENDES 2025 (Infobae, 18-05-2026)"
+  },
+  "c3": [
+   "Universidad Nacional del Altiplano (Puno) · Nutrición Humana",
+   "Universidad Nacional Mayor de San Marcos (Lima) · Nutrición",
+   "Universidad Nacional Federico Villarreal (Lima) · Nutrición",
+   "Universidad Peruana de Ciencias Aplicadas (Lima) · Nutrición y Dietética",
+   "Universidad Científica del Sur (Lima) · Nutrición y Dietética",
+   "Universidad San Ignacio de Loyola (Lima) · Nutrición y Dietética",
+   "Universidad Peruana Cayetano Heredia (Lima) · Nutrición",
+   "Universidad César Vallejo · Nutrición",
+   "Universidad Norbert Wiener (Lima) · Nutrición y Dietética"
+  ],
+  "c5": "Si otra universidad de Lima o Puno declara mención pediátrica o geriátrica antes de 2029."
+ },
+ "par": [
+  "Licenciamiento institucional de la SUNEDU",
+  "Convenios docente-asistenciales con hospitales del MINSA y EsSalud",
+  "Internado en nutrición clínica y en nutrición comunitaria (12 y 11 de 18 planes lo formalizan)",
+  "Centro de simulación clínica compartido con otras carreras de salud",
+  "Bolsa de trabajo y seguimiento del egresado",
+  "Plataforma virtual y aulas equipadas",
+  "Flexibilidad de horarios",
+  "Preparación para el SERUMS y la colegiatura en el CNP"
+ ],
+ "cad": {
+  "car": {
+   "p1": "En el Perú, 43,4 % de niños de 6 a 35 meses tiene anemia (75,4 % en Puno) y 41,8 % de mayores de 15 años tiene obesidad, diabetes o hipertensión (INEI, ENDES 2025, publicada 05-2026).",
+   "p2": "C1, C2 y C3 — atender a la persona, intervenir sobre la nutrición de su población y dirigir el servicio que la alimenta, respondiendo por indicadores.",
+   "p3": "La gestante, el niño, el paciente y el trabajador de Lima Este y de Puno recuperan o mantienen un estado nutricional que se mide en hemoglobina, peso y talla.",
+   "p4": "Que lo que una persona come no le cueste la salud, del primer año a la vejez."
+  },
+  "esp": [
+   {
+    "comp": "C1",
+    "alias": "Atención nutricional",
+    "p1": "En el Perú, 41,8 % de mayores de 15 años tiene obesidad, diabetes o hipertensión (INEI, ENDES 2025) y 3 millones viven con enfermedad renal crónica (Altavoz, 17-07-2025).",
+    "p2": "C1 — valorar, diagnosticar, prescribir y seguir el plan nutricional de la persona sana o enferma, registrado en su historia clínica.",
+    "p3": "El paciente hospitalizado o ambulatorio, el niño, la gestante y el adulto mayor de Lima Este y Juliaca llegan al alta con su estado nutricional valorado y un plan que su familia sabe seguir.",
+    "p4": "Que cada paciente reciba la alimentación que su condición exige, del ingreso al alta."
+   },
+   {
+    "comp": "C2",
+    "alias": "Intervención poblacional",
+    "p1": "En el Perú, 12,1 % de menores de cinco años tiene desnutrición crónica (23,0 % en zona rural) y la anemia de 6 a 35 meses llega a 75,4 % en Puno (INEI, ENDES 2025).",
+    "p2": "C2 — diagnosticar la situación nutricional de una población con línea de base, diseñar y ejecutar el programa y evaluar su impacto con indicadores.",
+    "p3": "Los niños menores de tres años del distrito de Puno o de Lima Este donde el programa se ejecutó elevan su hemoglobina y crecen según su edad.",
+    "p4": "Que la anemia y la desnutrición dejen de decidir el futuro de un niño."
+   },
+   {
+    "comp": "C3",
+    "alias": "Alimentación colectiva",
+    "p1": "En 2026 el Programa de Alimentación Escolar atiende a 4,2 millones de escolares del Perú con S/ 2 636,6 millones, tras unos 400 intoxicados en 2024 (RPP, 16-12-2025).",
+    "p2": "C3 — planificar el menú, estandarizar y costear las preparaciones, asegurar la inocuidad con HACCP y auditar el servicio de alimentación.",
+    "p3": "El escolar, el paciente hospitalizado y el trabajador de campamento reciben cada día una ración adecuada y segura, con sus puntos críticos registrados y sin no conformidades abiertas.",
+    "p4": "Que cada ración servida en un hospital, una escuela o un campamento sea segura y suficiente."
+   }
+  ]
+ },
+ "dif": [
+  {
+   "n": "Siete docentes con tesis asesoradas en anemia infantil, alimentación complementaria y gestantes entre 2015 y 2026",
+   "d": "D3",
+   "fam": "Cuerpo docente e investigación",
+   "ev": "Asesorías registradas en el repositorio UPeU (Chanducas, Calizaya, Rodríguez Vásquez, Matos, Miranda, Rodríguez López, Chilón; la más reciente de 2026), consultado el 24-09-2026; nivel 4 en docentes, con evidencia (NUT-decl, 24-09-2026). Ninguno de 18 planes revisados formaliza la especialidad pediátrica y materna (barrido del 24-09-2026). Grados y vínculo vigente sin verificar.",
+   "fuente": "https://repositorio.upeu.edu.pe/server/api/discover/search/objects?query=anemia%20OR%20gestantes%20OR%20lactancia&scope=457644ec-7c72-4143-b451-d9c0bd37c212&size=20",
+   "resp": "Dirección de la EP de Nutrición Humana (Lima-Ñaña y Juliaca)",
+   "alc": 100,
+   "comp": "C1",
+   "esp": "NUT-04 Nutrición pediátrica y materna",
+   "verificado": true
+  },
+  {
+   "n": "Seis docentes con programas nutricionales evaluados con hemoglobina o antropometría en escolares y niños de Lima y Juliaca, 2017 a 2025",
+   "d": "D3",
+   "fam": "Cuerpo docente e investigación",
+   "ev": "Asesorías de tesis 2017 a 2025 en el repositorio UPeU (Chanducas, Collantes, Calizaya, Rodríguez Vásquez, Saintila, Miranda), consultado el 24-09-2026; Jacksaint Saintila con Renacyt nivel II vigente del 27-05-2021 al 27-05-2024 (noticia UPeU, 01-06-2021). Formación en salud pública de cada docente sin verificar.",
+   "fuente": "https://repositorio.upeu.edu.pe/server/api/discover/search/objects?query=Juliaca%20OR%20Puno&scope=457644ec-7c72-4143-b451-d9c0bd37c212&size=20",
+   "resp": "Dirección de la EP de Nutrición Humana (Lima-Ñaña y Juliaca)",
+   "alc": 100,
+   "comp": "C2",
+   "esp": "NUT-03 Nutrición comunitaria y salud pública",
+   "verificado": true
+  },
+  {
+   "n": "Servicio de alimentación propio en operación: comedor universitario en Lima y Juliaca y planta de alimentos «Unión» en Lima",
+   "d": "D4",
+   "fam": "Entornos de práctica e infraestructura",
+   "ev": "Comedor Universitario, Cafetín y Market Unión (servicios Lima, consultado el 24-09-2026); comedor en Juliaca (NUT-decl, 24-09-2026); Centro Universitario de Producción de Bienes «Unión» con acuerdos con Inter-American Health Food Company y Superbom (09-04-2024); Laboratorio de Técnicas Dietéticas (23-09-2019). Horas de práctica por estudiante sin inventario.",
+   "fuente": "https://upeu.edu.pe/servicios-lima/",
+   "resp": "Dirección de la EP de Nutrición Humana (Lima-Ñaña y Juliaca)",
+   "alc": 100,
+   "comp": "C3",
+   "esp": "NUT-02 Gestión de servicios de alimentación e inocuidad",
+   "verificado": true
+  },
+  {
+   "n": "Niño, gestante, adulto mayor y paciente con obesidad como ámbitos declarados de la atención nutricional, y trabajador y programa social como ámbitos de la intervención y del servicio",
+   "d": "D6",
+   "fam": "Modelo de aprendizaje y tecnología",
+   "ev": "0 de 18 planes revisados formalizan pediátrica y materna, obesidad y bariátrica, ocupacional, programas sociales ni geriátrica (barrido de diferenciación, 24-09-2026); la estructura consta en las competencias derivadas del 24-09-2026. Sin resolución que la institucionalice: el plan no está aprobado.",
+   "fuente": "datos/evidencias/NUT-6-diferenciacion.md; datos/competencias/NUT-derivadas.json",
+   "resp": "Dirección de la EP de Nutrición Humana (Lima-Ñaña y Juliaca)",
+   "alc": 100,
+   "comp": "C1",
+   "esp": "NUT-04, NUT-08, NUT-14 (C1); NUT-09 y NUT-10 (C2 y C3)",
+   "verificado": false
+  },
+  {
+   "n": "Campo en el Estado en las dos sedes: internado de Nutrición en la Municipalidad Distrital de Pacllón y plan de trabajo con MIDIS, Programa PAIS, en 63 Tambos de Puno",
+   "d": "D5",
+   "fam": "Red de convenios y campo real",
+   "ev": "Convenio específico con la Municipalidad de Pacllón con internado de Nutrición Humana (13-02-2023); plan de trabajo regional MIDIS y Programa PAIS con UPeU Juliaca (25-08-2025), sin Nutrición explícita; ninguna vigencia publicada ni número de vacantes.",
+   "fuente": "https://upeu.edu.pe/en/noticias/instituciones-educativas-de-salud-y-programas-nacionales-consolidan-convenios-con-la-upeu/",
+   "resp": "Coordinación de prácticas de la EP de Nutrición Humana",
+   "alc": 100,
+   "comp": "C2",
+   "esp": "NUT-10 Nutrición en programas sociales del Estado; NUT-03",
+   "verificado": false
+  }
+ ],
+ "textos": {
+  "t": "La carrera de Nutrición Humana forma nutricionistas que prescriben y siguen al paciente, intervienen sobre la anemia de una población y dirigen el servicio que alimenta a escolares y trabajadores. Se diferencia por siete docentes que investigan anemia infantil y gestantes, y por practicar en el comedor y la planta de alimentos propios. Lo sostienen el repositorio institucional 2015 a 2026 y esos servicios en operación en Lima y Juliaca.",
+  "p": "Conducirás la atención, el programa o el servicio de alimentación y responderás por su resultado medido.",
+  "prop": "Que lo que una persona come no le cueste la salud, del primer año a la vejez.",
+  "vp": [
+   [
+    "En Nutrición Humana la atención al niño, a la gestante y al adulto mayor es un ámbito declarado, algo que ninguno de 18 planes revisados formaliza. Aprendes a decidir qué valorar, qué diagnosticar y qué prescribir según la edad y la condición de cada persona. Lo demuestras con un plan registrado en la historia clínica y su seguimiento hasta el alta.",
+    "Prescribirás y seguirás el plan nutricional de cada paciente y responderás por él en su historia clínica.",
+    "Que cada paciente reciba la alimentación que su condición exige, del ingreso al alta."
+   ],
+   [
+    "La anemia infantil en Puno no baja con charlas sueltas: baja con programas que miden. Aprendes a decidir qué medir en una población, qué programa ejecutar con los actores del lugar y cómo saber si funcionó. Lo demuestras con una línea de base, un programa ejecutado y su informe de impacto.",
+    "Diseñarás, ejecutarás y evaluarás una intervención poblacional y responderás por sus indicadores de impacto.",
+    "Que la anemia y la desnutrición dejen de decidir el futuro de un niño."
+   ],
+   [
+    "Detrás de cada ración de un hospital, una escuela o un campamento hay un menú, un costo y un control de inocuidad. Aprendes a decidir qué se sirve, cuánto cuesta y qué punto crítico se vigila, en el servicio de alimentación que la propia universidad opera. Lo demuestras con un plan HACCP y un expediente de auditoría.",
+    "Dirigirás un servicio de alimentación y responderás por su menú, su costo y su inocuidad ante la autoridad.",
+    "Que cada ración servida en un hospital, una escuela o un campamento sea segura y suficiente."
+   ]
+  ]
+ },
+ "g0": {
+  "g01": true,
+  "g02": true,
+  "g03": true,
+  "g04": true,
+  "g05": true,
+  "g06": true,
+  "g07": true,
+  "g08": true,
+  "g09": true,
+  "detalle": "Párrafo 70 palabras; promesa 16; propósitos car 17, C1 14, C2 14, C3 16; C2 24 y C5 15 palabras; lista negra 0; rayas fuera de p2 0. G0.8 se cumple sin datos: no hay serie de resultados del egresado (D7), vacío que la Dirección debe cubrir. Los alcances (100 %) son meta de diseño para toda la cohorte y los confirma la Dirección; el candidato D6 y el D5 van con verificado false (plan sin resolución; convenios sin vigencia publicada y sin Nutrición explícita en PAIS)."
+ },
+ "sustento": [
+  [
+   "Especialidades que entran al plan",
+   "Ocho en tres competencias: clínica hospitalaria, pediátrica y materna, obesidad y bariátrica y geriátrica en C1; comunitaria y salud pública en C2; gestión de servicios de alimentación en C3; ocupacional y programas sociales ejercen C2 y C3 a la vez. Productos alimentarios no abre competencia: queda como objeto de Estandarizar (NUT-derivadas, 24-09-2026)."
+  ],
+  [
+   "Lo que la escuela puede sostener hoy",
+   "Nivel 4 en docentes para comunitaria y pediátrica y materna; nivel 3 en campo e infraestructura para clínica y servicios de alimentación; la menor capacidad en ocupacional (2-2-2) y programas sociales (2-3-2). Ningún convenio tiene vigencia publicada y no hay inventario de antropometría ni composición corporal (borrador NUT-decl, 24-09-2026, por confirmar y firmar por la Dirección)."
+  ],
+  [
+   "Lo que nadie más ofrece en la región",
+   "0 de 18 planes formalizan pediátrica y materna, obesidad y bariátrica, ocupacional y minería, programas sociales ni geriátrica; productos 3 de 18, ninguna peruana; clínica (12 de 18) y comunitaria (11 de 18) están saturadas (barrido de diferenciación, 24-09-2026)."
+  ]
+ ]
+}

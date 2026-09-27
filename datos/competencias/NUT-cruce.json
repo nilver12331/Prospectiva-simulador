@@ -1,0 +1,137 @@
+{
+ "cod": "NUT",
+ "fecha": "24-09-2026",
+ "eq": {
+  "Nutrición clínica hospitalaria": {
+   "c": 0,
+   "k": null,
+   "t": "comp"
+  },
+  "Nutrición en obesidad y cirugía bariátrica": {
+   "c": 0,
+   "k": null,
+   "t": "amb"
+  },
+  "Nutrición geriátrica y del envejecimiento": {
+   "c": 0,
+   "k": null,
+   "t": "amb"
+  },
+  "Nutrición pediátrica y materna": {
+   "c": 0,
+   "k": null,
+   "t": "amb"
+  },
+  "Nutrición comunitaria y salud pública": {
+   "c": 1,
+   "k": null,
+   "t": "comp"
+  },
+  "Nutrición ocupacional y salud en minería": {
+   "c": 1,
+   "k": null,
+   "t": "amb"
+  },
+  "Nutrición en programas sociales del Estado": {
+   "c": 1,
+   "k": null,
+   "t": "amb"
+  },
+  "Gestión de servicios de alimentación e inocuidad": {
+   "c": 2,
+   "k": null,
+   "t": "comp"
+  }
+ },
+ "extra": {
+  "Nutrición en programas sociales del Estado": [
+   {
+    "c": 2,
+    "k": null,
+    "t": "amb"
+   }
+  ],
+  "Nutrición ocupacional y salud en minería": [
+   {
+    "c": 2,
+    "k": null,
+    "t": "amb"
+   }
+  ]
+ },
+ "sinEncaje": [],
+ "capSinEsp": [],
+ "resumen": " 3 especialidades equivalen a una competencia completa, 3 son ámbito de aplicación, 0 equivalen a una capacidad y 2 (nutrición ocupacional y salud en minería y nutrición en programas sociales del Estado) son ámbito compartido entre dos competencias. Prueba de cobertura: ninguna especialidad sin correspondencia y las 12 capacidades quedan cubiertas. Desarrollo y reformulación de productos alimentarios queda como mención (paso 4.4) y no entra a la matriz.",
+ "filas": [
+  {
+   "esp": "Nutrición clínica hospitalaria",
+   "comp": "Atención nutricional",
+   "cap": "",
+   "t": "comp",
+   "nota": "Ejecuta el ciclo completo valorar-diagnosticar-tratar-seguir y entrega la misma evidencia: plan individualizado en historia clínica."
+  },
+  {
+   "esp": "Nutrición en obesidad y cirugía bariátrica",
+   "comp": "Atención nutricional",
+   "cap": "",
+   "t": "amb",
+   "nota": "Mismo proceso y misma rúbrica del plan individualizado; cambia solo el objeto: persona con obesidad o pre y posbariátrica."
+  },
+  {
+   "esp": "Nutrición geriátrica y del envejecimiento",
+   "comp": "Atención nutricional",
+   "cap": "",
+   "t": "amb",
+   "nota": "Mismo proceso y evidencia; el objeto es el adulto mayor con sarcopenia y disfagia; sin puesto propio en el mercado."
+  },
+  {
+   "esp": "Nutrición pediátrica y materna",
+   "comp": "Atención nutricional",
+   "cap": "",
+   "t": "amb",
+   "nota": "Proceso y evidencia individuales (plan por niño o gestante en CRED); el mercado la admite dentro de la plaza clínica."
+  },
+  {
+   "esp": "Nutrición comunitaria y salud pública",
+   "comp": "Intervención poblacional",
+   "cap": "",
+   "t": "comp",
+   "nota": "Ejecuta el ciclo completo diagnosticar-planificar-intervenir-evaluar y entrega el plan poblacional con línea de base e informe de impacto."
+  },
+  {
+   "esp": "Nutrición ocupacional y salud en minería",
+   "comp": "Intervención poblacional",
+   "cap": "",
+   "t": "amb",
+   "nota": "Su programa ocupacional con indicadores es el mismo ciclo sobre el colectivo de trabajadores; además planifica el menú del campamento."
+  },
+  {
+   "esp": "Nutrición en programas sociales del Estado",
+   "comp": "Intervención poblacional",
+   "cap": "",
+   "t": "amb",
+   "nota": "Capacita y monitorea a la unidad territorial (tramos Intervenir y Evaluar); su proceso principal es la gestión del componente alimentario."
+  },
+  {
+   "esp": "Gestión de servicios de alimentación e inocuidad",
+   "comp": "Alimentación colectiva",
+   "cap": "",
+   "t": "comp",
+   "nota": "Ejecuta el ciclo completo planificar-estandarizar-asegurar-auditar y entrega el plan HACCP con el expediente de auditoría."
+  },
+  {
+   "esp": "Nutrición en programas sociales del Estado",
+   "comp": "Alimentación colectiva",
+   "cap": "",
+   "t": "amb",
+   "nota": "Fichas técnicas, supervisión de proveedores, vigilancia sanitaria y reporte son este mismo proceso sobre la unidad territorial del programa."
+  },
+  {
+   "esp": "Nutrición ocupacional y salud en minería",
+   "comp": "Alimentación colectiva",
+   "cap": "",
+   "t": "amb",
+   "nota": "Aporta el tramo Planificar: el plan alimentario del campamento; el resto de su proceso es intervención poblacional."
+  }
+ ]
+}

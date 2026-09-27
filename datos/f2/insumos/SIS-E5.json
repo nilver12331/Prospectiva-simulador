@@ -1,0 +1,108 @@
+{
+ "carrera": "Ingeniería de Sistemas",
+ "cod": "SIS",
+ "k": "E5",
+ "especialidad": "Gobierno, proyectos y auditoría de TI",
+ "especialidad_base": "Gestión de proyectos y servicios de TI",
+ "integradas": [
+  "Auditoría de sistemas y gobierno de TI",
+  "Arquitectura empresarial y transformación digital"
+ ],
+ "ambitos_y_absorbidas": [
+  "Arquitectura empresarial y transformación digital (capacidad/integrada)",
+  "Auditoría de sistemas y gobierno de TI (capacidad/integrada)"
+ ],
+ "descripcion_f1": {
+  "vol": 4,
+  "amp": 4,
+  "esc": 2,
+  "rem": 3,
+  "for": 3
+ },
+ "proceso_f1": "Planificar → dirigir → controlar → entregar → operar el servicio",
+ "evidencia_f1": "Proyecto entregado con acta de cierre y catálogo de servicios operando bajo acuerdos de nivel",
+ "competencia": {
+  "codigo": "C5",
+  "alias": "Gobierno y gestión de TI",
+  "nombre": "Gobierno y dirección de proyectos y servicios de tecnología de la información",
+  "definicion_conceptual": "Dirigir la tecnología de una organización desde la estrategia hasta el servicio, alineando la hoja de ruta tecnológica con la estrategia del negocio, planificando y dirigiendo proyectos con equipos y proveedores, operando los servicios bajo acuerdos de nivel y evaluando los controles y riesgos de TI ante la dirección y el comité de auditoría, con marcos de gestión de proyectos, de servicios y de gobierno de TI, en empresas, Estado y consultoras, para que la inversión tecnológica genere valor, cumpla sus compromisos y se gobierne con control."
+ },
+ "capacidades_SOLO_PARA_MOMENTO_4": [
+  {
+   "codigo": "C5.1",
+   "accion": "Alinear",
+   "nombre": "Alineamiento de la tecnología con la estrategia organizacional",
+   "definicion": "Capacidad de diagnosticar la madurez digital, alinear la tecnología con la estrategia, diseñar la arquitectura objetivo y priorizar el portafolio en una hoja de ruta con medición de valor, en organizaciones en transformación; moviliza arquitectura empresarial, gestión del cambio, análisis financiero, visión sistémica y comunicación con la alta dirección."
+  },
+  {
+   "codigo": "C5.2",
+   "accion": "Planificar",
+   "nombre": "Planificación de proyectos tecnológicos",
+   "definicion": "Capacidad de definir el alcance, el cronograma, los recursos, los riesgos y los proveedores de un proyecto tecnológico, en enfoques predictivos o ágiles según el contexto de la organización; moviliza marcos de gestión de proyectos, estimación, contratación y negociación con proveedores, realismo, orden y compromiso con lo pactado."
+  },
+  {
+   "codigo": "C5.3",
+   "accion": "Dirigir",
+   "nombre": "Dirección, control y entrega de proyectos tecnológicos",
+   "definicion": "Capacidad de dirigir equipos y proveedores, gestionar los cambios de alcance, controlar avance, costo y calidad, y entregar el proyecto con aceptación formal del cliente, en entornos de incertidumbre; moviliza liderazgo, gestión de equipos y conflictos, control de proyectos, reporte a la dirección, responsabilidad y orientación a resultados."
+  },
+  {
+   "codigo": "C5.4",
+   "accion": "Operar",
+   "nombre": "Operación de los servicios de tecnología de la información",
+   "definicion": "Capacidad de operar el catálogo de servicios tecnológicos bajo acuerdos de nivel, gestionando incidentes, cambios, problemas y mejora continua con marcos de gestión de servicios, en organizaciones que dependen de la tecnología para operar; moviliza ITIL, medición de servicios, atención al usuario, disciplina operativa y orientación al servicio."
+  },
+  {
+   "codigo": "C5.5",
+   "accion": "Evaluar",
+   "nombre": "Auditoría de controles y riesgos de tecnología de la información",
+   "definicion": "Capacidad de planificar y ejecutar auditorías de sistemas, evaluar los controles y riesgos de TI frente a marcos de gobierno y cumplimiento, reportar los hallazgos al comité de auditoría y seguir su remediación, con independencia; moviliza COBIT, auditoría, normativa, objetividad, integridad, rigor probatorio y comunicación de hallazgos."
+  }
+ ],
+ "otras_competencias": [
+  {
+   "codigo": "C1",
+   "nombre": "Desarrollo de soluciones de software",
+   "capacidades": [
+    "C1.1 Analizar: Análisis y especificación de requisitos",
+    "C1.2 Diseñar: Diseño de la arquitectura de la solución",
+    "C1.3 Construir: Construcción e integración de los componentes de software",
+    "C1.4 Verificar: Verificación de la calidad del software",
+    "C1.5 Desplegar: Despliegue y mantenimiento en producción"
+   ]
+  },
+  {
+   "codigo": "C2",
+   "nombre": "Diseño y operación de la infraestructura tecnológica",
+   "capacidades": [
+    "C2.1 Diseñar: Diseño de la arquitectura de la plataforma",
+    "C2.2 Automatizar: Aprovisionamiento y automatización de la infraestructura",
+    "C2.3 Operar: Operación y soporte de la infraestructura",
+    "C2.4 Observar: Observabilidad y aseguramiento de la disponibilidad",
+    "C2.5 Optimizar: Optimización del rendimiento y de los costos"
+   ]
+  },
+  {
+   "codigo": "C3",
+   "nombre": "Desarrollo de soluciones de analítica e inteligencia artificial",
+   "capacidades": [
+    "C3.1 Gobernar: Gobierno e integración del dato",
+    "C3.2 Modelar: Modelado analítico y entrenamiento de algoritmos",
+    "C3.3 Evaluar: Evaluación de la validez y la ética del modelo",
+    "C3.4 Implantar: Implantación y monitoreo en producción",
+    "C3.5 Comunicar: Comunicación de resultados para la toma de decisiones"
+   ]
+  },
+  {
+   "codigo": "C4",
+   "nombre": "Gestión de la seguridad de la información y de los riesgos digitales",
+   "capacidades": [
+    "C4.1 Evaluar: Evaluación de riesgos y vulnerabilidades",
+    "C4.2 Proteger: Diseño e implantación de controles de seguridad",
+    "C4.3 Detectar: Monitoreo y detección de amenazas",
+    "C4.4 Responder: Respuesta a incidentes y análisis forense",
+    "C4.5 Recuperar: Continuidad, cumplimiento y auditoría de la seguridad"
+   ]
+  }
+ ]
+}

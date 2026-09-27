@@ -1,0 +1,60 @@
+{
+ "cod": "NUT",
+ "fuente": "Formulación literal entregada por la Escuela el 24-09-2026 (competencias del plan vigente, tal como están escritas)",
+ "competencias": [
+  {
+   "n": "Nutrición y salud",
+   "np": "Competencia 1 · plan vigente",
+   "d": "Propone planes de intervención basados en el proceso de atención nutricional de acuerdo a la situación fisiopatológica, sociocultural, económica y sanitaria de la persona para fomentar cambios en el estilo de vida, promover salud y prevenir la enfermedad.",
+   "caps": [
+    "Evaluación nutricional",
+    "Diagnóstico nutricional",
+    "Intervención nutricional",
+    "Monitoreo nutricional"
+   ],
+   "cd": [
+    "Argumenta el proceso de evaluación nutricional en función a los métodos y herramientas seleccionados para la recolección de datos requeridos considerando la situación fisiopatológica.",
+    "Argumenta el diagnóstico nutricional considerando la definición del problema, su etiología, los signos y síntomas para proponer estrategias de intervención nutricional.",
+    "Elabora un plan de intervención nutricional oportuno acorde a la situación fisiopatológica, sociocultural, económica y sanitaria de la persona para modificar positivamente conductas relacionadas a la salud y nutrición.",
+    "Valora los resultados de la intervención nutricional durante el proceso de seguimiento a la persona, identificando de forma oportuna los cambios positivos o negativos para hacer los ajustes necesarios, alcanzar los objetivos y mejorar el estado de salud y nutrición."
+   ],
+   "tipo": "A",
+   "nota": ""
+  },
+  {
+   "n": "Gestión en nutrición y alimentos",
+   "np": "Competencia 2 · plan vigente",
+   "d": "Gestiona servicios de nutrición y alimentos, asegurando procesos de calidad y la incorporación de tecnologías emergentes y prácticas innovadoras que contribuyan a la seguridad alimentaria, aplicadas de forma ética y sostenible, y alineadas con los estándares de seguridad alimentaria y las necesidades nutricionales de la población.",
+   "caps": [
+    "Gestión de servicios de nutrición y alimentación",
+    "Incorporación de tecnologías emergentes",
+    "Seguridad alimentaria y sostenibilidad"
+   ],
+   "cd": [
+    "Gestiona eficientemente servicios de nutrición y alimentación, enfocándose en la calidad y la innovación adaptados a las nuevas tendencias del mercado y necesidades de la población.",
+    "Implementa y adapta tecnologías emergentes y prácticas innovadoras en la gestión de la nutrición y los alimentos.",
+    "Asegura que los servicios y productos cumplan con los estándares de seguridad alimentaria y sostenibilidad, respetando el medio ambiente y las necesidades nutricionales."
+   ],
+   "tipo": "A",
+   "nota": ""
+  },
+  {
+   "n": "Gestión de la atención nutricional integral de la comunidad",
+   "np": "Competencia 3 · plan vigente",
+   "d": "Diseña, implementa y evalúa programas y políticas de salud pública en nutrición, integrando equipos interdisciplinarios, con el propósito de prevenir o controlar eficazmente y con evidencia científica la problemática alimentario nutricional que afecta la salud de diversas poblaciones, actuando de manera ética, inclusiva, respetando la diversidad cultural y las necesidades específicas de las comunidades.",
+   "caps": [
+    "Diseño y evaluación de programas de salud pública",
+    "Gestión de problemas alimentario-nutricionales"
+   ],
+   "cd": [
+    "Desarrolla y evalúa programas y políticas de nutrición para la salud pública, utilizando enfoques basados en la evidencia y tecnologías de la información.",
+    "Identifica y aborda problemas alimentarios y nutricionales en diferentes poblaciones, con un enfoque en la prevención y el control."
+   ],
+   "tipo": "A",
+   "nota": ""
+  }
+ ],
+ "notas": [
+  "La Escuela entregó ocho unidades y decidió conservar en la línea base solo las tres que se contrastan con las competencias derivadas: atención individual, poblacional y servicios de alimentación. Las demás (ciencia de los alimentos, gestión del proceso de atención nutricional, gestión de proyectos, promoción de estilos de vida, fundamentos básicos) quedan fuera del contraste por decisión de la Escuela del 24-09-2026."
+ ]
+}

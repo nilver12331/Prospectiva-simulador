@@ -1,0 +1,221 @@
+{
+ "rol": "V5",
+ "SIS": {
+  "A": [
+   {
+    "E": false,
+    "D": 2,
+    "R": 3,
+    "S": "E",
+    "V": 2,
+    "c": "Único en el barrido, pero SIS-12 y SIS-13 declaran cam 2, inf 2 y un docente en privacidad: no sostiene el 100 %."
+   },
+   {
+    "E": false,
+    "D": 3,
+    "R": 3,
+    "S": "E",
+    "V": 2,
+    "c": "UTEC no está en C3. SIS-04 en 3-3-3; AWS Academy de 2020 sin vigencia verificada: la línea depende de renovar créditos de nube."
+   },
+   {
+    "E": false,
+    "D": 3,
+    "R": 2,
+    "S": "U",
+    "V": 2,
+    "c": "Proyectos documentados, pero plana 2026 no confirmada, alcance 60 % y financiamiento puntual de S/ 30 000; sin compromiso de continuidad."
+   },
+   {
+    "E": true,
+    "D": 2,
+    "R": 3,
+    "S": "N",
+    "V": 2,
+    "c": "Cualquier competidor declara convenios; 28 sin desglose, vigencia ni vacantes. Es paridad, no diferencial, hasta tener cupos por cohorte."
+   },
+   {
+    "E": true,
+    "D": 2,
+    "R": 2,
+    "S": "N",
+    "V": 2,
+    "c": "Laboratorios de 2020-2023 sin inventario ni horas por estudiante; Juliaca sin laboratorio. UPC, ULima y UTP pueden firmarlo hoy."
+   }
+  ],
+  "B": {
+   "t": {
+    "L": 3,
+    "So": false,
+    "Au": false
+   },
+   "vp": [
+    {
+     "L": 4,
+     "So": true,
+     "Au": true
+    },
+    {
+     "L": 3,
+     "So": false,
+     "Au": true
+    },
+    {
+     "L": 3,
+     "So": true,
+     "Au": true
+    },
+    {
+     "L": 3,
+     "So": false,
+     "Au": true
+    },
+    {
+     "L": 3,
+     "So": false,
+     "Au": false
+    }
+   ]
+  },
+  "C": {
+   "car": {
+    "An": true,
+    "At": 3,
+    "Mo": 3,
+    "Dg": false
+   },
+   "esp": [
+    {
+     "An": true,
+     "At": 3,
+     "Mo": 3,
+     "Dg": false
+    },
+    {
+     "An": true,
+     "At": 3,
+     "Mo": 2,
+     "Dg": false
+    },
+    {
+     "An": true,
+     "At": 3,
+     "Mo": 3,
+     "Dg": false
+    },
+    {
+     "An": true,
+     "At": 3,
+     "Mo": 4,
+     "Dg": false
+    },
+    {
+     "An": true,
+     "At": 3,
+     "Mo": 2,
+     "Dg": false
+    }
+   ]
+  },
+  "falta": "La operación real de TI de la propia UPeU (DTI y suite Lamb System) en tres sedes como campo de práctica institucional, y la FIA compartiendo docentes con Ciberseguridad y Ciencia de Datos.",
+  "problema": "La brecha digital de municipalidades, gobiernos regionales y mypes de Puno y San Martín, que no tienen personal de TI para sostener servicios digitales ni cumplir la Ley 29733."
+ },
+ "NUT": {
+  "A": [
+   {
+    "E": true,
+    "D": 3,
+    "R": 2,
+    "S": "E",
+    "V": 2,
+    "c": "UNA Puno y UPCH también tienen docentes que investigan anemia; vínculo y grados de los siete sin verificar, varias asesorías anteriores a 2020."
+   },
+   {
+    "E": true,
+    "D": 3,
+    "R": 2,
+    "S": "U",
+    "V": 2,
+    "c": "NUT-03 con inf 2: sin hemoglobinómetros ni antropometría de campo inventariados; Renacyt de Saintila vencido en 2024. Competidores públicos pueden firmarlo."
+   },
+   {
+    "E": false,
+    "D": 3,
+    "R": 3,
+    "S": "E",
+    "V": 3,
+    "c": "Comedor y planta Unión existen y seguirán; faltan horas por estudiante y un docente con HACCP para sostener la práctica de cada cohorte."
+   },
+   {
+    "E": false,
+    "D": 2,
+    "R": 3,
+    "S": "U",
+    "V": 2,
+    "c": "Plan no aprobado; NUT-08 sin bariátrica, NUT-09 en 2-2-2 y NUT-14 con inf 2: la estructura declarada excede la capacidad instalada."
+   },
+   {
+    "E": true,
+    "D": 2,
+    "R": 2,
+    "S": "U",
+    "V": 2,
+    "c": "Pacllón sin vigencia ni vacantes y el plan MIDIS-PAIS no nombra Nutrición; UNA Puno ya formaliza internado comunitario en el Estado."
+   }
+  ],
+  "B": {
+   "t": {
+    "L": 3,
+    "So": true,
+    "Au": true
+   },
+   "vp": [
+    {
+     "L": 3,
+     "So": false,
+     "Au": true
+    },
+    {
+     "L": 4,
+     "So": false,
+     "Au": true
+    },
+    {
+     "L": 4,
+     "So": true,
+     "Au": true
+    }
+   ]
+  },
+  "C": {
+   "car": {
+    "An": true,
+    "At": 2,
+    "Mo": 4,
+    "Dg": false
+   },
+   "esp": [
+    {
+     "An": true,
+     "At": 3,
+     "Mo": 3,
+     "Dg": false
+    },
+    {
+     "An": true,
+     "At": 2,
+     "Mo": 4,
+     "Dg": false
+    },
+    {
+     "An": true,
+     "At": 3,
+     "Mo": 3,
+     "Dg": false
+    }
+   ]
+  },
+  "falta": "La alimentación basada en plantas del estilo de vida adventista, con la planta Unión y los acuerdos con Superbom e Inter-American Health Food, como línea formativa y de producto.",
+  "problema": "La inseguridad alimentaria de los hogares y la escasez de nutricionistas en el primer nivel de atención del MINSA, sobre todo en zonas rurales de Puno."
+ }
+}

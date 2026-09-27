@@ -1,0 +1,129 @@
+{
+  "cod": "NUT",
+  "indicador": "hab",
+  "fecha": "24-09-2026",
+  "items": [
+    {
+      "cod": "NUT-01",
+      "nivel": 4,
+      "norma": "Ley 30188 (08-05-2014) arts. 3-4; NTS 103-MINSA/DGSP-V.01 (RM 665-2013/MINSA, 23-10-2013) núm. 6.1.4 y 6.2.1; Reglamento del Estatuto del CNP (21-11-2018) art. 3",
+      "registro": "Título de Segunda Especialidad Profesional en Nutrición Clínica (UNMSM, 4 semestres; U. Wiener, menciones renal y oncológica) inscrito en SUNEDU y en el Registro Nacional de Especialistas del CNP (S/ 200)",
+      "sustento": "NTS 103: la UPSS Nutrición y Dietética y la consulta nutricional están a cargo de nutricionistas titulados y colegiados; jefatura reservada a profesional de Nutrición. La terapia nutricional es privativa (Reglamento CNP art. 3). Especialidad universitaria registrable en el RNE.",
+      "fuentes": [
+        {"t": "Congreso de la República. (2014). Ley N.º 30188, Ley del Ejercicio Profesional del Nutricionista", "u": "https://cnp.org.pe/wp-content/uploads/2017/12/LEYDELNUTRICIONISTA.pdf", "fecha": "24-09-2026"},
+        {"t": "Ministerio de Salud. (2013). RM N.º 665-2013/MINSA. NTS N.º 103-MINSA/DGSP-V.01, UPSS de Nutrición y Dietética", "u": "https://cnp.org.pe/wp-content/uploads/2016/11/NORMA-T%C3%89CNICA-DE-SALUD-DE-LA-UNIDAD-PRODUCTORA-DE-SERVICIOS-DE-SALUD-DE-NUTRICI%C3%93N-Y-DIET%C3%89TICA.pdf", "fecha": "24-09-2026"},
+        {"t": "Colegio de Nutricionistas del Perú. (2018). Reglamento del Estatuto del CNP", "u": "https://cnp.org.pe/wp-content/uploads/2018/11/REGLAMENTO-DEL-ESTATUTO-CNP.pdf", "fecha": "24-09-2026"},
+        {"t": "Colegio de Nutricionistas del Perú. (s. f.). Trámites: Registro Nacional de Especialistas", "u": "https://cnp.org.pe/tramites/", "fecha": "24-09-2026"},
+        {"t": "UNMSM, Facultad de Medicina. (s. f.). Especialidad en Nutrición Clínica", "u": "https://carrerasuniversitarias.pe/universidades/universidad-nacional-mayor-de-san-marcos-unmsm/especialidad-en-nutricion-clinica", "fecha": "24-09-2026"}
+      ]
+    },
+    {
+      "cod": "NUT-02",
+      "nivel": 3,
+      "norma": "Reglamento del Estatuto del CNP (21-11-2018) art. 4; NTS 103 (RM 665-2013/MINSA) núm. 6.1.7 y 6.5; DS 007-98-SA (25-09-1998) arts. 58-61; RM 449-2006/MINSA (17-05-2006) arts. 7, 17 y 34",
+      "registro": "",
+      "sustento": "Reglamento CNP art. 4 obliga a todo servicio de alimentación colectiva a contar con nutricionista colegiado; NTS 103 pone la central de producción a cargo de licenciados. HACCP exige 'profesional responsable' sin profesión; DIGESA valida el plan, no al profesional.",
+      "fuentes": [
+        {"t": "Colegio de Nutricionistas del Perú. (2018). Reglamento del Estatuto del CNP", "u": "https://cnp.org.pe/wp-content/uploads/2018/11/REGLAMENTO-DEL-ESTATUTO-CNP.pdf", "fecha": "24-09-2026"},
+        {"t": "Ministerio de Salud. (2013). RM N.º 665-2013/MINSA. NTS N.º 103, UPSS de Nutrición y Dietética", "u": "https://cnp.org.pe/wp-content/uploads/2016/11/NORMA-T%C3%89CNICA-DE-SALUD-DE-LA-UNIDAD-PRODUCTORA-DE-SERVICIOS-DE-SALUD-DE-NUTRICI%C3%93N-Y-DIET%C3%89TICA.pdf", "fecha": "24-09-2026"},
+        {"t": "Presidencia de la República. (1998). DS N.º 007-98-SA, Reglamento sobre Vigilancia y Control Sanitario de Alimentos y Bebidas", "u": "https://www.digesa.minsa.gob.pe/Codex/D.S.007_98_SA.pdf", "fecha": "24-09-2026"},
+        {"t": "Ministerio de Salud. (2006). RM N.º 449-2006/MINSA, Norma Sanitaria para la Aplicación del Sistema HACCP", "u": "https://www.saludarequipa.gob.pe/desa/archivos/Normas_Legales/alimentos/RM_449_2006.pdf", "fecha": "24-09-2026"},
+        {"t": "DIGESA. (s. f.). Disposiciones para Habilitación Sanitaria y Validación Técnica Oficial del Plan HACCP", "u": "https://www.digesa.minsa.gob.pe/orientacion/comunicado-haccp.asp", "fecha": "24-09-2026"}
+      ]
+    },
+    {
+      "cod": "NUT-03",
+      "nivel": 4,
+      "norma": "Ley 30188 (08-05-2014) art. 5.a; Ley 23536 (1982) art. 6.i y 1.ª Disp. Complementaria; NTS 213-MINSA/DGIESP-2024 (RM 251-2024/MINSA, 08-04-2024) núm. 5 y 6; Reglamento del Estatuto del CNP art. 3",
+      "registro": "Título de Segunda Especialidad Profesional en Nutrición con mención en Nutrición Pública (UNMSM, 4 semestres, 72 créditos) inscrito en SUNEDU y registrable en el RNE del CNP",
+      "sustento": "Ley 30188 faculta al nutricionista a formular políticas, planes y programas de alimentación y nutrición; Ley 23536 lo integra a la carrera de profesionales de la salud; NTS 213 le asigna la atención nutricional. Segunda especialidad en Nutrición Pública registrable.",
+      "fuentes": [
+        {"t": "Congreso de la República. (2014). Ley N.º 30188", "u": "https://www.elperulegal.com/2014/05/ley-n-30188.html", "fecha": "24-09-2026"},
+        {"t": "Congreso de la República. (1982). Ley N.º 23536, normas generales que regulan el trabajo y la carrera de los profesionales de la salud", "u": "https://www.minsa.gob.pe/Recursos/OGTI/SINADEF/Ley-23536.pdf", "fecha": "24-09-2026"},
+        {"t": "Ministerio de Salud. (2024). RM N.º 251-2024/MINSA. NTS N.º 213, prevención y control de la anemia", "u": "https://www.diresapuno.gob.pe/wp-content/uploads/2025/02/RM-N%C2%B0-251-2024-MINSA-APRUEBA-NTS-N%C2%B0-213-ANEMIA.pdf", "fecha": "24-09-2026"},
+        {"t": "UNMSM, Unidad de Posgrado de Medicina. (s. f.). Especialidad en Nutrición (menciones Nutrición Pública, Clínica y Paliativa)", "u": "https://upgmedicina.unmsm.edu.pe/especialidad-en-nutricion/", "fecha": "24-09-2026"},
+        {"t": "Colegio de Nutricionistas del Perú. (s. f.). Trámites: Registro Nacional de Especialistas", "u": "https://cnp.org.pe/tramites/", "fecha": "24-09-2026"}
+      ]
+    },
+    {
+      "cod": "NUT-04",
+      "nivel": 4,
+      "norma": "NTS 213-MINSA/DGIESP-2024 (RM 251-2024/MINSA, 08-04-2024) núm. 5 y 6; RM 034-2024/MINSA (16-01-2024) Guía de valoración antropométrica 0-11 años; NTS 103 (RM 665-2013/MINSA) consultorio de nutrición pediátrica; Ley 30188 art. 4.b",
+      "registro": "Título de Segunda Especialidad Profesional en Nutrición Pediátrica (U. Wiener, 40 créditos; U. Científica del Sur, 12 meses) inscrito en SUNEDU y registrable en el RNE del CNP",
+      "sustento": "NTS 213 define la atención y la prescripción nutricional de niños, gestantes y puérperas como acto del licenciado en Nutrición (45 min, mensual); NTS 103 fija un licenciado por 15 pacientes pediátricos. Segunda especialidad universitaria registrable.",
+      "fuentes": [
+        {"t": "Ministerio de Salud. (2024). RM N.º 251-2024/MINSA. NTS N.º 213, prevención y control de la anemia", "u": "https://busquedas.elperuano.pe/dispositivo/NL/2277624-1", "fecha": "24-09-2026"},
+        {"t": "Ministerio de Salud. (2024). RM N.º 034-2024/MINSA, Guía Técnica para la Valoración Nutricional Antropométrica de la Niña y el Niño de 0 a 11 Años", "u": "https://busquedas.elperuano.pe/dispositivo/NL/2253592-1", "fecha": "24-09-2026"},
+        {"t": "Ministerio de Salud. (2013). RM N.º 665-2013/MINSA. NTS N.º 103", "u": "https://cnp.org.pe/wp-content/uploads/2016/11/NORMA-T%C3%89CNICA-DE-SALUD-DE-LA-UNIDAD-PRODUCTORA-DE-SERVICIOS-DE-SALUD-DE-NUTRICI%C3%93N-Y-DIET%C3%89TICA.pdf", "fecha": "24-09-2026"},
+        {"t": "Universidad Norbert Wiener. (s. f.). Segunda Especialidad en Nutrición Pediátrica", "u": "https://posgrado.uwiener.edu.pe/segunda-especialidad/nutricion-pediatrica/", "fecha": "24-09-2026"},
+        {"t": "Universidad Científica del Sur. (2024). Segunda Especialidad en Nutrición Pediátrica", "u": "https://esp-nutricion-ped.cientifica.edu.pe/", "fecha": "24-09-2026"}
+      ]
+    },
+    {
+      "cod": "NUT-07",
+      "nivel": 3,
+      "norma": "Reglamento del Estatuto del CNP (21-11-2018) art. 3; Ley 30188 art. 4.a; DS 007-98-SA (25-09-1998) arts. 61, 105 y 117; DS 017-2017-SA (15-06-2017) art. 4; RM 449-2006/MINSA art. 17",
+      "registro": "",
+      "sustento": "El Reglamento CNP incluye la asesoría en producción de alimentos y el aseguramiento de calidad como ejercicio del nutricionista. DS 007-98-SA y RM 449-2006 exigen 'profesional' sin fijar profesión; DS 017-2017-SA no lo menciona. Función compartida con ingeniería de alimentos.",
+      "fuentes": [
+        {"t": "Colegio de Nutricionistas del Perú. (2018). Reglamento del Estatuto del CNP", "u": "https://cnp.org.pe/wp-content/uploads/2018/11/REGLAMENTO-DEL-ESTATUTO-CNP.pdf", "fecha": "24-09-2026"},
+        {"t": "Presidencia de la República. (1998). DS N.º 007-98-SA", "u": "https://www.digesa.minsa.gob.pe/Codex/D.S.007_98_SA.pdf", "fecha": "24-09-2026"},
+        {"t": "Presidencia de la República. (2017). DS N.º 017-2017-SA, Reglamento de la Ley N.º 30021", "u": "https://www2.congreso.gob.pe/sicr/cendocbib/con4_uibd.nsf/5289E04A2A160ABD052581A10070E6CE/$FILE/2_decreto_supre_017_de_alimentacion.pdf", "fecha": "24-09-2026"},
+        {"t": "DIGESA. (s. f.). TUPA 30, Registro sanitario de alimentos de consumo humano: cartilla de requisitos", "u": "https://www.digesa.minsa.gob.pe/Expedientes/CARTILLA_REQUISITOS_VF.pdf", "fecha": "24-09-2026"},
+        {"t": "Ministerio de Salud. (2006). RM N.º 449-2006/MINSA", "u": "https://www.saludarequipa.gob.pe/desa/archivos/Normas_Legales/alimentos/RM_449_2006.pdf", "fecha": "24-09-2026"}
+      ]
+    },
+    {
+      "cod": "NUT-08",
+      "nivel": 4,
+      "norma": "Ley 30188 art. 4.b; Reglamento del Estatuto del CNP art. 3 (terapia nutricional privativa); NTS 103 (RM 665-2013/MINSA); GPC IETSI-EsSalud para el manejo quirúrgico de la obesidad en adultos (2020) BPC 3",
+      "registro": "Título de Segunda Especialidad Profesional en Nutrición en Obesidad y Cirugía Bariátrica (U. Wiener, 40 créditos, título registrado en SUNEDU) registrable en el RNE del CNP",
+      "sustento": "La prescripción dietética es privativa del nutricionista (Reglamento CNP art. 3). La GPC de EsSalud exige evaluación prequirúrgica y seguimiento por equipo multidisciplinario con nutricionistas. Existe segunda especialidad específica registrable. Resolución que aprueba la GPC: No verificado.",
+      "fuentes": [
+        {"t": "IETSI-EsSalud. (2020). Guía de práctica clínica para el manejo quirúrgico de la obesidad en adultos", "u": "https://gpc-peru.com/gpcmqo", "fecha": "24-09-2026"},
+        {"t": "Universidad Norbert Wiener. (s. f.). Segunda Especialidad en Nutrición en Obesidad y Cirugía Bariátrica", "u": "https://posgrado.uwiener.edu.pe/segunda-especialidad/nutricion-en-obesidad-y-cirugia-bariatrica/", "fecha": "24-09-2026"},
+        {"t": "Colegio de Nutricionistas del Perú. (2018). Reglamento del Estatuto del CNP", "u": "https://cnp.org.pe/wp-content/uploads/2018/11/REGLAMENTO-DEL-ESTATUTO-CNP.pdf", "fecha": "24-09-2026"},
+        {"t": "Colegio de Nutricionistas del Perú. (s. f.). Trámites: Registro Nacional de Especialistas", "u": "https://cnp.org.pe/tramites/", "fecha": "24-09-2026"}
+      ]
+    },
+    {
+      "cod": "NUT-09",
+      "nivel": 3,
+      "norma": "Reglamento del Estatuto del CNP (21-11-2018) arts. 3-4; DS 024-2016-EM (28-07-2016) arts. 188 y 208; RM 312-2011/MINSA (04-2011) equipo de vigilancia de la salud; RM 375-2008-TR (28-11-2008)",
+      "registro": "",
+      "sustento": "Solo el Reglamento CNP art. 4 exige nutricionista en servicios de alimentación colectiva (comedores mineros, art. 188 DS 024-2016-EM). Las normas estatales de salud ocupacional (RM 312-2011, RM 375-2008-TR) no lo incluyen en el equipo; no hay especialidad ni registro.",
+      "fuentes": [
+        {"t": "Colegio de Nutricionistas del Perú. (2018). Reglamento del Estatuto del CNP", "u": "https://cnp.org.pe/wp-content/uploads/2018/11/REGLAMENTO-DEL-ESTATUTO-CNP.pdf", "fecha": "24-09-2026"},
+        {"t": "Ministerio de Energía y Minas. (2016). DS N.º 024-2016-EM, Reglamento de Seguridad y Salud Ocupacional en Minería", "u": "https://faolex.fao.org/docs/pdf/per160277.pdf", "fecha": "24-09-2026"},
+        {"t": "Ministerio de Salud. (2011). RM N.º 312-2011/MINSA, Protocolos de exámenes médico ocupacionales", "u": "https://www.digesa.minsa.gob.pe/publicaciones/descargas/DT-PROTOCOLOS-MINSA.pdf", "fecha": "24-09-2026"},
+        {"t": "Ministerio de Trabajo. (2008). RM N.º 375-2008-TR, Norma Básica de Ergonomía", "u": "https://www.gob.pe/institucion/mtpe/normas-legales/394457-375-2008-tr", "fecha": "24-09-2026"}
+      ]
+    },
+    {
+      "cod": "NUT-10",
+      "nivel": 3,
+      "norma": "Ley 30188 art. 5.a; DS 010-2024-MIDIS (creación de Wasi Mikuna); RDE N.º 2496-2025-MIDIS/PNCM-DE (Directiva de cuidado diurno Cuna Más); perfiles CAS Cuna Más N.º 914 (2023) y Wasi Mikuna N.º 094 (2025)",
+      "registro": "",
+      "sustento": "La ley faculta al nutricionista a diseñar y evaluar programas de alimentación institucionales y nacionales. Los perfiles de MIDIS habilitan el título, pero lo comparten con bromatología e ingeniería de industrias alimentarias; ninguna norma exige especialidad ni registro adicional.",
+      "fuentes": [
+        {"t": "Congreso de la República. (2014). Ley N.º 30188", "u": "https://cnp.org.pe/wp-content/uploads/2017/12/LEYDELNUTRICIONISTA.pdf", "fecha": "24-09-2026"},
+        {"t": "Programa Nacional Cuna Más. (2023). Convocatoria CAS N.º 914, Especialista en Nutrición", "u": "https://www.convocatoriasdetrabajo.com/oportunidad-laboral-cas-914-especialista-nutricion-cuna-mas-apurimac-345657.html", "fecha": "24-09-2026"},
+        {"t": "Programa Wasi Mikuna. (2025). Convocatorias CAS (Especialista en Alimentos N.º 094)", "u": "https://www.convocatoriasdetrabajo.com/organizacion-PROGRAMA-WASI-MIKUNA-1766.html", "fecha": "24-09-2026"},
+        {"t": "MEF. (s. f.). Ficha de niveles de servicio y estándares de calidad, Programa Nacional Cuna Más", "u": "https://www.mef.gob.pe/contenidos/inv_publica/docs/metodologias/Ficha_niveles_servicio/Ficha_niveles_servicio_y_estandares_de_calidad_por_servicio_midis.pdf", "fecha": "24-09-2026"},
+        {"t": "Agraria.pe. (2024). Crean nuevo Programa Nacional de Alimentación Escolar Comunitaria Wasi Mikuna (DS 010-2024-MIDIS)", "u": "https://agraria.pe/noticias/crean-nuevo-programa-nacional-de-alimentacion-escolar-comuni-37891", "fecha": "24-09-2026"}
+      ]
+    },
+    {
+      "cod": "NUT-14",
+      "nivel": 3,
+      "norma": "DS 024-2021-MIMP (27-07-2021), Reglamento de la Ley 30490, arts. 14, 16.1.c, 16.2, 16.3.e y 32.c; NTS 103 (RM 665-2013/MINSA); Reglamento del Estatuto del CNP art. 3",
+      "registro": "",
+      "sustento": "El reglamento de la Ley 30490 exige nutricionista a disposición de todo centro residencial, de día y de noche, y lo integra al equipo multidisciplinario geriátrico. No se localizó segunda especialidad en nutrición geriátrica en universidades peruanas.",
+      "fuentes": [
+        {"t": "MIMP. (2021). DS N.º 024-2021-MIMP, Reglamento de la Ley N.º 30490, Ley de la Persona Adulta Mayor", "u": "https://www2.congreso.gob.pe/sicr/cendocbib/con5_uibd.nsf/FCCDF8DE45F85B1A052586A200770470/$FILE/2.Decreto_Supremo_aprueba_Reglamento_Ley_30490.pdf", "fecha": "24-09-2026"},
+        {"t": "Congreso de la República. (2016). Ley N.º 30490, Ley de la Persona Adulta Mayor", "u": "https://www2.congreso.gob.pe/sicr/cendocbib/con5_uibd.nsf/9EA3A7A7C55E0861052586A200754679/$FILE/1.Ley_de_la_Persona_Adulta_Mayor.pdf", "fecha": "24-09-2026"},
+        {"t": "Ministerio de Salud. (2013). RM N.º 665-2013/MINSA. NTS N.º 103", "u": "https://cnp.org.pe/wp-content/uploads/2016/11/NORMA-T%C3%89CNICA-DE-SALUD-DE-LA-UNIDAD-PRODUCTORA-DE-SERVICIOS-DE-SALUD-DE-NUTRICI%C3%93N-Y-DIET%C3%89TICA.pdf", "fecha": "24-09-2026"}
+      ]
+    }
+  ]
+}

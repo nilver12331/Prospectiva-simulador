@@ -1,0 +1,910 @@
+{
+ "cod": "NUT",
+ "k": "E2",
+ "expertos": [
+  "X1 · Académico-investigador · docente universitario de pregrado y posgrado 16 años · doctor en salud pública · líneas en malnutrición hospitalaria, anemia infantil y gestión de servicios de alimentación · ASPEN, ESPEN, GLIM, Codex",
+  "X2 · Empleador del sector público · jefe de departamento de nutrición de hospital MINSA con experiencia en DIRESA (estrategia de anemia) y supervisión de programa alimentario social · 16 años",
+  "X3 · Empleador del sector privado · 15 años · gerente de nutrición y calidad de una concesionaria de alimentación (campamentos mineros de altura, clínicas y comedores industriales) · antes jefe de nutrición de clínica privada en Lima",
+  "X4 · Nutricionista senior · 15 años · hospitales del MINSA y EsSalud, redes de primer nivel, programas sociales y concesionarios de alimentación · GLIM, ESPEN, NTS 103, HACCP",
+  "X5 · Nutricionista egresado reciente · 4 años · SERUMS en microrred rural, hospital MINSA de Lima, concesionario de alimentación en campamento minero y consulta privada",
+  "X6 · Experto contextual · prospectiva laboral en salud y alimentación · normativa del MINSA, MIDIS, DIGESA y SENASA · transformación digital en salud (SIHCE, telesalud)"
+ ],
+ "cvrCrit": "1,00",
+ "acta": "Panel de 6 expertos simulados (X1–X6) y guardián metodológico · rondas 1 y 2 · N = 6: I-CVI ≥ 0,83 y CVR crítico 1,00 (Ayre y Scally, 2014). Un solo panel por carrera: cada experto calificó en su rol todas las especialidades. Pre-validación de agentes: la validación oficial la repiten especialistas humanos con el mismo instrumento.",
+ "resumen": "3 núcleo · 1 complementarias · 6 propuestas de exclusión · 7 con bloques observados en R1 · S-CVI/Ave 0,98",
+ "sCVI": "0,98",
+ "funciones": {
+  "E2-01": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 9,
+   "N": 3,
+   "lim": "Supervisión indirecta; la interpretación oficial de prevalencias la valida el responsable del establecimiento o programa; no hace diagnóstico clínico individual.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": "Función núcleo",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {},
+   "ajustes": {
+    "d": "Diagnostica el estado nutricional de una población con línea de base, vigilancia y tamizaje de riesgo para priorizar problemas, grupos y territorios de intervención; incluye como sublínea la evaluación rápida de necesidades nutricionales en emergencias y desastres.",
+    "amb": "Primer nivel de atención y redes de salud; gobiernos locales; programas sociales; ONG y respuesta humanitaria en emergencias",
+    "tasks": [
+     {
+      "code": "E2-01-T1",
+      "t": "Levantar mediciones antropométricas y de hemoglobina en la población objetivo",
+      "ent": "1. Línea de base nutricional"
+     },
+     {
+      "code": "E2-01-T2",
+      "t": "Procesar y depurar bases de datos nutricionales con indicadores estandarizados",
+      "ent": "1. Línea de base nutricional"
+     },
+     {
+      "code": "E2-01-T3",
+      "t": "Analizar tendencias de las fuentes oficiales de vigilancia nutricional",
+      "ent": "2. Sala situacional nutricional"
+     },
+     {
+      "code": "E2-01-T4",
+      "t": "Identificar determinantes y grupos de riesgo nutricional",
+      "ent": "2. Sala situacional nutricional"
+     },
+     {
+      "code": "E2-01-T5",
+      "t": "Presentar la situación nutricional a autoridades y actores locales",
+      "ent": "2. Sala situacional nutricional"
+     },
+     {
+      "code": "E2-01-T6",
+      "t": "Evaluar con rapidez las necesidades nutricionales y tamizar la desnutrición aguda de los grupos vulnerables en emergencias y desastres",
+      "ent": "3. Evaluación rápida en emergencias"
+     }
+    ],
+    "prod": {
+     "name": "Diagnóstico nutricional poblacional con línea de base",
+     "desc": "Diagnóstico nutricional poblacional que establece la magnitud, la distribución y los determinantes de la anemia, la desnutrición y el exceso de peso en una comunidad o un territorio, y sirve de punto de partida medible para cualquier intervención, también tras una emergencia. Integra la caracterización de la población, los indicadores antropométricos y de hemoglobina ajustados por altitud, los datos de las fuentes oficiales de vigilancia, el análisis de determinantes y, cuando ocurre un desastre, la evaluación rápida con tamizaje de desnutrición aguda. Se elabora con un padrón o una muestra definidos e instrumentos estandarizados, y se verifica contrastando las prevalencias con las fuentes oficiales y los puntos de corte vigentes. Orienta la priorización de grupos, zonas y problemas, y demuestra que el egresado mide con rigor la situación nutricional de una población.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Línea de base nutricional",
+       "codes": "E2-01-T1, E2-01-T2",
+       "sum": "prevalencias de anemia, desnutrición y exceso de peso con su base de datos depurada",
+       "ev": [
+        "base de datos con control de calidad del dato",
+        "cuadro de prevalencias con puntos de corte y ajuste por altitud vigentes"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Sala situacional nutricional",
+       "codes": "E2-01-T3, E2-01-T4, E2-01-T5",
+       "sum": "tendencias, determinantes, grupos de riesgo y mapa de prioridades del territorio",
+       "ev": [
+        "mapa o tablero de prioridades por zona",
+        "acta o registro de presentación a actores locales"
+       ]
+      },
+      {
+       "n": "3",
+       "t": "Evaluación rápida en emergencias",
+       "codes": "E2-01-T6",
+       "sum": "necesidades nutricionales y casos de desnutrición aguda de los grupos vulnerables afectados",
+       "ev": [
+        "ficha de evaluación rápida aplicada con tamizaje de desnutrición aguda",
+        "listado de grupos priorizados para la asistencia"
+       ]
+      }
+     ]
+    },
+    "fd": "Esta función tiene demanda porque la anemia afecta al 43,7 % de niños de 6 a 35 meses y la desnutrición crónica al 12,1 % de menores de cinco años, con brechas rurales marcadas [1]. El Plan Multisectorial 2024-2030 y la NTS 213 exigen medir hemoglobina y estado nutricional para focalizar acciones [4] [5], el SIEN opera en 7 938 establecimientos [8] y la Ley 30188 faculta al nutricionista para intervenir en emergencias y desastres [10]. La CIUO-08 y O*NET incluyen evaluar necesidades nutricionales [11] [12], y los avisos piden evaluación antropométrica e identificación de casos de anemia y desnutrición [33] [34]. Ello exige profesionales capaces de levantar una línea de base confiable.",
+    "refs": "[1] [4] [5] [6] [7] [8] [10] [11] [12] [33] [34]",
+    "conf": 3,
+    "lim": "Supervisión indirecta (directa en emergencias); la interpretación oficial de prevalencias la valida el responsable del establecimiento o programa; no hace diagnóstico clínico individual.",
+    "absorbe": [
+     "E2-09"
+    ],
+    "cambios": "Sublínea de E2-09: la evaluación rápida en emergencias con tamizaje de desnutrición aguda entra como T6 y entregable 3; se retira «colectivos laborales» del ámbito (la nutrición ocupacional queda en E3-09); se cita la Ley 30188."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 3,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E2-02": {
+   "icvi": "1,00",
+   "cvr": "-0,33",
+   "prioridad": 6,
+   "N": 2,
+   "lim": "Formula la propuesta técnica con supervisión; la aprobación presupuestal y la firma de compromisos corresponden al funcionario competente.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Complementaria por decisión de la Escuela",
+   "escuela": {
+    "accion": "rescatar",
+    "motivo": "Única función que moviliza C2.2 Planificar; el producto se ajusta a lo alcanzable al egreso (sin acta firmada)."
+   },
+   "demDelphi": "Baja",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "ok",
+    "pb": "rev"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "no alcanzó el umbral",
+    "pb": "Falta elegir intervenciones por evidencia. Un acta intersectorial firmada no es evidencia factible al egreso; programar presupuesto por PP exige supervisión directa (N2). · El acta de compromisos firmada no depende del egresado: P3 bajo. En DIRESA esta programación la hace planeamiento con el nutricionista como aporte técnico, no como responsable."
+   },
+   "ajustes": {
+    "tasks": [
+     {
+      "code": "E2-02-T1",
+      "t": "Priorizar problemas y causas a partir del diagnóstico nutricional",
+      "ent": "1. Marco lógico de la intervención"
+     },
+     {
+      "code": "E2-02-T2",
+      "t": "Seleccionar intervenciones con evidencia de efectividad para los problemas priorizados",
+      "ent": "1. Marco lógico de la intervención"
+     },
+     {
+      "code": "E2-02-T3",
+      "t": "Formular objetivos, metas e indicadores de resultado de la intervención",
+      "ent": "1. Marco lógico de la intervención"
+     },
+     {
+      "code": "E2-02-T4",
+      "t": "Programar actividades, productos y presupuesto según el programa presupuestal aplicable",
+      "ent": "2. Programación y propuesta de compromisos"
+     },
+     {
+      "code": "E2-02-T5",
+      "t": "Preparar la propuesta de compromisos de sectores, gobierno local y organizaciones comunitarias para su concertación",
+      "ent": "2. Programación y propuesta de compromisos"
+     }
+    ],
+    "prod": {
+     "name": "Propuesta técnica de intervención nutricional con marco lógico y presupuesto",
+     "desc": "Propuesta técnica que traduce el diagnóstico en objetivos, metas, intervenciones, actividades, presupuesto e indicadores para una población y un periodo definidos, y que el egresado formula con la supervisión directa del responsable de planeamiento o del programa. Integra el árbol de problemas, la justificación de las intervenciones con su evidencia, la matriz de marco lógico, la programación física y financiera alineada al programa presupuestal y la propuesta de compromisos de los actores. Se elabora a partir de la línea de base y de la normativa vigente, y se verifica por la coherencia entre problema, objetivo y producto y por la factibilidad de sus metas. Sustenta la decisión del funcionario competente de aprobar y financiar la intervención, y demuestra que el egresado planifica con lógica de resultados.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Marco lógico de la intervención",
+       "codes": "E2-02-T1, E2-02-T2, E2-02-T3",
+       "sum": "árbol de problemas, intervenciones con evidencia, objetivos, metas e indicadores",
+       "ev": [
+        "matriz de marco lógico completa con la evidencia de cada intervención",
+        "fichas de indicadores con línea de base y meta"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Programación y propuesta de compromisos",
+       "codes": "E2-02-T4, E2-02-T5",
+       "sum": "actividades, costeo alineado al programa presupuestal y compromisos propuestos",
+       "ev": [
+        "cuadro de programación física y financiera",
+        "propuesta de compromisos con responsables, recursos y plazos"
+       ]
+      }
+     ]
+    },
+    "conf": 2,
+    "lim": "Formula la propuesta técnica con supervisión; la aprobación presupuestal y la firma de compromisos corresponden al funcionario competente.",
+    "cambios": "Rescatada como complementaria (única de C2.2): se añade T2 de selección de intervenciones por evidencia; el acta firmada se sustituye por una propuesta de compromisos; producto formulado con supervisión directa (N2); dos entregables."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 2,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 1,
+    "icviS": "1,00",
+    "icviP": "0,17",
+    "Tm": 3
+   }
+  },
+  "E2-03": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 12,
+   "N": 4,
+   "lim": "Sin supervisión en sesiones grupales; la consejería de casos con enfermedad o anemia moderada o severa se deriva al establecimiento.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": "Función núcleo",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {},
+   "ajustes": {
+    "t": "Consejería, educación alimentaria y entornos saludables en la comunidad",
+    "d": "Conduce la consejería y la educación alimentaria de familias y grupos comunitarios, forma y acompaña a los agentes comunitarios que multiplican la intervención y promueve entornos alimentarios saludables en escuelas y comunidades, para mejorar las prácticas de alimentación, lactancia y prevención de la anemia y del exceso de peso.",
+    "amb": "Primer nivel de atención; hogares y comunidades; centros de promoción y vigilancia comunal; instituciones educativas; programas sociales; gobiernos locales; ONG",
+    "tasks": [
+     {
+      "code": "E2-03-T1",
+      "t": "Diseñar sesiones educativas y demostrativas y sus materiales con pertinencia cultural y en la lengua local",
+      "ent": "1. Paquete educativo y capacitación de agentes"
+     },
+     {
+      "code": "E2-03-T2",
+      "t": "Brindar consejería nutricional a familias y grupos priorizados",
+      "ent": "2. Registro de consejerías y visitas"
+     },
+     {
+      "code": "E2-03-T3",
+      "t": "Realizar visitas domiciliarias de seguimiento de prácticas alimentarias",
+      "ent": "2. Registro de consejerías y visitas"
+     },
+     {
+      "code": "E2-03-T4",
+      "t": "Capacitar y acompañar en campo a agentes comunitarios y comités en prácticas clave de alimentación y vigilancia comunal",
+      "ent": "1. Paquete educativo y capacitación de agentes"
+     },
+     {
+      "code": "E2-03-T5",
+      "t": "Diagnosticar la oferta alimentaria de escuelas y espacios comunitarios, incluidas las advertencias publicitarias de los productos",
+      "ent": "3. Plan de entorno alimentario saludable"
+     },
+     {
+      "code": "E2-03-T6",
+      "t": "Implementar con la comunidad educativa los criterios de kiosco y comedor escolar saludable y verificar su cumplimiento",
+      "ent": "3. Plan de entorno alimentario saludable"
+     }
+    ],
+    "prod": {
+     "name": "Plan comunitario de educación alimentaria y entorno saludable",
+     "desc": "Plan comunitario que organiza y registra las sesiones, consejerías, visitas y capacitaciones con las que una comunidad mejora sus prácticas de alimentación, lactancia y prevención de la anemia, y los cambios en la oferta alimentaria de su escuela o espacio comunitario. Integra el paquete de sesiones y materiales en lengua local, los módulos y listas de cotejo de los agentes capacitados, las fichas de consejería con acuerdos, el registro de visitas y el diagnóstico de la oferta con su plan de kiosco o comedor saludable. Se elabora con la población y la comunidad educativa, y se verifica por la cobertura alcanzada, las prácticas observadas y la oferta comparada antes y después. Orienta la decisión de reforzar, adaptar o ampliar la estrategia, y demuestra que el egresado educa con respeto por la cultura local.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Paquete educativo y capacitación de agentes",
+       "codes": "E2-03-T1, E2-03-T4",
+       "sum": "sesiones y materiales validados y agentes capacitados y acompañados",
+       "ev": [
+        "guía de sesiones demostrativas con materiales en lengua local",
+        "lista de agentes capacitados con su lista de cotejo de desempeño"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Registro de consejerías y visitas",
+       "codes": "E2-03-T2, E2-03-T3",
+       "sum": "familias atendidas, prácticas observadas y acuerdos de cambio",
+       "ev": [
+        "fichas de consejería con acuerdos",
+        "registro de visitas domiciliarias"
+       ]
+      },
+      {
+       "n": "3",
+       "t": "Plan de entorno alimentario saludable",
+       "codes": "E2-03-T5, E2-03-T6",
+       "sum": "oferta alimentaria clasificada, criterios aplicados y cumplimiento verificado",
+       "ev": [
+        "ficha de inventario y clasificación de la oferta",
+        "lista de verificación de kiosco o comedor saludable aplicada"
+       ]
+      }
+     ]
+    },
+    "fd": "Esta función tiene demanda porque solo el 67,4 % de menores de seis meses recibió lactancia materna en 2024, frente al 69,3 % del año previo [1], y la obesidad alcanzó al 25,7 % de las personas de 15 y más años [2]. La NTS 213 incorpora la consejería y la educación alimentaria [5]; el PP 1001 y los criterios del Centro de Promoción y Vigilancia Comunal financian sesiones, visitas y la capacitación de agentes comunitarios [14] [16]; y la Ley 30021 ordena kioscos y comedores escolares saludables [21]. O*NET describe instruir a familias y comunidades [11], y 13 avisos de Cuna Más admiten nutricionistas [29] [30]. Ello exige profesionales capaces de educar, formar agentes y transformar el entorno.",
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque la obesidad en personas de 15 y más años pasó de 18,5 % en 2014 a 25,7 % en 2024 [2], una tendencia que la consejería individual no revierte sin cambiar la oferta de escuelas y comunidades [21]. A ello se suma la NTS 213 de 2024, que extiende la prevención de la anemia a adolescentes, mujeres en edad fértil y gestantes [5]. Por eso es necesario que el egresado domine la educación alimentaria comunitaria.",
+    "refs": "[1] [2] [5] [11] [14] [16] [21] [29] [30]",
+    "conf": 4,
+    "lim": "Sin supervisión en sesiones y consejería grupal; supervisión indirecta con agentes; deriva la anemia moderada o severa; la fiscalización del entorno corresponde a la autoridad.",
+    "absorbe": [
+     "E2-04",
+     "E2-07"
+    ],
+    "cambios": "Absorbe E2-04 (T4, capacitación de agentes) y E2-07 (T5 y T6, oferta con advertencias publicitarias y kiosco saludable); T1 agrupa sesiones y materiales; tres entregables; se retiran citas de Wasi Mikuna; tendencia de obesidad 2014-2024."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 4,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E2-04": {
+   "icvi": "1,00",
+   "cvr": "-0,67",
+   "prioridad": 6,
+   "N": 3,
+   "lim": "Supervisión indirecta; el reconocimiento formal de agentes y la validación de módulos corresponden al establecimiento o al programa.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Fusionada en E2-03",
+   "escuela": {
+    "accion": "fusionar",
+    "destino": "E2-03",
+    "motivo": "La formación de agentes comunitarios es una modalidad de la educación alimentaria comunitaria (C2.3)."
+   },
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "no alcanzó el umbral",
+    "sb": "El fundamento usa avisos de Wasi Mikuna de 2025 [31][40]; como evidencia histórica pasa, pero ya no hay convocatorias de ese programa (forma). La frontera con E3-06 (capacitación sanitaria de comités y comedores) está clara porque aquí son prácticas de alimentación y vigilancia comunal. · Los 15 avisos de cuidado diurno de Cuna Más no evidencian formación de agentes; revisar el conteo. La brecha de nutricionistas no es tendencia fechada."
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · fondo · no hay tendencia fechada: que la brecha «no se cerrará» es una conjetura, y [20] es una nota de Wasi Mikuna, programa extinguido por el DS 006-2025-MIDIS",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 3,
+    "C": 2,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "0,50",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E2-05": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 10.5,
+   "N": 3,
+   "lim": "Supervisión indirecta; no supervisa plantas de proveedores ni audita inocuidad; la programación la aprueba la unidad técnica del programa.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": "Función núcleo",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {},
+   "ajustes": {
+    "t": "Gestión nutricional de la alimentación escolar y de los programas alimentarios municipales",
+    "d": "Gestiona el componente nutricional del servicio alimentario escolar y de los programas alimentarios municipales (Vaso de Leche, complementación alimentaria y ollas comunes) programando raciones, adecuando menús, focalizando beneficiarios y asistiendo a los comités, para asegurar un aporte nutritivo, aceptable y oportuno a la población priorizada.",
+    "amb": "Programa de Alimentación Escolar del MIDIS; instituciones educativas y comités de alimentación escolar; municipalidades (Vaso de Leche, complementación alimentaria, ollas comunes)",
+    "tasks": [
+     {
+      "code": "E2-05-T1",
+      "t": "Programar los requerimientos nutricionales y las raciones por programa, modalidad y región",
+      "ent": "1. Programación nutricional y padrón"
+     },
+     {
+      "code": "E2-05-T2",
+      "t": "Adecuar los menús escolares y las raciones municipales a los hábitos y productos locales",
+      "ent": "1. Programación nutricional y padrón"
+     },
+     {
+      "code": "E2-05-T3",
+      "t": "Focalizar y depurar el padrón de beneficiarios del programa municipal según la prelación normativa",
+      "ent": "1. Programación nutricional y padrón"
+     },
+     {
+      "code": "E2-05-T4",
+      "t": "Asistir técnicamente a los comités de alimentación escolar y de beneficiarios",
+      "ent": "2. Informe de monitoreo y asistencia técnica"
+     },
+     {
+      "code": "E2-05-T5",
+      "t": "Monitorear el consumo, la aceptabilidad y la higiene en la escuela y la distribución de los insumos municipales",
+      "ent": "2. Informe de monitoreo y asistencia técnica"
+     },
+     {
+      "code": "E2-05-T6",
+      "t": "Reportar las incidencias y los resultados de los programas",
+      "ent": "2. Informe de monitoreo y asistencia técnica"
+     }
+    ],
+    "prod": {
+     "name": "Plan de gestión nutricional de programas alimentarios públicos",
+     "desc": "Plan de gestión nutricional que asegura que la ración escolar y la ración municipal cubran el aporte previsto, lleguen a la población priorizada y sean consumidas. Integra la programación de requerimientos y raciones por programa y modalidad, los menús y raciones adecuados al territorio, el padrón depurado según la prelación legal, el plan de asistencia técnica a los comités y el informe de monitoreo de consumo, distribución e incidencias. Se elabora con las normas de cada programa y los hábitos locales, y se verifica con el cálculo del aporte nutricional, los cruces de padrón y las fichas de monitoreo. Orienta la decisión de ajustar raciones, beneficiarios o asistencia técnica, y demuestra que el egresado gestiona programas sociales con criterio nutricional y cultural.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Programación nutricional y padrón",
+       "codes": "E2-05-T1, E2-05-T2, E2-05-T3",
+       "sum": "requerimientos, raciones y menús por programa y beneficiarios priorizados",
+       "ev": [
+        "cuadro de aporte nutricional por ración y programa",
+        "juego de menús regionales adecuados",
+        "padrón depurado según prelación"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Informe de monitoreo y asistencia técnica",
+       "codes": "E2-05-T4, E2-05-T5, E2-05-T6",
+       "sum": "asistencia a comités, consumo, distribución, incidencias y alertas",
+       "ev": [
+        "registro de asistencia técnica a comités",
+        "fichas de monitoreo en institución educativa y de distribución municipal",
+        "informe periódico de incidencias y resultados"
+       ]
+      }
+     ]
+    },
+    "fd": "Esta función tiene demanda porque el Programa de Alimentación Escolar atiende en 2026 a 4 187 782 estudiantes de 67 055 instituciones educativas [19], y el 51,7 % de la población enfrenta inseguridad alimentaria moderada o grave [25]. El DS 006-2025-MIDIS extinguió Wasi Mikuna y declaró en emergencia el servicio escolar [18]; la Ley 31782 obliga a priorizar a niños de 0 a 6 años y gestantes en el Vaso de Leche [22]; y el reglamento de ollas comunes asigna su logística a los gobiernos locales [23]. O*NET incluye estándares nutricionales para programas escolares [11], y el PAE y las municipalidades convocan nutricionistas [28] [38]. Ello exige profesionales capaces de programar, focalizar y monitorear raciones públicas.",
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque el Programa de Alimentación Escolar opera desde 2026 con mayores estándares de control y vigilancia y con productos fortificados y locales [19], tras la extinción de Wasi Mikuna en 2025 [18]. Además, el reglamento de la Ley 31315, aprobado en 2024, asigna a los gobiernos locales la ejecución de programas de apoyo alimentario [24]. Por eso es necesario que el egresado domine la gestión nutricional de los programas alimentarios públicos.",
+    "refs": "[11] [18] [19] [22] [23] [24] [25] [28] [38]",
+    "conf": 3,
+    "lim": "Supervisión indirecta; no supervisa plantas de proveedores ni audita inocuidad (E3-07); programación, compras y actos administrativos los aprueban el programa, el comité o la municipalidad.",
+    "absorbe": [
+     "E2-06"
+    ],
+    "cambios": "Absorbe E2-06: los programas municipales entran al título, al ámbito y a T3 (padrón); T1, T2 y T5 agrupan escolar y municipal; queda como única dueña de la asistencia a comités (se retira E3-10-T5); fuentes del PAE 2026."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 3,
+    "C": 3.5,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "0,83",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E2-06": {
+   "icvi": "0,83",
+   "cvr": "-1,00",
+   "prioridad": 7.5,
+   "N": 3,
+   "lim": "Gestión técnica con supervisión indirecta; compras y actos administrativos corresponden al comité de administración y a la gerencia municipal.",
+   "real": "100 %",
+   "acuerdo": "83 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Fusionada en E2-05",
+   "escuela": {
+    "accion": "fusionar",
+    "destino": "E2-05",
+    "motivo": "Un solo aviso; los programas alimentarios municipales se gestionan con el mismo encargo que la alimentación escolar."
+   },
+   "demDelphi": "Media",
+   "impDelphi": "Medio",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "no alcanzó el umbral",
+    "sb": "Un solo aviso; el nivel 4 declarado es optimista. El impacto repite la norma sin tendencia fechada. Mercado municipal real pero de baja remuneración. · SOFI 51,7 % verificado. S2 cita reglamentos, no una tendencia fechada. Al egreso no lo pondría sin supervisión: N=3."
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (reglamento de la Ley 31315, DS 003-2024-MIDAGRI; Ley 31782, 2023).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 3,
+    "C": 2.5,
+    "V": 2,
+    "L": 4,
+    "ricP": 0.25,
+    "icviS": "0,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E2-07": {
+   "icvi": "1,00",
+   "cvr": "-1,00",
+   "prioridad": 4,
+   "N": 3,
+   "lim": "Diagnostica, propone e implementa con supervisión indirecta; la fiscalización y la sanción corresponden a las autoridades competentes.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Fusionada en E2-03",
+   "escuela": {
+    "accion": "fusionar",
+    "destino": "E2-03",
+    "motivo": "Sin avisos; la promoción de entornos saludables (octógonos, Ley 30021) queda como tarea de la educación comunitaria."
+   },
+   "demDelphi": "Baja",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "no alcanzó el umbral",
+    "sb": "0 de 55 avisos: sostenida solo por norma y estándares. Integrar las advertencias publicitarias (octógonos, DS 012-2018-SA) al diagnóstico de la oferta. El entregable 3 es mínimo. · 0 avisos: demanda solo normativa. Proponer ordenanzas no es encargo habitual del nutricionista de establecimiento. Tres entregables para cuatro tareas fragmentan el producto."
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 2,
+    "C": 2,
+    "V": 3.5,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "0,00",
+    "icviP": "1,00",
+    "Tm": 3.5
+   }
+  },
+  "E2-08": {
+   "icvi": "1,00",
+   "cvr": "-0,67",
+   "prioridad": 7.5,
+   "N": 3,
+   "lim": "Supervisión indirecta con el médico ocupacional, que decide la aptitud; deriva la dietoterapia; no gestiona el servicio de alimentación.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Excluida por la Escuela",
+   "escuela": {
+    "accion": "excluir",
+    "motivo": "Duplica E3-09: la nutrición ocupacional queda solo en Servicios de alimentación y salud ocupacional."
+   },
+   "demDelphi": "Media",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "La carrera debe asignar la nutrición ocupacional a una sola especialidad. Propuesta: el programa preventivo del colectivo (diagnóstico, consejería, indicadores al empleador) queda en una sola función, E2-08 o E3-09. En la otra especialidad solo queda la adecuación de la oferta del comedor por gasto energético, turno y altitud, que en E3 puede fundirse con E3-01. Hoy ambas se remiten mutuamente en lim y ninguna cede tareas. · Duplica casi por completo E3-09: mismo diagnóstico, consejería, menús e indicadores. Dejar una sola función. El impacto describe estancamiento, no crecimiento.",
+    "sb": "no alcanzó el umbral"
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "No cumple · fondo · se superpone casi por completo con E3-09 (Nutrición ocupacional en centros de trabajo): el mismo encargo (diagnóstico del colectivo desde la vigilancia ocupacional, consejería y talleres, menús con el servicio, indicadores con SST) y los mismos avisos de campamentos mineros 14x7 (el [35] de E2 y el [35] de E3 son ambos avisos de Sodexo o Newrest para campamentos)",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 3,
+    "C": 2.5,
+    "V": 3,
+    "L": 4,
+    "ricP": 0.25,
+    "icviS": "0,50",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E2-09": {
+   "icvi": "1,00",
+   "cvr": "-1,00",
+   "prioridad": 4,
+   "N": 2,
+   "lim": "Supervisión directa dentro del equipo de respuesta y del plan de la autoridad a cargo de la emergencia.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Sublínea en E2-01",
+   "escuela": {
+    "accion": "sublinea",
+    "destino": "E2-01",
+    "motivo": "Demanda solo normativa; la asistencia en emergencias queda como sublínea del diagnóstico poblacional."
+   },
+   "demDelphi": "Baja",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "no alcanzó el umbral",
+    "sb": "Criticidad alta, frecuencia baja. Sin tendencia fechada: citar El Niño costero 2023 o proyecciones climáticas. Anclar en las normas Esfera. El plan completo excede el nivel 2. · Criticidad alta pero frecuencia rara; un solo aviso. Falta el tamizaje de desnutrición aguda, tarea estándar en emergencias."
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (DS 003-2024-MIDAGRI).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 1,
+    "C": 4,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "0,00",
+    "icviP": "0,83",
+    "Tm": 3.5
+   }
+  },
+  "E2-10": {
+   "icvi": "1,00",
+   "cvr": "0,33",
+   "prioridad": 6,
+   "N": 3,
+   "lim": "Monitorea y evalúa resultados con supervisión indirecta; los diseños con grupo de comparación los conduce un evaluador de mayor nivel.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función complementaria",
+   "decision2": "Función complementaria",
+   "escuela": null,
+   "demDelphi": "Baja",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "rev"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {
+    "pb": "«Evaluación de impacto» sobrepromete: al egreso hace monitoreo y comparación antes-después, no atribución. Ajustar el título a «monitoreo y evaluación» o bajar el alcance del producto."
+   },
+   "ajustes": {
+    "t": "Monitoreo y evaluación de intervenciones nutricionales",
+    "d": "Monitorea el avance de la intervención nutricional, compara sus resultados con la línea de base y reporta indicadores a la autoridad o al financiador para rendir cuenta y mejorar el programa.",
+    "tasks": [
+     {
+      "code": "E2-10-T1",
+      "t": "Diseñar el plan de monitoreo con indicadores, fuentes y frecuencia",
+      "ent": "1. Plan de monitoreo y evaluación"
+     },
+     {
+      "code": "E2-10-T2",
+      "t": "Monitorear el avance de los indicadores de proceso y resultado",
+      "ent": "2. Tablero de seguimiento de indicadores"
+     },
+     {
+      "code": "E2-10-T3",
+      "t": "Comparar los resultados obtenidos con la línea de base, antes y después de la intervención",
+      "ent": "3. Informe de resultados y mejora"
+     },
+     {
+      "code": "E2-10-T4",
+      "t": "Elaborar informes de resultados para la autoridad o el financiador",
+      "ent": "3. Informe de resultados y mejora"
+     },
+     {
+      "code": "E2-10-T5",
+      "t": "Proponer mejoras a la intervención a partir de la evaluación",
+      "ent": "3. Informe de resultados y mejora"
+     }
+    ],
+    "prod": {
+     "name": "Informe de monitoreo y evaluación de resultados de la intervención nutricional",
+     "desc": "Informe de evaluación que mide cuánto cambiaron los indicadores nutricionales de la población intervenida frente a la línea de base y explica los hallazgos, sin atribuirlos a la intervención con diseños de comparación, para rendir cuenta y mejorar el programa. Integra el plan de monitoreo con sus indicadores y fuentes, el tablero de seguimiento, la comparación antes y después, la interpretación de los resultados y el plan de mejora. Se elabora con datos verificables del programa y de las fuentes oficiales, y se verifica por la trazabilidad de cada indicador y por la coherencia entre hallazgos y recomendaciones. Orienta la decisión de continuar o ajustar la intervención, y demuestra que el egresado evalúa con honestidad en el dato.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Plan de monitoreo y evaluación",
+       "codes": "E2-10-T1",
+       "sum": "indicadores, fuentes, frecuencia, responsables y metas",
+       "ev": [
+        "matriz de monitoreo aprobada"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Tablero de seguimiento de indicadores",
+       "codes": "E2-10-T2",
+       "sum": "avance periódico de indicadores de proceso y resultado",
+       "ev": [
+        "tablero actualizado con fuentes"
+       ]
+      },
+      {
+       "n": "3",
+       "t": "Informe de resultados y mejora",
+       "codes": "E2-10-T3, E2-10-T4, E2-10-T5",
+       "sum": "cambio frente a la línea de base, interpretación y recomendaciones",
+       "ev": [
+        "informe de resultados entregado",
+        "plan de mejora con responsables"
+       ]
+      }
+     ]
+    },
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque el Programa de Incentivos 2025 condiciona las transferencias municipales al cumplimiento verificado de metas nutricionales [15]. Además, la guía de la OMS de 2024 sobre puntos de corte de hemoglobina, adoptada ese año por la NTS 213, obliga a reinterpretar series y resultados con cautela [5] [6] [7]. Por eso es necesario que el egresado domine el monitoreo y la evaluación de resultados de las intervenciones nutricionales.",
+    "refs": "[4] [5] [6] [7] [10] [11] [13] [15] [28]",
+    "conf": 3,
+    "lim": "Monitorea y evalúa resultados con supervisión indirecta; los diseños con grupo de comparación los conduce un evaluador de mayor nivel.",
+    "cambios": "Retitulada «Monitoreo y evaluación»: el producto compara antes y después sin prometer impacto atribuible; T3 lo precisa; el financiador reemplaza al empleador; años de la guía OMS y del Programa de Incentivos en el impacto."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (PI 2025; guía OMS 2024).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "ind": {
+    "F": 2,
+    "C": 3,
+    "V": 3,
+    "L": 3,
+    "ricP": 1,
+    "icviS": "1,00",
+    "icviP": "0,67",
+    "Tm": 4
+   }
+  }
+ }
+}

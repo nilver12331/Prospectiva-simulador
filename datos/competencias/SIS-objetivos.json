@@ -1,0 +1,74 @@
+{
+ "cod": "SIS",
+ "fecha": "24-09-2026",
+ "oe": [
+  [
+   "OE1",
+   "Lidera equipos o células de desarrollo que entregan software en producción para organizaciones públicas y privadas, respondiendo por su calidad, su despliegue continuo y su mantenimiento.",
+   "desarrollo de software e ingeniería de aplicaciones"
+  ],
+  [
+   "OE2",
+   "Conduce proyectos de analítica e inteligencia artificial que convierten los datos de la organización en decisiones y productos, con gobierno del dato, evaluación de los modelos y criterio ético.",
+   "ciencia de datos e inteligencia artificial"
+  ],
+  [
+   "OE3",
+   "Diseña y opera la infraestructura tecnológica en la nube y las redes de una organización, respondiendo por su disponibilidad, su rendimiento, su costo y su continuidad.",
+   "infraestructura en la nube y devops"
+  ],
+  [
+   "OE4",
+   "Dirige la gestión de la seguridad de la información y del cumplimiento normativo de una organización, respondiendo ante la dirección y los reguladores por la protección de los datos y la respuesta ante incidentes.",
+   "ciberseguridad y gestión de riesgos digitales"
+  ],
+  [
+   "OE5",
+   "Gestiona proyectos, servicios y el gobierno de la tecnología de la información alineados con la estrategia de la organización, como jefe de proyecto, responsable de servicios o auditor de TI.",
+   "gestión de proyectos y servicios de ti"
+  ]
+ ],
+ "coh": [
+  [
+   2,
+   1,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   1,
+   2,
+   0,
+   1
+  ],
+  [
+   1,
+   2,
+   0,
+   1,
+   1
+  ],
+  [
+   0,
+   1,
+   0,
+   2,
+   1
+  ],
+  [
+   1,
+   0,
+   0,
+   1,
+   2
+  ]
+ ],
+ "prueba": {
+  "sinCompetencia": [],
+  "sinObjetivo": [],
+  "ok": true
+ },
+ "resumen": "5 objetivos educacionales, cada uno sostenido por una competencia y rastreable a una especialidad validada; las 5 competencias llegan a algún objetivo. Pendiente: validación con empleadores, egresados y colegio profesional (exigencia de SINEACE)."
+}

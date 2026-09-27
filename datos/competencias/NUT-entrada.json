@@ -1,0 +1,143 @@
+{
+ "cod": "NUT",
+ "fecha": "24-09-2026",
+ "regla": "Las especialidades de un mismo grupo se integraron en el momento 5 del paso 1.1 (decisión de escuela): el mercado las contrata en un mismo puesto. La primera de cada grupo es la base.",
+ "grupos": [
+  [
+   {
+    "cod": "NUT-01",
+    "n": "Nutrición clínica hospitalaria",
+    "naturaleza": "atención individual",
+    "descripcion": "Atiende al paciente internado y ambulatorio: valora, diagnostica, prescribe el tratamiento nutricional y lo sigue hasta el alta.",
+    "funciones": "Tamizaje · valoración · diagnóstico · prescripción dietoterápica · soporte enteral · monitoreo · consejería al alta · interconsulta · registro en historia · auditoría · docencia · investigación",
+    "proceso": "Valorar → diagnosticar → tratar → seguir",
+    "evidencia": "Plan de atención nutricional individualizado y su registro en historia clínica",
+    "potencial": null,
+    "modo": {
+     "empleo": "Hospital Tarapoto, plaza 276 «Nutricionista» S/ 5 342: título, colegiatura y habilitación, 3 años de experiencia, especialización en nutrición hospitalaria, pediátrica, gestacional o soporte crítico (90 h) [E-9]; Auna, SANNA, Ricardo Palma convocan [E-13][E-7].",
+     "negocio": "Consulta clínica privada presencial o virtual como sector de mayor demanda (La República 2026) [E-2]."
+    }
+   },
+   {
+    "cod": "NUT-08",
+    "n": "Nutrición en obesidad y cirugía bariátrica",
+    "naturaleza": "atención individual",
+    "descripcion": "Atiende a la persona con obesidad y al paciente pre y posbariátrico: manejo de peso, deficiencias y conducta alimentaria.",
+    "funciones": "Valoración · plan de manejo de peso · preparación prebariátrica · seguimiento posquirúrgico · deficiencias de micronutrientes · conducta alimentaria",
+    "proceso": "Valorar → planificar → intervenir → seguir",
+    "evidencia": "Plan de manejo nutricional con seguimiento documentado",
+    "potencial": null,
+    "modo": {
+     "empleo": "Clínicas de salud y estéticas: «título en Nutrición, colegiatura y habilitación vigentes, mínimo 1 año en consulta nutricional» [E-B8]; Adelgazar y Punto Zen busca nutricionista [E-B13].",
+     "negocio": "Centros de control de peso con 13 años de trayectoria; telenutrición [E-B13][P-S]."
+    }
+   },
+   {
+    "cod": "NUT-14",
+    "n": "Nutrición geriátrica y del envejecimiento",
+    "naturaleza": "atención individual",
+    "descripcion": "Atiende al adulto mayor: desnutrición, sarcopenia, disfagia y adaptación de texturas en residencias y consulta.",
+    "funciones": "Tamizaje del adulto mayor · sarcopenia · texturas y disfagia · seguimiento en residencias",
+    "proceso": "Valorar → diagnosticar → tratar → seguir (adulto mayor)",
+    "evidencia": "Plan de atención nutricional individualizado",
+    "potencial": null,
+    "modo": {
+     "empleo": "Ningún aviso menciona geriatría o residencias [E]; tarea dentro del puesto clínico.",
+     "negocio": "Consulta y residencias privadas; sin cifra."
+    }
+   }
+  ],
+  [
+   {
+    "cod": "NUT-02",
+    "n": "Gestión de servicios de alimentación e inocuidad",
+    "naturaleza": "gestión de servicios",
+    "descripcion": "Dirige el servicio que alimenta a pacientes, trabajadores o escolares: planifica el menú, estandariza, asegura la inocuidad y audita.",
+    "funciones": "Planificación de menús · estandarización · costeo · compras · HACCP · puntos críticos · supervisión · auditoría sanitaria · no conformidades · indicadores",
+    "proceso": "Planificar → estandarizar → asegurar inocuidad → auditar",
+    "evidencia": "Plan HACCP y expediente de auditoría del servicio",
+    "potencial": null,
+    "modo": {
+     "empleo": "Newrest «Nutricionista colegiado campamento minero 14x7» (Pasco); Sodexo «Nutricionista Campamento Chincha 14x7»; NATCLAR «Licenciada en Nutrición habilitado indispensable» [E-7][E-12]; Sodexo exige colegiatura, habilidad, HACCP y carné de sanidad [E-B15].",
+     "negocio": "Concesionarias y consultoría HACCP; negocio escalable (Sodexo 173 avisos, Newrest 13 años en Perú) [E-B15][E-B5]."
+    }
+   },
+   {
+    "cod": "NUT-09",
+    "n": "Nutrición ocupacional y salud en minería",
+    "naturaleza": "atención individual",
+    "descripcion": "Atiende la alimentación y el estado nutricional del trabajador en campamentos y programas de salud ocupacional.",
+    "funciones": "Valoración del trabajador · plan alimentario de campamento · vigilancia de riesgo cardiometabólico · educación · articulación con salud ocupacional · indicadores",
+    "proceso": "Valorar al trabajador → planificar → intervenir → vigilar",
+    "evidencia": "Programa nutricional ocupacional con indicadores de salud del trabajador",
+    "potencial": null,
+    "modo": {
+     "empleo": "NATCLAR (salud ocupacional) «Nutricionista Unidad Minera La Oroya», habilitación indispensable [E-12]; Centro de Investigación de la Salud y el Trabajo (Surco) aviso a S/ 8 000 [E-6].",
+     "negocio": "Consultoría en salud ocupacional para contratistas mineros [E-12]."
+    }
+   }
+  ],
+  [
+   {
+    "cod": "NUT-03",
+    "n": "Nutrición comunitaria y salud pública",
+    "naturaleza": "salud poblacional",
+    "descripcion": "Interviene sobre la nutrición de una población: diagnostica, planifica el programa, ejecuta y mide el impacto.",
+    "funciones": "Diagnóstico poblacional · vigilancia · diseño de intervención · consejería · capacitación de agentes · articulación · monitoreo · evaluación de impacto · programas presupuestales",
+    "proceso": "Diagnosticar población → planificar → intervenir → evaluar",
+    "evidencia": "Plan de intervención poblacional con línea de base e informe de impacto",
+    "potencial": null,
+    "modo": {
+     "empleo": "Convocatorias públicas: «Título Profesional en Nutrición… colegiado y habilitado», experiencia en programas alimentarios o salud pública; DIRESA, redes, municipalidades, Cuna Más (Lima 9+, Ica 3) [E-1]; RSVM Huancayo 5 nutricionistas [E-B2].",
+     "negocio": "Dependiente del Estado; no sostiene negocio propio [E-1]."
+    }
+   },
+   {
+    "cod": "NUT-10",
+    "n": "Nutrición en programas sociales del Estado",
+    "naturaleza": "salud poblacional",
+    "descripcion": "Gestiona el componente alimentario y nutricional de programas del MIDIS y gobiernos locales por unidad territorial.",
+    "funciones": "Fichas técnicas · supervisión de proveedores · vigilancia sanitaria · capacitación · monitoreo · reporte",
+    "proceso": "Planificar la atención → supervisar → vigilar → reportar",
+    "evidencia": "Informe de supervisión de la unidad territorial con indicadores",
+    "potencial": null,
+    "modo": {
+     "empleo": "CAS 094 «Especialista Alimentario» Áncash S/ 3 200 por unidad territorial [E-10]; PAE en Puno, Huánuco, Cajamarca, Arequipa; Cuna Más Lima e Ica [E-1].",
+     "negocio": "Dependiente del Estado."
+    }
+   }
+  ],
+  [
+   {
+    "cod": "NUT-04",
+    "n": "Nutrición pediátrica y materna",
+    "naturaleza": "atención individual",
+    "descripcion": "Atiende al niño y a la gestante en el primer nivel: crecimiento, anemia, lactancia y alimentación complementaria.",
+    "funciones": "Antropometría infantil · lactancia y complementaria · anemia · desnutrición aguda · gestante · consejería familiar · seguimiento del crecimiento · CRED",
+    "proceso": "Valorar → diagnosticar → tratar → seguir (niño y gestante)",
+    "evidencia": "Plan de atención nutricional individualizado",
+    "potencial": null,
+    "modo": {
+     "empleo": "No aparece como puesto separado: Tarapoto admite «especialización pediátrica o gestacional» dentro de la plaza de nutricionista; Cuna Más convoca nutricionistas generales [E-9][E-1].",
+     "negocio": "Consulta pediátrica privada; sin cifra [E]."
+    }
+   }
+  ]
+ ],
+ "menciones": [
+  {
+   "cod": "NUT-07",
+   "n": "Desarrollo y reformulación de productos alimentarios",
+   "naturaleza": "producto",
+   "descripcion": "Reformula el perfil nutricional de la cartera de la industria y sustenta su rotulado y registro sanitario.",
+   "funciones": "Análisis de cartera · reformulación · validación sensorial · rotulado y octógonos · registro sanitario · vigilancia de la competencia",
+   "proceso": "Recibir la cartera → reformular → validar → registrar",
+   "evidencia": "Ficha técnica del producto reformulado y expediente de validación",
+   "potencial": null,
+   "modo": {
+    "empleo": "Puesto compartido: Wasi Mikuna admite en la misma plaza «Nutrición, Bromatología y Nutrición, Ingeniería en Industrias Alimentarias, Ingeniería Alimentaria o Agroindustrial» [E-10]; Nestlé y Alicorp sin aviso específico [E-B10]; «Nutricionista Comercial» NC Company [E-B7].",
+    "negocio": "Consultoría de rotulado y desarrollo para pymes de alimentos [E]."
+   }
+  }
+ ]
+}

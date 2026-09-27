@@ -1,0 +1,680 @@
+{
+ "cod": "SIS",
+ "k": "E4",
+ "expertos": [
+  "X1 · Académico-investigador · doctor en Ciencias de la Computación · 15 años de docencia e investigación en ingeniería de software, redes y nube, ciencia de datos, ciberseguridad y gobierno de TI · ACM/IEEE CC2020, SWEBOK v4, SFIA 9",
+  "X2 · Empleador del sector público · jefe de la Oficina de Tecnologías de la Información de una entidad pública peruana · 12 años en OTI de ministerios y organismos · gobierno digital, contrataciones TIC y SGSI",
+  "X3 · Empleador del sector privado · gerente de tecnología · 16 años · banca, retail y consultora de TI en Lima · contrata desarrollo, datos, infraestructura, seguridad y proyectos",
+  "X4 · Profesional senior · 15 años · desarrollo, infraestructura, seguridad y gestión de TI en banca, fábricas de software y sector público peruano · SFIA, ITIL, ISO/IEC 27001, PMBOK",
+  "X5 · Egresado reciente · 3 años · desarrollo backend en fintech, soporte de infraestructura en ISP y analítica de datos en retail; contacto con pares en SOC, auditoría de TI y oficinas de TI del Estado",
+  "X6 · Experto contextual · 15 años · consultor en transformación digital del Estado y regulación TIC (gobierno digital, datos personales, ciberseguridad, IA) para entidades públicas y banca"
+ ],
+ "cvrCrit": "1,00",
+ "acta": "Panel de 6 expertos simulados (X1–X6) y guardián metodológico · rondas 1 y 2 · N = 6: I-CVI ≥ 0,83 y CVR crítico 1,00 (Ayre y Scally, 2014). Un solo panel por carrera: cada experto calificó en su rol todas las especialidades. Pre-validación de agentes: la validación oficial la repiten especialistas humanos con el mismo instrumento.",
+ "resumen": "5 núcleo · 3 complementarias · 2 propuestas de exclusión · 2 con bloques observados en R1 · S-CVI/Ave 1,00",
+ "sCVI": "1,00",
+ "funciones": {
+  "E4-01": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 12,
+   "N": 3,
+   "lim": "Aplica la metodología de riesgos aprobada; no acepta el riesgo residual ni fija el apetito de riesgo, decisiones de la dirección o del comité.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": "Función núcleo",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {},
+   "ajustes": {
+    "tasks": [
+     {
+      "code": "E4-01-T1",
+      "t": "Inventariar y clasificar los activos de información con sus propietarios",
+      "ent": "1. Inventario valorado de activos de información"
+     },
+     {
+      "code": "E4-01-T2",
+      "t": "Identificar amenazas y vulnerabilidades por activo y proceso",
+      "ent": "2. Matriz de riesgos y plan de tratamiento"
+     },
+     {
+      "code": "E4-01-T3",
+      "t": "Estimar probabilidad e impacto y calcular el nivel de riesgo",
+      "ent": "2. Matriz de riesgos y plan de tratamiento"
+     },
+     {
+      "code": "E4-01-T4",
+      "t": "Evaluar los riesgos de seguridad de proveedores, servicios en la nube y soluciones de inteligencia artificial",
+      "ent": "2. Matriz de riesgos y plan de tratamiento"
+     },
+     {
+      "code": "E4-01-T5",
+      "t": "Proponer opciones de tratamiento y controles con responsable y plazo",
+      "ent": "2. Matriz de riesgos y plan de tratamiento"
+     },
+     {
+      "code": "E4-01-T6",
+      "t": "Actualizar la matriz de riesgos y reportar su evolución",
+      "ent": "2. Matriz de riesgos y plan de tratamiento"
+     }
+    ],
+    "prod": {
+     "name": "Informe de evaluación de riesgos de seguridad de la información",
+     "desc": "Informe de evaluación de riesgos de seguridad de la información que establece, para un alcance definido, qué activos están expuestos, a qué amenazas y con qué nivel de riesgo, y sirve para decidir qué tratar primero. Integra el inventario valorado de activos, el catálogo de amenazas y vulnerabilidades, la estimación de probabilidad e impacto y el plan de tratamiento con responsables y plazos. Se elabora con una metodología reconocida, como la de la ISO/IEC 27005 o la NIST CSF 2.0, a partir de entrevistas, revisión documental y resultados de escaneo, y se verifica contrastando las valoraciones con los propietarios de los activos. Orienta la aceptación del riesgo residual y la asignación del presupuesto de seguridad, y demuestra que el egresado traduce hallazgos técnicos en riesgo de negocio.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Inventario valorado de activos de información",
+       "codes": "E4-01-T1",
+       "sum": "activos, propietarios, clasificación y valor según confidencialidad, integridad y disponibilidad",
+       "ev": [
+        "inventario con propietario y clasificación por activo",
+        "criterios de valoración aprobados"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Matriz de riesgos y plan de tratamiento",
+       "codes": "E4-01-T2, E4-01-T3, E4-01-T4, E4-01-T5, E4-01-T6",
+       "sum": "amenazas, vulnerabilidades, nivel de riesgo y controles propuestos con responsable y plazo",
+       "ev": [
+        "matriz de riesgos con cálculo trazable",
+        "plan de tratamiento validado por los propietarios"
+       ]
+      }
+     ]
+    },
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque la NIST CSF 2.0, publicada en 2024, incorpora la función Gobernar y extiende la gestión del riesgo a la cadena de suministro [11]. Además, según Verizon, en 2025 la participación de terceros en las brechas se duplicó hasta el 30 % [32], lo que obliga a evaluar también a proveedores y servicios en la nube. Por eso es necesario que el egresado domine la evaluación de riesgos de ciberseguridad.",
+    "conf": 3,
+    "lim": "Aplica la metodología de riesgos aprobada; no acepta el riesgo residual ni fija el apetito de riesgo, decisiones de la dirección o del comité.",
+    "cambios": "Recibe el riesgo de terceros, nube e IA (E5-12 excluida: el riesgo tecnológico queda en Ciberseguridad) como tarea; JI declara años y cierra con la función; lim del panel."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 112 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 73 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "ind": {
+    "F": 3,
+    "C": 4,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E4-02": {
+   "icvi": "1,00",
+   "cvr": "0,67",
+   "prioridad": 12,
+   "N": 2,
+   "lim": "Solo con autorización escrita y alcance firmado; explota de forma controlada fuera de producción crítica y no ejecuta operaciones de equipo rojo.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función complementaria",
+   "decision2": "Función complementaria",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {},
+   "ajustes": {
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque, según FortiGuard, en 2025 los atacantes pasaron de campañas masivas a operaciones focalizadas que usan inteligencia artificial para acelerar la explotación [28]. A ello se suma el aumento de ataques de día cero contra dispositivos perimetrales y redes privadas virtuales que reporta Verizon en 2025 [32], que acorta el tiempo para corregir. Por eso es necesario que el egresado domine la evaluación de vulnerabilidades y las pruebas de intrusión.",
+    "conf": 2,
+    "lim": "Solo con autorización escrita y alcance firmado; explota de forma controlada fuera de producción crítica y no ejecuta operaciones de equipo rojo.",
+    "cambios": "JI declara los años de las tendencias (FortiGuard y Verizon 2025) y cierra con la función; conf baja de 3 a 2 (mediana del panel) y lim del panel."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 99 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 69 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 7 palabras"
+   },
+   "ind": {
+    "F": 3,
+    "C": 4,
+    "V": 3,
+    "L": 4,
+    "ricP": 0.25,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E4-03": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 16,
+   "N": 3,
+   "lim": "Implanta controles sobre líneas base aprobadas y con control de cambios; no define la arquitectura de seguridad corporativa.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": "Función núcleo",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {},
+   "ajustes": {
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque el estudio de fuerza laboral de ISC2 de 2024 ubica la seguridad en la nube entre las habilidades técnicas más buscadas por los empleadores [30]. Además, Verizon reporta en 2025 un aumento de los ataques de día cero contra dispositivos perimetrales y redes privadas virtuales [32], lo que exige bastionado continuo y no solo inicial. Por eso es necesario que el egresado domine la implantación de controles técnicos de seguridad.",
+    "conf": 3,
+    "lim": "Implanta controles sobre líneas base aprobadas y con control de cambios; no define la arquitectura de seguridad ni diseña la segmentación de la red.",
+    "cambios": "Casa de los controles perimetrales (E2-11 excluida); lim deja explícita la frontera: la segmentación y las VPN se diseñan con la red (E2-03). JI con años y cierre con la función."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 99 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 67 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "ind": {
+    "F": 4,
+    "C": 4,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E4-04": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 16,
+   "N": 3,
+   "lim": "Opera sobre políticas de acceso aprobadas; no concede privilegios críticos sin aprobación del propietario del activo.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": "Función núcleo",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {},
+   "ajustes": {
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque el Decreto Supremo 126-2025-PCM obliga a autenticar a las personas según el riesgo de cada servicio digital [15]. Además, el 97 % de las organizaciones con incidentes ligados a inteligencia artificial carecía de controles de acceso para ella [31], lo que extiende la gestión a identidades no humanas. Por eso es necesario que el egresado domine la gestión de identidades y accesos.",
+    "conf": 3,
+    "lim": "Opera sobre políticas de acceso aprobadas; no concede privilegios críticos sin aprobación del propietario del activo.",
+    "cambios": "El JI cierra con la función y no con la función clave; lim del panel."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 100 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 73 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "ind": {
+    "F": 4,
+    "C": 4,
+    "V": 4,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "1,00",
+    "icviP": "0,83",
+    "Tm": 4
+   }
+  },
+  "E4-05": {
+   "icvi": "1,00",
+   "cvr": "-1,00",
+   "prioridad": 12,
+   "N": 3,
+   "lim": "Revisa y prueba software dentro de un proceso de desarrollo definido; no acepta riesgos residuales ni libera versiones, decisiones del responsable del producto.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Excluida por la Escuela",
+   "escuela": {
+    "accion": "excluir",
+    "motivo": "Duplica E1-09: la seguridad de aplicaciones queda en Desarrollo de software."
+   },
+   "demDelphi": "Media",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "Duplica en buena parte E1-09. Emitir la conformidad de pase (T5) no es tarea de egresado; debería limitarse a proponerla.",
+    "sb": "Duplica en gran parte E1-09. S2 usa un dato de gobierno de IA sin relación directa con seguridad de aplicaciones; mejor la cadena de suministro de OWASP Top 10:2025. · Se superpone con E1-09. El impacto se apoya en políticas de gobierno de IA (IBM), sin vínculo directo con la seguridad de aplicaciones."
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 105 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 75 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "ind": {
+    "F": 3,
+    "C": 4,
+    "V": 4,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "0,33",
+    "icviP": "0,83",
+    "Tm": 4
+   }
+  },
+  "E4-06": {
+   "icvi": "1,00",
+   "cvr": "0,67",
+   "prioridad": 16,
+   "N": 3,
+   "lim": "Actúa como analista de primer y segundo nivel con procedimientos definidos; no declara incidentes mayores, decisión del responsable del centro.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función complementaria",
+   "decision2": "Función complementaria",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {},
+   "ajustes": {
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque, aunque en 2025 el tiempo promedio para identificar y contener una brecha bajó a 241 días, el menor en nueve años, sigue siendo la principal palanca de costo [31]. Además, según ISC2, en 2024 el 45 % de los equipos de ciberseguridad ya había adoptado inteligencia artificial generativa [30], lo que orienta el trabajo del analista hacia la supervisión y el ajuste. Por eso es necesario que el egresado domine el monitoreo y la detección de amenazas.",
+    "conf": 3,
+    "lim": "Actúa como analista de primer y segundo nivel con procedimientos definidos; no declara incidentes mayores, decisión del responsable del centro.",
+    "cambios": "JI: los 241 días son el mínimo en nueve años (IBM 2025), no un deterioro; se declaran los años y el cierre nombra la función; lim del panel."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 106 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 79 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "ind": {
+    "F": 4,
+    "C": 4,
+    "V": 4,
+    "L": 4,
+    "ricP": 0.25,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E4-07": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 8,
+   "N": 2,
+   "lim": "Actúa bajo supervisión directa del líder de respuesta; no decide contenciones con impacto en el negocio, no firma notificaciones ni emite peritajes.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": "Función núcleo",
+   "escuela": null,
+   "demDelphi": "Baja",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {},
+   "ajustes": {
+    "d": "Contener, erradicar y analizar los incidentes de seguridad y las brechas de datos personales, apoyar la recuperación tras ataques de ransomware, preservar la evidencia y preparar las notificaciones a la autoridad para limitar el daño y restablecer la operación.",
+    "tasks": [
+     {
+      "code": "E4-07-T1",
+      "t": "Clasificar el incidente según su severidad e impacto",
+      "ent": "1. Registro de gestión del incidente"
+     },
+     {
+      "code": "E4-07-T2",
+      "t": "Ejecutar las acciones de contención y erradicación del procedimiento",
+      "ent": "1. Registro de gestión del incidente"
+     },
+     {
+      "code": "E4-07-T3",
+      "t": "Preservar la evidencia digital con cadena de custodia y apoyar el análisis de causa raíz y alcance",
+      "ent": "2. Registro de evidencia y análisis de causa"
+     },
+     {
+      "code": "E4-07-T4",
+      "t": "Apoyar la recuperación tras ransomware restaurando desde respaldos aislados o inmutables y verificando su integridad",
+      "ent": "1. Registro de gestión del incidente"
+     },
+     {
+      "code": "E4-07-T5",
+      "t": "Preparar las notificaciones de incidentes críticos al Centro Nacional de Seguridad Digital, a la SBS o a la autoridad de datos personales dentro del plazo",
+      "ent": "3. Expediente de notificación regulatoria"
+     },
+     {
+      "code": "E4-07-T6",
+      "t": "Documentar las lecciones aprendidas y las mejoras al procedimiento",
+      "ent": "1. Registro de gestión del incidente"
+     }
+    ],
+    "prod": {
+     "name": "Expediente de gestión del incidente de seguridad",
+     "desc": "Expediente de gestión del incidente de seguridad que reconstruye un incidente de principio a fin y sustenta ante la dirección y la autoridad lo que ocurrió y lo que se hizo. Integra el registro cronológico de clasificación, contención, erradicación y recuperación, la evidencia preservada con el análisis de causa raíz en que participó y los reportes de notificación a las autoridades competentes. Se elabora siguiendo el procedimiento de respuesta de la organización bajo la dirección del líder de respuesta, y se verifica comprobando la cadena de custodia, la integridad de los datos restaurados y la consistencia de la línea de tiempo. Orienta las medidas correctivas y las comunicaciones a afectados, y demuestra que el egresado actúa con método, serenidad y apego a los plazos legales.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Registro de gestión del incidente",
+       "codes": "E4-07-T1, E4-07-T2, E4-07-T4, E4-07-T6",
+       "sum": "clasificación, contención, erradicación, recuperación desde respaldos y lecciones aprendidas",
+       "ev": [
+        "línea de tiempo de acciones",
+        "registro de restauración con verificación de integridad",
+        "acta de lecciones aprendidas"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Registro de evidencia y análisis de causa",
+       "codes": "E4-07-T3",
+       "sum": "evidencia preservada con cadena de custodia y aportes al análisis de causa raíz y alcance",
+       "ev": [
+        "formularios de cadena de custodia",
+        "hallazgos con evidencia técnica"
+       ]
+      },
+      {
+       "n": "3",
+       "t": "Expediente de notificación regulatoria",
+       "codes": "E4-07-T5",
+       "sum": "reportes de incidentes críticos a la SBS, al Centro Nacional de Seguridad Digital o a la autoridad de datos personales",
+       "ev": [
+        "reporte con fecha y hora de envío dentro del plazo"
+       ]
+      }
+     ]
+    },
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque el Decreto Supremo 126-2025-PCM, vigente desde febrero de 2026, crea una plataforma obligatoria para notificar los incidentes críticos en 48 horas [15]. Además, en 2025 solo el 54 % de las organizaciones cuyos datos cifró un ransomware los restauró desde respaldos, la tasa más baja en seis años [33]. Por eso es necesario que el egresado domine la respuesta a incidentes de seguridad.",
+    "refs": "[3] [12] [15] [17] [25] [26] [32] [33]",
+    "conf": 2,
+    "lim": "Actúa bajo supervisión directa del líder de respuesta; no decide contenciones con impacto en el negocio, no firma notificaciones ni emite peritajes.",
+    "cambios": "Recibe de E4-08 (excluida) la recuperación tras ransomware como tarea; forense acotado a preservar evidencia y apoyar el análisis; notificación de incidentes críticos; Sophos precisado: 54 % solo de organizaciones con datos cifrados."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 6 tareas, todas con entregable y códigos",
+    "5": "Cumple · 105 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 70 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "ind": {
+    "F": 2,
+    "C": 4,
+    "V": 4,
+    "L": 4,
+    "ricP": 0.25,
+    "icviS": "1,00",
+    "icviP": "0,83",
+    "Tm": 4
+   }
+  },
+  "E4-08": {
+   "icvi": "1,00",
+   "cvr": "-0,67",
+   "prioridad": 8,
+   "N": 3,
+   "lim": "Diseña y prueba la recuperación de servicios de tecnología; no aprueba la estrategia de continuidad del negocio ni conduce la gestión de crisis.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Excluida por la Escuela",
+   "escuela": {
+    "accion": "excluir",
+    "motivo": "Duplica E2-09; la resiliencia ante ransomware pasa como tarea a la respuesta a incidentes (E4-07)."
+   },
+   "demDelphi": "Baja",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "ok",
+    "pb": "rev"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "ok",
+    "pb": "rev"
+   },
+   "motivo": {
+    "fb": "Reorientar a ciberresiliencia (respaldos inmutables, recuperación tras ransomware, enlace con la respuesta a incidentes) o fusionar con E2-09. El 54 % de Sophos [33] corresponde a organizaciones con datos cifrados, no a todas las afectadas: precisar. · Duplica E2-09; mantener en una sola especialidad (sugiero E2) y aquí centrarse en la resiliencia ante ciberataques.",
+    "pb": "Reorientar a ciberresiliencia (respaldos inmutables, recuperación tras ransomware, enlace con la respuesta a incidentes) o fusionar con E2-09. El 54 % de Sophos [33] corresponde a organizaciones con datos cifrados, no a todas las afectadas: precisar."
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "No cumple · fondo · solapa con E2-09 (RTO/RPO, estrategia de respaldo, pruebas de restauración y plan de recuperación)",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 102 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 70 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "ind": {
+    "F": 2,
+    "C": 4,
+    "V": 3,
+    "L": 4,
+    "ricP": 0.25,
+    "icviS": "0,83",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E4-09": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 9,
+   "N": 3,
+   "lim": "Ejecuta auditorías internas y mantiene la documentación del sistema bajo su responsable; no aprueba políticas ni realiza auditorías de certificación.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": "Función núcleo",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {},
+   "ajustes": {
+    "fd": "Esta función tiene demanda porque 45 de 67 avisos peruanos revisados piden implantar, mantener o auditar sistemas y normas de seguridad de la información [25] [26]. El Decreto de Urgencia 007-2020 obliga a toda entidad pública a implementar un sistema de gestión de seguridad de la información [14] y la Resolución SBS 504-2021 exige ese sistema y un programa de ciberseguridad [12], en línea con la ISO/IEC 27001:2022 [10]. Convocatorias del INDECI y del MINSA piden auditorías internas y normas de seguridad [22] [23]. Ello exige profesionales capaces de mantener y auditar un sistema de gestión de seguridad.",
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque el Decreto Supremo 126-2025-PCM establece el monitoreo y la supervisión del cumplimiento de las obligaciones de seguridad digital y la figura del oficial de seguridad y confianza digital [15]. Además, la NIST CSF 2.0 eleva el gobierno de la ciberseguridad a función propia [11]. Por eso es necesario que el egresado domine la gestión del cumplimiento y la auditoría de seguridad.",
+    "refs": "[10] [11] [12] [14] [15] [22] [23] [25] [26]",
+    "conf": 3,
+    "lim": "Audita internamente el sistema de gestión de seguridad; no aprueba políticas ni certifica; la auditoría general de TI es de auditoría de sistemas.",
+    "cambios": "FD sin el dato de políticas de IA (no pertinente al SGSI); abre con los avisos. JI cierra con la función; lim con la frontera: la auditoría general de controles de TI queda en E5-11."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 6 tareas, todas con entregable y códigos",
+    "5": "Cumple · 111 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 73 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 7 palabras"
+   },
+   "ind": {
+    "F": 3,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 3.5
+   }
+  },
+  "E4-10": {
+   "icvi": "1,00",
+   "cvr": "0,33",
+   "prioridad": 10,
+   "N": 2,
+   "lim": "Apoya técnicamente al Oficial de Datos Personales; no es designado oficial ni emite interpretación jurídica, que corresponde a abogados.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función complementaria",
+   "decision2": "Función complementaria",
+   "escuela": null,
+   "demDelphi": "Baja",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {},
+   "ajustes": {
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque el nuevo reglamento incorpora la evaluación de impacto y la designación progresiva del oficial de datos personales [18]. Además, la directiva de 2025 fija cuándo es obligatoria esa designación y una metodología para calcular multas [20], lo que eleva la demanda de cumplimiento verificable. Por eso es necesario que el egresado domine la gestión de la protección de datos personales.",
+    "conf": 2,
+    "lim": "Apoya técnicamente al Oficial de Datos Personales; no es designado oficial ni emite interpretación jurídica, que corresponde a abogados.",
+    "cambios": "El JI cierra con la función y no con la función clave; lim del panel."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 6 tareas, todas con entregable y códigos",
+    "5": "Cumple · 110 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 73 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 7 palabras"
+   },
+   "ind": {
+    "F": 2.5,
+    "C": 4,
+    "V": 4,
+    "L": 4,
+    "ricP": 1,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  }
+ }
+}

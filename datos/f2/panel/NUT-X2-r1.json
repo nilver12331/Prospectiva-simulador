@@ -1,0 +1,998 @@
+{
+ "rol": "X2",
+ "perfil": "Empleador del sector público · jefe de departamento de nutrición de hospital MINSA con experiencia en DIRESA (estrategia de anemia) y supervisión de programa alimentario social · 16 años",
+ "cod": "NUT",
+ "ronda": 1,
+ "funciones": {
+  "E1-01": {
+   "R": "Sí",
+   "donde": "Departamentos de nutrición de hospitales MINSA y EsSalud; GPC IETSI de desnutrición; MAPRO del HNHU",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Diagnóstico GLIM en UCI y pediatría grave con supervisión del nutricionista asistencial; no emite diagnóstico médico.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Dato de 46,9 % verificado (HN Arzobispo Loayza, 2012). Al egreso el diagnóstico GLIM se firma con supervisión indirecta, no sin supervisión: bajo N a 3.",
+   "bloque": "S",
+   "fuente": "https://scielo.isciii.es/scielo.php?pid=S0212-16112013000400037&script=sci_arttext"
+  },
+  "E1-02": {
+   "R": "Sí",
+   "donde": "Visita diaria a hospitalización y programación de regímenes en MOF de hospitales regionales y nacionales",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "En diálisis, hepatopatía avanzada, oncología y pediatría crítica actúa con supervisión; la indicación médica prevalece.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Función núcleo del departamento. S2 se apoya en EFFORT (Suiza, 2019): válido como evidencia de efecto, pero falta una tendencia nacional fechada sobre el servicio.",
+   "bloque": "S",
+   "fuente": ""
+  },
+  "E1-03": {
+   "R": "Sí",
+   "donde": "Unidades de soporte nutricional de hospitales nacionales (Rebagliati, Loayza, Dos de Mayo) y equipos de soporte EsSalud",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Al egreso formula y monitorea bajo supervisión directa del equipo de soporte; no indica vía de acceso ni electrolitos.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "El dato de 21 unidades es periodístico y de 2020 (verificado en El Comercio): pedir registro oficial o actualización. Al egreso no se confía el inicio de enteral sin supervisión directa: N=2.",
+   "bloque": "S",
+   "fuente": "https://elcomercio.pe/tecnologia/ciencias/en-el-peru-solo-existen-21-unidades-de-soporte-nutricional-para-mas-de-500-establecimientos-de-salud-noticia/"
+  },
+  "E1-04": {
+   "R": "Sí",
+   "donde": "Hospitales con unidad de producción propia (NTS 103) y concesionarios clínicos",
+   "P": 3,
+   "E": "Útil",
+   "F": 4,
+   "C": 3,
+   "V": 2,
+   "L": 3,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E1-04-T3",
+      "t": "Verificar por muestreo, en el armado, la correspondencia entre la bandeja y la prescripción"
+     }
+    ]
+   },
+   "lim": "No planifica menús, producción ni inocuidad; verifica por muestreo, no supervisa al personal de cocina.",
+   "S1": 2,
+   "S2": 2,
+   "P1": 3,
+   "P2": 3,
+   "P3": 3,
+   "com": "E1-04-T3 duplica E3-04-T4 (armado y distribución de dietas). Definir un solo dueño: especificación en E1, armado en E3. S1 descansa en 3 avisos, 2 de un concesionario; IDDSI 2017 no es tendencia fechada del servicio.",
+   "bloque": "F",
+   "fuente": ""
+  },
+  "E1-05": {
+   "R": "Sí",
+   "donde": "Consultorios externos de nutrición de hospitales y centros de salud; teleconsulta en redes MINSA",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Deriva ERC avanzada, diabetes descompensada y trastornos de la conducta alimentaria; no ajusta fármacos.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Bien sustentada. La RM 553-2025 no pude abrirla (gob.pe bloquea la lectura automática); conviene citarla desde El Peruano.",
+   "bloque": "S",
+   "fuente": ""
+  },
+  "E1-06": {
+   "R": "Sí",
+   "donde": "Consulta de sobrepeso y obesidad en centros de salud (RM 764-2022) y programas de obesidad de EsSalud",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "En obesidad severa, infantil con comorbilidad o con fármacos GLP-1 actúa en equipo; no indica fármacos.",
+   "S1": 3,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Guía OMS de GLP-1 (dic. 2025) verificada: sí pide intervención conductual intensiva y proyecta duplicar la obesidad al 2030. S1 débil en mercado (1 de 14 avisos).",
+   "bloque": "S",
+   "fuente": "https://www.who.int/news/item/01-12-2025-who-issues-global-guideline-on-the-use-of-glp-1-medicines-in-treating-obesity"
+  },
+  "E1-07": {
+   "R": "Sí",
+   "donde": "Programa de cirugía bariátrica del Hospital Rebagliati (EsSalud); casi inexistente en hospitales MINSA de región",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Solo dentro del equipo bariátrico y con supervisión directa; indicación quirúrgica y suplementación son médicas.",
+   "S1": 2,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 2,
+   "com": "Oferta concentrada en EsSalud Lima; 0 avisos. S2 usa una guía de 2019 como tendencia. Un protocolo al primer año no es alcanzable con N=2. Propongo integrarla como escenario de E1-06.",
+   "bloque": "F",
+   "fuente": ""
+  },
+  "E1-08": {
+   "R": "Sí",
+   "donde": "Servicios de geriatría de hospitales nacionales, CIAM municipales y CEAPAM (Ley 30490)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 3,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "No evalúa instrumentalmente la deglución; en fragilidad severa, demencia avanzada y final de vida actúa con supervisión.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Demanda creciente en redes por envejecimiento; NTS 207 incorpora MNA-SF. S1 aceptable aunque el aviso de mercado es solo uno.",
+   "bloque": "S",
+   "fuente": ""
+  },
+  "E1-09": {
+   "R": "Sí",
+   "donde": "Hospitalización pediátrica (INSN-SB, hospitales regionales) y consultorio de nutrición del niño en primer nivel",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "En neonatología y UCI pediátrica solo con supervisión directa; suplementación de hierro según NTS 213 e indicación médica.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "Cifras ENDES 2024 verificadas (43,7 % y 12,1 %). El entregable 2 agrupa cuatro tareas heterogéneas (prescripción, anemia, consejería, monitoreo): dividir prescripción y seguimiento.",
+   "bloque": "P",
+   "fuente": "https://www.infobae.com/peru/2025/04/02/anemia-infantil-en-menores-de-3-anos-subio-a-437-y-la-desnutricion-cronica-en-menores-de-5-anos-llego-al-121-segun-la-endes-2024/"
+  },
+  "E1-10": {
+   "R": "Sí",
+   "donde": "Consulta prenatal y hospitalización obstétrica de hospitales y centros materno infantiles (RM 460-2015)",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [
+     "Verificar la suplementación con hierro y ácido fólico de la gestante según la NTS 213"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "En gestación de alto riesgo, diabetes gestacional e hipertensión del embarazo actúa con el equipo obstétrico.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "S2 no aporta tendencia fechada: repite normas vigentes (NTS 213 y RM 460-2015). Agregar la verificación de la suplementación, que el establecimiento reporta como indicador.",
+   "bloque": "S",
+   "fuente": ""
+  },
+  "E1-11": {
+   "R": "Sí",
+   "donde": "Altas con guía dietética (MOF Huacho) y referencia y contrarreferencia en redes integradas",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "En altas con enteral domiciliaria actúa con supervisión; la decisión de alta y traslado es médica.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Función real pero poco explícita en avisos (0 de 14). La constancia de recepción en destino rara vez se obtiene en la red: evidencia difícil de exigir.",
+   "bloque": "P",
+   "fuente": ""
+  },
+  "E1-12": {
+   "R": "Sí",
+   "donde": "Comités de calidad y auditoría de historias clínicas en departamentos de nutrición (RM 519-2006)",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E1-12-T3",
+      "t": "Señalar a la jefatura los desfases observados entre el protocolo y la guía de práctica clínica vigente"
+     }
+    ]
+   },
+   "lim": "No modifica protocolos ni aprueba planes correctivos; reporta desviaciones a la jefatura o al comité de calidad.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 3,
+   "com": "Contrastar protocolos con GPC es tarea de jefatura; al egreso solo señala desfases. Es transversal: podría ser tarea de E1-01 y E1-02 más que función propia.",
+   "bloque": "F",
+   "fuente": ""
+  },
+  "E2-01": {
+   "R": "Sí",
+   "donde": "Estrategia de anemia y DCI de DIRESA/redes; sala situacional nutricional; SIEN del CENAN",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "La interpretación oficial de prevalencias la valida el responsable; no hace diagnóstico clínico individual.",
+   "S1": 4,
+   "S2": 4,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Verificado: con el criterio OMS 2024 la anemia baja 6,3 puntos y varía por región (120 711 niños). Exige recalcular líneas de base: sustento fuerte.",
+   "bloque": "S",
+   "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12377884/"
+  },
+  "E2-02": {
+   "R": "Sí",
+   "donde": "Planes de articulación territorial contra la anemia; gerencias de desarrollo social municipales",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 3,
+   "tareas": {
+    "agregar": [
+     "Estimar la brecha de cobertura y el costo de la intervención"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Formula la propuesta técnica con supervisión; aprobación presupuestal y compromisos los firma el funcionario competente.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 3,
+   "P3": 2,
+   "com": "El acta de compromisos firmada no depende del egresado: P3 bajo. En DIRESA esta programación la hace planeamiento con el nutricionista como aporte técnico, no como responsable.",
+   "bloque": "P",
+   "fuente": ""
+  },
+  "E2-03": {
+   "R": "Sí",
+   "donde": "Consejería en CRED y visitas domiciliarias del PP 1001; Cuna Más; ONG",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Casos con enfermedad o anemia moderada o severa se derivan al establecimiento para atención individual.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Lactancia 67,4 % vs 69,3 % verificado. Los 13 avisos de Cuna Más admiten varias profesiones: no prueban demanda específica de nutricionistas; decirlo.",
+   "bloque": "S",
+   "fuente": "https://www.infobae.com/peru/2025/04/02/anemia-infantil-en-menores-de-3-anos-subio-a-437-y-la-desnutricion-cronica-en-menores-de-5-anos-llego-al-121-segun-la-endes-2024/"
+  },
+  "E2-04": {
+   "R": "Sí",
+   "donde": "Centros de promoción y vigilancia comunal; agentes comunitarios de salud de redes MINSA",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "El reconocimiento de agentes y la validación de módulos corresponden al establecimiento o programa.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "El dato de nutricionistas por 100 000 habitantes no prueba demanda de formar agentes; los 15 avisos de cuidado diurno de Cuna Más no son de capacitación. Evaluar fusión con E2-03.",
+   "bloque": "S",
+   "fuente": ""
+  },
+  "E2-05": {
+   "R": "Sí",
+   "donde": "Especialistas alimentarios del programa escolar en unidades territoriales; comités de alimentación escolar",
+   "P": 4,
+   "E": "Esencial",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 3,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "No supervisa plantas de proveedores ni audita inocuidad; la programación la aprueba la unidad técnica del programa.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "E2-05-T3 es idéntica a E3-10-T5 (asistir a comités). E2 da a Wasi Mikuna por extinguido y E3 por vigente: unificar el estado institucional del programa escolar en ambas especialidades.",
+   "bloque": "F",
+   "fuente": "https://es.wikipedia.org/wiki/Qali_Warma"
+  },
+  "E2-06": {
+   "R": "Sí",
+   "donde": "Programas de Vaso de Leche y complementación alimentaria de municipalidades distritales",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 2,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [
+     "Verificar la calidad y conformidad de los insumos recibidos del proveedor"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Decisiones de compra y actos administrativos corresponden al comité de administración y a la gerencia municipal.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "SOFI 51,7 % verificado. S2 cita reglamentos, no una tendencia fechada. Al egreso no lo pondría sin supervisión: N=3.",
+   "bloque": "S",
+   "fuente": "https://cepes.org.pe/2024/07/24/sofi-2024-peru-alcanza-el-51-7-en-inseguridad-alimentaria/"
+  },
+  "E2-07": {
+   "R": "Sí",
+   "donde": "Municipios y escuelas saludables de promoción de la salud; Ley 30021 y su manual de advertencias",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 2,
+   "V": 4,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "No fiscaliza ni sanciona; diagnostica, propone e implementa con las autoridades competentes.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 3,
+   "com": "0 avisos: demanda solo normativa. Proponer ordenanzas no es encargo habitual del nutricionista de establecimiento. Tres entregables para cuatro tareas fragmentan el producto.",
+   "bloque": "S",
+   "fuente": ""
+  },
+  "E2-08": {
+   "R": "Sí",
+   "donde": "Servicios de salud ocupacional de empresas mineras y del propio MTPE",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Trabaja con el médico ocupacional, que decide la aptitud; deriva casos clínicos.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "Duplica E3-09 (programa nutricional para trabajadores) con otro producto. Dejar una sola función, preferible en E3 por el vínculo con el comedor. S2: obesidad estable no es tendencia de crecimiento.",
+   "bloque": "F",
+   "fuente": ""
+  },
+  "E2-09": {
+   "R": "Sí",
+   "donde": "Respuesta humanitaria de ONG con migrantes; COE regionales; ollas comunes en emergencias",
+   "P": 3,
+   "E": "Útil",
+   "F": 1,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 2,
+   "T": 3,
+   "tareas": {
+    "agregar": [
+     "Tamizar la desnutrición aguda de niños con perímetro braquial en albergues"
+    ],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Actúa dentro del equipo de respuesta, con supervisión directa y el plan de la autoridad.",
+   "S1": 2,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Criticidad alta pero frecuencia rara; un solo aviso. Falta el tamizaje de desnutrición aguda, tarea estándar en emergencias.",
+   "bloque": "S",
+   "fuente": ""
+  },
+  "E2-10": {
+   "R": "Sí",
+   "donde": "Seguimiento de metas del Programa de Incentivos y de convenios FED en redes y municipalidades",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 3,
+   "V": 3,
+   "L": 3,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "No diseña evaluaciones con grupo de comparación ni publica resultados oficiales.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 3,
+   "P2": 3,
+   "P3": 3,
+   "com": "«Impacto» sobredimensiona: sin contrafactual es monitoreo y evaluación de resultados. Renombrar. Entregable 1 con una sola tarea.",
+   "bloque": "F",
+   "fuente": ""
+  },
+  "E3-01": {
+   "R": "Sí",
+   "donde": "Unidades de producción de hospitales (NTS 103), concesionarios y comedores mineros",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Regímenes terapéuticos complejos los valida el nutricionista clínico; aprobación final del cliente o entidad.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "S2 presenta a Wasi Mikuna como vigente; su extinción en 2025 figura en E2 [18] y se confirma el paso a un nuevo Programa de Alimentación Escolar. Actualizar. El exceso de peso no sustenta la demanda de menús.",
+   "bloque": "S",
+   "fuente": "https://es.wikipedia.org/wiki/Qali_Warma"
+  },
+  "E3-02": {
+   "R": "Sí",
+   "donde": "Recetarios estandarizados en unidades de producción hospitalarias y concesionarios",
+   "P": 3,
+   "E": "Esencial",
+   "F": 3,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "No fija precios de venta ni márgenes contractuales.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "S2 se apoya en la Ley 30988 (2019) y en el manual de un programa extinguido; falta tendencia fechada vigente.",
+   "bloque": "S",
+   "fuente": ""
+  },
+  "E3-03": {
+   "R": "Sí",
+   "donde": "Cuadro de necesidades y recepción de víveres en hospitales públicos; almacenes de concesionarios",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": [
+     {
+      "code": "E3-03-T2",
+      "t": "Elaborar las especificaciones técnicas del requerimiento de alimentos conforme a la Ley General de Contrataciones Públicas"
+     }
+    ]
+   },
+   "lim": "No adjudica compras ni firma contratos: corresponden a logística o a funcionarios autorizados.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 3,
+   "P3": 3,
+   "com": "En el sector público la compra pasa por la Ley 32069; la tarea debe decirlo. S2 cita el manual de Wasi Mikuna, ya extinguido. Tres entregables para cinco tareas: fusionar 1 y 2.",
+   "bloque": "S",
+   "fuente": ""
+  },
+  "E3-04": {
+   "R": "Sí",
+   "donde": "Unidades de producción y distribución de regímenes de hospitales (NTS 103: 1 nutricionista por 40 camas); campamentos 14x7",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [
+     "E3-04-T4"
+    ],
+    "corregir": []
+   },
+   "lim": "Dirige un turno con supervisión indirecta; no asume la jefatura ni prescribe dietas terapéuticas.",
+   "S1": 4,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Empleo minero verificado (264 000 promedio 2025; 276 765 en diciembre, 73 % contratistas). T4 duplica E1-04-T3: dejar una sola.",
+   "bloque": "F",
+   "fuente": "https://forbes.pe/economia-y-finanzas/2026-02-26/la-mineria-genero-mas-de-264-000-empleos-directos-en-2025-informo-el-minem/"
+  },
+  "E3-05": {
+   "R": "Sí",
+   "donde": "Programas HACCP y POES de cocinas hospitalarias (NTS 098) y de concesionarios; vigilancia DIGESA/DIRESA",
+   "P": 4,
+   "E": "Esencial",
+   "F": 4,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "La validación técnica oficial y la vigilancia sanitaria corresponden a DIGESA o DIRESA.",
+   "S1": 4,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "S1 sólido. S2 repite la revisión Codex 2022 y el manual de Wasi Mikuna, extinguido: buscar tendencia vigente del servicio.",
+   "bloque": "S",
+   "fuente": ""
+  },
+  "E3-06": {
+   "R": "Sí",
+   "donde": "Capacitación semestral de manipuladores exigida por NTS 098 en hospitales",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 3,
+   "V": 3,
+   "L": 4,
+   "N": 4,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "La certificación oficial de manipuladores la emite la entidad acreditada.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 4,
+   "com": "Real pero podría ser un programa prerrequisito dentro de E3-05. S2 vuelve a apoyarse en Wasi Mikuna.",
+   "bloque": "F",
+   "fuente": ""
+  },
+  "E3-07": {
+   "R": "Sí",
+   "donde": "Supervisión de concesionarios por hospitales y mineras; inspecciones con ficha de la NTS 098",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 4,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "No ejerce vigilancia oficial ni sanciona; auditorías de certificación requieren acreditación.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Episodios escolares 2024 verificados (≈59 estudiantes en Puno, Cajamarca y Áncash). S2 descansa en una unidad de Wasi Mikuna que ya no existe. E3-07-T3 se superpone con E3-10-T2.",
+   "bloque": "S",
+   "fuente": "https://www.infobae.com/peru/2024/11/12/crisis-en-qali-warma-corrupcion-denuncias-y-cronologia-de-los-casos-que-han-puesto-en-peligro-la-salud-de-millones-de-escolares-en-peru/"
+  },
+  "E3-08": {
+   "R": "Sí",
+   "donde": "Indicadores de costo y satisfacción en concesionarios y hospitales APP",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Decisiones presupuestales y contractuales corresponden a la jefatura, la gerencia o la entidad.",
+   "S1": 3,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Más propio del sector privado; en hospitales MINSA el costeo lo lleva logística. S2 depende de la Ley 30988 y del manual de Wasi Mikuna.",
+   "bloque": "S",
+   "fuente": ""
+  },
+  "E3-09": {
+   "R": "Sí",
+   "donde": "Programas de alimentación saludable en campamentos mineros y comedores industriales",
+   "P": 3,
+   "E": "Útil",
+   "F": 2,
+   "C": 2,
+   "V": 3,
+   "L": 4,
+   "N": 3,
+   "T": 4,
+   "tareas": {
+    "agregar": [],
+    "retirar": [],
+    "corregir": []
+   },
+   "lim": "Vigilancia médica, diagnóstico y aptitud laboral corresponden al médico ocupacional; deriva casos clínicos.",
+   "S1": 3,
+   "S2": 3,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Duplica E2-08: fusionar aquí. El estudio [19] halla síndrome metabólico en cerca de un tercio de todos los trabajadores; el «36 % con perímetro alterado» no se lee así en la fuente.",
+   "bloque": "S",
+   "fuente": "https://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-30342016000100005"
+  },
+  "E3-10": {
+   "R": "Sí",
+   "donde": "Unidades territoriales del programa de alimentación escolar; CAS de especialista alimentario",
+   "P": 3,
+   "E": "Útil",
+   "F": 3,
+   "C": 4,
+   "V": 3,
+   "L": 3,
+   "N": 2,
+   "T": 3,
+   "tareas": {
+    "agregar": [],
+    "retirar": [
+     "E3-10-T5"
+    ],
+    "corregir": []
+   },
+   "lim": "Integra el equipo territorial con supervisión directa; conformidad y penalidades corresponden a funcionarios acreditados.",
+   "S1": 2,
+   "S2": 2,
+   "P1": 4,
+   "P2": 4,
+   "P3": 3,
+   "com": "Se sostiene en Wasi Mikuna (extinguido en 2025) y en un DS 010-2024 superado. T5 es idéntica a E2-05-T3. Actualizar al Programa de Alimentación Escolar vigente.",
+   "bloque": "S",
+   "fuente": "https://es.wikipedia.org/wiki/Qali_Warma"
+  }
+ },
+ "abiertas": {
+  "E1": {
+   "faltantes": [
+    {
+     "t": "Atención nutricional del paciente con enfermedad renal crónica en hemodiálisis",
+     "tareas": [
+      "Valorar el estado nutricional y el riesgo de desgaste proteico-energético",
+      "Prescribir el plan con control de potasio, fósforo, sodio y líquidos",
+      "Controlar la adherencia entre sesiones de diálisis"
+     ],
+     "evidencia": "Hay centros de hemodiálisis propios y contratados de EsSalud con nutricionista; no lo verifiqué con fuente en esta ronda (sin búsqueda disponible)."
+    }
+   ],
+   "fusiones": [
+    "Integrar E1-07 (bariátrica) como escenario de E1-06 (obesidad).",
+    "E1-04-T3 y E3-04-T4 describen el mismo control del armado de dietas: un solo dueño.",
+    "E1-12 podría ser tareas de calidad dentro de E1-01 y E1-02."
+   ]
+  },
+  "E2": {
+   "faltantes": [
+    {
+     "t": "Registro y seguimiento nominal de la información nutricional",
+     "tareas": [
+      "Registrar atenciones en HIS y SIEN",
+      "Cruzar el padrón nominal con tamizajes de hemoglobina",
+      "Hacer el seguimiento nominal de niños con anemia hasta su recuperación"
+     ],
+     "evidencia": "El SIEN opera en 7 938 establecimientos [8] y el Programa de Incentivos 2025 mide niños sin anemia con datos nominales [15]; es tarea diaria del nutricionista de primer nivel."
+    }
+   ],
+   "fusiones": [
+    "Fusionar E2-08 con E3-09 (misma función en dos especialidades).",
+    "Evaluar fusionar E2-04 con E2-03.",
+    "E2-05-T3 = E3-10-T5: deslindar.",
+    "Renombrar E2-10 como monitoreo y evaluación de resultados."
+   ]
+  },
+  "E3": {
+   "faltantes": [
+    {
+     "t": "Supervisión del contrato de alimentación tercerizada en establecimientos públicos",
+     "tareas": [
+      "Elaborar los términos de referencia del servicio",
+      "Verificar el cumplimiento contractual y emitir el informe de conformidad",
+      "Sustentar penalidades ante logística"
+     ],
+     "evidencia": "La NTS 103 permite tercerizar sin eximir al establecimiento [6] y la contratación sigue la Ley 32069; hoy queda dispersa entre E3-07 y E3-08."
+    }
+   ],
+   "fusiones": [
+    "E3-06 puede ser programa prerrequisito dentro de E3-05.",
+    "E3-07-T3 y E3-10-T2 se superponen (plantas de proveedores).",
+    "Absorber E2-08 en E3-09."
+   ]
+  }
+ },
+ "verificadas": [
+  {
+   "ref": "E1 [9]",
+   "url": "https://scielo.isciii.es/scielo.php?pid=S0212-16112013000400037&script=sci_arttext",
+   "sostiene": true,
+   "nota": "46,9 % en Medicina y Cirugía del HN Arzobispo Loayza, junio 2012."
+  },
+  {
+   "ref": "E1 [14]",
+   "url": "https://elcomercio.pe/tecnologia/ciencias/en-el-peru-solo-existen-21-unidades-de-soporte-nutricional-para-mas-de-500-establecimientos-de-salud-noticia/",
+   "sostiene": true,
+   "nota": "21 unidades, 12 en Lima, feb. 2020; fuente periodística y antigua."
+  },
+  {
+   "ref": "E1 [22]",
+   "url": "https://www.who.int/news/item/01-12-2025-who-issues-global-guideline-on-the-use-of-glp-1-medicines-in-treating-obesity",
+   "sostiene": true,
+   "nota": "Recomienda intervención conductual intensiva con GLP-1 y proyecta duplicar la obesidad al 2030."
+  },
+  {
+   "ref": "E1 [16]",
+   "url": "https://www.gob.pe/institucion/minsa/normas-legales/7098166-553-2025-minsa",
+   "sostiene": null,
+   "nota": "No abre para lectura automática (HTTP 418 de gob.pe); no verificable en esta ronda."
+  },
+  {
+   "ref": "E2 [1]",
+   "url": "https://www.infobae.com/peru/2025/04/02/anemia-infantil-en-menores-de-3-anos-subio-a-437-y-la-desnutricion-cronica-en-menores-de-5-anos-llego-al-121-segun-la-endes-2024/",
+   "sostiene": true,
+   "nota": "Anemia 43,1→43,7 %, DCI 12,1 %, lactancia 69,3→67,4 %."
+  },
+  {
+   "ref": "E2 [7]",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12377884/",
+   "sostiene": true,
+   "nota": "120 711 niños; −6,3 puntos con el criterio OMS 2024; heterogeneidad regional."
+  },
+  {
+   "ref": "E2 [25]",
+   "url": "https://cepes.org.pe/2024/07/24/sofi-2024-peru-alcanza-el-51-7-en-inseguridad-alimentaria/",
+   "sostiene": true,
+   "nota": "51,7 % y 17,6 millones con inseguridad moderada o grave."
+  },
+  {
+   "ref": "E2 [18]",
+   "url": "https://es.wikipedia.org/wiki/Qali_Warma",
+   "sostiene": true,
+   "nota": "Fuente secundaria: Wasi Mikuna fue clausurado en 2025 y lo sucede un Programa de Alimentación Escolar; gob.pe no abre. Contradice la vigencia que asume E3."
+  },
+  {
+   "ref": "E3 [14]",
+   "url": "https://andina.pe/agencia/noticia-ya-es-oficial-gobierno-crea-programa-alimentacion-escolar-comunitaria-wasi-mikuna-1010229.aspx",
+   "sostiene": true,
+   "nota": "Sostiene la creación en 2024, pero el programa ya fue extinguido: el dato está desactualizado para S2."
+  },
+  {
+   "ref": "E3 [18]",
+   "url": "https://forbes.pe/economia-y-finanzas/2026-02-26/la-mineria-genero-mas-de-264-000-empleos-directos-en-2025-informo-el-minem/",
+   "sostiene": true,
+   "nota": "264 000 promedio 2025; 276 765 en diciembre, 73 % contratistas."
+  },
+  {
+   "ref": "E3 [19]",
+   "url": "https://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-30342016000100005",
+   "sostiene": false,
+   "nota": "Mina a 4100 m y cerca de un tercio con síndrome metabólico; el 36 % referido al perímetro alterado no se lee así."
+  },
+  {
+   "ref": "E3 [21]",
+   "url": "https://www.infobae.com/peru/2024/11/12/crisis-en-qali-warma-corrupcion-denuncias-y-cronologia-de-los-casos-que-han-puesto-en-peligro-la-salud-de-millones-de-escolares-en-peru/",
+   "sostiene": true,
+   "nota": "Puno 19, Cajamarca 20, Áncash 20: unos 59 estudiantes en 2024."
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+[
+ {
+  "cod": "SIS-01",
+  "especialidad": "Desarrollo de software e ingeniería de aplicaciones",
+  "descripcion": "Construye el software que una organización usa: levanta requisitos, diseña, programa, prueba y lo pone en producción.",
+  "naturaleza": "desarrollo",
+  "proceso": "Analizar → diseñar → construir → verificar → desplegar",
+  "evidencia": "Software desplegado en producción con su repositorio, pruebas automatizadas y documentación"
+ },
+ {
+  "cod": "SIS-02",
+  "especialidad": "Ciencia de datos e inteligencia artificial",
+  "descripcion": "Convierte datos en decisiones y en modelos que aprenden: gobierna el dato, modela, entrena, evalúa y pone el modelo a operar.",
+  "naturaleza": "datos",
+  "proceso": "Gobernar el dato → modelar → entrenar → evaluar → implantar",
+  "evidencia": "Modelo en producción con su informe de evaluación y su tablero de decisión"
+ },
+ {
+  "cod": "SIS-03",
+  "especialidad": "Ciberseguridad y gestión de riesgos digitales",
+  "descripcion": "Protege la información y los sistemas: evalúa riesgos, detecta, responde a incidentes y sostiene el cumplimiento.",
+  "naturaleza": "seguridad",
+  "proceso": "Evaluar el riesgo → proteger → detectar → responder → recuperar",
+  "evidencia": "Informe de riesgos y plan de respuesta a incidentes aprobado por la organización"
+ },
+ {
+  "cod": "SIS-04",
+  "especialidad": "Infraestructura en la nube y DevOps",
+  "descripcion": "Diseña y automatiza la plataforma donde corre el software: nube, contenedores, pipelines y observabilidad.",
+  "naturaleza": "infraestructura",
+  "proceso": "Diseñar la plataforma → automatizar → operar → observar → optimizar",
+  "evidencia": "Plataforma operando con infraestructura como código, pipelines y tablero de observabilidad"
+ },
+ {
+  "cod": "SIS-05",
+  "especialidad": "Gestión de proyectos y servicios de TI",
+  "descripcion": "Dirige el proyecto tecnológico de principio a fin y opera el servicio bajo acuerdos de nivel.",
+  "naturaleza": "gestión TI",
+  "proceso": "Planificar → dirigir → controlar → entregar → operar el servicio",
+  "evidencia": "Proyecto entregado con acta de cierre y catálogo de servicios operando bajo acuerdos de nivel"
+ },
+ {
+  "cod": "SIS-06",
+  "especialidad": "Arquitectura empresarial y transformación digital",
+  "descripcion": "Alinea la tecnología con la estrategia: diagnostica la madurez digital y traza la hoja de ruta con su arquitectura objetivo.",
+  "naturaleza": "gestión TI",
+  "proceso": "Diagnosticar → alinear → diseñar la arquitectura → priorizar → medir el valor",
+  "evidencia": "Hoja de ruta de transformación digital aprobada por la alta dirección con su arquitectura objetivo"
+ },
+ {
+  "cod": "SIS-09",
+  "especialidad": "Análisis funcional y de sistemas de información",
+  "descripcion": "Traduce las necesidades del negocio en requerimientos y especificaciones para los equipos de desarrollo.",
+  "naturaleza": "desarrollo",
+  "proceso": "Relevar → especificar → validar → acompañar la construcción",
+  "evidencia": "Documento de especificación de requisitos aprobado y casos de aceptación"
+ },
+ {
+  "cod": "SIS-11",
+  "especialidad": "Redes y telecomunicaciones",
+  "descripcion": "Diseña y opera la red que conecta a la organización: equipos, seguridad perimetral y disponibilidad.",
+  "naturaleza": "infraestructura",
+  "proceso": "Diseñar la red → implementar → operar → asegurar la disponibilidad",
+  "evidencia": "Red operando con su documentación y sus indicadores de disponibilidad"
+ },
+ {
+  "cod": "SIS-12",
+  "especialidad": "Auditoría de sistemas y gobierno de TI",
+  "descripcion": "Evalúa controles y riesgos de TI ante el comité de auditoría y sostiene el gobierno de la tecnología.",
+  "naturaleza": "gestión TI",
+  "proceso": "Planificar la auditoría → evaluar controles → reportar → seguir hallazgos",
+  "evidencia": "Informe de auditoría de sistemas con hallazgos y plan de remediación"
+ },
+ {
+  "cod": "SIS-13",
+  "especialidad": "Protección de datos personales y privacidad",
+  "descripcion": "Diseña e implementa el cumplimiento de datos personales: políticas, controles, incidentes y relación con la autoridad.",
+  "naturaleza": "seguridad",
+  "proceso": "Inventariar → diseñar controles → operar → notificar → auditar",
+  "evidencia": "Programa de cumplimiento de datos personales con registro de incidentes y reportes a la autoridad"
+ },
+ {
+  "cod": "SIS-14",
+  "especialidad": "Inteligencia de negocios y analítica empresarial",
+  "descripcion": "Construye reportes, tableros y análisis que sostienen decisiones de gerencia.",
+  "naturaleza": "datos",
+  "proceso": "Integrar → modelar → visualizar → analizar",
+  "evidencia": "Tablero de indicadores en operación con su modelo de datos documentado"
+ }
+]

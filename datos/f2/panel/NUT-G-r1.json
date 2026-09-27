@@ -1,0 +1,682 @@
+{
+ "cod": "NUT",
+ "ronda": 1,
+ "rol": "G",
+ "funciones": {
+  "E1-01": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "Sin observaciones de regla. [9] sostiene el 46,9 % (Hospital Arzobispo Loayza), pero el dato es de junio de 2012; conviene sumar una prevalencia reciente."
+  },
+  "E1-02": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (EFFORT, 2019).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "El ensayo EFFORT es de 2019: diga el año o sume una fuente más reciente para sostener la tendencia a cinco años."
+  },
+  "E1-03": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (ASPEN, 2020; EFFORT, 2019).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "Regla 3 cumple: la prescripción y el monitoreo del soporte enteral son de E1; la preparación de las fórmulas en la Unidad Central de Producción (NTS 103) es de E3-04-T5. Precise en lim que no prepara fórmulas. [14] es una nota de prensa de 2020 y no hay un registro oficial."
+  },
+  "E1-04": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "No cumple · fondo · es de E3: la NTS 103 ubica al planificador de regímenes y al supervisor de su distribución en la Unidad Central de Producción, y T3 duplica E3-04-T4 (armado y distribución de dietas hospitalarias)",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · fondo · no hay tendencia fechada: IDDSI y ESPEN se citan sin año, y la afirmación de una «población hospitalizada cada vez más envejecida» no trae dato",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [
+    "F",
+    "S",
+    "P"
+   ],
+   "nota": "Recomiendo retirar la función. T1 (texturas IDDSI) pasa a E1-08 o a E1-02; T2 (orden de dieta) pasa a E1-02; T3 y T4 pasan a E3-04. El propio fundamento cita la unidad de producción de la NTS 103 y avisos de concesionario, que son evidencia de E3."
+  },
+  "E1-05": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (RM 764-2022; RM 553-2025).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "Hay frontera interna con E1-06 porque la obesidad también se atiende en la consulta de crónicas. Aclare en E1-05 que el manejo del peso se remite a E1-06."
+  },
+  "E1-06": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "Sin observaciones. [22] (OMS, 01/12/2025) sostiene la guía GLP-1, las intervenciones conductuales intensivas y la duplicación de la obesidad hacia 2030."
+  },
+  "E1-07": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "No cumple · fondo · [23] no sostiene lo que se le atribuye: los más de 100 pacientes se derivan al programa psicoterapéutico del Departamento de Salud Mental del Rebagliati, y el comité bariátrico que describe la nota no menciona nutricionistas"
+   },
+   "fondo": [
+    "S"
+   ],
+   "nota": "Reemplace [23] por una fuente que muestre la participación del nutricionista en el programa bariátrico, o reformule. La guía perioperatoria es de 2019: la tendencia está fechada, pero es antigua."
+  },
+  "E1-08": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "No cumple · forma · el primer dato («las personas de 60 y más años ya representan el 14,6 % en el indicador de la ENDES 2024») es confuso: el cuadro 1.24.B da el peso de ese grupo en la muestra; redáctelo como proporción de la población",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (ESPEN, 2019; IDDSI, 2016).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "Hay frontera con E1-04 por las texturas IDDSI; si E1-04 se retira, esta función absorbe la especificación de texturas."
+  },
+  "E1-09": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (consenso AND/ASPEN, 2014; estudio latinoamericano).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "Diga el año del consenso y del estudio multicéntrico. El consenso AND/ASPEN es de 2014: no es una tendencia reciente."
+  },
+  "E1-10": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "Cumple. La tendencia es solo normativa (NTS 213 de 2024) y no trae dato de evolución. La frontera con E2-03 (consejería comunitaria a gestantes) está clara: aquí la consejería es individual."
+  },
+  "E1-11": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (Ley 30885, 2018; RM 553-2025).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "Sin observaciones de fondo."
+  },
+  "E1-12": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "Cumple. Reusa el dato de 2012 de [9] (igual que E1-01). La función es transversal y el límite es adecuado."
+  },
+  "E2-01": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "Cumple. [7] sostiene 120 711 niños y la diferencia de −6,3 puntos. El ámbito «colectivos laborales» se cruza con E2-08: si la nutrición ocupacional sale de E2, retírelo."
+  },
+  "E2-02": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "Cumple. Junto con E2-01 y E2-10, divide en tres funciones el ciclo diagnóstico, diseño y evaluación; cada etapa corresponde a un puesto real (formulador y monitor), así que la regla 1 se da por cumplida, pero vigile que no se lea como etapas de un método."
+  },
+  "E2-03": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "Cumple. [1] sostiene 43,7 % de anemia, 12,1 % de desnutrición crónica y la lactancia exclusiva de 67,4 % frente a 69,3 %."
+  },
+  "E2-04": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · fondo · no hay tendencia fechada: que la brecha «no se cerrará» es una conjetura, y [20] es una nota de Wasi Mikuna, programa extinguido por el DS 006-2025-MIDIS",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [
+    "S"
+   ],
+   "nota": "El fundamento usa avisos de Wasi Mikuna de 2025 [31][40]; como evidencia histórica pasa, pero ya no hay convocatorias de ese programa (forma). La frontera con E3-06 (capacitación sanitaria de comités y comedores) está clara porque aquí son prácticas de alimentación y vigilancia comunal."
+  },
+  "E2-05": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "Cumple. Es la única función de la carrera que registra bien la vigencia: PAE del MIDIS, Wasi Mikuna extinguido [18] y 4 187 782 estudiantes en 67 055 II. EE. en 2026 [19], todo verificado. La duplicación con E3-10 (T3 = E3-10-T5; T1 se cruza con E3-10-T1 y con E3-01) se corrige en E3-10: la asistencia técnica a los comités y la programación nutricional son de E2."
+  },
+  "E2-06": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (reglamento de la Ley 31315, DS 003-2024-MIDAGRI; Ley 31782, 2023).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "La tendencia es solo normativa. Hay un solape leve con E3-10, cuyo ámbito incluye comedores populares."
+  },
+  "E2-07": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "Cumple. La tendencia 2014-2024 está fechada y tiene fuente. El ámbito «empresas» se cruza con la nutrición ocupacional."
+  },
+  "E2-08": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "No cumple · fondo · se superpone casi por completo con E3-09 (Nutrición ocupacional en centros de trabajo): el mismo encargo (diagnóstico del colectivo desde la vigilancia ocupacional, consejería y talleres, menús con el servicio, indicadores con SST) y los mismos avisos de campamentos mineros 14x7 (el [35] de E2 y el [35] de E3 son ambos avisos de Sodexo o Newrest para campamentos)",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [
+    "F"
+   ],
+   "nota": "La carrera debe asignar la nutrición ocupacional a una sola especialidad. Propuesta: el programa preventivo del colectivo (diagnóstico, consejería, indicadores al empleador) queda en una sola función, E2-08 o E3-09. En la otra especialidad solo queda la adecuación de la oferta del comedor por gasto energético, turno y altitud, que en E3 puede fundirse con E3-01. Hoy ambas se remiten mutuamente en lim y ninguna cede tareas."
+  },
+  "E2-09": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (DS 003-2024-MIDAGRI).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "La tendencia es solo normativa, sin dato de evolución de emergencias o de población migrante."
+  },
+  "E2-10": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · la justificación no dice el año de la tendencia; la fuente está fechada en la lista de referencias (PI 2025; guía OMS 2024).",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "El título promete «impacto», pero lim excluye los diseños con grupo de comparación y las tareas son de monitoreo y evaluación de resultados. Sugiero «Monitoreo y evaluación de intervenciones nutricionales» (forma, L). No pude verificar [15] en el MEF: Incapsula bloquea la lectura."
+  },
+  "E3-01": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple con observación · el ámbito «programas alimentarios del Estado» se cruza con E2-05-T1/T2 (programación de raciones y menús escolares), y la especificación de dietas especiales se cruza con E1-04-T1",
+    "4": "Cumple",
+    "5": "No cumple · forma · cita como vigente la programación del menú escolar de Wasi Mikuna [13], programa extinguido por el DS 006-2025-MIDIS",
+    "6": "No cumple · fondo · la tendencia es «Wasi Mikuna reemplazó a Qali Warma» [14], que ya no está vigente: el programa se extinguió por el DS 006-2025-MIDIS y hoy opera el PAE del MIDIS; la Ley 31071 no dice el año (2020)",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "No cumple · fondo · [13] y [14] abren y sostienen su texto, pero describen un programa extinguido; reemplácelos por fuentes del PAE"
+   },
+   "fondo": [
+    "S"
+   ],
+   "nota": "Reescriba la justificación del impacto con el PAE 2026: más estándares de control, productos fortificados y locales, 4,1 millones de estudiantes. Deje los menús escolares de programas sociales a E2-05 o delimite qué parte hace el servicio."
+  },
+  "E3-02": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "No cumple · forma · se apoya en el Manual de Operaciones de Wasi Mikuna [13], programa extinguido por el DS 006-2025-MIDIS (13/04/2025); desde 2026 presta el servicio el Programa de Alimentación Escolar (PAE) del MIDIS",
+    "6": "No cumple · fondo · sin año; una mitad del argumento es el Manual de Operaciones de Wasi Mikuna (programa extinguido) y la otra es la Ley 30988 de 2019, que es una norma y no una tendencia",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [
+    "S"
+   ],
+   "nota": "Busque una tendencia fechada del costo de alimentos o del desperdicio en servicios de comida, por ejemplo con datos de pérdidas y desperdicio."
+  },
+  "E3-03": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · la mitad del argumento se apoya en el Manual de Operaciones de Wasi Mikuna [13], programa extinguido por el DS 006-2025-MIDIS (13/04/2025); desde 2026 presta el servicio el Programa de Alimentación Escolar (PAE) del MIDIS; se sostiene con los casos de 2024 [21] y con la Ley 31071",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "Sustituya [13] por el Operativo Control del PAE 2026 (supervisores en plantas y almacenes), que prueba lo mismo con una fuente vigente."
+  },
+  "E3-04": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "Cumple. [6] (NTS 103) sostiene un supervisor de producción y otro de distribución por cada 40 camas, además de la tercerización. [18] sostiene 276 765 empleos en diciembre de 2025 y 73 % en contratistas. T5 (preparar fórmulas enterales) sí es de E3 porque la NTS 103 ubica las fórmulas en la Unidad Central de Producción. T4 está duplicada por E1-04-T3; la corrección se hace en E1-04."
+  },
+  "E3-05": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · Codex 2022 está bien, pero el segundo argumento se apoya en el Manual de Operaciones de Wasi Mikuna [13], programa extinguido por el DS 006-2025-MIDIS (13/04/2025); desde 2026 presta el servicio el Programa de Alimentación Escolar (PAE) del MIDIS",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "Reemplace [13] por una fuente vigente del PAE o de DIGESA."
+  },
+  "E3-06": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · forma · el primer argumento se apoya en el Manual de Operaciones de Wasi Mikuna [13], programa extinguido por el DS 006-2025-MIDIS (13/04/2025); desde 2026 presta el servicio el Programa de Alimentación Escolar (PAE) del MIDIS; Codex 2022 está bien",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [],
+   "nota": "El ámbito incluye comités de alimentación escolar y comedores populares, que se cruzan con E2-04 y E2-05. La frontera es aceptable si se limita a la capacitación sanitaria de manipuladores."
+  },
+  "E3-07": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · fondo · sin año; el primer argumento es la Unidad de Supervisión Alimentaria de Wasi Mikuna [13] (programa extinguido) y el segundo es la NTS 103 de 2013, que no es una tendencia",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [
+    "S"
+   ],
+   "nota": "T3 (auditar plantas y almacenes de proveedores) se duplica dentro de E3 con E3-10-T2. [21] sostiene los episodios de 2024 en Puno y Cajamarca. [26] (Cerro Verde) sostiene las inspecciones a proveedores."
+  },
+  "E3-08": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "No cumple · fondo · sin año; Ley 30988 (2019) y el Manual de Operaciones de Wasi Mikuna [13], de un programa extinguido: no hay una tendencia vigente fechada",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "Cumple"
+   },
+   "fondo": [
+    "S"
+   ],
+   "nota": "Busque una tendencia fechada: tercerización o APP hospitalarias, costo de alimentos, desperdicio en servicios de comida."
+  },
+  "E3-09": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "No cumple · fondo · es la misma función que E2-08 (Programa nutricional para colectivos laborales): T1, T3, T4 y T5 repiten el diagnóstico del colectivo, la educación y consejería y la evaluación con salud ocupacional",
+    "4": "Cumple",
+    "5": "Cumple",
+    "6": "Cumple",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "No cumple · fondo · [19] se lee mal: el estudio (mina a 4100 m s. n. m.) halló que el 36 % tuvo el perímetro abdominal alterado y que el 100 % de ellos tenía además dos o más criterios de síndrome metabólico; no dice que el 36 % de los alterados tuviera síndrome metabólico"
+   },
+   "fondo": [
+    "F",
+    "S"
+   ],
+   "nota": "Vea la propuesta de reparto en E2-08. [18] sostiene el récord de más de 264 000 empleos directos en 2025. Corrija el dato de [19]."
+  },
+  "E3-10": {
+   "reglas": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "No cumple · fondo · T5 es idéntica a E2-05-T3 (asistir técnicamente a los comités de alimentación escolar) y T1 se cruza con E2-05-T1; dentro de E3, T2 duplica E3-07-T3",
+    "4": "Cumple",
+    "5": "No cumple · fondo · afirma en presente que «Wasi Mikuna atiende a más de 4 millones de escolares» [14], lo que es falso en 2026 porque el programa se extinguió por el DS 006-2025-MIDIS; el Manual de Operaciones [13] y la convocatoria [27] son de ese programa",
+    "6": "No cumple · fondo · la tendencia se apoya en el modelo del DS 010-2024-MIDIS (comunidades educativas y cogestión como prestadores), que el DS 006-2025-MIDIS dejó sin continuidad; el ámbito «Unidades territoriales de Wasi Mikuna» es obsoleto",
+    "7": "Cumple",
+    "8": "Cumple",
+    "9": "No cumple · fondo · [13], [14] y [27] abren, pero ya no respaldan una función vigente"
+   },
+   "fondo": [
+    "F",
+    "S"
+   ],
+   "nota": "Reformule sobre el PAE del MIDIS con el Operativo Control de 2026 y sus supervisores en plantas y almacenes (fuente: [19] de E2). Retire T5 (es de E2-05) y T1, y quede con la supervisión sanitaria y de cumplimiento del proveedor y de la entrega. Considere fundirla con E3-07 (auditoría de proveedores)."
+  }
+ },
+ "referencias": [
+  {
+   "esp": "E1",
+   "ref": "[9]",
+   "url": "https://scielo.isciii.es/scielo.php?pid=S0212-16112013000400037&script=sci_arttext",
+   "abre": true,
+   "sostiene": true,
+   "nota": "46,9 % en el Hospital Arzobispo Loayza, datos de junio de 2012"
+  },
+  {
+   "esp": "E1",
+   "ref": "[14]",
+   "url": "https://elcomercio.pe/tecnologia/ciencias/en-el-peru-solo-existen-21-unidades-de-soporte-nutricional-para-mas-de-500-establecimientos-de-salud-noticia/",
+   "abre": true,
+   "sostiene": true,
+   "nota": "21 unidades, 12 en Lima; nota de prensa del 27/02/2020"
+  },
+  {
+   "esp": "E1",
+   "ref": "[16]",
+   "url": "https://www.gob.pe/institucion/minsa/normas-legales/7098166-553-2025-minsa",
+   "abre": true,
+   "sostiene": true,
+   "nota": "SIHCE obligatorio en el primer nivel, 30/08/2025"
+  },
+  {
+   "esp": "E1",
+   "ref": "[17]",
+   "url": "https://cdn.www.gob.pe/uploads/document/file/8134023/6813669-principales-indicadores-peru-enfermedades-no-transmisibles-y-transmisibles-2024.pdf",
+   "abre": true,
+   "sostiene": true,
+   "nota": "40,1 % de comorbilidad; 62,2 % de exceso de peso; 25,7 % de obesidad; 14,6 % en el cuadro 1.24.B (personas de 60 y más años)"
+  },
+  {
+   "esp": "E1",
+   "ref": "[22]",
+   "url": "https://www.who.int/news/item/01-12-2025-who-issues-global-guideline-on-the-use-of-glp-1-medicines-in-treating-obesity",
+   "abre": true,
+   "sostiene": true,
+   "nota": "Guía GLP-1, intervenciones conductuales intensivas y duplicación de la obesidad hacia 2030"
+  },
+  {
+   "esp": "E1",
+   "ref": "[23]",
+   "url": "https://www.gob.pe/institucion/essalud/noticias/1052172-essalud-ofrece-con-exito-programas-de-cirugia-bariatrica-en-pacientes-con-obesidad-morbida",
+   "abre": true,
+   "sostiene": false,
+   "nota": "Los más de 100 pacientes van al programa psicoterapéutico de Salud Mental; la nota no menciona nutricionistas"
+  },
+  {
+   "esp": "E2",
+   "ref": "[1]",
+   "url": "https://www.infobae.com/peru/2025/04/02/anemia-infantil-en-menores-de-3-anos-subio-a-437-y-la-desnutricion-cronica-en-menores-de-5-anos-llego-al-121-segun-la-endes-2024/",
+   "abre": true,
+   "sostiene": true,
+   "nota": "43,7 % (antes 43,1 %), 12,1 %, lactancia 67,4 % frente a 69,3 %"
+  },
+  {
+   "esp": "E2",
+   "ref": "[7]",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12377884/",
+   "abre": true,
+   "sostiene": true,
+   "nota": "120 711 niños; diferencia de −6,3 puntos, heterogénea por región"
+  },
+  {
+   "esp": "E2",
+   "ref": "[9]",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13245977/fullTextXML",
+   "abre": true,
+   "sostiene": true,
+   "nota": "2,4 (Piura) a 18,9 (Moquegua) nutricionistas por 100 000 habitantes"
+  },
+  {
+   "esp": "E2",
+   "ref": "[15]",
+   "url": "https://www.mef.gob.pe/contenidos/presu_publ/migl/PI2025_C3.pdf",
+   "abre": false,
+   "sostiene": null,
+   "nota": "El MEF bloquea la lectura automatizada (Incapsula); no se pudo verificar"
+  },
+  {
+   "esp": "E2",
+   "ref": "[18]",
+   "url": "https://www.gob.pe/institucion/midis/normas-legales/6666332-006-2025-midis",
+   "abre": true,
+   "sostiene": true,
+   "nota": "DS 006-2025-MIDIS (13/04/2025): extingue Wasi Mikuna y declara en emergencia el servicio alimentario escolar hasta el 31/12/2025"
+  },
+  {
+   "esp": "E2",
+   "ref": "[19]",
+   "url": "https://www.gob.pe/institucion/midis/noticias/1366300-midis-asegura-alimentacion-para-mas-de-4-1-millones-de-estudiantes-durante-el-2026",
+   "abre": true,
+   "sostiene": true,
+   "nota": "PAE 2026: 4 187 782 estudiantes y 67 055 II. EE.; Operativo Control en plantas y almacenes (16/03/2026)"
+  },
+  {
+   "esp": "E2",
+   "ref": "[22]",
+   "url": "https://busquedas.elperuano.pe/dispositivo/NL/2186594-1",
+   "abre": true,
+   "sostiene": true,
+   "nota": "Prelación: niños de 0 a 6 años, gestantes y madres lactantes"
+  },
+  {
+   "esp": "E2",
+   "ref": "[25]",
+   "url": "https://cepes.org.pe/2024/07/24/sofi-2024-peru-alcanza-el-51-7-en-inseguridad-alimentaria/",
+   "abre": true,
+   "sostiene": true,
+   "nota": "17,6 millones y 51,7 % (SOFI 2024, trienio 2021-2023)"
+  },
+  {
+   "esp": "E3",
+   "ref": "[6]",
+   "url": "https://docs.bvsalud.org/biblioref/2019/04/948680/rm_665-2013-minsa.pdf",
+   "abre": true,
+   "sostiene": true,
+   "nota": "Planificador, supervisor de producción y supervisor de distribución por cada 40 camas en la Unidad Central de Producción de regímenes y fórmulas; permite tercerizar"
+  },
+  {
+   "esp": "E3",
+   "ref": "[13]",
+   "url": "https://cdn.www.gob.pe/uploads/document/file/7571993/6429129-6406173-mop_wasi_mikuna_22-01-25_version_limpia_-1-f-_-1-1-f-f-f.pdf",
+   "abre": true,
+   "sostiene": true,
+   "nota": "Tiene la Unidad de Supervisión Alimentaria, pero el programa se extinguió por el DS 006-2025-MIDIS: no vigente"
+  },
+  {
+   "esp": "E3",
+   "ref": "[14]",
+   "url": "https://andina.pe/agencia/noticia-ya-es-oficial-gobierno-crea-programa-alimentacion-escolar-comunitaria-wasi-mikuna-1010229.aspx",
+   "abre": true,
+   "sostiene": true,
+   "nota": "Creación de Wasi Mikuna en diciembre de 2024; superada por su extinción en 2025"
+  },
+  {
+   "esp": "E3",
+   "ref": "[18]",
+   "url": "https://forbes.pe/economia-y-finanzas/2026-02-26/la-mineria-genero-mas-de-264-000-empleos-directos-en-2025-informo-el-minem/",
+   "abre": true,
+   "sostiene": true,
+   "nota": "Promedio de más de 264 000 en 2025; 276 765 en diciembre de 2025; 73 % en contratistas y conexas"
+  },
+  {
+   "esp": "E3",
+   "ref": "[19]",
+   "url": "https://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-30342016000100005",
+   "abre": true,
+   "sostiene": false,
+   "nota": "Mina a 4100 msnm: el 36 % tuvo la cintura alterada y el 100 % de ellos tenía 2 o más criterios adicionales; E3-09 lo invierte"
+  },
+  {
+   "esp": "E3",
+   "ref": "[21]",
+   "url": "https://www.infobae.com/peru/2024/11/12/crisis-en-qali-warma-corrupcion-denuncias-y-cronologia-de-los-casos-que-han-puesto-en-peligro-la-salud-de-millones-de-escolares-en-peru/",
+   "abre": true,
+   "sostiene": true,
+   "nota": "19 alumnos en Puno y 20 en Chota, Cajamarca, en 2024; los unos 60 escolares son plausibles"
+  },
+  {
+   "esp": "E3",
+   "ref": "[26]",
+   "url": "https://publicportal.fmi.com/sites/publicportal/files/SSOpr0030_Control%20de%20preparaci%C3%B3n%20y%20transporte%20de%20alimentos%20v05.pdf",
+   "abre": true,
+   "sostiene": true,
+   "nota": "Inspecciones periódicas y exigencias sanitarias a los proveedores de alimentos"
+  }
+ ],
+ "general": "Forma: las 32 funciones cumplen las reglas 2, 4, 7 y 8, y los fundamentos tienen entre 87 y 113 palabras. Hay 15 justificaciones sin año en el texto (E1-02, 03, 04, 05, 08, 09 y 11; E2-04, 06, 09 y 10; E3-01, 02, 07 y 08). Fondo, en tres puntos. (1) Vigencia: E2 registra bien el reemplazo de Wasi Mikuna por el PAE del MIDIS (DS 006-2025-MIDIS, 13/04/2025; PAE 2026 con 4,19 millones de estudiantes), pero E3 sigue tratando a Wasi Mikuna como vigente en 8 de 10 funciones. En E3-01, E3-02, E3-07, E3-08 y E3-10 eso invalida el impacto o la demanda; en E3-03, E3-05 y E3-06 basta con reemplazar la cita. (2) Duplicaciones entre especialidades: E2-08 y E3-09 son la misma función de nutrición ocupacional y la carrera debe asignarla a una sola; E1-04 pertenece a E3 según la NTS 103 (Unidad Central de Producción) y duplica E3-04-T4; E3-10-T5 es idéntica a E2-05-T3 y E3-10-T1 se cruza con E2-05-T1. Las fórmulas enterales están bien repartidas: E1-03 las prescribe y monitorea, E3-04-T5 las prepara; conviene decirlo en lim. Hay además una duplicación interna de E3 entre E3-07-T3 y E3-10-T2. (3) Referencias: de 21 enlaces abiertos, 18 sostienen la cita, 2 no la sostienen (E1 [23] no menciona nutricionistas; E3 [19] se leyó al revés) y 1 no se pudo verificar por bloqueo (E2 [15], MEF). No se halló ninguna referencia inventada."
+}

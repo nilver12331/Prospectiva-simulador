@@ -1,0 +1,51 @@
+{"rol":"V2",
+"SIS":{
+"A":[
+{"E":false,"D":3,"R":4,"S":"E","V":4,"c":"Lo pagaría: auditoría y cumplimiento de datos personales es lo que no encuentro en juniors. Pero capacidad 2-3 sin resolución; debe probarse en el egresado."},
+{"E":false,"D":3,"R":4,"S":"E","V":3,"c":"Se nota en la primera semana: quien opera IaC y observabilidad no necesita inducción. Evidencia son dos tesis, no un curso obligatorio para todos."},
+{"E":true,"D":3,"R":2,"S":"U","V":2,"c":"Mérito docente, no competencia del egresado; al contratar no lo veo. UNA Puno también investiga con IA regional. Plana 2026 sin confirmar."},
+{"E":true,"D":2,"R":3,"S":"U","V":2,"c":"Todos los competidores tienen convenios; 28 sin desglose ni vigencia no me dice dónde practicó ni qué entregó el egresado."},
+{"E":true,"D":2,"R":2,"S":"N","V":2,"c":"Laboratorios son paridad; como empleador me importa la certificación obtenida, no el aula. AWS Academy 2020 sin vigencia verificada."}
+],
+"B":{"t":{"L":3,"So":false,"Au":true},
+"vp":[
+{"L":3,"So":true,"Au":true},
+{"L":4,"So":true,"Au":true},
+{"L":3,"So":true,"Au":true},
+{"L":4,"So":true,"Au":true},
+{"L":3,"So":false,"Au":false}
+]},
+"C":{"car":{"An":true,"At":3,"Mo":3,"Dg":false},
+"esp":[
+{"An":true,"At":4,"Mo":2,"Dg":false},
+{"An":true,"At":3,"Mo":3,"Dg":false},
+{"An":true,"At":3,"Mo":3,"Dg":false},
+{"An":true,"At":3,"Mo":3,"Dg":false},
+{"An":false,"At":2,"Mo":2,"Dg":false}
+]},
+"falta":"Seguimiento de empleabilidad del egresado (inserción, tiempo al primer empleo, opinión del empleador) y certificaciones de proveedor obtenidas al egresar: es lo primero que miro al contratar y no aparece.",
+"problema":"La IA generativa está reduciendo la contratación de programadores junior: el empleador ya no paga por escribir código sino por verificarlo, integrarlo con sistemas legados y responder por él."
+},
+"NUT":{
+"A":[
+{"E":true,"D":3,"R":2,"S":"U","V":3,"c":"Valioso para la escuela, pero al contratar veo al egresado, no a su asesor. UNA Puno también investiga anemia infantil. Grados sin verificar."},
+{"E":true,"D":3,"R":2,"S":"U","V":2,"c":"UNMSM, UPCH y UNA Puno pueden firmarlo. Renacyt de Saintila venció en 2024. No describe lo que el egresado sabe hacer."},
+{"E":false,"D":3,"R":4,"S":"E","V":3,"c":"Para una concesionaria es el diferencial: llega habiendo operado producción real. Solo el comedor sería espejo (UNMSM, UNA); la planta Unión lo distingue."},
+{"E":false,"D":2,"R":3,"S":"E","V":3,"c":"Ocupacional y obesidad me interesan como empleador de campamentos y clínicas, pero es un plan sin resolución; hoy es intención, no competencia."},
+{"E":true,"D":2,"R":2,"S":"U","V":2,"c":"Pacllón y Tambos no muestran vacantes ni vigencia; UNA Puno tiene internado comunitario formal. No se nota al contratar."}
+],
+"B":{"t":{"L":3,"So":true,"Au":true},
+"vp":[
+{"L":3,"So":false,"Au":true},
+{"L":4,"So":true,"Au":true},
+{"L":4,"So":true,"Au":true}
+]},
+"C":{"car":{"An":true,"At":2,"Mo":4,"Dg":false},
+"esp":[
+{"An":true,"At":3,"Mo":3,"Dg":false},
+{"An":true,"At":2,"Mo":4,"Dg":false},
+{"An":true,"At":4,"Mo":3,"Dg":false}
+]},
+"falta":"Formación en alimentación saludable y vegetariana ligada al estilo de vida institucional y a la planta Unión: demanda creciente en clínicas, concesionarias y retail que ninguna competidora declara.",
+"problema":"La doble carga de malnutrición y el entorno de ultraprocesados: la anemia convive con obesidad en el mismo hogar, y el servicio de alimentación colectiva casi no se gestiona con costo y resultado nutricional medidos."
+}}

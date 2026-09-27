@@ -1,0 +1,351 @@
+{
+ "cod": "NUT",
+ "fecha": "24-09-2026",
+ "vpc": {
+  "t": "La carrera de Nutrición Humana forma nutricionistas que prescriben y siguen al paciente, intervienen sobre la anemia de una población y dirigen el servicio que alimenta a escolares y trabajadores. Se diferencia por siete docentes que investigan anemia infantil y gestantes, y por practicar en el comedor y la planta de alimentos propios. Lo sostienen el repositorio institucional 2015 a 2026 y esos servicios en operación en Lima y Juliaca.",
+  "p": "Conducirás la atención, el programa o el servicio de alimentación y responderás por su resultado medido.",
+  "prop": "Que lo que una persona come no le cueste la salud, del primer año a la vejez.",
+  "s": [
+   [
+    "Especialidades que entran al plan",
+    "Ocho en tres competencias: clínica hospitalaria, pediátrica y materna, obesidad y bariátrica y geriátrica en C1; comunitaria y salud pública en C2; gestión de servicios de alimentación en C3; ocupacional y programas sociales ejercen C2 y C3 a la vez. Productos alimentarios no abre competencia: queda como objeto de Estandarizar (NUT-derivadas, 24-09-2026)."
+   ],
+   [
+    "Lo que la escuela puede sostener hoy",
+    "Nivel 4 en docentes para comunitaria y pediátrica y materna; nivel 3 en campo e infraestructura para clínica y servicios de alimentación; la menor capacidad en ocupacional (2-2-2) y programas sociales (2-3-2). Ningún convenio tiene vigencia publicada y no hay inventario de antropometría ni composición corporal (borrador NUT-decl, 24-09-2026, por confirmar y firmar por la Dirección)."
+   ],
+   [
+    "Lo que nadie más ofrece en la región",
+    "0 de 18 planes formalizan pediátrica y materna, obesidad y bariátrica, ocupacional y minería, programas sociales ni geriátrica; productos 3 de 18, ninguna peruana; clínica (12 de 18) y comunitaria (11 de 18) están saturadas (barrido de diferenciación, 24-09-2026)."
+   ]
+  ],
+  "dif": [
+   {
+    "n": "Siete docentes con tesis asesoradas en anemia infantil, alimentación complementaria y gestantes entre 2015 y 2026",
+    "d": "D3",
+    "fam": "Cuerpo docente e investigación",
+    "ev": "Asesorías registradas en el repositorio UPeU (Chanducas, Calizaya, Rodríguez Vásquez, Matos, Miranda, Rodríguez López, Chilón; la más reciente de 2026), consultado el 24-09-2026; nivel 4 en docentes, con evidencia (NUT-decl, 24-09-2026). Ninguno de 18 planes revisados formaliza la especialidad pediátrica y materna (barrido del 24-09-2026). Grados y vínculo vigente sin verificar.",
+    "resp": "Dirección de la EP de Nutrición Humana (Lima-Ñaña y Juliaca)",
+    "alc": 100,
+    "comp": "C1",
+    "espec": "NUT-04 Nutrición pediátrica y materna",
+    "fuente": "https://repositorio.upeu.edu.pe/server/api/discover/search/objects?query=anemia%20OR%20gestantes%20OR%20lactancia&scope=457644ec-7c72-4143-b451-d9c0bd37c212&size=20",
+    "verificado": true,
+    "esp": 1,
+    "icviD": 1,
+    "icviR": 0.17,
+    "cvr": -0.33,
+    "medV": 2,
+    "ac": 83,
+    "ric": 0,
+    "sust": 6,
+    "dec": "descartado",
+    "plazo": "",
+    "com": {
+     "V1": "Un postulante no elige por número de asesores de tesis; UNA Puno probablemente firma algo similar en anemia. Vínculo docente vigente sin verificar.",
+     "V2": "Valioso para la escuela, pero al contratar veo al egresado, no a su asesor. UNA Puno también investiga anemia infantil. Grados sin verificar.",
+     "V3": "Repositorio fechado y verificable, pero sin grados ni vínculo vigente; UNA Puno puede exhibir docentes que investigan anemia en Puno.",
+     "V4": "UNA Puno (anemia 75,4 % en Puno), UNMSM y UPCH pueden firmar docentes que investigan anemia infantil; materno infantil es curso en casi todo C3.",
+     "V5": "UNA Puno y UPCH también tienen docentes que investigan anemia; vínculo y grados de los siete sin verificar, varias asesorías anteriores a 2020.",
+     "V6": "UNA Puno puede firmar tesis sobre anemia. Un conteo de asesores no se recuerda ni decide la matrícula; grados y vínculo sin verificar."
+    },
+    "corte": false
+   },
+   {
+    "n": "Seis docentes con programas nutricionales evaluados con hemoglobina o antropometría en escolares y niños de Lima y Juliaca, 2017 a 2025",
+    "d": "D3",
+    "fam": "Cuerpo docente e investigación",
+    "ev": "Asesorías de tesis 2017 a 2025 en el repositorio UPeU (Chanducas, Collantes, Calizaya, Rodríguez Vásquez, Saintila, Miranda), consultado el 24-09-2026; Jacksaint Saintila con Renacyt nivel II vigente del 27-05-2021 al 27-05-2024 (noticia UPeU, 01-06-2021). Formación en salud pública de cada docente sin verificar.",
+    "resp": "Dirección de la EP de Nutrición Humana (Lima-Ñaña y Juliaca)",
+    "alc": 100,
+    "comp": "C2",
+    "espec": "NUT-03 Nutrición comunitaria y salud pública",
+    "fuente": "https://repositorio.upeu.edu.pe/server/api/discover/search/objects?query=Juliaca%20OR%20Puno&scope=457644ec-7c72-4143-b451-d9c0bd37c212&size=20",
+    "verificado": true,
+    "esp": 1,
+    "icviD": 1,
+    "icviR": 0,
+    "cvr": -1,
+    "medV": 2,
+    "ac": 100,
+    "ric": 0,
+    "sust": 6,
+    "dec": "descartado",
+    "plazo": "",
+    "com": {
+     "V1": "Comunitaria está saturada (11 de 18); el dato docente no se traduce en decisión. Renacyt citado venció en 2024 según la propia ficha.",
+     "V2": "UNMSM, UPCH y UNA Puno pueden firmarlo. Renacyt de Saintila venció en 2024. No describe lo que el egresado sabe hacer.",
+     "V3": "Tesis 2017-2025 verificables; Renacyt vencido en 2024 y formación en salud pública sin verificar. UNMSM y UNA Puno firman algo equivalente.",
+     "V4": "Comunitaria está saturada (11 de 18); UNA Puno tiene internado comunitario. Renacyt de Saintila venció en 2024.",
+     "V5": "NUT-03 con inf 2: sin hemoglobinómetros ni antropometría de campo inventariados; Renacyt de Saintila vencido en 2024. Competidores públicos pueden firmarlo.",
+     "V6": "Casi duplica el anterior y se confunde con él. Renacyt citado venció el 27-05-2024: no respalda hoy."
+    },
+    "corte": false
+   },
+   {
+    "n": "Servicio de alimentación propio en operación: comedor universitario en Lima y Juliaca y planta de alimentos «Unión» en Lima",
+    "d": "D4",
+    "fam": "Entornos de práctica e infraestructura",
+    "ev": "Comedor Universitario, Cafetín y Market Unión (servicios Lima, consultado el 24-09-2026); comedor en Juliaca (NUT-decl, 24-09-2026); Centro Universitario de Producción de Bienes «Unión» con acuerdos con Inter-American Health Food Company y Superbom (09-04-2024); Laboratorio de Técnicas Dietéticas (23-09-2019). Horas de práctica por estudiante sin inventario.",
+    "resp": "Dirección de la EP de Nutrición Humana (Lima-Ñaña y Juliaca)",
+    "alc": 100,
+    "comp": "C3",
+    "espec": "NUT-02 Gestión de servicios de alimentación e inocuidad",
+    "fuente": "https://upeu.edu.pe/servicios-lima/",
+    "verificado": true,
+    "esp": 0,
+    "icviD": 1,
+    "icviR": 1,
+    "cvr": 1,
+    "medV": 3,
+    "ac": 100,
+    "ric": 1,
+    "sust": 9,
+    "dec": "confirmado",
+    "plazo": "",
+    "com": {
+     "V1": "Lo más concreto para un joven: practicar en un comedor y una planta que operan de verdad. Otros tienen comedor, no planta propia. Faltan horas.",
+     "V2": "Para una concesionaria es el diferencial: llega habiendo operado producción real. Solo el comedor sería espejo (UNMSM, UNA); la planta Unión lo distingue.",
+     "V3": "Comedor y planta Unión documentados y en operación; falta inventario de horas por estudiante y convenio interno que asigne la práctica.",
+     "V4": "El comedor solo es espejo (UNMSM, UNA Puno tienen); la planta industrial propia con acuerdos no la firma ningún C3. Nombrar la planta primero.",
+     "V5": "Comedor y planta Unión existen y seguirán; faltan horas por estudiante y un docente con HACCP para sostener la práctica de cada cohorte.",
+     "V6": "El más claro y recordable: practicar en un comedor y una planta que la universidad opera. Falta el dato de horas por estudiante."
+    },
+    "corte": true
+   },
+   {
+    "n": "Niño, gestante, adulto mayor y paciente con obesidad como ámbitos declarados de la atención nutricional, y trabajador y programa social como ámbitos de la intervención y del servicio",
+    "d": "D6",
+    "fam": "Modelo de aprendizaje y tecnología",
+    "ev": "0 de 18 planes revisados formalizan pediátrica y materna, obesidad y bariátrica, ocupacional, programas sociales ni geriátrica (barrido de diferenciación, 24-09-2026); la estructura consta en las competencias derivadas del 24-09-2026. Sin resolución que la institucionalice: el plan no está aprobado.",
+    "resp": "Dirección de la EP de Nutrición Humana (Lima-Ñaña y Juliaca)",
+    "alc": 100,
+    "comp": "C1",
+    "espec": "NUT-04, NUT-08, NUT-14 (C1); NUT-09 y NUT-10 (C2 y C3)",
+    "fuente": "datos/evidencias/NUT-6-diferenciacion.md; datos/competencias/NUT-derivadas.json",
+    "verificado": false,
+    "esp": 0,
+    "icviD": 0,
+    "icviR": 1,
+    "cvr": 0.33,
+    "medV": 2.5,
+    "ac": 100,
+    "ric": 0,
+    "sust": 6,
+    "dec": "descartado",
+    "plazo": "",
+    "com": {
+     "V1": "Niño, gestante, adulto mayor u obesidad conectan con vocaciones reales, pero redactado como «ámbitos declarados» no se entiende en una lectura; plan sin resolución.",
+     "V2": "Ocupacional y obesidad me interesan como empleador de campamentos y clínicas, pero es un plan sin resolución; hoy es intención, no competencia.",
+     "V3": "Verificado false: el 0 de 18 está probado, pero la estructura propia existe solo en un plan sin resolución. Es intención, no hecho.",
+     "V4": "0 de 18 lo formalizan, pero Wiener, UNFV y UCV dictan cursos de niño y adulto mayor. Obesidad y ocupacional sí resisten.",
+     "V5": "Plan no aprobado; NUT-08 sin bariátrica, NUT-09 en 2-2-2 y NUT-14 con inf 2: la estructura declarada excede la capacidad instalada.",
+     "V6": "Frase-lista de 30 palabras que no se retiene; «ámbitos declarados» es vocabulario interno. Plan sin aprobar."
+    },
+    "corte": false
+   },
+   {
+    "n": "Campo en el Estado en las dos sedes: internado de Nutrición en la Municipalidad Distrital de Pacllón y plan de trabajo con MIDIS, Programa PAIS, en 63 Tambos de Puno",
+    "d": "D5",
+    "fam": "Red de convenios y campo real",
+    "ev": "Convenio específico con la Municipalidad de Pacllón con internado de Nutrición Humana (13-02-2023); plan de trabajo regional MIDIS y Programa PAIS con UPeU Juliaca (25-08-2025), sin Nutrición explícita; ninguna vigencia publicada ni número de vacantes.",
+    "resp": "Coordinación de prácticas de la EP de Nutrición Humana",
+    "alc": 100,
+    "comp": "C2",
+    "espec": "NUT-10 Nutrición en programas sociales del Estado; NUT-03",
+    "fuente": "https://upeu.edu.pe/en/noticias/instituciones-educativas-de-salud-y-programas-nacionales-consolidan-convenios-con-la-upeu/",
+    "verificado": false,
+    "esp": 1,
+    "icviD": 0,
+    "icviR": 0.17,
+    "cvr": -1,
+    "medV": 2,
+    "ac": 83,
+    "ric": 0,
+    "sust": 4,
+    "dec": "descartado",
+    "plazo": "",
+    "com": {
+     "V1": "Atrae a quien tiene vocación social, pero UNA Puno o UNMSM pueden firmar campo en el Estado; PAIS no nombra Nutrición y falta vigencia publicada.",
+     "V2": "Pacllón y Tambos no muestran vacantes ni vigencia; UNA Puno tiene internado comunitario formal. No se nota al contratar.",
+     "V3": "Verificado false: Pacllón sin vigencia publicada, PAIS sin Nutrición explícita ni vacantes. Internado comunitario en el Estado es común en C3.",
+     "V4": "Convenios con MINSA y programas del Estado son paridad; UNA Puno y UNMSM tienen internado en nutrición pública. Sin vigencia ni vacantes.",
+     "V5": "Pacllón sin vigencia ni vacantes y el plan MIDIS-PAIS no nombra Nutrición; UNA Puno ya formaliza internado comunitario en el Estado.",
+     "V6": "Internado municipal es común; el plan PAIS no nombra Nutrición. Sin vigencia ni vacantes, «campo en el Estado» es promesa."
+    },
+    "corte": false
+   }
+  ],
+  "txt": {
+   "L": 3,
+   "so": 0.83,
+   "au": 0.67
+  },
+  "pend": "«V1» Falta: El estilo de vida saludable y la alimentación basada en plantas del modelo de salud adventista, con investigación propia en dietas vegetarianas: identidad que ninguna de C3 puede firmar. Tampoco figura nutrición deportiva. · Problema: El entorno alimentario: ultraprocesados, inseguridad alimentaria del hogar y la doble carga de malnutrición en la misma familia; el texto nombra anemia y obesidad por separado, no su causa común.  «V2» Falta: Formación en alimentación saludable y vegetariana ligada al estilo de vida institucional y a la planta Unión: demanda creciente en clínicas, concesionarias y retail que ninguna competidora declara. · Problema: La doble carga de malnutrición y el entorno de ultraprocesados: la anemia convive con obesidad en el mismo hogar, y el servicio de alimentación colectiva casi no se gestiona con costo y resultado nutricional medidos.  «V3» Falta: El estado de acreditación SINEACE de la carrera y un campo clínico de la red adventista (por ejemplo, Clínica Good Hope) con convenio vigente; ninguno aparece y ambos son verificables por resolución. · Problema: La inseguridad alimentaria de los hogares y el costo de una dieta saludable, junto con la vulnerabilidad climática de la producción altoandina: el sistema alimentario, no solo la persona o el programa.  «V4» Falta: Nutrición basada en plantas y estilo de vida, con planta Unión, Superbom e investigación de dietas vegetarianas: ningún plan C3 la declara (USIL Funcional e Integrativa es lo más cercano). · Problema: La inseguridad alimentaria de los hogares y un entorno de ultraprocesados que producen a la vez anemia y obesidad en la misma familia: la doble carga de malnutrición.  «V5» Falta: La alimentación basada en plantas del estilo de vida adventista, con la planta Unión y los acuerdos con Superbom e Inter-American Health Food, como línea formativa y de producto. · Problema: La inseguridad alimentaria de los hogares y la escasez de nutricionistas en el primer nivel de atención del MINSA, sobre todo en zonas rurales de Puno.  «V6» Falta: La tradición de alimentación saludable y vegetariana de la institución, con la planta «Unión» y sus acuerdos con Superbom e Inter-American Health Food: una identidad que el postulante ya reconoce. · Problema: La inseguridad alimentaria de los hogares (precio y acceso a los alimentos) y la doble carga de malnutrición en la misma familia; el texto la reduce a atención y programas.",
+  "ficha": {
+   "c1": "postulante",
+   "c2": {
+    "t": "La anemia no cede: afecta a 43,4 % de niños de 6 a 35 meses en el Perú y a 75,4 % en Puno.",
+    "f": "INEI, ENDES 2025 (Infobae, 18-05-2026)"
+   },
+   "c3": [
+    "Universidad Nacional del Altiplano (Puno) · Nutrición Humana",
+    "Universidad Nacional Mayor de San Marcos (Lima) · Nutrición",
+    "Universidad Nacional Federico Villarreal (Lima) · Nutrición",
+    "Universidad Peruana de Ciencias Aplicadas (Lima) · Nutrición y Dietética",
+    "Universidad Científica del Sur (Lima) · Nutrición y Dietética",
+    "Universidad San Ignacio de Loyola (Lima) · Nutrición y Dietética",
+    "Universidad Peruana Cayetano Heredia (Lima) · Nutrición",
+    "Universidad César Vallejo · Nutrición",
+    "Universidad Norbert Wiener (Lima) · Nutrición y Dietética"
+   ],
+   "c5": "Si otra universidad de Lima o Puno declara mención pediátrica o geriátrica antes de 2029."
+  },
+  "par": [
+   "Licenciamiento institucional de la SUNEDU",
+   "Convenios docente-asistenciales con hospitales del MINSA y EsSalud",
+   "Internado en nutrición clínica y en nutrición comunitaria (12 y 11 de 18 planes lo formalizan)",
+   "Centro de simulación clínica compartido con otras carreras de salud",
+   "Bolsa de trabajo y seguimiento del egresado",
+   "Plataforma virtual y aulas equipadas",
+   "Flexibilidad de horarios",
+   "Preparación para el SERUMS y la colegiatura en el CNP"
+  ],
+  "cad": {
+   "car": {
+    "p1": "En el Perú, 43,4 % de niños de 6 a 35 meses tiene anemia (75,4 % en Puno) y 41,8 % de mayores de 15 años tiene obesidad, diabetes o hipertensión (INEI, ENDES 2025, publicada 05-2026).",
+    "p2": "C1, C2 y C3 — atender a la persona, intervenir sobre la nutrición de su población y dirigir el servicio que la alimenta, respondiendo por indicadores.",
+    "p3": "La gestante, el niño, el paciente y el trabajador de Lima Este y de Puno recuperan o mantienen un estado nutricional que se mide en hemoglobina, peso y talla.",
+    "p4": "Que lo que una persona come no le cueste la salud, del primer año a la vejez.",
+    "an": 1,
+    "at": 2,
+    "mo": 1,
+    "dg": 0,
+    "dec": "rehacer"
+   },
+   "esp": [
+    {
+     "comp": "C1",
+     "alias": "Atención nutricional",
+     "p1": "En el Perú, 41,8 % de mayores de 15 años tiene obesidad, diabetes o hipertensión (INEI, ENDES 2025) y 3 millones viven con enfermedad renal crónica (Altavoz, 17-07-2025).",
+     "p2": "C1 — valorar, diagnosticar, prescribir y seguir el plan nutricional de la persona sana o enferma, registrado en su historia clínica.",
+     "p3": "El paciente hospitalizado o ambulatorio, el niño, la gestante y el adulto mayor de Lima Este y Juliaca llegan al alta con su estado nutricional valorado y un plan que su familia sabe seguir.",
+     "p4": "Que cada paciente reciba la alimentación que su condición exige, del ingreso al alta.",
+     "an": 1,
+     "at": 3,
+     "mo": 0.83,
+     "dg": 0,
+     "dec": "aprobado"
+    },
+    {
+     "comp": "C2",
+     "alias": "Intervención poblacional",
+     "p1": "En el Perú, 12,1 % de menores de cinco años tiene desnutrición crónica (23,0 % en zona rural) y la anemia de 6 a 35 meses llega a 75,4 % en Puno (INEI, ENDES 2025).",
+     "p2": "C2 — diagnosticar la situación nutricional de una población con línea de base, diseñar y ejecutar el programa y evaluar su impacto con indicadores.",
+     "p3": "Los niños menores de tres años del distrito de Puno o de Lima Este donde el programa se ejecutó elevan su hemoglobina y crecen según su edad.",
+     "p4": "Que la anemia y la desnutrición dejen de decidir el futuro de un niño.",
+     "an": 1,
+     "at": 2,
+     "mo": 1,
+     "dg": 0,
+     "dec": "rehacer"
+    },
+    {
+     "comp": "C3",
+     "alias": "Alimentación colectiva",
+     "p1": "En 2026 el Programa de Alimentación Escolar atiende a 4,2 millones de escolares del Perú con S/ 2 636,6 millones, tras unos 400 intoxicados en 2024 (RPP, 16-12-2025).",
+     "p2": "C3 — planificar el menú, estandarizar y costear las preparaciones, asegurar la inocuidad con HACCP y auditar el servicio de alimentación.",
+     "p3": "El escolar, el paciente hospitalizado y el trabajador de campamento reciben cada día una ración adecuada y segura, con sus puntos críticos registrados y sin no conformidades abiertas.",
+     "p4": "Que cada ración servida en un hospital, una escuela o un campamento sea segura y suficiente.",
+     "an": 1,
+     "at": 3,
+     "mo": 1,
+     "dg": 0,
+     "dec": "aprobado"
+    }
+   ]
+  },
+  "nota": "",
+  "corte": [
+   "Servicio de alimentación propio en operación: comedor universitario en Lima y Juliaca y planta de alimentos «Unión» en Lima"
+  ],
+  "textosOk": false,
+  "vpOk": [
+   false,
+   false,
+   true
+  ]
+ },
+ "vp": [
+  [
+   "En Nutrición Humana la atención al niño, a la gestante y al adulto mayor es un ámbito declarado, algo que ninguno de 18 planes revisados formaliza. Aprendes a decidir qué valorar, qué diagnosticar y qué prescribir según la edad y la condición de cada persona. Lo demuestras con un plan registrado en la historia clínica y su seguimiento hasta el alta.",
+   "Prescribirás y seguirás el plan nutricional de cada paciente y responderás por él en su historia clínica.",
+   "Que cada paciente reciba la alimentación que su condición exige, del ingreso al alta."
+  ],
+  [
+   "La anemia infantil en Puno no baja con charlas sueltas: baja con programas que miden. Aprendes a decidir qué medir en una población, qué programa ejecutar con los actores del lugar y cómo saber si funcionó. Lo demuestras con una línea de base, un programa ejecutado y su informe de impacto.",
+   "Diseñarás, ejecutarás y evaluarás una intervención poblacional y responderás por sus indicadores de impacto.",
+   "Que la anemia y la desnutrición dejen de decidir el futuro de un niño."
+  ],
+  [
+   "Detrás de cada ración de un hospital, una escuela o un campamento hay un menú, un costo y un control de inocuidad. Aprendes a decidir qué se sirve, cuánto cuesta y qué punto crítico se vigila, en el servicio de alimentación que la propia universidad opera. Lo demuestras con un plan HACCP y un expediente de auditoría.",
+   "Dirigirás un servicio de alimentación y responderás por su menú, su costo y su inocuidad ante la autoridad.",
+   "Que cada ración servida en un hospital, una escuela o un campamento sea segura y suficiente."
+  ]
+ ],
+ "guardian": {
+  "reglas": [
+   {
+    "n": 1,
+    "veredicto": "Cumple",
+    "hallazgo": "Los cinco diferenciales declaran familia, evidencia con fecha (24-09-2026, 13-02-2023, 25-08-2025 y otras), responsable y alcance 100. Los alcances son meta de diseño que la Dirección debe confirmar."
+   },
+   {
+    "n": 2,
+    "veredicto": "Cumple",
+    "hallazgo": "Cada diferencial tiene su competencia (C1, C2, C3, C1, C2) y especialidades codificadas (NUT-02, 03, 04, 08, 09, 10, 14) entre las ocho que entran al plan."
+   },
+   {
+    "n": 3,
+    "veredicto": "No cumple",
+    "hallazgo": "Los diferenciales 1 y 4 tienen contraste en el barrido (0 de 18). El 2 cae en comunitaria, saturada (11 de 18). El 3 (comedor y planta) y el 5 (campo estatal) no tienen espejo."
+   },
+   {
+    "n": 4,
+    "veredicto": "Cumple",
+    "hallazgo": "Las cuatro cadenas citan dato, fuente, fecha y territorio: INEI ENDES 2025 (Perú y Puno), Altavoz 17-07-2025 y RPP 16-12-2025. También citan competencia por código (C1, C2, C3)."
+   },
+   {
+    "n": 5,
+    "veredicto": "Cumple",
+    "hallazgo": "Los propósitos (p4 y prop) son aspiracionales y no prometen resultados de terceros. El riesgo está en los eslabones 3 y en la promesa de C2 (ver observaciones), no en el propósito."
+   },
+   {
+    "n": 6,
+    "veredicto": "No cumple",
+    "hallazgo": "Todos los enlaces aparecen en las evidencias o existen en disco. Pero los diferenciales 1 y 2 van con verificado:true aunque declaran «grados y vínculo vigente sin verificar» y «formación en salud pública sin verificar»."
+   },
+   {
+    "n": 7,
+    "veredicto": "Cumple",
+    "hallazgo": "No hay términos de la lista negra en toda la ficha. Párrafo: 70 palabras (límite). Promesa: 16. Propósitos: 17/14/14/16. Promesas de especialidad: 17/14/18. Párrafos de especialidad: 61/51/57."
+   },
+   {
+    "n": 8,
+    "veredicto": "Cumple",
+    "hallazgo": "No hay datos de resultados del egresado. El vacío de la serie D7 está declarado y queda a cargo de la Dirección."
+   },
+   {
+    "n": 9,
+    "veredicto": "Cumple",
+    "hallazgo": "Umbrales del método declarados antes de R1: I-CVI ≥ 0,83, CVR 1,00 con N = 6, acuerdo ≥ 75 %, RIC ≤ 1. La ficha no los cambia; no hay R1 registrada."
+   }
+  ],
+  "observaciones": [
+   "La promesa de C2 («responderás por sus indicadores de impacto») y los eslabones 3 («elevan su hemoglobina») dependen de familias y programas: conviene vigilar la Atribución (At) en el panel.",
+   "El párrafo se diferencia por «siete docentes» y por el comedor propio. Ninguno de los dos tiene contraste con otras escuelas, y el vínculo vigente de los docentes no está verificado.",
+   "El párrafo llega a 70 palabras, justo en el límite: cualquier ajuste que agregue texto lo deja fuera de rango."
+  ]
+ },
+ "guion14": "**1 confirmado** (servicio de alimentación propio en operación:…), **0 condicionados**, **0 por reformular** y **4 en paridad o descartados**. Cadenas de propósito: 2 de 4 aprobadas."
+}

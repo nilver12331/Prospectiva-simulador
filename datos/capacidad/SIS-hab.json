@@ -1,0 +1,143 @@
+{
+ "cod": "SIS",
+ "indicador": "hab",
+ "fecha": "24-09-2026",
+ "items": [
+  {
+   "cod": "SIS-01",
+   "nivel": 3,
+   "norma": "Ley 28858 (2006) art. 1-2 y DS 016-2008-VIVIENDA (06-06-2008) art. 3-5; RM 041-2017-PCM (02-03-2017) NTP-ISO/IEC 12207:2016",
+   "registro": "",
+   "sustento": "Ley 28858 art. 1 incluye desarrollos tecnológicos y aspectos informáticos entre labores de ingeniería refrendadas por colegiado hábil; RM 041-2017-PCM impone NTP-ISO/IEC 12207 al Estado. No existe registro ni certificación exigida al desarrollador.",
+   "fuentes": [
+    {"t": "Ministerio de Vivienda, Construcción y Saneamiento. (2008). Decreto Supremo N° 016-2008-VIVIENDA, Reglamento de la Ley N° 28858", "u": "https://www.cip.org.pe/publicaciones/2018/Ley_28858.pdf", "fecha": "24-09-2026"},
+    {"t": "Colegio de Ingenieros del Perú. (2011). Estatuto Único Ordenado del CIP, con anexo Ley 28858", "u": "https://www.cip.org.pe/publicaciones/2018/estatuto2014.pdf", "fecha": "24-09-2026"},
+    {"t": "Presidencia del Consejo de Ministros. (2017). Resolución Ministerial N° 041-2017-PCM, uso obligatorio de la NTP-ISO/IEC 12207:2016", "u": "https://busquedas.elperuano.pe/normaslegales/aprueban-uso-obligatorio-de-la-norma-tecnica-peruana-ntp-is-resolucion-ministerial-n-041-2017-pcm-1491441-1/", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-02",
+   "nivel": 3,
+   "norma": "Ley 31814 (2023) y DS 115-2025-PCM (09-09-2025, vigente 90 días hábiles después) art. 8, 22, 30-31 y 1.ª DCF; Ley 28858 (2006)",
+   "registro": "",
+   "sustento": "DS 115-2025-PCM regula sistemas de IA por riesgo, evaluación de impacto y registro del sistema de riesgo alto (art. 31.1), con la SGTD como autoridad; no crea registro ni certificación de profesionales. Título y colegiatura bastan.",
+   "fuentes": [
+    {"t": "Presidencia del Consejo de Ministros. (2025). Decreto Supremo N° 115-2025-PCM, Reglamento de la Ley N° 31814 [El Peruano, 09-09-2025]", "u": "https://img.lpderecho.pe/wp-content/uploads/2025/09/Decreto-Supremo-115-2025-PCM-LPDerecho.pdf", "fecha": "24-09-2026"},
+    {"t": "EY Perú. (2025). Reglamento de la Ley que promueve el uso de la inteligencia artificial", "u": "https://www.ey.com/es_pe/technical/tax-alert/reglamento-ley-promueve-uso-inteligencia-artificial", "fecha": "23-09-2026"},
+    {"t": "Ministerio de Vivienda, Construcción y Saneamiento. (2008). Decreto Supremo N° 016-2008-VIVIENDA, Reglamento de la Ley N° 28858", "u": "https://www.cip.org.pe/publicaciones/2018/Ley_28858.pdf", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-03",
+   "nivel": 4,
+   "norma": "Res. SBS 504-2021 (19-02-2021) art. 8, 24.2.g y 27.2; Res. 003-2023-PCM/SGTD (06-09-2023); DS 126-2025-PCM (04-11-2025, vigente 03-02-2026); RM 004-2016-PCM (14-01-2016); Ley 30096 (22-10-2013) mod. Ley 32314 (29-04-2025) y DL 1741 (13-02-2026)",
+   "registro": "Certificaciones internacionales exigidas por la SBS al evaluador del SGSI-C (Res. 504-2021 art. 27.2); CISA nombrada expresamente en Res. SBS 11699-2008; certificación ISO/IEC 27001 admitida por Res. 003-2023-PCM/SGTD",
+   "sustento": "SBS 504-2021 art. 8 hace obligatoria la función de seguridad y ciberseguridad y art. 27.2 exige certificaciones internacionales al evaluador; Res. 003-2023-PCM/SGTD impone OSCD y NTP 27001 al Estado; DS 126-2025-PCM obliga a notificar al CNSD en 48 h.",
+   "fuentes": [
+    {"t": "Superintendencia de Banca, Seguros y AFP. (2021). Resolución SBS N° 504-2021, Reglamento para la Gestión de la Seguridad de la Información y la Ciberseguridad", "u": "https://intranet2.sbs.gob.pe/dv_int_cn/2046/v2.0/Adjuntos/504-2021.R.pdf", "fecha": "24-09-2026"},
+    {"t": "Presidencia del Consejo de Ministros, SGTD. (2023). Resolución N° 003-2023-PCM/SGTD", "u": "https://busquedas.elperuano.pe/api/visor_html/2212869-1", "fecha": "24-09-2026"},
+    {"t": "EY Perú. (2025). Reglamento de la Ley Marco de Confianza Digital [DS 126-2025-PCM]", "u": "https://www.ey.com/es_pe/technical/tax-alert/reglamento-ley-marco-confianza-digital-medidas-fortalecimiento", "fecha": "24-09-2026"},
+    {"t": "Congreso de la República. (2025). Ley N° 32314, que modifica el Código Penal y la Ley 30096 para incluir el uso de IA", "u": "https://busquedas.elperuano.pe/dispositivo/NL/2394851-2", "fecha": "24-09-2026"},
+    {"t": "Jurispol. (2026). Ley 30096, Ley de Delitos Informáticos [actualizada al DL 1741]", "u": "https://jurispol.pe/actualizado-ley-30096-ley-de-delitos-informaticos/", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-04",
+   "nivel": 3,
+   "norma": "Res. SBS 504-2021 (19-02-2021) art. 24.2.g, 24.3 y 25; RM 004-2016-PCM (14-01-2016) y Res. 003-2023-PCM/SGTD (06-09-2023) NTP-ISO/IEC 27001; Ley 28858 (2006)",
+   "registro": "",
+   "sustento": "SBS 504-2021 art. 24.2.g exige al proveedor de nube certificaciones ISO 27001/27017/27018 y SOC 2 tipo 2 (organizacionales, no personales) y autorización SBS; NTP 27001 obligatoria en el Estado. Sin registro ni certificación del profesional.",
+   "fuentes": [
+    {"t": "Superintendencia de Banca, Seguros y AFP. (2021). Resolución SBS N° 504-2021", "u": "https://intranet2.sbs.gob.pe/dv_int_cn/2046/v2.0/Adjuntos/504-2021.R.pdf", "fecha": "24-09-2026"},
+    {"t": "Presidencia del Consejo de Ministros. (2016). Resolución Ministerial N° 004-2016-PCM, uso obligatorio de la NTP ISO/IEC 27001:2014", "u": "https://busquedas.elperuano.pe/normaslegales/aprueban-el-uso-obligatorio-de-la-norma-tecnica-peruana-ntp-resolucion-ministerial-no-004-2016-pcm-1333015-1/", "fecha": "24-09-2026"},
+    {"t": "Presidencia del Consejo de Ministros, SGTD. (2023). Resolución N° 003-2023-PCM/SGTD", "u": "https://busquedas.elperuano.pe/api/visor_html/2212869-1", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-05",
+   "nivel": 3,
+   "norma": "Ley 28858 (2006) art. 1.a y DS 016-2008-VIVIENDA (06-06-2008); DS 029-2021-PCM (19-02-2021) art. 4.2",
+   "registro": "",
+   "sustento": "Ley 28858 art. 1.a incluye gerencias y supervisiones de procesos de ingeniería con aspectos informáticos; DS 029-2021-PCM art. 4.2 encarga al Comité de Gobierno Digital el portafolio de proyectos. Ninguna norma exige PMP, ITIL ni registro.",
+   "fuentes": [
+    {"t": "Colegio de Ingenieros del Perú. (2011). Estatuto Único Ordenado del CIP, con anexo Ley 28858", "u": "https://www.cip.org.pe/publicaciones/2018/estatuto2014.pdf", "fecha": "24-09-2026"},
+    {"t": "Presidencia del Consejo de Ministros. (2021). Decreto Supremo N° 029-2021-PCM, Reglamento del DL 1412", "u": "https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-aprueba-el-reglamento-del-decreto-legisl-decreto-supremo-n-029-2021-pcm-1929103-3/", "fecha": "24-09-2026"},
+    {"t": "PMI Lima Perú. (s. f.). Tipos de certificación [sin reconocimiento estatal localizado]", "u": "https://pmi.org.pe/tipos-de-certificacion", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-06",
+   "nivel": 3,
+   "norma": "DL 1412 (2018) y DS 029-2021-PCM (19-02-2021) art. 2.1, 4.2, 25.3.d y Título VIII; DS 085-2023-PCM (2023) Política Nacional de Transformación Digital; Ley 28858 (2006)",
+   "registro": "",
+   "sustento": "DL 1412 y DS 029-2021-PCM (art. 25.3.d y Título VIII) exigen que los servicios digitales sigan la arquitectura digital del Estado; PNTD 2030 (DS 085-2023-PCM). Función habilitada sin registro ni certificación reconocida.",
+   "fuentes": [
+    {"t": "Presidencia del Consejo de Ministros. (2021). Decreto Supremo N° 029-2021-PCM, Reglamento del DL 1412", "u": "https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-aprueba-el-reglamento-del-decreto-legisl-decreto-supremo-n-029-2021-pcm-1929103-3/", "fecha": "24-09-2026"},
+    {"t": "Informática Jurídica. (2021). Decreto Supremo N° 029-2021-PCM de 18 de febrero de 2021", "u": "https://www.informatica-juridica.com/decreto-supremo/decreto-supremo-no-029-2021-pcm-de-18-de-febrero-de-2021/", "fecha": "24-09-2026"},
+    {"t": "Hiperderecho. (2023). Gobierno aprobó Política Nacional de Transformación Digital [DS 085-2023-PCM]", "u": "https://hiperderecho.org/2023/08/gobierno-aprobo-politica-nacional-de-transformacion-digital-en-que-consiste/", "fecha": "23-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-09",
+   "nivel": 3,
+   "norma": "Ley 28858 (2006) art. 1.a y DS 016-2008-VIVIENDA (06-06-2008); RM 041-2017-PCM (02-03-2017) NTP-ISO/IEC 12207:2016",
+   "registro": "",
+   "sustento": "Ley 28858 art. 1.a habilita estudios y propuestas técnicas con aspectos informáticos; RM 041-2017-PCM impone los procesos de requisitos y adquisición de la NTP-ISO/IEC 12207 al Estado. No hay registro ni certificación exigible.",
+   "fuentes": [
+    {"t": "Colegio de Ingenieros del Perú. (2011). Estatuto Único Ordenado del CIP, con anexo Ley 28858", "u": "https://www.cip.org.pe/publicaciones/2018/estatuto2014.pdf", "fecha": "24-09-2026"},
+    {"t": "Presidencia del Consejo de Ministros. (2017). Resolución Ministerial N° 041-2017-PCM", "u": "https://busquedas.elperuano.pe/normaslegales/aprueban-uso-obligatorio-de-la-norma-tecnica-peruana-ntp-is-resolucion-ministerial-n-041-2017-pcm-1491441-1/", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-11",
+   "nivel": 2,
+   "norma": "Norma EM.020 Instalaciones de Comunicaciones del RNE (DS 011-2006-VIVIENDA; fecha de la norma no verificada) art. 4-5; DS 003-2015-MTC (21-07-2015) art. 15; TUO Ley de Telecomunicaciones DS 013-93-TCC",
+   "registro": "",
+   "sustento": "Reserva parcial: EM.020 arts. 4-5 reservan proyecto, dirección e inspección de instalaciones de telecomunicaciones en edificaciones al ingeniero electrónico o de telecomunicaciones; DS 003-2015-MTC art. 15 exige civil o eléctrico. La red corporativa carece de norma expresa.",
+   "fuentes": [
+    {"t": "Ministerio de Vivienda, Construcción y Saneamiento. (s. f.). Norma EM.020 Instalaciones de Comunicaciones, Reglamento Nacional de Edificaciones", "u": "https://cdn.www.gob.pe/uploads/document/file/2686405/EM.020%20Instalaciones%20de%20Comunicaciones.pdf", "fecha": "24-09-2026"},
+    {"t": "Ministerio de Transportes y Comunicaciones. (2015). Decreto Supremo N° 003-2015-MTC, Reglamento de la Ley 29022", "u": "https://www.osiptel.gob.pe/media/te0bhhoq/ds003-2015-mtc_ley-29022.pdf", "fecha": "24-09-2026"},
+    {"t": "Ministerio de Transportes y Comunicaciones. (s. f.). Texto Único Ordenado de la Ley de Telecomunicaciones", "u": "http://transparencia.mtc.gob.pe/idm_docs/normas_legales/1_0_892.pdf", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-12",
+   "nivel": 4,
+   "norma": "Res. SBS 11699-2008 (28-11-2008) Reglamento de Auditoría Interna; Res. SBS 504-2021 (19-02-2021) art. 27.2; RC 383-2013-CG (2013) Anexo 1; RC 314-2015-CG (30-10-2015) Directiva 012-2015-CG/PROCAL; RC 295-2021-CG (23-12-2021) NGCG",
+   "registro": "CISA (ISACA) reconocida expresamente por Res. SBS 11699-2008; inscripción como Experto/Especialista en sistemas en el RESAF de la Contraloría (RC 314-2015-CG; RC 383-2013-CG Anexo 1: título en Sistemas y colegiatura)",
+   "sustento": "Res. SBS 11699-2008 obliga a toda UAI a un servicio de auditoría de sistemas y reconoce CISA; SBS 504-2021 art. 27.2 exige certificaciones al evaluador; Contraloría (RC 383-2013-CG Anexo 1, RC 314-2015-CG) registra especialistas en sistemas en RESAF.",
+   "fuentes": [
+    {"t": "Superintendencia de Banca, Seguros y AFP. (2008). Resolución SBS N° 11699-2008, Reglamento de Auditoría Interna", "u": "https://intranet2.sbs.gob.pe/dv_int_cn/1134/v17.0/Adjuntos/11699-2008.r.pdf", "fecha": "24-09-2026"},
+    {"t": "Superintendencia de Banca, Seguros y AFP. (2021). Resolución SBS N° 504-2021", "u": "https://intranet2.sbs.gob.pe/dv_int_cn/2046/v2.0/Adjuntos/504-2021.R.pdf", "fecha": "24-09-2026"},
+    {"t": "Contraloría General de la República. (2013). Resolución de Contraloría N° 383-2013-CG, Reglamento de las Sociedades de Auditoría", "u": "http://doc.contraloria.gob.pe/soa/documentos/RC_383_2013_CG.pdf", "fecha": "24-09-2026"},
+    {"t": "Contraloría General de la República. (2015). Resolución de Contraloría N° 314-2015-CG, Directiva N° 012-2015-CG/PROCAL Gestión de Sociedades de Auditoría", "u": "https://doc.contraloria.gob.pe/libros/2/pdf/RC_314_2015_CG_directiva.pdf", "fecha": "24-09-2026"},
+    {"t": "Contraloría General de la República. (2025). Normas Generales de Control Gubernamental, texto integrado [RC 295-2021-CG y modificatorias]", "u": "https://cdn.www.gob.pe/uploads/document/file/4669060/4301933-texto-integrado-normas-generales-de-control-gubernamental.pdf", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-13",
+   "nivel": 4,
+   "norma": "Ley 29733 (2011) y DS 016-2024-JUS (30-11-2024, vigente 30-03-2025) art. 34, 37-39, 42-44 y 1.ª DCF; DS 126-2025-PCM (04-11-2025)",
+   "registro": "Designación como Oficial de Datos Personales comunicada a la ANPDP (art. 37.5; obligatoria desde 30-11-2025 para empresas > 2300 UIT) e inscripción de bancos de datos en el Registro Nacional de Protección de Datos Personales (art. 42)",
+   "sustento": "DS 016-2024-JUS arts. 37-39 crean el Oficial de Datos Personales con conocimientos acreditados, comunicado a la ANPDP en 15 días; art. 42 obliga a inscribir bancos de datos en el Registro Nacional; art. 34 exige notificar incidentes en 48 h.",
+   "fuentes": [
+    {"t": "Ministerio de Justicia y Derechos Humanos. (2024). Decreto Supremo N° 016-2024-JUS, Reglamento de la Ley N° 29733 [El Peruano, 30-11-2024]", "u": "https://img.lpderecho.pe/wp-content/uploads/2024/11/Decreto-Supremo-016-2024-JUS-LPDerecho.pdf", "fecha": "24-09-2026"},
+    {"t": "CMS Grau. (2025). Designación del Oficial de Protección de Datos: obligación inicia el 30 de noviembre del 2025", "u": "https://cms.law/es/per/publication/designacion-del-oficial-de-proteccion-de-datos-obligacion-inicia-el-30-de-noviembre-del-2025", "fecha": "24-09-2026"},
+    {"t": "KOM. (2025). Nuevo Reglamento de Protección de Datos (D.S. 016-2024-JUS)", "u": "https://kom.pe/reglamento-ds-016-2024-jus-datos-personales/", "fecha": "24-09-2026"},
+    {"t": "IAPP. (2024). Se publica el nuevo reglamento de protección de datos personales en Perú", "u": "https://iapp.org/news/a/se-publica-el-nuevo-reglamento-de-protecci-n-de-datos-personales-en-per-", "fecha": "23-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-14",
+   "nivel": 3,
+   "norma": "Ley 28858 (2006) art. 1.a y DS 016-2008-VIVIENDA (06-06-2008); DS 115-2025-PCM (09-09-2025) 5.ª DCF Estrategia Nacional de Gobierno de Datos; DS 029-2021-PCM (19-02-2021)",
+   "registro": "",
+   "sustento": "Ley 28858 art. 1.a cubre estudios e informes técnicos con aspectos informáticos y de sistemas; DS 115-2025-PCM 5.ª DCF ordena la Estrategia Nacional de Gobierno de Datos. Sin reserva, registro ni certificación reconocida.",
+   "fuentes": [
+    {"t": "Colegio de Ingenieros del Perú. (2011). Estatuto Único Ordenado del CIP, con anexo Ley 28858", "u": "https://www.cip.org.pe/publicaciones/2018/estatuto2014.pdf", "fecha": "24-09-2026"},
+    {"t": "Presidencia del Consejo de Ministros. (2025). Decreto Supremo N° 115-2025-PCM, Reglamento de la Ley N° 31814", "u": "https://img.lpderecho.pe/wp-content/uploads/2025/09/Decreto-Supremo-115-2025-PCM-LPDerecho.pdf", "fecha": "24-09-2026"},
+    {"t": "Presidencia del Consejo de Ministros. (2021). Decreto Supremo N° 029-2021-PCM", "u": "https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-aprueba-el-reglamento-del-decreto-legisl-decreto-supremo-n-029-2021-pcm-1929103-3/", "fecha": "24-09-2026"}
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1043 @@
+{
+ "cod": "SIS",
+ "k": "E1",
+ "especialidad": "Desarrollo de software y análisis de sistemas",
+ "competencia": "C1",
+ "proposito": "Desarrollar, integrar y mantener soluciones de software web y móviles que las organizaciones usan en sus operaciones, analizando sus procesos y requerimientos, en equipos que aplican prácticas ágiles, entrega continua y normas de calidad, seguridad, protección de datos y gobierno digital, para entregar sistemas confiables y mantenibles que respondan a las necesidades del negocio y de los ciudadanos.",
+ "fuentes": {
+  "O": 6,
+  "N": 14,
+  "M": 5,
+  "P": 12,
+  "A": 0,
+  "D": 0,
+  "avisos_revisados": 74,
+  "nota": "O: O*NET 15-1252, 15-1211 y 15-1253, BLS OOH y ESCO (software developer, software analyst). N: D. Leg. 1412, DS 029-2021-PCM, DS 098-2025-PCM, RM 041-2017-PCM (NTP-ISO/IEC 12207), Ley 29733, DS 016-2024-JUS, DS 115-2025-PCM, DS 085-2023-PCM, RM 049-2026-PCM (vía Infobae), Ley 28858 y 4 convocatorias CAS 2026 (SUNAFIL, Pensión 65, SENACE, INEN) leídas en la réplica BuscaChamba de Talento Perú. M: 74 avisos de Computrabajo Perú leídos completos el 25-09-2026 (71 válidos: 1 duplicado, 1 de soporte de redes y 1 sin funciones excluidos), listado de LinkedIn (+1000 empleos), EDO 2025 del MTPE vía Infobae y estudio ISIL vía Gestión. P: SFIA 9 (REQM, SWDN, PROG, HCEV, SINT, TEST, RELM, ASUP), SWEBOK v4, ISTQB CTFL 4.0, OWASP Top 10:2025 y WCAG 2.2. Tendencias y necesidad: INEI TIC II-2025, Prensa Perú (PIDE 2025), WEF Future of Jobs 2025, Stack Overflow 2025. No se pudo leer: gob.pe por WebFetch (HTTP 418; se usaron El Peruano y copias oficiales), LP Derecho web (403), ISO 25010 en iso.org (403), páginas del WEF (403; se leyó el PDF), Bumeran (contenido cargado por JavaScript, sin avisos legibles), Talento Perú/SERVIR directo (aplicación dinámica). A y D: no hay insumos. La frecuencia por función se codificó por palabras clave y se revisó leyendo los avisos."
+ },
+ "funciones": [
+  {
+   "c": "E1-01",
+   "t": "Análisis de requerimientos y procesos del negocio",
+   "d": "Relevar y analizar los procesos y necesidades de las áreas usuarias para especificar requerimientos funcionales y no funcionales verificables que orienten la construcción del software.",
+   "fclave": "Analizar y diseñar la solución de software",
+   "tipo": "Actual",
+   "amb": "Áreas usuarias de empresas y entidades públicas (finanzas, logística, seguros, salud, educación); fábricas de software; oficinas de TI del Estado; análisis funcional y de sistemas de información",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "42 de 71 avisos",
+   "conf": 3,
+   "lim": "Releva y especifica requerimientos de módulos o proyectos de complejidad moderada; en programas de gran escala o multientidad actúa bajo la coordinación de un analista o dueño de producto senior.",
+   "tasks": [
+    {
+     "code": "E1-01-T1",
+     "t": "Relevar necesidades con usuarios y áreas de negocio mediante entrevistas y talleres",
+     "ent": "1. Modelo de procesos del negocio"
+    },
+    {
+     "code": "E1-01-T2",
+     "t": "Modelar los procesos actuales y propuestos del negocio",
+     "ent": "1. Modelo de procesos del negocio"
+    },
+    {
+     "code": "E1-01-T3",
+     "t": "Redactar historias de usuario, casos de uso y criterios de aceptación",
+     "ent": "2. Especificación de requerimientos priorizada"
+    },
+    {
+     "code": "E1-01-T4",
+     "t": "Priorizar y mantener el backlog de requerimientos con el negocio",
+     "ent": "2. Especificación de requerimientos priorizada"
+    },
+    {
+     "code": "E1-01-T5",
+     "t": "Validar prototipos y la trazabilidad de requerimientos con los usuarios",
+     "ent": "2. Especificación de requerimientos priorizada"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque 42 de 71 avisos peruanos revisados exigen levantar y analizar requerimientos, y analizar necesidades de usuario es la tarea de mayor importancia (77) para desarrolladores en O*NET [1][32]. En el plano normativo, el reglamento de gobierno digital exige alinear cada servicio digital con los objetivos de la entidad antes de diseñarlo [20], y el Estado convoca coordinadores de sistemas de información que dominen la NTP-ISO/IEC 12207 [31]. SFIA 9 describe la definición y gestión de requisitos como habilidad profesional diferenciada [7]. Ello exige profesionales capaces de convertir necesidades del negocio en requerimientos priorizados y verificables.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque 84% de los desarrolladores ya usa o planea usar herramientas de IA en su trabajo [40], lo que desplaza el valor hacia especificar con precisión qué debe construirse. Además, la Política Nacional de Transformación Digital al 2030 prioriza servicios digitales centrados en el ciudadano [26], que dependen de requerimientos bien levantados. Por eso es necesario que el egresado domine el análisis de requerimientos y procesos del negocio.",
+   "refs": "[1] [7] [20] [26] [31] [32] [40]",
+   "prod": {
+    "name": "Especificación de requerimientos del sistema de información",
+    "desc": "Especificación de requerimientos del sistema de información que documenta qué debe hacer la solución y con qué restricciones, para que negocio, desarrollo y pruebas compartan un mismo acuerdo verificable. Integra el modelo de procesos actual y propuesto, las historias de usuario o casos de uso con criterios de aceptación, los requerimientos no funcionales y la matriz de trazabilidad. Se elabora con entrevistas, talleres y prototipos validados por los usuarios, y se verifica revisando que cada requerimiento sea claro, completo, priorizado y comprobable. Orienta la decisión de qué construir primero y con qué alcance, y demuestra la capacidad de traducir necesidades del negocio en requisitos verificables.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Modelo de procesos del negocio",
+      "codes": "E1-01-T1, E1-01-T2",
+      "sum": "diagramas de procesos actuales y propuestos con sus problemas y oportunidades de mejora",
+      "ev": [
+       "actas de entrevistas y talleres firmadas por usuarios",
+       "diagramas de procesos actual y propuesto"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Especificación de requerimientos priorizada",
+      "codes": "E1-01-T3, E1-01-T4, E1-01-T5",
+      "sum": "historias de usuario o casos de uso con criterios de aceptación, backlog priorizado y matriz de trazabilidad",
+      "ev": [
+       "documento de requerimientos aprobado por el área usuaria",
+       "backlog priorizado en la herramienta del equipo",
+       "matriz de trazabilidad requerimiento-prototipo"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-02",
+   "t": "Diseño de arquitectura y datos del software",
+   "d": "Diseñar la arquitectura de componentes, las interfaces y el modelo de datos de la solución a partir de los requerimientos, eligiendo patrones que aseguren escalabilidad, seguridad y mantenibilidad.",
+   "fclave": "Analizar y diseñar la solución de software",
+   "tipo": "Actual",
+   "amb": "Aplicaciones web y móviles empresariales, ERP propios, microservicios y soluciones en nube; plataformas del Estado sujetas a la arquitectura digital",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "29 de 71 avisos",
+   "conf": 3,
+   "lim": "Diseña componentes y modelos de datos de complejidad moderada; la arquitectura empresarial o de plataformas críticas la valida un arquitecto senior, y la firma de documentos técnicos de ingeniería exige colegiatura y habilitación vigentes [28].",
+   "tasks": [
+    {
+     "code": "E1-02-T1",
+     "t": "Definir la arquitectura por capas, servicios o microservicios de la solución",
+     "ent": "1. Documento de arquitectura de la solución"
+    },
+    {
+     "code": "E1-02-T2",
+     "t": "Seleccionar patrones de diseño y tecnologías según restricciones de costo, escala y seguridad",
+     "ent": "1. Documento de arquitectura de la solución"
+    },
+    {
+     "code": "E1-02-T3",
+     "t": "Diseñar el modelo lógico y físico de la base de datos",
+     "ent": "2. Modelo de datos de la solución"
+    },
+    {
+     "code": "E1-02-T4",
+     "t": "Especificar los contratos de interfaces y APIs entre componentes",
+     "ent": "1. Documento de arquitectura de la solución"
+    },
+    {
+     "code": "E1-02-T5",
+     "t": "Documentar las decisiones de diseño en diagramas y registros de arquitectura",
+     "ent": "1. Documento de arquitectura de la solución"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque 29 de 71 avisos peruanos revisados piden diseñar arquitecturas, patrones o estructuras de base de datos, y la ocupación de analista de software en ESCO incluye definir la arquitectura y crear modelos de datos [6][32]. En el Estado, el reglamento de gobierno digital obliga a diseñar los servicios conforme a las disposiciones de arquitectura digital [20], y convocatorias CAS de programador piden arquitectura de software [30]. SFIA 9 reconoce el diseño de software como habilidad propia [8]. Ello exige profesionales capaces de diseñar arquitecturas y modelos de datos mantenibles y seguros.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la Estrategia Nacional de Gobierno de Datos 2026-2030 obliga a las entidades públicas a gestionar sus datos con estándares de interoperabilidad y seguridad [27]. Además, la guía SWEBOK v4 incorporó la arquitectura de software como área de conocimiento propia [15], lo que eleva su exigencia profesional. Por eso es necesario que el egresado domine el diseño de arquitectura y datos del software.",
+   "refs": "[6] [8] [15] [20] [27] [28] [30] [32]",
+   "prod": {
+    "name": "Documento de diseño técnico de la solución",
+    "desc": "Documento de diseño técnico de la solución que define cómo se estructura el software para cumplir los requerimientos funcionales y no funcionales antes de programarlo. Integra las vistas de arquitectura por capas o servicios, los contratos de interfaces y APIs, el modelo de datos lógico y físico y el registro de decisiones con sus alternativas. Se elabora a partir de la especificación de requerimientos aplicando patrones reconocidos, y se verifica en una revisión técnica con pares que contrasta escalabilidad, seguridad y costo. Orienta la decisión de tecnologías y de división del trabajo del equipo, y demuestra criterio técnico para justificar el diseño.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Documento de arquitectura de la solución",
+      "codes": "E1-02-T1, E1-02-T2, E1-02-T4, E1-02-T5",
+      "sum": "vistas de componentes, contratos de interfaces y decisiones de diseño justificadas",
+      "ev": [
+       "diagramas de arquitectura en notación estándar",
+       "registro de decisiones de arquitectura revisado por pares"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Modelo de datos de la solución",
+      "codes": "E1-02-T3",
+      "sum": "modelo lógico y físico con entidades, relaciones, índices y reglas de integridad",
+      "ev": [
+       "diagrama entidad-relación validado",
+       "script de creación de la base de datos ejecutado en ambiente de desarrollo"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-03",
+   "t": "Desarrollo de servicios y lógica de negocio",
+   "d": "Programar los componentes del lado del servidor, las reglas de negocio y las APIs de la solución conforme al diseño, en repositorios versionados con revisión de código.",
+   "fclave": "Construir e integrar los componentes de la solución",
+   "tipo": "Actual",
+   "amb": "Backend de aplicaciones web y móviles, ERP propios, banca y fintech, salud, educación, logística y entidades públicas",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "56 de 71 avisos",
+   "conf": 4,
+   "lim": "Construye sin supervisión componentes y APIs de complejidad moderada dentro de la arquitectura definida; los cambios en componentes críticos de alto volumen transaccional pasan por revisión de un desarrollador senior.",
+   "tasks": [
+    {
+     "code": "E1-03-T1",
+     "t": "Programar reglas de negocio y servicios del lado del servidor",
+     "ent": "1. Componentes de servicio y API documentados"
+    },
+    {
+     "code": "E1-03-T2",
+     "t": "Construir y documentar APIs para clientes web, móviles y otros sistemas",
+     "ent": "1. Componentes de servicio y API documentados"
+    },
+    {
+     "code": "E1-03-T3",
+     "t": "Implementar el acceso a datos, consultas y procedimientos almacenados",
+     "ent": "1. Componentes de servicio y API documentados"
+    },
+    {
+     "code": "E1-03-T4",
+     "t": "Escribir pruebas unitarias del código producido",
+     "ent": "2. Repositorio con pruebas unitarias y revisiones"
+    },
+    {
+     "code": "E1-03-T5",
+     "t": "Versionar el código y atender las observaciones de la revisión por pares",
+     "ent": "2. Repositorio con pruebas unitarias y revisiones"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque la Encuesta de Demanda Ocupacional del MTPE ubica a Ingeniería de Sistemas de Información como la carrera más requerida para 2025, con 5 226 puestos proyectados [35], y 56 de 71 avisos revisados piden desarrollo backend o de APIs [32][33]; LinkedIn lista más de 1 000 empleos de desarrollador en Perú [34]. Convocatorias CAS exigen desarrollo backend, APIs REST y bases de datos [29][30]. ESCO define al desarrollador como quien implementa sistemas a partir de especificaciones [5], y SFIA 9 describe la programación como habilidad central [9]. Ello exige profesionales capaces de construir servicios y APIs confiables y mantenibles.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el Foro Económico Mundial ubica a los desarrolladores de software y aplicaciones entre los empleos de más rápido crecimiento al 2030 [39], y en Perú la demanda de perfiles tecnológicos crece 15% al año [36]. A la vez, 51% de los desarrolladores profesionales usa IA a diario, pero 46% desconfía de su exactitud [40]. Por eso es necesario que el egresado domine el desarrollo de servicios y lógica de negocio.",
+   "refs": "[5] [9] [29] [30] [32] [33] [34] [35] [36] [39] [40]",
+   "prod": {
+    "name": "Componente de servicios con API documentada",
+    "desc": "Componente de servicios con API documentada que implementa las reglas de negocio de la solución y las expone de forma segura para que las interfaces web, móviles y otros sistemas las consuman. Integra el código fuente organizado por capas, el acceso a la base de datos, la especificación de la API, las pruebas unitarias y el historial de cambios en el repositorio. Se elabora de forma incremental conforme al diseño y se verifica con pruebas unitarias automatizadas, análisis estático y revisión de código por pares antes de su integración. Orienta la decisión de pasar la funcionalidad a pruebas integrales, y demuestra dominio de la programación profesional con estándares de calidad.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Componentes de servicio y API documentados",
+      "codes": "E1-03-T1, E1-03-T2, E1-03-T3",
+      "sum": "código de servicios, reglas de negocio, acceso a datos y especificación de la API",
+      "ev": [
+       "código fuente integrado en la rama principal",
+       "especificación de la API publicada y probada"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Repositorio con pruebas unitarias y revisiones",
+      "codes": "E1-03-T4, E1-03-T5",
+      "sum": "pruebas unitarias automatizadas y solicitudes de cambio revisadas por pares",
+      "ev": [
+       "reporte de ejecución y cobertura de pruebas unitarias",
+       "solicitudes de cambio aprobadas en el repositorio"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-04",
+   "t": "Desarrollo de interfaces web de usuario",
+   "d": "Construir las interfaces web con las que los usuarios operan el sistema, a partir de prototipos aprobados, asegurando usabilidad, accesibilidad, diseño adaptable y consumo correcto de los servicios.",
+   "fclave": "Construir e integrar los componentes de la solución",
+   "tipo": "Actual",
+   "amb": "Portales y aplicaciones web empresariales, comercio electrónico, servicios digitales del Estado en GOB.PE",
+   "evid": "N,M,P",
+   "unica": false,
+   "frec": "34 de 71 avisos",
+   "conf": 4,
+   "lim": "Construye sin supervisión módulos de interfaz sobre prototipos aprobados; la definición del sistema de diseño corporativo corresponde a diseñadores o líderes técnicos.",
+   "tasks": [
+    {
+     "code": "E1-04-T1",
+     "t": "Maquetar vistas y componentes reutilizables a partir de prototipos",
+     "ent": "1. Módulo de interfaz web funcional"
+    },
+    {
+     "code": "E1-04-T2",
+     "t": "Conectar las vistas con las APIs y manejar estados y errores",
+     "ent": "1. Módulo de interfaz web funcional"
+    },
+    {
+     "code": "E1-04-T3",
+     "t": "Aplicar criterios de accesibilidad y diseño adaptable a distintos dispositivos",
+     "ent": "2. Reporte de accesibilidad y rendimiento"
+    },
+    {
+     "code": "E1-04-T4",
+     "t": "Optimizar el rendimiento y la compatibilidad entre navegadores",
+     "ent": "2. Reporte de accesibilidad y rendimiento"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque GOB.PE concentra más de 350 servicios digitales del Estado [38] y 34 de 71 avisos peruanos revisados piden desarrollo frontend, interfaces responsivas o accesibilidad [32]. La Ley de Gobierno Digital fija la usabilidad como principio rector [19], y su reglamento exige servicios accesibles para personas con discapacidad y diseñados para dispositivos móviles [20]. Como estándar profesional, W3C publicó WCAG 2.2 como recomendación en 2024 [18], y SFIA 9 describe el diseño de experiencia de usuario [10]. Ello exige profesionales capaces de construir interfaces web usables, accesibles y eficientes.",
+   "imp": "Medio",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la Política Nacional de Transformación Digital al 2030 busca duplicar el ejercicio de la ciudadanía digital y fija una meta de 30,4% de la población realizando trámites en línea [26]. Esa expansión exige interfaces que atiendan a usuarios con distintas capacidades y dispositivos bajo WCAG 2.2 [18]. Por eso es necesario que el egresado domine el desarrollo de interfaces web de usuario.",
+   "refs": "[10] [18] [19] [20] [26] [32] [38]",
+   "prod": {
+    "name": "Módulo de interfaz web accesible",
+    "desc": "Módulo de interfaz web accesible que permite a los usuarios ejecutar sus tareas en el sistema desde cualquier navegador y dispositivo. Integra los componentes visuales reutilizables, la navegación, los formularios con validaciones, la conexión con las APIs y los estilos adaptables. Se elabora a partir de prototipos aprobados y se verifica con pruebas de interfaz, una auditoría de accesibilidad contra WCAG 2.2 y mediciones de rendimiento de carga. Orienta la decisión de publicar el módulo para los usuarios finales, y demuestra la capacidad de construir experiencias usables e inclusivas.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Módulo de interfaz web funcional",
+      "codes": "E1-04-T1, E1-04-T2",
+      "sum": "vistas, componentes, formularios y navegación conectados a los servicios",
+      "ev": [
+       "módulo desplegado en ambiente de pruebas",
+       "pruebas de interfaz ejecutadas con éxito"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Reporte de accesibilidad y rendimiento",
+      "codes": "E1-04-T3, E1-04-T4",
+      "sum": "resultados de la auditoría de accesibilidad y de las mediciones de carga",
+      "ev": [
+       "reporte de auditoría de accesibilidad con incidencias corregidas",
+       "métricas de rendimiento antes y después de optimizar"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-05",
+   "t": "Desarrollo de aplicaciones para dispositivos móviles",
+   "d": "Construir y publicar aplicaciones para teléfonos y tabletas que permitan a clientes, ciudadanos y personal de campo usar los servicios de la organización, integradas con sus APIs.",
+   "fclave": "Construir e integrar los componentes de la solución",
+   "tipo": "Actual",
+   "amb": "Comercio electrónico, billeteras digitales y banca, personal de campo en agroindustria y transporte, servicios públicos móviles",
+   "evid": "N,M",
+   "unica": false,
+   "frec": "17 de 71 avisos (13 de desarrollo directo)",
+   "conf": 3,
+   "lim": "Desarrolla funcionalidades y publica versiones bajo supervisión indirecta; la arquitectura móvil y la gestión de las cuentas en las tiendas corresponden al líder técnico.",
+   "tasks": [
+    {
+     "code": "E1-05-T1",
+     "t": "Programar pantallas y flujos de la aplicación para Android e iOS",
+     "ent": "1. Aplicación móvil funcional"
+    },
+    {
+     "code": "E1-05-T2",
+     "t": "Integrar la aplicación con APIs, autenticación y almacenamiento local",
+     "ent": "1. Aplicación móvil funcional"
+    },
+    {
+     "code": "E1-05-T3",
+     "t": "Probar la aplicación en dispositivos reales y emuladores",
+     "ent": "2. Versión publicada y verificada"
+    },
+    {
+     "code": "E1-05-T4",
+     "t": "Compilar y publicar versiones en las tiendas de aplicaciones",
+     "ent": "2. Versión publicada y verificada"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque 89,0% de la población peruana usuaria de Internet se conecta mediante un teléfono celular [37], y 17 de 71 avisos revisados piden desarrollo o pruebas de aplicaciones móviles [32]. El reglamento de gobierno digital exige que los servicios digitales se diseñen para dispositivos móviles [20], y una convocatoria CAS de programador de sistemas pide desarrollo de aplicaciones Android o Flutter [30]. Ello exige profesionales capaces de construir y publicar aplicaciones móviles estables e integradas con los sistemas de la organización.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la telefonía móvil ya alcanza 95,4% de los hogares peruanos [37] y la Política Nacional de Transformación Digital al 2030 amplía los servicios digitales a toda la población [26]. Ello desplaza la atención de clientes y ciudadanos hacia el canal móvil. Por eso es necesario que el egresado domine el desarrollo de aplicaciones para dispositivos móviles.",
+   "refs": "[20] [26] [30] [32] [37]",
+   "prod": {
+    "name": "Aplicación móvil publicada en tiendas",
+    "desc": "Aplicación móvil publicada en tiendas que lleva los servicios de la organización al teléfono de clientes, ciudadanos o personal de campo. Integra las pantallas y flujos de navegación, la conexión segura con las APIs, el almacenamiento local, las notificaciones y los paquetes firmados para Android e iOS. Se elabora a partir de prototipos y se verifica con pruebas en dispositivos reales y emuladores, además del cumplimiento de los requisitos de publicación de cada tienda. Orienta la decisión de liberar una versión a los usuarios, y demuestra la capacidad de construir software móvil estable y usable.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Aplicación móvil funcional",
+      "codes": "E1-05-T1, E1-05-T2",
+      "sum": "pantallas, navegación, integración con servicios y almacenamiento local",
+      "ev": [
+       "aplicación instalable en ambiente de pruebas",
+       "demostración de flujos principales con datos reales de prueba"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Versión publicada y verificada",
+      "codes": "E1-05-T3, E1-05-T4",
+      "sum": "paquetes firmados, resultados de pruebas en dispositivos y publicación en tiendas",
+      "ev": [
+       "registro de pruebas en dispositivos",
+       "versión aprobada en la tienda de aplicaciones"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-06",
+   "t": "Integración de sistemas y servicios de información",
+   "d": "Conectar las aplicaciones con los sistemas internos, el ERP, plataformas de terceros y las plataformas del Estado mediante APIs y servicios, para que la información fluya sin duplicarse ni perderse.",
+   "fclave": "Construir e integrar los componentes de la solución",
+   "tipo": "Actual",
+   "amb": "ERP comerciales y propios, core financiero, pasarelas de pago, facturación electrónica, Plataforma de Interoperabilidad del Estado y bloques básicos del gobierno digital; análisis funcional y de sistemas de información",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "48 de 71 avisos",
+   "conf": 3,
+   "lim": "Implementa integraciones con contratos definidos bajo supervisión indirecta; los acuerdos de intercambio con otras entidades y la exposición de datos sensibles los aprueba la jefatura de TI.",
+   "tasks": [
+    {
+     "code": "E1-06-T1",
+     "t": "Analizar los sistemas origen y destino y los datos a intercambiar",
+     "ent": "1. Servicio de integración operativo"
+    },
+    {
+     "code": "E1-06-T2",
+     "t": "Desarrollar y consumir servicios de integración mediante APIs y servicios web",
+     "ent": "1. Servicio de integración operativo"
+    },
+    {
+     "code": "E1-06-T3",
+     "t": "Implementar manejo de errores, reintentos y trazabilidad de los mensajes",
+     "ent": "1. Servicio de integración operativo"
+    },
+    {
+     "code": "E1-06-T4",
+     "t": "Probar la integración de punta a punta con los sistemas conectados",
+     "ent": "2. Informe de pruebas y documentación de integración"
+    },
+    {
+     "code": "E1-06-T5",
+     "t": "Documentar contratos, flujos y configuración de la integración",
+     "ent": "2. Informe de pruebas y documentación de integración"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque la Plataforma de Interoperabilidad del Estado registró más de 500 millones de transacciones electrónicas en 2025 [38], y 48 de 71 avisos revisados piden integrar aplicaciones con ERP, APIs o servicios externos [32][33]. La Ley de Gobierno Digital asigna la interoperabilidad técnica a las oficinas de informática [19], y el DS 098-2025-PCM obliga a usar sus bloques básicos de interoperabilidad [21]. O*NET asigna importancia 70 a enlazar los sistemas de la organización [2], y SFIA 9 describe la integración de sistemas [11]. Ello exige profesionales capaces de integrar sistemas heterogéneos de forma segura y trazable.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el DS 098-2025-PCM hace obligatorios PIDE, ID GOB.PE, PÁGALO.PE, FIRMA PERÚ y SGD PERÚ en los servicios digitales [21]. Además, la Estrategia Nacional de Gobierno de Datos 2026-2030 exige estándares de interoperabilidad en cada entidad pública [27]. Por eso es necesario que el egresado domine la integración de sistemas y servicios de información.",
+   "refs": "[2] [11] [19] [21] [27] [32] [33] [38]",
+   "prod": {
+    "name": "Solución de integración entre sistemas",
+    "desc": "Solución de integración entre sistemas que permite a las aplicaciones de la organización intercambiar datos con su ERP, con terceros y con las plataformas del Estado de forma confiable. Integra el mapeo de datos entre sistemas, los servicios o conectores desarrollados, los mecanismos de autenticación, reintentos y registro, y la documentación de los contratos. Se elabora a partir del análisis de los sistemas origen y destino, y se verifica con pruebas de punta a punta y con la conciliación de los datos transferidos. Orienta la decisión de poner en operación el intercambio automático de información, y demuestra la capacidad de hacer interoperar sistemas heterogéneos.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Servicio de integración operativo",
+      "codes": "E1-06-T1, E1-06-T2, E1-06-T3",
+      "sum": "mapeo de datos, conectores o servicios desarrollados y mecanismos de control de errores",
+      "ev": [
+       "servicio de integración ejecutando en ambiente de pruebas",
+       "bitácora de mensajes con trazabilidad"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de pruebas y documentación de integración",
+      "codes": "E1-06-T4, E1-06-T5",
+      "sum": "resultados de pruebas de punta a punta, conciliación de datos y contratos documentados",
+      "ev": [
+       "casos de prueba de integración ejecutados",
+       "conciliación de registros entre sistemas",
+       "contratos de interfaz documentados"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-07",
+   "t": "Automatización de procesos operativos del negocio",
+   "d": "Construir flujos, bots y scripts que automaticen tareas repetitivas y procesos operativos de las áreas usuarias, integrando los sistemas existentes para reducir tiempos, errores y reprocesos.",
+   "fclave": "Construir e integrar los componentes de la solución",
+   "tipo": "Emergente",
+   "amb": "Procesos administrativos, contables, logísticos y de atención; sistemas legados sin API; entidades públicas en la estrategia Cero Papel",
+   "evid": "O,N,M",
+   "unica": false,
+   "frec": "15 de 71 avisos",
+   "conf": 3,
+   "lim": "Automatiza procesos departamentales de complejidad moderada; las automatizaciones que tratan datos personales o toman decisiones con efectos sobre personas requieren aprobación del dueño del proceso y del área de seguridad.",
+   "tasks": [
+    {
+     "code": "E1-07-T1",
+     "t": "Identificar tareas repetitivas y estimar el beneficio de automatizarlas",
+     "ent": "1. Diagnóstico de oportunidades de automatización"
+    },
+    {
+     "code": "E1-07-T2",
+     "t": "Diseñar el flujo automatizado con sus reglas y excepciones",
+     "ent": "2. Automatización documentada en operación"
+    },
+    {
+     "code": "E1-07-T3",
+     "t": "Construir bots, flujos o scripts conectados a los sistemas",
+     "ent": "2. Automatización documentada en operación"
+    },
+    {
+     "code": "E1-07-T4",
+     "t": "Monitorear la ejecución de las automatizaciones y corregir sus fallas",
+     "ent": "2. Automatización documentada en operación"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque la estrategia Cero Papel ya interconectó 267 entidades públicas [38], y 15 de 71 avisos peruanos revisados piden automatizar procesos con flujos, bots o scripts [32][33]. La Ley de Gobierno Digital establece el principio de lo digital desde el diseño, para que los servicios sean digitales de principio a fin [19]. En el plano ocupacional, O*NET asigna importancia 74 al uso del computador para resolver problemas del negocio en analistas de sistemas [2]. Ello exige profesionales capaces de automatizar procesos operativos de forma confiable y mantenible.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque 86% de los empleadores espera que la IA y el procesamiento de información transformen su negocio al 2030, y los especialistas en automatización de procesos figuran entre los roles con crecimiento neto [39]. Además, el reglamento de la Ley 31814 impulsa el uso responsable de la IA en entidades y empresas [25]. Por eso es necesario que el egresado domine la automatización de procesos operativos del negocio.",
+   "refs": "[2] [19] [25] [32] [33] [38] [39]",
+   "prod": {
+    "name": "Automatización de proceso documentada",
+    "desc": "Automatización de proceso documentada que ejecuta sin intervención manual una secuencia de tareas del negocio, como registrar documentos, conciliar datos o generar reportes. Integra el diagnóstico del proceso con su beneficio estimado, el flujo con reglas y excepciones, los bots o scripts conectados a los sistemas y el manual de operación. Se elabora priorizando tareas repetitivas de alto volumen y se verifica en un ambiente de pruebas con casos normales y de excepción antes del pase a producción. Orienta la decisión de qué procesos automatizar y cuánto tiempo liberan, y demuestra la capacidad de convertir procesos manuales en soluciones digitales.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Diagnóstico de oportunidades de automatización",
+      "codes": "E1-07-T1",
+      "sum": "inventario de tareas repetitivas con volumen, tiempo y beneficio estimado",
+      "ev": [
+       "matriz de priorización de procesos a automatizar"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Automatización documentada en operación",
+      "codes": "E1-07-T2, E1-07-T3, E1-07-T4",
+      "sum": "flujo con reglas y excepciones, bots o scripts en producción y manual de operación",
+      "ev": [
+       "flujo ejecutándose con registro de corridas",
+       "manual de operación de la automatización",
+       "comparación de tiempos antes y después"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-08",
+   "t": "Aseguramiento de la calidad del software",
+   "d": "Planificar, diseñar y ejecutar pruebas manuales y automatizadas que verifiquen que el software cumple los requerimientos antes de liberarlo, registrando defectos y evidencias.",
+   "fclave": "Verificar la calidad y la seguridad del software",
+   "tipo": "Actual",
+   "amb": "Fábricas de software, banca y fintech, billeteras digitales, proyectos de modernización de sistemas públicos",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "41 de 71 avisos",
+   "conf": 3,
+   "lim": "Diseña y ejecuta pruebas de módulos y versiones; la estrategia de calidad de programas críticos y la aprobación final del pase la firma el líder de calidad.",
+   "tasks": [
+    {
+     "code": "E1-08-T1",
+     "t": "Elaborar el plan y la estrategia de pruebas según riesgos",
+     "ent": "1. Plan y casos de prueba"
+    },
+    {
+     "code": "E1-08-T2",
+     "t": "Diseñar casos de prueba con criterios de aceptación y datos de prueba",
+     "ent": "1. Plan y casos de prueba"
+    },
+    {
+     "code": "E1-08-T3",
+     "t": "Automatizar pruebas de regresión, de API y de interfaz",
+     "ent": "2. Suite de pruebas automatizadas"
+    },
+    {
+     "code": "E1-08-T4",
+     "t": "Ejecutar pruebas funcionales, de integración y de aceptación con usuarios",
+     "ent": "3. Informe de resultados y defectos"
+    },
+    {
+     "code": "E1-08-T5",
+     "t": "Registrar y dar seguimiento a los defectos hasta su cierre",
+     "ent": "3. Informe de resultados y defectos"
+    },
+    {
+     "code": "E1-08-T6",
+     "t": "Emitir el informe de calidad con la recomendación de pase",
+     "ent": "3. Informe de resultados y defectos"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque 41 de 71 avisos peruanos revisados exigen ejecutar pruebas o asegurar la calidad del software, incluidos puestos exclusivos de calidad en banca y fintech [32]. En O*NET, identificar y documentar problemas del software alcanza importancia 93 para analistas de calidad [3]. En el Estado es obligatoria la NTP-ISO/IEC 12207, que incluye procesos de verificación y validación [22], y convocatorias CAS piden formación en pruebas de software [30]. ISTQB y SFIA 9 describen esta práctica profesional [12][16]. Ello exige profesionales capaces de verificar sistemáticamente el software antes de liberarlo.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque 46% de los desarrolladores desconfía de la exactitud de las herramientas de IA [40], lo que obliga a verificar más y mejor el código generado. Además, BLS proyecta 106 100 vacantes anuales para desarrolladores, analistas de calidad y probadores entre 2025 y 2035 [4]. Por eso es necesario que el egresado domine el aseguramiento de la calidad del software.",
+   "refs": "[3] [4] [12] [16] [22] [30] [32] [40]",
+   "prod": {
+    "name": "Informe de certificación de calidad del software",
+    "desc": "Informe de certificación de calidad del software que establece, con evidencias, si una versión cumple los requerimientos y puede pasar a producción. Integra el plan de pruebas basado en riesgos, los casos de prueba trazados a los requerimientos, la suite automatizada de regresión, los resultados de ejecución y el registro de defectos con su estado. Se elabora ejecutando pruebas funcionales, de integración y de aceptación en ambientes controlados, y se verifica con métricas de cobertura y la revisión conjunta de desarrollo y negocio. Orienta la decisión de liberar o detener una versión, y demuestra rigor para verificar el software de forma sistemática.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Plan y casos de prueba",
+      "codes": "E1-08-T1, E1-08-T2",
+      "sum": "estrategia basada en riesgos, casos trazados a requerimientos y datos de prueba",
+      "ev": [
+       "plan de pruebas aprobado",
+       "casos de prueba trazados a requerimientos"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Suite de pruebas automatizadas",
+      "codes": "E1-08-T3",
+      "sum": "scripts de regresión, API e interfaz integrados al repositorio",
+      "ev": [
+       "suite ejecutándose con reporte de resultados"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Informe de resultados y defectos",
+      "codes": "E1-08-T4, E1-08-T5, E1-08-T6",
+      "sum": "resultados de ejecución, defectos con su estado y recomendación de pase",
+      "ev": [
+       "registro de defectos en la herramienta de gestión",
+       "informe de cierre de pruebas con recomendación"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-09",
+   "t": "Seguridad y privacidad en aplicaciones",
+   "d": "Incorporar controles de seguridad y de protección de datos personales desde el diseño y la codificación de las aplicaciones, y corregir sus vulnerabilidades, para proteger la información de la organización y de sus usuarios.",
+   "fclave": "Verificar la calidad y la seguridad del software",
+   "tipo": "Transversal",
+   "amb": "Aplicaciones que tratan datos personales y financieros, APIs expuestas, servicios digitales del Estado, sistemas que incorporan IA",
+   "evid": "N,M,P",
+   "unica": false,
+   "frec": "18 de 71 avisos",
+   "conf": 3,
+   "lim": "Aplica controles y corrige vulnerabilidades en las aplicaciones que desarrolla; las pruebas de penetración, la respuesta a incidentes y la gestión corporativa de la seguridad corresponden a la especialidad de seguridad de la información.",
+   "tasks": [
+    {
+     "code": "E1-09-T1",
+     "t": "Identificar amenazas y requisitos de seguridad y privacidad de la aplicación",
+     "ent": "1. Análisis de amenazas y privacidad"
+    },
+    {
+     "code": "E1-09-T2",
+     "t": "Implementar autenticación, autorización y cifrado de datos sensibles",
+     "ent": "2. Controles de seguridad implementados y verificados"
+    },
+    {
+     "code": "E1-09-T3",
+     "t": "Analizar el código y las dependencias en busca de vulnerabilidades",
+     "ent": "2. Controles de seguridad implementados y verificados"
+    },
+    {
+     "code": "E1-09-T4",
+     "t": "Corregir las vulnerabilidades detectadas y verificar su cierre",
+     "ent": "2. Controles de seguridad implementados y verificados"
+    },
+    {
+     "code": "E1-09-T5",
+     "t": "Registrar el tratamiento de datos personales que realiza la aplicación",
+     "ent": "1. Análisis de amenazas y privacidad"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque el reglamento de la Ley 29733 obliga a notificar los incidentes de seguridad sobre datos personales dentro de 48 horas [24], y 18 de 71 avisos peruanos revisados piden desarrollo seguro, gestión de vulnerabilidades o protección de datos [32]. La Ley de Gobierno Digital consagra la privacidad desde el diseño [19], y la Ley 29733 exige medidas técnicas que eviten el acceso no autorizado [23]. Como estándar profesional, OWASP publicó su Top 10:2025 de riesgos en aplicaciones web [17]. Ello exige profesionales capaces de construir software seguro que proteja los datos personales.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el reglamento de la Ley 31814 exige transparencia algorítmica y evaluación de impacto para los sistemas de IA de riesgo alto, con plazos escalonados hasta 2029 [25]. Además, OWASP ubicó las fallas de la cadena de suministro de software como tercer riesgo principal [17]. Por eso es necesario que el egresado domine la seguridad y privacidad en aplicaciones.",
+   "refs": "[17] [19] [23] [24] [25] [32]",
+   "prod": {
+    "name": "Expediente de seguridad y privacidad de la aplicación",
+    "desc": "Expediente de seguridad y privacidad de la aplicación que demuestra que el software protege la información y cumple la normativa de datos personales antes de su liberación. Integra el modelo de amenazas, los requisitos de seguridad y privacidad, la descripción de los controles de autenticación, autorización y cifrado, y los resultados del análisis de vulnerabilidades con su remediación. Se elabora durante el diseño y la construcción, y se verifica con análisis estático de código, revisión de dependencias y pruebas contra las categorías del OWASP Top 10. Orienta la decisión de aceptar o mitigar los riesgos antes del pase a producción, y demuestra responsabilidad profesional sobre los datos de los usuarios.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Análisis de amenazas y privacidad",
+      "codes": "E1-09-T1, E1-09-T5",
+      "sum": "modelo de amenazas, requisitos de seguridad y registro del tratamiento de datos personales",
+      "ev": [
+       "modelo de amenazas revisado",
+       "inventario de datos personales tratados por la aplicación"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Controles de seguridad implementados y verificados",
+      "codes": "E1-09-T2, E1-09-T3, E1-09-T4",
+      "sum": "controles de acceso y cifrado implementados, análisis de vulnerabilidades y su remediación",
+      "ev": [
+       "reporte de análisis estático y de dependencias",
+       "evidencia de cierre de vulnerabilidades"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-10",
+   "t": "Despliegue y liberación continua del software",
+   "d": "Configurar y operar la cadena de integración y despliegue continuo que lleva el software desde el repositorio hasta producción de forma automatizada, trazable y reversible.",
+   "fclave": "Desplegar y evolucionar el software en producción",
+   "tipo": "Actual",
+   "amb": "Equipos ágiles y fábricas de software, aplicaciones en nube o en servidores propios, pases a producción en banca y entidades públicas",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "33 de 71 avisos",
+   "conf": 3,
+   "lim": "Configura canalizaciones y ejecuta pases a producción de sus aplicaciones con aprobación del líder técnico; la infraestructura de plataforma y la nube corporativa corresponden a la especialidad de infraestructura.",
+   "tasks": [
+    {
+     "code": "E1-10-T1",
+     "t": "Configurar la construcción y las pruebas automáticas en cada cambio del repositorio",
+     "ent": "1. Canalización de integración y despliegue"
+    },
+    {
+     "code": "E1-10-T2",
+     "t": "Empaquetar la aplicación en contenedores o artefactos desplegables",
+     "ent": "1. Canalización de integración y despliegue"
+    },
+    {
+     "code": "E1-10-T3",
+     "t": "Automatizar el despliegue en ambientes de prueba y producción",
+     "ent": "1. Canalización de integración y despliegue"
+    },
+    {
+     "code": "E1-10-T4",
+     "t": "Ejecutar y verificar el pase a producción con plan de reversión",
+     "ent": "2. Registro de liberación verificada"
+    },
+    {
+     "code": "E1-10-T5",
+     "t": "Registrar las versiones liberadas y sus notas de cambio",
+     "ent": "2. Registro de liberación verificada"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque 33 de 71 avisos peruanos revisados piden despliegues, canalizaciones de integración continua o contenedores, y convocatorias CAS del Estado exigen conocimientos de Docker y CI/CD [30][32]. El reglamento de gobierno digital establece etapas de construcción, operación y mejora continua para los servicios digitales [20]. O*NET asigna importancia 80 a probar las modificaciones del sistema antes de implementarlas [3], y SFIA 9 describe la gestión de liberaciones como habilidad propia [13]. Ello exige profesionales capaces de automatizar la entrega del software a producción con control de riesgos.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el Foro Económico Mundial ubica al ingeniero DevOps entre los empleos de más rápido crecimiento al 2030 [39]. Además, SWEBOK v4 añadió las operaciones de ingeniería de software como nueva área de conocimiento [15], lo que consolida la entrega continua como práctica esperada. Por eso es necesario que el egresado domine el despliegue y la liberación continua del software.",
+   "refs": "[3] [13] [15] [20] [30] [32] [39]",
+   "prod": {
+    "name": "Canalización de despliegue continuo documentada",
+    "desc": "Canalización de despliegue continuo documentada que automatiza la construcción, las pruebas y la publicación de cada versión del software en sus ambientes. Integra la configuración de las etapas de construcción y prueba, los artefactos o contenedores versionados, los scripts de despliegue por ambiente, el plan de reversión y el registro de versiones liberadas. Se elabora sobre el repositorio del proyecto y se verifica ejecutando despliegues de prueba, validaciones posteriores al pase y una reversión controlada. Orienta la decisión de promover una versión a producción con riesgo acotado, y demuestra la capacidad de entregar software de manera frecuente y confiable.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Canalización de integración y despliegue",
+      "codes": "E1-10-T1, E1-10-T2, E1-10-T3",
+      "sum": "etapas de construcción, prueba y despliegue automatizadas por ambiente",
+      "ev": [
+       "canalización ejecutada con éxito en el repositorio",
+       "artefactos o imágenes versionados"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registro de liberación verificada",
+      "codes": "E1-10-T4, E1-10-T5",
+      "sum": "plan de pase y reversión, verificación posterior al despliegue y notas de versión",
+      "ev": [
+       "acta de pase a producción con verificación posterior",
+       "notas de versión publicadas"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-11",
+   "t": "Mantenimiento evolutivo y soporte de aplicaciones",
+   "d": "Atender incidencias, corregir defectos y adaptar las aplicaciones en producción a nuevos requerimientos y plataformas, para asegurar la continuidad operativa y prolongar su vida útil.",
+   "fclave": "Desplegar y evolucionar el software en producción",
+   "tipo": "Actual",
+   "amb": "Sistemas empresariales y ERP en producción, sistemas legados, aplicaciones de entidades públicas, universidades y clínicas; soporte funcional de sistemas de información",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "56 de 71 avisos",
+   "conf": 3,
+   "lim": "Resuelve incidencias y mejoras de módulos bajo supervisión indirecta; las migraciones de plataformas completas o críticas se ejecutan con aprobación del comité de cambios.",
+   "tasks": [
+    {
+     "code": "E1-11-T1",
+     "t": "Diagnosticar incidencias y su causa raíz en producción",
+     "ent": "1. Registro de incidencias resueltas"
+    },
+    {
+     "code": "E1-11-T2",
+     "t": "Aplicar correcciones de código o de datos de forma controlada",
+     "ent": "1. Registro de incidencias resueltas"
+    },
+    {
+     "code": "E1-11-T3",
+     "t": "Implementar mejoras evolutivas solicitadas por las áreas usuarias",
+     "ent": "2. Paquete de mejoras y migración documentado"
+    },
+    {
+     "code": "E1-11-T4",
+     "t": "Refactorizar o migrar componentes obsoletos a versiones soportadas",
+     "ent": "2. Paquete de mejoras y migración documentado"
+    },
+    {
+     "code": "E1-11-T5",
+     "t": "Actualizar la documentación técnica y los manuales de usuario",
+     "ent": "2. Paquete de mejoras y migración documentado"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque 56 de 71 avisos peruanos revisados incluyen mantenimiento, soporte o corrección de incidencias de aplicaciones en producción [32][33]. En O*NET, solucionar fallas de programas y sistemas alcanza importancia 81 para analistas de sistemas, y modificar el software existente, 69 para desarrolladores [1][2]. En el Estado es obligatoria la NTP-ISO/IEC 12207, que norma el ciclo de vida del software hasta su mantenimiento [22], y SFIA 9 describe el soporte de aplicaciones [14]. Ello exige profesionales capaces de mantener y evolucionar software en producción sin interrumpir la operación.",
+   "imp": "Medio",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque 84% de los desarrolladores usa o planea usar asistentes de IA [40], lo que acelera la producción de código que luego debe mantenerse. Además, la Estrategia Nacional de Gobierno de Datos 2026-2030 obligará a adecuar los sistemas públicos existentes a nuevos estándares de datos [27]. Por eso es necesario que el egresado domine el mantenimiento evolutivo y soporte de aplicaciones.",
+   "refs": "[1] [2] [14] [22] [27] [32] [33] [40]",
+   "prod": {
+    "name": "Informe de mantenimiento de la aplicación",
+    "desc": "Informe de mantenimiento de la aplicación que da cuenta del estado del software en producción y de las intervenciones realizadas para mantenerlo útil y estable. Integra el registro de incidencias con su causa raíz y solución, las correcciones y mejoras evolutivas liberadas, los componentes refactorizados o migrados y la documentación técnica actualizada. Se elabora a partir de los tickets y solicitudes de las áreas usuarias, y se verifica con pruebas de regresión y con el cumplimiento de los niveles de servicio acordados. Orienta la decisión de corregir, mejorar o reemplazar componentes, y demuestra responsabilidad operativa sobre sistemas críticos.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Registro de incidencias resueltas",
+      "codes": "E1-11-T1, E1-11-T2",
+      "sum": "tickets atendidos con diagnóstico, causa raíz, corrección y tiempo de atención",
+      "ev": [
+       "tickets cerrados dentro del nivel de servicio",
+       "análisis de causa raíz de incidencias recurrentes"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Paquete de mejoras y migración documentado",
+      "codes": "E1-11-T3, E1-11-T4, E1-11-T5",
+      "sum": "mejoras evolutivas, componentes refactorizados o migrados y documentación actualizada",
+      "ev": [
+       "versión con mejoras liberada tras pruebas de regresión",
+       "documentación técnica y manuales actualizados"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "refs": [
+  [
+   "[1]",
+   "O*NET OnLine (U.S. Department of Labor). 15-1252.00 Software Developers: tareas e importancia. 2026",
+   "https://www.onetonline.org/link/details/15-1252.00",
+   "Verificado"
+  ],
+  [
+   "[2]",
+   "O*NET OnLine (U.S. Department of Labor). 15-1211.00 Computer Systems Analysts: tareas e importancia. 2026",
+   "https://www.onetonline.org/link/details/15-1211.00",
+   "Verificado"
+  ],
+  [
+   "[3]",
+   "O*NET OnLine (U.S. Department of Labor). 15-1253.00 Software Quality Assurance Analysts and Testers: tareas e importancia. 2026",
+   "https://www.onetonline.org/link/details/15-1253.00",
+   "Verificado"
+  ],
+  [
+   "[4]",
+   "U.S. Bureau of Labor Statistics. Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers (proyecciones 2025-2035). 2026",
+   "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+   "Verificado"
+  ],
+  [
+   "[5]",
+   "Comisión Europea. ESCO: software developer (2512.4). 2024",
+   "https://esco.ec.europa.eu/en/classification/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2Ff2b15a0e-e65a-438a-affb-29b9d50b77d1",
+   "Verificado"
+  ],
+  [
+   "[6]",
+   "Comisión Europea. ESCO: software analyst (2512.2). 2024",
+   "https://esco.ec.europa.eu/en/classification/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2F04ba4d6c-957d-417f-bf63-5b9e015a9f86",
+   "Verificado"
+  ],
+  [
+   "[7]",
+   "SFIA Foundation. SFIA 9: Requirements definition and management (REQM). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/requirements-definition-and-management",
+   "Verificado"
+  ],
+  [
+   "[8]",
+   "SFIA Foundation. SFIA 9: Software design (SWDN). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/software-design",
+   "Verificado"
+  ],
+  [
+   "[9]",
+   "SFIA Foundation. SFIA 9: Programming/software development (PROG). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/programming-software-development",
+   "Verificado"
+  ],
+  [
+   "[10]",
+   "SFIA Foundation. SFIA 9: User experience design (HCEV). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/user-experience-design",
+   "Verificado"
+  ],
+  [
+   "[11]",
+   "SFIA Foundation. SFIA 9: Systems integration and build (SINT). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/systems-integration-and-build",
+   "Verificado"
+  ],
+  [
+   "[12]",
+   "SFIA Foundation. SFIA 9: Functional testing (TEST). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/testing",
+   "Verificado"
+  ],
+  [
+   "[13]",
+   "SFIA Foundation. SFIA 9: Release management (RELM). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/release-and-deployment",
+   "Verificado"
+  ],
+  [
+   "[14]",
+   "SFIA Foundation. SFIA 9: Application support (ASUP). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/application-support",
+   "Verificado"
+  ],
+  [
+   "[15]",
+   "IEEE Computer Society. Guide to the Software Engineering Body of Knowledge (SWEBOK) v4.0a, 18 áreas de conocimiento. 2024-2025",
+   "https://www.computer.org/education/bodies-of-knowledge/software-engineering",
+   "Verificado"
+  ],
+  [
+   "[16]",
+   "ISTQB. Certified Tester Foundation Level (CTFL) v4.0: syllabus. 2023",
+   "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/",
+   "Verificado"
+  ],
+  [
+   "[17]",
+   "OWASP Foundation. OWASP Top 10:2025. 2025",
+   "https://top10.owasp.org/2025",
+   "Verificado"
+  ],
+  [
+   "[18]",
+   "W3C. Web Content Accessibility Guidelines (WCAG) 2.2, W3C Recommendation 12-12-2024. 2024",
+   "https://www.w3.org/TR/WCAG22/",
+   "Verificado"
+  ],
+  [
+   "[19]",
+   "Presidencia de la República del Perú. Decreto Legislativo N.° 1412, Ley de Gobierno Digital (arts. 5, 28 y 29). 2018",
+   "https://www2.congreso.gob.pe/sicr/cendocbib/con6_uibd.nsf/BC4C2F1C7A87C56F05258AAE00716268/$FILE/decr_legis_1412.pdf",
+   "Verificado"
+  ],
+  [
+   "[20]",
+   "Presidencia del Consejo de Ministros. Decreto Supremo N.° 029-2021-PCM, Reglamento del D. Leg. 1412 (arts. 24, 25 y 27). El Peruano, 19-02-2021",
+   "https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-aprueba-el-reglamento-del-decreto-legisl-decreto-supremo-n-029-2021-pcm-1929103-3/",
+   "Verificado"
+  ],
+  [
+   "[21]",
+   "Presidencia del Consejo de Ministros. Decreto Supremo N.° 098-2025-PCM, modifica el Reglamento del D. Leg. 1412 (art. 87, bloques básicos de interoperabilidad). El Peruano, 31-07-2025",
+   "https://busquedas.elperuano.pe/dispositivo/NL/2423580-2",
+   "Verificado"
+  ],
+  [
+   "[22]",
+   "Presidencia del Consejo de Ministros. Resolución Ministerial N.° 041-2017-PCM, uso obligatorio de la NTP-ISO/IEC 12207:2016 en el Sistema Nacional de Informática. El Peruano, 02-03-2017",
+   "https://busquedas.elperuano.pe/dispositivo/NL/1491441-1",
+   "Verificado"
+  ],
+  [
+   "[23]",
+   "Congreso de la República. Ley N.° 29733, Ley de Protección de Datos Personales (texto vigente, art. 16). 2011, compilación SMV 2025",
+   "https://www.smv.gob.pe/Uploads/Ley_29733_vigente_2025.pdf",
+   "Verificado"
+  ],
+  [
+   "[24]",
+   "Ministerio de Justicia y Derechos Humanos. Decreto Supremo N.° 016-2024-JUS, Reglamento de la Ley 29733. El Peruano, 30-11-2024 (copia en LP Derecho)",
+   "https://img.lpderecho.pe/wp-content/uploads/2024/11/Decreto-Supremo-016-2024-JUS-LPDerecho.pdf",
+   "Verificado"
+  ],
+  [
+   "[25]",
+   "Presidencia del Consejo de Ministros. Decreto Supremo N.° 115-2025-PCM, Reglamento de la Ley 31814 que promueve el uso de la inteligencia artificial. El Peruano, 09-09-2025",
+   "https://spijweb.minjus.gob.pe/wp-content/uploads/2025/09/DS-115-2025-PCM.pdf",
+   "Verificado"
+  ],
+  [
+   "[26]",
+   "Presidencia del Consejo de Ministros. Decreto Supremo N.° 085-2023-PCM, Política Nacional de Transformación Digital al 2030. El Peruano, 28-07-2023",
+   "https://busquedas.elperuano.pe/dispositivo/NL/2200457-5",
+   "Verificado"
+  ],
+  [
+   "[27]",
+   "Infobae Perú. PCM lanza su Estrategia Nacional de Gobierno de Datos 2026-2030 (R.M. N.° 049-2026-PCM). 15-02-2026",
+   "https://www.infobae.com/peru/2026/02/15/pcm-lanza-su-estrategia-nacional-de-gobierno-de-datos-2026-2030-cada-entidad-publica-gestionara-informacion-como-activo-estrategico/",
+   "Verificado"
+  ],
+  [
+   "[28]",
+   "Congreso de la República. Ley N.° 28858, complementa la Ley 16053 sobre el ejercicio profesional de la ingeniería (arts. 1 y 4). El Peruano, 29-07-2006 (copia CIP)",
+   "https://www.cip.org.pe/publicaciones/2018/ley-28858.pdf",
+   "Verificado"
+  ],
+  [
+   "[29]",
+   "SUNAFIL. Convocatoria CAS Analista Programador (quinta convocatoria), D. Leg. 1057, publicada 23-09-2026 (réplica en BuscaChamba del aviso de Talento Perú)",
+   "https://buscachamba.pe/lima/lima/superintendencia-nacional-de-fiscalizacion-laboral-sunafil/37980-analista-programador-quinta-convocatoria",
+   "Verificado"
+  ],
+  [
+   "[30]",
+   "Programa Nacional Pensión 65. Convocatoria CAS Programador de Sistemas, D. Leg. 1057, publicada 14-09-2026 (réplica en BuscaChamba)",
+   "https://buscachamba.pe/lima/san-isidro/programa-nacional-de-asistencia-solidaria-pension-65/34994-programador-de-sistemas",
+   "Verificado"
+  ],
+  [
+   "[31]",
+   "SENACE. Convocatoria CAS Coordinador de Proyectos de Sistemas de Información, D. Leg. 1057, publicada 25-09-2026 (réplica en BuscaChamba)",
+   "https://buscachamba.pe/lima/san-isidro/servicio-nacional-de-certificacion-ambiental-para-las-inversiones-sostenibles-senace/38587-coordinador-de-proyectos-de-sistemas-de-informacion",
+   "Verificado"
+  ],
+  [
+   "[32]",
+   "Computrabajo Perú. Ofertas de trabajo de desarrollador (916 ofertas; muestra de 74 avisos leídos, 25-09-2026). 2026",
+   "https://pe.computrabajo.com/trabajo-de-desarrollador",
+   "Verificado"
+  ],
+  [
+   "[33]",
+   "Computrabajo Perú. Ofertas de trabajo de analista programador (115 ofertas, 25-09-2026). 2026",
+   "https://pe.computrabajo.com/trabajo-de-analista-programador",
+   "Verificado"
+  ],
+  [
+   "[34]",
+   "LinkedIn. +1000 empleos de Desarrollador de Software en Perú (consulta 25-09-2026). 2026",
+   "https://pe.linkedin.com/jobs/desarrollador-de-software-empleos",
+   "Verificado"
+  ],
+  [
+   "[35]",
+   "Infobae Perú. Carreras de ingeniería con mayor demanda laboral en 2026 (Encuesta de Demanda Ocupacional 2025 del MTPE). 20-01-2026",
+   "https://www.infobae.com/peru/2026/01/20/conoce-las-carreras-de-ingenieria-que-tendran-mayor-demanda-laboral-este-2026/",
+   "Verificado"
+  ],
+  [
+   "[36]",
+   "Gestión. Demanda de perfiles tecnológicos creció un 15%: ¿qué buscan las empresas peruanas? (estudio ISIL y Universidad Siglo 21). 05-12-2024",
+   "https://gestion.pe/economia/empresas/demanda-de-perfiles-tecnologicos-crecio-un-15-que-buscan-las-empresas-peruanas-ia-ciberseguridad-datos-isil-talento-automatizacion-tecnologia-noticia/",
+   "Verificado"
+  ],
+  [
+   "[37]",
+   "INEI. Informe Técnico N.° 03: Estadísticas de las TIC en los hogares, II trimestre 2025. Setiembre 2025",
+   "https://www.inei.gob.pe/media/MenuRecursivo/boletines/informetecnico_tics_iit25.pdf",
+   "Verificado"
+  ],
+  [
+   "[38]",
+   "Agencia Peruana de Noticias (Prensa Perú). PCM consolida avances con más de 500 millones de transacciones digitales en 2025. 03-01-2026",
+   "https://prensaperu.pe/2026/01/03/transformacion-digital-en-perupcm-consolida-avances-historicos-en-modernizacion-estatal-con-mas-de-500-millones-de-transacciones-digitales-y-6-5-millones-de-atenciones-al-ciudadano-en-2025/",
+   "Verificado"
+  ],
+  [
+   "[39]",
+   "World Economic Forum. The Future of Jobs Report 2025. Enero 2025",
+   "https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf",
+   "Verificado"
+  ],
+  [
+   "[40]",
+   "Stack Overflow. 2025 Developer Survey: AI. 2025",
+   "https://survey.stackoverflow.co/2025/ai",
+   "Verificado"
+  ]
+ ]
+}

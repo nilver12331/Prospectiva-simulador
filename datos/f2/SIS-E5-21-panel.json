@@ -1,0 +1,1063 @@
+{
+ "cod": "SIS",
+ "k": "E5",
+ "expertos": [
+  "X1 · Académico-investigador · doctor en Ciencias de la Computación · 15 años de docencia e investigación en ingeniería de software, redes y nube, ciencia de datos, ciberseguridad y gobierno de TI · ACM/IEEE CC2020, SWEBOK v4, SFIA 9",
+  "X2 · Empleador del sector público · jefe de la Oficina de Tecnologías de la Información de una entidad pública peruana · 12 años en OTI de ministerios y organismos · gobierno digital, contrataciones TIC y SGSI",
+  "X3 · Empleador del sector privado · gerente de tecnología · 16 años · banca, retail y consultora de TI en Lima · contrata desarrollo, datos, infraestructura, seguridad y proyectos",
+  "X4 · Profesional senior · 15 años · desarrollo, infraestructura, seguridad y gestión de TI en banca, fábricas de software y sector público peruano · SFIA, ITIL, ISO/IEC 27001, PMBOK",
+  "X5 · Egresado reciente · 3 años · desarrollo backend en fintech, soporte de infraestructura en ISP y analítica de datos en retail; contacto con pares en SOC, auditoría de TI y oficinas de TI del Estado",
+  "X6 · Experto contextual · 15 años · consultor en transformación digital del Estado y regulación TIC (gobierno digital, datos personales, ciberseguridad, IA) para entidades públicas y banca"
+ ],
+ "cvrCrit": "1,00",
+ "acta": "Panel de 6 expertos simulados (X1–X6) y guardián metodológico · rondas 1 y 2 · N = 6: I-CVI ≥ 0,83 y CVR crítico 1,00 (Ayre y Scally, 2014). Un solo panel por carrera: cada experto calificó en su rol todas las especialidades. Pre-validación de agentes: la validación oficial la repiten especialistas humanos con el mismo instrumento.",
+ "resumen": "2 núcleo · 2 complementarias · 8 propuestas de exclusión · 7 con bloques observados en R1 · S-CVI/Ave 0,96",
+ "sCVI": "0,96",
+ "funciones": {
+  "E5-01": {
+   "icvi": "1,00",
+   "cvr": "0,33",
+   "prioridad": 3,
+   "N": 2,
+   "lim": "Elabora el diagnóstico y borradores del plan con supervisión; no aprueba ni prioriza el plan, que corresponde a la alta dirección o al comité.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función complementaria",
+   "decision2": "Función complementaria",
+   "escuela": null,
+   "demDelphi": "Baja",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "rev"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {
+    "pb": "conf 3 es alto: un egresado no formula el plan estratégico de TI, apoya el diagnóstico. Frecuencia rara (anual). Producto alcanzable solo como ejercicio académico."
+   },
+   "ajustes": {
+    "t": "Gobierno y planificación estratégica de la tecnología",
+    "d": "Apoyar el diagnóstico y la formulación del plan estratégico de tecnologías de información y del marco de gobierno de TI (comités, políticas, roles e indicadores), incluido el modelado de la arquitectura empresarial actual y objetivo, para alinear la inversión tecnológica con los objetivos de la organización o entidad.",
+    "amb": "Entidades públicas (Plan de Gobierno Digital y comité de gobierno y transformación digital); empresas privadas; banca; consultoras de TI; arquitectura empresarial en entidades grandes",
+    "tasks": [
+     {
+      "code": "E5-01-T1",
+      "t": "Diagnosticar la madurez digital y el gobierno de TI frente a un marco de referencia",
+      "ent": "1. Diagnóstico de madurez, gobierno y arquitectura"
+     },
+     {
+      "code": "E5-01-T2",
+      "t": "Identificar necesidades tecnológicas con las áreas usuarias",
+      "ent": "1. Diagnóstico de madurez, gobierno y arquitectura"
+     },
+     {
+      "code": "E5-01-T3",
+      "t": "Mantener el catálogo de aplicaciones y modelar la arquitectura actual y objetivo con sus brechas",
+      "ent": "1. Diagnóstico de madurez, gobierno y arquitectura"
+     },
+     {
+      "code": "E5-01-T4",
+      "t": "Proponer objetivos, iniciativas y hoja de ruta tecnológica articulados al PEI y al POI o a la estrategia",
+      "ent": "2. Borrador de hoja de ruta y modelo de gobierno"
+     },
+     {
+      "code": "E5-01-T5",
+      "t": "Proponer estructuras de decisión, roles y políticas de TI",
+      "ent": "2. Borrador de hoja de ruta y modelo de gobierno"
+     },
+     {
+      "code": "E5-01-T6",
+      "t": "Preparar las sesiones del comité de gobierno y transformación digital y reportar el avance del plan y de los compromisos digitales",
+      "ent": "3. Reporte de seguimiento al comité"
+     }
+    ],
+    "prod": {
+     "name": "Propuesta de plan estratégico y de gobierno de tecnologías de información",
+     "desc": "Propuesta de plan estratégico y de gobierno de tecnologías de información que traduce los objetivos de la organización en iniciativas tecnológicas priorizables y en reglas de decisión sobre la tecnología; en el Estado alimenta el Plan de Gobierno Digital. Integra el diagnóstico de madurez digital y de gobierno de TI, el catálogo de aplicaciones con la arquitectura actual y objetivo y sus brechas, el borrador de hoja de ruta con presupuesto referencial, las políticas y roles propuestos y el reporte de seguimiento al comité. Se elabora con talleres y entrevistas a las áreas, contrastando la situación actual con marcos como COBIT, y se verifica con la trazabilidad de cada iniciativa hacia un objetivo del PEI o del negocio. Sirve de insumo para que la dirección decida qué financiar y cómo gobernar la tecnología, y demuestra que el egresado alinea la tecnología con la estrategia.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Diagnóstico de madurez, gobierno y arquitectura",
+       "codes": "E5-01-T1, E5-01-T2, E5-01-T3",
+       "sum": "situación actual de TI, nivel de madurez y de gobierno, catálogo de aplicaciones, arquitectura actual y objetivo y necesidades priorizadas",
+       "ev": [
+        "informe de diagnóstico con puntaje por dimensión",
+        "catálogo de aplicaciones y matriz de brechas actual-objetivo",
+        "matriz de necesidades validada por las áreas usuarias"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Borrador de hoja de ruta y modelo de gobierno",
+       "codes": "E5-01-T4, E5-01-T5",
+       "sum": "iniciativas, cronograma plurianual, matriz de alineamiento, políticas y roles de TI propuestos",
+       "ev": [
+        "hoja de ruta con iniciativas, plazos y costos referenciales",
+        "matriz de trazabilidad objetivo estratégico-iniciativa",
+        "matriz de responsabilidades de decisión y políticas propuestas"
+       ]
+      },
+      {
+       "n": "3",
+       "t": "Reporte de seguimiento al comité",
+       "codes": "E5-01-T6",
+       "sum": "actas, avance de metas e indicadores y cumplimiento de compromisos digitales",
+       "ev": [
+        "ayudas memoria del comité",
+        "reporte de avance del plan y de compromisos de transformación digital"
+       ]
+      }
+     ]
+    },
+    "fd": "Esta función tiene demanda porque el reglamento de la Ley de Gobierno Digital obliga a cada entidad a contar con un comité de gobierno digital y un Plan de Gobierno Digital con su portafolio de proyectos incorporado al PEI y al POI [8]. Una convocatoria CAS de 2026 paga S/ 9 000 mensuales a un especialista que da soporte a ese comité y reporta los compromisos de transformación digital [16]. En las empresas, el índice de madurez digital llega apenas a 54 % [20], y 13 de 45 avisos peruanos piden alinear la tecnología con la estrategia [40]. Ello exige profesionales capaces de diagnosticar la madurez digital y apoyar el gobierno y la planificación de TI.",
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque el reglamento de la ley de inteligencia artificial, vigente desde enero de 2026, exige a las entidades gobernar el uso de la IA [15], y la Estrategia Nacional de Gobierno de Datos, aprobada en febrero de 2026, integra planes de acción de datos al portafolio de gobierno digital [46]. Por eso es necesario que el egresado domine el gobierno y la planificación estratégica de la tecnología.",
+    "refs": "[8] [15] [16] [20] [40] [46]",
+    "conf": 2,
+    "lim": "Elabora diagnósticos y borradores del plan, del gobierno y de la arquitectura con supervisión; aprobarlos y priorizarlos corresponde a la dirección o al comité.",
+    "absorbe": [
+     "E5-02",
+     "E5-04"
+    ],
+    "cambios": "Absorbe E5-04 («Gobierno y planificación estratégica de TI») y E5-02 (catálogo de aplicaciones y arquitectura como tarea, sin dictamen); producto: diagnóstico y borradores para la dirección; FD sin las vacantes de O*NET de EE. UU.; conf 2."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 114 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 74 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "ind": {
+    "F": 1,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 1,
+    "icviS": "1,00",
+    "icviP": "0,67",
+    "Tm": 4
+   }
+  },
+  "E5-02": {
+   "icvi": "0,50",
+   "cvr": "-1,00",
+   "prioridad": 3,
+   "N": 2,
+   "lim": "Modela vistas de arquitectura y analiza brechas con supervisión directa de un arquitecto; no aprueba la arquitectura objetivo ni los estándares corporativos.",
+   "real": "100 %",
+   "acuerdo": "50 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Fusionada en E5-01",
+   "escuela": {
+    "accion": "fusionar",
+    "destino": "E5-01",
+    "motivo": "Solo 4 de 45 avisos y todos senior: la arquitectura empresarial queda como tarea de la planificación estratégica."
+   },
+   "demDelphi": "Baja",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "rev"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "rev"
+   },
+   "motivo": {
+    "fb": "Solo 4/45 avisos y todos senior: no es función de egreso. El índice de gobierno electrónico de la ONU no sustenta demanda. Integrar como tarea de E5-01; el dictamen es inalcanzable.",
+    "sb": "Demanda explícita mínima (4 de 45) y el ranking de gobierno electrónico no la prueba. El dictamen de conformidad no es factible con N2; dejarlo como insumo. · Poco realista para egresado: 4 de 45 avisos y roles senior. El dictamen de conformidad no lo emite un junior. Considerar fusionar con E5-01.",
+    "pb": "Solo 4 de 45 avisos; en entidades medianas no existe el puesto. Falta la tarea de mantener el catálogo de aplicaciones de la entidad. Al egreso no emite dictamen de conformidad. · Verifiqué UN E-Government 2024: Perú puesto 58; sostiene, pero no evidencia demanda. Con 4 de 45 avisos y rol senior, el producto no es alcanzable al egreso: fusionar con E5-01."
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 4 tareas, todas con entregable y códigos",
+    "5": "Cumple · 104 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 76 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "ind": {
+    "F": 1,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 1,
+    "icviS": "0,00",
+    "icviP": "0,00",
+    "Tm": 4
+   }
+  },
+  "E5-03": {
+   "icvi": "1,00",
+   "cvr": "-1,00",
+   "prioridad": 6,
+   "N": 2,
+   "lim": "Elabora casos de negocio y reportes del portafolio con supervisión; no decide inversiones, que corresponden al comité o a la alta dirección.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Fusionada en E5-05",
+   "escuela": {
+    "accion": "fusionar",
+    "destino": "E5-05",
+    "motivo": "Un solo aviso; el portafolio se trabaja al egreso como priorización dentro de la planificación de proyectos."
+   },
+   "demDelphi": "Baja",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "no alcanzó el umbral",
+    "sb": "S1 débil: un aviso de gerente y cifras globales del PMI. T5 (estándares de proyectos) es de la oficina de proyectos, no del portafolio. Para el egresado, N2. · Verifiqué PMI vía Columbia SPS: faltarían 25 millones de profesionales de proyectos al 2030; sostiene, pero es dato global, no de portafolio. T5 (estándares de PMO) no es de portafolio."
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 107 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 77 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "ind": {
+    "F": 2,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "0,67",
+    "icviP": "0,83",
+    "Tm": 4
+   }
+  },
+  "E5-04": {
+   "icvi": "1,00",
+   "cvr": "0,00",
+   "prioridad": 6,
+   "N": 2,
+   "lim": "Diagnostica, propone políticas y da soporte técnico al comité; no aprueba políticas ni asume la rendición de cuentas de la dirección.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Fusionada en E5-01",
+   "escuela": {
+    "accion": "fusionar",
+    "destino": "E5-01",
+    "motivo": "En entidades medianas gobierno y planificación estratégica de TI son el mismo puesto: «Gobierno y planificación estratégica de TI»."
+   },
+   "demDelphi": "Baja",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "Bien anclada en DL 1412 y en una CAS de 2026. Podría fusionarse con E5-01: el plan estratégico de TI es instrumento del gobierno de TI (COBIT APO02). · Se superpone con E5-01 y E5-03; en entidades pequeñas es el mismo puesto. Podría fusionarse con E5-01 como «Gobierno y planificación de TI»."
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 4 tareas, todas con entregable y códigos",
+    "5": "Cumple · 109 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 79 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "ind": {
+    "F": 2,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 1,
+    "icviS": "0,83",
+    "icviP": "0,83",
+    "Tm": 4
+   }
+  },
+  "E5-05": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 9,
+   "N": 3,
+   "lim": "Planifica proyectos de complejidad baja o media; en proyectos complejos actúa como coordinador bajo un jefe de proyecto y no aprueba la línea base.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": "Función núcleo",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {
+    "sb": "S1 se apoya en cifras de EE. UU. (O*NET); falta dato peruano cuantitativo además de 22 de 45 avisos. Planificación y dirección (E5-06) son grupos de procesos de una misma función. · El sustento cuantitativo es de EE. UU. (472 000 empleos, O*NET); falta evidencia pública peruana. En el Estado la planificación se ata a Invierte.pe y al POI."
+   },
+   "ajustes": {
+    "d": "Planificar proyectos tecnológicos, desde su caso de negocio y su priorización en el portafolio, definiendo alcance, cronograma, costos, recursos, riesgos y enfoque de entrega predictivo, ágil o híbrido, para que el proyecto cuente con una línea base viable antes de su ejecución.",
+    "amb": "Consultoras e integradores de TI; banca y seguros; entidades públicas (portafolio de proyectos de gobierno digital, POI); retail e industria; oficinas de gestión de proyectos",
+    "tasks": [
+     {
+      "code": "E5-05-T1",
+      "t": "Elaborar el caso de negocio y priorizar la iniciativa en el portafolio por valor, riesgo y alineamiento",
+      "ent": "1. Caso de negocio, acta de constitución e interesados"
+     },
+     {
+      "code": "E5-05-T2",
+      "t": "Elaborar el acta de constitución y el registro de interesados",
+      "ent": "1. Caso de negocio, acta de constitución e interesados"
+     },
+     {
+      "code": "E5-05-T3",
+      "t": "Definir el alcance y la estructura de desglose del trabajo o el backlog",
+      "ent": "2. Línea base de alcance, cronograma y costo"
+     },
+     {
+      "code": "E5-05-T4",
+      "t": "Estimar esfuerzo y elaborar cronograma y presupuesto",
+      "ent": "2. Línea base de alcance, cronograma y costo"
+     },
+     {
+      "code": "E5-05-T5",
+      "t": "Identificar riesgos y planificar sus respuestas",
+      "ent": "3. Registro de riesgos con plan de respuesta"
+     },
+     {
+      "code": "E5-05-T6",
+      "t": "Seleccionar el enfoque de entrega y el plan de comunicaciones",
+      "ent": "2. Línea base de alcance, cronograma y costo"
+     }
+    ],
+    "prod": {
+     "name": "Plan de dirección del proyecto tecnológico",
+     "desc": "Plan que fija cómo se ejecutará, controlará y cerrará un proyecto tecnológico y constituye la propuesta de línea base que aprueba el patrocinador. Integra el caso de negocio con su puntaje de prioridad en el portafolio, el acta de constitución, el registro de interesados, el alcance con su estructura de desglose o backlog, el cronograma, el presupuesto, el registro de riesgos y el plan de comunicaciones. Se elabora con técnicas de estimación y secuenciamiento y se verifica revisando la coherencia entre valor, alcance, tiempo y costo y su aprobación formal por el patrocinador. Orienta la decisión de iniciar la ejecución y demuestra que el egresado planifica proyectos con realismo y enfoque adecuado.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Caso de negocio, acta de constitución e interesados",
+       "codes": "E5-05-T1, E5-05-T2",
+       "sum": "justificación y prioridad de la iniciativa, objetivo, patrocinador e interesados del proyecto",
+       "ev": [
+        "caso de negocio con costos, beneficios, riesgos y puntaje de prioridad",
+        "acta de constitución firmada por el patrocinador",
+        "registro de interesados con influencia e interés"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Línea base de alcance, cronograma y costo",
+       "codes": "E5-05-T3, E5-05-T4, E5-05-T6",
+       "sum": "alcance desglosado, cronograma, presupuesto, enfoque de entrega y plan de comunicaciones",
+       "ev": [
+        "cronograma con ruta crítica o plan de releases",
+        "presupuesto por fases o entregables"
+       ]
+      },
+      {
+       "n": "3",
+       "t": "Registro de riesgos con plan de respuesta",
+       "codes": "E5-05-T5",
+       "sum": "riesgos identificados, valorados y sus respuestas asignadas",
+       "ev": [
+        "matriz de riesgos con probabilidad, impacto y responsable"
+       ]
+      }
+     ]
+    },
+    "fd": "Esta función tiene demanda porque 22 de 45 avisos peruanos revisados piden planificar alcance, cronograma y presupuesto, y 17 priorizar o controlar portafolios; una caja municipal exige gestionar alcance, costos, riesgos y adquisiciones de sus proyectos informáticos [32] [33]. En el Estado, cada entidad prioriza su portafolio de proyectos de gobierno digital en el comité [8], y desde 2026 debe sumarle un plan de acción de gobierno de datos de al menos tres años [46]. ESCO asigna al gestor de proyectos de TIC fijar presupuestos y plazos y analizar riesgos [3], y O*NET estima 31 300 vacantes anuales promedio entre 2024 y 2034 en su grupo ocupacional [2]. Ello exige profesionales capaces de construir líneas base realistas.",
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque la octava edición del PMBOK, publicada en 2025, orienta la dirección de proyectos a la entrega de valor e incorpora la inteligencia artificial en la estimación y la planificación [27]. Además, el PMI estima que se necesitarán 25 millones de nuevos profesionales de proyectos al 2030 [30]. Por eso es necesario que el egresado domine la planificación de proyectos tecnológicos.",
+    "refs": "[2] [3] [8] [27] [30] [32] [33] [46]",
+    "conf": 3,
+    "lim": "Planifica proyectos de complejidad baja o media; en proyectos complejos actúa como coordinador; no aprueba la línea base ni decide las inversiones del portafolio.",
+    "absorbe": [
+     "E5-03"
+    ],
+    "cambios": "Absorbe E5-03: el caso de negocio y la priorización en el portafolio entran como tarea (sin estándares de PMO); FD con datos peruanos y O*NET corregido (31 300 vacantes anuales del grupo, 2024-2034); JI con año."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 93 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 67 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 4 palabras"
+   },
+   "ind": {
+    "F": 3,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "0,17",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E5-06": {
+   "icvi": "1,00",
+   "cvr": "1,00",
+   "prioridad": 12,
+   "N": 3,
+   "lim": "Dirige proyectos acotados o frentes de un proyecto mayor; los cambios que alteran costo o plazo contractual los aprueba el patrocinador.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función núcleo",
+   "decision2": "Función núcleo",
+   "escuela": null,
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {},
+   "ajustes": {
+    "refs": "[2] [27] [30] [31] [34]",
+    "conf": 3,
+    "lim": "Dirige proyectos acotados o frentes de un proyecto mayor; los cambios que alteran costo o plazo contractual los aprueba el patrocinador.",
+    "cambios": "Refs sin citas retiradas; lim del panel."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 108 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 72 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "ind": {
+    "F": 4,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "0,83",
+    "icviP": "0,83",
+    "Tm": 4
+   }
+  },
+  "E5-07": {
+   "icvi": "1,00",
+   "cvr": "0,00",
+   "prioridad": 9,
+   "N": 3,
+   "lim": "Formula términos de referencia y verifica entregables; no adjudica contratos, no aprueba penalidades ni integra comités de selección sin designación formal.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Complementaria por decisión de la Escuela",
+   "escuela": {
+    "accion": "rescatar",
+    "motivo": "De las funciones más frecuentes en una OTI pública (casi todo se contrata, Ley 32069); la mitad del panel la juzgó esencial."
+   },
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "En contratación pública falta la indagación de mercado previa a los términos de referencia; añadirla como tarea. · Una de las funciones más frecuentes en una OTI pública: casi todo se contrata. Falta la tarea de indagación de mercado y absolución de consultas, donde más fallan los recién egresados."
+   },
+   "ajustes": {
+    "tasks": [
+     {
+      "code": "E5-07-T1",
+      "t": "Realizar la indagación de mercado previa al requerimiento",
+      "ent": "1. Indagación, términos de referencia y evaluación técnica"
+     },
+     {
+      "code": "E5-07-T2",
+      "t": "Formular el requerimiento, las especificaciones técnicas, la solicitud de propuesta o los términos de referencia",
+      "ent": "1. Indagación, términos de referencia y evaluación técnica"
+     },
+     {
+      "code": "E5-07-T3",
+      "t": "Absolver consultas y observaciones de los proveedores y evaluar sus propuestas técnicas",
+      "ent": "1. Indagación, términos de referencia y evaluación técnica"
+     },
+     {
+      "code": "E5-07-T4",
+      "t": "Verificar entregables y emitir la conformidad técnica del servicio",
+      "ent": "2. Informes de conformidad y desempeño del proveedor"
+     },
+     {
+      "code": "E5-07-T5",
+      "t": "Evaluar el desempeño del proveedor y escalar incumplimientos",
+      "ent": "2. Informes de conformidad y desempeño del proveedor"
+     }
+    ],
+    "prod": {
+     "name": "Expediente de gestión del contrato tecnológico",
+     "desc": "Expediente que reúne el ciclo de un contrato de bienes o servicios tecnológicos desde la indagación de mercado hasta la evaluación del proveedor. Integra la indagación de mercado, los términos de referencia o especificaciones técnicas, la absolución de consultas, el cuadro de evaluación de propuestas, los informes de conformidad de entregables y la evaluación periódica del desempeño y de los niveles de servicio pactados. Se elabora conforme a la normativa de contrataciones aplicable y se verifica contrastando cada entregable con lo exigido en el contrato. Orienta decisiones de conformidad, penalidad o renovación y demuestra que el egresado controla proveedores con criterio técnico y normativo.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Indagación, términos de referencia y evaluación técnica",
+       "codes": "E5-07-T1, E5-07-T2, E5-07-T3",
+       "sum": "indagación de mercado, requerimiento técnico del bien o servicio, absolución de consultas y evaluación de las propuestas",
+       "ev": [
+        "informe de indagación de mercado",
+        "términos de referencia con criterios de aceptación",
+        "pliego de absolución de consultas y cuadro comparativo de evaluación técnica"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Informes de conformidad y desempeño del proveedor",
+       "codes": "E5-07-T4, E5-07-T5",
+       "sum": "conformidad de entregables, cumplimiento de niveles de servicio y escalamientos",
+       "ev": [
+        "informe de conformidad por entregable",
+        "evaluación periódica del proveedor con indicadores"
+       ]
+      }
+     ]
+    },
+    "refs": "[6] [13] [14] [32]",
+    "conf": 3,
+    "lim": "Formula términos de referencia y verifica entregables; no adjudica contratos, no aprueba penalidades ni integra comités de selección sin designación formal.",
+    "cambios": "Rescatada como complementaria: se añaden la indagación de mercado y la absolución de consultas (pedido del panel); T2 en términos neutros para el sector privado; refs sin citas retiradas; lim del panel."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 4 tareas, todas con entregable y códigos",
+    "5": "Cumple · 102 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 71 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "ind": {
+    "F": 3,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 1,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E5-08": {
+   "icvi": "1,00",
+   "cvr": "0,67",
+   "prioridad": 9,
+   "N": 3,
+   "lim": "Rediseña procesos y levanta requerimientos con supervisión; la aprobación del nuevo proceso y la gestión del cambio a escala corresponden a las áreas dueñas.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Función complementaria",
+   "decision2": "Función complementaria",
+   "escuela": null,
+   "demDelphi": "Media",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "rev",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "Acotar a rediseño del servicio y gestión de la adopción; la especificación de requerimientos es de E1-01. El dato 15 %/3 % proviene de un estudio BID de 2018 citado por la SGTD en 2023: actualizar. Ref [20] listada sin cita. · Solapa con E1-01 (T1-T3 casi iguales) y E1-07; diferenciar como rediseño de servicio y proceso sin levantar requerimientos. El dato de 15 % de trámites es de 2023."
+   },
+   "ajustes": {
+    "d": "Rediseñar los procesos y servicios de la organización desde la experiencia del usuario y acompañar su adopción digital midiendo resultados, para reducir tiempos y costos y ofrecer servicios centrados en las personas; la especificación de requerimientos y la automatización técnica corresponden a desarrollo de software.",
+    "tasks": [
+     {
+      "code": "E5-08-T1",
+      "t": "Mapear el recorrido del usuario y los puntos de dolor del servicio actual",
+      "ent": "1. Diagnóstico del servicio y recorrido del usuario"
+     },
+     {
+      "code": "E5-08-T2",
+      "t": "Rediseñar el servicio de extremo a extremo con criterios de simplificación y digitalización",
+      "ent": "2. Servicio rediseñado y validado"
+     },
+     {
+      "code": "E5-08-T3",
+      "t": "Validar el servicio rediseñado con usuarios mediante prototipos de servicio",
+      "ent": "2. Servicio rediseñado y validado"
+     },
+     {
+      "code": "E5-08-T4",
+      "t": "Acompañar la adopción del servicio digital por los usuarios",
+      "ent": "3. Informe de adopción e impacto"
+     },
+     {
+      "code": "E5-08-T5",
+      "t": "Medir los indicadores de impacto del servicio digitalizado",
+      "ent": "3. Informe de adopción e impacto"
+     }
+    ],
+    "prod": {
+     "name": "Propuesta de rediseño digital del proceso",
+     "desc": "Propuesta que describe cómo un proceso o servicio pasa de su forma actual a una forma digital más simple y centrada en el usuario. Integra el recorrido del usuario con sus puntos de dolor, el servicio rediseñado de extremo a extremo, los resultados de su validación con usuarios, el plan de adopción y los indicadores de impacto. Se elabora con levantamiento en campo y herramientas de diseño de servicios, y se verifica con prototipos probados por usuarios y con la comparación de indicadores antes y después. Orienta la decisión de implementar el nuevo servicio y entrega a desarrollo de software el diseño que este especificará, y demuestra que el egresado transforma servicios con evidencia.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Diagnóstico del servicio y recorrido del usuario",
+       "codes": "E5-08-T1",
+       "sum": "servicio actual, puntos de dolor y recorrido del usuario",
+       "ev": [
+        "mapa del servicio actual con tiempos",
+        "mapa del recorrido del usuario"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Servicio rediseñado y validado",
+       "codes": "E5-08-T2, E5-08-T3",
+       "sum": "servicio digital objetivo y resultados de su prueba con usuarios",
+       "ev": [
+        "diagrama del servicio rediseñado",
+        "informe de prueba del prototipo de servicio con usuarios"
+       ]
+      },
+      {
+       "n": "3",
+       "t": "Informe de adopción e impacto",
+       "codes": "E5-08-T4, E5-08-T5",
+       "sum": "acciones de adopción y comparación de indicadores antes y después",
+       "ev": [
+        "informe de indicadores de tiempo, costo y satisfacción"
+       ]
+      }
+     ]
+    },
+    "fd": "Esta función tiene demanda porque en el segundo trimestre de 2025 solo el 10,4 % de los usuarios de internet del Perú realizó transacciones con entidades del Estado, frente al 35,7 % que usó banca electrónica [44]. La Ley 31170 obligó a todas las entidades a implementar mesas de partes digitales y notificación electrónica [9], y en 2025 GOB.PE reunía más de 350 servicios digitales [43]. En el mercado, 17 de 45 avisos piden transformación digital o rediseño de procesos, con puestos dedicados a rediseñar procesos de extremo a extremo [42]. Ello exige profesionales capaces de rediseñar servicios y medir su impacto.",
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque la Política Nacional de Transformación Digital al 2030, aprobada en 2023, prioriza servicios digitales centrados en las personas [10]. Además, el reglamento de la ley de inteligencia artificial, vigente desde enero de 2026, promueve el uso de la IA en entidades públicas y privadas, lo que abre nuevos rediseños de servicios [15]. Por eso es necesario que el egresado domine la digitalización de procesos y servicios con medición de resultados.",
+    "refs": "[9] [10] [15] [42] [43] [44]",
+    "conf": 3,
+    "lim": "Rediseña servicios y acompaña su adopción con supervisión; aprobar el proceso, especificar requerimientos y conducir el cambio a escala corresponde a otras áreas.",
+    "cambios": "Acotada al rediseño del servicio y su adopción: se retiran el modelado para especificar y las historias de usuario (E1-01) y se delimita la automatización (E1-06); dato BID 2018 sustituido por INEI 2025; GOB.PE unificado."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "No cumple · fondo · T2 y T3 duplican E1-01 (modelar el proceso y redactar historias de usuario con criterios de aceptación)",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 95 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 72 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "ind": {
+    "F": 3,
+    "C": 3,
+    "V": 4,
+    "L": 4,
+    "ricP": 0.25,
+    "icviS": "0,83",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E5-09": {
+   "icvi": "1,00",
+   "cvr": "-1,00",
+   "prioridad": 9,
+   "N": 3,
+   "lim": "Mide y reporta niveles de servicio y propone mejoras; no negocia acuerdos con clientes estratégicos ni aprueba penalidades.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Complementaria por decisión de la Escuela",
+   "escuela": {
+    "accion": "rescatar",
+    "motivo": "Absorbe E5-10 como «Gestión de servicios de TI» (niveles de servicio, incidentes, problemas y cambios); la atención técnica queda en E2-08."
+   },
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "no alcanzó el umbral"
+   },
+   "ajustes": {
+    "t": "Gestión de servicios de tecnologías de información",
+    "d": "Definir el catálogo de servicios de TI, proponer y medir sus niveles de servicio y coordinar la gestión de incidentes, problemas y cambios, para que los servicios cumplan sus compromisos de disponibilidad, tiempos de atención y calidad; la atención técnica corresponde a la operación de infraestructura.",
+    "amb": "Áreas de TI de empresas y entidades públicas; proveedores de servicios gestionados; banca; mesas de servicio y centros de operaciones de TI",
+    "tasks": [
+     {
+      "code": "E5-09-T1",
+      "t": "Estructurar el catálogo de servicios con su criticidad",
+      "ent": "1. Catálogo de servicios y niveles propuestos"
+     },
+     {
+      "code": "E5-09-T2",
+      "t": "Proponer niveles de servicio con usuarios y proveedores",
+      "ent": "1. Catálogo de servicios y niveles propuestos"
+     },
+     {
+      "code": "E5-09-T3",
+      "t": "Medir y reportar el cumplimiento de los niveles de servicio",
+      "ent": "2. Informe de niveles de servicio y problemas"
+     },
+     {
+      "code": "E5-09-T4",
+      "t": "Definir el procedimiento de clasificación, escalamiento y comunicación de incidentes mayores",
+      "ent": "3. Procedimiento de incidentes y evaluación de cambios"
+     },
+     {
+      "code": "E5-09-T5",
+      "t": "Conducir el análisis de causa raíz de problemas recurrentes",
+      "ent": "2. Informe de niveles de servicio y problemas"
+     },
+     {
+      "code": "E5-09-T6",
+      "t": "Preparar la evaluación de riesgo e impacto de los cambios para el comité de cambios",
+      "ent": "3. Procedimiento de incidentes y evaluación de cambios"
+     }
+    ],
+    "prod": {
+     "name": "Catálogo de servicios de TI con acuerdos de nivel y procedimientos de gestión",
+     "desc": "Catálogo que define qué servicios tecnológicos ofrece el área de TI o el proveedor, a quién, con qué compromisos medibles y cómo se gestionan sus interrupciones y cambios. Integra la descripción de cada servicio con su criticidad, los niveles de servicio propuestos, los indicadores de cumplimiento, el análisis de problemas recurrentes, el procedimiento de incidentes mayores y la evaluación de riesgo de los cambios. Se elabora con las áreas usuarias y los equipos de soporte y se verifica con la medición periódica de disponibilidad, tiempos de resolución, recurrencia y cambios fallidos. Orienta decisiones de mejora, inversión o renegociación del servicio y demuestra que el egresado gestiona servicios de TI con orientación al usuario.",
+     "ents": [
+      {
+       "n": "1",
+       "t": "Catálogo de servicios y niveles propuestos",
+       "codes": "E5-09-T1, E5-09-T2",
+       "sum": "servicios, criticidad y compromisos propuestos a usuarios y proveedores",
+       "ev": [
+        "catálogo de servicios publicado",
+        "propuesta de acuerdos de nivel validada con los usuarios"
+       ]
+      },
+      {
+       "n": "2",
+       "t": "Informe de niveles de servicio y problemas",
+       "codes": "E5-09-T3, E5-09-T5",
+       "sum": "cumplimiento de indicadores, causas raíz de problemas recurrentes y acciones de mejora",
+       "ev": [
+        "informe mensual de cumplimiento de niveles",
+        "análisis de causa raíz con plan de acción"
+       ]
+      },
+      {
+       "n": "3",
+       "t": "Procedimiento de incidentes y evaluación de cambios",
+       "codes": "E5-09-T4, E5-09-T6",
+       "sum": "reglas de clasificación y escalamiento de incidentes mayores y cambios evaluados para el comité",
+       "ev": [
+        "procedimiento de incidentes mayores aprobado",
+        "registro de evaluación de cambios con la decisión del comité"
+       ]
+      }
+     ]
+    },
+    "fd": "Esta función tiene demanda porque 21 de 45 avisos peruanos exigen cumplir acuerdos de nivel, indicadores o ITIL, y 13 piden gestionar incidentes, problemas o cambios, como una financiera que busca un líder para su mesa de servicios [35] [36]. Las Normas de Control Interno exigen a las entidades públicas controles de TIC que aseguren la continuidad del servicio y la segregación de funciones [12], y ESCO asigna al gestor de operaciones de TIC coordinar servicios, gestionar cambios y corregir incumplimientos [6]. En 2025 la PIDE registró más de 500 millones de transacciones [43]. Ello exige profesionales capaces de gestionar servicios de TI bajo acuerdos de nivel.",
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque el DS 098-2025-PCM, publicado en julio de 2025, obliga a usar bloques básicos como PIDE y NUBE PERÚ y fija para ellos acuerdos de disponibilidad, escalabilidad y seguridad [45]. Además, ITIL 5, la nueva versión del marco de gestión de servicios, orienta la práctica a productos y servicios digitales en entornos con IA [28]. Por eso es necesario que el egresado domine la gestión de servicios de tecnologías de información.",
+    "refs": "[6] [12] [28] [35] [36] [43] [45]",
+    "conf": 3,
+    "lim": "Mide niveles de servicio, coordina incidentes y analiza causas raíz; no negocia acuerdos estratégicos ni aprueba penalidades o cambios de alto riesgo.",
+    "absorbe": [
+     "E5-10"
+    ],
+    "cambios": "Rescatada y fusionada con E5-10 como «Gestión de servicios de TI»: niveles de servicio, incidentes mayores, problemas y cambios; la atención técnica queda en E2-08. PIDE unificada (500 millones, 2025); JI sin fechar ITIL 5."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 4 tareas, todas con entregable y códigos",
+    "5": "Cumple · 91 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 73 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "ind": {
+    "F": 3,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "0,83",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E5-10": {
+   "icvi": "1,00",
+   "cvr": "-1,00",
+   "prioridad": 9,
+   "N": 3,
+   "lim": "Coordina incidentes y analiza causas raíz; no aprueba cambios de alto riesgo, que corresponden al comité de cambios.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Fusionada en E5-09",
+   "escuela": {
+    "accion": "fusionar",
+    "destino": "E5-09",
+    "motivo": "Duplica en parte E2-08; se une con niveles de servicio en una sola función de gestión de servicios."
+   },
+   "demDelphi": "Media",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "Duplica en buena parte E2-08. S1 se apoya en Normas de Control Interno de 2006 y 13 de 45 avisos; T1 (atender incidentes) no produce un procedimiento. · Se solapa con E2-08. Propongo fusionar E5-09 y E5-10 en «Gestión de servicios de TI» y dejar la atención técnica en E2-08.",
+    "sb": "Verifiqué la norma 3.10 de la RC 320-2006-CG (continuidad y segregación). S2: ambas frases citan solo ITIL 5, sin respaldo verificable. Se superpone con E2-08; T5 es configuración de herramienta."
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 100 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 74 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 7 palabras"
+   },
+   "ind": {
+    "F": 3,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 0,
+    "icviS": "0,67",
+    "icviP": "1,00",
+    "Tm": 3.5
+   }
+  },
+  "E5-11": {
+   "icvi": "1,00",
+   "cvr": "0,00",
+   "prioridad": 6,
+   "N": 2,
+   "lim": "Ejecuta pruebas de control y papeles de trabajo bajo supervisión de un auditor senior; no firma informes ni emite opinión de auditoría.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Complementaria por decisión de la Escuela",
+   "escuela": {
+    "accion": "rescatar",
+    "motivo": "Única casa de la auditoría de sistemas (C5.5 Evaluar); la mitad del panel la juzgó esencial."
+   },
+   "demDelphi": "Baja",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "ok",
+    "sb": "ok",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "Real en OCI y firmas auditoras, poco frecuente en la OTI. La Contraloría ejecuta servicios de control a sistemas; convendría citarlo. Superpuesta con E4-09 en auditoría interna. · Salida real y bien pagada vía firmas de auditoría (controles de TI en estados financieros), aunque de nicho. El nivel 2 es correcto."
+   },
+   "ajustes": {
+    "d": "Planificar con supervisión y ejecutar auditorías de sistemas de información, evaluando los controles generales y de aplicación de TI frente a marcos de control y normativa, y comunicar hallazgos y recomendaciones al comité de auditoría; la auditoría interna del sistema de gestión de seguridad corresponde a ciberseguridad.",
+    "amb": "Firmas de auditoría y consultoría (controles de TI en auditorías de estados financieros); auditoría interna de banca, seguros y grandes empresas; órganos de control institucional y Contraloría",
+    "tasks": [
+     {
+      "code": "E5-11-T1",
+      "t": "Apoyar la elaboración del plan de auditoría de TI basado en riesgos",
+      "ent": "1. Plan y programa de auditoría de TI"
+     },
+     {
+      "code": "E5-11-T2",
+      "t": "Probar el diseño y la eficacia de controles generales y de aplicación de TI",
+      "ent": "2. Papeles de trabajo con pruebas de control"
+     },
+     {
+      "code": "E5-11-T3",
+      "t": "Documentar evidencias en papeles de trabajo",
+      "ent": "2. Papeles de trabajo con pruebas de control"
+     },
+     {
+      "code": "E5-11-T4",
+      "t": "Redactar hallazgos y recomendaciones para el comité de auditoría",
+      "ent": "3. Informe de hallazgos y seguimiento"
+     },
+     {
+      "code": "E5-11-T5",
+      "t": "Hacer seguimiento a la implementación de las recomendaciones",
+      "ent": "3. Informe de hallazgos y seguimiento"
+     }
+    ],
+    "ji": "En los próximos 5 años, esta función tendrá impacto porque, según ISACA, en 2025 el 85 % de los profesionales de confianza digital, incluidos los auditores, preveía necesitar más competencias en IA en dos años, y ese año ISACA creó una certificación de auditoría de IA [24]. Además, la cuarta edición del marco ITAF refuerza la evaluación de riesgos en la planificación de cada auditoría [23]. Por eso es necesario que el egresado domine la auditoría de sistemas de información basada en riesgos.",
+    "refs": "[4] [12] [13] [23] [24] [37]",
+    "conf": 2,
+    "lim": "Ejecuta pruebas de control y papeles de trabajo bajo supervisión de un auditor senior; no firma informes ni emite opinión de auditoría.",
+    "cambios": "Rescatada como casa única de la auditoría de sistemas: frontera con E4-09 (SGSI) en la descripción; T1 como apoyo al plan; órganos de control en el ámbito; JI con año; refs sin citas retiradas."
+   },
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 105 palabras, dato cuantitativo, referencias existentes",
+    "6": "No cumple · forma · la tendencia no declara su año en el texto (solo la referencia la fecha) · 73 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 5 palabras"
+   },
+   "ind": {
+    "F": 2,
+    "C": 3,
+    "V": 3,
+    "L": 4,
+    "ricP": 1,
+    "icviS": "1,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  },
+  "E5-12": {
+   "icvi": "1,00",
+   "cvr": "-0,67",
+   "prioridad": 10.5,
+   "N": 2,
+   "lim": "Identifica y valora riesgos y verifica requisitos regulatorios con supervisión directa; no acepta riesgos ni responde ante el regulador.",
+   "real": "100 %",
+   "acuerdo": "100 %",
+   "T": "100 %",
+   "decision": "Propuesta de exclusión",
+   "decision2": "Excluida por la Escuela",
+   "escuela": {
+    "accion": "excluir",
+    "motivo": "Duplica E4-01 y E4-09 y su dato de demanda es de 2021; el riesgo tecnológico queda en Ciberseguridad."
+   },
+   "demDelphi": "Alta",
+   "impDelphi": "Alto",
+   "r1": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "r2": {
+    "fb": "no",
+    "sb": "rev",
+    "pb": "ok"
+   },
+   "motivo": {
+    "fb": "no alcanzó el umbral",
+    "sb": "S1 usa un dato de ciberataques de 2021 que sustenta seguridad, no riesgo tecnológico; solapa con E4-01 y E4-09. Delimitar a riesgo de terceros, nube e IA. · El dato de 71 % de crecimiento de ciberataques es de 2021, antiguo y de seguridad, no de riesgo de TI. Solapa con E4-01; delimitar terceros, nube e IA como propio."
+   },
+   "ajustes": {},
+   "tareasPanel": [],
+   "guardian": {
+    "1": "Cumple",
+    "2": "Cumple",
+    "3": "Cumple",
+    "4": "Cumple · 5 tareas, todas con entregable y códigos",
+    "5": "Cumple · 100 palabras, dato cuantitativo, referencias existentes",
+    "6": "Cumple · 72 palabras",
+    "7": "Cumple · 4 oraciones",
+    "8": "Cumple · 6 palabras"
+   },
+   "ind": {
+    "F": 3,
+    "C": 3.5,
+    "V": 4,
+    "L": 4,
+    "ricP": 0.25,
+    "icviS": "0,00",
+    "icviP": "1,00",
+    "Tm": 4
+   }
+  }
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "rol": "P2",
+ "perfil": "Prospectivista sectorial",
+ "calificaciones": {
+  "NUT-01": {"E": 4, "comentario": "Comorbilidad 41,8 % (dato), 3 M con ERC y >80 000 cánceres/año: la transición epidemiológica hace de la clínica el núcleo del perfil hasta 2031.", "fuente": "[P-L1][P-L9][P-L10]"},
+  "NUT-02": {"E": 4, "comentario": "PAE 2026 con S/ 2 636,6 M y fichas técnicas obligatorias (dato); concesionarias mineras en expansión (proyección). Inocuidad y HACCP serán exigencia transversal del sector.", "fuente": "[P-L4]"},
+  "NUT-03": {"E": 4, "comentario": "Anemia 43,4 % y DCI 12,1 % estancadas quince años (dato); PPoR 1001 seguirá financiando el primer nivel. Sin esta especialidad el perfil pierde su misión de salud pública.", "fuente": "[P-L1][P-L15]"},
+  "NUT-04": {"E": 3, "comentario": "Bajo peso 8,4 % y prematuridad 22,1 % al alza (dato). Esencial por los 1 000 días, pero el mercado la ejerce embebida en comunitaria y clínica, no como puesto.", "fuente": "[P-L15]"},
+  "NUT-05": {"E": 2, "comentario": "Gimnasios 4 026 y Smart Fit +28 % (dato) sostienen demanda privada, pero el segmento masivo lo absorben apps antes de 2030 (proyección). Útil, no esencial.", "fuente": "[P-L12]"},
+  "NUT-06": {"E": 2, "comentario": "La competencia de medir es básica del perfil, pero como especialidad la absorbe la tecnología (bioimpedancia, escaneo 3D) antes de 2029 (proyección). No sostiene perfil propio.", "fuente": "criterio del rol"},
+  "NUT-07": {"E": 3, "comentario": "Octógonos redujeron azúcar −36,7 % con retroceso desde 2021 (dato); snacks saludables CAGR 5,9 % a 2035 (proyección). La industria necesita criterio nutricional, no solo ingeniería.", "fuente": "[P-L5][P-L6]"},
+  "NUT-08": {"E": 3, "comentario": "Obesidad 24,6 % y ~8 M adultos (dato): el manejo clínico de la obesidad será competencia de todo egresado; la bariátrica sigue sin cifras peruanas (vacío).", "fuente": "[P-S][P-L1]"},
+  "NUT-09": {"E": 2, "comentario": "Salario S/ 8 000 y 10+ proyectos mineros 2026 (proyección) marcan nicho regional bien pagado, sin norma ni serie de salud del trabajador. Se cubre desde clínica y servicios.", "fuente": "[P-S][E-6]"},
+  "NUT-10": {"E": 3, "comentario": "PAE S/ 2 636,6 M para 4,2 M escolares (dato), pero dos programas disueltos en 18 meses: demanda grande e institucionalmente volátil. Esencial, integrada a comunitaria.", "fuente": "[P-L4]"},
+  "NUT-11": {"E": 2, "comentario": "Apps con IA producen planes «en minutos» y telenutrición ya validada en Lima (dato): la consulta genérica se erosiona hacia 2028; es modo de ejercicio, no especialidad.", "fuente": "[P-S]"},
+  "NUT-14": {"E": 4, "comentario": "60+ = 14,3 % y dependencia 23 → 41,5 % (dato INEI): el driver más sólido del campo. Sin plaza hoy; irrumpe como puesto hacia 2029–2031 (proyección).", "fuente": "[P-S]"},
+  "NUT-17": {"E": 1, "comentario": "Sin cifras peruanas ni puestos; evidencia clínica limitada (dato). No veo irrupción fechable antes de 2031: electivo de posgrado, no perfil de egreso.", "fuente": "[P-S]"},
+  "NUT-19": {"E": 1, "comentario": "Puesto auxiliar sin colegiatura a S/ 1 200 (dato); cálculo y asignación de dietas automatizados antes de 2028 (proyección). En extinción: no pertenece al perfil del titulado.", "fuente": "[E-7][P]"}
+ },
+ "faltan": [
+  "Nutrición renal: 3 M con ERC, 23 000 que deberían dializarse, ingreso a diálisis +8 %/año en EsSalud y GPC ERC 12-2025 [P-L9]; segunda especialidad ya inscrita en el RNE del CNP. Es la ausencia más grave de la cartera.",
+  "Nutrición oncológica: >80 000 casos nuevos/año, mortalidad +26 % en cinco años, 56–70 % en estadios III-IV [P-L10]; hoy es tarea dentro del puesto clínico y no aparece en la cartera.",
+  "Informática nutricional e IA aplicada: cuatro usos hospitalarios identificados en Rebagliati 12-2025 [P-L11]; perfil híbrido que ninguna malla forma y que construirá la automatización que erosiona a las demás."
+ ],
+ "integrar": [
+  "NUT-03 + NUT-10: el mismo Estado (DIRESA, MIDIS, municipios) contrata bajo CAS el perfil comunitario y el de programas sociales; una sola especialidad de salud pública territorial.",
+  "NUT-02 + NUT-19: la dietética operativa converge con la gestión de servicios de alimentación; el titulado dirige y audita, el auxiliar despacha.",
+  "NUT-02 + NUT-09: Sodexo, Newrest y NATCLAR contratan en campamento 14x7 al nutricionista de servicio y al de salud ocupacional como un solo puesto.",
+  "NUT-06 dentro de NUT-01, NUT-05 y NUT-14: la composición corporal se contrata como tarea de clínica, deporte y geriatría, nunca sola.",
+  "NUT-08 + NUT-11: centros de control de peso y consulta privada online contratan el mismo perfil con telenutrición."
+ ],
+ "noPuesto": [
+  "NUT-06 Evaluación nutricional avanzada: un solo aviso con ISAK 1 como tarea añadida; sin puesto ni negocio propio.",
+  "NUT-17 Nutrigenómica: ningún aviso en 15 búsquedas ni cifras peruanas; ni puesto ni negocio hoy en el país.",
+  "NUT-19 Dietética hospitalaria operativa: existe como puesto, pero de auxiliar con secundaria a S/ 1 200, no del nutricionista titulado."
+ ]
+}

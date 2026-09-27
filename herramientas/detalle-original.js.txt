@@ -1,0 +1,30 @@
+function detalle(e,q){
+ const cabe=t=>`<div class="det-h">${t}</div>`;
+ const tarj=(t,cit,filas)=>`<div class="sub-c"><h5>${t} <span class="cts">${citas(cit)}</span></h5>
+   ${filas.map(x=>`<div class="sub-l"><span>${x[1]} <small>${x[2]}</small></span>${etq(x[0],x[3])}</div>`).join("")}</div>`;
+ const R=refsDe(e);
+ let cuerpo="";
+ if(q==="atr") cuerpo=cabe(`Potencial del mercado laboral · <b>${e.ATR}</b>/100 — 35 % demanda · 30 % tendencia · 20 % impacto · 15 % sostenibilidad`)+
+  `<div class="sub-g">
+   ${tarj(`Demanda · ${e.DEM}`,R.dem,[["vol","Volumen de puestos","35 %",e.d.vol],["amp","Amplitud de empleadores","20 %",e.d.amp],["esc","Escasez","20 %",e.d.esc],["rem","Remuneración","15 %",e.d.rem],["for","Formalidad","10 %",e.d.for]])}
+   ${tarj(`Tendencia · ${e.TEN}`,R.ten,[["cre","Crecimiento observado","30 %",e.t.cre],["nor","Impulso normativo","25 %",e.t.nor],["inv","Inversión sectorial","20 %",e.t.inv],["dem","Driver demográfico","15 %",e.t.dem],["tec","Madurez tecnológica","10 %",e.t.tec]])}
+   ${tarj(`Impacto · ${e.IMP}`,R.imp,[["cri","Criticidad","60 %",e.i.cri],["alc","Alcance","40 %",e.i.alc],["sos","Sostenibilidad","—",e.sos]])}
+   <div class="sub-c"><h5>Sustento</h5><div class="tx"><b>Demanda.</b> ${e.fd}</div>
+     <div class="tx" style="margin-top:7px"><b>Tendencia.</b> ${e.ft}</div>
+     <div class="sub-l" style="margin-top:7px"><span>Acuerdo del panel</span><b>${S.delphi?e.ac+" %":"—"}</b></div></div>
+  </div>`;
+ else cuerpo=cabe(`Capacidad instalada · <b>${e.VIA===null?"sin declarar":e.VIA+"/100"}</b> — 30 % docentes · 25 % campos de práctica · 20 % infraestructura · 15 % diferenciación · 10 % habilitación`)+
+  `<div class="sub-g">
+   ${e.VIA===null?`<div class="sub-c"><h5>Capacidad instalada</h5><div class="tx">La Dirección de la Escuela todavía no ha declarado estos cinco indicadores. Sin ellos la especialidad solo se juzga por el potencial del mercado.</div>
+     <button class="b-env sm" id="abre-cap3" style="margin-top:9px">Declarar la capacidad instalada</button></div>`
+    :tarj("Capacidad instalada",R.via,[["doc","Docentes con el perfil","30 %",e.v.doc],["cam","Campos de práctica y convenios","25 %",e.v.cam],["inf","Infraestructura y equipamiento","20 %",e.v.inf],["dif","Diferenciación","15 %",e.v.dif],["hab","Habilitación normativa","10 %",e.v.hab]])}
+   <div class="sub-c"><h5>Modo de ejercicio</h5>
+     <div class="sub-l"><span>Como empleo</span>${etq("pue",e.puesto)}</div>
+     <div class="sub-l"><span>Como negocio propio</span>${etq("emp",e.emprende)}</div>
+     <div class="tx" style="margin-top:7px">${e.fnx}</div></div>
+   <div class="sub-c"><h5>Lectura</h5><div class="tx">${frase(e)}</div></div>
+  </div>`;
+ const ids=[...new Set(q==="atr"?[].concat(R.dem,R.ten,R.imp):R.via)].sort((a,b)=>a-b);
+ return cuerpo+`<div class="refs"><h5>Referencias · formato APA</h5>
+  ${ids.map(x=>`<div class="ref"><span class="rn">${x}</span><span>${REF(x).t} <a href="${REF(x).u}" target="_blank" rel="noopener">${REF(x).u}</a></span></div>`).join("")}</div>`;
+}

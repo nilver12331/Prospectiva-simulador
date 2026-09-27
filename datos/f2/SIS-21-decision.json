@@ -1,0 +1,28 @@
+{
+ "cod": "SIS", "fecha": "2026-09-25", "momento": "2.1 · M3 · decisión de la Escuela sobre las propuestas de exclusión de la ronda 1",
+ "criterio": "Duplicados a una sola especialidad; fusiones pedidas por el guardián o por dos o más expertos; se rescatan como complementarias las funciones reales y relevantes que son la única que moviliza una capacidad, que son casa única de un encargo, o que la mitad del panel juzgó esenciales.",
+ "funciones": {
+  "E1-05": {"accion": "fusionar", "destino": "E1-04", "motivo": "Solo 13 de 71 avisos piden móvil directo; con marcos multiplataforma web y móvil son un mismo encargo de interfaces."},
+  "E1-07": {"accion": "sublinea", "destino": "E1-06", "motivo": "La automatización de procesos (RPA) queda como sublínea de la integración de sistemas; el rediseño del proceso es de E5-08."},
+  "E1-10": {"accion": "rescatar", "motivo": "Casa única de la integración y el despliegue continuo del software; absorbe E2-06. En E2 queda la plataforma de contenedores."},
+  "E2-02": {"accion": "fusionar", "destino": "E2-01", "motivo": "La migración es por proyecto y ocasional: queda como ámbito de la arquitectura de la plataforma en la nube."},
+  "E2-04": {"accion": "excluir", "motivo": "Fibra de acceso y comunicaciones de campo son de Ingeniería de Telecomunicaciones o Electrónica; la telefonía IP pasa como tarea a E2-03."},
+  "E2-06": {"accion": "fusionar", "destino": "E1-10", "motivo": "Duplica E1-10; la plataforma de contenedores pasa como tarea a E2-07."},
+  "E2-11": {"accion": "excluir", "motivo": "Duplica E4-03; la segmentación y las VPN pasan al diseño de redes (E2-03)."},
+  "E2-12": {"accion": "sublinea", "destino": "E2-10", "motivo": "Optimización de costos y capacidad: sublínea de la observabilidad y confiabilidad del servicio."},
+  "E3-02": {"accion": "fusionar", "destino": "E3-01", "motivo": "En los avisos peruanos integración de datos y almacenes analíticos aparecen juntos."},
+  "E3-07": {"accion": "fusionar", "destino": "E3-06", "motivo": "Se define por la tecnología; reformulada como encargo, la automatización con IA queda dentro de los modelos para procesos de negocio."},
+  "E3-08": {"accion": "fusionar", "destino": "E3-06", "motivo": "Al egreso se valida el propio modelo (4 de 80 avisos); el dictamen independiente no es de egreso."},
+  "E3-09": {"accion": "fusionar", "destino": "E3-06", "motivo": "La puesta en producción del modelo se incorpora como tarea de E3-06; el despliegue general es de E1-10."},
+  "E4-05": {"accion": "excluir", "motivo": "Duplica E1-09: la seguridad de aplicaciones queda en Desarrollo de software."},
+  "E4-08": {"accion": "excluir", "motivo": "Duplica E2-09; la resiliencia ante ransomware pasa como tarea a la respuesta a incidentes (E4-07)."},
+  "E5-02": {"accion": "fusionar", "destino": "E5-01", "motivo": "Solo 4 de 45 avisos y todos senior: la arquitectura empresarial queda como tarea de la planificación estratégica."},
+  "E5-03": {"accion": "fusionar", "destino": "E5-05", "motivo": "Un solo aviso; el portafolio se trabaja al egreso como priorización dentro de la planificación de proyectos."},
+  "E5-04": {"accion": "fusionar", "destino": "E5-01", "motivo": "En entidades medianas gobierno y planificación estratégica de TI son el mismo puesto: «Gobierno y planificación estratégica de TI»."},
+  "E5-07": {"accion": "rescatar", "motivo": "De las funciones más frecuentes en una OTI pública (casi todo se contrata, Ley 32069); la mitad del panel la juzgó esencial."},
+  "E5-09": {"accion": "rescatar", "motivo": "Absorbe E5-10 como «Gestión de servicios de TI» (niveles de servicio, incidentes, problemas y cambios); la atención técnica queda en E2-08."},
+  "E5-10": {"accion": "fusionar", "destino": "E5-09", "motivo": "Duplica en parte E2-08; se une con niveles de servicio en una sola función de gestión de servicios."},
+  "E5-11": {"accion": "rescatar", "motivo": "Única casa de la auditoría de sistemas (C5.5 Evaluar); la mitad del panel la juzgó esencial."},
+  "E5-12": {"accion": "excluir", "motivo": "Duplica E4-01 y E4-09 y su dato de demanda es de 2021; el riesgo tecnológico queda en Ciberseguridad."}
+ }
+}

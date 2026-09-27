@@ -1,0 +1,1160 @@
+{
+ "cod": "SIS",
+ "fecha": "23-09-2026",
+ "ronda": 1,
+ "n": 6,
+ "estado": "revisado",
+ "umbrales": {
+  "icvi": 0.83,
+  "cvr": 1,
+  "ac": 75,
+  "ric": 1,
+  "rondas": 3
+ },
+ "expertos": [
+  {
+   "rol": "P1",
+   "perfil": "Analista de mercado laboral y ocupaciones"
+  },
+  {
+   "rol": "P2",
+   "perfil": "Prospectivista sectorial"
+  },
+  {
+   "rol": "P3",
+   "perfil": "Experto regulatorio y de acreditación"
+  },
+  {
+   "rol": "P4",
+   "perfil": "Empleador del sector"
+  },
+  {
+   "rol": "P5",
+   "perfil": "Experto en tecnología y automatización"
+  },
+  {
+   "rol": "P6",
+   "perfil": "Analista territorial y de oferta comparada"
+  }
+ ],
+ "especialidades": [
+  {
+   "cod": "SIS-01",
+   "n": "Desarrollo de software e ingeniería de aplicaciones",
+   "p": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "med": 4,
+   "icvi": 1,
+   "cvr": 1,
+   "ac": 100,
+   "ric": 0,
+   "ver": "Esencial",
+   "com": {
+    "P1": {
+     "E": 4,
+     "c": "Mayor volumen del país: 5 226 puestos EDO, 311 avisos, banca, outsourcing y Estado; sin esto no hay ingeniero de sistemas contratable.",
+     "f": "[E-L10][E-B12][E-L2]"
+    },
+    "P2": {
+     "E": 4,
+     "c": "Núcleo del campo hasta 2031: la IA automatiza código rutinario, no arquitectura ni requisitos; el desarrollo asistido cambia la herramienta, no la madurez.",
+     "f": "[P-L10][P-L3]"
+    },
+    "P3": {
+     "E": 4,
+     "c": "Núcleo del título: Ley 28858 exige colegiatura para ejercer y el DL 1412 demanda software público; sin esta competencia SINEACE no reconoce un perfil de ingeniero de sistemas.",
+     "f": "[N-1][N-5]"
+    },
+    "P4": {
+     "E": 4,
+     "c": "Es lo que contrato el día uno: programar, probar y desplegar en producción. Sin esto el título no me sirve; es la base de todo puesto junior.",
+     "f": "[E-L10][E-L11]"
+    },
+    "P5": {
+     "E": 4,
+     "c": "La IA genera código rutinario, pruebas y documentación; arquitectura, requisitos e integración resisten. El egresado debe dirigir el desarrollo asistido por IA, no competir con él.",
+     "f": "[P-L10][P-L3]"
+    },
+    "P6": {
+     "E": 4,
+     "c": "Base del título en todo el país: 5 226 puestos, Estado en todas las regiones; cuatro universidades la formalizan como línea, ninguna en provincias.",
+     "f": "[E-L10][E-L2][O-tabla]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-02",
+   "n": "Ciencia de datos e inteligencia artificial",
+   "p": [
+    4,
+    4,
+    3,
+    3,
+    4,
+    3
+   ],
+   "med": 3.5,
+   "icvi": 1,
+   "cvr": 1,
+   "ac": 100,
+   "ric": 1,
+   "ver": "Esencial",
+   "com": {
+    "P1": {
+     "E": 4,
+     "c": "844 vacantes, 76 % de empleadores sin talento en IA, +20 % anual; remuneración muy sobre el promedio. El mercado lo exige ya.",
+     "f": "[E-B10][E-L9][E-L7]"
+    },
+    "P2": {
+     "E": 4,
+     "c": "Irrupción ya observada (45,6 % implementó IA en 2025); CAGR 21,1 % al 2029 proyecta demanda plena cuando egrese la primera promoción. Gobernanza y definición del problema siguen humanas.",
+     "f": "[P-L3][P-L4]"
+    },
+    "P3": {
+     "E": 3,
+     "c": "Ley 31814 y DS 115-2025-PCM obligan a clasificar riesgos, análisis de impacto y supervisión humana desde 2026; el egresado debe dominar IA gobernada, no todos ser científicos de datos.",
+     "f": "[N-4]"
+    },
+    "P4": {
+     "E": 3,
+     "c": "Es el perfil que más me cuesta cubrir, pero no todo egresado será científico de datos; sí exijo fundamentos sólidos de datos y modelos para crecer ahí.",
+     "f": "[E-L9][E-L7]"
+    },
+    "P5": {
+     "E": 4,
+     "c": "Es la especialidad que construye la automatización. Se automatiza EDA y modelado estándar; MLOps, gobernanza del dato y definición del problema no. Inversión 3,9x y Ley 31814.",
+     "f": "[P-L3][P-L4][N-4]"
+    },
+    "P6": {
+     "E": 3,
+     "c": "Esencial pero saturada en Lima: UTEC, Continental y UPN ya la declaran; en Juliaca y Tarapoto la contratan minería y agro dentro de proyectos, no como puesto.",
+     "f": "[O-tabla][E-L7]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-03",
+   "n": "Ciberseguridad y gestión de riesgos digitales",
+   "p": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "med": 4,
+   "icvi": 1,
+   "cvr": 1,
+   "ac": 100,
+   "ric": 0,
+   "ver": "Esencial",
+   "com": {
+    "P1": {
+     "E": 4,
+     "c": "Brecha crítica declarada por PCM, 7 000–13 500 profesionales requeridos, mediana S/ 11 380; norma obliga Oficial de Seguridad.",
+     "f": "[E-B7][E-L11][N-8]"
+    },
+    "P2": {
+     "E": 4,
+     "c": "Norma con plazo vigente desde 2026 y 748 M de ataques observados; seguridad de IA y OT irrumpe 2027–2029 (proyección). Función obligatoria, no automatizable.",
+     "f": "[P-L2][N-2][P-L1]"
+    },
+    "P3": {
+     "E": 4,
+     "c": "Única especialidad con nivel 4 pleno: SBS 504-2021, DS 126-2025-PCM y Oficial de Seguridad obligatorio en el Estado; ningún perfil de egreso se defiende sin ella.",
+     "f": "[N-2][N-3][N-8]"
+    },
+    "P4": {
+     "E": 4,
+     "c": "En banca y retail el regulador me obliga y no encuentro gente; todo ingeniero que contrato debe desarrollar y operar con seguridad desde el diseño.",
+     "f": "[E-B7][E-L9]"
+    },
+    "P5": {
+     "E": 4,
+     "c": "SOC nivel 1 se automatiza; respuesta, gobierno del riesgo y seguridad de IA y OT no. Función obligatoria por norma y tecnología madura en carrera continua.",
+     "f": "[P-L1][P-L2][N-2]"
+    },
+    "P6": {
+     "E": 4,
+     "c": "Norma obliga a toda entidad pública con Oficial de Seguridad: gobiernos regionales, UGEL y hospitales de provincia. Solo UPC y UTEC la formalizan, ambas en Lima.",
+     "f": "[E-B7][O-tabla]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-04",
+   "n": "Infraestructura en la nube y DevOps",
+   "p": [
+    4,
+    4,
+    3,
+    4,
+    4,
+    3
+   ],
+   "med": 4,
+   "icvi": 1,
+   "cvr": 1,
+   "ac": 100,
+   "ric": 1,
+   "ver": "Esencial",
+   "com": {
+    "P1": {
+     "E": 4,
+     "c": "617 avisos AWS, arquitectos cloud +15 %, nube híbrida +600 %; todo aviso de desarrollo pide despliegue en nube y CI/CD.",
+     "f": "[E-B8][E-L7][P-L5]"
+    },
+    "P2": {
+     "E": 4,
+     "c": "Nube híbrida adoptada (+600 % observado); operación de infraestructura para IA y data centers irrumpe 2026–2028. Todo software del egresado correrá ahí.",
+     "f": "[P-L5][P-L11]"
+    },
+    "P3": {
+     "E": 3,
+     "c": "Sin norma propia, pero la SBS exige ISO 27017/27018 y SOC 2 a la nube regulada; el egresado debe operar plataformas bajo cumplimiento, no solo desplegarlas.",
+     "f": "[N-3]"
+    },
+    "P4": {
+     "E": 4,
+     "c": "Todo lo que construimos corre en nube con pipelines; un junior sin contenedores, CI/CD y observabilidad me cuesta seis meses de entrenamiento.",
+     "f": "[E-B8][E-L7]"
+    },
+    "P5": {
+     "E": 4,
+     "c": "Sin plataforma no hay IA en producción. IaC y pipelines rutinarios se automatizan; la operación híbrida regulada, FinOps y platform engineering exigen criterio. Nube adoptada y estable.",
+     "f": "[P-L5][P-L4]"
+    },
+    "P6": {
+     "E": 3,
+     "c": "Ninguna universidad la declara como línea: diferencia clara. Pero data centers y consultoras cloud están en Lima; en regiones la contrata el Estado.",
+     "f": "[O-tabla][E-B8]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-05",
+   "n": "Gestión de proyectos y servicios de TI",
+   "p": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "med": 3,
+   "icvi": 1,
+   "cvr": 1,
+   "ac": 100,
+   "ric": 0,
+   "ver": "Esencial",
+   "com": {
+    "P1": {
+     "E": 3,
+     "c": "598+ avisos de gestión de proyectos y 52 PMO; mediana S/ 7 290; se cubre sin escasez, pero es la ruta de ascenso del ingeniero.",
+     "f": "[E-B14][E-L11]"
+    },
+    "P2": {
+     "E": 3,
+     "c": "Sin serie propia, pero la ejecución del portafolio de IA (6 de 10 en piloto) depende de gestión; negociación y priorización no se automatizan al 2031.",
+     "f": "[P-S][P-L4]"
+    },
+    "P3": {
+     "E": 3,
+     "c": "DL 1412 y DS 029-2021-PCM estructuran proyectos y servicios digitales del Estado, que exige título y colegiatura CIP; SINEACE espera gestión de proyectos en todo perfil de ingeniería.",
+     "f": "[N-5][N-1]"
+    },
+    "P4": {
+     "E": 3,
+     "c": "No lo pido el día uno, pero al tercer año espero que lidere entregas y opere servicios con acuerdos de nivel; es la ruta a jefatura.",
+     "f": "[E-L11][E-B14]"
+    },
+    "P5": {
+     "E": 3,
+     "c": "Negociación, priorización y gestión de portafolio de IA no se automatizan; el seguimiento y reportes sí. Esencial como capacidad transversal, no como especialidad dominante.",
+     "f": "[P-L4] y criterio del rol"
+    },
+    "P6": {
+     "E": 3,
+     "c": "Gobiernos regionales y universidades públicas contratan jefes de proyecto TI con colegiatura; solo UPC lo declara como mención. Esencial para el ejercicio en provincia.",
+     "f": "[E-L2][O-tabla]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-06",
+   "n": "Arquitectura empresarial y transformación digital",
+   "p": [
+    3,
+    3,
+    3,
+    2,
+    3,
+    2
+   ],
+   "med": 3,
+   "icvi": 0.67,
+   "cvr": 0.33,
+   "ac": 67,
+   "ric": 1,
+   "ver": "Sin consenso · ronda 2",
+   "com": {
+    "P1": {
+     "E": 3,
+     "c": "El perfil que integra IA, nube y datos lidera la EDO; cargos senior S/ 10 850–15 210. Esencial como base, no como puesto de egresado.",
+     "f": "[P-L7][E-L11]"
+    },
+    "P2": {
+     "E": 3,
+     "c": "El perfil que integra IA, nube y datos lidera la EDO; PNTD al 2030 sostiene la demanda. Esencial como formación, aunque el ejercicio llega tras experiencia.",
+     "f": "[P-L7][N-9]"
+    },
+    "P3": {
+     "E": 3,
+     "c": "Líder de Gobierno Digital del DL 1412 y PNTD 2030 con 82 servicios exigen arquitectura y hoja de ruta; esencial para cargos de dirección, no para el egresado inicial.",
+     "f": "[N-5][N-9]"
+    },
+    "P4": {
+     "E": 2,
+     "c": "Arquitecto empresarial es un cargo senior con diez años encima; al egresado le pido entender la estrategia, no trazar la hoja de ruta.",
+     "f": "criterio del rol"
+    },
+    "P5": {
+     "E": 3,
+     "c": "La decisión arquitectónica que integra IA, nube y datos es humana y perdura. Es rol senior que madura con experiencia; la base debe formarse en el perfil.",
+     "f": "[P-L7][P-L4]"
+    },
+    "P6": {
+     "E": 2,
+     "c": "Cargos senior de banca y consultoras en Lima, sin conteo propio; es trayectoria de posgrado, no perfil de egreso. Solo UPC la declara.",
+     "f": "[E-B14][O-tabla]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-07",
+   "n": "Desarrollo móvil y experiencias digitales",
+   "p": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "med": 2,
+   "icvi": 0,
+   "cvr": -1,
+   "ac": 100,
+   "ric": 0,
+   "ver": "No esencial",
+   "com": {
+    "P1": {
+     "E": 2,
+     "c": "Sin conteo propio: los portales lo contratan como desarrollo de software; el mismo pool cubre ambas vacantes.",
+     "f": "[E-B15][P-L9]"
+    },
+    "P2": {
+     "E": 2,
+     "c": "Tiende a fusionarse con desarrollo; el front-end estándar es lo primero que automatiza la IA generativa (proyección 2027–2029). Útil dentro de SIS-01, no aparte.",
+     "f": "[P-L9][P-L10]"
+    },
+    "P3": {
+     "E": 2,
+     "c": "Ninguna norma nombra el canal móvil; se ejerce con la colegiatura genérica y se forma como capacidad dentro de desarrollo de software, no como especialidad defendible.",
+     "f": "[N-1]"
+    },
+    "P4": {
+     "E": 2,
+     "c": "Lo cubro con el mismo pool de desarrolladores; un buen backend aprende móvil en meses. No abro vacantes separadas de móvil.",
+     "f": "[E-B15]"
+    },
+    "P5": {
+     "E": 2,
+     "c": "El front-end móvil estándar es lo más automatizable del desarrollo; frameworks multiplataforma y generación de UI lo absorben. Es plataforma de despliegue, no especialidad.",
+     "f": "[P-L10][P-L9]"
+    },
+    "P6": {
+     "E": 2,
+     "c": "Los portales no la separan de desarrollo; equipos de producto en Lima. Solo Continental la formaliza. Útil como módulo, no como especialidad.",
+     "f": "[E-B15][O-tabla]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-08",
+   "n": "Consultoría e implementación de ERP (SAP)",
+   "p": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    3
+   ],
+   "med": 2,
+   "icvi": 0.17,
+   "cvr": -0.67,
+   "ac": 83,
+   "ric": 0,
+   "ver": "No esencial",
+   "com": {
+    "P1": {
+     "E": 2,
+     "c": "Nicho con mediana S/ 6 420 en retail y consultoras; competencia ligada a un proveedor, se aprende en el puesto o certificación.",
+     "f": "[E-L11][E-B9]"
+    },
+    "P2": {
+     "E": 2,
+     "c": "Nicho dependiente de proveedores sin serie pública; configuración y reportes automatizables con ERP en nube. Útil para quien vaya a consultoría, no para el perfil.",
+     "f": "[P-L3][P]"
+    },
+    "P3": {
+     "E": 2,
+     "c": "Sin norma ni figura obligatoria; el mercado no exige título y la certificación la otorga el proveedor. Útil como electivo, indefendible como núcleo del perfil ante SINEACE.",
+     "f": "criterio del rol"
+    },
+    "P4": {
+     "E": 2,
+     "c": "SAP lo contrato a consultoras o formo internamente; al egresado le exijo entender procesos financieros y logísticos, no configurar módulos.",
+     "f": "[E-B9]"
+    },
+    "P5": {
+     "E": 2,
+     "c": "Producto de proveedor, no campo. Configuración y reportes se automatizan con asistentes del propio ERP; la integración de procesos se forma en desarrollo y arquitectura.",
+     "f": "[P] y criterio del rol"
+    },
+    "P6": {
+     "E": 3,
+     "c": "Ninguna universidad la declara: nicho abierto. Minería en Puno, agroindustria en San Martín y retail operan ERP; ejercicio independiente viable en provincia.",
+     "f": "[O-tabla][E-B9]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-09",
+   "n": "Análisis funcional y de sistemas de información",
+   "p": [
+    3,
+    2,
+    3,
+    3,
+    2,
+    3
+   ],
+   "med": 3,
+   "icvi": 0.67,
+   "cvr": 0.33,
+   "ac": 67,
+   "ric": 1,
+   "ver": "Sin consenso · ronda 2",
+   "com": {
+    "P1": {
+     "E": 3,
+     "c": "La EDO nombra analistas de sistemas entre los más requeridos; alto volumen en banca y Estado, aunque con sueldo al promedio y presión de IA.",
+     "f": "[E-B15][E-B9][P-L10]"
+    },
+    "P2": {
+     "E": 2,
+     "c": "La capacidad de relevar requisitos es imprescindible dentro de SIS-01; como especialidad autónoma se diluye: la IA generativa absorbe especificación rutinaria hacia 2028.",
+     "f": "[P-L10]"
+    },
+    "P3": {
+     "E": 3,
+     "c": "El Estado convoca analistas de sistemas con título y colegiatura CIP; especificar requisitos es la competencia que da nombre al ingeniero de sistemas de información. Esencial, no autónoma.",
+     "f": "[N-1]"
+    },
+    "P4": {
+     "E": 3,
+     "c": "Sigo contratando analistas funcionales en volumen; traducir negocio a requisitos y casos de aceptación es esencial aunque la IA documente.",
+     "f": "[E-B15][E-B9]"
+    },
+    "P5": {
+     "E": 2,
+     "c": "La IA generativa absorbe especificación y documentación rutinaria. El relevamiento con el negocio persiste, pero es capacidad del desarrollador, no especialidad autónoma.",
+     "f": "[P-L10]"
+    },
+    "P6": {
+     "E": 3,
+     "c": "La EDO nombra analistas de sistemas entre los más requeridos y el Estado regional los convoca por CAS. Es la puerta de entrada real fuera de Lima.",
+     "f": "[E-B15][E-L2]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-10",
+   "n": "Aseguramiento de calidad y pruebas de software",
+   "p": [
+    2,
+    2,
+    2,
+    3,
+    2,
+    2
+   ],
+   "med": 2,
+   "icvi": 0.17,
+   "cvr": -0.67,
+   "ac": 83,
+   "ric": 0,
+   "ver": "No esencial",
+   "com": {
+    "P1": {
+     "E": 2,
+     "c": "Volumen medio, QA S/ 3 500 sin prima; el tester manual es lo primero que se automatiza. Habilidad dentro de desarrollo, no especialidad.",
+     "f": "[E-B9][P-L10]"
+    },
+    "P2": {
+     "E": 2,
+     "c": "Tester manual en extinción; generación de casos y scripts ya automatizable. Se desplaza a ingeniería de calidad integrada en desarrollo y DevOps.",
+     "f": "[P][P-L10]"
+    },
+    "P3": {
+     "E": 2,
+     "c": "NTP-ISO/IEC 12207 es vacío declarado y ninguna norma exige la función; SINEACE espera verificación como capacidad de desarrollo, no como especialidad separada.",
+     "f": "[N] vacío NTP 12207; criterio del rol"
+    },
+    "P4": {
+     "E": 3,
+     "c": "Ya no contrato testers manuales; exijo que cada desarrollador automatice pruebas y certifique versiones. Esencial como capacidad, no como puesto aparte.",
+     "f": "[E-B9]"
+    },
+    "P5": {
+     "E": 2,
+     "c": "Especialidad con más tareas automatizables: generación de casos y scripts madura. El tester manual se extingue; la ingeniería de calidad se integra al desarrollo.",
+     "f": "[P][P-L10]"
+    },
+    "P6": {
+     "E": 2,
+     "c": "Ninguna universidad la formaliza y la demanda es de consultoras y banca en Lima; va integrada en desarrollo. Útil, no esencial como línea.",
+     "f": "[O-tabla][E-B9]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-11",
+   "n": "Redes y telecomunicaciones",
+   "p": [
+    2,
+    2,
+    2,
+    2,
+    3,
+    3
+   ],
+   "med": 2,
+   "icvi": 0.33,
+   "cvr": -0.33,
+   "ac": 67,
+   "ric": 1,
+   "ver": "Sin consenso · ronda 2",
+   "com": {
+    "P1": {
+     "E": 2,
+     "c": "Inversión sectorial S/ 5 800 M, pero los operadores contratan ingenieros de telecomunicaciones; avisos escasos para sistemas.",
+     "f": "[P-L11][E-L1]"
+    },
+    "P2": {
+     "E": 2,
+     "c": "Inversión comprometida y redes privadas 5G emergentes (proyección 2027–2030), pero es dominio de telecomunicaciones; el ingeniero de sistemas necesita fundamentos, no la especialidad.",
+     "f": "[P-L11]"
+    },
+    "P3": {
+     "E": 2,
+     "c": "Nivel 2: el TUO de Telecomunicaciones no reserva ni habilita al ingeniero de sistemas; es territorio del capítulo de electrónica del CIP. Base útil, no especialidad del título.",
+     "f": "[N-B12]"
+    },
+    "P4": {
+     "E": 2,
+     "c": "La red la tercerizo al operador o integrador; el ingeniero debe entender conectividad y seguridad perimetral, no diseñar ni operar la red.",
+     "f": "criterio del rol"
+    },
+    "P5": {
+     "E": 3,
+     "c": "Infraestructura física poco automatizable; SDN automatiza la operación pero el diseño de 5G privadas para minería y conectividad rural resiste. Base de IoT y edge.",
+     "f": "[P-L11]"
+    },
+    "P6": {
+     "E": 3,
+     "c": "Lo que contrata el territorio: 437 localidades rurales, fibra a 24 minas, Bitel en provincias. ULima y UTEC la declaran, pero desde Lima.",
+     "f": "[P-L11][O-tabla]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-12",
+   "n": "Auditoría de sistemas y gobierno de TI",
+   "p": [
+    2,
+    3,
+    3,
+    2,
+    3,
+    3
+   ],
+   "med": 3,
+   "icvi": 0.67,
+   "cvr": 0.33,
+   "ac": 67,
+   "ric": 1,
+   "ver": "Sin consenso · ronda 2",
+   "com": {
+    "P1": {
+     "E": 2,
+     "c": "Pocos puestos, exige colegiatura y certificación internacional; mercado limitado a banca, seguros y Contraloría.",
+     "f": "[E-B5][N-3]"
+    },
+    "P2": {
+     "E": 3,
+     "c": "Norma con plazo (SBS 504-2021, SGSI 2024–2026) y auditoría de algoritmos de IA emergente con adecuación 2026–2029: control poco automatizable, esencial al egreso.",
+     "f": "[N-3][N-8][N-4]"
+    },
+    "P3": {
+     "E": 3,
+     "c": "SBS 504-2021 art. 27.2 exige evaluación independiente certificada y la NTP 27001 es obligatoria en el Estado; el egresado debe dominar control de TI aunque audite una minoría.",
+     "f": "[N-3][N-8][N-7]"
+    },
+    "P4": {
+     "E": 2,
+     "c": "En banca la necesito, pero contrato auditores certificados con experiencia; no es perfil de egreso. Útil que conozca controles y marcos.",
+     "f": "[E-B5]"
+    },
+    "P5": {
+     "E": 3,
+     "c": "Rol de control poco automatizable. La auditoría de algoritmos de IA es emergente y la Ley 31814 la hará exigible; complementa ciberseguridad.",
+     "f": "[P-L1][N-4]"
+    },
+    "P6": {
+     "E": 3,
+     "c": "Ninguna universidad la declara; exige colegiatura; Contraloría, OCI y SGSI obligatorio alcanzan entidades públicas de todas las regiones.",
+     "f": "[O-tabla][N-8]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-13",
+   "n": "Protección de datos personales y privacidad",
+   "p": [
+    2,
+    3,
+    3,
+    2,
+    2,
+    2
+   ],
+   "med": 2,
+   "icvi": 0.33,
+   "cvr": -0.33,
+   "ac": 67,
+   "ric": 1,
+   "ver": "Sin consenso · ronda 2",
+   "com": {
+    "P1": {
+     "E": 2,
+     "c": "Obligación legal escalonada 2025–2028 sin avisos en portales; el Oficial de Datos hoy lo cubren abogados y áreas de cumplimiento.",
+     "f": "[N-6]"
+    },
+    "P2": {
+     "E": 3,
+     "c": "Oficial de Datos obligatorio escalonado 2025–2028: plena vigencia cuando egrese la promoción. Compartida con abogados, pero el diseño de controles es de sistemas.",
+     "f": "[N-6]"
+    },
+    "P3": {
+     "E": 3,
+     "c": "Ley 29733 y DS 016-2024-JUS imponen Oficial de Datos, notificación en 48 h y sanciones de la ANPDP; el ingeniero implementa los controles, el abogado comparte la función.",
+     "f": "[N-6]"
+    },
+    "P4": {
+     "E": 2,
+     "c": "El Oficial de Datos suele ser legal o cumplimiento; al ingeniero le pido implementar los controles y saber la norma, no liderar el programa.",
+     "f": "criterio del rol"
+    },
+    "P5": {
+     "E": 2,
+     "c": "Obligación legal real, pero función de cumplimiento compartida con abogados. Las herramientas de privacidad están en experimentación; el ingeniero la cubre desde ciberseguridad y gobierno.",
+     "f": "[N-6] y criterio del rol"
+    },
+    "P6": {
+     "E": 2,
+     "c": "Oficial de Datos obligatorio, pero abogados cubren parte de la función y ninguna universidad la declara como línea. Integrable en ciberseguridad y auditoría.",
+     "f": "[N-6][O-tabla]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-14",
+   "n": "Inteligencia de negocios y analítica empresarial",
+   "p": [
+    3,
+    2,
+    2,
+    3,
+    2,
+    3
+   ],
+   "med": 2.5,
+   "icvi": 0.5,
+   "cvr": 0,
+   "ac": 50,
+   "ric": 1,
+   "ver": "Sin consenso · ronda 2",
+   "com": {
+    "P1": {
+     "E": 3,
+     "c": "64–148 vacantes, jefe de BI mediana S/ 8 000, 78 % de empleadores demanda TI y datos; se contrata junto con ciencia de datos.",
+     "f": "[E-B12][E-L11][P-L9]"
+    },
+    "P2": {
+     "E": 2,
+     "c": "Tableros estándar se automatizan; converge con ciencia de datos antes de 2029 (proyección). Útil como capacidad dentro de SIS-02, no como especialidad.",
+     "f": "[P][P-L4]"
+    },
+    "P3": {
+     "E": 2,
+     "c": "La Ley 31814 alcanza sistemas de IA, no tableros; sin norma propia ni figura obligatoria, se defiende como capacidad de datos dentro de SIS-02, no como especialidad.",
+     "f": "[N-4]"
+    },
+    "P4": {
+     "E": 3,
+     "c": "Retail y banca deciden con tableros; un junior de BI produce valor la primera semana. Es la puerta de entrada al equipo de datos.",
+     "f": "[E-B12][E-L11]"
+    },
+    "P5": {
+     "E": 2,
+     "c": "Los tableros estándar ya se generan automáticamente con lenguaje natural. El modelado de datos persiste, pero converge con ciencia de datos; no sostiene especialidad propia.",
+     "f": "[P][P-L4]"
+    },
+    "P6": {
+     "E": 3,
+     "c": "En regiones, gobiernos, cooperativas, universidades y agro contratan analistas de BI antes que científicos de datos; tres universidades de Lima ya la declaran.",
+     "f": "[E-B12][O-tabla]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-15",
+   "n": "Internet de las cosas y sistemas embebidos",
+   "p": [
+    2,
+    2,
+    2,
+    1,
+    3,
+    2
+   ],
+   "med": 2,
+   "icvi": 0.17,
+   "cvr": -0.67,
+   "ac": 83,
+   "ric": 0,
+   "ver": "No esencial",
+   "com": {
+    "P1": {
+     "E": 2,
+     "c": "Sin avisos en ninguna búsqueda; se contrata dentro de proyectos de minería 4.0. Demanda futura, no actual.",
+     "f": "[E][P-L3]"
+    },
+    "P2": {
+     "E": 2,
+     "c": "IA en el edge (88 % evalúa) y minería 4.0 son driver estructural, pero la irrupción se proyecta 2028–2030 sin puestos observados. Útil, aún no esencial.",
+     "f": "[P-S][P-L11]"
+    },
+    "P3": {
+     "E": 2,
+     "c": "Sin norma que habilite ni reserve; el DS 126-2025-PCM alcanza a sectores críticos por su servicio digital, no por el dispositivo. Útil en minería, no esencial al título.",
+     "f": "[N-2]; criterio del rol"
+    },
+    "P4": {
+     "E": 1,
+     "c": "En banca, retail y consultoría no he abierto ninguna vacante IoT; es de minería e industria. No es perfil de egreso para mis sectores.",
+     "f": "criterio del rol"
+    },
+    "P5": {
+     "E": 3,
+     "c": "Frontera físico-digital que la IA no reemplaza; edge AI y 5G privadas maduran en cinco años. Aún en experimentación, pero driver estructural en minería e industria.",
+     "f": "[P-S][P-L11]"
+    },
+    "P6": {
+     "E": 2,
+     "c": "Sin avisos y sin universidad que la declare; minería 4.0 y agro en Puno y San Martín la contratan dentro de proyectos, no como perfil de egreso.",
+     "f": "[O-tabla][P-L3]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-16",
+   "n": "Blockchain y activos digitales",
+   "p": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "med": 1,
+   "icvi": 0,
+   "cvr": -1,
+   "ac": 100,
+   "ric": 0,
+   "ver": "No esencial",
+   "com": {
+    "P1": {
+     "E": 1,
+     "c": "Sin puestos con ese nombre en el Perú; fintech capta el capital sin pedir blockchain.",
+     "f": "[E][P-S]"
+    },
+    "P2": {
+     "E": 1,
+     "c": "Sin evidencia local ni puestos; en extinción como especialidad autónoma, absorbida por fintech. No debe formar parte del perfil.",
+     "f": "[P-S][E]"
+    },
+    "P3": {
+     "E": 1,
+     "c": "Sin norma, sin figura obligatoria y sin puestos; no existe marco peruano de activos digitales que habilite la función. Indefendible ante SINEACE como especialidad.",
+     "f": "[N]; criterio del rol"
+    },
+    "P4": {
+     "E": 1,
+     "c": "Nunca he contratado un perfil blockchain ni conozco par que lo haga; no existe el puesto en el mercado peruano.",
+     "f": "[E]"
+    },
+    "P5": {
+     "E": 1,
+     "c": "Tecnología en experimentación sin adopción local ni puestos. Fintech la absorbe como componente; no es campo de ejercicio profesional.",
+     "f": "[P-S][P]"
+    },
+    "P6": {
+     "E": 1,
+     "c": "Sin puestos en el país ni universidad que la declare; fintech capta el capital sin nombrarla. No forma parte del perfil de egreso.",
+     "f": "[O-tabla][P-S]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-17",
+   "n": "Administración de bases de datos",
+   "p": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "med": 2,
+   "icvi": 0,
+   "cvr": -1,
+   "ac": 100,
+   "ric": 0,
+   "ver": "No esencial",
+   "com": {
+    "P1": {
+     "E": 2,
+     "c": "Solo el Estado convoca DBA (S/ 6 500–10 000); el privado lo absorbe en DevOps y datos y decrece con servicios gestionados.",
+     "f": "[E-L2][P-L4]"
+    },
+    "P2": {
+     "E": 2,
+     "c": "DBA operativo altamente automatizable por servicios gestionados; se reconvierte a ingeniería de datos, que sí es esencial dentro de SIS-02.",
+     "f": "[P-L4][P]"
+    },
+    "P3": {
+     "E": 2,
+     "c": "Solo la colegiatura genérica; el Estado lo convoca con título, pero la SBS exige respaldo y continuidad como control, no como puesto. Capacidad de datos, no especialidad.",
+     "f": "[N-1][N-3]"
+    },
+    "P4": {
+     "E": 2,
+     "c": "El DBA operativo lo absorbió la nube gestionada; sí exijo SQL y modelado de datos, pero eso vive en desarrollo y datos, no como especialidad.",
+     "f": "[E-L2]"
+    },
+    "P5": {
+     "E": 2,
+     "c": "El DBA operativo es altamente automatizable por servicios gestionados en nube. Lo que persiste es ingeniería de datos, que pertenece a ciencia de datos y nube.",
+     "f": "[P-L4][P]"
+    },
+    "P6": {
+     "E": 2,
+     "c": "El Estado regional convoca DBA recurrente (S/ 6 500–10 000), pero el privado lo absorbe en nube y datos. Competencia base, no especialidad.",
+     "f": "[E-L2]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-18",
+   "n": "Diseño de experiencia de usuario (UX/UI)",
+   "p": [
+    2,
+    2,
+    1,
+    2,
+    2,
+    2
+   ],
+   "med": 2,
+   "icvi": 0,
+   "cvr": -1,
+   "ac": 100,
+   "ric": 0,
+   "ver": "No esencial",
+   "com": {
+    "P1": {
+     "E": 2,
+     "c": "39–56 vacantes compartidas con diseño gráfico, sin colegiatura; el mercado lo cubre con diseñadores, no con ingenieros.",
+     "f": "[E-B12]"
+    },
+    "P2": {
+     "E": 2,
+     "c": "Campo compartido con diseño y front-end automatizable; sin serie de crecimiento. Útil como capacidad de producto, no como especialidad del ingeniero.",
+     "f": "[P-L10][O-5]"
+    },
+    "P3": {
+     "E": 1,
+     "c": "Colegiatura no exigida, campo compartido con diseño gráfico y fuera del alcance que habilita el título de ingeniero; SINEACE no lo espera en un perfil de ingeniería.",
+     "f": "[N-1]; criterio del rol"
+    },
+    "P4": {
+     "E": 2,
+     "c": "Para UX contrato diseñadores, no ingenieros; al ingeniero le pido trabajar con el diseñador y respetar el sistema de diseño.",
+     "f": "[E-B12]"
+    },
+    "P5": {
+     "E": 2,
+     "c": "El diseño generativo automatiza wireframes y prototipos. La investigación de usuario persiste, pero es campo del diseño; el ingeniero la usa, no la ejerce.",
+     "f": "[P-L10][O-tabla]"
+    },
+    "P6": {
+     "E": 2,
+     "c": "Solo UTEC la declara; 39–56 vacantes compartidas con diseño gráfico y concentradas en Lima. Útil como módulo de desarrollo.",
+     "f": "[O-tabla][E-B12]"
+    }
+   }
+  },
+  {
+   "cod": "SIS-19",
+   "n": "Soporte técnico y mesa de ayuda",
+   "p": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "med": 1,
+   "icvi": 0,
+   "cvr": -1,
+   "ac": 100,
+   "ric": 0,
+   "ver": "No esencial",
+   "com": {
+    "P1": {
+     "E": 1,
+     "c": "Puesto técnico con base S/ 1 200, 163 avisos sin experiencia; primer empleo automatizado. No forma parte del perfil de ingeniero.",
+     "f": "[E-B1][P-L10]"
+    },
+    "P2": {
+     "E": 1,
+     "c": "Puesto técnico, no de ingeniero; empleos de entrada primeros automatizados (OIT 2026). Contracción observada y proyectada; no esencial.",
+     "f": "[P-S][P-L10]"
+    },
+    "P3": {
+     "E": 1,
+     "c": "Puesto técnico sin exigencia de título ni norma; formar ingenieros para nivel 1 contradice el perfil que la Ley 28858 y SINEACE reservan al profesional colegiado.",
+     "f": "[N-1]; criterio del rol"
+    },
+    "P4": {
+     "E": 1,
+     "c": "Es puesto técnico con sueldo base S/ 1 200; no contrato ingenieros para mesa de ayuda y la estoy automatizando.",
+     "f": "[E-B1]"
+    },
+    "P5": {
+     "E": 1,
+     "c": "Soporte nivel 1 en la franja de mayor exposición; agentes conversacionales lo absorben. Puesto técnico, no especialidad de ingeniero.",
+     "f": "[P-L10][P-S]"
+    },
+    "P6": {
+     "E": 1,
+     "c": "Puesto técnico con base S/ 1 200; clínicas, UGEL y universidades de provincia lo contratan, pero no exige ni justifica título de ingeniero.",
+     "f": "[E-B1][E-L2]"
+    }
+   }
+  }
+ ],
+ "abiertas": {
+  "faltan": {
+   "P1": [
+    "Ingeniería de datos y MLOps: Data Engineer US$ 1 500–2 500 [E-L8], emergente declarado en la prospectiva [P]; es el puesto que hoy se contrata más que el científico de datos puro.",
+    "Ingeniería fintech y medios de pago: fintech capta 76,9 % del capital de riesgo 2025 [P-S] y contrata desarrollo, seguridad y datos con nombre propio.",
+    "Arquitectura de software y soluciones: 'arquitecto de soluciones' aparece como puesto en el barrido [E-B14], mediana S/ 10 850 [E-L11], distinto de arquitectura empresarial."
+   ],
+   "P2": [
+    "Ingeniería de datos y MLOps (pipelines, gobernanza y operación de modelos): emergente en el barrido [P-L3][P-L4], la contratan banca y telcos, y hoy queda repartida entre SIS-02, SIS-14 y SIS-17 sin nombre propio.",
+    "Ingeniería fintech y banca digital (pagos, core bancario, cumplimiento SBS): captura 76,9 % del capital de riesgo 2025 [P-S] y el barrido la marca emergente, pero ninguna especialidad de la cartera la nombra.",
+    "Operación de infraestructura para IA y data centers (platform engineering, FinOps): anuncios de AWS 2026 y data centers de US$ 100 M [P-L11][P-S]; irrupción proyectada 2026–2028, hoy solo implícita en SIS-04."
+   ],
+   "P3": [
+    "Peritaje e informática forense digital: la tabla normativa le asigna nivel 3 (Ley 30096 hasta DL 1741; SBS 504-2021 art. 15.2) y no figura en la cartera.",
+    "Gobierno y ética de la IA (clasificación por riesgo, análisis de impacto, transparencia algorítmica, supervisión humana) exigidos por Ley 31814 y DS 115-2025-PCM; hoy queda implícito en SIS-02.",
+    "Continuidad del negocio y recuperación de TI: control exigido por SBS 504-2021 y NTP-ISO/IEC 27001 sin especialidad que lo recoja."
+   ],
+   "P4": [
+    "Ingeniería de datos (pipelines, integración, calidad y gobierno del dato): es el perfil que más me cuesta cubrir y queda partido entre SIS-02, SIS-14 y SIS-17",
+    "Integración de sistemas y APIs (core bancario, pasarelas, middleware): puesto real en banca y retail que ninguna especialidad nombra"
+   ],
+   "P5": [
+    "Ingeniería de datos y MLOps: pipelines, gobernanza y operación de modelos en producción; es lo que no se automatiza de la IA y hoy está repartido entre SIS-02, SIS-04 y SIS-17",
+    "Seguridad de IA y de tecnología operacional (OT): frente emergente en minería, industria y sistemas de IA regulados por la Ley 31814",
+    "Ingeniería de plataformas para IA y data centers: operación de infraestructura de cómputo para cargas de IA, con inversión comprometida en 2026",
+    "Automatización de procesos con IA agéntica: integración de agentes y RPA a procesos de negocio, demandada por 7 de 10 empresas y sin especialidad que la cubra"
+   ],
+   "P6": [
+    "Sistemas de información para el Estado y gobierno digital (SIAF, SIGA, interoperabilidad, DL 1412): es lo que contratan gobiernos regionales, municipios y UGEL en Juliaca y Tarapoto; ninguna universidad lo declara como línea [E-L2][O-tabla]",
+    "Ingeniería de datos y gobernanza del dato como línea propia, distinta de ciencia de datos: UTEC la declara como Gobernanza de Datos y ULima solo como curso suelto [O-tabla][E-L8]",
+    "Tecnologías para minería 4.0 y agroindustria (OT, automatización, telemetría) como especialidad territorial de las sedes de regiones; hoy solo aparece dispersa en IoT y redes [P-L3][P-L11]"
+   ]
+  },
+  "integrar": {
+   "P1": [
+    "SIS-01 + SIS-07: los portales integran móvil en desarrollo de software y reclutan del mismo pool [E-B15][P-L9].",
+    "SIS-02 + SIS-14 + SIS-17: ciencia de datos, BI y bases de datos se contratan como un solo equipo de datos e ingeniería de datos [E-B10][P].",
+    "SIS-03 + SIS-13 + SIS-12: ciberseguridad, protección de datos y auditoría se convocan como riesgo y cumplimiento (70k–100k anuales) [E-B5][N-3][N-6].",
+    "SIS-04 + SIS-11: nube/DevOps y redes se contratan como infraestructura; jefe de infraestructura mediana S/ 7 190 cubre ambas [E-L11].",
+    "SIS-09 + SIS-10 dentro de SIS-01: análisis funcional y QA son roles del equipo de desarrollo, no especialidades contratadas aparte [E-B9]."
+   ],
+   "P2": [
+    "SIS-02 + SIS-14 + SIS-17 en una sola especialidad de datos e IA (ciencia, analítica e ingeniería de datos): mismo empleador y mismo pipeline; BI converge con ciencia de datos y el DBA se reconvierte a ingeniería de datos [P][P-L4].",
+    "SIS-01 + SIS-07 + SIS-09 + SIS-10 como desarrollo de software integral: el mercado contrata desarrollador que releva, construye, prueba y publica; móvil, análisis y QA se contratan dentro de desarrollo [E-B15][P-L9][P-L10].",
+    "SIS-03 + SIS-13 (con puente a SIS-12) como seguridad, privacidad y gobierno del riesgo digital: normas con plazo 2025–2028 exigen Oficial de Seguridad y Oficial de Datos en la misma organización [N-2][N-6][N-8].",
+    "SIS-04 + SIS-11 como plataforma y conectividad: la operación híbrida y regulada demanda nube, red y observabilidad en un mismo equipo [P-L5][P-L11]."
+   ],
+   "P3": [
+    "SIS-03 + SIS-13: la norma pide juntos al Oficial de Seguridad y al Oficial de Datos, ambos con notificación en 48 h (DS 126-2025-PCM, DS 016-2024-JUS); una sola especialidad de seguridad, privacidad y cumplimiento.",
+    "SIS-12 + SIS-06: gobierno de TI y transformación digital comparten marco (DL 1412, NTP 27001, PNTD 2030) y comité de dirección; el mercado contrata gobierno y arquitectura en el mismo cargo.",
+    "SIS-14 + SIS-02 + SIS-17: inteligencia de negocios, ciencia de datos y administración de bases de datos son un solo ciclo del dato bajo Ley 31814 y Ley 29733.",
+    "SIS-07 + SIS-01 (+ SIS-10): móvil y pruebas se contratan dentro de desarrollo de software; ninguna norma los distingue."
+   ],
+   "P4": [
+    "SIS-14 con SIS-02: contrato un solo equipo de datos donde el analista de BI crece a científico o ingeniero de datos",
+    "SIS-01 con SIS-07 y SIS-10: el puesto de desarrollador ya incluye móvil y pruebas automatizadas; no abro vacantes separadas",
+    "SIS-17 con SIS-04: la administración de bases de datos vive hoy en el equipo de plataforma y nube",
+    "SIS-13 con SIS-03: seguridad y protección de datos responden al mismo oficial de seguridad y cumplimiento"
+   ],
+   "P5": [
+    "SIS-14 Inteligencia de negocios y SIS-17 Administración de bases de datos con SIS-02 Ciencia de datos e IA: el mercado contrata ingeniería y analítica de datos como un solo perfil",
+    "SIS-07 Desarrollo móvil, SIS-09 Análisis funcional, SIS-10 Pruebas y SIS-18 UX/UI con SIS-01 Desarrollo de software: ingeniería de producto de punta a punta con desarrollo asistido por IA",
+    "SIS-13 Protección de datos personales con SIS-03 Ciberseguridad y SIS-12 Auditoría y gobierno de TI: seguridad, riesgo y cumplimiento se contratan como una sola función",
+    "SIS-15 IoT y sistemas embebidos con SIS-11 Redes y telecomunicaciones: conectividad, 5G privadas y edge se contratan juntos en minería e industria"
+   ],
+   "P6": [
+    "SIS-14 inteligencia de negocios con SIS-02 ciencia de datos: misma naturaleza y UTEC, Continental y UPN las ofrecen como una sola línea de datos [O-tabla]",
+    "SIS-07 desarrollo móvil, SIS-10 calidad y SIS-18 UX/UI dentro de SIS-01 desarrollo de software: los portales y la EDO no las separan y ninguna universidad las declara como línea propia salvo casos aislados [E-B15][O-tabla]",
+    "SIS-13 protección de datos con SIS-03 ciberseguridad y SIS-12 auditoría: en entidades públicas el Oficial de Seguridad, el Oficial de Datos y el SGSI recaen en la misma unidad de TI [N-6][N-8]",
+    "SIS-17 administración de bases de datos con SIS-04 nube y DevOps: el privado ya lo absorbe en DevOps y datos [E-L2]"
+   ]
+  },
+  "noPuesto": {
+   "P1": [
+    "SIS-19 Soporte técnico y mesa de ayuda: puesto técnico de entrada, no de ingeniero, base S/ 1 200 [E-B1].",
+    "SIS-16 Blockchain y activos digitales: sin puestos ni negocio identificable en el Perú [E][P-S].",
+    "SIS-13 Protección de datos personales: función de cumplimiento obligatoria por norma, sin avisos de empleo ni negocio propio hoy [N-6]."
+   ],
+   "P2": [
+    "SIS-19 Soporte técnico y mesa de ayuda: puesto técnico, no de ingeniero, y el primero en automatizarse [P-S][P-L10]; tampoco es negocio propio para un titulado.",
+    "SIS-16 Blockchain y activos digitales: sin puestos ni empresas en Perú; sin evidencia de negocio propio [E][P-S].",
+    "IA generativa como especialidad (SIS-20 del justificante): herramienta transversal que redistribuye tareas, no puesto ni negocio [P-L9][P]; debe entrar como capacidad en todas las demás."
+   ],
+   "P3": [
+    "SIS-19 Soporte técnico y mesa de ayuda: puesto técnico, no de ingeniero, sin negocio propio.",
+    "SIS-16 Blockchain y activos digitales: sin puestos con ese nombre ni marco normativo en el Perú; no es negocio autónomo.",
+    "SIS-18 UX/UI: es puesto, pero de diseñador, no del título de ingeniero; fuera del alcance que habilita la colegiatura."
+   ],
+   "P4": [
+    "SIS-19 Soporte técnico: puesto técnico, no de ingeniero, y en automatización",
+    "SIS-16 Blockchain: no existe vacante con ese nombre en mi mercado",
+    "SIS-13 Protección de datos: es función de cumplimiento legal, no un puesto de ingeniería",
+    "SIS-06 Arquitectura empresarial: es un cargo senior de carrera, no una especialidad de egreso"
+   ],
+   "P5": [
+    "SIS-16 Blockchain y activos digitales: tecnología en experimentación disfrazada de especialidad, sin puesto ni negocio en Perú",
+    "SIS-08 Consultoría e implementación de ERP (SAP): producto de un proveedor, no campo; el negocio real es la integración de procesos empresariales",
+    "SIS-07 Desarrollo móvil: plataforma de despliegue del software, no especialidad ni negocio separado",
+    "SIS-19 Soporte técnico y mesa de ayuda: puesto técnico de entrada en extinción, no especialidad de ingeniero",
+    "IA generativa (fuera de cartera como SIS-20): herramienta transversal que redistribuye tareas de todas las especialidades, no campo de ejercicio"
+   ],
+   "P6": [
+    "SIS-16 blockchain: sin puestos en ninguna búsqueda ni universidad que la declare [O-tabla]",
+    "SIS-19 soporte técnico y mesa de ayuda: es puesto técnico de entrada, no de ingeniero, y no sostiene negocio propio [E-B1]",
+    "SIS-13 protección de datos: es un cargo de cumplimiento obligatorio por norma, compartido con abogados, no una especialidad de ingeniería ni un negocio [N-6]"
+   ]
+  }
+ },
+ "guardian": {
+  "rol": "G",
+  "reglas": [
+   {
+    "n": 1,
+    "veredicto": "Cumple",
+    "hallazgo": "Las 20 candidatas declaran empleo y negocio propio (1–4). Solo SIS-20 (1/2) tiene ambas ≤ 2 y está devuelta como «Recurso del 2.2 (provisional)»; SIS-19 (3/1) sale por origen en extinción, no por esta regla."
+   },
+   {
+    "n": 2,
+    "veredicto": "No cumple",
+    "hallazgo": "SIS-16 Blockchain es una tecnología y sigue valorada (25) sin destino al 2.2; SIS-08 lleva el producto «SAP» en el nombre y SIS-04 la metodología «DevOps». Solo SIS-20 IA generativa fue derivada al 2.2."
+   },
+   {
+    "n": 3,
+    "veredicto": "No cumple",
+    "hallazgo": "Cifras con [P-S] y [E-B] no tienen enlace ni fecha: déficit >2 700 científicos de datos, US$ 30 M del Estado, ProInnóvate 30 000, AWS 09-2026, 88 % edge. N-4 y N-7 citan hallazgos, no lecturas; N-B12 es búsqueda."
+   },
+   {
+    "n": 4,
+    "veredicto": "No cumple",
+    "hallazgo": "SIS-1-empleo declara que no existe serie de avisos por especialidad. SIS-06, SIS-14 y SIS-15 puntúan «crece» (3) con porcentajes de adopción; SIS-02, SIS-03 y SIS-20 con proyecciones (+20 % proyectado 2025, CAGR 2025–2029), no con series contadas."
+   },
+   {
+    "n": 5,
+    "veredicto": "Cumple",
+    "hallazgo": "Ninguna candidata valorada queda fuera del título ni de la colegiatura CIP. SIS-19, declarada «puesto técnico, no de ingeniero», está devuelta; SIS-18 UX/UI queda «en el límite» con colegiatura no exigida, dentro del alcance pero sin resolver."
+   },
+   {
+    "n": 6,
+    "veredicto": "Cumple",
+    "hallazgo": "Cartera, justificaciones y evidencias no citan el plan de la UPeU ni sus competencias; solo declaran que sigue sellado. «Competencias más demandadas» en SIS-3-prospectiva y SIS-20 es vocabulario de Experis (mercado), no del plan."
+   },
+   {
+    "n": 7,
+    "veredicto": "Cumple",
+    "hallazgo": "Las 20 filas tienen vacías las seis columnas de capacidad y la de prioridad, además de Panel y Aprobada (M3). La tabla de diferenciación de SIS-4-oferta es barrido del agente y aún no se volcó al CSV."
+   }
+  ],
+  "observaciones": [
+   "Marcadores N-n ambiguos: en SIS-2-normativa la numeración de lecturas [1]–[9] y la de hallazgos 1–7 coinciden y se cruzan (N-4 se usa para Ley 31814 y para el vacío de Contraloría; N-7 para Ley 30096 y para certificaciones). Conviene distinguir N-L y N-H.",
+   "Contradicción entre evidencias no resuelta: E-L4 registra Expectativa Neta de Empleo TI de 51 % en 1T-2026 (+24 pts interanual) y P-L9 de 15 % en Q4-2026 (−7 pp); la cartera solo usa la segunda como «desaceleración» en SIS-01 y SIS-05.",
+   "SIS-3-prospectiva remite la lista de fragmentos [S] a «el informe del agente»: cada cifra [S] usada en la cartera debe nombrar su fuente y fecha dentro de la evidencia, o marcarse como juicio del modelo.",
+   "SIS-1-empleo califica el +20 % de 2025 como «proyectado» (Michael Page, enero 2025), pero SIS-02 y SIS-03 lo usan como crecimiento observado en cre; debe rebajarse o etiquetarse como proyección.",
+   "SIS-19 registra como motivo de salida solo «origen en extinción» aunque la cartera también la declara «puesto técnico, no de ingeniero»; conviene registrar ambos motivos para que el destino sobreviva a una eventual revisión del origen."
+  ]
+ },
+ "resumen": {
+  "n": 19,
+  "esencial": 5,
+  "esencialSinUnanimidad": 0,
+  "noEsencial": 8,
+  "sinConsenso": 6,
+  "bajoUmbral": 14,
+  "guardianNoCumple": [
+   2,
+   3,
+   4
+  ]
+ }
+}

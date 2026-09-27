@@ -1,0 +1,45 @@
+function detalle(e,q){
+ /* Mini-gráficos: cada subvariable es una barra horizontal en escala 1–4 (un solo tono, etiqueta del nivel en texto,
+    peso en gris). Tooltip por barra con el dato que la sustenta (DOCIND). Sin leyenda: cada gráfico tiene una sola serie. */
+ const R=refsDe(e);
+ const limpio=t=>(t||"").replace(/\s*\[(?:[A-Z](?:-[A-Za-z0-9]+)?|método)\](\s*\[(?:[A-Z](?:-[A-Za-z0-9]+)?|método)\])*/g,"").replace(/\s+([.,;:])/g,"$1");  // quita los códigos internos de evidencia
+ const dato=(g,k)=>{ if(e.just&&e.just[k]) return limpio(e.just[k]); const D=DOCIND[g]; const s=D&&D.sub.find(x=>x[0]===k); return s?s[3]:""};
+ const NOM={vol:"Volumen de puestos",amp:"Amplitud de empleadores",esc:"Escasez",rem:"Remuneración",for:"Formalidad",cre:"Crecimiento observado",nor:"Impulso normativo",inv:"Inversión sectorial",dem:"Driver estructural",tec:"Madurez tecnológica",cri:"Criticidad",alc:"Alcance",sos:"Resistencia a la automatización"};
+ const val=k=>k in e.d?e.d[k]:(k in e.t?e.t[k]:(k in e.i?e.i[k]:e.sos));
+ const lista=(ks)=>ks.map(k=>`<li><span class="js-k">${NOM[k]}</span><span class="js-t">${e.just&&e.just[k]?limpio(e.just[k]):"Sin justificación registrada."}</span></li>`).join("");
+ const barra=(k,titulo,peso,v,g)=>{ const pct=Math.round((v-1)/3*100);
+  return `<div class="ib" tabindex="0"><div class="ib-l"><span>${titulo}</span><em>${ET[k]?ET[k][v-1]:""}</em></div>
+   <div class="ib-t"><i><u style="width:${Math.max(pct,3)}%"></u></i><b>${v}<small>/4</small></b></div>
+   <div class="ib-tip"><b>${titulo} · nivel ${v} de 4 · ${ET[k]?ET[k][v-1]:""} · peso ${peso}</b>${dato(g,k)||""}</div></div>`};
+ const grafico=(titulo,valor,peso,cit,barras)=>`<div class="ig"><div class="ig-h"><b>${titulo}</b><span class="ig-v">${valor}${typeof valor==="number"?"<small>/100</small>":""}</span><span class="ig-p"></span><span class="cts">${citas(cit)}</span></div>${barras.join("")}</div>`;
+ let cuerpo="";
+ if(q==="atr"){
+  cuerpo=`<div class="ig-cab"><div class="ig-hero"><span>Potencial del mercado laboral</span><b>${e.ATR}</b><em>puntos de 100</em><button class="ig-rb ${S.rubrica?"on":""}" data-rubrica="1">${S.rubrica?"▾ Ocultar la rúbrica":"Ver rúbrica"}</button></div>
+    <div class="ig-res">${[["Demanda",e.DEM],["Tendencia",e.TEN],["Impacto",e.IMP],["Sostenibilidad",e.SOS]].map(x=>`<div class="ig-r"><span>${x[0]}</span><b>${x[1]}<small>/100</small></b><i><u style="width:${x[1]}%"></u></i></div>`).join("")}</div></div>
+   ${S.rubrica?rubricaHTML():""}
+   <div class="ig-g">
+    ${grafico("Demanda",e.DEM,"35 % · ¿hay trabajo pagado hoy?",R.dem,[barra("vol","Volumen de puestos","35 %",e.d.vol,"dem"),barra("amp","Amplitud de empleadores","20 %",e.d.amp,"dem"),barra("esc","Escasez","20 %",e.d.esc,"dem"),barra("rem","Remuneración","15 %",e.d.rem,"dem"),barra("for","Formalidad","10 %",e.d.for,"dem")])}
+    ${grafico("Tendencia",e.TEN,"30 % · horizonte de 5 años",R.ten,[barra("cre","Crecimiento observado","30 %",e.t.cre,"ten"),barra("nor","Impulso normativo","25 %",e.t.nor,"ten"),barra("inv","Inversión sectorial","20 %",e.t.inv,"ten"),barra("dem","Driver estructural","15 %",e.t.dem,"ten"),barra("tec","Madurez tecnológica","10 %",e.t.tec,"ten")])}
+    ${grafico("Impacto",e.IMP,"",[].concat(R.imp),[barra("cri","Criticidad","60 %",e.i.cri,"imp"),barra("alc","Alcance","40 %",e.i.alc,"imp")])}
+    ${grafico("Sostenibilidad",e.SOS,"",[].concat(R.imp),[barra("sos","Resistencia a la automatización","100 %",e.sos,"sos")])}
+   </div>
+   <div class="ig-sus"><h5>Sustento</h5>
+    ${e.just?`<div class="js-g"><div><h6>Demanda</h6><ul>${lista(["vol","amp","esc","rem","for"])}</ul></div><div><h6>Tendencia</h6><ul>${lista(["cre","nor","inv","dem","tec"])}</ul></div><div><h6>Impacto</h6><ul>${lista(["cri","alc"])}</ul></div><div><h6>Sostenibilidad</h6><ul>${lista(["sos"])}</ul></div></div>`:``}
+    <div class="tx"><b>Demanda.</b> ${limpio(e.fd)}</div>
+    <div class="tx"><b>Tendencia.</b> ${limpio(e.ft)}</div>
+    ${e.fi?`<div class="tx"><b>Impacto y sostenibilidad.</b> ${limpio(e.fi)}</div>`:""}</div>`;
+ } else {
+  cuerpo=`<div class="ig-cab"><div class="ig-hero"><span>Capacidad instalada</span><b>${e.VIA===null?"—":e.VIA}</b><em>${e.VIA===null?"sin declarar":"puntos de 100"}</em></div>
+    <div class="ig-res">${[["Empleo",ET.pue[e.puesto-1],""],["Negocio propio",ET.emp[e.emprende-1],""]].map(x=>`<div class="ig-r txt"><span>${x[0]}</span><b>${x[1]}</b></div>`).join("")}</div></div>
+   <div class="ig-g">
+    ${e.VIA===null?`<div class="ig"><div class="ig-h"><b>Capacidad instalada</b></div><div class="tx">La Dirección de la Escuela todavía no ha declarado estos indicadores. Sin ellos la especialidad solo se juzga por el potencial del mercado.</div>
+      <button class="b-env sm" id="abre-cap3" style="margin-top:9px">Declarar la capacidad instalada</button></div>`
+     :grafico("Capacidad instalada",e.VIA,"30 · 25 · 20 · 15 · 10 %",R.via,[barra("doc","Docentes con el perfil","30 %",e.v.doc,null),barra("cam","Campos de práctica con convenio","25 %",e.v.cam,null),barra("inf","Infraestructura y equipamiento","20 %",e.v.inf,null),barra("dif","Diferenciación","15 %",e.v.dif||1,null),barra("hab","Habilitación normativa","10 %",e.v.hab||1,null)])}
+    <div class="ig"><div class="ig-h"><b>Qué encierra</b></div><div class="tx">${e.fnx}</div>${e.pr?`<div class="tx" style="margin-top:6px"><b>Proceso:</b> ${e.pr}</div><div class="tx"><b>Evidencia:</b> ${e.ev}</div>`:""}</div>
+    <div class="ig"><div class="ig-h"><b>Lectura</b></div><div class="tx">${frase(e)}</div>${e.modo?`<div class="tx" style="margin-top:6px"><b>Aviso que lo sustenta:</b> ${limpio(e.modo.empleo)}</div>`:""}</div>
+   </div>`;
+ }
+ const ids=[...new Set(q==="atr"?[].concat(R.dem,R.ten,R.imp):R.via)].filter(x=>REF(x)).sort((a,b)=>a-b);
+ return cuerpo+`<div class="refs"><h5>Referencias · formato APA</h5>
+  ${ids.map(x=>`<div class="ref"><span class="rn">${x}</span><span>${REF(x).t} <a href="${REF(x).u}" target="_blank" rel="noopener">${REF(x).u}</a></span></div>`).join("")}</div>`;
+}

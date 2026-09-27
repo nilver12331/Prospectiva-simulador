@@ -1,0 +1,1126 @@
+{
+ "cod": "SIS",
+ "k": "E2",
+ "especialidad": "Infraestructura en la nube, DevOps y redes",
+ "competencia": "C2",
+ "proposito": "Diseñar, automatizar y operar la plataforma tecnológica y las redes de comunicaciones de una organización, en entornos locales, híbridos y de nube, con criterios de disponibilidad, seguridad y costo, para que sus aplicaciones y comunicaciones funcionen de forma continua, escalable y eficiente.",
+ "fuentes": {
+  "O": 6,
+  "N": 14,
+  "M": 8,
+  "P": 12,
+  "A": 0,
+  "D": 0,
+  "avisos_revisados": 61,
+  "nota": "O: O*NET 15-1244.00, 15-1241.00 y 15-1299.08 (tareas sin puntaje de importancia visible) y ESCO (ingeniero de redes TIC, administrador de sistemas TIC, administrador de redes TIC) leídos vía API oficial; ESCO no tiene ocupación \"cloud engineer\" ni \"DevOps engineer\". N: RSGD 001-2018-PCM/SEGDI, D. S. 098-2025-PCM (modifica D. S. 029-2021-PCM), D. S. 085-2023-PCM, D. S. 126-2025-PCM (leído vía EY Perú; gob.pe y LP devolvieron 418/403), R. M. 320-2021-PCM, Ley 29904, guía de nube de gob.pe, informe SUNAT de estandarización Azure, CAS SUNAT 2025 (N.° 100-119 y 285) e INDECI 0028-2025, estadística INEI y OSIPTEL. M: 19 búsquedas en Computrabajo Perú (ago-sep 2026) con 70 avisos pertinentes; 61 leídos completos y codificados, 7 sin descripción accesible y 2 descartados (infraestructura civil y monitoreo HACCP); frecuencias por palabras clave revisadas a mano. No se pudo leer: nota INEI en gob.pe (418), página de Red Dorsal del MTC (404), aviso CAS SUNAT 108 en Bumeran (vacío), bases completas de CAS SUNAT 102; LinkedIn e Indeed no se consultaron. P: SFIA 9, FinOps Framework, AWS Well-Architected, Microsoft CAF, libro SRE de Google e informes Flexera 2025, State of FinOps 2025, DORA 2025, CNCF 2025 y Uptime 2025."
+ },
+ "funciones": [
+  {
+   "c": "E2-01",
+   "t": "Arquitectura de la plataforma en la nube",
+   "d": "Diseña la arquitectura de la plataforma tecnológica en la nube, híbrida o multinube, dimensionando cómputo, almacenamiento, red y servicios gestionados según carga, disponibilidad, seguridad y costo, para que las aplicaciones de la organización operen de forma continua y escalable.",
+   "fclave": "Diseñar la plataforma tecnológica, sus redes y comunicaciones",
+   "tipo": "Actual",
+   "amb": "Nube pública, nube híbrida y multinube; centros de datos locales; entidades públicas (NUBE PERÚ) y empresas privadas",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "24 de 61 avisos piden plataformas en la nube; 9 de 61 piden diseño explícito de arquitectura",
+   "conf": 3,
+   "lim": "Diseña con supervisión indirecta arquitecturas de complejidad media (una región, pocas cuentas o suscripciones); las decisiones de arquitectura corporativa, los contratos con proveedores y los compromisos de gasto los aprueba un arquitecto senior o el jefe de TI.",
+   "tasks": [
+    {
+     "code": "E2-01-T1",
+     "t": "Levantar requisitos no funcionales de carga, disponibilidad, seguridad y costo de las aplicaciones",
+     "ent": "1. Especificación de requisitos y decisiones de arquitectura"
+    },
+    {
+     "code": "E2-01-T2",
+     "t": "Seleccionar modelo de servicio y de despliegue (IaaS, PaaS, híbrido o multinube) con criterios comparados",
+     "ent": "1. Especificación de requisitos y decisiones de arquitectura"
+    },
+    {
+     "code": "E2-01-T3",
+     "t": "Diseñar la zona de aterrizaje: cuentas, redes virtuales, identidades y políticas base",
+     "ent": "2. Diseño de la zona de aterrizaje y dimensionamiento"
+    },
+    {
+     "code": "E2-01-T4",
+     "t": "Dimensionar recursos de cómputo, almacenamiento y red para la carga estimada",
+     "ent": "2. Diseño de la zona de aterrizaje y dimensionamiento"
+    },
+    {
+     "code": "E2-01-T5",
+     "t": "Documentar la arquitectura con diagramas y registros de decisión",
+     "ent": "1. Especificación de requisitos y decisiones de arquitectura"
+    },
+    {
+     "code": "E2-01-T6",
+     "t": "Revisar el diseño contra los pilares de buena arquitectura y los lineamientos de nube del Estado",
+     "ent": "3. Revisión de buena arquitectura"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque el Estado peruano ya opera servicios críticos en la nube: la SUNAT aloja el comprobante de pago electrónico en una plataforma cloud con más de veinte componentes gestionados [17] y la norma de gobierno digital fija NUBE PERÚ como bloque básico con exigencias de disponibilidad y escalabilidad [11] [10]. En el plano ocupacional, O*NET describe el desarrollo de arquitecturas de sistemas distribuidos y la verificación de su escalabilidad [3]. En el mercado, 24 de 61 avisos revisados piden plataformas en la nube y la SUNAT convoca administradores de operaciones cloud [21] [18]. Ello exige profesionales capaces de diseñar plataformas en la nube dimensionadas, seguras y documentadas.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la Política Nacional de Transformación Digital al 2030 incorpora la nube y la computación en el borde como infraestructura de servicios digitales [12], mientras AWS consolida en Lima su centro andino y reporta 49 % de participación en infraestructura como servicio [30]. Los marcos de adopción de los proveedores exigen zonas de aterrizaje y revisiones por pilares [40] [39]. Por eso es necesario que el egresado domine el diseño de la plataforma en la nube.",
+   "refs": "[3] [10] [11] [12] [17] [18] [21] [30] [39] [40]",
+   "prod": {
+    "name": "Documento de arquitectura de la plataforma en la nube",
+    "desc": "Documento de arquitectura de la plataforma en la nube que define cómo se desplegarán las aplicaciones de la organización en un entorno público, híbrido o multinube y sirve de base para aprovisionar, operar y auditar la plataforma. Integra los requisitos no funcionales, el modelo de servicio elegido, la zona de aterrizaje con cuentas, redes e identidades, el dimensionamiento de recursos y los registros de decisión. Se elabora a partir de entrevistas y datos de carga, se modela con diagramas estándar y se verifica contra los pilares de buena arquitectura y los lineamientos de nube del Estado. Orienta la decisión de inversión y de proveedor, y demuestra que el egresado diseña una plataforma que equilibra disponibilidad, seguridad y costo.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Especificación de requisitos y decisiones de arquitectura",
+      "codes": "E2-01-T1, E2-01-T2, E2-01-T5",
+      "sum": "requisitos no funcionales, alternativas evaluadas y registros de decisión",
+      "ev": [
+       "matriz de requisitos no funcionales firmada por el usuario",
+       "registro de decisiones de arquitectura con alternativas y criterios"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Diseño de la zona de aterrizaje y dimensionamiento",
+      "codes": "E2-01-T3, E2-01-T4",
+      "sum": "diagrama de cuentas, redes, identidades y cálculo de capacidad",
+      "ev": [
+       "diagrama de arquitectura de la zona de aterrizaje",
+       "hoja de dimensionamiento con supuestos de carga"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Revisión de buena arquitectura",
+      "codes": "E2-01-T6",
+      "sum": "evaluación por pilares y plan de mejoras",
+      "ev": [
+       "lista de verificación por pilares con hallazgos",
+       "plan de mejoras priorizado"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-02",
+   "t": "Migración de servicios a la nube",
+   "d": "Planifica y ejecuta el traslado de servidores, bases de datos y aplicaciones de la infraestructura local a la nube, evaluando dependencias, riesgos y costos, para modernizar los servicios sin interrumpir la operación de la organización.",
+   "fclave": "Diseñar la plataforma tecnológica, sus redes y comunicaciones",
+   "tipo": "Emergente",
+   "amb": "Empresas y entidades públicas que trasladan centros de datos locales a nube pública o híbrida; integradores y proveedores de servicios gestionados",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "7 de 61 avisos",
+   "conf": 3,
+   "lim": "Ejecuta con supervisión indirecta migraciones de cargas no críticas o por oleadas acotadas; la migración de sistemas críticos, la ventana de corte y la aceptación final las autoriza el responsable del servicio.",
+   "tasks": [
+    {
+     "code": "E2-02-T1",
+     "t": "Inventariar servidores, aplicaciones y dependencias candidatas a migrar",
+     "ent": "1. Evaluación de cartera de migración"
+    },
+    {
+     "code": "E2-02-T2",
+     "t": "Clasificar cada carga por estrategia de migración (rehospedar, replataformar o refactorizar)",
+     "ent": "1. Evaluación de cartera de migración"
+    },
+    {
+     "code": "E2-02-T3",
+     "t": "Estimar costo y riesgo de la migración y del estado final",
+     "ent": "1. Evaluación de cartera de migración"
+    },
+    {
+     "code": "E2-02-T4",
+     "t": "Ejecutar la migración por oleadas con pruebas de validación",
+     "ent": "2. Plan y acta de corte por oleadas"
+    },
+    {
+     "code": "E2-02-T5",
+     "t": "Conducir el corte a producción con plan de retorno",
+     "ent": "2. Plan y acta de corte por oleadas"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque solo el 9 % de las empresas peruanas alcanza madurez digital avanzada y el 73 % está en proceso de transformación, lo que empuja el traslado de cargas locales a la nube [30]. La norma de la Secretaría de Gobierno Digital orienta a las entidades hacia servicios en la nube y exige informar sus modelos de despliegue [10] [16]. ESCO incluye desarrollar métodos de migración automatizada y migrar datos existentes entre las competencias del ingeniero de redes y del administrador de sistemas [4] [5]. En el mercado, 7 de 61 avisos piden migraciones, entre ellos WIN y la Universidad Cayetano Heredia [22] [25]. Ello exige profesionales capaces de migrar servicios sin interrumpir la operación.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la Política Nacional de Transformación Digital al 2030 extiende la digitalización de servicios a todas las entidades públicas y a las empresas del Estado [12]. Además, el marco de adopción de Azure sitúa la migración y modernización de cargas como fase central de todo programa de nube [40]. Por eso es necesario que el egresado domine la migración planificada de servicios a la nube.",
+   "refs": "[4] [5] [10] [12] [16] [22] [25] [30] [40]",
+   "prod": {
+    "name": "Plan de migración a la nube por oleadas",
+    "desc": "Plan de migración a la nube por oleadas que define qué cargas se trasladan, en qué orden y con qué estrategia, y sirve para modernizar la plataforma sin cortar el servicio. Integra el inventario de servidores y aplicaciones con sus dependencias, la estrategia elegida para cada carga, la estimación de costo y riesgo, el cronograma de oleadas y el plan de retorno. Se elabora con herramientas de descubrimiento y entrevistas a responsables de sistemas, y se verifica con pruebas funcionales y de rendimiento antes y después de cada corte. Orienta la decisión de qué modernizar primero y demuestra que el egresado conduce una migración controlada, medible y reversible.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Evaluación de cartera de migración",
+      "codes": "E2-02-T1, E2-02-T2, E2-02-T3",
+      "sum": "inventario, estrategia por carga y estimación de costo y riesgo",
+      "ev": [
+       "inventario de cargas con mapa de dependencias",
+       "matriz de estrategia por carga con costo estimado"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Plan y acta de corte por oleadas",
+      "codes": "E2-02-T4, E2-02-T5",
+      "sum": "cronograma de oleadas, pruebas y plan de retorno ejecutado",
+      "ev": [
+       "plan de oleadas con criterios de aceptación",
+       "acta de corte con resultados de pruebas y retorno probado"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-03",
+   "t": "Diseño e implementación de redes corporativas",
+   "d": "Diseña, configura y pone en servicio las redes de datos locales, de área amplia e inalámbricas de la organización, con su direccionamiento, segmentación y enrutamiento, para que sedes, usuarios y sistemas se comuniquen de forma fiable y segura.",
+   "fclave": "Diseñar la plataforma tecnológica, sus redes y comunicaciones",
+   "tipo": "Actual",
+   "amb": "Redes LAN, WAN e inalámbricas de empresas, entidades públicas, industria y minería; integradores de infraestructura TIC; redes virtuales en la nube",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "28 de 61 avisos (11 piden diseño o cálculo de red explícito)",
+   "conf": 3,
+   "lim": "Diseña e implementa con supervisión indirecta redes de sede o campus de tamaño medio; los cambios de enrutamiento del núcleo o del proveedor y los diseños multisede críticos requieren aprobación de un ingeniero de redes senior.",
+   "tasks": [
+    {
+     "code": "E2-03-T1",
+     "t": "Levantar requisitos de conectividad, tráfico y crecimiento de las sedes",
+     "ent": "1. Diseño lógico y físico de la red"
+    },
+    {
+     "code": "E2-03-T2",
+     "t": "Diseñar la topología, el direccionamiento IP y la segmentación en redes virtuales",
+     "ent": "1. Diseño lógico y físico de la red"
+    },
+    {
+     "code": "E2-03-T3",
+     "t": "Calcular el dimensionamiento de enlaces y equipos de red",
+     "ent": "1. Diseño lógico y físico de la red"
+    },
+    {
+     "code": "E2-03-T4",
+     "t": "Configurar conmutadores, enrutadores y puntos de acceso inalámbricos",
+     "ent": "2. Configuración y protocolo de pruebas de la red"
+    },
+    {
+     "code": "E2-03-T5",
+     "t": "Probar conectividad y rendimiento y documentar la red instalada",
+     "ent": "2. Configuración y protocolo de pruebas de la red"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque solo el 23,6 % de los hogares rurales accede a internet frente al 80,5 % de Lima Metropolitana, y cerrar esa brecha requiere redes diseñadas en todo el país [27]. En el plano normativo, la SUNAT convoca especialistas para administrar la plataforma de red, el cableado estructurado y los nodos de intranet [19]. O*NET y ESCO describen el diseño, la configuración y la prueba de redes LAN y WAN como tarea central de arquitectos y administradores de red [2] [6]. En el mercado, 28 de 61 avisos piden configurar redes y 11 exigen diseñarlas o calcularlas [21] [24]. Ello exige profesionales capaces de diseñar e implementar redes corporativas fiables y documentadas.",
+   "imp": "Medio",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la Ley de Promoción de la Banda Ancha declara de interés nacional el despliegue de redes de alta capacidad hasta todos los distritos [15], y las conexiones fijas en regiones crecieron 15 % en 2025 [28]. El diseño de red además se extiende a topologías virtuales y conectividad híbrida con la nube [9]. Por eso es necesario que el egresado domine el diseño y la implementación de redes corporativas.",
+   "refs": "[2] [6] [9] [15] [19] [21] [24] [27] [28]",
+   "prod": {
+    "name": "Expediente técnico de la red corporativa",
+    "desc": "Expediente técnico de la red corporativa que describe cómo se conectan las sedes, los usuarios y los sistemas de la organización y sirve como referencia para instalar, operar y ampliar la red. Integra los requisitos de tráfico y crecimiento, la topología lógica y física, el plan de direccionamiento y segmentación, el cálculo de enlaces y equipos, y las configuraciones finales. Se elabora con levantamiento en sitio y herramientas de diseño, y se verifica con pruebas de conectividad, rendimiento y conmutación por falla antes de la entrega. Orienta la decisión de compra de equipos y enlaces, y demuestra que el egresado entrega una red funcional, segmentada y documentada.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Diseño lógico y físico de la red",
+      "codes": "E2-03-T1, E2-03-T2, E2-03-T3",
+      "sum": "topología, plan de direccionamiento, segmentación y cálculo de capacidad",
+      "ev": [
+       "diagrama de topología lógica y física",
+       "plan de direccionamiento y segmentación"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Configuración y protocolo de pruebas de la red",
+      "codes": "E2-03-T4, E2-03-T5",
+      "sum": "configuraciones respaldadas, pruebas de aceptación y diagramas finales",
+      "ev": [
+       "respaldo de configuraciones de equipos",
+       "protocolo de pruebas de conectividad y rendimiento firmado"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-04",
+   "t": "Implementación de servicios de telecomunicaciones",
+   "d": "Implementa y pone en servicio enlaces de comunicaciones, redes de acceso de fibra, telefonía IP y comunicaciones de campo, coordinando con operadores y contratistas, para que la organización y sus usuarios cuenten con comunicaciones de voz y datos continuas.",
+   "fclave": "Diseñar la plataforma tecnológica, sus redes y comunicaciones",
+   "tipo": "Actual",
+   "amb": "Operadores y proveedores de internet, entidades públicas, minería e industria, gestión del riesgo de desastres, centros de contacto",
+   "evid": "O,N,M",
+   "unica": false,
+   "frec": "25 de 61 avisos",
+   "conf": 3,
+   "lim": "Implementa con supervisión indirecta enlaces, servicios de voz IP y redes de acceso de alcance local; la ingeniería de radiofrecuencia, el diseño de red troncal del operador y los trámites de concesión quedan fuera del alcance del egresado.",
+   "tasks": [
+    {
+     "code": "E2-04-T1",
+     "t": "Especificar los requisitos técnicos de enlaces y servicios de voz y datos",
+     "ent": "1. Especificación técnica de servicios de comunicaciones"
+    },
+    {
+     "code": "E2-04-T2",
+     "t": "Coordinar con operadores y contratistas la instalación de enlaces y equipos de acceso",
+     "ent": "1. Especificación técnica de servicios de comunicaciones"
+    },
+    {
+     "code": "E2-04-T3",
+     "t": "Configurar servicios de telefonía IP y troncales de voz",
+     "ent": "2. Acta de puesta en servicio de comunicaciones"
+    },
+    {
+     "code": "E2-04-T4",
+     "t": "Aprovisionar y validar servicios en redes de acceso de fibra",
+     "ent": "2. Acta de puesta en servicio de comunicaciones"
+    },
+    {
+     "code": "E2-04-T5",
+     "t": "Medir la calidad de los enlaces y documentar la puesta en servicio",
+     "ent": "2. Acta de puesta en servicio de comunicaciones"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque el país registra 4,38 millones de conexiones fijas, el 82 % por fibra, y 38,2 millones de líneas móviles con tráfico, que exigen enlaces y servicios instalados y validados [28] [29]. La SUNAT convoca especialistas para gestionar enlaces de telecomunicaciones y telefonía IP, e INDECI para operar infraestructura móvil de comunicaciones de emergencia [19] [20]. O*NET incluye implementar y dar soporte a servicios de voz y centrales telefónicas [1]. En el mercado, 25 de 61 avisos piden fibra, telefonía IP, enlaces o redes de acceso [21] [26]. Ello exige profesionales capaces de implementar servicios de comunicaciones continuos y medidos.",
+   "imp": "Medio",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque la Ley de Promoción de la Banda Ancha exige integrar con redes de alta capacidad a todas las capitales de provincia y distritos [15]. La Política Nacional de Transformación Digital desplaza además el foco del acceso a la calidad de la conectividad [12]. Por eso es necesario que el egresado domine la implementación de servicios de telecomunicaciones.",
+   "refs": "[1] [12] [15] [19] [20] [21] [26] [28] [29]",
+   "prod": {
+    "name": "Expediente de puesta en servicio de comunicaciones",
+    "desc": "Expediente de puesta en servicio de comunicaciones que acredita que los enlaces, los servicios de voz IP y los accesos de fibra de una sede o proyecto quedaron instalados y operativos. Integra la especificación técnica, la coordinación con operadores y contratistas, las configuraciones de voz y de acceso, las mediciones de calidad y la conformidad del usuario. Se elabora durante la instalación con equipos de medición y registros de configuración, y se verifica con pruebas de extremo a extremo y umbrales de calidad pactados. Orienta la decisión de aceptar el servicio o reclamar al proveedor, y demuestra que el egresado implementa comunicaciones continuas y verificables.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Especificación técnica de servicios de comunicaciones",
+      "codes": "E2-04-T1, E2-04-T2",
+      "sum": "requisitos de enlaces, voz y datos y cronograma con operadores",
+      "ev": [
+       "especificación técnica aprobada",
+       "cronograma de instalación coordinado con operadores"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Acta de puesta en servicio de comunicaciones",
+      "codes": "E2-04-T3, E2-04-T4, E2-04-T5",
+      "sum": "configuraciones de voz y acceso, mediciones de calidad y conformidad",
+      "ev": [
+       "mediciones de calidad de enlace y de voz",
+       "acta de conformidad del servicio"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-05",
+   "t": "Aprovisionamiento automatizado de la infraestructura",
+   "d": "Aprovisiona y configura servidores, redes y servicios en la nube mediante código versionado y reutilizable, para que la plataforma se cree de forma reproducible, auditable y sin errores manuales.",
+   "fclave": "Automatizar el aprovisionamiento y el despliegue",
+   "tipo": "Emergente",
+   "amb": "Equipos de plataforma y DevOps de empresas digitales, banca, telecomunicaciones, consultoras e integradores; entornos de nube pública e híbrida",
+   "evid": "O,M,P",
+   "unica": false,
+   "frec": "17 de 61 avisos piden automatización o scripting; 4 piden explícitamente infraestructura como código",
+   "conf": 3,
+   "lim": "Escribe y aplica módulos de infraestructura con supervisión indirecta y revisión por pares; la aplicación de cambios en producción y las políticas de seguridad como código las aprueba el responsable de plataforma.",
+   "tasks": [
+    {
+     "code": "E2-05-T1",
+     "t": "Codificar la infraestructura en módulos versionados",
+     "ent": "1. Repositorio de infraestructura como código"
+    },
+    {
+     "code": "E2-05-T2",
+     "t": "Parametrizar entornos de desarrollo, pruebas y producción",
+     "ent": "1. Repositorio de infraestructura como código"
+    },
+    {
+     "code": "E2-05-T3",
+     "t": "Automatizar la configuración de servidores y equipos de red con guiones",
+     "ent": "1. Repositorio de infraestructura como código"
+    },
+    {
+     "code": "E2-05-T4",
+     "t": "Validar el código con revisiones y pruebas antes de aplicarlo",
+     "ent": "2. Registro de validación y aplicación de cambios"
+    },
+    {
+     "code": "E2-05-T5",
+     "t": "Aplicar los cambios y registrar el estado de la infraestructura",
+     "ent": "2. Registro de validación y aplicación de cambios"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque las fallas de TI y de red ya explican el 23 % de las caídas graves, atribuidas a la mayor complejidad, a errores de configuración y a la gestión de cambios [37]. ESCO asigna al administrador de sistemas automatizar tareas rutinarias y SFIA 9 exige automatizar la administración con herramientas y guiones desde el nivel 3 [5] [8]. En el mercado, 17 de 61 avisos piden automatización y el aviso de DevOps de Indra exige diseñar infraestructura con Terraform, Ansible y GitOps [21] [23]. En el Perú, el 60 % de las empresas declara dificultades para cubrir vacantes tecnológicas [31]. Ello exige profesionales capaces de aprovisionar infraestructura reproducible y auditable.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el 90 % de las organizaciones ya adoptó al menos una plataforma interna y su calidad determina el valor que obtienen de la IA [35]. Los proveedores de nube también fijan la excelencia operativa como pilar de arquitectura [39]. Por eso es necesario que el egresado domine el aprovisionamiento automatizado de la infraestructura.",
+   "refs": "[5] [8] [21] [23] [31] [35] [37] [39]",
+   "prod": {
+    "name": "Repositorio versionado de infraestructura como código",
+    "desc": "Repositorio versionado de infraestructura como código que describe en archivos legibles la plataforma completa y permite recrearla en cualquier entorno. Integra módulos reutilizables de red, cómputo y almacenamiento, variables por entorno, guiones de configuración y la documentación de uso. Se elabora con control de versiones y revisiones por pares, y se verifica con validaciones automáticas y un plan de ejecución revisado antes de aplicar cada cambio. Orienta la decisión de aprobar o rechazar un cambio de infraestructura y demuestra que el egresado automatiza la plataforma de forma reproducible.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Repositorio de infraestructura como código",
+      "codes": "E2-05-T1, E2-05-T2, E2-05-T3",
+      "sum": "módulos, variables por entorno y guiones de configuración versionados",
+      "ev": [
+       "repositorio con historial de versiones",
+       "módulos reutilizables con documentación de uso"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registro de validación y aplicación de cambios",
+      "codes": "E2-05-T4, E2-05-T5",
+      "sum": "resultados de pruebas, plan de cambios y estado aplicado",
+      "ev": [
+       "reporte de validación o plan de ejecución revisado",
+       "registro del estado de la infraestructura tras la aplicación"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-06",
+   "t": "Integración y despliegue continuo de aplicaciones",
+   "d": "Construye y mantiene los flujos automatizados que compilan, prueban, empaquetan en contenedores y despliegan las aplicaciones en los entornos de la organización, para entregar cambios frecuentes y seguros a producción.",
+   "fclave": "Automatizar el aprovisionamiento y el despliegue",
+   "tipo": "Emergente",
+   "amb": "Equipos DevOps y de plataforma en empresas de software, banca, telecomunicaciones y entidades públicas con desarrollo propio",
+   "evid": "M,P",
+   "unica": false,
+   "frec": "7 de 61 avisos",
+   "conf": 3,
+   "lim": "Construye y ajusta flujos de despliegue con supervisión indirecta; la liberación a producción de sistemas críticos y la administración de clústeres productivos la autoriza el responsable de plataforma.",
+   "tasks": [
+    {
+     "code": "E2-06-T1",
+     "t": "Diseñar las etapas del flujo de integración y despliegue",
+     "ent": "1. Flujo de integración y despliegue en operación"
+    },
+    {
+     "code": "E2-06-T2",
+     "t": "Empaquetar las aplicaciones en imágenes de contenedor",
+     "ent": "1. Flujo de integración y despliegue en operación"
+    },
+    {
+     "code": "E2-06-T3",
+     "t": "Configurar el despliegue en clústeres de contenedores y servicios de nube",
+     "ent": "1. Flujo de integración y despliegue en operación"
+    },
+    {
+     "code": "E2-06-T4",
+     "t": "Integrar controles de calidad y de seguridad en el flujo",
+     "ent": "1. Flujo de integración y despliegue en operación"
+    },
+    {
+     "code": "E2-06-T5",
+     "t": "Medir la frecuencia de despliegue y la tasa de fallos de cambio",
+     "ent": "2. Tablero de métricas de entrega"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque el 82 % de las organizaciones que usan contenedores ya ejecuta Kubernetes en producción, frente al 66 % en 2023 [36]. SFIA 9 separa las habilidades de gestión de liberaciones y de despliegue para reflejar el trabajo en la nube [7]. En el mercado peruano, 7 de 61 avisos piden flujos de integración y despliegue continuos, y la plataforma cloud de la SUNAT ya opera servicios de contenedores [21] [17]. El aviso de Indra exige integrar seguridad en flujos de despliegue [23]. Ello exige profesionales capaces de automatizar entregas frecuentes y seguras.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el 90 % de los profesionales ya usa IA en su trabajo y el informe DORA 2025 muestra que el beneficio depende de plataformas y flujos de entrega sólidos [35]. Además, el 66 % de quienes alojan modelos generativos los sirve sobre Kubernetes [36]. Por eso es necesario que el egresado domine la integración y el despliegue continuo de aplicaciones.",
+   "refs": "[7] [17] [21] [23] [35] [36]",
+   "prod": {
+    "name": "Flujo automatizado de integración y despliegue",
+    "desc": "Flujo automatizado de integración y despliegue que lleva cada cambio de código desde el repositorio hasta producción de forma repetible y controlada. Integra las etapas de compilación y pruebas, el empaquetado en contenedores, los manifiestos de despliegue, los controles de calidad y seguridad y un tablero de métricas de entrega. Se elabora con herramientas de automatización y control de versiones, y se verifica con ejecuciones completas, pruebas de reversión y la medición de fallos de cambio. Orienta la decisión de liberar o detener una versión y demuestra que el egresado entrega software en producción de forma frecuente y segura.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Flujo de integración y despliegue en operación",
+      "codes": "E2-06-T1, E2-06-T2, E2-06-T3, E2-06-T4",
+      "sum": "etapas, imágenes, manifiestos de despliegue y controles integrados",
+      "ev": [
+       "definición del flujo versionada",
+       "ejecución exitosa registrada hasta el entorno de pruebas o producción"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Tablero de métricas de entrega",
+      "codes": "E2-06-T5",
+      "sum": "frecuencia de despliegue, tiempo de entrega y fallos de cambio",
+      "ev": [
+       "tablero con métricas de entrega de al menos un ciclo"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-07",
+   "t": "Administración de servidores y plataformas virtualizadas",
+   "d": "Instala, configura, actualiza y mantiene servidores físicos y virtuales, sistemas operativos, servicios de directorio y almacenamiento, en local y en la nube, para que los sistemas de la organización funcionen de forma estable y segura.",
+   "fclave": "Operar la plataforma y asegurar su continuidad",
+   "tipo": "Actual",
+   "amb": "Centros de datos locales y nube de empresas, clínicas, universidades, industria, minería y entidades públicas",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "32 de 61 avisos",
+   "conf": 4,
+   "lim": "Administra sin supervisión servidores y plataformas de virtualización de alcance departamental siguiendo procedimientos aprobados; los cambios mayores en sistemas críticos pasan por el comité de cambios.",
+   "tasks": [
+    {
+     "code": "E2-07-T1",
+     "t": "Instalar y configurar servidores físicos, máquinas virtuales y sistemas operativos",
+     "ent": "1. Servidores configurados con línea base"
+    },
+    {
+     "code": "E2-07-T2",
+     "t": "Administrar servicios de directorio, identidades y permisos",
+     "ent": "1. Servidores configurados con línea base"
+    },
+    {
+     "code": "E2-07-T3",
+     "t": "Aplicar actualizaciones y parches según calendario de cambios",
+     "ent": "2. Registro de mantenimiento y manual de procedimientos"
+    },
+    {
+     "code": "E2-07-T4",
+     "t": "Administrar almacenamiento y plataformas de virtualización",
+     "ent": "1. Servidores configurados con línea base"
+    },
+    {
+     "code": "E2-07-T5",
+     "t": "Documentar configuraciones y procedimientos operativos",
+     "ent": "2. Registro de mantenimiento y manual de procedimientos"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque 32 de 61 avisos revisados en el Perú piden administrar servidores Windows y Linux, virtualización o directorio, en sectores como salud, retail, minería y educación [21] [22]. O*NET describe mantener y administrar redes, hardware, software de sistemas y sus configuraciones, y ESCO asigna al administrador de sistemas la configuración, el funcionamiento fiable y la seguridad de servidores [1] [5]. La SUNAT convoca expertos de infraestructura tecnológica para bases de datos, almacenamiento y servicios web [18]. Ello exige profesionales capaces de administrar servidores y plataformas virtualizadas de forma estable y segura.",
+   "imp": "Medio",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque SFIA 9 redefine las operaciones de infraestructura para entornos físicos, virtuales y de nube a la vez [8]. La adopción de la nube no elimina los servidores: el gasto en nube proyecta crecer 28 % y el 60 % de las organizaciones recurre a proveedores de servicios gestionados [32]. Por eso es necesario que el egresado domine la administración de servidores y plataformas virtualizadas.",
+   "refs": "[1] [5] [8] [18] [21] [22] [32]",
+   "prod": {
+    "name": "Línea base de configuración y manual operativo de servidores",
+    "desc": "Línea base de configuración y manual operativo de servidores que fija cómo debe estar configurado cada servidor y cómo se mantiene en el tiempo. Integra el inventario de servidores físicos y virtuales, los estándares de sistema operativo, directorio y almacenamiento, el calendario de parches y los procedimientos operativos. Se elabora a partir de las guías del fabricante y de la política de seguridad de la organización, y se verifica con revisiones de cumplimiento de la línea base y el registro de cambios aplicados. Orienta la decisión de actualizar, reemplazar o reforzar servidores, y demuestra que el egresado mantiene la plataforma estable y segura.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Servidores configurados con línea base",
+      "codes": "E2-07-T1, E2-07-T2, E2-07-T4",
+      "sum": "servidores, directorio y almacenamiento configurados según estándar",
+      "ev": [
+       "línea base de configuración aplicada",
+       "inventario de servidores y máquinas virtuales actualizado"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registro de mantenimiento y manual de procedimientos",
+      "codes": "E2-07-T3, E2-07-T5",
+      "sum": "parches aplicados, cambios ejecutados y procedimientos documentados",
+      "ev": [
+       "registro de parches y cambios aplicados",
+       "manual de procedimientos operativos vigente"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-08",
+   "t": "Operación y soporte de servicios de infraestructura",
+   "d": "Atiende, diagnostica y resuelve incidentes, requerimientos y cambios de la infraestructura y de la red dentro de acuerdos de nivel de servicio, desde un centro de operaciones o mesa de soporte especializada, para restablecer y sostener la operación de los usuarios y clientes.",
+   "fclave": "Operar la plataforma y asegurar su continuidad",
+   "tipo": "Actual",
+   "amb": "Centros de operaciones de red, mesas de servicio de nivel 2 y 3, proveedores de internet, fintech, clínicas, universidades y entidades públicas",
+   "evid": "O,M,P",
+   "unica": false,
+   "frec": "48 de 61 avisos",
+   "conf": 4,
+   "lim": "Resuelve sin supervisión incidentes y requerimientos de nivel 1 y 2 con procedimientos documentados; los incidentes mayores y los cambios de alto riesgo se escalan al responsable de operaciones.",
+   "tasks": [
+    {
+     "code": "E2-08-T1",
+     "t": "Registrar, clasificar y priorizar incidentes y requerimientos",
+     "ent": "1. Registro de incidentes y cambios atendidos"
+    },
+    {
+     "code": "E2-08-T2",
+     "t": "Diagnosticar fallas de servidores, red y servicios con herramientas de prueba",
+     "ent": "1. Registro de incidentes y cambios atendidos"
+    },
+    {
+     "code": "E2-08-T3",
+     "t": "Restablecer el servicio o escalar según procedimiento y acuerdo de nivel",
+     "ent": "1. Registro de incidentes y cambios atendidos"
+    },
+    {
+     "code": "E2-08-T4",
+     "t": "Gestionar cambios estándar con registro y aprobación",
+     "ent": "1. Registro de incidentes y cambios atendidos"
+    },
+    {
+     "code": "E2-08-T5",
+     "t": "Analizar incidentes recurrentes y proponer acciones correctivas",
+     "ent": "2. Informe de problemas recurrentes"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque 48 de 61 avisos revisados piden atender incidentes, tickets o turnos de centro de operaciones, en su mayoría en proveedores de internet de fibra [21] [26]. O*NET incluye diagnosticar y resolver problemas de hardware, software y red, y consultar a los usuarios sobre soluciones [1]. ESCO asigna al administrador de sistemas gestionar cambios y dar soporte a los usuarios [5]. SFIA 9 describe investigar problemas operativos y ejecutar cambios acordados en el nivel 4 [8]. Ello exige profesionales capaces de restablecer servicios dentro de acuerdos de nivel.",
+   "imp": "Medio",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el reglamento del Marco de Confianza Digital obliga desde 2026 a notificar incidentes de seguridad digital en 48 horas, lo que exige registro y clasificación rigurosos [13]. Además, la proporción de caídas por no seguir procedimientos subió diez puntos en 2025 [37]. Por eso es necesario que el egresado domine la operación y el soporte de servicios de infraestructura.",
+   "refs": "[1] [5] [8] [13] [21] [26] [37]",
+   "prod": {
+    "name": "Registro de operación de servicios con análisis de problemas",
+    "desc": "Registro de operación de servicios con análisis de problemas que documenta cómo se detectaron, atendieron y cerraron los incidentes, requerimientos y cambios de la infraestructura en un periodo. Integra los tickets con su clasificación, diagnóstico y tiempos, los cambios estándar aprobados, el cumplimiento de los acuerdos de nivel y el análisis de causa de los problemas recurrentes. Se elabora en la herramienta de gestión de servicios durante la operación diaria y se verifica con indicadores de tiempo de respuesta y de resolución. Orienta la decisión de corregir procedimientos o invertir en mejoras, y demuestra que el egresado sostiene la operación con disciplina y trazabilidad.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Registro de incidentes y cambios atendidos",
+      "codes": "E2-08-T1, E2-08-T2, E2-08-T3, E2-08-T4",
+      "sum": "tickets con diagnóstico, solución, tiempos y cambios aprobados",
+      "ev": [
+       "tickets cerrados dentro del acuerdo de nivel",
+       "registro de cambios con aprobación"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de problemas recurrentes",
+      "codes": "E2-08-T5",
+      "sum": "análisis de causa y acciones correctivas propuestas",
+      "ev": [
+       "análisis de causa raíz de un problema recurrente"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-09",
+   "t": "Respaldo y recuperación ante desastres",
+   "d": "Diseña, ejecuta y prueba las políticas de respaldo, réplica y recuperación de servidores, datos y servicios, en local y en la nube, para que la organización restablezca sus sistemas dentro de los tiempos acordados ante fallas o desastres.",
+   "fclave": "Operar la plataforma y asegurar su continuidad",
+   "tipo": "Actual",
+   "amb": "Centros de datos y nube de entidades públicas, banca, salud, industria y servicios; planes de continuidad operativa",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "25 de 61 avisos",
+   "conf": 3,
+   "lim": "Ejecuta respaldos y pruebas de recuperación con supervisión indirecta; la definición de objetivos de tiempo y punto de recuperación y la activación del plan ante desastre las decide la dirección con el responsable de continuidad.",
+   "tasks": [
+    {
+     "code": "E2-09-T1",
+     "t": "Definir con los usuarios los objetivos de tiempo y punto de recuperación por servicio",
+     "ent": "1. Política de respaldo y réplica configurada"
+    },
+    {
+     "code": "E2-09-T2",
+     "t": "Configurar políticas de respaldo y réplica en local y en la nube",
+     "ent": "1. Política de respaldo y réplica configurada"
+    },
+    {
+     "code": "E2-09-T3",
+     "t": "Verificar la integridad de los respaldos periódicamente",
+     "ent": "1. Política de respaldo y réplica configurada"
+    },
+    {
+     "code": "E2-09-T4",
+     "t": "Ejecutar simulacros de recuperación y medir tiempos reales",
+     "ent": "2. Informe de simulacro y procedimientos de recuperación"
+    },
+    {
+     "code": "E2-09-T5",
+     "t": "Actualizar los procedimientos de recuperación tecnológica del plan de continuidad",
+     "ent": "2. Informe de simulacro y procedimientos de recuperación"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque casi el 40 % de las organizaciones sufrió caídas graves por error humano en los últimos tres años [37]. La norma peruana obliga a las entidades a formular planes de continuidad operativa y exige medidas de continuidad para los bloques de gobierno digital [14] [11]. O*NET incluye realizar respaldos y operaciones de recuperación ante desastres, y ESCO implementar sistemas de recuperación [1] [5]. En el mercado, 25 de 61 avisos piden respaldos, contingencia o continuidad operativa [21] [22]. Ello exige profesionales capaces de recuperar servicios dentro de los tiempos acordados.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el reglamento del Marco de Confianza Digital, vigente desde 2026, obliga a gestionar riesgos e incidentes de seguridad digital en actividades críticas [13]. Además, los incidentes de ciberseguridad crecen y tienen impactos graves y duraderos [37]. Por eso es necesario que el egresado domine el respaldo y la recuperación ante desastres.",
+   "refs": "[1] [5] [11] [13] [14] [21] [22] [37]",
+   "prod": {
+    "name": "Plan de recuperación tecnológica ante desastres",
+    "desc": "Plan de recuperación tecnológica ante desastres que establece cómo se restauran los servidores, los datos y los servicios críticos tras una falla grave y es el componente tecnológico del plan de continuidad operativa. Integra los objetivos de tiempo y punto de recuperación por servicio, las políticas de respaldo y réplica, los procedimientos de restauración y los resultados de simulacros. Se elabora con los responsables de cada servicio y se verifica mediante simulacros periódicos que miden los tiempos reales frente a los comprometidos. Orienta la decisión de invertir en réplica o sitio alterno, y demuestra que el egresado asegura la recuperación de la plataforma.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Política de respaldo y réplica configurada",
+      "codes": "E2-09-T1, E2-09-T2, E2-09-T3",
+      "sum": "objetivos de recuperación, esquemas de respaldo y verificaciones",
+      "ev": [
+       "matriz de objetivos de recuperación por servicio",
+       "reporte de verificación de integridad de respaldos"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de simulacro y procedimientos de recuperación",
+      "codes": "E2-09-T4, E2-09-T5",
+      "sum": "resultados medidos del simulacro y procedimientos actualizados",
+      "ev": [
+       "acta de simulacro con tiempos medidos",
+       "procedimientos de recuperación actualizados"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-10",
+   "t": "Observabilidad y confiabilidad del servicio",
+   "d": "Instrumenta la plataforma con métricas, registros, trazas y alertas, define indicadores y objetivos de nivel de servicio y analiza su cumplimiento, para anticipar fallas y sostener la disponibilidad que requieren los usuarios.",
+   "fclave": "Observar y proteger la disponibilidad del servicio",
+   "tipo": "Emergente",
+   "amb": "Centros de operaciones, equipos de confiabilidad de sitio y de plataforma en proveedores de internet, fintech, banca y entidades con servicios digitales",
+   "evid": "O,N,M,P",
+   "unica": false,
+   "frec": "51 de 61 avisos piden monitoreo, alertas o disponibilidad",
+   "conf": 3,
+   "lim": "Instrumenta servicios y configura tableros y alertas con supervisión indirecta; la definición de objetivos de nivel comprometidos con clientes y la política de presupuesto de error la aprueba el responsable del servicio.",
+   "tasks": [
+    {
+     "code": "E2-10-T1",
+     "t": "Definir indicadores y objetivos de nivel de servicio con los usuarios",
+     "ent": "2. Informe de confiabilidad del servicio"
+    },
+    {
+     "code": "E2-10-T2",
+     "t": "Instrumentar servidores, redes y aplicaciones con métricas, registros y trazas",
+     "ent": "1. Tablero de observabilidad con alertas"
+    },
+    {
+     "code": "E2-10-T3",
+     "t": "Configurar tableros y alertas con umbrales accionables",
+     "ent": "1. Tablero de observabilidad con alertas"
+    },
+    {
+     "code": "E2-10-T4",
+     "t": "Analizar tendencias de disponibilidad y rendimiento",
+     "ent": "2. Informe de confiabilidad del servicio"
+    },
+    {
+     "code": "E2-10-T5",
+     "t": "Reportar el cumplimiento de objetivos y el consumo del presupuesto de error",
+     "ent": "2. Informe de confiabilidad del servicio"
+    }
+   ],
+   "dem": "Alta",
+   "fd": "Esta función tiene demanda porque 51 de 61 avisos revisados en el Perú piden monitorear infraestructura, gestionar alertas o asegurar disponibilidad [21] [26]. El reglamento de gobierno digital exige disponibilidad, escalabilidad y seguridad a los bloques básicos del Estado [11]. O*NET incluye monitorear el rendimiento de la red y registrar métricas de disponibilidad [1] [2]. La ingeniería de confiabilidad define indicadores, objetivos y presupuesto de error como mecanismo de control del servicio [38]. Ello exige profesionales capaces de instrumentar la plataforma y medir su confiabilidad.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque OpenTelemetry es el segundo proyecto de mayor velocidad de la CNCF y casi el 20 % de las organizaciones ya incorpora perfilado a su observabilidad [36]. Además, la creciente complejidad de TI y de red ya explica el 23 % de las caídas graves [37]. Por eso es necesario que el egresado domine la observabilidad y la confiabilidad del servicio.",
+   "refs": "[1] [2] [11] [21] [26] [36] [37] [38]",
+   "prod": {
+    "name": "Sistema de observabilidad con objetivos de nivel de servicio",
+    "desc": "Sistema de observabilidad con objetivos de nivel de servicio que permite ver en tiempo real el estado de la plataforma y saber si cumple lo prometido a los usuarios. Integra la instrumentación de servidores, redes y aplicaciones, los tableros y alertas, el catálogo de indicadores y objetivos y el informe periódico de cumplimiento. Se elabora con herramientas de monitoreo y registros centralizados, y se verifica con pruebas de alerta, revisión de falsos positivos y contraste con incidentes reales. Orienta la decisión de priorizar confiabilidad o nuevas funciones, y demuestra que el egresado anticipa fallas y sostiene la disponibilidad.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Tablero de observabilidad con alertas",
+      "codes": "E2-10-T2, E2-10-T3",
+      "sum": "métricas, registros, trazas, tableros y alertas en operación",
+      "ev": [
+       "tablero en operación con datos reales",
+       "catálogo de alertas con umbrales y responsables"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de confiabilidad del servicio",
+      "codes": "E2-10-T1, E2-10-T4, E2-10-T5",
+      "sum": "indicadores definidos, tendencias y cumplimiento de objetivos",
+      "ev": [
+       "documento de indicadores y objetivos acordados",
+       "informe periódico de cumplimiento y presupuesto de error"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-11",
+   "t": "Protección perimetral de redes y plataformas",
+   "d": "Configura y mantiene cortafuegos, redes privadas virtuales, segmentación y controles de acceso de red en local y en la nube, y endurece los equipos expuestos, para proteger el perímetro de la plataforma frente a accesos no autorizados.",
+   "fclave": "Observar y proteger la disponibilidad del servicio",
+   "tipo": "Transversal",
+   "amb": "Redes corporativas, sedes remotas, nube pública e híbrida; empresas y entidades públicas sujetas al Marco de Confianza Digital",
+   "evid": "O,N,M",
+   "unica": false,
+   "frec": "19 de 61 avisos",
+   "conf": 3,
+   "lim": "Configura reglas y accesos con supervisión indirecta según la política de seguridad; la definición de la política, el análisis forense y la respuesta a incidentes mayores corresponden a la función de seguridad de la información.",
+   "tasks": [
+    {
+     "code": "E2-11-T1",
+     "t": "Diseñar la segmentación y las zonas de seguridad de la red",
+     "ent": "1. Arquitectura y reglas de seguridad perimetral"
+    },
+    {
+     "code": "E2-11-T2",
+     "t": "Configurar reglas de cortafuegos y grupos de seguridad en la nube",
+     "ent": "1. Arquitectura y reglas de seguridad perimetral"
+    },
+    {
+     "code": "E2-11-T3",
+     "t": "Implementar redes privadas virtuales para sedes y accesos remotos",
+     "ent": "1. Arquitectura y reglas de seguridad perimetral"
+    },
+    {
+     "code": "E2-11-T4",
+     "t": "Endurecer equipos y servidores expuestos y aplicar parches de seguridad",
+     "ent": "2. Informe de endurecimiento y revisión perimetral"
+    },
+    {
+     "code": "E2-11-T5",
+     "t": "Revisar periódicamente reglas y registros de acceso perimetral",
+     "ent": "2. Informe de endurecimiento y revisión perimetral"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque el 23 % de las caídas graves de 2024 se originó en fallas de TI y de red, y los incidentes de ciberseguridad van en aumento [37]. El reglamento del Marco de Confianza Digital exige controles de seguridad y notificación de incidentes [13]. O*NET incluye planificar e implementar medidas de seguridad de red, y ESCO administrar firewalls, pasarelas VPN y parches [1] [6]. En el mercado, 19 de 61 avisos piden cortafuegos, VPN o endurecimiento [21] [24]. Ello exige profesionales capaces de proteger el perímetro de la plataforma.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el reglamento del Marco de Confianza Digital entró en vigencia en febrero de 2026 y obliga a los proveedores de servicios digitales de sectores críticos a implementar controles de seguridad [13]. Además, la Política Nacional de Transformación Digital al 2030 promueve la confianza en el entorno digital como eje de la economía digital [12]. Por eso es necesario que el egresado domine la protección perimetral de redes y plataformas.",
+   "refs": "[1] [6] [12] [13] [21] [24] [37]",
+   "prod": {
+    "name": "Arquitectura de seguridad perimetral documentada",
+    "desc": "Arquitectura de seguridad perimetral documentada que define cómo se separan y protegen las zonas de la red y de la nube, y qué tráfico puede entrar o salir de cada una. Integra el diagrama de zonas, la matriz de reglas de cortafuegos y grupos de seguridad, los túneles de acceso remoto, la lista de endurecimiento aplicada y la revisión periódica de reglas. Se elabora a partir de la política de seguridad y del inventario de servicios expuestos, y se verifica con pruebas de conectividad permitida y denegada y la revisión de registros de acceso. Orienta la decisión de abrir o cerrar accesos y demuestra que el egresado protege el perímetro con criterio y trazabilidad.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Arquitectura y reglas de seguridad perimetral",
+      "codes": "E2-11-T1, E2-11-T2, E2-11-T3",
+      "sum": "zonas, reglas de filtrado y túneles cifrados documentados",
+      "ev": [
+       "matriz de reglas aprobada",
+       "diagrama de zonas y túneles"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de endurecimiento y revisión perimetral",
+      "codes": "E2-11-T4, E2-11-T5",
+      "sum": "controles aplicados, reglas depuradas y hallazgos",
+      "ev": [
+       "lista de verificación de endurecimiento aplicada",
+       "informe de revisión de reglas y accesos"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-12",
+   "t": "Optimización de costos y capacidad",
+   "d": "Analiza el uso, el rendimiento y el gasto de la plataforma, ajusta el tamaño de los recursos y proyecta la capacidad futura, para que la organización pague solo lo que necesita y crezca sin degradar el servicio.",
+   "fclave": "Optimizar el rendimiento y el costo de la plataforma",
+   "tipo": "Emergente",
+   "amb": "Organizaciones con gasto en nube pública o híbrida, proveedores de internet, universidades y entidades públicas con presupuesto restringido",
+   "evid": "O,M,P",
+   "unica": false,
+   "frec": "10 de 61 avisos",
+   "conf": 3,
+   "lim": "Analiza el gasto y el uso y propone ajustes con supervisión indirecta; los compromisos de compra, reservas de capacidad y cambios de proveedor los aprueban la jefatura de TI y el área de finanzas.",
+   "tasks": [
+    {
+     "code": "E2-12-T1",
+     "t": "Etiquetar y asignar el gasto de nube por servicio y área",
+     "ent": "1. Informe de optimización de costos"
+    },
+    {
+     "code": "E2-12-T2",
+     "t": "Analizar el uso y el rendimiento de los recursos frente a su costo",
+     "ent": "1. Informe de optimización de costos"
+    },
+    {
+     "code": "E2-12-T3",
+     "t": "Ajustar el tamaño de los recursos y eliminar los ociosos",
+     "ent": "1. Informe de optimización de costos"
+    },
+    {
+     "code": "E2-12-T4",
+     "t": "Proyectar la demanda de capacidad y el presupuesto de la plataforma",
+     "ent": "2. Plan de capacidad y presupuesto"
+    },
+    {
+     "code": "E2-12-T5",
+     "t": "Reportar a la dirección el costo unitario y los ahorros logrados",
+     "ent": "2. Plan de capacidad y presupuesto"
+    }
+   ],
+   "dem": "Media",
+   "fd": "Esta función tiene demanda porque el 84 % de las organizaciones declara que gestionar el gasto en nube es su principal desafío y sus presupuestos de nube se exceden en 17 % [32]. ESCO asigna al administrador de redes ajustar la capacidad del sistema y prever necesidades futuras, y O*NET incluye monitorear el rendimiento para anticipar cambios [6] [1]. En el mercado peruano, 10 de 61 avisos piden optimizar recursos, capacidad o costos, entre ellos WIN y la Universidad Cayetano Heredia [21] [22] [25]. Ello exige profesionales capaces de optimizar costo y capacidad con evidencia de uso.",
+   "imp": "Alto",
+   "ji": "En los próximos 5 años, esta función tendrá impacto porque el 63 % de los equipos FinOps ya gestiona gasto de IA, frente al 31 % del año anterior, y la gobernanza de costos pasa a ser su prioridad [33]. El marco FinOps organiza esta práctica en informar, optimizar y operar con responsabilidad financiera compartida [34]. Por eso es necesario que el egresado domine la optimización de costos y capacidad.",
+   "refs": "[1] [6] [21] [22] [25] [32] [33] [34]",
+   "prod": {
+    "name": "Informe de optimización de costos y capacidad de la plataforma",
+    "desc": "Informe de optimización de costos y capacidad de la plataforma que muestra cuánto cuesta cada servicio, dónde hay desperdicio y cuánta capacidad se necesitará. Integra la asignación del gasto por servicio y área, el análisis de uso y rendimiento, los ajustes de tamaño aplicados, la proyección de capacidad y el costo unitario. Se elabora con datos de facturación y de monitoreo, y se verifica comparando el gasto y el rendimiento antes y después de cada ajuste. Orienta la decisión de presupuesto y de compra de capacidad, y demuestra que el egresado equilibra costo, rendimiento y crecimiento de la plataforma.",
+    "ents": [
+     {
+      "n": "1",
+      "t": "Informe de optimización de costos",
+      "codes": "E2-12-T1, E2-12-T2, E2-12-T3",
+      "sum": "asignación del gasto, hallazgos de uso y ajustes aplicados",
+      "ev": [
+       "reporte de gasto asignado por servicio",
+       "lista de recomendaciones aplicadas con ahorro medido"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Plan de capacidad y presupuesto",
+      "codes": "E2-12-T4, E2-12-T5",
+      "sum": "proyección de demanda, capacidad requerida y presupuesto",
+      "ev": [
+       "proyección de capacidad a doce meses",
+       "presentación de costo unitario a la dirección"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "refs": [
+  [
+   "[1]",
+   "O*NET OnLine. Summary Report for 15-1244.00 — Network and Computer Systems Administrators. 2026",
+   "https://www.onetonline.org/link/summary/15-1244.00",
+   "Verificado"
+  ],
+  [
+   "[2]",
+   "O*NET OnLine. Summary Report for 15-1241.00 — Computer Network Architects. 2026",
+   "https://www.onetonline.org/link/summary/15-1241.00",
+   "Verificado"
+  ],
+  [
+   "[3]",
+   "O*NET OnLine. Summary Report for 15-1299.08 — Computer Systems Engineers/Architects. 2026",
+   "https://www.onetonline.org/link/summary/15-1299.08",
+   "Verificado"
+  ],
+  [
+   "[4]",
+   "Comisión Europea. ESCO: Ingeniero de redes de TIC (CIUO 2523). 2026",
+   "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d&language=es",
+   "Verificado"
+  ],
+  [
+   "[5]",
+   "Comisión Europea. ESCO: Administrador de sistemas de TIC (CIUO 2522). 2026",
+   "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9e2e6e1e-363b-4e1b-a673-7bc0f7343300&language=es",
+   "Verificado"
+  ],
+  [
+   "[6]",
+   "Comisión Europea. ESCO: Administrador de redes de TIC. 2026",
+   "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/81480b40-a318-47f3-9b2c-56b69ed67d95&language=es",
+   "Verificado"
+  ],
+  [
+   "[7]",
+   "SFIA Foundation. SFIA 9 release notes: Cloud computing skills (ITOP, NTAS, NTDS, RELM, DEPL, COPL, CPMG y prototipos FinOps). 2024",
+   "https://sfia-online.org/en/sfia-9/sfia-9-release-notes/cloud-computing-skills",
+   "Verificado"
+  ],
+  [
+   "[8]",
+   "SFIA Foundation. SFIA 9: Infrastructure operations (ITOP). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/infrastructure-operations",
+   "Verificado"
+  ],
+  [
+   "[9]",
+   "SFIA Foundation. SFIA 9: Network design (NTDS). 2024",
+   "https://sfia-online.org/en/sfia-9/skills/network-design",
+   "Verificado"
+  ],
+  [
+   "[10]",
+   "PCM-SEGDI. Resolución de Secretaría de Gobierno Digital N.° 001-2018-PCM/SEGDI: Lineamientos para el uso de servicios en la nube para entidades de la Administración Pública. El Peruano, 2018",
+   "https://busquedas.elperuano.pe/api/visor_html/1605580-1",
+   "Verificado"
+  ],
+  [
+   "[11]",
+   "PCM. Decreto Supremo N.° 098-2025-PCM que modifica el Reglamento de la Ley de Gobierno Digital (D. S. N.° 029-2021-PCM): NUBE PERÚ como bloque básico, disponibilidad, escalabilidad y continuidad. El Peruano, 2025",
+   "https://busquedas.elperuano.pe/dispositivo/NL/2423580-2",
+   "Verificado"
+  ],
+  [
+   "[12]",
+   "PCM. Decreto Supremo N.° 085-2023-PCM que aprueba la Política Nacional de Transformación Digital al 2030. El Peruano, 2023",
+   "https://busquedas.elperuano.pe/dispositivo/NL/2200457-5",
+   "Verificado"
+  ],
+  [
+   "[13]",
+   "EY Perú. Reglamento del Marco de Confianza Digital (Decreto Supremo N.° 126-2025-PCM): notificación de incidentes en 48 horas, vigencia 3-feb-2026. 2025",
+   "https://www.ey.com/es_pe/technical/tax-alert/reglamento-ley-marco-confianza-digital-medidas-fortalecimiento",
+   "Verificado"
+  ],
+  [
+   "[14]",
+   "PCM. Resolución Ministerial N.° 320-2021-PCM: Lineamientos para la Gestión de la Continuidad Operativa de las entidades públicas. El Peruano, 2021",
+   "https://elperuano.pe/NormasElperuano/2021/12/31/2026593-2/2026593-2.htm",
+   "Verificado"
+  ],
+  [
+   "[15]",
+   "Congreso de la República. Ley N.° 29904, Ley de Promoción de la Banda Ancha y Construcción de la Red Dorsal Nacional de Fibra Óptica (texto en OSIPTEL). 2012",
+   "https://www.osiptel.gob.pe/media/vrxbedml/ley-29904.pdf",
+   "Verificado"
+  ],
+  [
+   "[16]",
+   "PCM-SGTD. Guía de creación de servicios digitales: Computación en la nube. s. f.",
+   "https://guias.servicios.gob.pe/creacion-servicios-digitales/tecnologia/nube",
+   "Verificado"
+  ],
+  [
+   "[17]",
+   "SUNAT. Informe N.° 000027-2025-SUNAT/8B7100: Estandarización del servicio de suscripción de la plataforma cloud Microsoft Azure para el comprobante de pago electrónico. 2025",
+   "https://www.sunat.gob.pe/cuentassunat/adquisiciones/estandarizacionBsSs/2025/Informe-DPG-000027-ri-000102-2025.pdf",
+   "Verificado"
+  ],
+  [
+   "[18]",
+   "Portal Trabajos. SUNAT: convocatorias CAS 2025 N.° 100-119 (administrador de operaciones cloud, expertos de infraestructura tecnológica). 2025",
+   "https://www.portaltrabajos.pe/2025/05/sunat-inspectores-tributarios-expertos-infraestructura.html",
+   "Verificado"
+  ],
+  [
+   "[19]",
+   "Trabajando.pe. SUNAT, CAS N.° 285-2025: Especialista de infraestructura tecnológica (redes, cableado, enlaces, telefonía IP). 2025",
+   "https://trabajando.pe/trabajo/sunat-lima-13-cas-no-285-2025-especialista-de-infraestructura-tecnologica/",
+   "Verificado"
+  ],
+  [
+   "[20]",
+   "INDECI. Proceso CAS N.° 0028-2025-INDECI: Especialista en infraestructura móvil de comunicaciones. 2025",
+   "https://portal.indeci.gob.pe/wp-content/uploads/2025/01/Proceso-CAS-0028-2025-ESPECIALISTA-INFRAESTUCTURA-MOVIL-DE-COMUNICACIONES.pdf",
+   "Verificado"
+  ],
+  [
+   "[21]",
+   "Computrabajo Perú. Barrido de 19 búsquedas (DevOps, cloud, AWS, Azure, Kubernetes, redes, NOC, infraestructura, telecomunicaciones): 61 avisos leídos, ago-sep 2026",
+   "https://pe.computrabajo.com/trabajo-de-administrador-de-redes",
+   "Verificado"
+  ],
+  [
+   "[22]",
+   "WIN (Computrabajo). Administrador de Infraestructura Cloud + On Premise. 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-administrador-de-infraestructura-cloud-on-premise-en-lima-B6AC834B8E90B46D61373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[23]",
+   "Indra (Computrabajo). DevOps Engineer: IaC, Kubernetes, GitOps, DevSecOps. 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-devops-engineer-cemibk-en-san-isidro-E60AFCD5EB766F5361373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[24]",
+   "IDELCOM (Computrabajo). Ingeniero de Redes y Comunicaciones. 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-de-redes-y-comunicaciones-colegiado-en-lima-CC634950315159DB61373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[25]",
+   "Universidad Peruana Cayetano Heredia (Computrabajo). Especialista de Plataformas Cloud. 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-especialista-de-plataformas-cloud-san-martin-de-porres-en-san-martin-de-porres-A828FAE5A35011B061373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[26]",
+   "Grupo JBA – Tu Fibra (Computrabajo). Coordinador de NOC Ingeniero de Redes. 2026",
+   "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-de-noc-ingeniero-de-redes-carabayllo-comas-en-carabayllo-7B94A098D742A7CB61373E686DCF3405",
+   "Verificado"
+  ],
+  [
+   "[27]",
+   "INEI. Informe técnico: Estadísticas de las Tecnologías de Información y Comunicación en los Hogares, abril-mayo-junio 2025. 2025",
+   "https://www.inei.gob.pe/media/MenuRecursivo/boletines/informetecnico_tics_iit25.pdf",
+   "Verificado"
+  ],
+  [
+   "[28]",
+   "OSIPTEL. Más del 82 % de conexiones de internet fijo usa fibra óptica (cierre 2025). 2026",
+   "https://www.osiptel.gob.pe/portal-del-usuario/noticias/mas-del-82-de-conexiones-de-internet-fijo-usa-fibra-optica/",
+   "Verificado"
+  ],
+  [
+   "[29]",
+   "OSIPTEL. ¿Cuántas líneas móviles hay en Perú al cierre de 2025?. 2026",
+   "https://www.osiptel.gob.pe/portal-del-usuario/noticias/osiptel-cu%C3%A1ntas-l%C3%ADneas-m%C3%B3viles-hay-en-per%C3%BA-al-cierre-de-2025/",
+   "Verificado"
+  ],
+  [
+   "[30]",
+   "Gestión. AWS consolida su operación en Perú y proyecta expansión en la región andina. 2025",
+   "https://gestion.pe/economia/empresas/aws-consolida-su-operacion-en-peru-y-proyecta-expansion-en-la-region-andina-noticia/",
+   "Verificado"
+  ],
+  [
+   "[31]",
+   "Gestión. Demanda de perfiles tecnológicos creció un 15 %: ¿qué buscan las empresas peruanas? (estudio ISIL – U. Siglo 21). 2024",
+   "https://gestion.pe/economia/empresas/demanda-de-perfiles-tecnologicos-crecio-un-15-que-buscan-las-empresas-peruanas-ia-ciberseguridad-datos-isil-talento-automatizacion-tecnologia-noticia/",
+   "Verificado"
+  ],
+  [
+   "[32]",
+   "Flexera. 2025 State of the Cloud Report: 84 % de organizaciones con dificultades para gestionar el gasto en nube. 2025",
+   "https://www.flexera.com/about-us/press-center/new-flexera-report-finds-84-percent-of-organizations-struggle-to-manage-cloud-spend",
+   "Verificado"
+  ],
+  [
+   "[33]",
+   "FinOps Foundation. State of FinOps 2025. 2025",
+   "https://data.finops.org/2025-report/",
+   "Verificado"
+  ],
+  [
+   "[34]",
+   "FinOps Foundation. FinOps Framework. 2025",
+   "https://www.finops.org/framework/",
+   "Verificado"
+  ],
+  [
+   "[35]",
+   "Google Cloud. Announcing the 2025 DORA Report: State of AI-assisted Software Development. 2025",
+   "https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report",
+   "Verificado"
+  ],
+  [
+   "[36]",
+   "CNCF. Kubernetes established as the de facto operating system for AI as production use hits 82 % in 2025 Annual Cloud Native Survey. 2026",
+   "https://www.cncf.io/announcements/2026/01/20/kubernetes-established-as-the-de-facto-operating-system-for-ai-as-production-use-hits-82-in-2025-cncf-annual-cloud-native-survey/",
+   "Verificado"
+  ],
+  [
+   "[37]",
+   "Uptime Institute. Annual Outage Analysis Report 2025 (nota de prensa). 2025",
+   "https://uptimeinstitute.com/about-ui/press-releases/uptime-announces-annual-outage-analysis-report-2025",
+   "Verificado"
+  ],
+  [
+   "[38]",
+   "Google. Site Reliability Engineering, cap. 4: Service Level Objectives. 2016",
+   "https://sre.google/sre-book/service-level-objectives/",
+   "Verificado"
+  ],
+  [
+   "[39]",
+   "Amazon Web Services. AWS Well-Architected Framework: The pillars of the framework. 2025",
+   "https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html",
+   "Verificado"
+  ],
+  [
+   "[40]",
+   "Microsoft. Cloud Adoption Framework for Azure: overview. 2026",
+   "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview",
+   "Verificado"
+  ]
+ ]
+}

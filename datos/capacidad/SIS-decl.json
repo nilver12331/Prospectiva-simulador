@@ -1,0 +1,234 @@
+{
+ "cod": "SIS",
+ "tipo": "borrador de declaración de la Dirección",
+ "fecha": "24-09-2026",
+ "responsable": "Dirección de la EP de Ingeniería de Sistemas · UPeU",
+ "nota": "Borrador preparado con información pública verificable (agente Génesys, paso 1.1 momento 4). La Dirección debe confirmar, corregir y firmar cada valor. Fechas de las fuentes = fecha de consulta; el año de publicación va en el título.",
+ "items": [
+  {
+   "cod": "SIS-01",
+   "especialidad": "Desarrollo de software e ingeniería de aplicaciones",
+   "doc": 4,
+   "cam": 3,
+   "inf": 3,
+   "estado": "con evidencia",
+   "docentes": "Equipo formado inferido por tesis asesoradas en desarrollo web y móvil (2019-2026): Eder Gutierrez Quispe, Joseph Ibrahim Cruz Rodriguez, Danny Lévano Rodríguez, Immer Elías Cuellar Rodríguez, Roel Dante Gómez Apaza, Abel Angel Sullon Macalupu, David Mamani Pari, Milton Edward Humpiri Flores, Yngue Elízabeth Ramírez Pezo. Mg. Fernando Asín reconocido por excelencia académica 2023-2.",
+   "campos": "28 convenios para prácticas preprofesionales declarados por la FIA (sin detalle por empresa). Convenio marco en coordinación con IATEC (Instituto Adventista de Tecnología) para prácticas de estudiantes de Sistemas y desarrollo de software (feb. 2022; firma no verificada). Empresas de software donde egresados sustentan informes de desempeño: Negosy SAC, Well Done Solutions / WDS. Investidura de prácticas preprofesionales a 25 estudiantes en Juliaca (2022) en instituciones con convenio.",
+   "infraestructura": "Centro de Innovación Tecnológica (Lima-Ñaña, inaugurado 15-08-2023): tercer piso con laboratorio especializado con domótica para prácticas de Ingeniería de Sistemas y Eureka Lab. Laboratorios de computación modernizados en campus Tarapoto (2022). Microsoft 365 como entorno de trabajo. No hay inventario público de equipos ni de licencias de desarrollo.",
+   "fuentes": [
+    {"t": "UPeU. (2026). Ingeniería de Sistemas - FIA (convenios, tecnología, sedes)", "u": "https://upeu.edu.pe/facultad-de-ingenieria/ingenieria-sistemas/", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2023). Inauguración del Centro de Innovación Tecnológica de la Universidad Peruana Unión", "u": "https://upeu.edu.pe/inauguracion-del-centro-de-innovacion-tecnologico-de-la-universidad-peruana-union/", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2022). Se inauguraron nuevas instalaciones en la UPeU Campus Tarapoto", "u": "https://upeu.edu.pe/se-inauguraron-nuevas-instalaciones-en-la-upeu-campus-tarapoto/", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2022). UPeU se reúne para coordinar firma de convenio marco y comparte su suite de aplicaciones con IATEC", "u": "https://upeu.edu.pe/upeu-se-reune-para-coordinar-firma-de-convenio-marco-y-comparte-su-suite-de-aplicaciones-con-iatec/", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2022). Ceremonia de investidura de prácticas preprofesionales a 25 estudiantes de Ingeniería de Sistemas de la UPeU Juliaca", "u": "https://upeu.edu.pe/ceremonia-de-investidura-de-practicas-preprofesionales-a-25-estudiantes-de-ingenieria-de-sistemas-de-la-upeu-juliaca/", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2022). Calcina Vilcapaza, M. Desarrollo de un sistema web utilizando Framework LoopBack 4 y NuxtJS (asesor: Gutierrez Quispe, Eder)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/5511", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2019). Fernandez Guevara, E.; Flores Chura, H. Implementación de la aplicación Control Residente bajo SCRUM y XP (asesor: Cruz Rodriguez, Joseph Ibrahim)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/2759", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2025). Prada Linarez, D.; Guerrero Pusma, O. Modelo arquitectónico adaptativo para la escalabilidad de sistemas (asesor: Lévano Rodríguez, Danny)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/9171", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2025). Cachay Valdivia, J. Informe de suficiencia profesional en la compañía de software Negosy SAC (asesora: Ramírez Pezo, Yngue Elízabeth)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/9184", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2026). Soncco Ramos, M. Informe de desempeño profesional en Well Done Solutions 2023-2026 (asesor: Gómez Apaza, Roel Dante)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/10589", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2024). UPeU reconoce a 15 docentes del campus Lima por su excelencia académica durante el ciclo 2023-2 (Mg. Fernando Asín, EP Ingeniería de Sistemas)", "u": "https://upeu.edu.pe/en/noticias/upeu-reconoce-a-15-docentes-del-campus-lima-por-su-excelencia-academica-durante-el-ciclo-2023-2/", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-02",
+   "especialidad": "Ciencia de datos e inteligencia artificial",
+   "doc": 4,
+   "cam": 3,
+   "inf": 3,
+   "estado": "estimado · por confirmar por la Dirección",
+   "docentes": "Equipo formado (doc con evidencia): Angel Rosendo Condori Coaquira (ML clasificación de quinua, deep learning café), Nemias Saboya Rios (aprendizaje automático e-commerce, CNN+LSTM), Jorge Alejandro Sánchez Garcés (ML financiero), Roel Dante Gómez Apaza (ML rendimiento académico), Miguel Angel Valles Coral (visión artificial cacao), Abel Angel Sullon Macalupu (CNN naranjos), Fredy Abel Huanca Torres (YOLO/TrOCR, chatbot), Danny Lévano Rodríguez y equipo Juliaca (IA + sensores para heladas, 2026). En posgrado: PhD Javier Linkolk López Gonzales (ML en series temporales ambientales, 2025). La FIA ofrece además la EP de Ingeniería en Ciencia de Datos e IA. Los indicadores cam e inf son estimados.",
+   "campos": "Escenarios de investigación aplicada: CITEacuícola Ahuashiyacu (Tarapoto) como sitio de validación del prototipo IoT+CNN de tilapia (proyecto PIA-PDT2024-01, S/ 30 000); parcelas agrícolas en Caracoto-Juliaca (heladas). 42 convenios de investigación declarados por la FIA. No se halló convenio firmado específico de prácticas en ciencia de datos; nivel 3 estimado.",
+   "infraestructura": "Laboratorios de computación (CIT Lima 2023; Tarapoto 2022) y acceso a AWS Academy (nube). No hay evidencia pública de laboratorio con GPU o de licencias de plataformas de datos; nivel 3 estimado.",
+   "fuentes": [
+    {"t": "UPeU. (2025). Innovación acuícola: investigadores de la UPeU crean dispositivo inteligente para optimizar la producción de tilapia en la selva peruana", "u": "https://upeu.edu.pe/innovacion-acuicola-investigadores-de-la-upeu-crean-dispositivo-inteligente-para-optimizar-la-produccion-de-tilapia-en-la-selva-peruana/", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2026). UPeU desarrolla tecnología que protege cultivos de papa y apoya a familias frente a heladas en el altiplano", "u": "https://upeu.edu.pe/upeu-desarrolla-tecnologia-que-protege-cultivos-de-papa-y-apoya-a-familias-frente-a-heladas-en-el-altiplano/", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2025). Investigador de la UPeU liderará sesión sobre ciencia de datos ambientales en congreso internacional (LACSC 2025)", "u": "https://upeu.edu.pe/investigador-de-la-upeu-liderara-sesion-sobre-ciencia-de-datos-ambientales-en-congreso-internacional/", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2026). Ingeniería en Ciencia de Datos e Inteligencia Artificial - FIA (alianzas AWS Academy, Cisco, Fortinet)", "u": "https://upeu.edu.pe/facultad-de-ingenieria/ciencia-de-datos/", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2020). Quispe Valero, P. Aplicación web para clasificar granos de quinua aplicando machine learning (asesor: Condori Coaquira, Angel Rosendo)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/4658", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2023). Cotacallapa Mamani, H. Enfoque plano-jerárquico basado en aprendizaje automático para clasificación de productos de e-commerce (asesor: Saboya Rios, Nemias)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/7043", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2019). Lipa Choque, D. Sistema computacional basado en machine learning para proyectar el estado de resultados (asesor: Sánchez Garcés, Jorge Alejandro)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/1976", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2021). Rojas Pari, R. Modelo de aprendizaje automático supervisado para identificar patrones de bajo rendimiento académico (asesor: Gómez Apaza, Roel Dante)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/4505", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2023). Chuquipoma Fermín, O.; Arapa Mejia, J. Sistema experto basado en visión artificial para diagnóstico de plagas de cacao (asesor: Valles Coral, Miguel Angel)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/6751", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2026). Quispe Valero, J. Modelo de extracción de información del DNI peruano mediante YOLO y TrOCR (asesor: Huanca Torres, Fredy Abel)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/10609", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2020). UPeU firma acuerdo con AWS Academy", "u": "https://upeu.edu.pe/upeu-firma-acuerdo-con-aws-academy-que-permitira-que-estudiantes-accedan-a-cursos-y-obtengan-certificaciones-reconocidas/", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-03",
+   "especialidad": "Ciberseguridad y gestión de riesgos digitales",
+   "doc": 4,
+   "cam": 3,
+   "inf": 3,
+   "estado": "estimado · por confirmar por la Dirección",
+   "docentes": "Equipo formado (doc con evidencia) por tesis asesoradas en ISO 27001/27002, IDS/IPS y controles: Immer Elías Cuellar Rodríguez (ISO 27001 en municipalidades e Induamerica), Jorge Eddy Otazu Luque (IDS/IPS UPeU Juliaca), Miguel Angel Valles Coral (ISO 27001 municipalidad), Lizeth Geanina Huanca López (ISO 27002 en Bitness Corp y Unión Peruana del Norte), Fernando Manuel Asin Gomez (controles de protección de datos), Nemias Saboya Rios (detección de contraseñas filtradas CNN+LSTM, 2026). La FIA ofrece además la EP de Ingeniería de Ciberseguridad. Los indicadores cam e inf son estimados.",
+   "campos": "Alianza con Fortinet declarada en las páginas de la FIA (sin detalle público del convenio). Organizaciones donde se aplicaron tesis: municipalidades (Florida-Bongará), Induamerica Chiclayo SAC, Bitness Corp SAC, Unión Peruana del Norte, UPeU Juliaca. Nivel 3 estimado: no se verificó convenio firmado vigente con SOC, empresa de seguridad o entidad de gobierno.",
+   "infraestructura": "Sistema IDS/IPS implementado en UPeU Juliaca (tesis 2019), laboratorio de redes y comunicación en Tarapoto (2022), laboratorios de computación del CIT (2023), alianza Fortinet. Sin evidencia pública de laboratorio de ciberseguridad o cyber range; nivel 3 estimado.",
+   "fuentes": [
+    {"t": "UPeU. (2026). Ingeniería de Ciberseguridad - FIA (alianzas AWS Academy, Cisco Systems, Fortinet)", "u": "https://upeu.edu.pe/facultad-de-ingenieria/ciberseguridad/", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2021). Bustamante Garcia, S. Políticas basadas en ISO 27001:2013 y gestión de seguridad de la información en municipalidades de Perú (asesor: Cuellar Rodríguez, Immer Elías)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/4374", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2019). Coyla Jarita, Y. Implementación de un IDS/IPS basado en ISO 27001 para el monitoreo perimetral en la UPeU Filial Juliaca (asesor: Otazu Luque, Jorge Eddy)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/2002", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2018). Cabrera Cubas, H. Modelo de políticas ISO 27001 para la Municipalidad Distrital de Florida - Bongará (asesor: Valles Coral, Miguel Angel)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/1542", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2022). Linares Fernandez, E.; Balverdi Cruz, L. Modelo de políticas de seguridad ISO/IEC 27001:2013 y Magerit para Induamerica Chiclayo SAC (asesor: Cuellar Rodríguez, Immer Elías)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/5316", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2021). Alvarado Limaymanta, G.; Sánchez Torre, M. Seguridad de la información con controles ISO 27002:2015 en Bitness Corp SAC (asesora: Huanca López, Lizeth Geanina)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/4660", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2018). Gavidia Mamani, S.; Torres Torres, L. Implementación de controles ISO/IEC 27002:2013 en el área de TI de la Unión Peruana del Norte (asesora: Huanca López, Lizeth Geanina)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/1094", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2026). Alarcon Llanos, M. et al. Aplicativo inteligente basado en CNN+LSTM para identificar contraseñas filtradas (asesor: Saboya Rios, Nemias)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/10572", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2022). Se inauguraron nuevas instalaciones en la UPeU Campus Tarapoto (laboratorio de redes y comunicación)", "u": "https://upeu.edu.pe/se-inauguraron-nuevas-instalaciones-en-la-upeu-campus-tarapoto/", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-04",
+   "especialidad": "Infraestructura en la nube y DevOps",
+   "doc": 3,
+   "cam": 3,
+   "inf": 3,
+   "estado": "con evidencia",
+   "docentes": "Equipo parcial inferido por tesis asesoradas: Angel Rosendo Condori Coaquira (CI/CD para aplicaciones empresariales 2020; modelo CI/CD para Very Small Entities 2025), Roel Dante Gómez Apaza (informes de desempeño en WDS / Well Done Solutions 2025-2026), Danny Lévano Rodríguez (arquitectura escalable 2025). El acuerdo AWS Academy (2020) contempla docentes acreditados por AWS, sin lista pública de acreditados.",
+   "campos": "Acuerdo firmado con AWS Academy (09-09-2020): cursos gratuitos, exámenes de práctica y 50 % de descuento en certificaciones AWS; vigencia actual no verificada públicamente. Empresas de software donde egresados sustentan informes con despliegue continuo: Well Done Solutions / WDS. Data Center Apurímac (informe de operación e incidencias, 2025). 28 convenios de prácticas de la FIA sin detalle.",
+   "infraestructura": "AWS Academy provee laboratorios en la nube; laboratorios de computación del CIT (2023) y Tarapoto (2022); Microsoft 365. No hay evidencia pública de centro de datos académico propio ni de clúster de contenedores; nivel 3 (parcial).",
+   "fuentes": [
+    {"t": "UPeU. (2020). UPeU firma acuerdo con AWS Academy que permitirá que estudiantes accedan a cursos y obtengan certificaciones reconocidas (Dra. Érika Acuña Salinas, directora EP Sistemas)", "u": "https://upeu.edu.pe/upeu-firma-acuerdo-con-aws-academy-que-permitira-que-estudiantes-accedan-a-cursos-y-obtengan-certificaciones-reconocidas/", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2026). Ingeniería de Software - FIA (alianzas AWS Academy, Cisco Systems, Fortinet)", "u": "https://upeu.edu.pe/facultad-de-ingenieria/ingenieria-de-software/", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2020). Mamani Larico, B. Implementación de ambientes de integración y despliegue continuo (CI/CD) para aplicaciones empresariales (asesor: Condori Coaquira, Angel Rosendo)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/4863", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2025). Ccallo Luque, M.; Quispe Quispe, A. Diseño de un modelo de CI/CD adaptado para Very Small Entities (asesor: Condori Coaquira, Angel Rosendo)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/9126", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2025). Higuera Quispe, C. Informe sobre la experiencia profesional desarrollada en WDS 2023-2025 (asesor: Gómez Apaza, Roel Dante)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/9504", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2025). Ccaypani Vasquez, J. Gestión de incidencias, escalamiento y operación del Data Center Apurímac (asesor: Humpiri Flores, Milton Edward)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/9462", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2023). Inauguración del Centro de Innovación Tecnológica de la Universidad Peruana Unión", "u": "https://upeu.edu.pe/inauguracion-del-centro-de-innovacion-tecnologico-de-la-universidad-peruana-union/", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-05",
+   "especialidad": "Gestión de proyectos y servicios de TI",
+   "doc": 4,
+   "cam": 3,
+   "inf": 3,
+   "estado": "estimado · por confirmar por la Dirección",
+   "docentes": "Equipo formado (doc con evidencia) por tesis asesoradas en ITIL, PMBOK, COBIT y CMMI-SVC: Lizeth Geanina Huanca López (COBIT 5 + PMBOK 6 en Eterniasoft; gestión de incidentes y peticiones), Danny Lévano Rodríguez (ITIL v4 en gestión de incidencias), Jenson Daniel Chambi Aguilar (ITIL v3 incidencias y problemas), Nemias Saboya Rios (CMMI SVC e ITIL v3), Nancy Esther Casildo Bedón (ITIL difuso en universidades privadas), Milton Edward Humpiri Flores (operación de data center). Los indicadores cam e inf son estimados.",
+   "campos": "Organizaciones de las tesis: Eterniasoft, proveedores de mantenimiento automotriz, áreas de desarrollo de universidades privadas, Data Center Apurímac. Escenario interno: DTI de la UPeU y suite UPeU Lamb System (académico, RR. HH., finanzas, aprendizaje). 28 convenios de prácticas de la FIA sin detalle; nivel 3 estimado.",
+   "infraestructura": "Laboratorios de computación y Microsoft 365 (incluye herramientas de planificación). No hay evidencia pública de licencias de herramientas ITSM o PPM; nivel 3 estimado.",
+   "fuentes": [
+    {"t": "Repositorio UPeU. (2022). Albornoz Cabrera, N. Mejora del proceso de gestión de proyectos de TI bajo COBIT 5 y PMBOK 6 para Eterniasoft (asesora: Huanca López, Lizeth Geanina)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/5541", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2022). Bances Marín, M. et al. Impacto de ITIL v4 en la gestión de incidencias (asesor: Lévano Rodríguez, Danny)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/5462", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2018). García Tello, D.; Huamán Moreto, S. Aplicación de ITIL v3 en gestión de incidencias y problemas de servicios de TI (asesor: Chambi Aguilar, Jenson Daniel)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/1549", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2020). Flores Lagunes, E.; Pascual Castro, D. Modelo de gestión con CMMI SVC e ITIL v3 para servicios de proveedores de mantenimiento automotriz (asesor: Saboya Rios, Nemias)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/3005", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2024). Olano Garces, L.; Olano Garces, L. Priorización en la gestión de incidencias utilizando ITIL difuso (asesora: Casildo Bedón, Nancy Esther)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/8452", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2022). Leon Manzanares, N.; Puma Sañomamani, C. Propuesta de mejora del proceso de gestión de incidentes y peticiones de servicio (asesora: Huanca López, Lizeth Geanina)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/5544", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2022). UPeU se reúne para coordinar firma de convenio marco y comparte su suite de aplicaciones (UPeU Lamb System) con IATEC", "u": "https://upeu.edu.pe/upeu-se-reune-para-coordinar-firma-de-convenio-marco-y-comparte-su-suite-de-aplicaciones-con-iatec/", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-06",
+   "especialidad": "Arquitectura empresarial y transformación digital",
+   "doc": 3,
+   "cam": 2,
+   "inf": 2,
+   "estado": "estimado · por confirmar por la Dirección",
+   "docentes": "Equipo parcial (doc con evidencia): Fernando Manuel Asin Gomez (transformación digital post COVID-19 en Expreso Grael SAC, 2022), Lizeth Geanina Huanca López (alineación TI-estrategia y evaluación de capacidad de procesos COBIT 5, tesis de maestría 2018), Danny Lévano Rodríguez (gestión de procesos y decisiones basadas en hechos, 2021), Milton Edward Humpiri Flores (informe en plataformas web y transformación digital, 2025). No se halló evidencia de perfil en TOGAF/ArchiMate. Los indicadores cam e inf son estimados.",
+   "campos": "Sin convenio identificado para arquitectura empresarial. Escenarios informales: empresas de las tesis (Expreso Grael SAC, Chugur), la propia UPeU (suite Lamb System, evaluación COBIT 5 en universidad privada) y el convenio marco en coordinación con IATEC (2022). Nivel 2 estimado.",
+   "infraestructura": "Laboratorios de computación y Microsoft 365. Sin evidencia pública de herramientas de modelado de arquitectura empresarial; nivel 2 (mínimo) estimado.",
+   "fuentes": [
+    {"t": "Repositorio UPeU. (2022). Yallerco Andia, E. Impacto de la transformación digital en el desarrollo empresarial post covid19 en Expreso Grael SAC (asesor: Asin Gomez, Fernando Manuel)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/5774", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2018). Huanca López, L. Modelo de evaluación de capacidad de procesos para el gobierno y gestión de TI basado en COBIT 5 para una universidad privada (Maestría en Ingeniería de Sistemas, mención Dirección y Gestión en TI)", "u": "https://repositorio.upeu.edu.pe/items/f2f6914e-e798-4e0e-b0a7-cba0c296eeff", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2021). Hoyos Cuesta, E. Prácticas de gestión de procesos y decisiones basadas en hechos en la empresa Chugur (asesor: Lévano Rodríguez, Danny)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/4321", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2025). Condori Quispe, D. Informe de desempeño profesional en desarrollo de plataformas web y transformación digital (asesor: Humpiri Flores, Milton Edward)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/9520", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2022). UPeU se reúne para coordinar firma de convenio marco y comparte su suite de aplicaciones con IATEC", "u": "https://upeu.edu.pe/upeu-se-reune-para-coordinar-firma-de-convenio-marco-y-comparte-su-suite-de-aplicaciones-con-iatec/", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-09",
+   "especialidad": "Análisis funcional y de sistemas de información",
+   "doc": 4,
+   "cam": 3,
+   "inf": 3,
+   "estado": "con evidencia",
+   "docentes": "Equipo formado inferido por tesis asesoradas en sistemas de información: Joseph Ibrahim Cruz Rodriguez (SI web de monitoreo, gestión académica, XP/SCRUM), Eder Gutierrez Quispe (SI web Angular/REST, informe en análisis y desarrollo de SI 2026), Immer Elías Cuellar Rodríguez (SI web para producción textil), Danny Lévano Rodríguez (SI distribuido, SI test S-Bull), Nemias Saboya Rios (SI SICPE para evaluación del perfil del egresado), Nancy Esther Casildo Bedón (digitalización del proceso de transparencia).",
+   "campos": "Comparte campos con SIS-01: 28 convenios de prácticas de la FIA, convenio marco IATEC en coordinación (2022), investidura de prácticas en Juliaca (2022). Organizaciones de tesis: empresa textil, restaurante, instituciones educativas, entidad pública (transparencia).",
+   "infraestructura": "Laboratorios de computación del CIT (2023) y Tarapoto (2022), Microsoft 365. Sin evidencia de licencias de herramientas de modelado (BPMN/UML) de pago; nivel 3 (parcial).",
+   "fuentes": [
+    {"t": "Repositorio UPeU. (2024). Flores Flores, Y.; Sanchez Huaycama, M. Sistema de información web y su influencia en el monitoreo de ingreso de terceros (asesor: Cruz Rodriguez, Joseph Ibrahim)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/7529", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2026). Huarcaya Quilla, A. Informe de desempeño profesional en análisis y desarrollo de sistemas de información (asesor: Gutierrez Quispe, Eder)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/10595", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2020). Garay Bautista, M.; Calderon Guabloche, K. Sistema de información web para control de producción textil (asesor: Cuellar Rodríguez, Immer Elías)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/3389", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2017). Cruz Antazú, I. Sistema de información SICPE para la evaluación continua del logro del perfil del egresado de Ingeniería de Sistemas (asesor: Saboya Rios, Nemias)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/975", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2025). Cabrera Requejo, G.; Arce Torres, G. Digitalización del proceso de transparencia y percepción del acceso a la información (asesora: Casildo Bedón, Nancy Esther)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/9640", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2020). Tantarico Rioja, R. Sistema de información basado en test S-Bull para evaluación de bullying (asesor: Lévano Rodríguez, Danny)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/3502", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2026). Ingeniería de Sistemas - FIA (28 convenios para prácticas preprofesionales)", "u": "https://upeu.edu.pe/facultad-de-ingenieria/ingenieria-sistemas/", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2023). Inauguración del Centro de Innovación Tecnológica de la Universidad Peruana Unión", "u": "https://upeu.edu.pe/inauguracion-del-centro-de-innovacion-tecnologico-de-la-universidad-peruana-union/", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-11",
+   "especialidad": "Redes y telecomunicaciones",
+   "doc": 4,
+   "cam": 3,
+   "inf": 3,
+   "estado": "estimado · por confirmar por la Dirección",
+   "docentes": "Equipo formado (doc con evidencia) por tesis asesoradas: Jorge Eddy Otazu Luque (red DWDM/FTTH, fibra G-PON, IDS/IPS, IoT), Fernando Manuel Asin Gomez (integración VoIP y comunicaciones móviles, 2024), Miguel Angel Valles Coral (infraestructura VoIP en Misión Nor Oriental Tarapoto), Erick Carrasco Guerrero (red LAN metodología Top-Down, 2017), equipo Juliaca Lévano/Quea/Herrera/Mamani Pari (red inalámbrica de sensores >5 km, 2026). Los indicadores cam e inf son estimados.",
+   "campos": "Alianza con Cisco Systems declarada en páginas de la FIA (sin detalle público de academia ni convenio). Organizaciones de tesis: instituciones de Sicuani, Misión Nor Oriental (Tarapoto), UPeU Juliaca. Sin convenio firmado verificado con operador de telecomunicaciones; nivel 3 estimado.",
+   "infraestructura": "Laboratorio de redes y comunicación para Ingeniería de Sistemas en campus Tarapoto (inaugurado mayo 2022); laboratorios de computación del CIT Lima (2023); alianza Cisco. Sin inventario público de equipos de red por sede; nivel 3 estimado.",
+   "fuentes": [
+    {"t": "UPeU. (2022). Se inauguraron nuevas instalaciones en la UPeU Campus Tarapoto (laboratorio de redes y comunicación para Ingeniería de Sistemas)", "u": "https://upeu.edu.pe/se-inauguraron-nuevas-instalaciones-en-la-upeu-campus-tarapoto/", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2026). Ingeniería de Software - FIA (alianzas AWS Academy, Cisco Systems, Fortinet)", "u": "https://upeu.edu.pe/facultad-de-ingenieria/ingenieria-de-software/", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2018). Mamani Espirilla, W. Diseño de una red DWDM para un sistema FTTH en instituciones de Sicuani (asesor: Otazu Luque, Jorge Eddy)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/1516", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2022). Mayhuiri Chinchercoma, F. Diseño de una red de fibra óptica FTTH aplicando G-PON (asesor: Otazu Luque, Jorge Eddy)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/5993", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2024). Chunga Oqueña, M.; Herrera Blancas, V. Integración de VoIP y comunicaciones móviles para la gestión de llamadas (asesor: Asin Gomez, Fernando Manuel)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/7615", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2019). Padilla Macedo, L.; Zuta Ríos, R. Implementación de la infraestructura de red VoIP en la Misión Nor Oriental de Tarapoto (asesor: Valles Coral, Miguel Angel)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/4590", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2017). Sanchez Liñan, I. Diseño e implementación de una red LAN con metodología Top-Down (asesor: Carrasco Guerrero, Erick)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/1504", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2026). UPeU desarrolla tecnología que protege cultivos de papa frente a heladas (red inalámbrica de sensores, EP Sistemas Juliaca)", "u": "https://upeu.edu.pe/upeu-desarrolla-tecnologia-que-protege-cultivos-de-papa-y-apoya-a-familias-frente-a-heladas-en-el-altiplano/", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-12",
+   "especialidad": "Auditoría de sistemas y gobierno de TI",
+   "doc": 3,
+   "cam": 2,
+   "inf": 2,
+   "estado": "estimado · por confirmar por la Dirección",
+   "docentes": "Equipo parcial (doc con evidencia): Lizeth Geanina Huanca López (magíster con tesis en gobierno y gestión de TI basada en COBIT 5; asesora de tesis COBIT 5/PMBOK y controles ISO 27002), Immer Elías Cuellar Rodríguez (políticas ISO 27001 en municipalidades), Jenson Daniel Chambi Aguilar (ITIL v3). No se identificó docente con certificación CISA/CGEIT pública. Los indicadores cam e inf son estimados.",
+   "campos": "Sin convenio identificado con firma de auditoría, comité de auditoría o Contraloría. Escenarios de tesis: universidad privada (evaluación COBIT 5), municipalidades, Unión Peruana del Norte. Nivel 2 (campo informal) estimado.",
+   "infraestructura": "Laboratorios de computación y Microsoft 365. Sin evidencia de herramientas GRC o de auditoría asistida; nivel 2 (mínimo) estimado.",
+   "fuentes": [
+    {"t": "Repositorio UPeU. (2018). Huanca López, L. Modelo de evaluación de capacidad de procesos para el gobierno y gestión de TI basado en COBIT 5 para una universidad privada (tesis de maestría)", "u": "https://repositorio.upeu.edu.pe/items/f2f6914e-e798-4e0e-b0a7-cba0c296eeff", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (s. f.). Colección Magíster en Ingeniería de Sistemas con mención en Dirección y Gestión en Tecnología de Información", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/36", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2022). Albornoz Cabrera, N. Mejora del proceso de gestión de proyectos de TI bajo COBIT 5 y PMBOK 6 (asesora: Huanca López, Lizeth Geanina)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/5541", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2018). Gavidia Mamani, S.; Torres Torres, L. Implementación de controles ISO/IEC 27002:2013 en el área de TI de la Unión Peruana del Norte (asesora: Huanca López, Lizeth Geanina)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/1094", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2021). Bustamante Garcia, S. Políticas ISO 27001:2013 en municipalidades de Perú (asesor: Cuellar Rodríguez, Immer Elías)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/4374", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-13",
+   "especialidad": "Protección de datos personales y privacidad",
+   "doc": 2,
+   "cam": 2,
+   "inf": 2,
+   "estado": "estimado · por confirmar por la Dirección",
+   "docentes": "Un docente con perfil explícito (doc con evidencia): Fernando Manuel Asin Gomez, asesor de la tesis Implementación de controles de seguridad para la protección de datos personales en una universidad privada (2018). Perfil adyacente en seguridad de la información: Immer Elías Cuellar Rodríguez, Lizeth Geanina Huanca López. No se halló evidencia pública de docentes con especialización en Ley 29733 o certificación en privacidad; nivel 2 prudente.",
+   "campos": "Sin convenio identificado con la Autoridad Nacional de Protección de Datos Personales ni con empresas para prácticas en privacidad. Escenario informal: la propia UPeU como titular de bancos de datos (universidad privada de la tesis 2018). Nivel 2 estimado.",
+   "infraestructura": "Laboratorios de computación y Microsoft 365. Sin evidencia de herramientas de gestión de privacidad o de inventario de datos; nivel 2 (mínimo) estimado.",
+   "fuentes": [
+    {"t": "Repositorio UPeU. (2018). Calisaya Sana, C.; Tarrillo Villegas, M. Implementación de controles de seguridad para la protección de datos personales en una universidad privada (asesor: Asin Gomez, Fernando Manuel)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/1380", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2021). Bustamante Garcia, S. Políticas ISO 27001:2013 en municipalidades de Perú (asesor: Cuellar Rodríguez, Immer Elías)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/4374", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2023). Vela Ramírez, R.; Cabrera Cubas, M. Identidad digital de los estudiantes de la UPeU en base a patrón de uso de páginas web (asesor: Cruz Rodriguez, Joseph Ibrahim)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/6230", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2024). UPeU reconoce a 15 docentes del campus Lima por su excelencia académica durante el ciclo 2023-2 (Mg. Fernando Asín, EP Ingeniería de Sistemas)", "u": "https://upeu.edu.pe/en/noticias/upeu-reconoce-a-15-docentes-del-campus-lima-por-su-excelencia-academica-durante-el-ciclo-2023-2/", "fecha": "24-09-2026"}
+   ]
+  },
+  {
+   "cod": "SIS-14",
+   "especialidad": "Inteligencia de negocios y analítica empresarial",
+   "doc": 4,
+   "cam": 3,
+   "inf": 3,
+   "estado": "estimado · por confirmar por la Dirección",
+   "docentes": "Equipo formado (doc con evidencia) por tesis asesoradas en BI, datamart y data warehouse: Sergio Omar Valladares Castillo (BI en URPI SUMAC TOURS 2022; BI en IE Corazón de Jesús 2018), Marco Antonio Ruiz Grandez (datamart de créditos, Cooperativa San Martín de Porres 2025), Miguel Angel Valles Coral (data warehouse CIP-CDSMT 2024), Jenson Daniel Chambi Aguilar (datamart Admisión UPeU Tarapoto 2016), Guillermo Mamani Apaza (SI ejecutiva y modelo Kimball 2013), Danny Lévano Rodríguez (decisiones basadas en hechos 2021). Los indicadores cam e inf son estimados.",
+   "campos": "Organizaciones donde se implantaron soluciones de BI en tesis: Cooperativa San Martín de Porres (Tarapoto), CIP Consejo Departamental San Martín-Tarapoto, agencia URPI SUMAC TOURS, IE Corazón de Jesús, Vicerrectorado Académico y Admisión de la UPeU. No se verificó convenio firmado específico; nivel 3 estimado.",
+   "infraestructura": "Laboratorios de computación del CIT (2023) y Tarapoto (2022); Microsoft 365. No hay evidencia pública de licencias de plataformas de BI (Power BI Pro, Tableau) ni de servidor analítico; nivel 3 estimado.",
+   "fuentes": [
+    {"t": "Repositorio UPeU. (2022). Castillo Chura, P.; Valle Yanavilca, J. Solución de inteligencia de negocios para ventas de URPI SUMAC TOURS SRL (asesor: Valladares Castillo, Sergio Omar)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/7512", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2025). Solsol Dávila, S. Implementación de un datamart de créditos en la Cooperativa San Martín de Porres, Tarapoto (asesor: Ruiz Grandez, Marco Antonio)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/10335", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2024). Romero Chuquital, A.; Melendres Velasco, J. Impacto de un data warehouse en la gestión de la morosidad del CIP-CDSMT (asesor: Valles Coral, Miguel Angel)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/8036", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2018). Arrieta Leyva, R.; Sucapuca Zenteno, J. Plataforma de business intelligence en la IE Corazón de Jesús de Santa Clara (asesor: Valladares Castillo, Sergio Omar)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/1200", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2016). Guadaña Quiroz, I. Diseño de un datamart para Admisión de la UPeU Filial Tarapoto (asesor: Chambi Aguilar, Jenson Daniel)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/3170", "fecha": "24-09-2026"},
+    {"t": "Repositorio UPeU. (2013). Pacco Palomino, R. Sistema de gestión financiera basado en SI ejecutiva y modelo Kimball para el Vicerrectorado Académico de la UPeU (asesor: Mamani Apaza, Guillermo)", "u": "https://repositorio.upeu.edu.pe/handle/20.500.12840/159", "fecha": "24-09-2026"},
+    {"t": "UPeU. (2023). Inauguración del Centro de Innovación Tecnológica de la Universidad Peruana Unión", "u": "https://upeu.edu.pe/inauguracion-del-centro-de-innovacion-tecnologico-de-la-universidad-peruana-union/", "fecha": "24-09-2026"}
+   ]
+  }
+ ]
+}

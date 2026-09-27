@@ -1,0 +1,19 @@
+{
+ "rol": "G",
+ "reglas": [
+  {"n": 1, "veredicto": "Cumple", "hallazgo": "Las 19 candidatas declaran empleo y negocio propio (1–4). Las cinco con ambas ≤ 2 (NUT-12, NUT-13, NUT-15, NUT-16, NUT-18) están fuera de NUT-valoradas.json y llevan destino provisional en el CSV."},
+  {"n": 2, "veredicto": "No cumple", "hallazgo": "NUT-06 es protocolo e instrumentos (ISAK, bioimpedancia, DEXA), declarada «transversal» por el propio modelo, y sigue valorada como especialidad (potencial 31). NUT-18 va al 2.2 pero conserva potencial 61 en CSV y resumen."},
+  {"n": 3, "veredicto": "No cumple", "hallazgo": "NUT-09 «10+ proyectos mineros en 2026 [P-S]» sin lectura ni fragmento registrado; NUT-12 «GPC ERC 12-2025 [P-L9]» cita una lectura fechada 17-07-2025; seis URL de la APA normativa (Ley 30188, Ley 28036, RM 546-2011…) no figuran como lecturas."},
+  {"n": 4, "veredicto": "No cumple", "hallazgo": "cre = 3 sin serie contada en NUT-02 («sin serie que sustente»), NUT-09 y NUT-11 (un solo punto); cre = 4 en NUT-18 por impresión («emergente fuerte»); NUT-07 usa proyección a 2035, no crecimiento observado."},
+  {"n": 5, "veredicto": "Cumple", "hallazgo": "Todas las candidatas caben en la Ley 30188 y la colegiatura CNP. Cuidado en NUT-15: su entregable «Prescripción de fórmula parenteral» roza la NTS 212 (preparación nivel 1); redactarlo como cálculo en interconsulta al pasar a Fase 2."},
+  {"n": 6, "veredicto": "Cumple", "hallazgo": "UPeU aparece solo como exclusión declarada (resumen y NUT-4-oferta). Ningún vocabulario de competencias, capacidades ni perfil de egreso del plan vigente en cartera, justificaciones ni evidencias; «competencia» solo en sentido legal."},
+  {"n": 7, "veredicto": "Cumple", "hallazgo": "Las seis columnas de capacidad (docentes, campos, infraestructura, diferenciación, habilitación, capacidad instalada) y Prioridad están vacías en las 19 filas; tampoco hay Panel ni Aprobada (M3)."}
+ ],
+ "observaciones": [
+  "Los marcadores N-n son ambiguos: el CSV los usa como lectura (N-3 = NTS 103 en NUT-01, N-4 = NTS 213 en NUT-04) y como hallazgo (N-3 = NTS 213 en NUT-03, N-4 = Ley 30021 en NUT-02); just-NUT.json numera por hallazgo con N-Lnn para lecturas. Unificar antes del panel.",
+  "Cifras atribuidas a fragmentos no transcritos: «Newrest 13 años en Perú [E-B5]», «centros con 13 años de trayectoria [E-B13]»; y deriva de sentido «telenutrición evaluada» (evidencia) a «validada» (CSV y justificaciones NUT-08, NUT-11).",
+  "La escasez descansa en RPP 2013 (1 por 6 000 hab.) y en un fragmento [B11] de ~8 000 colegiados; el padrón oficial del CNP sigue como vacío declarado. Las puntuaciones de escasez 3 en clínica, comunitaria y pediátrica dependen de una fuente de 13 años.",
+  "Las puntuaciones cre = 3 de NUT-12 y NUT-13 (devueltas) se conservan como registro del barrido, lo que es correcto; pero el resumen las presenta con «driver» como argumento de «esperar y revisar» sin declarar que sus series son epidemiológicas, no de puestos.",
+  "Resumen y CSV declaran «14 valoradas» y NUT-valoradas.json contiene 14 entradas incluyendo NUT-19 (en extinción, destino «No entra»): coherente, pero conviene explicitar que se valora solo para dejar constancia del motivo de salida."
+ ]
+}

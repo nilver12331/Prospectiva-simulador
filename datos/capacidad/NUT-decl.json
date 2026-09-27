@@ -1,0 +1,183 @@
+{
+  "cod": "NUT",
+  "tipo": "borrador de declaración de la Dirección",
+  "fecha": "24-09-2026",
+  "responsable": "Dirección de la EP de Nutrición Humana · UPeU",
+  "nota": "Borrador preparado por Génesys (paso 1.1, momento 4) con información pública verificable al 24-09-2026. Ningún valor sustituye la declaración de la Dirección: los niveles marcados 'con evidencia' se apoyan en fuentes públicas citadas; los marcados 'estimado · por confirmar por la Dirección' son el nivel más prudente que la evidencia permite y deben confirmarse antes de la firma. No se abrió el plan de estudios ni la malla curricular de la UPeU. Perfiles docentes inferidos de asesorías de tesis en el repositorio institucional y de noticias oficiales; la vinculación laboral vigente de cada docente no es verificable públicamente.",
+  "escala": {
+    "doc": "1 sin docentes · 2 un docente · 3 equipo parcial (2–3) · 4 equipo formado (4 o más con el perfil)",
+    "cam": "1 sin campo · 2 campo informal · 3 convenios parciales · 4 convenios firmados vigentes",
+    "inf": "1 sin equipamiento · 2 mínimo · 3 parcial · 4 completo"
+  },
+  "items": [
+    {
+      "cod": "NUT-01",
+      "especialidad": "Nutrición clínica hospitalaria",
+      "doc": 3,
+      "cam": 3,
+      "inf": 3,
+      "estado": "con evidencia",
+      "docentes": "Equipo parcial con línea clínico-hospitalaria inferido de asesorías de tesis 2021–2026 en el repositorio institucional: Mg. Yaquelin Eveling Calizaya Milla (estado nutricional de adultos mayores hospitalizados en UCI por COVID-19, 2025; litiasis vesicular en hospitalizados, 2022), Lic. María Bernarda Collantes Cossio (test MNA en adultos mayores del Hospital San Juan de Dios, 2022), Lic. Charo Natali Huzco Rutti (nutricionistas clínicos del sector público, 2021; grasa corporal y riesgo cardiometabólico, 2024), Mg. Mery Rodríguez Vásquez (servicio de alimentación a pacientes hospitalizados, 2026), Lic. Elisa Romy Rodríguez López (hemodiálisis, 2016; Hospital de Chosica, 2017). Coordinación de prácticas: Lic. Margarita Sánchez (el curso de internado 'tiene un enfoque clínico', 2024). 14 docentes de Enfermería, Nutrición y Psicología certificados como instructores en simulación en salud (2024). Grados académicos y especialidad clínica (segunda especialidad, maestría clínica) no verificables públicamente; posible nivel 4 si la Dirección confirma 4 o más con perfil clínico.",
+      "campos": "Convenios docente-asistenciales publicados con nutrición explícita: Hospital José Agurto Tello de Chosica (MINSA; nov. 2023; Nutrición, Psicología, Enfermería y Medicina), Hospital de Emergencias de Ate Vitarte (renovación de convenio, ago. 2022; campo clínico para Medicina, Enfermería, Psicología y Nutrición). Convenio marco docente-asistencial MINSA–Gobierno Regional de San Martín con UPeU Tarapoto (sep. 2021, carreras de salud). EsSalud Red Asistencial Juliaca: convenio de prácticas de pregrado (2015) y alianza 'Prevenir EsSalud' (ago. 2025). La coordinadora de prácticas declara 'convenios con el Ministerio de Salud y Seguro Social' (oct. 2024). Vigencia y fecha de término de cada convenio no publicadas: nivel 4 solo si la Dirección acredita vigencia.",
+      "infraestructura": "Centro de Simulación Clínica UPeU Lima (inaugurado 22-11-2019; 10 estaciones de simulación y 3 unidades de control; beneficia a Enfermería, Nutrición Humana, Psicología y Medicina). Centro de Simulación Clínica UPeU Tarapoto (ago. 2026; 3 unidades de hospitalización, 7 unidades de control, 6 espacios de debriefing). Laboratorio de Técnicas Dietéticas de la EP de Nutrición Humana (Lima, 2019). No se halló evidencia pública de laboratorio de antropometría o composición corporal (bioimpedancia) ni de software de soporte nutricional clínico: nivel 4 por confirmar.",
+      "fuentes": [
+        {"t": "Universidad Peruana Unión. (2023). UPeU y Hospital José Agurto Tello de Chosica suscriben convenio para el mejoramiento de la calidad asistencial y la formación académica", "u": "https://upeu.edu.pe/upeu-y-hospital-jose-agurto-tello-de-chosica-suscriben-convenio-para-el-mejoramiento-de-la-calidad-asistencial-y-la-formacion-academica/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2022). Funcionarios del Hospital de Emergencias de Ate Vitarte visitan campus universitario en el marco de renovación de convenio", "u": "https://upeu.edu.pe/funcionarios-del-hospital-de-emergencias-de-ate-vitarte-visitan-campus-universitario-en-el-marco-de-renovacion-de-convenio/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2024). Escuela de Nutrición Humana celebró la ceremonia de investidura de sus 62 estudiantes", "u": "https://upeu.edu.pe/escuela-de-nutricion-humana-celebro-la-ceremonia-de-investidura-de-sus-62-estudiantes/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2019). Inauguración del Centro de Simulación Clínica UPeU", "u": "https://upeu.edu.pe/inauguracion-del-centro-de-simulacion-clinica-upeu/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2024). Docentes de la UPeU obtienen certificado en simulación en salud", "u": "https://upeu.edu.pe/docentes-de-la-upeu-obtienen-certificado-en-simulacion-en-salud/", "fecha": "24-09-2026"},
+        {"t": "EsSalud. (2015). EsSalud Juliaca firma convenio de Prácticas de Pre Grado con Universidad Peruana Unión", "u": "http://www.essalud.gob.pe/essalud-juliaca-firma-convenio-de-practicas-de-pre-grado-con-universidad-peruana-union/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2021). UPeU Campus Tarapoto firma convenio marco de cooperación docente asistencial con el Ministerio de Salud y el Gobierno Regional de San Martín", "u": "https://upeu.edu.pe/upeu-campus-tarapoto-firma-convenio-marco-de-cooperacion-docente-asistencial-con-el-ministerio-de-salud-y-el-gobierno-regional-de-san-martin/", "fecha": "24-09-2026"},
+        {"t": "Repositorio UPeU. (2016–2026). Colección Nutrición Humana: búsqueda 'hospital OR pacientes OR hospitalizados' (API DSpace)", "u": "https://repositorio.upeu.edu.pe/server/api/discover/search/objects?query=hospital%20OR%20pacientes%20OR%20hospitalizados&scope=457644ec-7c72-4143-b451-d9c0bd37c212&size=20", "fecha": "24-09-2026"}
+      ]
+    },
+    {
+      "cod": "NUT-02",
+      "especialidad": "Gestión de servicios de alimentación e inocuidad",
+      "doc": 3,
+      "cam": 3,
+      "inf": 3,
+      "estado": "estimado · por confirmar por la Dirección",
+      "docentes": "Estimado (equipo parcial). Asesorías de tesis con línea de servicios de alimentación e inocuidad: Lic. Silvia Elida Moori Apolinario (higiene y manipulación de alimentos en restaurantes, 2017; etiquetado nutricional, 2018), Mg. Mery Rodríguez Vásquez (satisfacción del servicio de alimentación a pacientes hospitalizados en clínica privada, 2026), Eduardo Alberto Meza Mantari (microorganismos en alimentos del comedor universitario, 2020), Ana Evangelista Galarreta (programa 'Servalim feliz' en el servicio de alimentación universitario, 2015), Jacksaint Saintila (higiene en manipuladores de quioscos escolares, 2017; higiene en hogares, 2021). La mayor parte de la evidencia es anterior a 2021 y la vinculación vigente de estos docentes no es verificable públicamente; no se halló docente con certificación HACCP o auditoría de inocuidad publicada.",
+      "campos": "Campo propio institucional: Comedor Universitario, Cafetín y Market Unión del campus Lima (servicio abierto a la comunidad unionista y público); comedores en campus Juliaca y Tarapoto; Centro Universitario de Producción de Bienes 'Unión' (planta de alimentos propia). Prácticas de 4.º año en 'restaurantes' (2023). Servicios de nutrición hospitalarios accesibles vía convenios con Hospital de Chosica y Hospital de Ate Vitarte. No se halló convenio publicado con concesionarias de alimentación ni con servicios de alimentación de programas escolares para la EP de Nutrición (el acta con Qali Warma de 2021 en Juliaca no incluye a Nutrición).",
+      "infraestructura": "Laboratorio de Técnicas Dietéticas de la EP de Nutrición Humana (Lima, 2019). Comedor Universitario como escenario real de producción. Planta del Centro de Producción de Bienes 'Unión' articulada con la Facultad de Ingeniería y Arquitectura (2022). Tesis de 2020 sobre coliformes y S. aureus en el comedor evidencia acceso a análisis microbiológico de alimentos, sin que se identifique públicamente un laboratorio de microbiología/bromatología asignado a Nutrición. Software de gestión de servicios de alimentación (costeo, planificación de menús) no documentado.",
+      "fuentes": [
+        {"t": "Universidad Peruana Unión. (s. f.). Servicios Lima (Comedor Universitario, Cafetín, Market Unión, Consultorio Médico)", "u": "https://upeu.edu.pe/servicios-lima/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2019). Escuela Profesional de Nutrición Humana realizó curso taller 'Dulces saludables' (Laboratorio de Técnicas Dietéticas)", "u": "https://upeu.edu.pe/escuela-profesional-de-nutricion-humana-realizo-curso-taller-dulces-saludables/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2023). Estudiantes de Nutrición Humana de la UPeU celebran el inicio de sus prácticas pre-profesionales", "u": "https://upeu.edu.pe/estudiantes-de-nutricion-humana-de-la-upeu-celebran-el-inicio-de-sus-practicas-pre-profesionales/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2022–2024). Búsqueda en sitio 'Centro Universitario de Producción de Bienes' (articulación FIA–Productos Unión; convenios con Inter-American Health Food Company y Superbom)", "u": "https://upeu.edu.pe/?s=Centro+Universitario+de+Producci%C3%B3n+de+Bienes", "fecha": "24-09-2026"},
+        {"t": "Repositorio UPeU. (2015–2022). Colección Nutrición Humana: búsqueda 'inocuidad OR HACCP OR servicio de alimentación' (API DSpace)", "u": "https://repositorio.upeu.edu.pe/server/api/discover/search/objects?query=inocuidad%20OR%20HACCP%20OR%20%22servicio%20de%20alimentaci%C3%B3n%22&scope=457644ec-7c72-4143-b451-d9c0bd37c212&size=20", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2021). UPeU Campus Juliaca y Qali Warma articulan esfuerzos en favor de los escolares", "u": "https://upeu.edu.pe/upeu-campus-juliaca-y-qali-warma-articulan-esfuerzos-en-favor-de-los-escolares/", "fecha": "24-09-2026"}
+      ]
+    },
+    {
+      "cod": "NUT-03",
+      "especialidad": "Nutrición comunitaria y salud pública",
+      "doc": 4,
+      "cam": 3,
+      "inf": 2,
+      "estado": "estimado · por confirmar por la Dirección",
+      "docentes": "Con evidencia (equipo formado por líneas de tesis 2017–2025): Lic. Bertha Chanducas Lozano (programa educativo 'Niños de Hierro', 2019; programa Nutriunión, 2018), Lic. María Bernarda Collantes Cossio (escolares de dos instituciones de Juliaca, 2025; niños menores de 5 años de madres migrantes, 2024), Mg. Yaquelin Eveling Calizaya Milla (programa de educación nutricional y hemoglobina, 2024; loncheras saludables, 2026), Mg. Mery Rodríguez Vásquez (programa 'Adultos mayores activos y saludables', 2019; programa educativo nutricional, 2025), Jacksaint Saintila (estado nutricional de escolares, 2020; investigador Renacyt nivel II en 2021, vigencia hasta 27-05-2024), Mg. María Alina Miranda Flores (directora de la EP). Prácticas de 2.º año en instituciones educativas y de 4.º año en programas de salud comunitaria (2023). Formación formal en salud pública de cada docente no verificable públicamente.",
+      "campos": "Con evidencia (convenios parciales): Municipalidad Distrital de Pacllón (Áncash), convenio específico de cooperación institucional (13-02-2023) con internado de Nutrición Humana en el proyecto 'Salud Integral'; convenio marco docente-asistencial MINSA–GORE San Martín (2021); plan de trabajo regional MIDIS–Programa Nacional PAIS en 63 Tambos de Puno con UPeU Juliaca (ago. 2025); acta de trabajo con Qali Warma Juliaca (2021, sin Nutrición explícita); coordinación DIRESA Puno–UPeU Juliaca (sede SERUMS 2026-II). Hospitales de Chosica y Ate Vitarte con convenio (primer nivel y comunidad de Lima Este). Vigencias no publicadas.",
+      "infraestructura": "Estimado (mínimo). No se halló evidencia pública de kits antropométricos portátiles, hemoglobinómetros, software de vigilancia nutricional ni unidad móvil asignados a Nutrición. Se cuenta con Centro de Simulación Clínica y Laboratorio de Técnicas Dietéticas (Lima). Las tesis comunitarias con medición antropométrica (2019–2025) implican equipamiento básico no descrito públicamente; la Dirección debe inventariarlo.",
+      "fuentes": [
+        {"t": "Universidad Peruana Unión. (2023). Estudiantes de Enfermería, Psicología y Nutrición Humana de la UPeU realizarán internado y contribuirán en proyectos para el beneficio de la salud integral de los pobladores del distrito de Pacllón", "u": "https://upeu.edu.pe/estudiantes-de-enfermeria-psicologia-y-nutricion-humana-de-la-upeu-realizaran-internado-y-contribuiran-en-proyectos-para-el-beneficio-de-la-salud-integral-de-los-pobladores-del-distrito-de-pacllon/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2025). Instituciones educativas, de salud y programas nacionales consolidan convenios con la UPeU (Campus Juliaca: EsSalud, Pegasso Gold Export, PRONABEC, MIDIS–Programa PAIS)", "u": "https://upeu.edu.pe/en/noticias/instituciones-educativas-de-salud-y-programas-nacionales-consolidan-convenios-con-la-upeu/", "fecha": "24-09-2026"},
+        {"t": "DIRESA Puno. (2026). Universidad Peruana Unión de Juliaca será sede de evaluación presencial y gratuita de SERUMS 2026-II", "u": "https://www.diresapuno.gob.pe/universidad-peruana-union-de-juliaca-sera-sede-de-evaluacion-presencial-y-gratuita-de-serums-2026-ii/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2021). Docente de la EP de Nutrición Humana de la UPeU es calificado como investigador CONCYTEC (Jacksaint Saintila, Renacyt nivel II)", "u": "https://upeu.edu.pe/docente-de-la-ep-de-nutricion-humana-de-la-upeu-es-calificado-como-investigador-concytec/", "fecha": "24-09-2026"},
+        {"t": "Repositorio UPeU. (2015–2022). Colección Nutrición Humana: búsqueda 'anemia OR gestantes OR lactancia' (API DSpace)", "u": "https://repositorio.upeu.edu.pe/server/api/discover/search/objects?query=anemia%20OR%20gestantes%20OR%20lactancia&scope=457644ec-7c72-4143-b451-d9c0bd37c212&size=20", "fecha": "24-09-2026"},
+        {"t": "Repositorio UPeU. (2017–2025). Colección Nutrición Humana: búsqueda 'Juliaca OR Puno' (API DSpace)", "u": "https://repositorio.upeu.edu.pe/server/api/discover/search/objects?query=Juliaca%20OR%20Puno&scope=457644ec-7c72-4143-b451-d9c0bd37c212&size=20", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2023). Estudiantes de Nutrición Humana de la UPeU celebran el inicio de sus prácticas pre-profesionales", "u": "https://upeu.edu.pe/estudiantes-de-nutricion-humana-de-la-upeu-celebran-el-inicio-de-sus-practicas-pre-profesionales/", "fecha": "24-09-2026"}
+      ]
+    },
+    {
+      "cod": "NUT-04",
+      "especialidad": "Nutrición pediátrica y materna",
+      "doc": 4,
+      "cam": 3,
+      "inf": 3,
+      "estado": "con evidencia",
+      "docentes": "Equipo formado por líneas de tesis 2015–2026: Lic. Bertha Chanducas Lozano (estado nutricional y anemia ferropénica en niños menores de dos años, 2015; 'Niños de Hierro', 2019), Mg. Yaquelin Eveling Calizaya Milla (hierro dietario en alimentación complementaria y hemoglobina, 2022; loncheras saludables, 2026), Mg. Mery Rodríguez Vásquez (micronutrientes en puérperas, 2019; anemia y multimicronutrientes en madres de Cuna Más, 2019), Rodrigo Alfredo Matos Chamorro (alimentación complementaria y anemia, 2019), Mg. María Alina Miranda Flores (alimentación saludable y anemia en gestantes, 2015), Lic. Elisa Romy Rodríguez López (actividad física y hábitos alimentarios en gestantes, 2017), Raquel Chilón Llico (percepción materna del IMC de sus hijos, 2023). La EP declara líneas de nutrición pediátrica y materna en su página oficial. Segunda especialidad o maestría en nutrición pediátrica/materna no verificable públicamente.",
+      "campos": "Convenios parciales: Hospital José Agurto Tello de Chosica (2023) y Hospital de Emergencias de Ate Vitarte (2022) con Nutrición explícita; Municipalidad de Pacllón (2023, internado comunitario); convenio marco MINSA–GORE San Martín (2021); EsSalud Juliaca (2015; 2025). Tesis previas en establecimientos de primer nivel y en Cuna Más evidencian acceso a campo materno-infantil. Vigencias no publicadas; no se identificó convenio con instituto especializado materno-perinatal o pediátrico.",
+      "infraestructura": "Parcial con evidencia: Centro de Simulación Clínica Lima (2019; Nutrición beneficiaria); Centro de Simulación Clínica Tarapoto (ago. 2026) con 2 consultorios de crecimiento y desarrollo (CRED) para escenarios pediátricos; Laboratorio de Técnicas Dietéticas. Equipos antropométricos pediátricos (infantómetros, balanzas pediátricas) y hemoglobinómetros no descritos públicamente.",
+      "fuentes": [
+        {"t": "Repositorio UPeU. (2015–2022). Colección Nutrición Humana: búsqueda 'anemia OR gestantes OR lactancia' (API DSpace)", "u": "https://repositorio.upeu.edu.pe/server/api/discover/search/objects?query=anemia%20OR%20gestantes%20OR%20lactancia&scope=457644ec-7c72-4143-b451-d9c0bd37c212&size=20", "fecha": "24-09-2026"},
+        {"t": "Repositorio UPeU. (2015). Farfán Dianderas, C. Relación del estado nutricional y anemia ferropénica en niños menores de dos años (tesis, asesora Bertha Chanducas Lozano)", "u": "https://repositorio.upeu.edu.pe/server/api/core/bitstreams/74d9d0f7-7b28-4ff4-a867-6b1a43798182/content", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (s. f.). Carrera de Nutrición Humana (líneas: clínica, deportiva, salud pública, pediátrica, materna, geriatría, inocuidad y calidad)", "u": "https://upeu.edu.pe/facultad-de-salud/en/nutricion-humana/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2023). UPeU y Hospital José Agurto Tello de Chosica suscriben convenio para el mejoramiento de la calidad asistencial y la formación académica", "u": "https://upeu.edu.pe/upeu-y-hospital-jose-agurto-tello-de-chosica-suscriben-convenio-para-el-mejoramiento-de-la-calidad-asistencial-y-la-formacion-academica/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2026). UPeU inaugura moderno centro de simulación clínica en el Campus Tarapoto", "u": "https://upeu.edu.pe/upeu-inaugura-moderno-centro-de-simulacion-clinica-en-el-campus-tarapoto/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2019). Inauguración del Centro de Simulación Clínica UPeU", "u": "https://upeu.edu.pe/inauguracion-del-centro-de-simulacion-clinica-upeu/", "fecha": "24-09-2026"}
+      ]
+    },
+    {
+      "cod": "NUT-07",
+      "especialidad": "Desarrollo y reformulación de productos alimentarios",
+      "doc": 3,
+      "cam": 3,
+      "inf": 3,
+      "estado": "estimado · por confirmar por la Dirección",
+      "docentes": "Estimado (equipo parcial). Con evidencia reciente: Mg. Yaquelin Eveling Calizaya Milla (quesos veganos a base de aislados proteicos de leguminosas y cushuro, 2024; valorización de okara en yogur de soja, 2026; pasta de maní con proteínas aisladas, 2021). Evidencia anterior a 2019: Rodrigo Alfredo Matos Chamorro (pajuro en preparaciones culinarias, 2016; modelos matemáticos peso-talla, 2022), Lic. Silvia Elida Moori Apolinario (harina de árbol de pan, 2018; modelos de advertencia en etiquetado, 2018), Felix Nicolas Palacios Morales (cushuro, 2018). No se halló docente de Nutrición con experiencia publicada en registro sanitario DIGESA o rotulado normativo; la Facultad de Ingeniería y Arquitectura (Ingeniería de Industrias Alimentarias, Lima y Juliaca) dispone de docentes de tecnología de alimentos cuya participación en la especialidad debe confirmarse.",
+      "campos": "Convenios parciales con evidencia: Centro Universitario de Producción de Bienes 'Unión' (planta de alimentos propia de la UPeU; articulación académica-productiva con la FIA, 2022; acuerdos con Inter-American Health Food Company y Superbom, abr. 2024; proyecto de snacks saludables a implementarse en el centro, 2023). Ningún convenio publicado entre la EP de Nutrición y empresas de la industria alimentaria externa.",
+      "infraestructura": "Estimado (parcial). Planta de producción de alimentos del Centro de Producción de Bienes 'Unión' en el campus Lima; laboratorios de Ingeniería de Industrias Alimentarias (Lima y Juliaca; prácticas de laboratorio reanudadas en 2021); Laboratorio de Técnicas Dietéticas de Nutrición. Tesis 2024–2026 con caracterización fisicoquímica, antioxidante y sensorial evidencian acceso a laboratorio de análisis de alimentos. No se documenta públicamente laboratorio de bromatología, análisis sensorial ni software de formulación asignado a Nutrición; el uso compartido con la FIA debe confirmarse.",
+      "fuentes": [
+        {"t": "Repositorio UPeU. (2016–2026). Colección Nutrición Humana: búsqueda 'producto OR formulación OR elaboración OR aceptabilidad' (API DSpace)", "u": "https://repositorio.upeu.edu.pe/server/api/discover/search/objects?query=producto%20OR%20formulaci%C3%B3n%20OR%20elaboraci%C3%B3n%20OR%20aceptabilidad&scope=457644ec-7c72-4143-b451-d9c0bd37c212&size=20", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2022–2024). Búsqueda en sitio 'Productos Unión' (FIA y Productos Unión; productos innovadores de Ingeniería de Industrias Alimentarias, 2023)", "u": "https://upeu.edu.pe/?s=Productos+Uni%C3%B3n", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2022–2024). Búsqueda en sitio 'Centro Universitario de Producción de Bienes'", "u": "https://upeu.edu.pe/?s=Centro+Universitario+de+Producci%C3%B3n+de+Bienes", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2021). Estudiantes retornan a los laboratorios para realizar sus prácticas (Lima 41, Juliaca 57, Tarapoto 13 asignaturas; incluye Ingeniería de Industrias Alimentarias y Nutrición Humana)", "u": "https://upeu.edu.pe/estudiantes-retornan-a-los-laboratorios-para-realizar-sus-practicas/", "fecha": "24-09-2026"},
+        {"t": "Wikipedia. (2025). Universidad Peruana Unión (marca 'Unión' del sector alimentación; laboratorios del campus Ñaña)", "u": "https://es.wikipedia.org/wiki/Universidad_Peruana_Uni%C3%B3n", "fecha": "24-09-2026"}
+      ]
+    },
+    {
+      "cod": "NUT-08",
+      "especialidad": "Nutrición en obesidad y cirugía bariátrica",
+      "doc": 3,
+      "cam": 2,
+      "inf": 2,
+      "estado": "estimado · por confirmar por la Dirección",
+      "docentes": "Estimado (equipo parcial). Línea de obesidad y composición corporal con evidencia: Lic. María Bernarda Collantes Cossio (decisión de pérdida de peso, 2022; adicción a las comidas, grasa corporal y riesgo cardiometabólico, 2026; autopercepción de imagen corporal y antropometría, 2025), Lic. Charo Natali Huzco Rutti (grasa corporal y riesgo cardiometabólico, 2024; ingesta proteica y composición corporal, 2023), Mg. María Alina Miranda Flores (sobrepeso y obesidad en choferes, 2013; IMC y riesgo cardiometabólico, 2023), Lic. Bertha Chanducas Lozano (sueño, IMC y cintura, 2024), Marlene Pareja Joaquín (perímetro de cuello para sobrepeso y obesidad, 2019), Johnny Percy Ambulay Briceño (obesidad en comerciantes, 2017). No se halló ninguna tesis ni docente con línea de cirugía bariátrica o manejo pre/posbariátrico (búsqueda 'bariátrica' sin resultados específicos). Nivel 3 por el componente de obesidad; el componente bariátrico no tiene perfil identificado.",
+      "campos": "Estimado (campo informal). Los convenios hospitalarios publicados (Hospital de Chosica, Hospital de Emergencias de Ate Vitarte) permiten consulta de obesidad en rotación clínica general, pero no se identificó convenio con unidad de cirugía bariátrica ni con clínica de obesidad. Clínica Adventista Good Hope (Miraflores) coordina internado de pregrado de Medicina con la UPeU; su cobertura para Nutrición no está publicada.",
+      "infraestructura": "Estimado (mínimo). Tesis 2023–2026 sobre grasa corporal y composición corporal implican equipamiento de medición (no descrito públicamente: bioimpedancia, plicómetros). No se halló laboratorio de composición corporal ni calorimetría indirecta. Centro de Simulación Clínica y Laboratorio de Técnicas Dietéticas disponibles.",
+      "fuentes": [
+        {"t": "Repositorio UPeU. (2013–2023). Colección Nutrición Humana: búsqueda 'obesidad' (API DSpace)", "u": "https://repositorio.upeu.edu.pe/server/api/discover/search/objects?query=obesidad&scope=457644ec-7c72-4143-b451-d9c0bd37c212&size=20", "fecha": "24-09-2026"},
+        {"t": "Repositorio UPeU. (2015–2026). Colección Nutrición Humana: búsqueda 'bariátrica OR conducta alimentaria' (API DSpace; sin resultados sobre cirugía bariátrica)", "u": "https://repositorio.upeu.edu.pe/server/api/discover/search/objects?query=bari%C3%A1trica%20OR%20%22conducta%20alimentaria%22&scope=457644ec-7c72-4143-b451-d9c0bd37c212&size=20", "fecha": "24-09-2026"},
+        {"t": "Repositorio UPeU. (2017–2025). Colección Nutrición Humana: búsqueda 'sarcopenia OR adulto mayor' (API DSpace; incluye grasa corporal y riesgo cardiometabólico)", "u": "https://repositorio.upeu.edu.pe/server/api/discover/search/objects?query=sarcopenia%20OR%20%22adulto%20mayor%22&scope=457644ec-7c72-4143-b451-d9c0bd37c212&size=20", "fecha": "24-09-2026"},
+        {"t": "Clínica Adventista Good Hope. (s. f.). Docencia e Investigación (internado de pregrado: UPC y Universidad Peruana Unión)", "u": "https://www.goodhope.org.pe/docencia-e-investigacion/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2022). Funcionarios del Hospital de Emergencias de Ate Vitarte visitan campus universitario en el marco de renovación de convenio", "u": "https://upeu.edu.pe/funcionarios-del-hospital-de-emergencias-de-ate-vitarte-visitan-campus-universitario-en-el-marco-de-renovacion-de-convenio/", "fecha": "24-09-2026"}
+      ]
+    },
+    {
+      "cod": "NUT-09",
+      "especialidad": "Nutrición ocupacional y salud en minería",
+      "doc": 2,
+      "cam": 2,
+      "inf": 2,
+      "estado": "estimado · por confirmar por la Dirección",
+      "docentes": "Estimado (un docente equivalente). Tesis en poblaciones trabajadoras sin enfoque de salud ocupacional formal: Lic. Charo Natali Huzco Rutti (factores sociolaborales y calidad de vida en nutricionistas clínicos, 2021), Lic. María Bernarda Collantes Cossio (colaboradores de una cadena de restaurantes, 2024), Mg. María Alina Miranda Flores (choferes de empresas de transporte, 2013), Jacksaint Saintila (estrés laboral e ingesta en profesionales de salud, 2022), Johnny Percy Ambulay Briceño (comerciantes de mercado mayorista, 2017). Ninguna tesis ni docente con línea en minería, campamentos o programas de salud ocupacional (búsquedas 'minera OR ocupacional' y sitio UPeU 'minera' sin resultados). No verificable un docente con diplomado o maestría en salud ocupacional.",
+      "campos": "Estimado (campo informal, con un convenio institucional por confirmar). UPeU Campus Juliaca firmó convenio específico de cooperación interinstitucional con la empresa minera Pegasso Gold Export S.A.C. (ago. 2025) para prácticas preprofesionales, pasantías, investigación y proyección social de 'múltiples programas'; no se publica si incluye a Nutrición Humana. No se halló convenio con concesionarias de alimentación de campamentos ni con servicios de salud ocupacional. Si la Dirección acredita que el convenio con Pegasso cubre Nutrición, el nivel sube a 3.",
+      "infraestructura": "Estimado (mínimo). No se halló equipamiento específico (antropometría de campo, evaluación de gasto energético, software de vigilancia ocupacional). Se dispone de infraestructura general de la EP (Laboratorio de Técnicas Dietéticas, Centro de Simulación Clínica).",
+      "fuentes": [
+        {"t": "Universidad Peruana Unión. (2025). Instituciones educativas, de salud y programas nacionales consolidan convenios con la UPeU (convenio específico con Pegasso Gold Export S.A.C.)", "u": "https://upeu.edu.pe/en/noticias/instituciones-educativas-de-salud-y-programas-nacionales-consolidan-convenios-con-la-upeu/", "fecha": "24-09-2026"},
+        {"t": "Repositorio UPeU. (2017–2024). Colección Nutrición Humana: búsqueda 'trabajadores OR minera OR ocupacional' (API DSpace)", "u": "https://repositorio.upeu.edu.pe/server/api/discover/search/objects?query=trabajadores%20OR%20minera%20OR%20ocupacional&scope=457644ec-7c72-4143-b451-d9c0bd37c212&size=20", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (s. f.). Búsqueda en sitio 'minera' (sin noticias sobre convenios mineros o salud ocupacional)", "u": "https://upeu.edu.pe/?s=minera", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (s. f.). Búsqueda en sitio 'Pegasso' (sin resultados)", "u": "https://upeu.edu.pe/?s=Pegasso", "fecha": "24-09-2026"}
+      ]
+    },
+    {
+      "cod": "NUT-10",
+      "especialidad": "Nutrición en programas sociales del Estado",
+      "doc": 2,
+      "cam": 3,
+      "inf": 2,
+      "estado": "estimado · por confirmar por la Dirección",
+      "docentes": "Estimado (un docente con evidencia directa). Mg. Mery Rodríguez Vásquez asesoró la tesis sobre conocimiento materno de anemia y multimicronutrientes en usuarias del Programa Cuna Más (2019). El equipo de nutrición comunitaria (Chanducas Lozano, Collantes Cossio, Calizaya Milla; ver NUT-03) tiene líneas afines en escolares y niños menores de 5 años, pero sin evidencia pública de experiencia en gestión de programas MIDIS (Qali Warma/PAE, Cuna Más, Juntos, PAIS) por unidad territorial. Puede subir a 3 si la Dirección acredita trayectoria de docentes en programas sociales.",
+      "campos": "Convenios parciales con evidencia: acta de trabajo UPeU Juliaca–Programa Nacional de Alimentación Escolar Qali Warma (MIDIS, 01-09-2021; escuelas de Ingeniería de Industrias Alimentarias, Ingeniería Ambiental, Enfermería y Educación; Nutrición no mencionada); plan de trabajo regional MIDIS–Programa Nacional PAIS en 63 Tambos de Puno con UPeU Juliaca (ago. 2025); convenio específico con la Municipalidad Distrital de Pacllón con internado de Nutrición (2023); convenio de prácticas con la Municipalidad Provincial de San Martín (Tarapoto, 2019, todas las carreras de 5.º año). No hay convenio publicado a nombre de la EP de Nutrición con una unidad territorial de MIDIS.",
+      "infraestructura": "Estimado (mínimo). La especialidad requiere sobre todo software de supervisión y reporte, equipos antropométricos de campo y aulas; ninguno documentado públicamente para esta función. Infraestructura general de la EP disponible.",
+      "fuentes": [
+        {"t": "Universidad Peruana Unión. (2021). UPeU Campus Juliaca y Qali Warma articulan esfuerzos en favor de los escolares", "u": "https://upeu.edu.pe/upeu-campus-juliaca-y-qali-warma-articulan-esfuerzos-en-favor-de-los-escolares/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2025). Instituciones educativas, de salud y programas nacionales consolidan convenios con la UPeU (MIDIS–Programa Nacional PAIS, 63 Tambos de Puno)", "u": "https://upeu.edu.pe/en/noticias/instituciones-educativas-de-salud-y-programas-nacionales-consolidan-convenios-con-la-upeu/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2023). Estudiantes de Enfermería, Psicología y Nutrición Humana de la UPeU realizarán internado ... distrito de Pacllón", "u": "https://upeu.edu.pe/estudiantes-de-enfermeria-psicologia-y-nutricion-humana-de-la-upeu-realizaran-internado-y-contribuiran-en-proyectos-para-el-beneficio-de-la-salud-integral-de-los-pobladores-del-distrito-de-pacllon/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2019). UPeU - Campus Tarapoto realiza firma de convenio con la Municipalidad de San Martín", "u": "https://upeu.edu.pe/upeu-campus-tarapoto-realiza-firma-de-convenio-con-la-municipalidad-de-san-martin/", "fecha": "24-09-2026"},
+        {"t": "Repositorio UPeU. (2017–2026). Colección Nutrición Humana: búsqueda 'Qali Warma OR programa social OR Cuna Más' (API DSpace)", "u": "https://repositorio.upeu.edu.pe/server/api/discover/search/objects?query=%22Qali%20Warma%22%20OR%20%22programa%20social%22%20OR%20%22Cuna%20M%C3%A1s%22&scope=457644ec-7c72-4143-b451-d9c0bd37c212&size=20", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2021). Búsqueda en sitio 'Qali Warma' (incluye proyecto 'Come saludable con Qaliwarma' de Enfermería Juliaca, oct. 2021)", "u": "https://upeu.edu.pe/?s=Qali+Warma", "fecha": "24-09-2026"}
+      ]
+    },
+    {
+      "cod": "NUT-14",
+      "especialidad": "Nutrición geriátrica y del envejecimiento",
+      "doc": 3,
+      "cam": 3,
+      "inf": 2,
+      "estado": "estimado · por confirmar por la Dirección",
+      "docentes": "Con evidencia (equipo parcial, 2–3): Mg. Yaquelin Eveling Calizaya Milla (estado nutricional de adultos mayores hospitalizados por COVID-19 en UCI, 2025), Lic. María Bernarda Collantes Cossio (test MNA en adultos mayores del Hospital Especializado San Juan de Dios, 2022), Mg. Mery Rodríguez Vásquez (programa 'Adultos mayores activos y saludables' y hemoglobina glicosilada, 2019). La EP declara 'geriatría' entre sus líneas. No se halló tesis sobre sarcopenia, disfagia o adaptación de texturas ni docente con formación geriátrica verificable.",
+      "campos": "Convenios parciales con evidencia: hospitales con convenio docente-asistencial (Hospital de Chosica, 2023; Hospital de Emergencias de Ate Vitarte, 2022) que atienden población adulta mayor; acceso previo al Hospital Especializado San Juan de Dios (tesis 2022) y a programas comunitarios de adultos mayores (2019). No se identificó convenio con residencias geriátricas, Centros Integrales del Adulto Mayor (CIAM) ni Pensión 65.",
+      "infraestructura": "Estimado (mínimo). Laboratorio de Técnicas Dietéticas (adaptación de texturas posible) y Centro de Simulación Clínica; no se halló equipamiento para evaluación de sarcopenia (dinamometría, bioimpedancia) ni de disfagia.",
+      "fuentes": [
+        {"t": "Repositorio UPeU. (2017–2025). Colección Nutrición Humana: búsqueda 'sarcopenia OR adulto mayor' (API DSpace)", "u": "https://repositorio.upeu.edu.pe/server/api/discover/search/objects?query=sarcopenia%20OR%20%22adulto%20mayor%22&scope=457644ec-7c72-4143-b451-d9c0bd37c212&size=20", "fecha": "24-09-2026"},
+        {"t": "Repositorio UPeU. (2017–2024). Colección Nutrición Humana: búsqueda 'disfagia OR geriátrico OR residencia OR asilo' (API DSpace; sin resultados sobre disfagia)", "u": "https://repositorio.upeu.edu.pe/server/api/discover/search/objects?query=disfagia%20OR%20geri%C3%A1trico%20OR%20%22residencia%22%20OR%20%22asilo%22&scope=457644ec-7c72-4143-b451-d9c0bd37c212&size=20", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (s. f.). Carrera de Nutrición Humana (líneas declaradas, incluye geriatría)", "u": "https://upeu.edu.pe/facultad-de-salud/en/nutricion-humana/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (2023). UPeU y Hospital José Agurto Tello de Chosica suscriben convenio para el mejoramiento de la calidad asistencial y la formación académica", "u": "https://upeu.edu.pe/upeu-y-hospital-jose-agurto-tello-de-chosica-suscriben-convenio-para-el-mejoramiento-de-la-calidad-asistencial-y-la-formacion-academica/", "fecha": "24-09-2026"},
+        {"t": "Universidad Peruana Unión. (s. f.). Búsqueda en sitio 'adulto mayor nutrición' (sin resultados)", "u": "https://upeu.edu.pe/?s=adulto+mayor+nutrici%C3%B3n", "fecha": "24-09-2026"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+ "rol": "P5",
+ "perfil": "Experto en tecnología y automatización",
+ "calificaciones": {
+  "SIS-01": {"E": 4, "comentario": "La IA genera código rutinario, pruebas y documentación; arquitectura, requisitos e integración resisten. El egresado debe dirigir el desarrollo asistido por IA, no competir con él.", "fuente": "[P-L10][P-L3]"},
+  "SIS-02": {"E": 4, "comentario": "Es la especialidad que construye la automatización. Se automatiza EDA y modelado estándar; MLOps, gobernanza del dato y definición del problema no. Inversión 3,9x y Ley 31814.", "fuente": "[P-L3][P-L4][N-4]"},
+  "SIS-03": {"E": 4, "comentario": "SOC nivel 1 se automatiza; respuesta, gobierno del riesgo y seguridad de IA y OT no. Función obligatoria por norma y tecnología madura en carrera continua.", "fuente": "[P-L1][P-L2][N-2]"},
+  "SIS-04": {"E": 4, "comentario": "Sin plataforma no hay IA en producción. IaC y pipelines rutinarios se automatizan; la operación híbrida regulada, FinOps y platform engineering exigen criterio. Nube adoptada y estable.", "fuente": "[P-L5][P-L4]"},
+  "SIS-05": {"E": 3, "comentario": "Negociación, priorización y gestión de portafolio de IA no se automatizan; el seguimiento y reportes sí. Esencial como capacidad transversal, no como especialidad dominante.", "fuente": "[P-L4] y criterio del rol"},
+  "SIS-06": {"E": 3, "comentario": "La decisión arquitectónica que integra IA, nube y datos es humana y perdura. Es rol senior que madura con experiencia; la base debe formarse en el perfil.", "fuente": "[P-L7][P-L4]"},
+  "SIS-07": {"E": 2, "comentario": "El front-end móvil estándar es lo más automatizable del desarrollo; frameworks multiplataforma y generación de UI lo absorben. Es plataforma de despliegue, no especialidad.", "fuente": "[P-L10][P-L9]"},
+  "SIS-08": {"E": 2, "comentario": "Producto de proveedor, no campo. Configuración y reportes se automatizan con asistentes del propio ERP; la integración de procesos se forma en desarrollo y arquitectura.", "fuente": "[P] y criterio del rol"},
+  "SIS-09": {"E": 2, "comentario": "La IA generativa absorbe especificación y documentación rutinaria. El relevamiento con el negocio persiste, pero es capacidad del desarrollador, no especialidad autónoma.", "fuente": "[P-L10]"},
+  "SIS-10": {"E": 2, "comentario": "Especialidad con más tareas automatizables: generación de casos y scripts madura. El tester manual se extingue; la ingeniería de calidad se integra al desarrollo.", "fuente": "[P][P-L10]"},
+  "SIS-11": {"E": 3, "comentario": "Infraestructura física poco automatizable; SDN automatiza la operación pero el diseño de 5G privadas para minería y conectividad rural resiste. Base de IoT y edge.", "fuente": "[P-L11]"},
+  "SIS-12": {"E": 3, "comentario": "Rol de control poco automatizable. La auditoría de algoritmos de IA es emergente y la Ley 31814 la hará exigible; complementa ciberseguridad.", "fuente": "[P-L1][N-4]"},
+  "SIS-13": {"E": 2, "comentario": "Obligación legal real, pero función de cumplimiento compartida con abogados. Las herramientas de privacidad están en experimentación; el ingeniero la cubre desde ciberseguridad y gobierno.", "fuente": "[N-6] y criterio del rol"},
+  "SIS-14": {"E": 2, "comentario": "Los tableros estándar ya se generan automáticamente con lenguaje natural. El modelado de datos persiste, pero converge con ciencia de datos; no sostiene especialidad propia.", "fuente": "[P][P-L4]"},
+  "SIS-15": {"E": 3, "comentario": "Frontera físico-digital que la IA no reemplaza; edge AI y 5G privadas maduran en cinco años. Aún en experimentación, pero driver estructural en minería e industria.", "fuente": "[P-S][P-L11]"},
+  "SIS-16": {"E": 1, "comentario": "Tecnología en experimentación sin adopción local ni puestos. Fintech la absorbe como componente; no es campo de ejercicio profesional.", "fuente": "[P-S][P]"},
+  "SIS-17": {"E": 2, "comentario": "El DBA operativo es altamente automatizable por servicios gestionados en nube. Lo que persiste es ingeniería de datos, que pertenece a ciencia de datos y nube.", "fuente": "[P-L4][P]"},
+  "SIS-18": {"E": 2, "comentario": "El diseño generativo automatiza wireframes y prototipos. La investigación de usuario persiste, pero es campo del diseño; el ingeniero la usa, no la ejerce.", "fuente": "[P-L10][O-tabla]"},
+  "SIS-19": {"E": 1, "comentario": "Soporte nivel 1 en la franja de mayor exposición; agentes conversacionales lo absorben. Puesto técnico, no especialidad de ingeniero.", "fuente": "[P-L10][P-S]"}
+ },
+ "faltan": [
+  "Ingeniería de datos y MLOps: pipelines, gobernanza y operación de modelos en producción; es lo que no se automatiza de la IA y hoy está repartido entre SIS-02, SIS-04 y SIS-17",
+  "Seguridad de IA y de tecnología operacional (OT): frente emergente en minería, industria y sistemas de IA regulados por la Ley 31814",
+  "Ingeniería de plataformas para IA y data centers: operación de infraestructura de cómputo para cargas de IA, con inversión comprometida en 2026",
+  "Automatización de procesos con IA agéntica: integración de agentes y RPA a procesos de negocio, demandada por 7 de 10 empresas y sin especialidad que la cubra"
+ ],
+ "integrar": [
+  "SIS-14 Inteligencia de negocios y SIS-17 Administración de bases de datos con SIS-02 Ciencia de datos e IA: el mercado contrata ingeniería y analítica de datos como un solo perfil",
+  "SIS-07 Desarrollo móvil, SIS-09 Análisis funcional, SIS-10 Pruebas y SIS-18 UX/UI con SIS-01 Desarrollo de software: ingeniería de producto de punta a punta con desarrollo asistido por IA",
+  "SIS-13 Protección de datos personales con SIS-03 Ciberseguridad y SIS-12 Auditoría y gobierno de TI: seguridad, riesgo y cumplimiento se contratan como una sola función",
+  "SIS-15 IoT y sistemas embebidos con SIS-11 Redes y telecomunicaciones: conectividad, 5G privadas y edge se contratan juntos en minería e industria"
+ ],
+ "noPuesto": [
+  "SIS-16 Blockchain y activos digitales: tecnología en experimentación disfrazada de especialidad, sin puesto ni negocio en Perú",
+  "SIS-08 Consultoría e implementación de ERP (SAP): producto de un proveedor, no campo; el negocio real es la integración de procesos empresariales",
+  "SIS-07 Desarrollo móvil: plataforma de despliegue del software, no especialidad ni negocio separado",
+  "SIS-19 Soporte técnico y mesa de ayuda: puesto técnico de entrada en extinción, no especialidad de ingeniero",
+  "IA generativa (fuera de cartera como SIS-20): herramienta transversal que redistribuye tareas de todas las especialidades, no campo de ejercicio"
+ ]
+}

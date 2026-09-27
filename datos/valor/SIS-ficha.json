@@ -1,0 +1,201 @@
+{
+ "cod": "SIS",
+ "fecha": "24-09-2026",
+ "ficha": {
+  "c1": "postulante",
+  "c2": {
+   "t": "En el Perú, 76 % de los empleadores no encuentra talento en IA y ciberseguridad, mientras se registran 748 millones de intentos de ciberataque en 2025.",
+   "f": "Gestión (ManpowerGroup), 2025; Infobae, 2025"
+  },
+  "c3": [
+   "Universidad Nacional del Altiplano (UNA Puno) · Ingeniería de Sistemas",
+   "Universidad Nacional de San Martín (UNSM) · Ingeniería de Sistemas e Informática",
+   "Universidad de Lima · Ingeniería de Sistemas",
+   "Universidad Tecnológica del Perú (UTP) · Ingeniería de Sistemas e Informática",
+   "Universidad Peruana de Ciencias Aplicadas (UPC) · Ingeniería de Sistemas de Información",
+   "Universidad Católica de Santa María (UCSM) · Ingeniería de Sistemas"
+  ],
+  "c5": "Otra carrera del barrido declara auditoría de TI o protección de datos antes de 2029."
+ },
+ "par": [
+  "Licenciamiento institucional",
+  "Plataforma virtual y Microsoft 365",
+  "Bolsa de trabajo",
+  "Flexibilidad horaria",
+  "Docentes con grado académico",
+  "Desarrollo de software (tronco común en las 21 carreras revisadas)",
+  "Ciencia de datos e inteligencia artificial (8 de 21 la declaran)",
+  "Certificaciones intermedias (URP, UCV, Continental, UPN y ESAN las ofrecen)",
+  "Alta demanda laboral de la carrera en general"
+ ],
+ "cad": {
+  "car": {
+   "p1": "En el Perú, 76 % de los empleadores no encuentra talento en IA y ciberseguridad (Gestión, 07-04-2025) y el país recibió 748 millones de intentos de ciberataque en el primer semestre de 2025, con el sector público como principal blanco de incidentes graves (Infobae, 27-08-2025; El Peruano, 03-06-2026).",
+   "p2": "C1 a C5: construir software en producción (C1), operar la plataforma (C2), convertir datos en decisiones (C3), gestionar la seguridad de la información (C4) y gobernar la tecnología con control (C5).",
+   "p3": "La organización mediana de Lima, Puno o San Martín, pública o privada, opera sus sistemas sin interrupciones, protege los datos de sus usuarios y decide con evidencia.",
+   "p4": "Que la tecnología de cada organización funcione, proteja los datos de las personas y rinda cuentas."
+  },
+  "esp": [
+   {
+    "comp": "C1",
+    "alias": "Ingeniería de software",
+    "p1": "La Encuesta de Demanda Ocupacional 2025 del MTPE proyectó 5 226 puestos para Ingeniería de Sistemas de Información en el Perú, la ingeniería más demandada (Infobae, 2026), y la OIT ubica al software entre los trabajos con exposición creciente a la IA generativa (Noticias ONU, 2025).",
+    "p2": "C1 — analizar las necesidades del negocio, diseñar la arquitectura, construir, verificar con pruebas automatizadas y desplegar software en producción.",
+    "p3": "El usuario de una empresa o entidad pública usa a diario un sistema que funciona, se prueba antes de cada cambio y se mantiene sin detener su trabajo.",
+    "p4": "Que el software que una organización usa cada día funcione y se pueda mantener."
+   },
+   {
+    "comp": "C2",
+    "alias": "Plataforma e infraestructura",
+    "p1": "En el Perú la demanda de nube híbrida creció 600 % en cinco meses (Red Hat, en Gestión, 23-05-2026) y la inversión en telecomunicaciones llega a S/ 5 800 millones en 2026 (Gestión, 13-01-2026).",
+    "p2": "C2 — diseñar, aprovisionar como código, operar, observar y optimizar la plataforma en la nube y la red de una organización.",
+    "p3": "Los clientes de una organización mediana de Lima, Puno o San Martín acceden a sus servicios digitales sin caídas y a un costo que la organización puede sostener.",
+    "p4": "Que los servicios digitales de una organización sigan disponibles cuando su gente los necesita."
+   },
+   {
+    "comp": "C3",
+    "alias": "Datos e inteligencia artificial",
+    "p1": "La inversión en IA en el Perú llegó a US$ 497 millones en 2025 y crece 20 % anual (IDC, en El Ecosistema Startup, 22-07-2026), mientras 76 % de los empleadores no encuentra talento en IA y ciberseguridad (Gestión, 07-04-2025).",
+    "p2": "C3 — gobernar el dato, modelar, evaluar la validez y la ética del modelo, implantarlo en producción y comunicar resultados para decidir.",
+    "p3": "El gerente de una cooperativa, una empresa o un gobierno regional decide con un tablero y un modelo evaluados, y las personas afectadas por esa decisión no reciben un trato sesgado.",
+    "p4": "Que las decisiones de una organización se sostengan en datos confiables y en modelos evaluados con ética."
+   },
+   {
+    "comp": "C4",
+    "alias": "Ciberseguridad",
+    "p1": "El Perú registró 748 millones de intentos de ciberataque en el primer semestre de 2025 (Infobae, 27-08-2025) y el sector público fue el principal blanco de incidentes graves, con 19 % (Kaspersky, en El Peruano, 03-06-2026).",
+    "p2": "C4 — evaluar el riesgo, proteger, detectar, responder a incidentes y recuperar la operación conforme a la normativa de protección de datos personales.",
+    "p3": "El cliente de un banco o el ciudadano de una municipalidad mantiene protegidos sus datos personales y recibe aviso en el plazo legal si ocurre una brecha.",
+    "p4": "Que los datos de las personas estén protegidos y que cada incidente se responda a tiempo."
+   },
+   {
+    "comp": "C5",
+    "alias": "Gobierno y gestión de TI",
+    "p1": "En el Perú seis de cada diez empresas con IA la mantienen en piloto (IDC, en El Ecosistema Startup, 22-07-2026) y el sector público concentró 19 % de los incidentes graves de ciberseguridad en 2025 (El Peruano, 03-06-2026).",
+    "p2": "C5 — alinear la tecnología con la estrategia, planificar y dirigir proyectos, operar servicios bajo acuerdos de nivel y auditar controles y riesgos de TI.",
+    "p3": "La dirección de una entidad pública o empresa recibe el proyecto tecnológico cerrado con acta, y su comité de auditoría conoce los riesgos de TI con hallazgos verificables.",
+    "p4": "Que cada inversión en tecnología cumpla lo pactado y se gobierne con control."
+   }
+  ]
+ },
+ "dif": [
+  {
+   "n": "Todo egresado audita controles y riesgos de TI y gestiona el cumplimiento de protección de datos personales; 0 de 21 carreras revisadas declara esas líneas.",
+   "d": "D6",
+   "fam": "Modelo de aprendizaje y tecnología",
+   "ev": "Barrido de diferenciación, 24-09-2026: SIS-12 y SIS-13 en nivel 4 (0 de 21). Capacidad instalada estimada en 2 a 3 (SIS-decl, 24-09-2026); sin resolución que institucionalice la línea.",
+   "fuente": "datos/capacidad/SIS-dif.json; datos/evidencias/SIS-6-diferenciacion.md",
+   "resp": "Dirección de la EP de Ingeniería de Sistemas · UPeU",
+   "alc": 100,
+   "comp": "C4 · C5",
+   "esp": "Auditoría de sistemas y gobierno de TI · Protección de datos personales y privacidad",
+   "verificado": true
+  },
+  {
+   "n": "Todo egresado aprovisiona infraestructura como código y opera pipelines con observabilidad; solo 1 de 21 carreras revisadas (UTEC) declara esa línea.",
+   "d": "D6",
+   "fam": "Modelo de aprendizaje y tecnología",
+   "ev": "Barrido de diferenciación, 24-09-2026: SIS-04 en nivel 3 (1 de 21). Tesis de CI/CD 2020 y 2025 asesoradas en la escuela (Repositorio UPeU).",
+   "fuente": "datos/capacidad/SIS-dif.json; https://repositorio.upeu.edu.pe/handle/20.500.12840/9126",
+   "resp": "Dirección de la EP de Ingeniería de Sistemas · UPeU",
+   "alc": 100,
+   "comp": "C2",
+   "esp": "Infraestructura en la nube y DevOps",
+   "verificado": true
+  },
+  {
+   "n": "Docentes de Juliaca y Tarapoto aplican IA a problemas productivos de su región: tilapia en CITEacuícola Ahuashiyacu (2025) y heladas en Caracoto (2026).",
+   "d": "D3",
+   "fam": "Cuerpo docente e investigación",
+   "ev": "Proyecto PIA-PDT2024-01, S/ 30 000 (UPeU, 2025); red de sensores con IA contra heladas (UPeU, 2026); ocho asesores de tesis de aprendizaje automático 2019-2026. Plana docente 2026 no confirmada.",
+   "fuente": "https://upeu.edu.pe/innovacion-acuicola-investigadores-de-la-upeu-crean-dispositivo-inteligente-para-optimizar-la-produccion-de-tilapia-en-la-selva-peruana/; https://upeu.edu.pe/upeu-desarrolla-tecnologia-que-protege-cultivos-de-papa-y-apoya-a-familias-frente-a-heladas-en-el-altiplano/",
+   "resp": "Dirección de la EP de Ingeniería de Sistemas · UPeU",
+   "alc": 60,
+   "comp": "C3",
+   "esp": "Ciencia de datos e inteligencia artificial",
+   "verificado": true
+  },
+  {
+   "n": "Prácticas y tesis en organizaciones de Lima, Puno y San Martín sobre 28 convenios de prácticas declarados por la facultad.",
+   "d": "D5",
+   "fam": "Red de convenios y campo real",
+   "ev": "28 convenios de prácticas sin desglose (portada FIA, consulta 24-09-2026); investidura de 25 practicantes en Juliaca (08-06-2022); tesis en Cooperativa San Martín de Porres (2025) y CIP-CDSMT (2024). Sin convenio con vigencia y vacantes verificado.",
+   "fuente": "https://upeu.edu.pe/facultad-de-ingenieria/ingenieria-sistemas/; datos/evidencias/SIS-6-declaracion.md",
+   "resp": "Dirección de la EP de Ingeniería de Sistemas · UPeU",
+   "alc": 100,
+   "comp": "C1 · C3 · C5",
+   "esp": "Desarrollo de software e ingeniería de aplicaciones",
+   "verificado": false
+  },
+  {
+   "n": "Laboratorio de redes y comunicación en Tarapoto (27-05-2022), laboratorio especializado del CIT en Lima-Ñaña (15-08-2023) y laboratorios en la nube de AWS Academy (acuerdo 09-09-2020).",
+   "d": "D4",
+   "fam": "Entornos de práctica e infraestructura",
+   "ev": "Noticias UPeU 2020, 2022 y 2023. Sin inventario con horas por estudiante; Juliaca sin laboratorio documentado; vigencia de AWS Academy no verificada.",
+   "fuente": "https://upeu.edu.pe/se-inauguraron-nuevas-instalaciones-en-la-upeu-campus-tarapoto/; https://upeu.edu.pe/upeu-firma-acuerdo-con-aws-academy-que-permitira-que-estudiantes-accedan-a-cursos-y-obtengan-certificaciones-reconocidas/",
+   "resp": "Dirección de la EP de Ingeniería de Sistemas · UPeU",
+   "alc": 100,
+   "comp": "C2",
+   "esp": "Redes y telecomunicaciones",
+   "verificado": false
+  }
+ ],
+ "textos": {
+  "t": "Ingeniería de Sistemas forma profesionales que construyen, operan, protegen y gobiernan la tecnología de organizaciones de Lima, Puno y San Martín. Se diferencia por la auditoría de TI con protección de datos personales, que ninguna de 21 carreras revisadas declara, y por la operación de nube como código, que solo una declara. Cada egresado lo demuestra con un informe de riesgos aprobado y una plataforma operando con observabilidad.",
+  "p": "Construye, protege y audita la tecnología de una organización con evidencia que un tercero puede verificar.",
+  "prop": "Que la tecnología de cada organización funcione, proteja los datos de las personas y rinda cuentas.",
+  "vp": [
+   [
+    "Programar es solo un tramo: el software vale cuando se usa en producción y se puede mantener. Aprendes a decidir la arquitectura, las pruebas y el momento de desplegar. Lo demuestras con un sistema en producción, con su repositorio, sus pruebas automatizadas y la aceptación del usuario.",
+    "Despliega software de mediana complejidad en producción con pruebas automatizadas y aceptación del usuario.",
+    "Que el software que una organización usa cada día funcione y se pueda mantener."
+   ],
+   [
+    "Toda aplicación corre sobre una plataforma que alguien diseña, paga y mantiene disponible. Aprendes a decidir cómo dimensionarla, automatizarla y reducir su costo en la nube o en la red. Lo demuestras con una plataforma operando, con su infraestructura como código y su tablero de disponibilidad y costo.",
+    "Opera la plataforma de una organización mediana con infraestructura como código, disponibilidad medida y costo controlado.",
+    "Que los servicios digitales de una organización sigan disponibles cuando su gente los necesita."
+   ],
+   [
+    "Un modelo que acierta en el laboratorio puede fallar o discriminar en la realidad. Aprendes a decidir qué dato usar, qué modelo sirve y cuándo no debe implantarse. Lo demuestras con un modelo en producción, su informe de evaluación y un tablero que la gerencia usa.",
+    "Implanta modelos analíticos evaluados en validez y sesgo, con tableros que la gerencia usa para decidir.",
+    "Que las decisiones de una organización se sostengan en datos confiables y en modelos evaluados con ética."
+   ],
+   [
+    "La seguridad no es solo técnica: también es gestión del riesgo y cumplimiento ante la autoridad. Aprendes a decidir qué proteger primero y cómo responder a un incidente en los plazos legales. Lo demuestras con un informe de riesgos y un plan de respuesta aprobados por la organización.",
+    "Evalúa riesgos, implanta controles y responde a incidentes cumpliendo la normativa de protección de datos personales.",
+    "Que los datos de las personas estén protegidos y que cada incidente se responda a tiempo."
+   ],
+   [
+    "Un proyecto tecnológico fracasa más por su dirección que por su tecnología. Aprendes a decidir qué priorizar, cómo controlar alcance y costo y qué controles auditar. Lo demuestras con un proyecto cerrado con acta, un servicio bajo acuerdos de nivel y un informe de evaluación de controles.",
+    "Dirige y cierra proyectos tecnológicos, opera sus servicios bajo acuerdos de nivel y audita sus controles.",
+    "Que cada inversión en tecnología cumpla lo pactado y se gobierne con control."
+   ]
+  ]
+ },
+ "g0": {
+  "g01": true,
+  "g02": true,
+  "g03": true,
+  "g04": true,
+  "g05": true,
+  "g06": true,
+  "g07": true,
+  "g08": true,
+  "g09": true,
+  "detalle": "Párrafo 68 palabras; promesa 16; C2 25; C5 15; propósito de carrera 16; propósitos de especialidad 14/14/17/16/13; promesas de especialidad 14/16/16/16/16. Lista negra: 0 apariciones. Rayas solo en p2. G0.8: el texto no usa datos de resultados del egresado; no hay serie de cohortes, por eso no se propone candidato D7. Alcance declarado como meta de diseño, por confirmar por la Dirección. Candidatos 4 y 5 con verificado false: sin convenio con vigencia y vacantes, sin inventario con horas por estudiante. El candidato 1 entra al texto condicionado: la capacidad instalada de auditoría y protección de datos es 2 a 3, estimada."
+ },
+ "sustento": [
+  [
+   "Especialidades que entran al plan",
+   "Once especialidades del paso 1.1: cinco equivalen a una competencia (desarrollo de software, nube y DevOps, ciencia de datos e IA, ciberseguridad, gestión de proyectos y servicios de TI), tres son ámbito de aplicación (redes y telecomunicaciones, inteligencia de negocios, protección de datos personales) y tres equivalen a una capacidad (análisis funcional, arquitectura empresarial, auditoría de sistemas)."
+  ],
+  [
+   "Lo que la escuela puede sostener hoy",
+   "Borrador de la Dirección del 24-09-2026, sin firma: docentes en nivel 4 en siete especialidades, inferidos por tesis asesoradas; campos e infraestructura en 3 como máximo; arquitectura empresarial, auditoría y protección de datos en 2. Laboratorio de redes en Tarapoto (2022), CIT en Lima-Ñaña (2023), acuerdo AWS Academy (2020, vigencia por confirmar). Faltan la plana 2026, los convenios con vigencia y el inventario por sede."
+  ],
+  [
+   "Lo que nadie más ofrece en la región",
+   "Barrido de 21 carreras del 24-09-2026: auditoría de sistemas y protección de datos personales, 0 de 21; nube y DevOps, análisis funcional y redes, 1 de 21. UNA Puno y UNSM, las carreras públicas de Puno y San Martín, no declaran ninguna línea de especialidad."
+  ]
+ ]
+}
