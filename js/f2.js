@@ -2813,25 +2813,64 @@ function restaurar(d){
   addMsg("agent", `<p>Retomo el avance guardado${S.spec?` en <b>${esc(S.spec)}</b> · ${esc(momLabel(S.step))}`:""}. Use el botón <b>▶</b> para seguir.</p>`);
   $("#msgs").scrollTop = $("#msgs").scrollHeight;
 }
-/* ---------- Reiniciar (como la Fase 1: por pasos) ----------
-   Primer clic: la especialidad en trabajo vuelve al inicio de su paso; las demás se conservan.
-   Si ya está en su inicio (o no hay especialidad), vuelve al momento cero de la carrera. */
-const INI_ESCUELA = JSON.parse(JSON.stringify({bulk:S.bulk, d23:S.d23, d24:S.d24, d25:S.d25}));
-function reiniciar(){
+function estadoInicialEscuela(){
+  return {
+    bulk: {fn:false, rec:false},
+    d23: {lote:false, temas:false, dim:false, comp:false, panel:false, saved:false, ronda:1, huerf:null,
+      gtem:"tema", open:{}, dopen:{}, gopen:{}, copen:{}, bopen:{}, sel:[], ag:[], coh:false, DIM:DIM0.map(r=>r.slice()), CD:CDIS0.map(r=>[r[0],r[1],r[2].slice(),r[3].slice(),r[4],r[5]])},
+    d24: {gen:false, ind:false, panel:false, pesos:false, corte:false, saved:false, crit:false, ESPEC:P5.ESPEC, EL:P5.EL, CAP:P5.CAP, modo:"incluido", ronda:1},
+    d25: {gen:false, coh:false, form:false, panel:false, saved:false, open:{}, filtro:"todos", ronda:1, vsel:(ESC[0]||{}).k, pick:{}, vok:{}, sum:false, edit:null}
+  };
+}
+function guardarAhora(){
+  if(!arrancado) return;
+  clearTimeout(tGuardar);
+  const inst = instantanea();
+  try{
+    localStorage.setItem("f2_"+ESCUELA, JSON.stringify(inst));
+    if(window.NUBE && NUBE.usuario) localStorage.setItem("f2_"+ESCUELA+"_"+NUBE.usuario.id, JSON.stringify(inst));
+  }catch(_){}
+  if(window.NUBE && NUBE.usuario){
+    pintarNube("pend");
+    NUBE.poner(CLAVE, {d: inst, docs: []})
+      .then(()=>pintarNube("ok"))
+      .catch(err=>{ console.error("[nube]", err); pintarNube("mal"); });
+  }
+}
+async function reiniciar(){
   if(S.busy){ toast("Génesys está trabajando · un segundo"); return; }
   closeDrawer(); closeModal();
+  clearTimeout(tGuardar);
+
   if(S.k && (S.step>0 || S.fn.length)){
     const n = S.spec, k = S.k;
     delete S.por[k]; S.k = null; cambiarEsp(k);
     S.mode.paquete = "per"; setTab("entrada"); refresh();
+    guardarAhora();
     addMsg("agent", `<p><b>Volvimos al inicio del paso 2.1 de ${esc(n)}.</b> Lo hecho en esta especialidad se descartó; las demás conservan su avance. Pulse <b>Reiniciar</b> otra vez para volver al momento cero de la carrera.</p>`,
       [{label:"Generar funciones y componentes", main:true, fn:gen21}]);
     return;
   }
+
   S.por = {}; S.k = null; S.spec = null; cargarEsp(ESC[0].k);
-  Object.assign(S, estadoInicial(), JSON.parse(JSON.stringify(INI_ESCUELA)));
+  Object.assign(S, estadoInicial(), estadoInicialEscuela());
   S.avail = new Set(["entrada","ficha","refs"]); S.mode.ent = "cartera"; resPrompted = false;
-  try{ localStorage.removeItem("f2_"+ESCUELA); }catch(_){}
+  try{
+    localStorage.removeItem("f2_"+ESCUELA);
+    if(window.NUBE && NUBE.usuario) localStorage.removeItem("f2_"+ESCUELA+"_"+NUBE.usuario.id);
+  }catch(_){}
+
+  if(window.NUBE && NUBE.usuario){
+    pintarNube("pend");
+    try{
+      await NUBE.quitar(CLAVE);
+      pintarNube("ok");
+    }catch(err){
+      console.error("[nube reiniciar]", err);
+      try{ await NUBE.poner(CLAVE, {d: instantanea(), docs: []}); pintarNube("ok"); }catch(_){}
+    }
+  }
+
   $("#msgs").innerHTML = ""; setTab("entrada"); refresh(); start();
   addMsg("agent", `<p><b>Volvimos al momento cero de la Fase 2.</b> Se descartó el avance de todas las especialidades de ${esc(F2.meta.nombre)}.</p>`);
 }
@@ -2845,7 +2884,8 @@ let arrancado = false;
   let b = window.NUBE && NUBE.get(CLAVE);
   if(!b || !b.d){
     try{
-      const loc = localStorage.getItem("f2_"+ESCUELA);
+      const locK = "f2_"+ESCUELA+(window.NUBE&&NUBE.usuario?"_"+NUBE.usuario.id:"");
+      const loc = localStorage.getItem(locK) || localStorage.getItem("f2_"+ESCUELA);
       if(loc) b = {d: JSON.parse(loc)};
     }catch(_){}
   }
