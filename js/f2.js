@@ -436,7 +436,8 @@ function checkReady21(){
     [{label:"Guardar Funciones del paso 2.1", main:true, fn:save21}]);
 }
 function save21(){
-  if(S.saved.p21 || S.step!==2) return;
+  if(S.saved.p21) return;
+  if(S.step < 2) S.step = 2;
   const e = escK(S.k), cod = `${ESCUELA}-${e.c}-F2-P21`;
   userSays("Guarda el paso 2.1.");
   think([`Asignando funciones a ${CAPS[0][0]}–${CAPS[CAPS.length-1][0]} (● principal · ○ apoyo)`,"Registrando nivel de confianza y límites","Matriz de pertinencia y prospectiva","Prueba de suficiencia para acreditación","Matriz de productos profesionales",`Informe ejecutivo ${cod} v1.0`,"Proyecto y base de datos"], ()=>{
@@ -519,7 +520,8 @@ function verBancoTE(){
       <td>${t[6].length?`<div class="bps">${t[6].map(k=>`<span class="et v3">${k}</span>`).join(" ")}</div>`:'<span class="mini">propio</span>'}</td></tr>`).join("")}</tbody></table></div>`);
 }
 function save22(){
-  if(S.saved.p22 || S.step!==6) return;
+  if(S.saved.p22) return;
+  if(S.step < 6) S.step = 6;
   userSays("Guarda el paso 2.2 con sus temas nucleares.");
   think(["Guardando la matriz funcional y el banco de recursos","Guardando el banco de temas nucleares de la especialidad","Marcando los temas compartidos y los candidatos base","Registrando en el Proyecto y la base de datos"], ()=>{
     S.saved.p22 = true; S.te.saved = true; S.step = 7; refresh();
@@ -1169,7 +1171,8 @@ function panel23(){
   });
 }
 function save23(){
-  if(S.d23.saved || S.step!==12) return;
+  if(S.d23.saved) return;
+  if(S.step < 12) S.step = 12;
   userSays("Guarda la derivación disciplinar.");
   think(["Registrando el banco de temas y la tabla de clasificación","Registrando las dimensiones con su producto de dominio","Registrando las competencias de contenido y la adenda al perfil","Escribiendo fund(e) y frac_e(d) para el paso 2.5"], ()=>{
     S.d23.saved = true; S.step = 13; S.mode.disc="band"; setTab("disc"); refresh();
@@ -1589,7 +1592,8 @@ function corte24(){
   });
 }
 function save24(){
-  if(S.d24.saved || S.step!==17) return;
+  if(S.d24.saved) return;
+  if(S.step < 17) S.step = 17;
   userSays("Guarda los pesos y los créditos.");
   think(["Registrando la tabla de pesos y la de indicadores con su origen","Escribiendo créditos por dimensión y por especialidad","Registrando el punto de corte derivado y el acta del panel","Actualizando el frontmatter de cada competencia"], ()=>{
     S.d24.saved = true; S.step = 18; refresh();
@@ -1966,7 +1970,8 @@ function panel25(){
   });
 }
 function save25(){
-  if(S.d25.saved || S.step!==22) return;
+  if(S.d25.saved) return;
+  if(S.step < 22) S.step = 22;
   userSays("Guarda la propuesta de cursos.");
   think(["Registrando la lista y la ficha de cada curso","Registrando la matriz de tributación y el prorrateo","Registrando itinerarios electivos y grafo de precedencia","Actualizando cada competencia con sus códigos de curso"], ()=>{
     S.d25.saved = true; S.step = 24; refresh();
@@ -2257,22 +2262,26 @@ $("#stepline").onclick=()=>{ const w=$("#work"); if(innerWidth<=1180){ if(!w.cla
 if(innerWidth<=1180) $("#railBtn").setAttribute("aria-pressed","false");
 
 function topAction(){
-  if(S.step<=2) return ["Guardar paso 2.1", S.step===2, save21];
-  if(S.step<=6) return hay("2.2") ? ["Guardar 2.2 y temas nucleares", S.step===6, save22] : ["2.1 guardado · 2.2 por generar", false, ()=>{}];
-  if(S.step<=12) return ["Guardar derivación disciplinar", S.step===12, save23];
-  if(S.step<=17) return ["Guardar pesos y créditos", S.step===17, save24];
-  if(S.step<=22) return ["Guardar propuesta de cursos", S.step===22, save25];
+  if(S.step<=2) return ["Guardar paso 2.1", !S.saved.p21, save21];
+  if(S.step<=6) return hay("2.2") ? ["Guardar 2.2 y temas nucleares", !S.saved.p22, save22] : ["2.1 guardado · 2.2 por generar", false, ()=>{}];
+  if(S.step<=12) return ["Guardar derivación disciplinar", !S.d23.saved, save23];
+  if(S.step<=17) return ["Guardar pesos y créditos", !S.d24.saved, save24];
+  if(S.step<=22) return ["Guardar propuesta de cursos", !S.d25.saved, save25];
   return ["Todos los pasos guardados", false, ()=>{}];
 }
 function refresh(){
   const ag=$("#agSpec"); if(ag) ag.textContent = S.spec ? "Especialidad: "+S.spec : "Especialidad: por elegir en la cartera";
   renderStepper(); renderPanel();
-  const [lab,en] = topAction(); $("#saveTop").textContent = lab; $("#saveTop").disabled = !en;
+  const btnSave = $("#saveTop");
+  if(btnSave){ const [lab,en] = topAction(); btnSave.textContent = lab; btnSave.disabled = !en; }
   const parts = [S.saved.p21&&"2.1 v1", S.saved.p22&&"2.2 v4", S.c31.saved&&"competencia v1.2", S.d23.saved&&"2.4 v1", S.d24.saved&&"2.5 v1", S.d25.saved&&"2.6 v1"].filter(Boolean);
-  $("#verPill").textContent = parts.length ? "Guardado: " + parts.join(" · ") : "Borrador · sin guardar";
-  $("#verPill").classList.toggle("saved", parts.length>0);
+  const vp = $("#verPill");
+  if(vp){
+    vp.textContent = parts.length ? "Guardado: " + parts.join(" · ") : "Borrador · sin guardar";
+    vp.classList.toggle("saved", parts.length>0);
+  }
 }
-$("#saveTop").onclick = ()=>topAction()[2]();
+{ const btnSave = $("#saveTop"); if(btnSave) btnSave.onclick = ()=>topAction()[2](); }
 
 function renderPanel(){
   const sub = {
