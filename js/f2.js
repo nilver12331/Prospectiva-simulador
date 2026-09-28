@@ -1335,8 +1335,8 @@ function pDist(){
   <p class="note">Primero el mapa, para decidir; después la tabla, para el detalle. Toque un punto del mapa o el <b>?</b> de cada columna para ver qué significa.</p>
   <h3>Mapa peso formativo × potencial de mercado${ayuda("MAPA")}</h3>
   <p class="note">Hacia la <b>derecha</b>, cuánta formación exige. Hacia <b>arriba</b>, cuánto la pide el mercado. El sello dorado marca las que conviene certificar. Toque un punto para ver su lectura, o el nombre de un cuadrante para ver las que caen ahí.</p>
-  <div style="border:1px solid var(--line);border-radius:10px;padding:10px;background:var(--surface);overflow-x:auto">
-  <svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:${W}px;height:auto" role="img" aria-label="Mapa de cuadrantes">
+  <div style="border:1px solid var(--line);border-radius:10px;padding:10px;background:var(--surface);overflow-x:auto;display:flex;justify-content:center">
+  <svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:${W}px;height:auto;display:block;margin:0 auto" role="img" aria-label="Mapa de cuadrantes">
     <rect x="${P0}" y="16" width="${x(mx)-P0}" height="${y(my)-16}" fill="${Q.opo[2]}"/>
     <rect x="${x(mx)}" y="16" width="${W-22-x(mx)}" height="${y(my)-16}" fill="${Q.nuc[2]}"/>
     <rect x="${P0}" y="${y(my)}" width="${x(mx)-P0}" height="${H-P0-y(my)}" fill="${Q.rev[2]}"/>
@@ -1353,8 +1353,8 @@ function pDist(){
       <text x="${W-26}" y="${H-P0-8}" font-size="10" fill="#24487e" font-weight="700" text-anchor="end">Costosa de baja demanda ⓘ</text></g>
     <line x1="${P0}" y1="${H-P0}" x2="${W-16}" y2="${H-P0}" stroke="var(--line)"/>
     <line x1="${P0}" y1="16" x2="${P0}" y2="${H-P0}" stroke="var(--line)"/>
-    <text x="${W/2}" y="${H-10}" text-anchor="middle" font-size="10" fill="var(--ink-3)">Peso formativo · distribución % →</text>
-    <text x="12" y="${H/2}" font-size="10" fill="var(--ink-3)" transform="rotate(-90 12 ${H/2})" text-anchor="middle">Potencial de mercado →</text>
+    <text x="${(P0+W-16)/2}" y="${H-10}" text-anchor="middle" font-size="10" fill="var(--ink-3)">Peso formativo · distribución % →</text>
+    <text x="12" y="${(16+H-P0)/2}" font-size="10" fill="var(--ink-3)" transform="rotate(-90 12 ${(16+H-P0)/2})" text-anchor="middle">Potencial de mercado →</text>
     ${(()=>{ const pts=ESC.map(e=>({k:e.k,e,d:distE(e.k),px:x(distE(e.k)),py:y(e.pot),c:cuad(e),cert:certOf(e.k)[0].startsWith("Sí")}));
       pts.forEach(q=>{ q.nom = ALIASE[q.k]||q.e.n; q.sub = `${q.k} · peso ${q.d.toFixed(0)} % · potencial ${q.e.pot}`;
         q.w = Math.max(q.nom.length*6.25, q.sub.length*5.25); });
