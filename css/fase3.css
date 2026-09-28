@@ -619,7 +619,10 @@ dialog.big .db{max-height:76vh}
 .unitbox .uh{display:flex;align-items:center;gap:10px;padding:11px 13px;border-bottom:1px solid var(--line);background:color-mix(in srgb,var(--navy) 5%,var(--surface));flex-wrap:wrap}
 .unitbox .uh h3{margin:0;font-family:"Inter",sans-serif;font-size:18px;color:var(--navy)}
 .unitbox .ub{padding:13px;display:flex;flex-direction:column;gap:12px}
-table.ses{width:100%;border-collapse:separate;border-spacing:0;font-size:12px;min-width:1080px}
+table.ses{display:table;width:100%;border-collapse:separate;border-spacing:0;font-size:12px;min-width:1080px}
+table.ses thead{display:table-header-group}
+table.ses tbody{display:table-row-group}
+table.ses tr{display:table-row}
 table.ses th{background:var(--surface-3);font-family:"Inter",sans-serif;font-weight:700;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--navy);padding:8px 7px;text-align:left;border-bottom:2px solid var(--line-strong);position:sticky;top:0;z-index:2;box-shadow:0 1px 2px rgba(0,0,0,0.05)}
 table.ses th.c{text-align:center}
 table.ses td{padding:8px 7px;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.45;color:var(--ink-2)}

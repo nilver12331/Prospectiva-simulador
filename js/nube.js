@@ -17,11 +17,11 @@
  /* mientras se verifica la sesión, la página no se muestra */
  const st=document.createElement("style");
  st.textContent=`html.verificando body{visibility:hidden}
-.ses{display:inline-flex;align-items:center;gap:8px;font-size:12px;color:#dbe6f2;white-space:nowrap}
-.ses .ses-u{max-width:190px;overflow:hidden;text-overflow:ellipsis;opacity:.85}
-.ses button{font:inherit;font-weight:600;font-size:12px;color:#fff;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);border-radius:20px;padding:4px 11px;cursor:pointer;transition:background .2s}
-.ses button:hover{background:rgba(255,255,255,.22)}
-@media(max-width:640px){.ses .ses-u{display:none}}`;
+.nube-ses{display:inline-flex;align-items:center;gap:8px;font-size:12px;color:#dbe6f2;white-space:nowrap}
+.nube-ses .ses-u{max-width:190px;overflow:hidden;text-overflow:ellipsis;opacity:.85}
+.nube-ses button{font:inherit;font-weight:600;font-size:12px;color:#fff;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);border-radius:20px;padding:4px 11px;cursor:pointer;transition:background .2s}
+.nube-ses button:hover{background:rgba(255,255,255,.22)}
+@media(max-width:640px){.nube-ses .ses-u{display:none}}`;
  document.head.appendChild(st);
  if(!esIngreso) document.documentElement.classList.add("verificando");
 
@@ -40,7 +40,7 @@
 
  function pintarUsuario(){
   const o=document.getElementById("sesion"); if(!o||!usuario) return;
-  o.className="ses";
+  o.className="nube-ses";
   o.innerHTML=`<span class="ses-u" title="${usuario.email}">${usuario.email}</span><button type="button">Salir</button>`;
   o.querySelector("button").onclick=()=>NUBE.salir();
  }
