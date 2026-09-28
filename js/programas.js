@@ -266,11 +266,17 @@ window.espNames=n=>(CATALOG.find(([re])=>re.test(n))||[null,DEFAULT_ESP])[1];
 function ck(s,txt){const cls=s==='d'?'done':s==='h'?'hum':s==='p'?'prog':'';
   const lab=s==='d'?'cerrado':s==='h'?'esperando validación humana':s==='p'?'en curso':'pendiente';
   return `<span class="ck ${cls} ${txt?'frac':''}" aria-label="${lab}${txt?' '+txt:''}">${txt?txt:((s==='d'||s==='h')?CHECK:'')}</span>`;}
+/* El tablero muestra solo las fases con avance registrado (1 y 2). En las carreras reales, la especialidad
+   aparece cuando se cierra el paso 1.1 y la competencia cuando se cierra el 1.2; antes, «Por definir». */
+const TPH=()=>PHASES.filter(p=>p.k!=="p3");
+const TSTEPS=()=>TPH().flatMap(p=>p.steps);
+const espDef=()=>!(CUR&&CUR.r&&CUR.r.cod)||SCHOOL["1.1"]==="d";
+const compDef=()=>!(CUR&&CUR.r&&CUR.r.cod)||SCHOOL["1.2"]==="d";
 function header(firstCols){
   let h='<thead><tr class="ph-row">'+firstCols.map(()=>'<th class="blank"></th>').join('');
-  PHASES.forEach((p,i)=>h+=`<th colspan="${p.steps.length}" class="${i?'sep':''}" style="--c:var(--${p.k})">${p.n} · ${p.name}</th>`);
+  TPH().forEach((p,i)=>h+=`<th colspan="${p.steps.length}" class="${i?'sep':''}" style="--c:var(--${p.k})">${p.n} · ${p.name}</th>`);
   h+='<th class="blank"></th></tr><tr class="st-row">'+firstCols.map(t=>`<th style="text-align:left;padding-left:0"><span class="eyebrow">${t}</span></th>`).join('');
-  PHASES.forEach((p,pi)=>p.steps.forEach((s,si)=>h+=`<th class="${pi&&!si?'sep':''}" title="${s.c} (${s.n}) · paso de ${LV[s.l]}"><div class="stp"><span class="c">${s.c}</span><span class="n">${s.n}</span><span class="lv">${LV[s.l]}</span></div></th>`));
+  TPH().forEach((p,pi)=>p.steps.forEach((s,si)=>h+=`<th class="${pi&&!si?'sep':''}" title="${s.c} (${s.n}) · paso de ${LV[s.l]}"><div class="stp"><span class="c">${s.c}</span><span class="n">${s.n}</span><span class="lv">${LV[s.l]}</span></div></th>`));
   return h+'<th style="text-align:right"><span class="eyebrow">Avance</span></th></tr></thead>';
 }
 function rav(v){return `<td class="rav"><div class="rv"><b>${v}%</b><i><s style="width:${v}%"></s></i></div></td>`;}
@@ -278,21 +284,21 @@ function renderEsp(){
   let h=header(['Especialidad'])+'<tbody>';let first=true;
   COMPS.forEach(c=>c.esp.forEach((e,ei)=>{
     const E={...e,comp:c};h+='<tr>';
-    h+=`<td class="lbl"><b><span class="code">${e.id}</span>${e.n}</b><span>${e.r}</span></td>`;
+    h+=espDef()?`<td class="lbl"><b><span class="code">${e.id}</span>${e.n}</b><span>${e.r}</span></td>`:`<td class="lbl"><b><span class="code">${e.id}</span><i style="color:var(--muted);font-weight:500">Por definir</i></b><span>Se define en el paso 1.1</span></td>`;
     let done=0;
-    PHASES.forEach((p,pi)=>p.steps.forEach((s,si)=>{const st=stEsp(s,E);done+=val(st);const sep=pi&&!si?'sep ':'';
+    TPH().forEach((p,pi)=>p.steps.forEach((s,si)=>{const st=stEsp(s,E);done+=val(st);const sep=pi&&!si?'sep ':'';
       if(s.l==='E'){if(first)h+=`<td class="${sep}band" rowspan="${ESPS.length}">${ck(st)}</td>`;}
       else if(s.l==='C'){if(ei===0)h+=`<td class="${sep}" rowspan="${c.esp.length}">${ck(st)}</td>`;}
       else h+=`<td class="${sep}">${ck(st)}</td>`;}));
-    h+=rav(pct(done/allSteps.length))+'</tr>';first=false;}));
+    h+=rav(pct(done/TSTEPS().length))+'</tr>';first=false;}));
   return h+'</tbody>';
 }
 function renderComp(){
   let h=header(['Competencia'])+'<tbody>';
   COMPS.forEach((c,ci)=>{
-    h+=`<tr><td class="lbl"><b><span class="code">${c.code}</span>${c.name}</b><span>${c.type} · ${c.esp.length} especialidad${c.esp.length>1?'es':''}</span></td>`;
+    h+=compDef()?`<tr><td class="lbl"><b><span class="code">${c.code}</span>${c.name}</b><span>${c.type} · ${c.esp.length} especialidad${c.esp.length>1?'es':''}</span></td>`:`<tr><td class="lbl"><b><span class="code">${c.code}</span><i style="color:var(--muted);font-weight:500">Por definir</i></b><span>Se define en el paso 1.2</span></td>`;
     let sum=0;
-    PHASES.forEach((p,pi)=>p.steps.forEach((s,si)=>{const sep=pi&&!si?'sep ':'';
+    TPH().forEach((p,pi)=>p.steps.forEach((s,si)=>{const sep=pi&&!si?'sep ':'';
       if(s.l==='E'){const st=SCHOOL[s.c]||'';sum+=val(st);if(ci===0)h+=`<td class="${sep}band" rowspan="${COMPS.length}">${ck(st)}</td>`;return;}
       if(s.l==='C'){const st=BYCOMP[c.code][s.c]||'';sum+=val(st);h+=`<td class="${sep}">${ck(st)}</td>`;return;}
       const sts=c.esp.map(e=>(BYESP[e.id]||{})[s.c]||'');const n=sts.filter(x=>val(x)).length;sum+=n/sts.length;
@@ -301,7 +307,7 @@ function renderComp(){
       else if(sts.length>1&&(n>0||sts.some(x=>x==='p'))) cell=ck('p',`${n}/${sts.length}`);
       else cell=ck(sts.some(x=>x==='p')?'p':'');
       h+=`<td class="${sep}">${cell}</td>`;}));
-    h+=rav(pct(sum/allSteps.length))+'</tr>';});
+    h+=rav(pct(sum/TSTEPS().length))+'</tr>';});
   return h+'</tbody>';
 }
 function setTab(which){curTab=which;
