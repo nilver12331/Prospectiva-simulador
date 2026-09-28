@@ -1,0 +1,643 @@
+{
+ "cod": "SIS",
+ "k": "E4",
+ "carrera": "Ingeniería de Sistemas",
+ "especialidad": "Ciberseguridad y protección de datos",
+ "integradas": [
+  "Protección de datos personales y privacidad"
+ ],
+ "ambitos": [],
+ "otras_especialidades_de_la_escuela": [
+  {
+   "k": "E1",
+   "n": "Desarrollo de software y análisis de sistemas"
+  },
+  {
+   "k": "E2",
+   "n": "Infraestructura en la nube, DevOps y redes"
+  },
+  {
+   "k": "E3",
+   "n": "Ciencia de datos, inteligencia artificial e inteligencia de negocios"
+  },
+  {
+   "k": "E5",
+   "n": "Gobierno, proyectos y auditoría de TI"
+  }
+ ],
+ "competencia_v11": {
+  "codigo": "C4",
+  "nombre": "Gestión de la seguridad de la información y de los riesgos digitales",
+  "alias": "Ciberseguridad",
+  "definicion_conceptual": "Gestionar la seguridad de la información y de los sistemas de una organización a lo largo del ciclo evaluar el riesgo, proteger, detectar, responder y recuperar, aplicando análisis de riesgos, pruebas de penetración, controles técnicos y de identidad, monitoreo, respuesta a incidentes, forense y continuidad, conforme a marcos y normas de seguridad y de protección de datos personales, en banca, fintech, telecomunicaciones, Estado y servicios gestionados, para proteger la información, sostener la operación y garantizar el cumplimiento ante reguladores y autoridad.",
+  "definicion_operacional": "Gestionar la seguridad de la información y de los sistemas de una organización a lo largo del ciclo evaluar el riesgo, proteger, detectar, responder y recuperar, aplicando análisis de riesgos, pruebas de penetración, controles técnicos y de identidad, monitoreo, respuesta a incidentes, forense y continuidad, conforme a marcos y normas de seguridad y de protección de datos personales, en banca, fintech, telecomunicaciones, Estado y servicios gestionados, para proteger la información, sostener la operación y garantizar el cumplimiento ante reguladores y autoridad.",
+  "capacidades": [
+   {
+    "id": "C4.1",
+    "nombre": "Evaluación de riesgos y vulnerabilidades",
+    "definicion": "Capacidad de identificar activos y tratamientos de información, analizar amenazas, vulnerabilidades y riesgos mediante metodologías de riesgo, escaneos y pruebas de penetración, y priorizar su tratamiento, en organizaciones de distinto tamaño y sector; moviliza marcos de riesgo, hacking ético, normativa, pensamiento adversarial, objetividad y confidencialidad."
+   },
+   {
+    "id": "C4.2",
+    "nombre": "Diseño e implantación de controles de seguridad",
+    "definicion": "Capacidad de diseñar e implantar políticas y controles técnicos, de identidad y organizacionales —incluida la concientización— que reduzcan el riesgo a un nivel aceptable, adaptados al presupuesto y a la regulación aplicable; moviliza arquitectura de seguridad, gestión de identidades, criptografía, normativa, rigor y responsabilidad ante la organización."
+   },
+   {
+    "id": "C4.3",
+    "nombre": "Monitoreo y detección de amenazas",
+    "definicion": "Capacidad de monitorear la infraestructura y los sistemas desde un centro de operaciones de seguridad, correlacionar eventos y detectar incidentes y brechas de datos de forma temprana, en operación continua; moviliza herramientas de monitoreo, inteligencia de amenazas, análisis de registros, vigilancia sostenida y capacidad de discriminar señales relevantes."
+   },
+   {
+    "id": "C4.4",
+    "nombre": "Respuesta a incidentes y análisis forense",
+    "definicion": "Capacidad de contener, erradicar y analizar forensemente un incidente de seguridad o brecha de datos, coordinar la comunicación y notificar a afectados y autoridad en los plazos legales, bajo presión; moviliza respuesta a incidentes, forense digital, normativa de notificación, serenidad, ética y trabajo coordinado."
+   },
+   {
+    "id": "C4.5",
+    "nombre": "Continuidad, cumplimiento y auditoría de la seguridad",
+    "definicion": "Capacidad de restaurar la operación tras un incidente, mantener y probar los planes de continuidad, y sostener el cumplimiento del programa de seguridad y de datos personales mediante auditorías y reportes al regulador, en organizaciones supervisadas; moviliza gestión de continuidad, normativa, auditoría, mejora continua, responsabilidad y transparencia."
+   }
+  ]
+ },
+ "proposito_clave": "Gestionar la seguridad de la información y la protección de datos personales de organizaciones públicas y privadas, evaluando riesgos, implantando controles y detectando, respondiendo y recuperándose de incidentes conforme a la normativa peruana y a marcos internacionales, para proteger sus activos de información, sostener su operación y cumplir ante reguladores y titulares de datos.",
+ "funciones": [
+  {
+   "c": "E4-01",
+   "t": "Evaluación de riesgos de ciberseguridad",
+   "d": "Evaluar los riesgos de seguridad de la información de los activos y procesos de la organización para priorizar su tratamiento y sustentar las decisiones de la dirección y los reportes al regulador.",
+   "tipo": "Actual",
+   "amb": "Banca, seguros y AFP supervisadas por la SBS; fintech; telecomunicaciones; entidades públicas obligadas a implementar SGSI; consultoras y servicios gestionados de seguridad",
+   "conf": 3,
+   "lim": "Aplica la metodología de riesgos aprobada; no acepta el riesgo residual ni fija el apetito de riesgo, decisiones de la dirección o del comité.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C4.1 Evaluar",
+   "tasks": [
+    {
+     "code": "E4-01-T1",
+     "t": "Inventariar y clasificar los activos de información con sus propietarios",
+     "ent": "1. Inventario valorado de activos de información"
+    },
+    {
+     "code": "E4-01-T2",
+     "t": "Identificar amenazas y vulnerabilidades por activo y proceso",
+     "ent": "2. Matriz de riesgos y plan de tratamiento"
+    },
+    {
+     "code": "E4-01-T3",
+     "t": "Estimar probabilidad e impacto y calcular el nivel de riesgo",
+     "ent": "2. Matriz de riesgos y plan de tratamiento"
+    },
+    {
+     "code": "E4-01-T4",
+     "t": "Evaluar los riesgos de seguridad de proveedores, servicios en la nube y soluciones de inteligencia artificial",
+     "ent": "2. Matriz de riesgos y plan de tratamiento"
+    },
+    {
+     "code": "E4-01-T5",
+     "t": "Proponer opciones de tratamiento y controles con responsable y plazo",
+     "ent": "2. Matriz de riesgos y plan de tratamiento"
+    },
+    {
+     "code": "E4-01-T6",
+     "t": "Actualizar la matriz de riesgos y reportar su evolución",
+     "ent": "2. Matriz de riesgos y plan de tratamiento"
+    }
+   ],
+   "producto": {
+    "nombre": "Informe de evaluación de riesgos de seguridad de la información",
+    "desc": "Informe de evaluación de riesgos de seguridad de la información que establece, para un alcance definido, qué activos están expuestos, a qué amenazas y con qué nivel de riesgo, y sirve para decidir qué tratar primero. Integra el inventario valorado de activos, el catálogo de amenazas y vulnerabilidades, la estimación de probabilidad e impacto y el plan de tratamiento con responsables y plazos. Se elabora con una metodología reconocida, como la de la ISO/IEC 27005 o la NIST CSF 2.0, a partir de entrevistas, revisión documental y resultados de escaneo, y se verifica contrastando las valoraciones con los propietarios de los activos. Orienta la aceptación del riesgo residual y la asignación del presupuesto de seguridad, y demuestra que el egresado traduce hallazgos técnicos en riesgo de negocio.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Inventario valorado de activos de información",
+      "tareas": "E4-01-T1",
+      "resumen": "activos, propietarios, clasificación y valor según confidencialidad, integridad y disponibilidad",
+      "evidencias": [
+       "inventario con propietario y clasificación por activo",
+       "criterios de valoración aprobados"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Matriz de riesgos y plan de tratamiento",
+      "tareas": "E4-01-T2, E4-01-T3, E4-01-T4, E4-01-T5, E4-01-T6",
+      "resumen": "amenazas, vulnerabilidades, nivel de riesgo y controles propuestos con responsable y plazo",
+      "evidencias": [
+       "matriz de riesgos con cálculo trazable",
+       "plan de tratamiento validado por los propietarios"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E4-02",
+   "t": "Evaluación de vulnerabilidades y pruebas de intrusión",
+   "d": "Detectar y verificar las vulnerabilidades de redes, sistemas y aplicaciones mediante escaneos y pruebas de intrusión autorizadas para que la organización las corrija antes de que sean explotadas.",
+   "tipo": "Actual",
+   "amb": "Banca y fintech (obligación de pruebas sobre canales digitales y API); telecomunicaciones; empresas de servicios gestionados y consultoras de hacking ético; Estado",
+   "conf": 2,
+   "lim": "Solo con autorización escrita y alcance firmado; explota de forma controlada fuera de producción crítica y no ejecuta operaciones de equipo rojo.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C4.1 Evaluar",
+   "tasks": [
+    {
+     "code": "E4-02-T1",
+     "t": "Acordar el alcance, las ventanas y las reglas de intervención de la prueba",
+     "ent": "1. Plan de pruebas autorizado"
+    },
+    {
+     "code": "E4-02-T2",
+     "t": "Ejecutar escaneos de vulnerabilidades sobre infraestructura y aplicaciones",
+     "ent": "2. Informe técnico y ejecutivo de hallazgos"
+    },
+    {
+     "code": "E4-02-T3",
+     "t": "Validar manualmente y explotar de forma controlada las vulnerabilidades críticas",
+     "ent": "2. Informe técnico y ejecutivo de hallazgos"
+    },
+    {
+     "code": "E4-02-T4",
+     "t": "Clasificar los hallazgos por severidad y proponer su remediación",
+     "ent": "2. Informe técnico y ejecutivo de hallazgos"
+    },
+    {
+     "code": "E4-02-T5",
+     "t": "Verificar el cierre de las vulnerabilidades corregidas",
+     "ent": "3. Registro de verificación de remediación"
+    }
+   ],
+   "producto": {
+    "nombre": "Informe de pruebas de intrusión y gestión de vulnerabilidades",
+    "desc": "Informe de pruebas de intrusión y gestión de vulnerabilidades que demuestra, con evidencia reproducible, qué debilidades de un alcance autorizado son explotables y cómo corregirlas. Integra el plan de pruebas firmado, los resultados de escaneo depurados de falsos positivos, las pruebas de concepto de las vulnerabilidades críticas, la clasificación por severidad y el registro de verificación del cierre. Se elabora siguiendo una metodología pública de pruebas y se verifica repitiendo la prueba sobre cada hallazgo corregido. Orienta el orden de remediación y las decisiones de salida a producción, y demuestra que el egresado piensa como atacante dentro de límites éticos y legales.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Plan de pruebas autorizado",
+      "tareas": "E4-02-T1",
+      "resumen": "alcance, ventanas, reglas de intervención y autorización del propietario",
+      "evidencias": [
+       "documento de alcance firmado"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe técnico y ejecutivo de hallazgos",
+      "tareas": "E4-02-T2, E4-02-T3, E4-02-T4",
+      "resumen": "vulnerabilidades validadas con evidencia, severidad y recomendación de remediación",
+      "evidencias": [
+       "pruebas de concepto reproducibles",
+       "resumen ejecutivo con riesgo por hallazgo"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Registro de verificación de remediación",
+      "tareas": "E4-02-T5",
+      "resumen": "estado de cierre de cada hallazgo tras la nueva prueba",
+      "evidencias": [
+       "matriz de hallazgos con fecha y resultado de la nueva prueba"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E4-03",
+   "t": "Implantación de controles técnicos de seguridad",
+   "d": "Configurar, bastionar y mantener los controles técnicos de seguridad de redes, servidores, estaciones y servicios en la nube para reducir la superficie de ataque a un nivel aceptable.",
+   "tipo": "Actual",
+   "amb": "Banca y fintech; telecomunicaciones; energía y otras actividades críticas; Estado; integradores y servicios gestionados de seguridad",
+   "conf": 3,
+   "lim": "Implanta controles sobre líneas base aprobadas y con control de cambios; no define la arquitectura de seguridad corporativa.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C4.2 Proteger",
+   "tasks": [
+    {
+     "code": "E4-03-T1",
+     "t": "Definir líneas base de configuración segura por tipo de activo",
+     "ent": "1. Líneas base de configuración segura"
+    },
+    {
+     "code": "E4-03-T2",
+     "t": "Configurar cortafuegos, segmentación de red y accesos remotos seguros",
+     "ent": "2. Expediente de implantación de controles"
+    },
+    {
+     "code": "E4-03-T3",
+     "t": "Desplegar y ajustar la protección de puntos finales y antimalware",
+     "ent": "2. Expediente de implantación de controles"
+    },
+    {
+     "code": "E4-03-T4",
+     "t": "Aplicar cifrado a los datos en reposo y en tránsito",
+     "ent": "2. Expediente de implantación de controles"
+    },
+    {
+     "code": "E4-03-T5",
+     "t": "Verificar el cumplimiento de la línea base y corregir las desviaciones",
+     "ent": "1. Líneas base de configuración segura"
+    }
+   ],
+   "producto": {
+    "nombre": "Expediente de bastionado y controles técnicos implantados",
+    "desc": "Expediente de bastionado y controles técnicos implantados que documenta cómo quedó protegido un conjunto de sistemas y sirve de referencia para operarlos y auditarlos. Integra las líneas base de configuración segura, las reglas de cortafuegos y segmentación, la configuración de protección de puntos finales, el esquema de cifrado y el informe de cumplimiento de la línea base. Se elabora a partir de guías de configuración reconocidas y del resultado de la evaluación de riesgos, y se verifica con escaneos de configuración antes y después del cambio. Orienta la aprobación de pases a producción y las auditorías de controles, y demuestra que el egresado convierte una política en configuraciones concretas y comprobables.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Líneas base de configuración segura",
+      "tareas": "E4-03-T1, E4-03-T5",
+      "resumen": "parámetros de seguridad por tipo de activo y resultado de su verificación",
+      "evidencias": [
+       "línea base aprobada",
+       "informe de cumplimiento antes y después"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Expediente de implantación de controles",
+      "tareas": "E4-03-T2, E4-03-T3, E4-03-T4",
+      "resumen": "reglas de red, protección de puntos finales y cifrado implantados con su evidencia",
+      "evidencias": [
+       "reglas documentadas con justificación",
+       "capturas o registros de configuración"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E4-04",
+   "t": "Gestión de identidades y accesos",
+   "d": "Administrar el ciclo de vida de identidades, credenciales y privilegios de usuarios y sistemas para que cada persona acceda solo a lo que necesita y todo acceso quede trazado.",
+   "tipo": "Actual",
+   "amb": "Banca y fintech (autenticación reforzada en canales digitales); Estado (niveles de confianza en la autenticación); telecomunicaciones; empresas con servicios en la nube",
+   "conf": 3,
+   "lim": "Opera sobre políticas de acceso aprobadas; no concede privilegios críticos sin aprobación del propietario del activo.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C4.2 Proteger",
+   "tasks": [
+    {
+     "code": "E4-04-T1",
+     "t": "Definir roles y matrices de acceso con mínimo privilegio y segregación de funciones",
+     "ent": "1. Modelo de roles y matriz de accesos"
+    },
+    {
+     "code": "E4-04-T2",
+     "t": "Gestionar altas, cambios y bajas de cuentas y credenciales",
+     "ent": "3. Informe de recertificación de accesos"
+    },
+    {
+     "code": "E4-04-T3",
+     "t": "Configurar autenticación multifactor según el nivel de riesgo del servicio",
+     "ent": "2. Configuración de autenticación y privilegios"
+    },
+    {
+     "code": "E4-04-T4",
+     "t": "Controlar y registrar el uso de cuentas privilegiadas",
+     "ent": "2. Configuración de autenticación y privilegios"
+    },
+    {
+     "code": "E4-04-T5",
+     "t": "Ejecutar la recertificación periódica de accesos",
+     "ent": "3. Informe de recertificación de accesos"
+    }
+   ],
+   "producto": {
+    "nombre": "Modelo de gestión de identidades y accesos",
+    "desc": "Modelo de gestión de identidades y accesos que define quién puede hacer qué en los sistemas de la organización y cómo se comprueba. Integra el modelo de roles y la matriz de accesos, la configuración de autenticación multifactor y de cuentas privilegiadas, y el informe de recertificación periódica. Se elabora a partir de las funciones de cada puesto y de la clasificación de los activos, y se verifica cruzando las cuentas activas con las altas y bajas de personal. Orienta las decisiones de concesión y retiro de privilegios y demuestra que el egresado aplica el mínimo privilegio con evidencia auditable.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Modelo de roles y matriz de accesos",
+      "tareas": "E4-04-T1",
+      "resumen": "roles, permisos y reglas de segregación de funciones por sistema",
+      "evidencias": [
+       "matriz de accesos aprobada por los propietarios"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Configuración de autenticación y privilegios",
+      "tareas": "E4-04-T3, E4-04-T4",
+      "resumen": "factores de autenticación por servicio y control de cuentas privilegiadas",
+      "evidencias": [
+       "parámetros de autenticación documentados",
+       "registro de sesiones privilegiadas"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Informe de recertificación de accesos",
+      "tareas": "E4-04-T2, E4-04-T5",
+      "resumen": "altas, bajas y revisiones periódicas con las desviaciones corregidas",
+      "evidencias": [
+       "listado de cuentas revisadas con decisión del propietario",
+       "cuentas huérfanas eliminadas"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E4-06",
+   "t": "Monitoreo y detección de amenazas",
+   "d": "Vigilar de forma continua los eventos de seguridad de la infraestructura y los sistemas, correlacionarlos y clasificar las alertas para detectar a tiempo incidentes y fugas de datos.",
+   "tipo": "Actual",
+   "amb": "Centros de operaciones de seguridad propios y de servicios gestionados; banca y fintech; telecomunicaciones; Estado",
+   "conf": 3,
+   "lim": "Actúa como analista de primer y segundo nivel con procedimientos definidos; no declara incidentes mayores, decisión del responsable del centro.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C4.3 Detectar",
+   "tasks": [
+    {
+     "code": "E4-06-T1",
+     "t": "Integrar las fuentes de registros en la plataforma de correlación",
+     "ent": "1. Catálogo de casos de uso de detección"
+    },
+    {
+     "code": "E4-06-T2",
+     "t": "Ajustar reglas y casos de uso de detección",
+     "ent": "1. Catálogo de casos de uso de detección"
+    },
+    {
+     "code": "E4-06-T3",
+     "t": "Clasificar y triar las alertas del turno de monitoreo",
+     "ent": "2. Bitácora de triaje y escalamiento"
+    },
+    {
+     "code": "E4-06-T4",
+     "t": "Enriquecer las alertas con inteligencia de amenazas",
+     "ent": "1. Catálogo de casos de uso de detección"
+    },
+    {
+     "code": "E4-06-T5",
+     "t": "Escalar los eventos confirmados como incidentes",
+     "ent": "2. Bitácora de triaje y escalamiento"
+    }
+   ],
+   "producto": {
+    "nombre": "Catálogo de casos de uso de detección con bitácora de triaje",
+    "desc": "Catálogo de casos de uso de detección con bitácora de triaje que muestra qué amenazas vigila la organización, con qué reglas y cómo se atendieron las alertas. Integra las fuentes de registro conectadas, las reglas de correlación con su lógica y umbrales, los indicadores de inteligencia de amenazas incorporados y el registro de alertas clasificadas y escaladas. Se elabora mapeando técnicas de ataque conocidas a las fuentes disponibles y se verifica midiendo falsos positivos y tiempos de atención. Orienta qué nuevas fuentes o reglas priorizar y demuestra que el egresado sostiene una vigilancia efectiva y medible.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Catálogo de casos de uso de detección",
+      "tareas": "E4-06-T1, E4-06-T2, E4-06-T4",
+      "resumen": "fuentes integradas, reglas de correlación y amenazas cubiertas",
+      "evidencias": [
+       "reglas documentadas con técnica cubierta",
+       "prueba de disparo de cada regla"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Bitácora de triaje y escalamiento",
+      "tareas": "E4-06-T3, E4-06-T5",
+      "resumen": "alertas atendidas, clasificación, tiempos y escalamientos",
+      "evidencias": [
+       "registro de alertas con decisión",
+       "indicadores de falsos positivos y tiempos"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E4-07",
+   "t": "Respuesta a incidentes de seguridad",
+   "d": "Contener, erradicar y analizar los incidentes de seguridad y las brechas de datos personales, apoyar la recuperación tras ataques de ransomware, preservar la evidencia y preparar las notificaciones a la autoridad para limitar el daño y restablecer la operación.",
+   "tipo": "Actual",
+   "amb": "Equipos de respuesta a incidentes institucionales y sectoriales; banca, seguros y fintech (reporte a la SBS); Estado (notificación al Centro Nacional de Seguridad Digital); servicios gestionados y consultoras forenses",
+   "conf": 2,
+   "lim": "Actúa bajo supervisión directa del líder de respuesta; no decide contenciones con impacto en el negocio, no firma notificaciones ni emite peritajes.",
+   "dem": "Baja",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C4.4 Responder · C4.5 Recuperar",
+   "tasks": [
+    {
+     "code": "E4-07-T1",
+     "t": "Clasificar el incidente según su severidad e impacto",
+     "ent": "1. Registro de gestión del incidente"
+    },
+    {
+     "code": "E4-07-T2",
+     "t": "Ejecutar las acciones de contención y erradicación del procedimiento",
+     "ent": "1. Registro de gestión del incidente"
+    },
+    {
+     "code": "E4-07-T3",
+     "t": "Preservar la evidencia digital con cadena de custodia y apoyar el análisis de causa raíz y alcance",
+     "ent": "2. Registro de evidencia y análisis de causa"
+    },
+    {
+     "code": "E4-07-T4",
+     "t": "Apoyar la recuperación tras ransomware restaurando desde respaldos aislados o inmutables y verificando su integridad",
+     "ent": "1. Registro de gestión del incidente"
+    },
+    {
+     "code": "E4-07-T5",
+     "t": "Preparar las notificaciones de incidentes críticos al Centro Nacional de Seguridad Digital, a la SBS o a la autoridad de datos personales dentro del plazo",
+     "ent": "3. Expediente de notificación regulatoria"
+    },
+    {
+     "code": "E4-07-T6",
+     "t": "Documentar las lecciones aprendidas y las mejoras al procedimiento",
+     "ent": "1. Registro de gestión del incidente"
+    }
+   ],
+   "producto": {
+    "nombre": "Expediente de gestión del incidente de seguridad",
+    "desc": "Expediente de gestión del incidente de seguridad que reconstruye un incidente de principio a fin y sustenta ante la dirección y la autoridad lo que ocurrió y lo que se hizo. Integra el registro cronológico de clasificación, contención, erradicación y recuperación, la evidencia preservada con el análisis de causa raíz en que participó y los reportes de notificación a las autoridades competentes. Se elabora siguiendo el procedimiento de respuesta de la organización bajo la dirección del líder de respuesta, y se verifica comprobando la cadena de custodia, la integridad de los datos restaurados y la consistencia de la línea de tiempo. Orienta las medidas correctivas y las comunicaciones a afectados, y demuestra que el egresado actúa con método, serenidad y apego a los plazos legales.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Registro de gestión del incidente",
+      "tareas": "E4-07-T1, E4-07-T2, E4-07-T4, E4-07-T6",
+      "resumen": "clasificación, contención, erradicación, recuperación desde respaldos y lecciones aprendidas",
+      "evidencias": [
+       "línea de tiempo de acciones",
+       "registro de restauración con verificación de integridad",
+       "acta de lecciones aprendidas"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registro de evidencia y análisis de causa",
+      "tareas": "E4-07-T3",
+      "resumen": "evidencia preservada con cadena de custodia y aportes al análisis de causa raíz y alcance",
+      "evidencias": [
+       "formularios de cadena de custodia",
+       "hallazgos con evidencia técnica"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Expediente de notificación regulatoria",
+      "tareas": "E4-07-T5",
+      "resumen": "reportes de incidentes críticos a la SBS, al Centro Nacional de Seguridad Digital o a la autoridad de datos personales",
+      "evidencias": [
+       "reporte con fecha y hora de envío dentro del plazo"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E4-09",
+   "t": "Gestión del cumplimiento y auditoría de seguridad",
+   "d": "Implantar y mantener el sistema de gestión de seguridad de la información, sus políticas y su programa de concientización, y auditar su cumplimiento para sostener la certificación y responder a reguladores.",
+   "tipo": "Actual",
+   "amb": "Entidades públicas obligadas a implementar SGSI; banca, seguros y AFP supervisadas por la SBS; telecomunicaciones; firmas de auditoría y consultoría; empresas que buscan certificación",
+   "conf": 3,
+   "lim": "Ejecuta auditorías internas y mantiene la documentación del sistema bajo su responsable; no aprueba políticas ni realiza auditorías de certificación.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C4.2 Proteger · C4.5 Recuperar",
+   "tasks": [
+    {
+     "code": "E4-09-T1",
+     "t": "Redactar y actualizar políticas y procedimientos de seguridad",
+     "ent": "1. Cuerpo normativo del sistema de gestión"
+    },
+    {
+     "code": "E4-09-T2",
+     "t": "Elaborar la declaración de aplicabilidad de controles",
+     "ent": "1. Cuerpo normativo del sistema de gestión"
+    },
+    {
+     "code": "E4-09-T3",
+     "t": "Ejecutar auditorías internas de controles y registrar no conformidades",
+     "ent": "2. Informe de auditoría interna y seguimiento"
+    },
+    {
+     "code": "E4-09-T4",
+     "t": "Dar seguimiento a los planes de acción correctiva",
+     "ent": "2. Informe de auditoría interna y seguimiento"
+    },
+    {
+     "code": "E4-09-T5",
+     "t": "Conducir el programa de concientización y capacitación en seguridad",
+     "ent": "1. Cuerpo normativo del sistema de gestión"
+    },
+    {
+     "code": "E4-09-T6",
+     "t": "Preparar los reportes de cumplimiento para la dirección y el regulador",
+     "ent": "2. Informe de auditoría interna y seguimiento"
+    }
+   ],
+   "producto": {
+    "nombre": "Informe de auditoría interna del sistema de gestión de seguridad",
+    "desc": "Informe de auditoría interna del sistema de gestión de seguridad que establece en qué medida los controles declarados funcionan y qué debe corregirse antes de una certificación o una supervisión. Integra la declaración de aplicabilidad y el cuerpo de políticas vigente, el programa de auditoría, las no conformidades con su evidencia, el seguimiento de acciones correctivas y los indicadores del programa de concientización. Se elabora con listas de verificación derivadas de la ISO/IEC 27001 y de la norma sectorial aplicable, y se verifica con muestras de evidencia y entrevistas a los responsables. Orienta la revisión por la dirección y la preparación ante el regulador, y demuestra que el egresado evalúa controles con objetividad y rigor.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Cuerpo normativo del sistema de gestión",
+      "tareas": "E4-09-T1, E4-09-T2, E4-09-T5",
+      "resumen": "políticas, procedimientos, declaración de aplicabilidad y programa de concientización",
+      "evidencias": [
+       "políticas aprobadas y versionadas",
+       "declaración de aplicabilidad justificada",
+       "registro de capacitaciones y simulaciones"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de auditoría interna y seguimiento",
+      "tareas": "E4-09-T3, E4-09-T4, E4-09-T6",
+      "resumen": "hallazgos, no conformidades, acciones correctivas y reporte de cumplimiento",
+      "evidencias": [
+       "papeles de trabajo con evidencia muestreada",
+       "matriz de seguimiento de acciones correctivas"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E4-10",
+   "t": "Gestión de la protección de datos personales",
+   "d": "Asistir al responsable del tratamiento en inventariar los bancos de datos, evaluar el impacto de los tratamientos y aplicar las medidas de seguridad y los derechos de los titulares para cumplir la Ley 29733 y su reglamento.",
+   "tipo": "Emergente",
+   "amb": "Protección de datos personales y privacidad: banca y fintech; telecomunicaciones; salud; educación; comercio electrónico; entidades públicas; consultoras de cumplimiento",
+   "conf": 2,
+   "lim": "Apoya técnicamente al Oficial de Datos Personales; no es designado oficial ni emite interpretación jurídica, que corresponde a abogados.",
+   "dem": "Baja",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C4.2 Proteger · C4.5 Recuperar",
+   "tasks": [
+    {
+     "code": "E4-10-T1",
+     "t": "Inventariar los bancos de datos y tratamientos y gestionar su inscripción",
+     "ent": "1. Registro de tratamientos y evaluación de impacto"
+    },
+    {
+     "code": "E4-10-T2",
+     "t": "Realizar la evaluación de impacto relativa a la protección de datos personales",
+     "ent": "1. Registro de tratamientos y evaluación de impacto"
+    },
+    {
+     "code": "E4-10-T3",
+     "t": "Elaborar el documento de seguridad de los tratamientos",
+     "ent": "2. Documento de seguridad y controles de datos personales"
+    },
+    {
+     "code": "E4-10-T4",
+     "t": "Implantar controles de prevención de fuga de datos y registro de accesos a datos personales",
+     "ent": "2. Documento de seguridad y controles de datos personales"
+    },
+    {
+     "code": "E4-10-T5",
+     "t": "Atender las solicitudes de acceso, rectificación, cancelación y oposición de los titulares",
+     "ent": "3. Expediente de atención de derechos e incidentes"
+    },
+    {
+     "code": "E4-10-T6",
+     "t": "Preparar la notificación de incidentes de datos personales y la comunicación a los titulares",
+     "ent": "3. Expediente de atención de derechos e incidentes"
+    }
+   ],
+   "producto": {
+    "nombre": "Expediente de cumplimiento en protección de datos personales",
+    "desc": "Expediente de cumplimiento en protección de datos personales que demuestra ante la autoridad y los titulares cómo la organización trata y protege sus datos. Integra el registro de bancos de datos y tratamientos, la evaluación de impacto de los tratamientos de mayor riesgo, el documento de seguridad con los controles técnicos implantados y el registro de atención de derechos e incidentes. Se elabora con las áreas que tratan datos y con asesoría legal, y se verifica contrastando los flujos reales de datos con lo inscrito y lo declarado. Orienta la decisión de iniciar, ajustar o suspender tratamientos y demuestra que el egresado une seguridad técnica y cumplimiento legal.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Registro de tratamientos y evaluación de impacto",
+      "tareas": "E4-10-T1, E4-10-T2",
+      "resumen": "bancos de datos, finalidades, flujos y riesgos de los tratamientos",
+      "evidencias": [
+       "registro de tratamientos actualizado",
+       "evaluación de impacto con medidas propuestas"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Documento de seguridad y controles de datos personales",
+      "tareas": "E4-10-T3, E4-10-T4",
+      "resumen": "medidas organizativas y técnicas, incluidos controles de fuga y registro de accesos",
+      "evidencias": [
+       "documento de seguridad aprobado",
+       "reglas de prevención de fuga activas"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Expediente de atención de derechos e incidentes",
+      "tareas": "E4-10-T5, E4-10-T6",
+      "resumen": "solicitudes de titulares atendidas y notificaciones de incidentes",
+      "evidencias": [
+       "registro de solicitudes con plazos cumplidos",
+       "modelo de notificación a la autoridad y a los titulares"
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

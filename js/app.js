@@ -639,6 +639,7 @@ function estadoGuardado(t){
 async function cargarEscuela(cod){
  const meta=ESCUELAS.find(x=>x.cod===cod); if(!meta) return;
  ESCUELA=meta;
+ document.querySelectorAll('[data-volver-proyecto]').forEach(a=>a.href='programas.html?proyecto='+encodeURIComponent(meta.cod));
  let d=null,p=null;
  const b=NUBE.get(cod); if(b&&b.d){ d=b.d; p=b.d.paso||null }
  if(!d) d=semilla(cod);
@@ -2733,7 +2734,19 @@ function pintarPanel(){
 const chat=document.getElementById("chat");
 const md=t=>t.replace(/\*\*(.+?)\*\*/g,"<b>$1</b>");
 const abajo=()=>chat.scrollTop=chat.scrollHeight;
-function addHTML(h){const d=document.createElement("div");d.innerHTML=h;chat.appendChild(d);abajo();return d}
+function addHTML(h){
+ const d=document.createElement("div");d.innerHTML=h;
+ d.querySelectorAll('#b-act,#b-sel-ok2,#b-acc-enc,#b-listo-enc,#b-listo-t').forEach(b=>{
+  const titulo=b.textContent.trim(), M=momentoActual();
+  b.classList.add('siguiente-momento');
+  b.replaceChildren();
+  const icono=document.createElement('span');icono.className='sm-icono';icono.textContent='▶';icono.setAttribute('aria-hidden','true');
+  const texto=document.createElement('span'),etiqueta=document.createElement('small'),nombre=document.createElement('b');
+  etiqueta.textContent='Siguiente momento · paso '+M.p.id;nombre.textContent=titulo;
+  texto.append(etiqueta,nombre);b.append(icono,texto);
+ });
+ chat.appendChild(d);abajo();return d;
+}
 /* El botón del momento pendiente siempre cierra la conversación: si Génesys escribe después (una mejora, una confirmación), el botón baja al final. */
 function accionAlFinal(){ const b=document.getElementById("b-act")||document.getElementById("b-sel-ok2"); const c=b&&b.closest("#chat > div"); if(c&&c!==chat.lastElementChild) chat.appendChild(c); abajo() }
 /* ════════════ ENCARGOS ════════════

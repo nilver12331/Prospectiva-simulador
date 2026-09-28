@@ -22,14 +22,22 @@ publicarse en Netlify.
 ## Estructura
 
 ```
-ingreso.html      inicio de sesión (Supabase)
-index.html        portada de las tres fases (Fases 1 y 2 aquí, Fase 3 en el artefacto de Claude)
+ingreso.html      inicio de sesión (Supabase); al entrar lleva a programas.html
+programas.html    gestión de programas curriculares: tabla, proyecto de evaluación y tablero (NUT y SIS reales)
+css/programas.css estilos de programas.html (artefacto «Programas Curriculares Udato» con el tema de la Fase 1)
+js/programas.js   lógica de programas.html: lee el avance de las consolas y guarda la gestión en PRG-<COD>
+datos/programas.js resumen de NUT y SIS para programas.html (generado por herramientas/programas-datos.js)
+index.html        portada de las tres fases (oculta: redirige a programas.html)
 fase1.html        portada de la Fase 1: elegir carrera, ver el avance, reiniciar
 consola.html      la consola de la Fase 1 (Génesys · tablero · progreso)
 fase2.html        portada de la Fase 2: elegir carrera, ver el avance, reiniciar
 consola2.html     la consola de la Fase 2 (motor portado del artefacto «Funciones Profesionales»)
 css/fase2.css     estilos de la consola de la Fase 2
 js/f2.js          motor de la Fase 2: especialidad por especialidad (2.1–2.3) y pasos de escuela (2.4–2.6)
+fase3.html        portada de la Fase 3: elegir carrera, ver la versión del plan, reiniciar
+consola3.html     la consola de la Fase 3 (matriz del plan, malla, especialidades, certificaciones, sílabos)
+css/fase3.css     estilos de la consola de la Fase 3 (tema de la Fase 1)
+js/f3.js          motor de la Fase 3 (portado del artefacto «Matriz del Plan de Estudios»); guarda en F3-<COD>
 datos/f2-*.js     datos de la Fase 2 por carrera (generados; no editar a mano)
 datos/f2/         resultados reales por especialidad: paquete 2.1, panel, asignación, insumos
 css/base.css      estilos del tablero (heredados del artefacto)
@@ -42,6 +50,36 @@ datos/sis.js      Ingeniería de Sistemas (SIS)
 herramientas/     scripts de refactor, servidor local y prueba automática
 netlify.toml      cabeceras y carpeta de publicación
 ```
+
+## Gestión de programas
+
+`programas.html` es la entrada después de iniciar sesión. Tiene tres vistas: la tabla de programas
+(vigencia, proyecto de evaluación y gestión del perfil), el proyecto de evaluación (recorrido por fases,
+tablero por competencia o especialidad, comisión, grupos de interés, documentos, certificado, historial)
+y el tablero del programa (indicadores y comunicados). Nutrición Humana e Ingeniería de Sistemas son
+reales: el estado de cada paso se lee de lo que guardan las consolas (fila `<COD>` para la Fase 1 y
+`F2-<COD>` para la Fase 2, con las mismas reglas de la hoja de ruta de la consola), y cada fase lleva a su
+consola. La comisión, los grupos de interés, los documentos, el certificado y las extensiones se guardan en
+la fila `PRG-<COD>`. Los demás programas y los indicadores de aula son simulados. Si cambian las
+especialidades o competencias de una carrera: `node herramientas/programas-datos.js`.
+Se abre una vista directa con `programas.html?proyecto=NUT` o `?tablero=SIS`.
+
+## Fase 3
+
+`consola3.html?escuela=<COD>` es la matriz del Plan de Estudios de la escuela, con la malla, las especialidades,
+las certificaciones y el constructor de sílabo. Sistemas usa el plan PE-IS-2025 que trae el motor (64 cursos en 10
+ciclos y 4 programas no curriculares). Nutrición Humana usa `datos/f3-nut.js`: el plan PE-NH-2027 propuesto por
+Génesys (60 cursos, 200 créditos) con las tres competencias y las doce capacidades reales de la Fase 1 como bloque
+de especialidad, sus certificaciones y las estructuras de sílabo de nutrición. Otra escuela se agrega con un
+`datos/f3-<cod>.js` que defina `PLANES3.<COD>` con las mismas claves. Los
+cursos, los niveles por capacidad, la secuencia y el versionado se guardan en Supabase en la fila
+`F3-<COD>` cuando algo cambia; las preferencias de vista quedan en el navegador.
+
+Sílabos investigados por Génesys: `datos/silabos-sis.js` trae el sílabo completo de SIS332 Big Data y SIS333
+Gobierno de Tecnologías de Información (tres unidades, 16 sesiones con las horas de la matriz, evaluación y
+referencias). Al pulsar «Generar sílabo» en esos cursos, el constructor muestra la traza de cada momento M1–M9
+y entrega ese sílabo; el resto de cursos se sigue armando con el banco genérico. Para agregar otro curso, se
+añade su clave en `SILABOS_GENESYS` con el mismo formato.
 
 ## Fase 2
 
@@ -60,6 +98,12 @@ que sigue aparece «por generar» en la consola. El avance se guarda en Supabase
 
 ## Probar en local
 
+Requiere Node.js 22 o posterior. Copiar `.env.example` a `.env` y completar
+`SUPABASE_URL` y `SUPABASE_PUBLISHABLE_KEY` con la URL y la clave pública del proyecto.
+Si `.env` ya existe, conservar sus valores. El servidor lee ese archivo al iniciar y entrega
+`js/config.js` al navegador; reiniciarlo después de cambiar la configuración.
+Las variables del entorno tienen prioridad sobre `.env`. No abrir los HTML directamente.
+
 ```bash
 node herramientas/servir.js 8090      # http://localhost:8090
 bash herramientas/probar.sh           # recorre los 21 momentos de las dos carreras en Chrome headless
@@ -70,8 +114,18 @@ errores o plantillas sin resolver. Necesita Google Chrome instalado.
 
 ## Publicar en Netlify
 
-Arrastrar la carpeta al panel de Netlify, o conectar el repositorio: `netlify.toml` publica la raíz
-y no hay paso de build.
+Con Git: configurar `SUPABASE_URL` y `SUPABASE_PUBLISHABLE_KEY` en las variables de entorno
+de Netlify, disponibles durante el build. `netlify.toml` ejecuta `node herramientas/build.js`
+y publica únicamente `dist` con Node.js 22.
+
+Para publicar manualmente, ejecutar `node herramientas/build.js` y arrastrar **solo `dist`**
+a Netlify. El script lee `.env` local y genera `dist/js/config.js`; no incluye `.env`,
+el historial Git ni las herramientas. Volver a ejecutar el build después de cada cambio.
+
+`.env` y `dist/` están excluidos de Git. `.env.example` documenta los nombres sin valores reales.
+La URL y la clave `sb_publishable_…` son públicas y llegan al navegador: la protección de datos
+sigue dependiendo de Supabase Auth y sus políticas RLS. No usar claves `service_role` ni
+`sb_secret_…` en esta configuración; el generador las rechaza.
 
 ## Agregar una carrera
 

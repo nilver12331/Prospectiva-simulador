@@ -18,7 +18,8 @@
   --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
   color-scheme:light;
 }
-body.f2{font-family:var(--sans);font-size:13px;background:var(--ground);letter-spacing:-.005em;color:var(--ink)}
+body.f2{margin:0;padding:0;font-family:var(--sans);font-size:13px;background:var(--ground);letter-spacing:-.005em;color:var(--ink)}
+body.f2 .top{flex-shrink:0}
 
 /* ── Barra superior (igual que la Fase 1) ── */
 body.f2 .top{height:56px;padding:0 16px;gap:14px;flex-wrap:nowrap;background:linear-gradient(90deg,#0b2b4f 0%,#123f75 55%,#134c8c 100%);box-shadow:0 2px 12px rgba(11,43,79,.25);border:0}
@@ -125,6 +126,28 @@ body.f2 .prog li{font-size:12.5px}
 body.f2 .prog .ck{width:16px;height:16px;font-size:9px}
 body.f2 .prog li.now .ck{border-color:var(--gold)}
 body.f2 .prog .lb u{color:var(--navy)}
+body.f2 .rail-close{border:0;background:transparent;color:var(--ink-3);cursor:pointer;padding:2px 6px;font:inherit;font-size:14px;border-radius:5px}
+body.f2 .rail-close:hover{background:var(--navy-soft);color:var(--navy)}
+body.f2 .prog{gap:12px}
+body.f2 .prog>li{grid-template-columns:13px minmax(0,1fr);gap:9px}
+body.f2 .prog .ck{width:13px;height:13px;border:2px solid #cbd5e1;background:#fff;margin-top:2px}
+body.f2 .prog li.done .ck{background:var(--ok);border-color:var(--ok)}
+body.f2 .prog li.now .ck{background:#fff;border-color:var(--gold)}
+body.f2 .prog .lb{display:block;font-size:12px;font-weight:700;line-height:1.35;color:var(--navy)}
+body.f2 .prog li.done .lb{text-decoration:none;color:var(--navy)}
+body.f2 .prog li.future .lb{color:var(--ink-3);font-weight:600}
+body.f2 .rail-moments{margin-top:5px}
+body.f2 .moment{display:block;width:100%;border:0;background:none;text-align:left;font:inherit;font-size:11px;line-height:1.4;color:var(--ink-3);padding:2px 0}
+body.f2 button.moment{cursor:pointer;border-radius:6px}
+body.f2 .moment.ok::before{content:'✓ ';color:var(--ok);font-weight:700}
+body.f2 .moment.wait::before{content:'· '}
+body.f2 .moment.current{color:var(--navy);font-weight:700;background:#eaf1f8;padding:2px 6px;margin-left:-6px;width:calc(100% + 6px)}
+body.f2 .moment.current::before{content:'▸ ';color:var(--gold)}
+body.f2 button.moment:hover{background:#eef4fb;color:var(--navy)}
+body.f2 .rail button:focus-visible{outline:2px solid var(--navy-2);outline-offset:2px}
+body.f2 .outs button{font-family:var(--sans);font-size:11.5px;padding:8px;border-radius:9px;grid-template-columns:29px minmax(0,1fr) auto}
+body.f2 .outs .fi{width:29px;height:auto;padding:3px 4px;font-size:8.5px;font-weight:700;border-radius:3px;background:#fff}
+body.f2 .outs .vb{font-size:10px}
 
 /* ── Movimiento (como la Fase 1) ── */
 @keyframes f2flotar{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}

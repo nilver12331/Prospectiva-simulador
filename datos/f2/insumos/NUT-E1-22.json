@@ -1,0 +1,681 @@
+{
+ "cod": "NUT",
+ "k": "E1",
+ "carrera": "Nutrición Humana",
+ "especialidad": "Nutrición clínica: hospitalaria, obesidad y geriátrica",
+ "integradas": [
+  "Nutrición en obesidad y cirugía bariátrica",
+  "Nutrición geriátrica y del envejecimiento"
+ ],
+ "ambitos": [
+  "Nutrición pediátrica y materna"
+ ],
+ "otras_especialidades_de_la_escuela": [
+  {
+   "k": "E2",
+   "n": "Nutrición comunitaria y programas sociales"
+  },
+  {
+   "k": "E3",
+   "n": "Servicios de alimentación, inocuidad y salud ocupacional"
+  }
+ ],
+ "competencia_v11": {
+  "codigo": "C1",
+  "nombre": "Conducción del proceso de atención nutricional de la persona",
+  "alias": "Atención nutricional",
+  "definicion_conceptual": "Conducir la atención nutricional de la persona sana o enferma a lo largo del ciclo de vida —tamizar, valorar, diagnosticar, prescribir el tratamiento dietoterápico o de soporte, seguir y aconsejar al alta— en hospitalización, consulta ambulatoria presencial o virtual, primer nivel y residencias, aplicando el proceso de atención nutricional, el registro en historia clínica y la interconsulta con el equipo de salud, para recuperar o mantener el estado nutricional y responder por el resultado ante el paciente, su familia y la institución.",
+  "definicion_operacional": "Conducir la atención nutricional de la persona sana o enferma a lo largo del ciclo de vida —tamizar, valorar, diagnosticar, prescribir el tratamiento dietoterápico o de soporte, seguir y aconsejar al alta— en hospitalización, consulta ambulatoria presencial o virtual, primer nivel y residencias, aplicando el proceso de atención nutricional, el registro en historia clínica y la interconsulta con el equipo de salud, para recuperar o mantener el estado nutricional y responder por el resultado ante el paciente, su familia y la institución.",
+  "capacidades": [
+   {
+    "id": "C1.1",
+    "nombre": "Valoración del estado nutricional",
+    "definicion": "Capacidad para tamizar y valorar el estado nutricional de la persona con antropometría, bioquímica, examen clínico y evaluación dietética, adaptando técnicas e instrumentos a la edad, la condición clínica y el escenario de atención, con rigor en la medición, respeto por la persona y registro veraz."
+   },
+   {
+    "id": "C1.2",
+    "nombre": "Diagnóstico nutricional",
+    "definicion": "Capacidad para formular el diagnóstico nutricional a partir de la valoración, identificando el problema, su etiología y sus signos en personas de distinta edad y patología, integrando la interconsulta y la evidencia científica, con juicio clínico, pensamiento crítico y responsabilidad por la decisión que toma."
+   },
+   {
+    "id": "C1.3",
+    "nombre": "Prescripción del tratamiento nutricional",
+    "definicion": "Capacidad para prescribir e implementar el tratamiento nutricional —dietoterapia, soporte enteral, manejo de peso, corrección de deficiencias, adaptación de texturas— ajustado al diagnóstico, la cultura y los recursos del paciente en cada escenario, movilizando fisiopatología, dietoterapia, ética profesional y comunicación con el equipo y la familia."
+   },
+   {
+    "id": "C1.4",
+    "nombre": "Seguimiento del caso y consejería nutricional",
+    "definicion": "Capacidad para monitorear la respuesta al tratamiento, reajustar la prescripción, educar al paciente y a su familia y cerrar el caso con consejería al alta, en consulta presencial o virtual, hospital o residencia, con constancia, empatía y compromiso con la adherencia y el resultado."
+   }
+  ]
+ },
+ "proposito_clave": "Conducir la atención nutricional de la persona sana o enferma a lo largo del ciclo de vida —en hospitalización, consulta presencial o virtual, primer nivel y residencias— aplicando el proceso de atención nutricional y el trabajo con el equipo de salud, para recuperar o mantener su estado nutricional y responder por el resultado ante el paciente, su familia y la institución.",
+ "funciones": [
+  {
+   "c": "E1-01",
+   "t": "Tamizaje y diagnóstico nutricional hospitalario",
+   "d": "Tamiza el riesgo nutricional del paciente al ingreso, valora su estado nutricional y formula el diagnóstico nutricional para detectar la malnutrición y orientar a tiempo el tratamiento.",
+   "tipo": "Actual",
+   "amb": "Hospitalización de adultos, adultos mayores, pediatría y obstetricia",
+   "conf": 3,
+   "lim": "Nivel 3 en UCI, neonatos y pediatría grave; no emite diagnóstico médico; el diagnóstico GLIM lo refrenda el nutricionista responsable.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C1.1 Valorar · C1.2 Diagnosticar",
+   "tasks": [
+    {
+     "code": "E1-01-T1",
+     "t": "Tamizar el riesgo nutricional dentro de las 24 a 48 horas del ingreso con una herramienta validada",
+     "ent": "1. Tamizaje y valoración"
+    },
+    {
+     "code": "E1-01-T2",
+     "t": "Medir la antropometría y realizar el examen físico orientado a la nutrición",
+     "ent": "1. Tamizaje y valoración"
+    },
+    {
+     "code": "E1-01-T3",
+     "t": "Recoger e interpretar los datos bioquímicos, clínicos y dietéticos de la historia clínica y la entrevista",
+     "ent": "1. Tamizaje y valoración"
+    },
+    {
+     "code": "E1-01-T4",
+     "t": "Diagnosticar la malnutrición y su severidad con los criterios GLIM",
+     "ent": "2. Diagnóstico nutricional"
+    },
+    {
+     "code": "E1-01-T5",
+     "t": "Registrar en la historia clínica los diagnósticos nutricionales priorizados en formato PES",
+     "ent": "2. Diagnóstico nutricional"
+    }
+   ],
+   "producto": {
+    "nombre": "Expediente de tamizaje y diagnóstico nutricional del paciente hospitalizado",
+    "desc": "Expediente clínico que documenta el estado nutricional del paciente al ingreso para detectar la malnutrición y fijar la línea base del tratamiento. Integra el tamizaje con su puntaje, la antropometría, los datos bioquímicos, clínicos y dietéticos, el examen físico y los diagnósticos priorizados. Se elabora con la entrevista, la historia clínica y las mediciones a pie de cama, y se verifica con los criterios GLIM y con la auditoría de historias clínicas. Orienta la decisión de intervenir y con qué prioridad, y demuestra el dominio de la valoración integral y del razonamiento diagnóstico.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Tamizaje y valoración",
+      "tareas": "E1-01-T1, E1-01-T2, E1-01-T3",
+      "resumen": "puntaje de riesgo y datos objetivos y subjetivos del estado nutricional",
+      "evidencias": [
+       "Registro de tamizaje validado con puntaje, fecha y conducta",
+       "Ficha de valoración con antropometría, bioquímica, clínica, dieta y examen físico"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Diagnóstico nutricional",
+      "tareas": "E1-01-T4, E1-01-T5",
+      "resumen": "malnutrición tipificada y problemas nutricionales priorizados",
+      "evidencias": [
+       "Diagnóstico GLIM con criterios fenotípicos, etiológicos y grado de severidad",
+       "Enunciados PES priorizados registrados en la historia clínica"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-02",
+   "t": "Dietoterapia y seguimiento del paciente hospitalizado",
+   "d": "Prescribe y especifica el régimen dietoterapéutico del paciente hospitalizado, incluida su textura, transmite la orden diaria de dieta a la unidad de producción, lo monitorea con el equipo de salud y registra los indicadores de la atención, para cubrir sus requerimientos y favorecer su recuperación.",
+   "tipo": "Actual",
+   "amb": "Hospitalización y cuidados intermedios",
+   "conf": 3,
+   "lim": "Nivel 3 en diálisis, hepatopatía avanzada, oncología y pediatría crítica; ante conflicto prevalece la indicación médica.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C1.3 Prescribir · C1.4 Seguir",
+   "tasks": [
+    {
+     "code": "E1-02-T1",
+     "t": "Calcular los requerimientos de energía, proteínas, líquidos y micronutrientes críticos",
+     "ent": "1. Prescripción dietoterapéutica"
+    },
+    {
+     "code": "E1-02-T2",
+     "t": "Prescribir la dieta con su tipo, consistencia y nivel de textura IDDSI, fraccionamiento y restricciones, según las especificaciones de regímenes del servicio",
+     "ent": "1. Prescripción dietoterapéutica"
+    },
+    {
+     "code": "E1-02-T3",
+     "t": "Acordar el plan nutricional con el equipo de salud en la visita médica o la interconsulta",
+     "ent": "1. Prescripción dietoterapéutica"
+    },
+    {
+     "code": "E1-02-T4",
+     "t": "Transmitir diariamente las órdenes de dieta a la unidad de producción o al concesionario",
+     "ent": "2. Orden y seguimiento documentado"
+    },
+    {
+     "code": "E1-02-T5",
+     "t": "Monitorear la ingesta, la tolerancia y la aceptación de la dieta, y ajustar la prescripción en las notas de evolución",
+     "ent": "2. Orden y seguimiento documentado"
+    },
+    {
+     "code": "E1-02-T6",
+     "t": "Registrar los indicadores de la atención nutricional, como el tamizaje oportuno, y señalar a la jefatura los desfases frente al protocolo",
+     "ent": "2. Orden y seguimiento documentado"
+    }
+   ],
+   "producto": {
+    "nombre": "Plan dietoterapéutico hospitalario con orden diaria y registro de evolución",
+    "desc": "Plan dietoterapéutico que traduce el diagnóstico nutricional en la dieta que el paciente recibe cada día y documenta cómo responde a ella. Integra los requerimientos calculados, el tipo de dieta con su consistencia y textura, el fraccionamiento, las restricciones, los acuerdos con el equipo, la orden diaria enviada a producción, las notas de evolución y los indicadores de la atención. Se formula con el diagnóstico, las indicaciones médicas, las guías vigentes y el marco IDDSI, y se verifica comparando lo ingerido con lo prescrito en el control diario. Orienta cuándo mantener, progresar o cambiar la dieta, y demuestra el dominio de la dietoterapia y del trabajo interdisciplinario.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Prescripción dietoterapéutica",
+      "tareas": "E1-02-T1, E1-02-T2, E1-02-T3",
+      "resumen": "cálculo, especificación con textura y acuerdo de la dieta individual",
+      "evidencias": [
+       "Cálculo de requerimientos con el método empleado",
+       "Prescripción de dieta con tipo, consistencia, nivel IDDSI, fraccionamiento y restricciones",
+       "Nota de visita o interconsulta con los acuerdos del equipo"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Orden y seguimiento documentado",
+      "tareas": "E1-02-T4, E1-02-T5, E1-02-T6",
+      "resumen": "orden diaria a producción, control de la dieta, ajustes e indicadores",
+      "evidencias": [
+       "Orden diaria de dietas enviada a la unidad de producción o al concesionario",
+       "Hoja de control de ingesta y tolerancia con notas de evolución ADIME o SOAP",
+       "Registro de indicadores con los desfases señalados a la jefatura"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-03",
+   "t": "Soporte nutricional enteral hospitalario",
+   "d": "Planifica, inicia de forma segura y monitorea la nutrición enteral del paciente que no cubre sus requerimientos por vía oral, dentro del equipo de soporte, para prevenir y tratar la desnutrición.",
+   "tipo": "Actual",
+   "amb": "Hospitalización, cuidados intermedios y UCI",
+   "conf": 2,
+   "lim": "Nivel 2 en UCI y pediatría; no indica vía de acceso ni corrige electrolitos; en parenteral solo integra el equipo.",
+   "dem": "Media",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C1.3 Prescribir · C1.4 Seguir",
+   "tasks": [
+    {
+     "code": "E1-03-T1",
+     "t": "Evaluar la indicación de nutrición enteral con los criterios de la guía institucional",
+     "ent": "1. Indicación y formulación"
+    },
+    {
+     "code": "E1-03-T2",
+     "t": "Clasificar el riesgo de síndrome de realimentación y proponer el aporte inicial y su progresión",
+     "ent": "1. Indicación y formulación"
+    },
+    {
+     "code": "E1-03-T3",
+     "t": "Seleccionar la fórmula y calcular el volumen, la velocidad y las metas diarias",
+     "ent": "1. Indicación y formulación"
+    },
+    {
+     "code": "E1-03-T4",
+     "t": "Coordinar con el médico tratante la vía de acceso y el control de fósforo, potasio y magnesio",
+     "ent": "2. Coordinación y monitoreo del soporte"
+    },
+    {
+     "code": "E1-03-T5",
+     "t": "Monitorear diariamente la tolerancia y el porcentaje de la meta recibido",
+     "ent": "2. Coordinación y monitoreo del soporte"
+    },
+    {
+     "code": "E1-03-T6",
+     "t": "Ajustar el esquema de soporte y registrar el motivo del ajuste",
+     "ent": "2. Coordinación y monitoreo del soporte"
+    }
+   ],
+   "producto": {
+    "nombre": "Plan de soporte nutricional enteral con reinicio seguro, elaborado bajo supervisión",
+    "desc": "Plan de soporte que define cómo alimentar por sonda u ostomía al paciente que no cubre sus requerimientos por vía oral, sin exponerlo a complicaciones metabólicas, y que el egresado elabora bajo la supervisión directa del nutricionista del equipo de soporte. Integra la justificación de la indicación, la clasificación del riesgo de realimentación, la fórmula, el volumen, la velocidad, la progresión, la nota de coordinación con el médico y la hoja de monitoreo. Se diseña con la valoración, el diagnóstico y las guías de EsSalud y ASPEN, y se verifica con el porcentaje de la meta alcanzado y el visto bueno del tutor. Sustenta el inicio, la progresión o el cambio de fórmula, y demuestra el dominio inicial de la terapia nutricional especializada.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Indicación y formulación",
+      "tareas": "E1-03-T1, E1-03-T2, E1-03-T3",
+      "resumen": "decisión, reinicio seguro y diseño del soporte",
+      "evidencias": [
+       "Justificación de la indicación con los criterios aplicados",
+       "Clasificación del riesgo de realimentación con esquema de aporte progresivo revisado por el tutor"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Coordinación y monitoreo del soporte",
+      "tareas": "E1-03-T4, E1-03-T5, E1-03-T6",
+      "resumen": "acuerdo con el médico, seguimiento diario y ajustes",
+      "evidencias": [
+       "Nota de coordinación con el médico sobre vía de acceso y control de electrolitos",
+       "Hoja de monitoreo diario con tolerancia y porcentaje de la meta",
+       "Registro de ajustes con su motivo"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-05",
+   "t": "Consulta nutricional de enfermedades crónicas",
+   "d": "Valora, diagnostica, prescribe el plan de alimentación y aconseja a personas con enfermedades crónicas en consulta presencial o virtual para controlar su enfermedad y prevenir complicaciones.",
+   "tipo": "Actual",
+   "amb": "Consulta externa, primer nivel y teleconsulta",
+   "conf": 4,
+   "lim": "Nivel 3 en enfermedad renal avanzada, diabetes descompensada, trastornos alimentarios y multimorbilidad no controlada; deriva al médico o a salud mental.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C1.1 Valorar · C1.2 Diagnosticar · C1.3 Prescribir · C1.4 Seguir",
+   "tasks": [
+    {
+     "code": "E1-05-T1",
+     "t": "Valorar a la persona con antropometría, datos de laboratorio y evaluación dietética",
+     "ent": "1. Valoración y plan de alimentación"
+    },
+    {
+     "code": "E1-05-T2",
+     "t": "Formular el diagnóstico nutricional en formato PES",
+     "ent": "1. Valoración y plan de alimentación"
+    },
+    {
+     "code": "E1-05-T3",
+     "t": "Elaborar el plan de alimentación individualizado según la cultura y los recursos de la persona",
+     "ent": "1. Valoración y plan de alimentación"
+    },
+    {
+     "code": "E1-05-T4",
+     "t": "Conducir la consejería nutricional con metas acordadas y medibles",
+     "ent": "2. Consejería y control"
+    },
+    {
+     "code": "E1-05-T5",
+     "t": "Controlar la adherencia y ajustar el plan en consultas presenciales o por teleconsulta",
+     "ent": "2. Consejería y control"
+    },
+    {
+     "code": "E1-05-T6",
+     "t": "Derivar los casos que exceden el alcance de la atención nutricional",
+     "ent": "2. Consejería y control"
+    }
+   ],
+   "producto": {
+    "nombre": "Expediente de atención nutricional ambulatoria",
+    "desc": "Expediente que reúne la atención de una persona con enfermedad crónica desde la primera consulta hasta sus controles, para controlar la enfermedad con la alimentación. Integra la valoración, el diagnóstico PES, el plan de alimentación, las metas acordadas, el registro de consejería y los controles de adherencia. Se elabora con la entrevista, las mediciones, los análisis disponibles y el software de análisis dietético, y se verifica con la adecuación del plan y el logro de las metas en cada control. Define el tratamiento, la frecuencia de control o la derivación, y demuestra el dominio de la atención nutricional ambulatoria completa.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Valoración y plan de alimentación",
+      "tareas": "E1-05-T1, E1-05-T2, E1-05-T3",
+      "resumen": "estado nutricional, problema y tratamiento propuesto",
+      "evidencias": [
+       "Ficha de consulta con antropometría, laboratorio y evaluación dietética",
+       "Diagnóstico PES y plan de alimentación con análisis de adecuación"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Consejería y control",
+      "tareas": "E1-05-T4, E1-05-T5, E1-05-T6",
+      "resumen": "acuerdos de cambio, adherencia y derivación",
+      "evidencias": [
+       "Registro de consejería con metas acordadas y plazo",
+       "Hoja de control de adherencia en consulta presencial o teleconsulta",
+       "Hoja de derivación cuando el caso excede el alcance"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-06",
+   "t": "Tratamiento nutricional de la obesidad",
+   "d": "Diseña y conduce el tratamiento nutricional de niños, adolescentes y adultos con sobrepeso u obesidad, con consejería conductual, seguimiento de la composición corporal y acompañamiento de quienes reciben fármacos o cirugía bariátrica, para reducir el exceso de peso y sus comorbilidades.",
+   "tipo": "Actual",
+   "amb": "Consulta externa, primer nivel y teleconsulta; programas de obesidad y cirugía bariátrica; niños, adolescentes y adultos",
+   "conf": 3,
+   "lim": "Nivel 3 en obesidad severa, obesidad infantil con comorbilidad, trastornos alimentarios y tratamiento farmacológico; la indicación de fármacos es médica.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C1.1 Valorar · C1.3 Prescribir · C1.4 Seguir",
+   "tasks": [
+    {
+     "code": "E1-06-T1",
+     "t": "Valorar el grado de obesidad con índice de masa corporal, perímetro abdominal y composición corporal, e identificar las comorbilidades y los hábitos que lo sostienen",
+     "ent": "1. Valoración y plan de manejo de peso"
+    },
+    {
+     "code": "E1-06-T2",
+     "t": "Prescribir el plan de alimentación con déficit energético individualizado",
+     "ent": "1. Valoración y plan de manejo de peso"
+    },
+    {
+     "code": "E1-06-T3",
+     "t": "Aplicar consejería conductual para metas graduales de alimentación y actividad física",
+     "ent": "2. Seguimiento del peso"
+    },
+    {
+     "code": "E1-06-T4",
+     "t": "Monitorear el peso, la composición corporal y la adherencia, y ajustar el plan",
+     "ent": "2. Seguimiento del peso"
+    },
+    {
+     "code": "E1-06-T5",
+     "t": "Acompañar el tratamiento nutricional de la persona que recibe fármacos para la obesidad, en coordinación con el médico",
+     "ent": "3. Acompañamiento farmacológico y bariátrico"
+    },
+    {
+     "code": "E1-06-T6",
+     "t": "Preparar al candidato a cirugía bariátrica y conducir la progresión de la dieta posoperatoria y la adherencia a la suplementación, dentro del equipo multidisciplinario",
+     "ent": "3. Acompañamiento farmacológico y bariátrico"
+    }
+   ],
+   "producto": {
+    "nombre": "Plan de tratamiento nutricional del exceso de peso",
+    "desc": "Plan de tratamiento que organiza la reducción del exceso de peso de una persona como un proceso crónico, con metas graduales y controles periódicos, también cuando recibe fármacos o se somete a cirugía bariátrica. Integra la valoración antropométrica y de composición corporal, las comorbilidades, el plan de alimentación con déficit energético, las metas conductuales, la curva de seguimiento y, cuando corresponde, la guía de progresión posoperatoria. Se elabora con la RM 764-2022/MINSA, las guías de EsSalud y la entrevista motivacional, y se verifica con los cambios de peso, perímetro abdominal y masa grasa en cada control. Orienta la continuidad, el ajuste o la derivación, y demuestra el dominio del tratamiento nutricional de la obesidad.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Valoración y plan de manejo de peso",
+      "tareas": "E1-06-T1, E1-06-T2",
+      "resumen": "grado de obesidad, comorbilidades y plan de alimentación",
+      "evidencias": [
+       "Ficha con índice de masa corporal, perímetro abdominal, composición corporal y comorbilidades",
+       "Plan de alimentación con déficit energético justificado"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Seguimiento del peso",
+      "tareas": "E1-06-T3, E1-06-T4",
+      "resumen": "metas conductuales, controles y ajustes",
+      "evidencias": [
+       "Curva de peso y composición corporal con metas por control",
+       "Registro de consejería conductual y adherencia"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Acompañamiento farmacológico y bariátrico",
+      "tareas": "E1-06-T5, E1-06-T6",
+      "resumen": "plan nutricional con fármacos y fases pre y posoperatorias",
+      "evidencias": [
+       "Nota de coordinación con el médico sobre el tratamiento farmacológico",
+       "Guía de progresión de la dieta posoperatoria con registro de adherencia a la suplementación"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-08",
+   "t": "Atención nutricional del adulto mayor",
+   "d": "Tamiza, valora y trata la malnutrición, la sarcopenia y la disfagia del adulto mayor en hospitalización, consulta y residencias, para conservar su estado nutricional y su funcionalidad.",
+   "tipo": "Emergente",
+   "amb": "Hospitalización, consulta, domicilio y centros de atención residencial",
+   "conf": 3,
+   "lim": "Nivel 3 en fragilidad severa, demencia avanzada y final de vida; la evaluación instrumental de la deglución corresponde a otros profesionales.",
+   "dem": "Media",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C1.1 Valorar · C1.2 Diagnosticar · C1.3 Prescribir · C1.4 Seguir",
+   "tasks": [
+    {
+     "code": "E1-08-T1",
+     "t": "Tamizar el riesgo con el MNA-SF y valorar la antropometría geriátrica",
+     "ent": "1. Valoración geriátrica nutricional"
+    },
+    {
+     "code": "E1-08-T2",
+     "t": "Identificar la pérdida de masa y fuerza muscular y los signos de dificultad para deglutir",
+     "ent": "1. Valoración geriátrica nutricional"
+    },
+    {
+     "code": "E1-08-T3",
+     "t": "Prescribir el plan de alimentación e hidratación con la textura y el enriquecimiento que requiere",
+     "ent": "2. Plan de cuidado nutricional"
+    },
+    {
+     "code": "E1-08-T4",
+     "t": "Indicar la suplementación nutricional oral cuando la ingesta es insuficiente",
+     "ent": "2. Plan de cuidado nutricional"
+    },
+    {
+     "code": "E1-08-T5",
+     "t": "Orientar al cuidador o al personal de la residencia sobre la alimentación asistida",
+     "ent": "2. Plan de cuidado nutricional"
+    },
+    {
+     "code": "E1-08-T6",
+     "t": "Reevaluar el estado nutricional en los plazos de la institución",
+     "ent": "2. Plan de cuidado nutricional"
+    }
+   ],
+   "producto": {
+    "nombre": "Plan de cuidado nutricional del adulto mayor",
+    "desc": "Plan de cuidado que protege el estado nutricional y la funcionalidad del adulto mayor en el hospital, la consulta o la residencia. Integra el tamizaje, la valoración antropométrica y funcional, la detección de sarcopenia y disfagia, el plan de alimentación e hidratación con su textura, la suplementación indicada y las pautas para el cuidador. Se elabora con la NTS 207-MINSA/DGIESP-2023, la guía de ESPEN y el marco IDDSI, y se verifica con la reevaluación periódica del peso, la ingesta y el puntaje de tamizaje. Orienta la intensidad del soporte y la frecuencia de control, y demuestra el dominio de la nutrición geriátrica.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Valoración geriátrica nutricional",
+      "tareas": "E1-08-T1, E1-08-T2",
+      "resumen": "riesgo, estado nutricional, masa muscular y deglución",
+      "evidencias": [
+       "Ficha con puntaje de tamizaje, antropometría y fuerza de prensión",
+       "Registro de signos de disfagia con derivación a evaluación de deglución"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Plan de cuidado nutricional",
+      "tareas": "E1-08-T3, E1-08-T4, E1-08-T5, E1-08-T6",
+      "resumen": "alimentación, hidratación, suplementación, pautas y reevaluación",
+      "evidencias": [
+       "Plan de alimentación e hidratación con nivel de textura",
+       "Pauta escrita para el cuidador o la residencia",
+       "Reevaluación en el plazo institucional"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-09",
+   "t": "Atención nutricional del niño y del adolescente",
+   "d": "Valora el crecimiento, diagnostica la malnutrición y trata la desnutrición, la anemia y otras enfermedades con base nutricional del niño y el adolescente, en hospitalización y consulta, para recuperar su crecimiento y su estado nutricional.",
+   "tipo": "Actual",
+   "amb": "Hospitalización pediátrica, consulta externa y primer nivel",
+   "conf": 3,
+   "lim": "Nivel 2 en neonatología y UCI pediátrica; la suplementación de hierro sigue la NTS 213 y la indicación médica.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C1.1 Valorar · C1.2 Diagnosticar · C1.3 Prescribir · C1.4 Seguir",
+   "tasks": [
+    {
+     "code": "E1-09-T1",
+     "t": "Valorar el crecimiento con indicadores antropométricos en puntaje z y la ingesta del niño",
+     "ent": "1. Valoración y diagnóstico pediátrico"
+    },
+    {
+     "code": "E1-09-T2",
+     "t": "Diagnosticar la desnutrición y su severidad con los indicadores de consenso pediátrico",
+     "ent": "1. Valoración y diagnóstico pediátrico"
+    },
+    {
+     "code": "E1-09-T3",
+     "t": "Prescribir la dieta o la fórmula según la edad, la patología y la tolerancia",
+     "ent": "2. Plan nutricional pediátrico"
+    },
+    {
+     "code": "E1-09-T4",
+     "t": "Indicar el tratamiento dietético de la anemia y verificar la suplementación de hierro según la norma",
+     "ent": "2. Plan nutricional pediátrico"
+    },
+    {
+     "code": "E1-09-T5",
+     "t": "Aconsejar a la madre, el padre o el cuidador sobre la alimentación del niño",
+     "ent": "2. Plan nutricional pediátrico"
+    },
+    {
+     "code": "E1-09-T6",
+     "t": "Monitorear la evolución del peso, la talla y la ingesta",
+     "ent": "2. Plan nutricional pediátrico"
+    }
+   ],
+   "producto": {
+    "nombre": "Plan de atención nutricional pediátrica",
+    "desc": "Plan de atención que recupera el crecimiento y el estado nutricional del niño o adolescente hospitalizado o atendido en consulta. Integra la valoración antropométrica en puntaje z, el diagnóstico de malnutrición, la prescripción de dieta o fórmula, el tratamiento dietético de la anemia, la consejería al cuidador y la curva de seguimiento. Se elabora con la NTS 213-MINSA/DGIESP-2024, los formatos institucionales de atención pediátrica y el consenso de indicadores pediátricos, y se verifica con la evolución del peso, la talla, la ingesta y la hemoglobina. Orienta la intensidad del tratamiento, el alta o la derivación, y demuestra el dominio de la nutrición clínica pediátrica.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Valoración y diagnóstico pediátrico",
+      "tareas": "E1-09-T1, E1-09-T2",
+      "resumen": "crecimiento, ingesta y malnutrición tipificada",
+      "evidencias": [
+       "Ficha antropométrica con puntajes z y curva de crecimiento",
+       "Diagnóstico de malnutrición con su severidad"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Plan nutricional pediátrico",
+      "tareas": "E1-09-T3, E1-09-T4, E1-09-T5, E1-09-T6",
+      "resumen": "tratamiento, consejería al cuidador y seguimiento",
+      "evidencias": [
+       "Prescripción de dieta o fórmula por edad y patología",
+       "Registro de consejería al cuidador",
+       "Hoja de seguimiento de peso, talla, ingesta y hemoglobina"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-10",
+   "t": "Atención nutricional materna y puerperal",
+   "d": "Valora el estado nutricional de la gestante y la puérpera, controla la ganancia de peso y la anemia y brinda consejería nutricional para proteger la salud de la madre y del niño.",
+   "tipo": "Actual",
+   "amb": "Consulta prenatal, hospitalización obstétrica y primer nivel",
+   "conf": 4,
+   "lim": "Nivel 3 en gestación de alto riesgo, diabetes gestacional e hipertensión del embarazo, con manejo del equipo obstétrico.",
+   "dem": "Media",
+   "imp": "Medio",
+   "capacidades_que_moviliza": "C1.1 Valorar · C1.3 Prescribir · C1.4 Seguir",
+   "tasks": [
+    {
+     "code": "E1-10-T1",
+     "t": "Valorar el estado nutricional pregestacional y la ganancia de peso según la edad gestacional",
+     "ent": "1. Valoración y plan materno"
+    },
+    {
+     "code": "E1-10-T2",
+     "t": "Prescribir el plan de alimentación según el estado nutricional y la presencia de anemia",
+     "ent": "1. Valoración y plan materno"
+    },
+    {
+     "code": "E1-10-T3",
+     "t": "Brindar consejería nutricional a la gestante o la puérpera y a su familia",
+     "ent": "2. Consejería y seguimiento materno"
+    },
+    {
+     "code": "E1-10-T4",
+     "t": "Orientar la alimentación de la madre durante la lactancia",
+     "ent": "2. Consejería y seguimiento materno"
+    },
+    {
+     "code": "E1-10-T5",
+     "t": "Controlar la ganancia de peso, la hemoglobina y la adherencia a la suplementación con hierro y ácido fólico en cada atención",
+     "ent": "2. Consejería y seguimiento materno"
+    }
+   ],
+   "producto": {
+    "nombre": "Plan nutricional de la gestante y la puérpera",
+    "desc": "Plan nutricional que acompaña a la mujer durante la gestación y el puerperio para lograr una ganancia de peso adecuada, prevenir la anemia y sostener la lactancia. Integra la valoración pregestacional, la curva de ganancia de peso, el plan de alimentación, los acuerdos de consejería y los controles de hemoglobina y de adherencia a la suplementación. Se elabora con la RM 460-2015/MINSA y la NTS 213-MINSA/DGIESP-2024, y se verifica con la ganancia de peso por trimestre, la hemoglobina y el cumplimiento de los acuerdos. Orienta el ajuste del plan o la derivación en el embarazo de riesgo, y demuestra el dominio de la nutrición materna.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Valoración y plan materno",
+      "tareas": "E1-10-T1, E1-10-T2",
+      "resumen": "estado nutricional, ganancia de peso y plan de alimentación",
+      "evidencias": [
+       "Ficha con índice de masa corporal pregestacional y curva de ganancia de peso",
+       "Plan de alimentación según estado nutricional y anemia"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Consejería y seguimiento materno",
+      "tareas": "E1-10-T3, E1-10-T4, E1-10-T5",
+      "resumen": "acuerdos, lactancia, controles y suplementación",
+      "evidencias": [
+       "Registro de consejería con acuerdos",
+       "Control por atención de ganancia de peso, hemoglobina y adherencia a la suplementación"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-11",
+   "t": "Alta nutricional y continuidad del cuidado",
+   "d": "Prepara el alta nutricional del paciente con su guía dietética y consejería y coordina la referencia o contrarreferencia con otros niveles para dar continuidad al tratamiento en el hogar y en la red.",
+   "tipo": "Transversal",
+   "amb": "Hospitalización, consulta y red de servicios",
+   "conf": 4,
+   "lim": "Nivel 3 en altas con nutrición enteral domiciliaria; la decisión de alta y traslado es médica.",
+   "dem": "Media",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C1.4 Seguir",
+   "tasks": [
+    {
+     "code": "E1-11-T1",
+     "t": "Elaborar la guía dietética domiciliaria según el diagnóstico al alta y las condiciones del hogar",
+     "ent": "1. Paquete de alta"
+    },
+    {
+     "code": "E1-11-T2",
+     "t": "Brindar consejería al paciente y a su familia y verificar su comprensión con el método de retorno de la explicación",
+     "ent": "1. Paquete de alta"
+    },
+    {
+     "code": "E1-11-T3",
+     "t": "Redactar el resumen nutricional del alta para la hoja de referencia o contrarreferencia, o para el informe a la EPS o al consultorio que continúa la atención",
+     "ent": "2. Continuidad documentada"
+    },
+    {
+     "code": "E1-11-T4",
+     "t": "Coordinar el control nutricional ambulatorio en la red integrada de salud, la EPS o el consultorio privado",
+     "ent": "2. Continuidad documentada"
+    }
+   ],
+   "producto": {
+    "nombre": "Plan nutricional de alta y continuidad del cuidado",
+    "desc": "Plan de alta que traslada el tratamiento nutricional del hospital al hogar y al servicio que continúa la atención sin pérdida de información. Integra la guía dietética domiciliaria, el registro de consejería y de comprensión, el resumen nutricional para la referencia, la contrarreferencia o el informe a la EPS, y la cita de control. Se elabora con el diagnóstico al alta, las condiciones del hogar y los formatos del sistema de referencia, y se verifica con la comprensión demostrada por el paciente y la constancia de la cita o del envío del resumen. Define quién continúa la atención y con qué indicaciones, y demuestra el dominio de la continuidad del cuidado nutricional.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Paquete de alta",
+      "tareas": "E1-11-T1, E1-11-T2",
+      "resumen": "indicaciones para el hogar y verificación de su comprensión",
+      "evidencias": [
+       "Guía dietética domiciliaria personalizada",
+       "Registro de consejería con verificación de comprensión"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Continuidad documentada",
+      "tareas": "E1-11-T3, E1-11-T4",
+      "resumen": "resumen nutricional para el destino y cita de control",
+      "evidencias": [
+       "Resumen nutricional del alta adjunto a la referencia, la contrarreferencia o el informe a la EPS",
+       "Constancia de la cita de control o del envío del resumen al destino"
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

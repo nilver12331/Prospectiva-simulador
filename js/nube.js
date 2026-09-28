@@ -2,8 +2,16 @@
    Sin sesión no se ve nada: las páginas protegidas redirigen a ingreso.html.
    NUBE.get(cod) es síncrono (lee la copia cargada al entrar); poner/quitar escriben en la base. */
 (function(){
- const URL_SB="https://smofbulusrducojlpixj.supabase.co";
- const CLAVE_PUB="sb_publishable_VZ4A69BwtU1mUaXceWoCtQ_Uxfa7_HV";
+ const config=window.APP_CONFIG||{};
+ const URL_SB=config.supabaseUrl;
+ const CLAVE_PUB=config.supabasePublishableKey;
+ if(!URL_SB||!CLAVE_PUB||!window.supabase){
+   const mensaje=!URL_SB||!CLAVE_PUB?'Falta la configuración de Supabase. Inicia el servidor local o publica la carpeta dist generada.':'No se pudo cargar Supabase. Comprueba tu conexión y recarga la página.';
+   window.NUBE={listo:Promise.resolve(false),ingresar:async()=>{throw new Error(mensaje)}};
+   const mostrar=()=>{const aviso=document.createElement('p');aviso.setAttribute('role','alert');aviso.textContent=mensaje;aviso.style.cssText='padding:16px;margin:16px;background:#fff3cd;color:#664d03;border-radius:8px';document.body.prepend(aviso)};
+   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',mostrar,{once:true});else mostrar();
+   return;
+ }
  const esIngreso=/ingreso\.html$/.test(location.pathname);
 
  /* mientras se verifica la sesión, la página no se muestra */

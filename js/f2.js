@@ -5,7 +5,8 @@
    F2.hasta dice hasta qué paso hay datos generados: lo que sigue se muestra «por generar». */
 const ESCUELA = (new URLSearchParams(location.search).get("escuela")||Object.keys(window.DATOS2||{})[0]||"NUT").toUpperCase();
 const F2 = (window.DATOS2||{})[ESCUELA];
-if(!F2) document.body.innerHTML = '<p style="padding:40px;font:15px system-ui">No hay datos de la Fase 2 para la escuela <b>'+ESCUELA+'</b>. <a href="fase2.html">Volver</a></p>';
+document.querySelectorAll('[data-volver-proyecto]').forEach(a=>a.href='programas.html?proyecto='+encodeURIComponent(ESCUELA));
+if(!F2) document.body.innerHTML = '<p style="padding:40px;font:15px system-ui">No hay datos de la Fase 2 para la escuela <b>'+ESCUELA+'</b>. <a href="programas.html?proyecto='+encodeURIComponent(ESCUELA)+'">Volver</a></p>';
 { const c=document.getElementById("crEsc"); if(c) c.textContent = F2.meta.nombre; document.title = "Fase 2 · "+F2.meta.nombre;
   const ic=document.getElementById("pkIc"); if(ic) ic.textContent = F2.meta.icono||"🎓";
   const s=document.getElementById("selEsc");
@@ -20,7 +21,7 @@ const escN = n => ESC.find(e=>e.n===n);
 function cargarEsp(k){
   const e = escK(k); D = {...VACIO, ...((F2.esp||{})[k]||{})};
   D.comp = e ? e.c+" · "+e.cn : "";
-  FNK = D.order||[]; CAPS = e ? (F2.ARQ[e.c]||{caps:[]}).caps : [];
+  FNK = D.order||[]; CAPS = e ? (F2.ARQ[e.c]||{caps:[]}).caps : []; if(typeof ponerComp==="function") try{ ponerComp(); }catch(_){}
 }
 const PASOS_OK = ["2.1","2.2","2.3","2.4","2.5","2.6"].slice(0, ["2.1","2.2","2.3","2.4","2.5","2.6"].indexOf(F2.hasta)+1);
 const hay = p => PASOS_OK.includes(p);
@@ -458,7 +459,7 @@ function gen22(){
     active().forEach(f=>{ f.rs = f.rec.map((r,i)=>({...r, id:`${f.c}#${i}`, st: r.code==="—" ? "na" : "prop"})); });
     S.recOn = true; S.step = 4; S.recSel = active()[0].c; S.avail.add("recursos"); S.mode.recursos="fn"; setTab("recursos");
     const R = allRes().filter(r=>r.st!=="na");
-    addMsg("agent", `<p>La matriz tiene <b>${R.length} asignaciones función–recurso</b> (${CATS.map(([c])=>`${R.filter(r=>r.cat===c).length} en ${c.toLowerCase()}`).join(", ")}), tomadas de un banco de <b>${D.bank.length} recursos</b> codificados; 19 se comparten entre funciones. Cada recurso indica su aplicación en la tarea, el nivel de dominio y su aporte al producto.</p><p>N2 y N1 quedan <i>sin integración de IA pertinente</i> por ser funciones de seguridad clínica.</p>${docCard("Matriz de Elementos de Productividad de Productividad",`${R.length} asignaciones · ${active().length} funciones`,"recursos","fn")}`,
+    addMsg("agent", `<p>La matriz tiene <b>${R.length} asignaciones función–recurso</b> (${CATS.map(([c])=>`${R.filter(r=>r.cat===c).length} en ${c.toLowerCase()}`).join(", ")}), tomadas de un banco de <b>${D.bank.length} recursos</b> codificados; ${D.bank.filter(b=>/\(\d+\)/.test(b[3]||"")).length} se comparten entre funciones. Cada recurso indica su aplicación en la tarea, el nivel de dominio y su aporte al producto.</p>${active().filter(f=>f.rec.some(r=>r.code==="—")).length?`<p>${active().filter(f=>f.rec.some(r=>r.code==="—")).map(f=>f.c).join(" y ")} quedan <i>sin integración de IA pertinente</i>.</p>`:""}${docCard("Matriz de Elementos de Productividad de Productividad",`${R.length} asignaciones · ${active().length} funciones`,"recursos","fn")}`,
       [{label:"Cargar validación abreviada (3 expertos)", main:true, fn:loadRes},
        {label:"Ver banco de recursos", keep:true, fn:()=>{ S.mode.recursos="bank"; setTab("recursos"); }}]);
     refresh();
@@ -471,7 +472,7 @@ function loadRes(){
     active().forEach(f=>f.rs.forEach(r=>{ if(r.st!=="na") r.exp=true; }));
     S.recSel = active()[0].c; S.mode.recursos="fn"; setTab("recursos"); refresh();
     const ia = allRes().filter(r=>r.cat.startsWith("Integración")&&r.exp);
-    addMsg("agent", `<p>Los expertos dieron conformidad en la ronda 1 (I-CVI = 1,00 en los siete criterios). X6 verificó las ${ia.length} fichas de IA: autonomía coherente con el nivel de confianza, sin datos de pacientes fuera de sistemas institucionales y con marco citado.</p><p>Ahora confirme <b>función por función</b>: el producto queda fijo a la izquierda mientras recorre sus recursos; al terminar use «Confirmar y seguir».</p>`,
+    addMsg("agent", `<p>Los expertos dieron conformidad en la ronda 1 (I-CVI = 1,00 en los siete criterios). X6 verificó las ${ia.length} fichas de IA: autonomía coherente con el nivel de confianza, sin datos personales fuera de sistemas institucionales y con marco citado.</p><p>Ahora confirme <b>función por función</b>: el producto queda fijo a la izquierda mientras recorre sus recursos; al terminar use «Confirmar y seguir».</p>`,
       [{label:"Empezar por "+active()[0].c, main:true, keep:true, fn:()=>{ S.recSel=active()[0].c; setTab("recursos"); }},
        {label:"Confirmar todas las funciones", fn:()=>{ userSays("Confirma los recursos de todas las funciones."); active().forEach(f=>f.rs.forEach(r=>{ if(r.st==="prop") r.st="ok"; })); refresh(); checkRes22(); }}]);
   });
@@ -523,7 +524,7 @@ function save22(){
   think(["Guardando la matriz funcional y el banco de recursos","Guardando el banco de temas nucleares de la especialidad","Marcando los temas compartidos y los candidatos base","Registrando en el Proyecto y la base de datos"], ()=>{
     S.saved.p22 = true; S.te.saved = true; S.step = 7; refresh();
     toast("Paso 2.2 guardado · elementos de productividad y temas nucleares");
-    addMsg("agent", `<p>Guardado. Funciones, sustento, productos, <b>elementos de productividad</b> y <b>temas nucleares</b> de esta especialidad quedan registrados en el Proyecto y la base de datos.</p><p class="mini">Con esto la especialidad cierra su 2.3. Para abrir los pasos de escuela hacen falta las ${ESC.length}: puede generar el lote restante ahora o seguir una por una.</p><p>Siguiente: <b>2.4 Derivación disciplinar</b>, de escuela: desde los temas de especialidad de las seis se derivan los temas base que los sostienen.</p>`,
+    addMsg("agent", `<p>Guardado. Funciones, sustento, productos, <b>elementos de productividad</b> y <b>temas nucleares</b> de esta especialidad quedan registrados en el Proyecto y la base de datos.</p><p class="mini">Con esto la especialidad cierra su 2.3. Para abrir los pasos de escuela hacen falta las ${ESC.length}: puede generar el lote restante ahora o seguir una por una.</p><p>Siguiente: <b>2.4 Derivación disciplinar</b>, de escuela: desde los temas de especialidad de las ${ESC.length} se derivan los temas base que los sostienen.</p>`,
       [{label:"Consolidar el lote de especialidades (2.4)", main:true, fn:gen23},
        {label:"Exportar matriz a Word (A3)", keep:true, fn:()=>toast("Exportación a Word A3 (simulada)")}]);
   });
@@ -567,10 +568,14 @@ const COMP = {
   prop12:"Saber de nutrición y saber qué hacer con el paciente que tienes al frente son dos cosas distintas. Esta especialidad te forma en la segunda. Aprendes a tamizar y diagnosticar la desnutrición con criterios GLIM, a prescribir la dieta y el soporte enteral que cada caso necesita, a prevenir complicaciones como el síndrome de realimentación y a preparar el alta con un plan que la familia entiende. Lo practicas en consulta externa, hospitalización, cuidados intensivos y dietética, con historia clínica electrónica, telesalud e inteligencia artificial que aprendes a usar y a verificar, y sales sabiendo sustentar cada decisión frente a médicos, pacientes y familias. Cada plan que firmes cambia cómo alguien come, se recupera y vuelve a su vida.",
   prom12:"Convierte datos clínicos en decisiones nutricionales seguras que devuelven salud y autonomía a cada paciente."
 };
-const baseOp = keep => COMP.op12.replace("{COM}", keep ? " y contextos comunitarios" : "");
+const DECI = () => COMP.decision || {aspecto:"Contexto comunitario",motivo:"El texto vigente dice «comunitarios» y ninguna función de la competencia ocurre allí.",opA:{label:"Retirar «comunitarios» y validar",user:"Retira el contexto comunitario y valida.",ins:""},opB:{label:"Mantener el contexto comunitario y validar",user:"Mantén el contexto comunitario y valida.",ins:" y contextos comunitarios"}};
+const baseOp = keep => (COMP.op12||"").replace("{COM}", keep ? DECI().opB.ins : DECI().opA.ins);
+/* la competencia v1.2 es de cada especialidad (datos/f2-<cod>.js → esp[k].comp31) */
+function ponerComp(){ const c=D.comp31; if(!c) return; Object.keys(COMP).forEach(k=>delete COMP[k]); Object.assign(COMP, JSON.parse(JSON.stringify(c))); }
 const opText = () => (S.c31.txt && S.c31.txt.op) || baseOp(S.c31.com==="keep");
 const cTxt = (k,f) => (S.c31.txt && S.c31.txt[f+k]) || (f==="c" ? COMP.capsc12[k] : COMP.caps12[k][0]);
 const concText = () => (S.c31.txt && S.c31.txt.conc) || COMP.conc12;
+ponerComp();
 { const e0 = estadoInicial(); S.te = e0.te; S.c31 = e0.c31; S.c32 = e0.c32; }
 
 /* ---------- 2.4 (a) Validación de la competencia y capacidades ---------- */
@@ -578,24 +583,24 @@ function gen31(){
   userSays("Actualiza la competencia y sus capacidades.");
   think(["Leyendo familias de funciones FA–FE","Leyendo estándares y tecnologías validados en 2.2","Contrastando las definiciones conceptuales y operacionales con la v1.1","Redactando la propuesta v1.2 de la competencia y las capacidades"], ()=>{
     S.c31.gen = true; S.c31.txt = {conc:COMP.conc12, op:baseOp(false)}; CAPS.forEach(c=>{ S.c31.txt['c'+c[0]]=COMP.capsc12[c[0]]; S.c31.txt['o'+c[0]]=COMP.caps12[c[0]][0]; }); S.step = 7; S.avail.add("competencia"); S.mode.competencia="def"; setTab("competencia");
-    addMsg("agent", `<p>Propongo las <b>definiciones conceptual y operacional v1.2</b> de la competencia y de sus <b>4 capacidades</b>. La competencia cambia en ${COMP.cambios.length} puntos respecto de la v1.1 (familias de funciones, ámbitos, estándares, tecnologías, el ajuste aprobado de C1.4 y el contexto comunitario, que requiere su decisión). Cada capacidad incorpora los métodos y estándares de las funciones que la movilizan; las denominaciones se conservan.</p>${docCard("Validación de la competencia","Competencia y capacidades · v1.1 → v1.2","competencia","def")}`,
+    addMsg("agent", `<p>Propongo las <b>definiciones conceptual y operacional v1.2</b> de la competencia y de sus <b>${CAPS.length} capacidades</b>. La competencia cambia en ${COMP.cambios.length} puntos respecto de la v1.1 (${COMP.cambios.map(c=>c[0].toLowerCase()).join(", ")}; el último requiere su decisión). Cada capacidad incorpora los métodos y estándares de las funciones que la movilizan; las denominaciones se conservan.</p>${docCard("Validación de la competencia","Competencia y capacidades · v1.1 → v1.2","competencia","def")}`,
       [{label:"Cargar validación (SMART y expertos)", main:true, fn:val31}]);
     refresh();
   });
 }
 function val31(){
   userSays("Valida la competencia y sus capacidades.");
-  think(["Criterios SMART de la definición","Coherencia con las 12 funciones y sus familias","Coherencia con los estándares validados","Capacidades: cobertura de funciones y estándares","Panel abreviado: I-CVI por criterio"], ()=>{
+  think(["Criterios SMART de la definición",`Coherencia con las ${active().length} funciones y sus familias`,"Coherencia con los estándares validados","Capacidades: cobertura de funciones y estándares","Panel abreviado: I-CVI por criterio"], ()=>{
     S.c31.val = true; refresh();
-    addMsg("agent", `<p>La competencia y las 4 capacidades cumplen los criterios SMART y la coherencia con funciones y estándares (I-CVI = 1,00). Falta su confirmación:</p><ul><li>Revise cada capacidad y confírmela con ✓ (o ↺ para pedir un ajuste).</li><li>El texto vigente incluye <b>contextos comunitarios</b>, pero ninguna función de C1 ocurre allí y la educación grupal se forma en C2.</li></ul>`,
-      [{label:"Retirar «comunitarios» y validar", main:true, keep:true, fn:()=>decide31("drop")},
-       {label:"Mantener el contexto comunitario y validar", keep:true, fn:()=>decide31("keep")},
+    addMsg("agent", `<p>La competencia y las ${CAPS.length} capacidades cumplen los criterios SMART y la coherencia con funciones y estándares (I-CVI = 1,00). Falta su confirmación:</p><ul><li>Revise cada capacidad y confírmela con ✓ (o ↺ para pedir un ajuste).</li><li><b>${esc(DECI().aspecto||"")}</b>: ${esc(DECI().motivo||"")}</li></ul>`,
+      [{label:DECI().opA.label, main:true, keep:true, fn:()=>decide31("drop")},
+       {label:DECI().opB.label, keep:true, fn:()=>decide31("keep")},
        {label:"Revisar capacidad por capacidad", keep:true, fn:()=>{ S.mode.competencia="def"; setTab("competencia"); toast("Confirme cada capacidad con ✓ o pida un ajuste con ↺"); }}]);
   });
 }
 function decide31(v){
   if(S.c31.com) return;
-  userSays(v==="drop"?"Retira el contexto comunitario y valida.":"Mantén el contexto comunitario y valida.");
+  userSays(v==="drop"?DECI().opA.user:DECI().opB.user);
   S.c31.com = v; if(!S.c31.edop) S.c31.txt.op = baseOp(v==='keep');
   CAPS.forEach(c=>{ if(S.c31.cap[c[0]]==="prop") S.c31.cap[c[0]]="ok"; });
   refresh(); check31();
@@ -617,7 +622,7 @@ function forceVal31(){
 function check31(){
   if(S.step!==7 || !S.c31.com || CAPS.some(c=>S.c31.cap[c[0]]!=="ok")) return;
   S.step = 8; refresh();
-  addMsg("agent", `<p>Listo. La competencia y sus 4 capacidades quedan validadas en la versión 1.2. Al guardar se actualiza la Ficha Técnica.</p>`,
+  addMsg("agent", `<p>Listo. La competencia y sus ${CAPS.length} capacidades quedan validadas en la versión 1.2. Al guardar se actualiza la Ficha Técnica.</p>`,
     [{label:"Guardar validación de la competencia", main:true, fn:save31}]);
 }
 function save31(){
@@ -655,7 +660,7 @@ const AGENTES = F2.AGENTES || [];   /* dato de escuela · datos/f2-<cod>.js */
 const COHX = F2.COHX || {};   /* dato de escuela · datos/f2-<cod>.js */
 function cohDe(t){
   if(COHX[t[0]]) return COHX[t[0]];
-  const n = teDeTN(t[0]).length, otras = espDe(t).filter(k=>k!=="E3");
+  const n = teDeTN(t[0]).length, otras = espDe(t).filter(k=>k!==S.k);
   if(n>=2) return ["ok","Derivación verificada",`Lo exigen ${n} temas de especialidad distintos y responde a la pregunta «qué hay que saber antes»: es un saber previo, no el saber de la tarea.`];
   if(n===1) return ["ok","Derivación suficiente","Un solo tema de especialidad lo exige, pero la relación es de fundamento y el nivel declarado es coherente con el de ese tema."];
   if(otras.length) return ["na","Deriva de otras especialidades",`Esta especialidad no lo exige; lo sostienen ${otras.join(", ")}. La evaluación de coherencia corresponde a sus subpaneles.`];
@@ -683,7 +688,7 @@ function correrCoh(){
     const ok=TN.filter(t=>cohDe(t)[0]==="ok").length, rev=TN.filter(t=>cohDe(t)[0]==="rev").length, na=TN.length-ok-rev;
     addMsg("agent", `<p>Los ${n} agentes evaluaron los ${TN.length} temas base contra los ${TE.length} temas de especialidad del banco.</p>
       <ul><li><b>${ok} con derivación verificada</b> · el tema base es efectivamente el saber previo.</li>
-      <li><b>${rev} para revisar</b> · TN-15 (política alimentaria) llega con enlace débil desde esta especialidad y TN-17 sin enlace alguno.</li>
+      <li><b>${rev} para revisar</b>${Object.entries(COHX).filter(([k,v])=>v[0]==="rev").length?" · "+Object.entries(COHX).filter(([k,v])=>v[0]==="rev").map(([k,v])=>`${k} (${v[1].toLowerCase()})`).join(", "):""}.</li>
       <li>${na} derivan de otras especialidades y los evalúan sus subpaneles.</li></ul>
       <p class="mini">Clic en la columna <b>Coherencia</b> de cualquier fila para leer el dictamen.</p>`,
       [{label:"Ver el banco con los dictámenes", main:true, keep:true, fn:()=>{ S.mode.disc="temas"; setTab("disc"); }}]);
@@ -764,7 +769,7 @@ const AY = {
     <div class="analog"><b>Analogía.</b> Si seis cocineros comparten el 40 % de sus ingredientes, la despensa común será del 40 %: no porque alguien lo decida, sino porque eso es lo que comparten. La banda corporativa solo avisa si el resultado es implausible.</div>`],
  PESOPLAN:["Peso de la especialidad en el plan",
    `<p class="q"><b>Qué es:</b> el porcentaje de la formación de especialidad que le toca a esta especialidad, según cuánta formación exige comparada con las demás.</p>
-    <p>Es la columna <b>Distribución</b> del peso formativo, la misma con que se reparten los créditos obligatorios. Las seis suman 100 %.</p>
+    <p>Es la columna <b>Distribución</b> del peso formativo, la misma con que se reparten los créditos obligatorios. Todas suman 100 %.</p>
     <div class="analog"><b>Para qué se usa aquí.</b> Para que la especialidad que se lleva más plan también mande más en la decisión del tronco común. Si una especialidad ocupa el 30 % del plan y comparte poco con las demás, empuja el tronco hacia abajo con fuerza; si la que comparte poco ocupa solo el 8 %, casi no lo mueve.</div>`],
  APORTE:["Cuánto aporta al tronco común",
    `<p class="q"><b>Qué es:</b> peso en el plan × saber compartido. Es el trozo del tronco que esta especialidad justifica.</p>
@@ -847,7 +852,7 @@ const AY = {
     <div class="ko"><b>Si se pasa de ahí</b> no se cuadra a mano: o la familia de cursos está mal armada —un curso junta funciones que no van juntas— o el peso del 2.5 hay que revisarlo. Se declara y se corrige en su origen.</div>`],
  OFERTA:["Lo que cursa el estudiante y lo que dicta la escuela",
    `<p><b>EL</b> es un requisito de egreso: todo estudiante cursa esos créditos electivos, una sola vez, y entran al total del plan una vez.</p>
-    <p><b>OFERTA</b> es lo que la escuela debe dictar para que cada itinerario baste por sí solo. Con seis especialidades y 12 créditos de requisito, el estudiante cuenta 12 y la escuela dicta 72. Esa es la cifra que la capacidad instalada tiene que sostener, y nunca suma al total del plan.</p>`]
+    <p><b>OFERTA</b> es lo que la escuela debe dictar para que cada itinerario baste por sí solo. Con una especialidad por itinerario, el estudiante cuenta el requisito una vez y la escuela dicta un itinerario por especialidad. Esa es la cifra que la capacidad instalada tiene que sostener, y nunca suma al total del plan.</p>`]
 };
 const AYX = {A:["A","navy","¿Cuántas cosas distintas hace?"],P:["P","navy","¿Hasta qué nivel llega?"],C:["C","bad","¿Qué pasa si se equivoca?"],H:["H","gold","¿Cuánto hay que dominar antes?"],
  PF:["PF","navy","Cuánta formación exige, de 0 a 100"],DIST:["%","navy","El reparto de 100 puntos entre especialidades"],
@@ -860,7 +865,8 @@ const AYX = {A:["A","navy","¿Cuántas cosas distintas hace?"],P:["P","navy","¿
  PD:["PD","navy","Cuánto reclaman las especialidades de cada dimensión"],ANCL:["⌖","navy","Al nivel más fino donde el saber se necesita"],NMIN:["≥","ok","Lo que el tronco enseña a todos"],CLAS:["◫","gold","De fundamento o de especialidad"],COOC:["∞","navy","Cómo se decide qué temas van juntos"],OBJ:["◎","ok","¿Actúan sobre el mismo objeto?"],NOMB:["Aa","gold","¿Un docente lo reconocería como algo que se enseña?"],MAPA:["◳","navy","Dos preguntas distintas en un solo gráfico"],CERT:["★","ok","Cuándo conviene una certificación progresiva"],CUOTA:["=","navy","Los créditos que el 2.5 asignó a esta unidad"],HITO:["N","ok","Hasta dónde llega el curso"],DESV:["±","bad","Cuánto se pasa o falta frente a esa cuota"]};
 const ayuda = k => `<button class="infob" data-ay="${k}" aria-label="Qué significa">?</button>`;
 function ayOpen(k){
-  const a = AY[k]; if(!a) return; const x = AYX[k] || ["?","navy",""];
+  const a = AY[k]; if(!a) return; const EJ=(F2.AYEJ||{})[k];
+  if(EJ){ const x = AYX[k] || ["?","navy",""]; openModal(a[0], `<div class="ayhero ay-${x[1]}"><span class="ayic">${esc(x[0])}</span><div><b>${esc(a[0])}</b><small>${esc(x[2])}</small></div></div>${a[1].replace(/<div class="(analog|si|ko)"><b>(Ejemplo|Analogía|Pasa|No pasa)[^<]*<\/b>[\s\S]*?<\/div>/g,"")}<div class="analog"><b>Ejemplo.</b> ${EJ}</div>`); return; } const x = AYX[k] || ["?","navy",""];
   openModal(a[0], `<div class="ayhero ay-${x[1]}"><span class="ayic">${esc(x[0])}</span><div><b>${esc(a[0])}</b><small>${esc(x[2])}</small></div></div>${a[1]}`);
 }
 
@@ -888,7 +894,7 @@ function dLote(){
     return `<tr class="${e.real?"p1":""}">
       <td class="num"><span class="pri">${g.PRI}</span><span class="rk">${e.k}</span></td>
       <td class="nom" style="--acc:${F1.DEC[g.dec]?F1.DEC[g.dec].col:"#1d3a6b"}"><span class="f-nom">${esc(e.n)}</span>
-        <span class="f-sub">${e.fn} funciones · ${e.real?'<b>datos reales</b>':"lote simulado"}</span></td>
+        <span class="f-sub">${e.fn} funciones · <b>datos reales</b></span></td>
       <td class="num">${e.c}</td><td class="num">${sc(e.pot,"#003366")}</td>
       <td><div class="bps"><span class="bp ok">2.1 cerrado</span><span class="bp ${ok||e.real?"ok":""}">${ok||e.real?"2.2 cerrado":"2.2 en curso"}</span><span class="bp ${ok||e.real?"ok":""}">vínculo</span></div></td>
       <td class="num">${res?`<b>${fu.f}</b> de ${fu.tot}`:"—"}</td>
@@ -903,7 +909,7 @@ function dLote(){
 function tnRow(t, ctx){
   const op = S.d23.open[t[0]];
   const chips = ESC.map(x=>t[5][x.k]?`<span class="et v${t[5][x.k]===3?4:3}" title="${esc(x.n)} · ${NIV[t[5][x.k]]}">${x.k}</span>`:"").join(" ");
-  const tes = teDeTN(t[0]), otras = espDe(t).filter(k=>k!=="E3"), v = cohDe(t);
+  const tes = teDeTN(t[0]), otras = espDe(t).filter(k=>k!==S.k), v = cohDe(t);
   return `<tr class="${op?"open":""}"><td class="tec1">${tes.length?`<div class="bps">${tes.map(x=>`<span class="et te" title="${esc(x[1])}">${x[0]}</span>`).join(" ")}</div>
         <div class="mini">${tes.map(x=>esc(x[1])).join(" · ")}</div>`:'<span class="mini">Ninguno en esta especialidad</span>'}
       ${otras.length?`<div class="mini" style="margin-top:3px;color:var(--ink-3)">También lo exigen ${otras.join(", ")}</div>`:""}</td>
@@ -924,18 +930,21 @@ function tnRow(t, ctx){
     </div></td></tr>`:""}`;
 }
 const TNHEAD = `<thead><tr><th style="min-width:200px">Temas de especialidad que lo exigen${ayuda("TEEX")}</th><th style="width:58px">Código</th><th style="min-width:230px">Tema base (disciplinar)</th><th style="width:150px">Coherencia${ayuda("COHE")}</th><th style="width:96px">Anclaje${ayuda("ANCL")}</th><th style="width:160px">Especialidades</th><th class="num" style="width:104px">Nivel mínimo${ayuda("NMIN")}</th><th style="width:124px">Clasificación${ayuda("CLAS")}</th><th class="num" style="width:74px">Dimensión</th></tr></thead>`;
+const NTM = () => Object.assign({tn:(TN[0]||[""])[0],micro:"",porque:"",cand:"",porqueCand:""}, (F2.NARR||{}).tema||{});
+const NHU = () => (F2.NARR||{}).huerf || null;
+const NPD = () => (F2.NARR||{}).panelD || null;
 function pedirTema(){
   const q = ($("#gxTemaTxt")||{}).value || "";
   userSays(q || "Propón temas nucleares o micro temas que falten.");
   think(["Revisando los elementos de productividad sin tema asociado","Contrastando con los productos y las tareas de cada especialidad","Aplicando la prueba de identificación a cada candidato"], ()=>{
     addMsg("agent", `<p>Revisé los ${TN.length} temas contra los elementos de productividad de las ${ESC.length} especialidades. Propongo dos adiciones:</p>
-      <ul><li><b>Micro tema en TN-11</b> · «Estandarización entre evaluadores y control de calidad de la medición»: lo exige la evaluación avanzada y hoy no está.</li>
-      <li><b>Tema nuclear candidato</b> · «Ética profesional y confidencialidad del dato nutricional»: lo exigen cuatro especialidades a nivel de tarea, pero antes hay que pasarle la prueba de identificación.</li></ul>
+      <ul><li><b>Micro tema en ${NTM().tn}</b> · «${esc(NTM().micro)}»: ${esc(NTM().porque)}</li>
+      <li><b>Tema nuclear candidato</b> · «${esc(NTM().cand)}»: ${esc(NTM().porqueCand)}</li></ul>
       <p>Puede aceptarlas o editarlas usted mismo en la tabla.</p>`,
       [{label:"Aceptar las dos y recalcular", main:true, fn:()=>{
-          const t=tnOf("TN-11"); if(t && !t[2].includes("Estandarización entre evaluadores y control de calidad de la medición")) t[2].push("Estandarización entre evaluadores y control de calidad de la medición");
-          refresh(); toast("Micro tema agregado a TN-11 · el reparto del 2.5 se recalcula solo"); }},
-       {label:"Solo el micro tema", keep:true, fn:()=>{ const t=tnOf("TN-11"); if(t && t[2].length<8) t[2].push("Estandarización entre evaluadores y control de calidad de la medición"); refresh(); }}]);
+          const t=tnOf(NTM().tn); if(t && !t[2].includes(NTM().micro)) t[2].push(NTM().micro);
+          refresh(); toast("Micro tema agregado a "+NTM().tn+" · el reparto del 2.5 se recalcula solo"); }},
+       {label:"Solo el micro tema", keep:true, fn:()=>{ const t=tnOf(NTM().tn); if(t && !t[2].includes(NTM().micro)) t[2].push(NTM().micro); refresh(); }}]);
   });
 }
 function dTemas(){
@@ -971,7 +980,7 @@ function dTemas(){
     <button class="btn sm" id="tnAll">${Object.keys(S.d23.open).length?"Cerrar micro temas":"Abrir micro temas"}</button></div>
   ${cuerpo}
   <div class="gnx" style="margin-top:16px"><span class="gi">G</span><div><b>¿Falta algún saber? Pídaselo a Génesys</b>
-    <textarea class="ed" id="gxTemaTxt" rows="2" placeholder="Ej.: revisa si falta algún saber para la evaluación avanzada"></textarea>
+    <textarea class="ed" id="gxTemaTxt" rows="2" placeholder="Ej.: revisa si falta algún saber para una de las especialidades"></textarea>
     <div class="edrow"><button class="btn sm primary" id="gxTema">Revisar y proponer</button></div></div></div>`;
 }
 /* --- dimensiones --- */
@@ -1004,8 +1013,8 @@ function dDim(){
     <button class="btn sm ${selN>=2?"primary":""}" id="dimMerge" ${selN>=2?"":"disabled"}>Integrar dimensiones</button>
     <button class="btn sm" id="dimClear" ${selN?"":"disabled"}>Quitar selección</button></div>
   ${S.d23.DIM.map(d=>dimCard(d, `<label class="vcheck"><input type="checkbox" data-dsel="${d[0]}" ${S.d23.sel.includes(d[0])?"checked":""}> integrar</label>`)).join("")}
-  <div class="panelres"><b>Tema huérfano</b>
-    <p class="mini" style="margin-top:4px">TN-17 <i>Bases de la nutrigenómica y la nutrición personalizada</i> superó el umbral (E4 y E6) pero no pasó la prueba del objeto en ninguna dimensión. ${S.d23.huerf==="baja"?'Se <b>bajó a tema de especialidad</b> de Nutrición deportiva, y queda declarado.':'Pendiente de decisión del panel.'}</p></div>`;
+  ${NHU()?`<div class="panelres"><b>Tema huérfano</b>
+    <p class="mini" style="margin-top:4px">${NHU().tn} <i>${esc(NHU().nombre)}</i> superó el umbral (${NHU().esp.join(" y ")}) pero no pasó la prueba del objeto en ninguna dimensión. ${S.d23.huerf==="baja"?`Se <b>bajó a tema de especialidad</b> de ${esc((ESC.find(e=>e.k===NHU().baja)||{n:NHU().baja}).n)}, y queda declarado.`:'Pendiente de decisión del panel.'}</p></div>`:""}`;
 }
 /* --- competencia disciplinar: mover dimensiones entre competencias --- */
 function dComp(){
@@ -1034,8 +1043,8 @@ function dComp(){
   ${libres.length?`<div class="panelres"><b>Dimensiones sin competencia</b><div class="mini">${libres.map(d=>d[0]).join(", ")} · asígnelas antes de validar.</div></div>`:""}
   <h3>Panel de expertos · objeto DIMENSIONES · ronda ${S.d23.ronda}</h3>
   <div class="tw"><table><thead><tr><th>Dimensión</th><th class="num">I-CVI</th><th class="num">Co-ocurrencia${ayuda("COOC")}</th><th>Prueba del objeto${ayuda("OBJ")}</th><th>Nombrabilidad${ayuda("NOMB")}</th><th>Resultado</th></tr></thead><tbody>
-  ${S.d23.DIM.map(d=>{ const p=PANELD[d[0]]||["1,00","0,90"], baja=d[0]==="D-05"&&S.d23.ronda===1;
-    return `<tr><td class="fn"><b>${d[0]}</b> ${esc(d[1])}</td><td class="num">${baja?p[0]:(p[0]==="0,71"?"0,88":p[0])}</td><td class="num">${p[1]}</td>
+  ${S.d23.DIM.map(d=>{ const p=PANELD[d[0]]||["1,00","0,90"], obs=NPD()&&d[0]===NPD().dim, baja=obs&&S.d23.ronda===1;
+    return `<tr><td class="fn"><b>${d[0]}</b> ${esc(d[1])}</td><td class="num">${baja?NPD().icvi1:(obs?NPD().icvi2:p[0])}</td><td class="num">${p[1]}</td>
       <td><span class="tag t-ok">Conforme</span></td><td><span class="tag ${baja?"t-rev":"t-ok"}">${baja?"Renombrar":"Conforme"}</span></td>
       <td>${baja?'<span class="tag t-prop">Ronda 2</span>':'<span class="tag t-ok">Aprobada</span>'}</td></tr>`; }).join("")}
   </tbody></table></div>
@@ -1052,7 +1061,7 @@ function dComp(){
 /* --- bandeja de competencias --- */
 function pesoComp(cod){
   const c24 = (S.d24 && (S.d24.corte||S.d24.saved)) ? calc24() : null;
-  if(cod[0]==="C" && +cod[1]>=4){ if(!c24) return null; const c=S.d23.CD.find(x=>x[0]===cod); if(!c) return null;
+  if(S.d23.CD.some(x=>x[0]===cod)){ if(!c24) return null; const c=S.d23.CD.find(x=>x[0]===cod); if(!c) return null;
     const cr=c[3].reduce((a,k)=>a+(c24.dim[k]||0),0); return {cr, pct:cr/c24.FD*100, plan:cr/S.d24.ESPEC*100, lab:"del bloque de fundamento"}; }
   const es = ESC.filter(e=>e.c===cod);
   if(!c24) return {pct:es.reduce((a,e)=>a+distE(e.k),0), lab:"del peso formativo"};
@@ -1062,12 +1071,11 @@ function pesoComp(cod){
 const wbar = p => p ? `<span class="cw"><b>${p.pct.toFixed(1)} %</b><i><em style="width:${Math.min(100,p.pct*2)}%"></em></i>${p.cr!==undefined?`<span class="mini">${p.cr} créditos${p.plan!==undefined?" · "+p.plan.toFixed(1)+" % del plan":""}</span>`:""}</span>` : '<span class="mini">tras el paso 2.5</span>';
 function dBand(){
   if(S.d24 && S.d24.saved) calc24();
-  const cap = {C1:CAPS.map(c=>[c[0],c[1]]), C2:[["C2.1","Diagnosticar la situación nutricional poblacional"],["C2.2","Planificar la intervención"],["C2.3","Ejecutar y acompañar"],["C2.4","Evaluar el impacto"]],
-    C3:[["C3.1","Planificar el servicio o el producto"],["C3.2","Estandarizar procesos"],["C3.3","Asegurar la inocuidad"],["C3.4","Auditar y mejorar"]]};
+  const cap = Object.fromEntries(COMPE.map(c=>[c[0], ((F2.ARQ[c[0]]||{}).caps||[]).map(x=>[x[0],x[2]||x[1]])]));
   const hab = [...COMPE].sort((a,b)=>(pesoComp(b[0])||{pct:0}).pct-(pesoComp(a[0])||{pct:0}).pct).map(c=>{
-    const es=ESC.filter(e=>e.c===c[0]), propia=c[0]==="C1";
+    const es=ESC.filter(e=>e.c===c[0]), vd=es.every(e=>(e.k===S.k?S.c31:((S.por[e.k]||{}).c31||{})).saved), pr=es.some(e=>(e.k===S.k?S.saved:((S.por[e.k]||{}).saved||{})).p21);
     return {cod:c[0], nom:c[1], alias:c[1], p:pesoComp(c[0]),
-      est: propia ? (S.c31.saved?["Validada v1.2","t-ok"]:["En trabajo","t-prop"]) : ["Pendiente de su 2.1","t-neutral"],
+      est: vd ? ["Validada v1.2","t-ok"] : pr ? ["En trabajo","t-prop"] : ["Pendiente de su 2.1","t-neutral"],
       rel: es.map(e=>[e.k,e.n]), sub: (cap[c[0]]||[]).map(x=>x.join(" ")),
       def: `Competencia de habilidad que agrupa ${es.length} ${es.length===1?"especialidad":"especialidades"} con el mismo proceso profesional. Sus ${(cap[c[0]]||[]).length} capacidades son los tramos de ese proceso, cada uno con evidencia propia.`}; });
   const cont = [...S.d23.CD].sort((a,b)=>(pesoComp(b[0])||{pct:0}).pct-(pesoComp(a[0])||{pct:0}).pct).map(c=>({
@@ -1106,9 +1114,9 @@ function dBand(){
 }
 function gen23(){
   userSays("Consolida el lote y abre la derivación disciplinar.");
-  think(["Verificando el paso 2.2 cerrado en las 6 especialidades","Verificando el vínculo recurso–tarea en cada matriz","Comprobando la comparabilidad de método","Declarando umbral de compartición y corte de co-ocurrencia"], ()=>{
+  think([`Verificando el paso 2.2 cerrado en las ${ESC.length} especialidades`,"Verificando el vínculo recurso–tarea en cada matriz","Comprobando la comparabilidad de método","Declarando umbral de compartición y corte de co-ocurrencia"], ()=>{
     S.bulk.fn = true; S.bulk.rec = true; S.d23.lote = true; S.step = 8; S.avail.add("disc"); S.mode.disc="lote"; setTab("disc");
-    addMsg("agent", `<p>Compuerta abierta: las <b>${ESC.length} especialidades</b> de la cartera tienen el 2.2 cerrado y el vínculo recurso–tarea completo. En este prototipo solo <b>${esc(S.spec||ESC[0].n)}</b> trae datos reales.</p><p>Declaro antes de la ronda 1: umbral de compartición <b>2</b>, corte de co-ocurrencia <b>60 %</b>, banda corporativa <b>30 – 45 %</b>.</p>${docCard("Derivación disciplinar","Compuerta de lote · la cartera en el paso 2.4","disc","lote")}`,
+    addMsg("agent", `<p>Compuerta abierta: las <b>${ESC.length} especialidades</b> de la cartera tienen el 2.2 cerrado y el vínculo recurso–tarea completo.</p><p>Declaro antes de la ronda 1: umbral de compartición <b>2</b>, corte de co-ocurrencia <b>60 %</b>, banda corporativa <b>30 – 45 %</b>.</p>${docCard("Derivación disciplinar","Compuerta de lote · la cartera en el paso 2.4","disc","lote")}`,
       [{label:"Derivar los temas base (TB)", main:true, fn:temas23}]);
     refresh();
   });
@@ -1128,9 +1136,10 @@ function dim23(){
   userSays("Agrupa los temas de fundamento en dimensiones.");
   think(["Matriz de co-ocurrencia entre temas de fundamento","Jaccard de especialidades y de artefactos de anclaje","Agrupamiento jerárquico por enlace promedio · corte 60 %","Prueba del objeto y prueba de nombrabilidad","Formulando el producto de dominio de cada dimensión"], ()=>{
     S.d23.dim = true; S.d23.dopen={}; S.d23.DIM.forEach(d=>S.d23.dopen[d[0]]=true); S.step = 10; S.mode.disc="dim"; setTab("disc");
-    addMsg("agent", `<p>Propongo <b>${S.d23.DIM.length} dimensiones</b>, cada una con su tema principal, sus temas de apoyo y su <b>producto de dominio</b>. Puede abrir los temas de cada una e <b>integrar dos dimensiones</b> si considera que comparten objeto.</p><p>Queda <b>un tema huérfano</b>: TN-17 nutrigenómica.</p>${docCard("Dimensiones del dominio disciplinar",`${S.d23.DIM.length} dimensiones · 1 huérfano`,"disc","dim")}`,
-      [{label:"Bajar TN-17 a tema de especialidad", main:true, fn:()=>{ userSays("Baja TN-17 a tema de especialidad."); S.d23.huerf="baja"; refresh(); comp23(); }},
-       {label:"Crear una dimensión para él", keep:true, fn:()=>toast("Regla 7: una dimensión con un solo tema y sin objeto común no pasa la prueba de existencia.")}]);
+    addMsg("agent", `<p>Propongo <b>${S.d23.DIM.length} dimensiones</b>, cada una con su tema principal, sus temas de apoyo y su <b>producto de dominio</b>. Puede abrir los temas de cada una e <b>integrar dos dimensiones</b> si considera que comparten objeto.</p>${NHU()?`<p>Queda <b>un tema huérfano</b>: ${NHU().tn} ${esc(NHU().nombre)}.</p>`:"<p>No quedan temas huérfanos.</p>"}${docCard("Dimensiones del dominio disciplinar",`${S.d23.DIM.length} dimensiones${NHU()?" · 1 huérfano":""}`,"disc","dim")}`,
+      NHU() ? [{label:`Bajar ${NHU().tn} a tema de especialidad`, main:true, fn:()=>{ userSays(`Baja ${NHU().tn} a tema de especialidad.`); S.d23.huerf="baja"; refresh(); comp23(); }},
+       {label:"Crear una dimensión para él", keep:true, fn:()=>toast("Regla 7: una dimensión con un solo tema y sin objeto común no pasa la prueba de existencia.")}]
+      : [{label:"Formular las competencias disciplinares", main:true, fn:comp23}]);
     refresh();
   });
 }
@@ -1147,15 +1156,16 @@ function panel23(){
   userSays("Valida las dimensiones con el panel de expertos.");
   think(["Panel Z1–Z6 con un docente por campo de saber · guardián G","Instrumento por tema y por dimensión","Ronda 1: I-CVI, co-ocurrencia, prueba del objeto y de nombrabilidad"], ()=>{
     S.d23.panel = true; S.step = 12; S.mode.disc="comp"; setTab("disc"); refresh();
-    addMsg("agent", `<p>Cuatro dimensiones quedan aprobadas en la ronda 1. <b>D-05</b> no pasa la prueba de nombrabilidad (I-CVI 0,71): el panel observa que junta dos objetos.</p>`,
+    if(!NPD()){ S.d23.ronda = 1; addMsg("agent", `<p>Las ${S.d23.DIM.length} dimensiones quedan aprobadas en la ronda 1. Falta la confirmación de la Escuela y la ratificación de la Dirección.</p>`, [{label:"Guardar la derivación disciplinar", main:true, fn:save23}]); return; }
+    addMsg("agent", `<p>${S.d23.DIM.length-1} dimensiones quedan aprobadas en la ronda 1. <b>${NPD().dim}</b> no pasa la prueba de nombrabilidad (I-CVI ${NPD().icvi1}): ${esc(NPD().motivo)}</p>`,
       [{label:"Correr la ronda 2 con el nombre ajustado", main:true, fn:()=>{
-          userSays("Corre la ronda 2."); think(["Renombrando D-05 · reagrupando TN-16","Ronda 2 solo sobre D-05"], ()=>{
-            S.d23.ronda = 2; refresh();
-            addMsg("agent", `<p>Ronda 2 cerrada: D-05 alcanza I-CVI 0,88. Las ${S.d23.DIM.length} dimensiones y las ${S.d23.CD.length} competencias quedan aprobadas. Falta la confirmación de la Escuela y la ratificación de la Dirección.</p>`,
+          userSays("Corre la ronda 2."); think([`Renombrando ${NPD().dim}`,`Ronda 2 solo sobre ${NPD().dim}`], ()=>{
+            S.d23.ronda = 2; const dd=S.d23.DIM.find(x=>x[0]===NPD().dim); if(dd&&NPD().nombre2){ dd[1]=NPD().nombre2; if(NPD().alias2) dd[4]=NPD().alias2; } refresh();
+            addMsg("agent", `<p>Ronda 2 cerrada: ${NPD().dim} alcanza I-CVI ${NPD().icvi2}. Las ${S.d23.DIM.length} dimensiones y las ${S.d23.CD.length} competencias quedan aprobadas. Falta la confirmación de la Escuela y la ratificación de la Dirección.</p>`,
               [{label:"Guardar la derivación disciplinar", main:true, fn:save23}]);
           });
         }},
-       {label:"Aceptar D-05 como provisional", keep:true, fn:()=>toast("Quedaría marcada «provisional» y el 2.5 correría con corte heredado.")}]);
+       {label:`Aceptar ${NPD().dim} como provisional`, keep:true, fn:()=>toast("Quedaría marcada «provisional» y el 2.5 correría con corte heredado.")}]);
   });
 }
 function save23(){
@@ -1175,8 +1185,9 @@ const IND = F2.IND || {};   /* dato de escuela · datos/f2-<cod>.js */
 const INDR = F2.INDR || {};   /* dato de escuela · datos/f2-<cod>.js */
 const AHPW = {A:.22,P:.37,C:.20,H:.21};
 const AHPV = F2.AHPV || [];   /* dato de escuela · datos/f2-<cod>.js */
-S.d24 = {gen:false, ind:false, panel:false, pesos:false, corte:false, saved:false, crit:false, ESPEC:170, EL:12, CAP:44, modo:"incluido", ronda:1};
-const PLAN = {elRatio:0.0706, total:()=>40+S.d24.ESPEC, FG:40, bESPEC:[160,180], bEL:[10,16], bFD:[30,45], pisoPct:8, techoPct:40, f:1.5};
+const P5 = Object.assign({FG:40, ESPEC:170, EL:12, CAP:44, bESPEC:[160,180], bEL:[10,16]}, F2.PLAN5||{});
+S.d24 = {gen:false, ind:false, panel:false, pesos:false, corte:false, saved:false, crit:false, ESPEC:P5.ESPEC, EL:P5.EL, CAP:P5.CAP, modo:"incluido", ronda:1};
+const PLAN = {elRatio:P5.EL/P5.ESPEC, total:()=>P5.FG+S.d24.ESPEC, FG:P5.FG, bESPEC:P5.bESPEC, bEL:P5.bEL, bFD:[30,45], pisoPct:8, techoPct:40, f:1.5};
 const PF = k => { const i=IND[k]; return i.A*AHPW.A + i.P*AHPW.P + i.C*AHPW.C + i.H*AHPW.H; };
 const sumPF = () => ESC.reduce((a,e)=>a+PF(e.k),0);
 const distE = k => PF(k)/sumPF()*100;
@@ -1455,7 +1466,7 @@ function pCorte(){
   </svg></div>
   <div class="panelres" style="margin-top:12px;border-left:3px solid var(--${dentro?"ok":"bad"})"><b>${dentro?"Dentro de banda · el paso continúa":"Fuera de banda · el paso se detiene"}</b>
     <p class="mini" style="margin-top:4px">${dentro?`Con ${c.fdPct.toFixed(1)} % el tronco cae en la zona que la universidad considera razonable para cualquier carrera. <b>La banda no decidió el tamaño</b> —lo decidió lo que las especialidades comparten—: solo confirmó que el resultado es plausible.`:"Dos salidas, nunca el ajuste a mano: subir el umbral de compartición del 2.4 y volver a correr la derivación, o declarar la excepción con su evidencia ante la Dirección."}</p>
-    <p class="mini" style="margin-top:6px">Por debajo del 30 % la carrera se parecería a seis carreras pegadas, sin base común; por encima del 45 % las especialidades se quedarían sin horas para lo suyo.</p></div>`;
+    <p class="mini" style="margin-top:6px">Por debajo del 30 % la carrera se parecería a ${ESC.length} carreras pegadas, sin base común; por encima del 45 % las especialidades se quedarían sin horas para lo suyo.</p></div>`;
 }
 function pCred(){
   const c=calc24();
@@ -1590,9 +1601,9 @@ function save24(){
 }
 
 /* ---------- 2.6 Propuesta de cursos ---------- */
-const PL5 = {ciclos:10, tope:6, generales:14, practica:"curso", techoCr:5};
+const PL5 = Object.assign({ciclos:10, tope:6, generales:14, practica:"curso", techoCr:5}, F2.PL5||{});
 S.d25 = {gen:false, coh:false, form:false, panel:false, saved:false, open:{}, filtro:"todos", ronda:1,
-  vsel:"E3", pick:{}, vok:{}, sum:false, edit:null};
+  vsel:(ESC[0]||{}).k, pick:{}, vok:{}, sum:false, edit:null};
 const PLANV = F2.PLANV || {};   /* dato de escuela · datos/f2-<cod>.js */
 function vItems(){
   return S.mode.vmode==="esp"
@@ -1601,7 +1612,7 @@ function vItems(){
        ...S.d23.CD.map(c=>({k:c[0], n:c[1], sub:`${c[3].join(" · ")} · de contenido`, tipo:"cont"}))];
 }
 function vPropuesta(k){
-  if(k==="C4"||k==="C5"){ const c=S.d23.CD.find(x=>x[0]===k); return c?CUR.filter(x=>c[3].includes(x[3])):[]; }
+  if(S.d23.CD.some(x=>x[0]===k)){ const c=S.d23.CD.find(x=>x[0]===k); return c?CUR.filter(x=>c[3].includes(x[3])):[]; }
   const ks = k[0]==="E" ? [k] : ESC.filter(e=>e.c===k).map(e=>e.k);
   return CUR.filter(c=> c[2]!=="dimension" && (ks.includes(c[3]) || (c[2]==="especialidad"&&(c[5]||[]).some(x=>ks.includes(x))) || c[2]==="practica"));
 }
@@ -1614,7 +1625,7 @@ function vPlan(k){
 function vCuota(k){
   const c = (S.d24.corte||S.d24.saved) ? calc24() : null; if(!c) return null;
   if(k[0]==="E") return c.esp[k];
-  if(k==="C4"||k==="C5"){ const x=S.d23.CD.find(y=>y[0]===k); return x?x[3].reduce((a,d)=>a+(c.dim[d]||0),0):0; }
+  if(S.d23.CD.some(y=>y[0]===k)){ const x=S.d23.CD.find(y=>y[0]===k); return x?x[3].reduce((a,d)=>a+(c.dim[d]||0),0):0; }
   return ESC.filter(e=>e.c===k).reduce((a,e)=>a+c.esp[e.k],0);
 }
 function vSel(k){
@@ -1901,14 +1912,14 @@ function editarCurso(id){
     <label class="eyebrow">Sumilla · ${c[11].split(/\s+/).length} palabras (60 a 90)</label>
     <textarea class="ed" id="edSum" rows="6" style="width:100%;margin:4px 0 10px">${esc(c[11])}</textarea>
     <div class="gnx"><span class="gi">G</span><div><b>Ajustar con Génesys</b>
-      <textarea class="ed" id="gxAsk" rows="2" placeholder="Ej.: acorta la sumilla a 70 palabras y nombra el estándar GLIM"></textarea>
+      <textarea class="ed" id="gxAsk" rows="2" placeholder="Ej.: acorta la sumilla a 70 palabras y nombra el estándar principal"></textarea>
       <div class="edrow"><button class="btn sm" data-gx="${esc(id)}">Pedir ajuste</button></div></div></div>
     <div class="edrow" style="margin-top:12px"><button class="btn sm mclose">Cancelar</button><button class="btn sm primary" data-gsave="${esc(id)}">Guardar cambios</button></div>`);
 }
 /* ----- flujo 2.6 ----- */
 function gen25(){
   userSays("Abre el paso 2.6 de propuesta de cursos.");
-  think(["Cargando paquetes funcionales, recursos y temas nucleares","Verificando el vínculo recurso–tarea de las 6 especialidades","Leyendo las cuotas de créditos del 2.5","Calculando el presupuesto de cupos"], ()=>{
+  think(["Cargando paquetes funcionales, recursos y temas nucleares",`Verificando el vínculo recurso–tarea de las ${ESC.length} especialidades`,"Leyendo las cuotas de créditos del 2.5","Calculando el presupuesto de cupos"], ()=>{
     S.d25.gen = true; S.step = 19; S.avail.add("cursos"); S.mode.cursos="pres"; S.mode.cfil="todos"; setTab("cursos");
     const p = presu();
     addMsg("agent", `<p>Presupuesto calculado: ${PL5.ciclos} ciclos × ${PL5.tope} cursos = <b>${p.cupT} cupos</b>; menos ${PL5.generales} de formación general, ${p.cupP} de práctica y ${p.cupE} electivos quedan <b>${p.disp} cupos</b> para ${p.bolsa} créditos: <b>${p.prom.toFixed(2)} créditos por curso</b>.</p><p>El corte del agrupamiento se hace en ese presupuesto, no en un umbral de similitud.</p>${docCard("Propuesta de cursos","Presupuesto de cupos · tope por ciclo","cursos","pres")}`,
@@ -1932,7 +1943,7 @@ function trib25(){
   userSays("Verifica la tributación y el prorrateo.");
   think(["Matriz curso × función × especialidad","Prorrateo de los cursos troncales entre sus especialidades","Contraste contra las cuotas del 2.5 · tolerancia ±1 crédito","Cobertura: toda función núcleo con curso y toda tarea clave cubierta","Grafo de precedencia por recurso"], ()=>{
     S.step = 21; S.mode.cursos="trib"; setTab("cursos");
-    addMsg("agent", `<p>Cobertura completa: las ${S.fn.length||12} funciones de ${esc(S.spec||ESC[0].n)} tributan al menos a un curso y el prorrateo de los troncales queda dentro de ±1 crédito de las cuotas del 2.5.</p><p>El grafo de precedencia por recurso sale sin ciclos: cada recurso se enseña como principal en un solo curso.</p>`,
+    addMsg("agent", `<p>Cobertura completa: las ${ESC.reduce((a,e)=>a+e.fn,0)} funciones de las ${ESC.length} especialidades tributan al menos a un curso y el prorrateo de los troncales queda dentro de ±1 crédito de las cuotas del 2.5.</p><p>El grafo de precedencia por recurso sale sin ciclos: cada recurso se enseña como principal en un solo curso.</p>`,
       [{label:"Validar con el panel CURSOS", main:true, fn:panel25}]);
     refresh();
   });
@@ -1941,12 +1952,13 @@ function panel25(){
   userSays("Valida los cursos con el panel.");
   think(["Panel W1–W6 con un docente por especialidad · guardián G","Cohesión, nombrabilidad, autenticidad del producto, tamaño y nivel","Ronda 1 sobre los "+CUR.length+" cursos"], ()=>{
     S.d25.panel = true; S.step = 22; refresh();
-    addMsg("agent", `<p>Ronda 1: <b>${CUR.length-2} cursos conformes</b>. Dos observaciones del panel:</p><ul>
-      <li><b>NUT-D13</b> junta psicometría con bioestadística: el tamaño queda ajustado (mediana Ta 2,5).</li>
-      <li><b>NUT-E06</b> no pasa la prueba de nombrabilidad para W4: «calidad asistencial» no dice qué sabrá hacer el egresado.</li></ul>`,
+    const OBS = (F2.NARR||{}).panelC || [];
+    if(!OBS.length){ S.d25.ronda = 1; addMsg("agent", `<p>Ronda 1: los ${CUR.length} cursos quedan conformes.</p>`, [{label:"Guardar la propuesta de cursos", main:true, fn:save25}]); return; }
+    addMsg("agent", `<p>Ronda 1: <b>${CUR.length-OBS.length} cursos conformes</b>. ${OBS.length} observaciones del panel:</p><ul>
+      ${OBS.map(o=>`<li><b>${o.cod}</b> ${esc(o.obs)}</li>`).join("")}</ul>`,
       [{label:"Corregir y correr la ronda 2", main:true, fn:()=>{
-        userSays("Corrige las dos observaciones."); think(["Subiendo NUT-D13 a 4 créditos","Renombrando NUT-E06","Ronda 2 solo sobre los dos cursos observados"], ()=>{
-          S.d25.ronda = 2; refresh();
+        userSays("Corrige las observaciones."); think([...OBS.map(o=>o.fix),"Ronda 2 solo sobre los cursos observados"], ()=>{
+          S.d25.ronda = 2; OBS.forEach(o=>{ const c=CUR.find(x=>x[0]===o.cod); if(!c) return; if(o.nombre) c[1]=o.nombre; if(o.cr) c[4]=o.cr; }); refresh();
           addMsg("agent", `<p>Ronda 2 cerrada: los ${CUR.length} cursos quedan conformes (I-CVI ≥ 0,83 en cohesión y producto, nombrabilidad 1,00).</p>`,
             [{label:"Guardar la propuesta de cursos", main:true, fn:save25}]);
         }); }},
@@ -2187,25 +2199,21 @@ $("#pBody").addEventListener("click", e=>{
 });
 
 function renderRail(){
-  const prev = `<li class="${S.spec?"done":"now"}"><span class="ck">${S.spec?"✓":""}</span><span><span class="lb">Entrada · Especialidad</span>
-    <small><span style="display:block;${S.spec?'color:var(--ok)':'color:var(--ink);font-weight:600'}">${S.spec?"✓":"›"} Seleccionar de la cartera (Fase 1)</span>
-    ${S.spec?`<span style="display:block;color:var(--ink-2)">${esc(S.spec)}</span>`:""}</small></span></li>`;
-  const leyenda = `<li class="wklg"><span></span><span><b>Método v6.3 · seis pasos</b>
-    ${["nuevo"].map(k=>`<i style="--wk:${WK[k][1]};--wkb:${WK[k][2]}">${WK[k][0]}</i>`).join("")}
-    <em>Los pasos sin marca ya tienen sus datos generados para esta carrera.</em></span></li>`;
-  { const pc=$("#progCount"); if(pc) pc.textContent = `${ESC.filter(e=>(stE(e.k).saved||{}).p21).length}/${ESC.length} · 2.1`; }
-  $("#railProg").innerHTML = prev + leyenda + RMAP.map(r=>{
+  const prev = S.spec ? '' : '<li class="now"><span class="ck"></span><span class="lb">Seleccionar especialidad</span></li>';
+  const total=PHASES.reduce((n,p)=>n+p.subs.length,0);
+  $("#progCount").textContent = `${Math.min(S.step,total)}/${total}`;
+  $("#railProg").innerHTML = prev + RMAP.map(r=>{
     const p = r.ph!==null ? PHASES[r.ph] : null, base = r.ph!==null ? PBASE[r.ph] : null;
-    const done = !!p && S.step>=base+p.subs.length, now = !!p && S.step>=base && !done;
+    const done = r.gate ? S.step>=PBASE[2] : !!p && S.step>=base+p.subs.length;
+    const now = !!S.spec && !!p && S.step>=base && !done;
     const subs = p ? p.subs : (r.subs||[]);
-    const w = WK[r.w]||WK.ok, marca = r.w && r.w!=="ok";
-    return `<li class="${done?'done':now?'now':''} ${marca?'wk wk-'+r.w:''}" ${marca?`style="--wk:${w[1]};--wkb:${w[2]}"`:""}>
-      <span class="ck">${done?"✓":r.w==="nuevo"?"+":r.gate?"⛉":""}</span>
-      <span><span class="lb">${r.gate?"":`<u>${r.c}</u> `}${esc(r.n)}<small class="niv">${r.niv}</small>${marca?`<i class="wkt">${w[0]}</i>`:""}</span>
-      <small>${subs.map((s,i)=>{ if(!p) return `<span class="pend">· ${esc(s)}</span>`;
-        const k=base+i, reach=k<=S.step;
-        return `<span ${reach?`data-go="${k}"`:""} style="display:block;${k<S.step?'color:var(--ok)':k===S.step?'color:var(--ink);font-weight:600':''}">${k<S.step?'✓':k===S.step?'›':'·'} ${s}</span>`; }).join("")}</small>
-      ${r.nota?`<small class="wknote">${esc(r.nota)}</small>`:""}</span></li>`;
+    return `<li class="${done?'done':now?'now':'future'}">
+      <span class="ck" aria-hidden="true"></span>
+      <div><span class="lb">${r.gate?'':`${r.c} `}${esc(r.n)}</span>
+      <div class="rail-moments">${subs.map((s,i)=>{ if(!p) return `<span class="moment wait">${esc(s)}</span>`;
+        const k=base+i, reach=!!S.spec&&k<=S.step, status=k<S.step?'ok':reach&&k===S.step?'current':'wait';
+        return reach?`<button type="button" class="moment ${status}" data-go="${k}" ${status==='current'?'aria-current="step"':''}>${esc(s)}</button>`:`<span class="moment wait">${esc(s)}</span>`;
+      }).join('')}</div></div></li>`;
   }).join("");
   const item = (k,n,ic,v,mode,cur) => `<li><button data-out="${k}" ${mode?`data-mode="${mode}"`:""} aria-current="${!!cur}"><span class="fi">${ic}</span><span class="nm">${n}</span><span class="vb ${v[0]?'ok':''}">${v[1]}</span></button></li>`;
   const o = [], P = S.tab==="paquete";
@@ -2244,6 +2252,7 @@ function toggleRail(){
   const on=w.classList.toggle("norail"); $("#railBtn").setAttribute("aria-pressed",!on);
 }
 $("#railBtn").onclick=()=>{ toggleRail(); setTimeout(fitDet,60); };
+$("#railClose").onclick=()=>{ toggleRail(); setTimeout(fitDet,60); };
 $("#stepline").onclick=()=>{ const w=$("#work"); if(innerWidth<=1180){ if(!w.classList.contains("railon")) toggleRail(); } else if(w.classList.contains("norail")) toggleRail(); };
 if(innerWidth<=1180) $("#railBtn").setAttribute("aria-pressed","false");
 

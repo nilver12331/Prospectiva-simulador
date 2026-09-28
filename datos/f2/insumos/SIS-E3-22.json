@@ -1,0 +1,415 @@
+{
+ "cod": "SIS",
+ "k": "E3",
+ "carrera": "Ingeniería de Sistemas",
+ "especialidad": "Ciencia de datos, inteligencia artificial e inteligencia de negocios",
+ "integradas": [
+  "Inteligencia de negocios y analítica empresarial"
+ ],
+ "ambitos": [],
+ "otras_especialidades_de_la_escuela": [
+  {
+   "k": "E1",
+   "n": "Desarrollo de software y análisis de sistemas"
+  },
+  {
+   "k": "E2",
+   "n": "Infraestructura en la nube, DevOps y redes"
+  },
+  {
+   "k": "E4",
+   "n": "Ciberseguridad y protección de datos"
+  },
+  {
+   "k": "E5",
+   "n": "Gobierno, proyectos y auditoría de TI"
+  }
+ ],
+ "competencia_v11": {
+  "codigo": "C3",
+  "nombre": "Desarrollo de soluciones de analítica e inteligencia artificial",
+  "alias": "Datos e inteligencia artificial",
+  "definicion_conceptual": "Construir soluciones que convierten los datos de una organización en decisiones y en modelos que aprenden, gobernando e integrando el dato, modelando, entrenando y evaluando modelos descriptivos, predictivos o de inteligencia artificial, e implantándolos en producción con monitoreo y tableros de decisión, bajo principios de calidad del dato, ética algorítmica y protección de datos, en empresas, consultoras y equipos remotos, para que las decisiones de gerencia y los procesos automatizados se sustenten en evidencia confiable.",
+  "definicion_operacional": "Construir soluciones que convierten los datos de una organización en decisiones y en modelos que aprenden, gobernando e integrando el dato, modelando, entrenando y evaluando modelos descriptivos, predictivos o de inteligencia artificial, e implantándolos en producción con monitoreo y tableros de decisión, bajo principios de calidad del dato, ética algorítmica y protección de datos, en empresas, consultoras y equipos remotos, para que las decisiones de gerencia y los procesos automatizados se sustenten en evidencia confiable.",
+  "capacidades": [
+   {
+    "id": "C3.1",
+    "nombre": "Gobierno e integración del dato",
+    "definicion": "Capacidad de ingerir, integrar y modelar los datos de la organización asegurando su calidad, linaje, seguridad y gobierno, mediante pipelines de extracción, transformación y carga sobre fuentes heterogéneas; moviliza bases de datos, modelado dimensional, arquitectura de datos, rigor, ética y responsabilidad sobre la protección de la información."
+   },
+   {
+    "id": "C3.2",
+    "nombre": "Modelado analítico y entrenamiento de algoritmos",
+    "definicion": "Capacidad de formular un problema de negocio como problema analítico y construir modelos estadísticos, de aprendizaje automático o de inteligencia artificial generativa, entrenándolos y ajustándolos con datos reales, adaptándose a distintos dominios; moviliza matemática, estadística, algoritmos de aprendizaje, programación científica, curiosidad y pensamiento crítico."
+   },
+   {
+    "id": "C3.3",
+    "nombre": "Evaluación de la validez y la ética del modelo",
+    "definicion": "Capacidad de evaluar el desempeño, la robustez, el sesgo y el impacto ético de un modelo con métricas y pruebas adecuadas al problema, antes y después de implantarlo, en contextos regulados; moviliza estadística inferencial, diseño experimental, ética algorítmica, honestidad intelectual y responsabilidad por las consecuencias de la decisión."
+   },
+   {
+    "id": "C3.4",
+    "nombre": "Implantación y monitoreo en producción",
+    "definicion": "Capacidad de poner el modelo en producción como servicio o proceso automatizado, con prácticas de MLOps, versionado, monitoreo de deriva y reentrenamiento, integrándolo con los sistemas de la organización; moviliza ingeniería de software, contenedores y pipelines, automatización, disciplina operativa y compromiso con la continuidad del servicio."
+   },
+   {
+    "id": "C3.5",
+    "nombre": "Comunicación de resultados para la toma de decisiones",
+    "definicion": "Capacidad de construir tableros de indicadores, visualizaciones y narrativas que traduzcan los resultados analíticos en decisiones de gerencia, adaptando el mensaje a públicos no técnicos; moviliza diseño de visualizaciones, definición de indicadores, análisis descriptivo, claridad expositiva, empatía con el decisor y transparencia sobre las limitaciones del análisis."
+   }
+  ]
+ },
+ "proposito_clave": "Construir soluciones de datos, analítica e inteligencia artificial que integran y gobiernan el dato de la organización, lo modelan, validan e implantan en producción bajo principios de calidad, ética algorítmica y protección de datos personales, para que la gerencia y los procesos automatizados decidan con evidencia confiable.",
+ "funciones": [
+  {
+   "c": "E3-01",
+   "t": "Integración de datos y almacenes analíticos",
+   "d": "Construir y mantener los flujos que extraen, transforman, integran y cargan los datos de fuentes heterogéneas, y modelar los almacenes o mercados de datos analíticos, clásicos o en arquitecturas lakehouse, para disponer de una fuente única, confiable y oportuna para el análisis y los modelos.",
+   "tipo": "Actual",
+   "amb": "Empresas de todos los sectores, banca y microfinanzas, retail y consumo masivo, salud privada, consultoras de datos, entidades públicas y equipos remotos; inteligencia de negocios y analítica empresarial",
+   "conf": 3,
+   "lim": "Construye flujos de datos sobre una arquitectura definida; no diseña la plataforma de datos corporativa ni modifica sistemas fuente críticos sin aprobación.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C3.1 Gobernar",
+   "tasks": [
+    {
+     "code": "E3-01-T1",
+     "t": "Inventariar las fuentes de datos internas y externas con su estructura y periodicidad",
+     "ent": "1. Flujos de integración de datos en operación"
+    },
+    {
+     "code": "E3-01-T2",
+     "t": "Construir flujos de extracción, transformación y carga de datos",
+     "ent": "1. Flujos de integración de datos en operación"
+    },
+    {
+     "code": "E3-01-T3",
+     "t": "Limpiar, normalizar y enriquecer los conjuntos de datos",
+     "ent": "2. Conjunto analítico y modelo dimensional documentados"
+    },
+    {
+     "code": "E3-01-T4",
+     "t": "Diseñar el modelo dimensional del almacén o mercado de datos, en plataforma clásica o lakehouse",
+     "ent": "2. Conjunto analítico y modelo dimensional documentados"
+    },
+    {
+     "code": "E3-01-T5",
+     "t": "Programar y monitorear las cargas y verificar su cuadre contra las fuentes",
+     "ent": "1. Flujos de integración de datos en operación"
+    },
+    {
+     "code": "E3-01-T6",
+     "t": "Documentar las reglas de transformación, el modelo y el origen de cada dato",
+     "ent": "2. Conjunto analítico y modelo dimensional documentados"
+    }
+   ],
+   "producto": {
+    "nombre": "Flujo de integración de datos con su mercado de datos analítico",
+    "desc": "Flujo de integración de datos que extrae la información de sistemas transaccionales, archivos y servicios externos y la entrega depurada e integrada en un mercado de datos dimensional listo para el análisis o el entrenamiento de modelos. Integra el inventario de fuentes, las reglas de transformación, los procesos programados de carga, el modelo dimensional con su granularidad y el diccionario de datos con su origen. Se elabora a partir de las preguntas y requerimientos de datos del área usuaria y se verifica con pruebas de conteo, cuadres contra la fuente y registros de ejecución sin errores. Orienta qué datos e indicadores son confiables para alimentar tableros y modelos, y demuestra que el egresado integra y modela datos con calidad y oportunidad.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Flujos de integración de datos en operación",
+      "tareas": "E3-01-T1, E3-01-T2, E3-01-T5",
+      "resumen": "inventario de fuentes, flujos construidos y su programación con registros de ejecución y cuadres",
+      "evidencias": [
+       "flujo ejecutado sin errores con su registro de corridas",
+       "conciliación de conteos y totales entre fuente y destino"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Conjunto analítico y modelo dimensional documentados",
+      "tareas": "E3-01-T3, E3-01-T4, E3-01-T6",
+      "resumen": "datos depurados, modelo dimensional del almacén o mercado de datos y reglas de transformación con su origen",
+      "evidencias": [
+       "diagrama del modelo dimensional con granularidad declarada",
+       "informe de perfilado antes y después de la limpieza",
+       "documento de reglas de transformación y origen por campo"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-03",
+   "t": "Gobierno y calidad del dato",
+   "d": "Implementar los roles, metadatos, reglas de calidad y clasificación que aseguran que los datos de la organización sean confiables y trazables, y preparar su publicación como datos abiertos; la protección de datos personales corresponde a la especialidad de ciberseguridad.",
+   "tipo": "Emergente",
+   "amb": "Entidades públicas (Oficial de Gobierno de Datos, datos abiertos), banca, salud, inmobiliarias y consultoras",
+   "conf": 2,
+   "lim": "Implementa catálogo, reglas de calidad y clasificación dentro del modelo aprobado; no asume el rol de oficial de datos ni interpreta la ley.",
+   "dem": "Baja",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C3.1 Gobernar",
+   "tasks": [
+    {
+     "code": "E3-03-T1",
+     "t": "Elaborar el glosario de negocio, el catálogo de metadatos y el linaje de los datos",
+     "ent": "1. Catálogo de datos con glosario, linaje y clasificación"
+    },
+    {
+     "code": "E3-03-T2",
+     "t": "Clasificar los datos del catálogo por sensibilidad como insumo para la protección de datos personales",
+     "ent": "1. Catálogo de datos con glosario, linaje y clasificación"
+    },
+    {
+     "code": "E3-03-T3",
+     "t": "Definir reglas e indicadores de calidad de datos por dominio",
+     "ent": "2. Tablero de calidad de datos"
+    },
+    {
+     "code": "E3-03-T4",
+     "t": "Monitorear la calidad de los datos y dar seguimiento a los planes de corrección",
+     "ent": "2. Tablero de calidad de datos"
+    },
+    {
+     "code": "E3-03-T5",
+     "t": "Preparar los conjuntos de datos abiertos con sus metadatos para su publicación",
+     "ent": "3. Conjuntos de datos abiertos preparados"
+    }
+   ],
+   "producto": {
+    "nombre": "Catálogo y tablero de calidad de datos de un dominio",
+    "desc": "Catálogo y tablero de calidad de datos que establecen, para un dominio de información de la organización, qué significa cada dato, de dónde viene, quién responde por él, qué sensibilidad tiene y con qué calidad se entrega. Integra el glosario con metadatos y linaje, la clasificación de sensibilidad, las reglas e indicadores de calidad con su seguimiento y los conjuntos preparados para publicarse como datos abiertos. Se elabora con los dueños de procesos siguiendo marcos como DAMA-DMBOK y la Directiva del Oficial de Gobierno de Datos, y se verifica con mediciones periódicas de calidad y la aprobación de las definiciones por los dueños de datos. Orienta las decisiones de corrección y publicación de los datos, y demuestra que el egresado gestiona el dato con rigor.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Catálogo de datos con glosario, linaje y clasificación",
+      "tareas": "E3-03-T1, E3-03-T2",
+      "resumen": "glosario de negocio, metadatos, linaje y clasificación de sensibilidad",
+      "evidencias": [
+       "catálogo con definiciones aprobadas por los dueños de datos",
+       "matriz de clasificación de sensibilidad entregada al responsable de datos personales"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Tablero de calidad de datos",
+      "tareas": "E3-03-T3, E3-03-T4",
+      "resumen": "reglas e indicadores de calidad por dominio con su seguimiento y planes de corrección",
+      "evidencias": [
+       "tablero con indicadores de completitud, exactitud y oportunidad",
+       "registro de incidencias de calidad con su estado de corrección"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Conjuntos de datos abiertos preparados",
+      "tareas": "E3-03-T5",
+      "resumen": "conjuntos depurados con su ficha de metadatos listos para publicarse",
+      "evidencias": [
+       "conjunto de datos con su ficha de metadatos"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-04",
+   "t": "Tableros de indicadores para la gestión",
+   "d": "Diseñar, construir y mantener tableros de indicadores y reportes que muestren a la gerencia el desempeño de los procesos, para que las decisiones se tomen sobre información oportuna y confiable.",
+   "tipo": "Actual",
+   "amb": "Inteligencia de negocios y analítica empresarial (ámbito); áreas comerciales, financieras, operativas y de salud, entidades públicas y trabajo remoto",
+   "conf": 4,
+   "lim": "Construye tableros en áreas definidas; los indicadores estratégicos se acuerdan con la gerencia y el acceso a datos sensibles requiere autorización del dueño.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C3.5 Comunicar",
+   "tasks": [
+    {
+     "code": "E3-04-T1",
+     "t": "Levantar con el usuario las preguntas de gestión y los indicadores requeridos",
+     "ent": "1. Fichas técnicas de indicadores"
+    },
+    {
+     "code": "E3-04-T2",
+     "t": "Definir la ficha técnica de cada indicador con su fórmula, fuente y meta",
+     "ent": "1. Fichas técnicas de indicadores"
+    },
+    {
+     "code": "E3-04-T3",
+     "t": "Diseñar y construir el tablero con visualizaciones adecuadas al público",
+     "ent": "2. Tablero de gestión publicado"
+    },
+    {
+     "code": "E3-04-T4",
+     "t": "Automatizar la actualización del tablero y dar soporte a sus usuarios",
+     "ent": "2. Tablero de gestión publicado"
+    }
+   ],
+   "producto": {
+    "nombre": "Tablero de gestión con fichas técnicas de indicadores",
+    "desc": "Tablero de gestión que presenta en una sola vista los indicadores clave de un proceso o unidad, con filtros y alertas que permiten a la gerencia seguir el cumplimiento de sus metas. Integra las fichas técnicas de los indicadores, las visualizaciones diseñadas para su público y la conexión automatizada con el almacén o las fuentes de datos. Se elabora en ciclos de prototipo con los usuarios y se verifica cuadrando cada indicador contra la fuente y comprobando su actualización programada. Orienta decisiones de seguimiento y corrección de la gestión, y demuestra que el egresado traduce datos en información útil para el decisor.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Fichas técnicas de indicadores",
+      "tareas": "E3-04-T1, E3-04-T2",
+      "resumen": "preguntas de gestión e indicadores con fórmula, fuente, periodicidad y meta",
+      "evidencias": [
+       "Fichas técnicas firmadas por el área usuaria"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Tablero de gestión publicado",
+      "tareas": "E3-04-T3, E3-04-T4",
+      "resumen": "tablero con visualizaciones, filtros y actualización automática en operación",
+      "evidencias": [
+       "Tablero publicado con su actualización programada",
+       "Cuadre de cada indicador contra la fuente",
+       "Acta de conformidad del usuario"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-05",
+   "t": "Análisis de datos para decisiones de negocio",
+   "d": "Analizar datos comerciales, operativos y del entorno para identificar tendencias, causas y oportunidades, y recomendar a la gerencia acciones sustentadas en evidencia.",
+   "tipo": "Actual",
+   "amb": "Inteligencia de negocios y analítica empresarial (ámbito); inteligencia comercial, trade marketing, finanzas, salud, educación y sector público",
+   "conf": 3,
+   "lim": "Formula análisis y recomendaciones; la decisión es de la gerencia y los análisis con impacto financiero significativo se revisan con un analista senior.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C3.2 Modelar · C3.5 Comunicar",
+   "tasks": [
+    {
+     "code": "E3-05-T1",
+     "t": "Traducir un problema de gestión en preguntas analíticas y variables medibles",
+     "ent": "1. Análisis diagnóstico documentado"
+    },
+    {
+     "code": "E3-05-T2",
+     "t": "Explorar los datos para identificar tendencias, patrones y causas",
+     "ent": "1. Análisis diagnóstico documentado"
+    },
+    {
+     "code": "E3-05-T3",
+     "t": "Contrastar hipótesis con técnicas estadísticas apropiadas",
+     "ent": "1. Análisis diagnóstico documentado"
+    },
+    {
+     "code": "E3-05-T4",
+     "t": "Redactar el informe de hallazgos con recomendaciones accionables",
+     "ent": "2. Informe ejecutivo de recomendaciones"
+    },
+    {
+     "code": "E3-05-T5",
+     "t": "Presentar los resultados a públicos no técnicos",
+     "ent": "2. Informe ejecutivo de recomendaciones"
+    }
+   ],
+   "producto": {
+    "nombre": "Informe analítico de diagnóstico con recomendaciones",
+    "desc": "Informe analítico de diagnóstico que responde a una pregunta de gestión, como la caída de ventas de un canal o el ausentismo de pacientes, con evidencia cuantitativa y recomendaciones priorizadas. Integra la formulación del problema, el análisis exploratorio, las pruebas estadísticas, las visualizaciones clave y una narrativa ejecutiva que declara las limitaciones del análisis. Se elabora con código reproducible sobre datos documentados y se verifica con revisión de pares y contraste de los resultados con el área usuaria. Orienta la decisión de la gerencia sobre qué acción tomar y demuestra que el egresado convierte datos en recomendaciones sustentadas.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Análisis diagnóstico documentado",
+      "tareas": "E3-05-T1, E3-05-T2, E3-05-T3",
+      "resumen": "formulación del problema, exploración de datos y pruebas estadísticas en código reproducible",
+      "evidencias": [
+       "Cuaderno de análisis reproducible",
+       "Resultados de las pruebas de hipótesis con su interpretación"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe ejecutivo de recomendaciones",
+      "tareas": "E3-05-T4, E3-05-T5",
+      "resumen": "hallazgos, recomendaciones priorizadas y limitaciones presentadas a la gerencia",
+      "evidencias": [
+       "Informe ejecutivo con recomendaciones priorizadas",
+       "Presentación a la gerencia con registro de acuerdos"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-06",
+   "t": "Modelos predictivos para procesos de negocio",
+   "d": "Formular problemas de negocio como problemas de predicción, clasificación o consulta automatizada del conocimiento de la organización, y construir, validar y poner en preproducción los modelos que los resuelven, para anticipar comportamientos, priorizar acciones y automatizar la atención con supervisión humana.",
+   "tipo": "Actual",
+   "amb": "Banca, microfinanzas y seguros; retail; salud; educación; telecomunicaciones; atención al cliente; consultoras y equipos remotos; entidades públicas con planes de inteligencia artificial",
+   "conf": 3,
+   "lim": "Construye modelos con técnicas establecidas; los modelos de riesgo alto (crédito, salud, selección) requieren validación independiente antes de usarse en decisiones.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C3.2 Modelar · C3.3 Evaluar · C3.4 Implantar",
+   "tasks": [
+    {
+     "code": "E3-06-T1",
+     "t": "Formular el problema de negocio como problema de predicción, clasificación o consulta automatizada con su métrica de éxito",
+     "ent": "1. Modelo entrenado y seleccionado"
+    },
+    {
+     "code": "E3-06-T2",
+     "t": "Construir variables y particionar los datos en entrenamiento, validación y prueba evitando fuga de información",
+     "ent": "1. Modelo entrenado y seleccionado"
+    },
+    {
+     "code": "E3-06-T3",
+     "t": "Entrenar y comparar modelos alternativos, incluidos modelos de lenguaje sobre la base de conocimiento de la organización",
+     "ent": "1. Modelo entrenado y seleccionado"
+    },
+    {
+     "code": "E3-06-T4",
+     "t": "Validar el desempeño, la robustez y el sesgo del propio modelo con datos independientes",
+     "ent": "2. Informe de validación y ficha técnica del modelo"
+    },
+    {
+     "code": "E3-06-T5",
+     "t": "Documentar el modelo en su ficha técnica con supuestos, limitaciones, explicabilidad y nivel de riesgo",
+     "ent": "2. Informe de validación y ficha técnica del modelo"
+    },
+    {
+     "code": "E3-06-T6",
+     "t": "Poner el modelo en preproducción integrado al proceso y configurar el monitoreo de su desempeño y deriva",
+     "ent": "3. Modelo en preproducción con monitoreo"
+    }
+   ],
+   "producto": {
+    "nombre": "Modelo predictivo validado con su ficha técnica",
+    "desc": "Modelo predictivo validado que estima un evento de negocio, como la morosidad de un cliente, la deserción de un estudiante o la demanda de un producto, o que automatiza la consulta del conocimiento de la organización, para priorizar acciones con supervisión humana. Integra la formulación del problema, la tabla de variables con su partición, el código de entrenamiento versionado, la comparación de modelos, el informe de validación de desempeño, robustez y sesgo, la ficha técnica y el servicio en preproducción con su monitoreo. Se elabora con datos de entrenamiento, validación y prueba, y se verifica con métricas sobre datos no vistos, análisis de sesgo por grupo y pruebas del servicio en preproducción. Orienta decisiones de focalización y asignación de recursos, y demuestra que el egresado modela problemas reales con rigor y responsabilidad.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Modelo entrenado y seleccionado",
+      "tareas": "E3-06-T1, E3-06-T2, E3-06-T3",
+      "resumen": "formulación del problema, tabla de variables, partición de datos, modelos entrenados y comparación de desempeño",
+      "evidencias": [
+       "código de entrenamiento versionado",
+       "tabla comparativa de métricas sobre datos de prueba"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de validación y ficha técnica del modelo",
+      "tareas": "E3-06-T4, E3-06-T5",
+      "resumen": "desempeño, robustez y sesgo con datos independientes, supuestos, limitaciones y nivel de riesgo",
+      "evidencias": [
+       "informe de validación con pruebas reproducibles",
+       "ficha técnica revisada por el líder de analítica"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Modelo en preproducción con monitoreo",
+      "tareas": "E3-06-T6",
+      "resumen": "servicio o proceso programado integrado al proceso de negocio con su tablero de desempeño y deriva",
+      "evidencias": [
+       "servicio respondiendo en preproducción",
+       "tablero de monitoreo con alertas configuradas"
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

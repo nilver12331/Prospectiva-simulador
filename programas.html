@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Programas Curriculares · Mentora</title>
+<meta name="description" content="Gestión de programas curriculares: vigencia, proyecto de evaluación y gestión del perfil.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%23003366'/><text x='32' y='43' font-size='34' text-anchor='middle' font-family='Segoe UI,Arial' font-weight='700' fill='%23C8961E'>M</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/programas.css?v=3">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/nube.js?v=2"></script>
+</head>
+<body>
+<header class="pg-top">
+  <a class="marca-l" href="programas.html" title="Gestión de Programas Curriculares"><span class="logo">M</span><span class="marca">Mentora <span>· Gestión Curricular</span></span></a>
+  <span class="miga" id="miga">Programas curriculares</span>
+  <div class="der"><span id="sesion"></span></div>
+</header>
+<div id="tv">
+
+
+<main class="card">
+  <div class="top">
+    <div class="title">
+      <span class="badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3L1 9l11 6 9-4.9V17h2V9L12 3zm-6.8 9.7V16c0 1.7 3 3.5 6.8 3.5s6.8-1.8 6.8-3.5v-3.3L12 16.4l-6.8-3.7z"/></svg></span>
+      <div><h1>Gestión de Programas Curriculares</h1><p class="sub">Vigencia de cada programa, su proyecto de evaluación vigente y la gestión del perfil.</p></div>
+    </div>
+    <button class="btn" type="button">+ Nuevo programa</button>
+  </div>
+
+  <div class="tools">
+    <label class="search" for="q"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="q" type="search" placeholder="Buscar programa o proyecto…"></label>
+    <div class="seg" role="group" aria-label="Filtro">
+      <button type="button" data-f="all" aria-pressed="true">Todos</button>
+      <button type="button" data-f="act" aria-pressed="false">Con proyecto vigente</button>
+    </div>
+    <button class="toggle vgb" id="tgVg" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 5h18l-7 8v6l-4-2v-4z"/></svg><span>Ocultar periodo de vigencia</span></button>
+    <button class="toggle" id="tgPj" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 5h18l-7 8v6l-4-2v-4z"/></svg><span>Ocultar proyecto de evaluación</span></button>
+    <button class="toggle ai" id="tgRs" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 5h18l-7 8v6l-4-2v-4z"/></svg><span>Ocultar gestión del perfil</span></button>
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="tablebox">
+    <table id="tbl" aria-label="Gestión de programas curriculares">
+      <thead>
+        <tr class="g">
+          <th colspan="2"></th>
+          <th class="vg" colspan="4">Periodo de vigencia</th>
+          <th class="pj" colspan="7">Proyecto de evaluación del programa</th>
+          <th class="rs" colspan="3">Gestión del perfil</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>#</th>
+          <th class="l">Programa</th>
+          <th class="vg">Inicio</th>
+          <th class="vg">Término</th>
+          <th class="vg">Extensión</th>
+          <th class="vg">Resolución</th>
+          <th class="pj l">Proyecto</th>
+          <th class="pj">Estado</th>
+          <th class="pj">Extensión</th>
+          <th class="pj"><span class="d" style="background:#7FE0E6"></span>Prospectiva</th>
+          <th class="pj"><span class="d" style="background:#A9C4F7"></span>Diseño Curricular</th>
+          <th class="pj"><span class="d" style="background:#FFD27A"></span>Plan de Estudio</th>
+          <th class="pj">Avance</th>
+          <th class="rs">Especialidades</th>
+          <th class="rs">Competencias</th>
+          <th class="rs">Plan de Estudios</th>
+          <th>Configuración</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+
+  <div class="foot">
+    <div class="leg">
+      <span><i class="sw" style="background:var(--gold)"></i>Proyecto de evaluación vigente (uno por programa)</span>
+      <span><i class="sw" style="background:linear-gradient(135deg,var(--ai-a),var(--ai-b))"></i>Gestión del perfil vigente</span>
+    </div>
+    <span>El avance de cada fase se lee de las consolas de la Fase 1 y la Fase 2.</span>
+  </div>
+</main>
+
+<dialog id="dExt">
+  <form class="dlg" id="fExt" method="dialog">
+    <h3 id="extTitle">Extensión</h3>
+    <p id="extSub"></p>
+    <div class="field"><label for="exFecha">Nueva fecha de término</label><input id="exFecha" type="date" required></div>
+    <div class="field"><label for="exRes">Resolución que la aprueba</label><input id="exRes" placeholder="Ej.: Resolución N.º 0456-2026-CU-UPeU"></div>
+    <div class="field"><label for="exMot">Motivo</label><textarea id="exMot" rows="2" placeholder="Ej.: pendiente la validación del panel de especialistas"></textarea></div>
+    <p class="err" id="exErr"></p>
+    <div class="dlg-foot"><button class="btn ghost" type="button" id="exDel">Quitar extensión</button><div><button class="btn ghost" type="button" id="exCancel">Cancelar</button><button class="btn" type="submit">Guardar</button></div></div>
+  </form>
+</dialog>
+<div class="toast" id="toastT" hidden></div>
+
+
+</div>
+<div id="pv" hidden>
+
+
+<div class="wrap">
+
+  <!-- ===== CABECERA ===== -->
+  <header class="hero">
+    <div class="bar-top">
+      <nav class="crumbs" aria-label="Ruta"><button class="btn back" id="back" type="button">← Programas</button><a href="#" data-back>Gestión de Programas Curriculares</a><span>›</span><span id="crProg">Programa</span><span>›</span><b>Proyecto</b></nav>
+      <div class="tools">
+        <select id="proj" aria-label="Proyecto"></select>
+        <button class="btn mode" id="mode" type="button" aria-pressed="false" title="Presentación con los colores de la universidad">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3v18" /><path d="M12 3a9 9 0 010 18z" fill="currentColor"/></svg>Contraste UPeU</button>
+        <button class="btn gold" type="button" id="newProj"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Nuevo proyecto</button>
+      </div>
+    </div>
+
+    <div class="hero-main">
+      <div>
+        <div class="prog-label" id="hLabel"></div>
+        <h1 class="prog-name" id="hName"></h1>
+        <div class="proj-line"><span class="pre" id="hPre"></span><span class="bib" id="hBib"></span><span class="chip" id="hTipo"></span></div>
+      </div>
+      <div class="gring" aria-label="Avance global">
+        <svg viewBox="0 0 128 128" id="gring"></svg>
+        <div style="display:grid;justify-items:center"><b id="gpct">0%</b><span>Avance<br>global</span></div>
+      </div>
+    </div>
+
+    <div class="hero-meta">
+      <div>
+        <span class="eyebrow">Responsables</span>
+        <div class="people" id="hPeople"></div>
+      </div>
+      <div>
+        <span class="eyebrow">Periodo</span>
+        <div class="dates"><div><span>Inicio</span><b id="hIni" style="font-weight:600"></b></div><div style="text-align:right"><span>Fin</span><b id="hFin" style="font-weight:600"></b></div></div>
+        <div class="tl"><i id="hTlI"></i><em id="hTlE"></em></div>
+        <span class="tl-note num" id="hTlN"></span>
+      </div>
+      <div class="next">
+        <span class="eyebrow">Siguiente acción</span>
+        <p id="hNext"></p>
+        <small id="hNextS"></small>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== FASES ===== -->
+  <section class="journey" id="journey" aria-label="Fases del proyecto"></section>
+
+  <!-- ===== TABLERO ===== -->
+  <section class="card">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">Tablero de monitoreo</span>
+        <h2 id="mxTitle">Avance por competencia</h2>
+        <p>Cada casilla es un paso. Las columnas sombreadas son pasos de escuela: una sola casilla vale para todas las filas.</p>
+      </div>
+      <div class="mx-tools">
+        <button class="btn sw-btn" id="names" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h10M4 18h13"/></svg>Mostrar nombre de pasos</button>
+        <div class="tabs" role="tablist" aria-label="Vista del tablero">
+          <button role="tab" id="t-comp" aria-selected="true" aria-controls="mx">Por competencia</button>
+          <button role="tab" id="t-esp" aria-selected="false" aria-controls="mx">Por especialidad</button>
+        </div>
+      </div>
+    </div>
+    <div class="mx-box"><table class="mx compact" id="mx" lang="es" role="tabpanel"></table></div>
+    <div class="legend">
+      <span><i class="ck done"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></i>Paso cerrado</span>
+      <span><i class="ck hum"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></i>Cerrado, esperando validación humana</span>
+      <span><i class="ck prog"></i>En curso</span>
+      <span><i class="ck"></i>Pendiente</span>
+      <span id="legFrac" ><i class="ck prog frac" style="width:auto;min-width:26px;height:18px">1/3</i>Especialidades cerradas</span>
+      <span><i class="bandk"></i>Paso de escuela</span>
+    </div>
+  </section>
+
+  <!-- ===== GESTIÓN DEL PROYECTO (pestañas) ===== -->
+  <section class="card mg">
+    <div class="sec-head">
+      <div><span class="eyebrow">Gestión del proyecto</span><h2>Personas, documentos y certificación</h2></div>
+      <div class="tabs mg-tabs" role="tablist" aria-label="Gestión del proyecto">
+        <button role="tab" id="mt-com" aria-selected="true" aria-controls="mp-com">Comisión <span class="cnt" id="n-com"></span></button>
+        <button role="tab" id="mt-stk" aria-selected="false" aria-controls="mp-stk">Grupos de interés <span class="cnt" id="n-stk"></span></button>
+        <button role="tab" id="mt-doc" aria-selected="false" aria-controls="mp-doc">Documentos de gestión <span class="cnt" id="n-doc"></span></button>
+        <button role="tab" id="mt-cer" aria-selected="false" aria-controls="mp-cer">Certificado</button>
+      </div>
+    </div>
+
+    <!-- Comisión -->
+    <div role="tabpanel" id="mp-com" class="mp">
+      <div class="mp-bar"><p>Presidente y Secretario son únicos; los vocales pueden ser varios.</p>
+        <button class="btn primary" type="button" id="addCom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Agregar integrante</button></div>
+      <div class="com-grid" id="comision"></div>
+    </div>
+
+    <!-- Grupos de interés -->
+    <div role="tabpanel" id="mp-stk" class="mp" hidden>
+      <div class="mp-bar"><div class="filters" id="stkFilters"></div>
+        <button class="btn primary" type="button" id="addStk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Agregar stakeholder</button></div>
+      <div style="overflow-x:auto">
+        <table class="stk">
+          <thead><tr><th>Nombre</th><th>Grupo de interés</th><th>Certificado</th><th>Resolución</th><th></th></tr></thead>
+          <tbody id="stake"></tbody>
+        </table>
+      </div>
+      <p class="hint">Haga clic en un estado para cambiarlo: Pendiente → Entregado → Recibido.</p>
+    </div>
+
+    <!-- Documentos -->
+    <div role="tabpanel" id="mp-doc" class="mp" hidden>
+      <div class="mp-bar"><p>Resoluciones, recomendaciones y actas que respaldan el proyecto.</p>
+        <button class="btn primary" type="button" id="addDoc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M7 9l5-5 5 5M5 20h14"/></svg>Subir documento</button></div>
+      <div style="overflow-x:auto">
+        <table class="docs">
+          <thead><tr><th>Documento</th><th>Fecha</th><th>Responsable</th><th style="text-align:right">Acciones</th></tr></thead>
+          <tbody id="docs"></tbody>
+        </table>
+      </div>
+      <div class="drop" id="drop" role="button" tabindex="0">Arrastre aquí un archivo PDF o Word, o haga clic para elegirlo</div>
+    </div>
+
+    <!-- Certificado -->
+    <div role="tabpanel" id="mp-cer" class="mp" hidden>
+      <div class="cer-wrap">
+        <button class="diploma" type="button" id="diploma" aria-label="Configurar el certificado de evaluadores">
+          <span class="bandtop"></span><span class="corner c1"></span><span class="corner c2"></span><span class="corner c3"></span><span class="corner c4"></span>
+          <div class="u" id="dU" style="margin-top:6px"></div>
+          <div class="t" id="dTit">Certificado de Evaluador</div>
+          <div class="k">Otorgado a</div>
+          <div class="who">Nombre del evaluador</div>
+          <div class="why" id="dWhy">Por su participación como evaluador en el Proyecto Rediseño 2026 Nehemías, con una dedicación de 40 horas.</div>
+          <div class="sig"><i id="dF1">Presidente de la Comisión</i><i id="dF2">Director de Escuela</i></div>
+          <span class="seal"></span>
+        </button>
+        <div class="cer-side">
+          <div><span class="eyebrow">Certificado de Evaluadores</span><h3 style="font-size:1.1rem;margin-top:4px">Emisión a los grupos de interés</h3></div>
+          <div class="stats" id="certStats"></div>
+          <button class="btn primary" type="button" id="cfgCert" style="justify-self:start"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>Configurar certificado</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HISTORIAL ===== -->
+  <section class="card">
+    <div class="sec-head"><div><span class="eyebrow">Historial</span><h2>Proyectos anteriores de evaluación</h2></div></div>
+    <div style="overflow-x:auto">
+      <table class="hist">
+        <thead><tr><th>Proyecto</th><th>Periodo</th><th>Responsables</th><th>Resultado</th><th>Estado</th><th></th></tr></thead>
+        <tbody id="hist"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <p class="note"><span id="pvNota"></span></p>
+</div>
+
+<!-- Diálogo: integrante de comisión -->
+<dialog id="dCom">
+  <form class="dlg" id="fCom" method="dialog">
+    <h3>Agregar integrante a la comisión</h3>
+    <div class="field"><label for="cNom">Nombre completo</label><input id="cNom" required placeholder="Ej.: Mg. Ana Castillo"></div>
+    <div class="field"><label for="cCar">Cargo o dependencia</label><input id="cCar" placeholder="Ej.: Coordinadora de Nutrición Clínica"></div>
+    <div class="field"><label>Rol en la comisión</label>
+      <div class="roles" id="roles">
+        <label><input type="radio" name="rol" value="Presidente" id="rPres"><b>Presidente</b><small>Uno por comisión</small></label>
+        <label><input type="radio" name="rol" value="Secretario" id="rSec"><b>Secretario</b><small>Uno por comisión</small></label>
+        <label><input type="radio" name="rol" value="Vocal" id="rVoc" checked><b>Vocal</b><small>Varios</small></label>
+      </div>
+    </div>
+    <p class="err" id="cErr"></p>
+    <div class="dlg-foot"><button class="btn" type="button" data-close>Cancelar</button><button class="btn primary" type="submit">Agregar</button></div>
+  </form>
+</dialog>
+
+<!-- Diálogo: stakeholder -->
+<dialog id="dStk">
+  <form class="dlg" id="fStk" method="dialog">
+    <h3>Agregar stakeholder</h3>
+    <div class="field"><label for="sNom">Nombre completo</label><input id="sNom" required placeholder="Ej.: Lic. Carmen Salazar"></div>
+    <div class="grid2">
+      <div class="field"><label for="sTipo">Grupo de interés</label>
+        <select id="sTipo"><option>Empleadores</option><option>Egresados</option><option>Estudiantes</option><option>SINEACE</option><option>Director</option><option>Expertos</option></select></div>
+      <div class="field"><label for="sDet">Cargo e institución</label><input id="sDet" placeholder="Ej.: Jefa de nutrición, hospital regional"></div>
+    </div>
+    <div class="dlg-foot"><button class="btn" type="button" data-close>Cancelar</button><button class="btn primary" type="submit">Agregar</button></div>
+  </form>
+</dialog>
+
+<!-- Diálogo: certificado de evaluadores -->
+<dialog id="dCert">
+  <form class="dlg" id="fCert" method="dialog">
+    <h3>Configurar el certificado de evaluadores</h3>
+    <div class="field"><label for="kTit">Título del certificado</label><input id="kTit" value="Certificado de Evaluador"></div>
+    <div class="grid2">
+      <div class="field"><label for="kHor">Horas de dedicación</label><input id="kHor" type="number" value="40" min="1"></div>
+      <div class="field"><label for="kFec">Fecha de emisión</label><input id="kFec" type="date" value="2026-12-15"></div>
+    </div>
+    <div class="grid2">
+      <div class="field"><label for="kF1">Firma 1</label><input id="kF1" value="Presidente de la Comisión"></div>
+      <div class="field"><label for="kF2">Firma 2</label><input id="kF2" value="Director de Escuela"></div>
+    </div>
+    <div class="field"><label for="kFor">Se otorga a</label><select id="kFor"><option>Stakeholders y comisión</option><option>Solo stakeholders</option><option>Solo comisión</option></select></div>
+    <div class="dlg-foot"><button class="btn" type="button" data-close>Cancelar</button><button class="btn primary" type="submit">Guardar</button></div>
+  </form>
+</dialog>
+
+<!-- Diálogo: documento de gestión -->
+<dialog id="dDoc">
+  <form class="dlg" id="fDoc" method="dialog">
+    <h3>Subir documento de gestión</h3>
+    <div class="field"><label for="gTipo">Tipo de documento</label>
+      <select id="gTipo"><option>Resolución de aprobación</option><option>Resolución de actualización de las competencias</option><option>Resolución para stakeholders</option><option>Recomendaciones de SINEACE</option><option>Recomendaciones de calidad</option><option>Acta de la comisión</option><option>Otro</option></select></div>
+    <div class="field"><label for="gNom">Número o título</label><input id="gNom" placeholder="Ej.: Resolución N.º 0123-2026-CU-UPeU"></div>
+    <div class="grid2">
+      <div class="field"><label for="gFec">Fecha</label><input id="gFec" type="date"></div>
+      <div class="field"><label for="gRes">Responsable</label><input id="gRes" placeholder="Ej.: Secretaría Académica"></div>
+    </div>
+    <div class="field"><label for="gFile">Archivo</label><input id="gFile" type="file" accept=".pdf,.doc,.docx"></div>
+    <p class="err" id="gErr"></p>
+    <div class="dlg-foot"><button class="btn" type="button" data-close>Cancelar</button><button class="btn primary" type="submit">Subir</button></div>
+  </form>
+</dialog>
+
+<div class="toast" id="toast" hidden></div>
+
+
+</div>
+<div id="dv" hidden>
+<div class="ck-wrap">
+  <header class="hud">
+    <div class="hud-l">
+      <button class="back" id="dBack" type="button"><span aria-hidden="true">←</span> Programas</button>
+      <span class="emblem"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3L1 9l11 6 9-4.9V17h2V9L12 3zm-6.8 9.7V16c0 1.7 3 3.5 6.8 3.5s6.8-1.8 6.8-3.5v-3.3L12 16.4l-6.8-3.7z"/></svg></span>
+      <div class="hud-t"><small>Tablero de Gestión del Programa Académico</small><h1 id="dName">Programa</h1><p id="dSub"></p></div>
+    </div>
+    <div class="hud-r"><div class="fil" id="dFil" role="group" aria-label="Filial"></div><span id="dLeds" style="display:contents"></span><button class="mode" id="dMode" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 010 18z" fill="currentColor"/></svg>Contraste</button></div>
+  </header>
+
+  <section class="clusters" id="dGauges" aria-label="Instrumentos"></section>
+
+  <div class="ck-grid">
+    <div class="ck-main">
+      <div class="row3">
+        <section class="panel" id="sec-pros" style="--c:var(--ck-sky)"></section>
+        <section class="panel" id="sec-perfil" style="--c:var(--ck-violet)"></section>
+        <section class="panel" id="sec-plan" style="--c:var(--ck-gold)"></section>
+      </div>
+      <section class="panel" id="sec-esp" style="--c:var(--ck-cyan)"></section>
+      <div class="row2">
+        <section class="panel" id="sec-doc" style="--c:var(--ck-green)"></section>
+        <section class="panel" id="sec-est" style="--c:var(--ck-coral)"></section>
+      </div>
+      <section class="panel" id="sec-ia" style="--c:var(--ck-violet)"></section>
+      <section class="panel" id="sec-ix" style="--c:var(--ck-cyan)"></section>
+    </div>
+
+    <aside class="wall" aria-label="Comunicados">
+      <div class="w-head">
+        <div class="w-top"><h2>Comunicados</h2><button class="new" id="wNew" type="button">+ Nuevo</button></div>
+        <form class="compose" id="wCompose" hidden>
+          <label for="wText" class="note">Nuevo comunicado</label>
+          <textarea id="wText" placeholder="Escriba el comunicado para docentes y estudiantes del programa…"></textarea>
+          <div class="r">
+            <select id="wAud" aria-label="Destinatarios"><option>Docentes y estudiantes</option><option>Solo docentes</option><option>Solo estudiantes</option></select>
+            <button class="pub" type="submit">Publicar</button>
+          </div>
+        </form>
+        <div class="w-filt" id="wFilt"></div>
+      </div>
+      <div class="w-list" id="wList"></div>
+    </aside>
+  </div>
+</div>
+<div class="toastD" id="toastD" hidden></div>
+
+</div>
+<script src="datos/programas.js?v=1"></script>
+<script src="js/programas.js?v=9"></script>
+</body>
+</html>

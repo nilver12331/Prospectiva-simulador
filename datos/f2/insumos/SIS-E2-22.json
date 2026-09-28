@@ -1,0 +1,542 @@
+{
+ "cod": "SIS",
+ "k": "E2",
+ "carrera": "Ingeniería de Sistemas",
+ "especialidad": "Infraestructura en la nube, DevOps y redes",
+ "integradas": [
+  "Redes y telecomunicaciones"
+ ],
+ "ambitos": [],
+ "otras_especialidades_de_la_escuela": [
+  {
+   "k": "E1",
+   "n": "Desarrollo de software y análisis de sistemas"
+  },
+  {
+   "k": "E3",
+   "n": "Ciencia de datos, inteligencia artificial e inteligencia de negocios"
+  },
+  {
+   "k": "E4",
+   "n": "Ciberseguridad y protección de datos"
+  },
+  {
+   "k": "E5",
+   "n": "Gobierno, proyectos y auditoría de TI"
+  }
+ ],
+ "competencia_v11": {
+  "codigo": "C2",
+  "nombre": "Diseño y operación de la infraestructura tecnológica",
+  "alias": "Plataforma e infraestructura",
+  "definicion_conceptual": "Diseñar, automatizar y operar la plataforma tecnológica sobre la que corren los sistemas de una organización —infraestructura en la nube, contenedores, pipelines, redes y comunicaciones—, aprovisionándola como código, monitoreándola con observabilidad y asegurando su disponibilidad, seguridad perimetral y costo, en entornos locales, híbridos, multinube y de servicios gestionados, para que las aplicaciones y las comunicaciones de la organización operen de forma continua, escalable y eficiente.",
+  "definicion_operacional": "Diseñar, automatizar y operar la plataforma tecnológica sobre la que corren los sistemas de una organización —infraestructura en la nube, contenedores, pipelines, redes y comunicaciones—, aprovisionándola como código, monitoreándola con observabilidad y asegurando su disponibilidad, seguridad perimetral y costo, en entornos locales, híbridos, multinube y de servicios gestionados, para que las aplicaciones y las comunicaciones de la organización operen de forma continua, escalable y eficiente.",
+  "capacidades": [
+   {
+    "id": "C2.1",
+    "nombre": "Diseño de la arquitectura de la plataforma",
+    "definicion": "Capacidad de diseñar la arquitectura de la plataforma —servicios en la nube, contenedores, topología de red y comunicaciones— dimensionándola según carga, disponibilidad, seguridad y costo, en escenarios locales, híbridos o multinube; moviliza arquitectura cloud, redes, protocolos, criterio de diseño y responsabilidad por la continuidad del negocio."
+   },
+   {
+    "id": "C2.2",
+    "nombre": "Aprovisionamiento y automatización de la infraestructura",
+    "definicion": "Capacidad de aprovisionar y configurar la plataforma mediante infraestructura como código, contenedores, pipelines de integración y despliegue y configuración de equipos de red, de forma reproducible y versionada, adaptándose a distintos proveedores; moviliza herramientas de automatización, scripting, control de versiones, rigor y orientación a la reproducibilidad."
+   },
+   {
+    "id": "C2.3",
+    "nombre": "Operación y soporte de la infraestructura",
+    "definicion": "Capacidad de operar la plataforma día a día —respaldos, soporte, gestión de cambios, incidentes y capacidad— con procedimientos documentados y acuerdos de nivel, en contextos de operación continua; moviliza administración de sistemas y redes, procedimientos operativos, disciplina, atención a la continuidad y servicio al usuario."
+   },
+   {
+    "id": "C2.4",
+    "nombre": "Observabilidad y aseguramiento de la disponibilidad",
+    "definicion": "Capacidad de instrumentar la plataforma con monitoreo, registros, trazas y alertas, medir su disponibilidad y rendimiento y proteger su perímetro, anticipando fallos en entornos distribuidos; moviliza observabilidad, seguridad perimetral, análisis de métricas, vigilancia proactiva y responsabilidad por la disponibilidad del servicio."
+   },
+   {
+    "id": "C2.5",
+    "nombre": "Optimización del rendimiento y de los costos",
+    "definicion": "Capacidad de analizar el uso de la plataforma y optimizar su rendimiento, escalabilidad y costo —FinOps, ajuste de recursos, mejora de arquitectura— con base en evidencia de operación, en organizaciones con presupuesto restringido; moviliza análisis de costos, ingeniería de rendimiento, pensamiento económico, mejora continua y transparencia ante la dirección."
+   }
+  ]
+ },
+ "proposito_clave": "Diseñar, automatizar y operar la plataforma tecnológica y las redes de comunicaciones de una organización, en entornos locales, híbridos y de nube, con criterios de disponibilidad, seguridad y costo, para que sus aplicaciones y comunicaciones funcionen de forma continua, escalable y eficiente.",
+ "funciones": [
+  {
+   "c": "E2-01",
+   "t": "Arquitectura de la plataforma en la nube",
+   "d": "Diseñar con supervisión la arquitectura en la nube de una aplicación o servicio y la migración de sus cargas desde la infraestructura local, dimensionando cómputo, almacenamiento, red y servicios gestionados según carga, disponibilidad, seguridad y costo.",
+   "tipo": "Actual",
+   "amb": "Nube pública e híbrida; migración por oleadas de cargas locales a la nube; centros de datos locales; entidades públicas (NUBE PERÚ) y empresas privadas",
+   "conf": 2,
+   "lim": "Propone diseños de nube de complejidad media con revisión de un arquitecto senior; no aprueba arquitectura corporativa, contratos ni compromisos de gasto.",
+   "dem": "Baja",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C2.1 Diseñar",
+   "tasks": [
+    {
+     "code": "E2-01-T1",
+     "t": "Levantar requisitos no funcionales de carga, disponibilidad, seguridad y costo de la aplicación",
+     "ent": "1. Especificación de requisitos y decisiones de arquitectura"
+    },
+    {
+     "code": "E2-01-T2",
+     "t": "Comparar modelos de servicio y de despliegue (IaaS, PaaS o híbrido) con criterios explícitos",
+     "ent": "1. Especificación de requisitos y decisiones de arquitectura"
+    },
+    {
+     "code": "E2-01-T3",
+     "t": "Configurar la cuenta, las redes virtuales, las identidades y las políticas base sobre la zona de aterrizaje definida",
+     "ent": "2. Diseño de la cuenta, dimensionamiento y plan de migración"
+    },
+    {
+     "code": "E2-01-T4",
+     "t": "Dimensionar recursos de cómputo, almacenamiento y red para la carga estimada",
+     "ent": "2. Diseño de la cuenta, dimensionamiento y plan de migración"
+    },
+    {
+     "code": "E2-01-T5",
+     "t": "Inventariar las cargas locales y sus dependencias y proponer su estrategia de migración por oleadas",
+     "ent": "2. Diseño de la cuenta, dimensionamiento y plan de migración"
+    },
+    {
+     "code": "E2-01-T6",
+     "t": "Documentar la arquitectura con diagramas y registros de decisión",
+     "ent": "1. Especificación de requisitos y decisiones de arquitectura"
+    }
+   ],
+   "producto": {
+    "nombre": "Documento de arquitectura en la nube de una aplicación",
+    "desc": "Documento de arquitectura en la nube de una aplicación que define cómo se desplegará y, cuando corresponde, cómo se migrará desde la infraestructura local, y sirve de base para aprovisionarla y operarla. Integra los requisitos no funcionales, el modelo de servicio elegido con sus alternativas, la configuración de cuenta, redes e identidades, el dimensionamiento de recursos, la estrategia de migración por oleadas y los registros de decisión. Se elabora a partir de entrevistas y datos de carga, se modela con diagramas estándar y se verifica en una revisión técnica con un arquitecto senior y contra los lineamientos de nube del Estado. Orienta la decisión de despliegue y de migración, y demuestra que el egresado propone una plataforma que equilibra disponibilidad, seguridad y costo.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Especificación de requisitos y decisiones de arquitectura",
+      "tareas": "E2-01-T1, E2-01-T2, E2-01-T6",
+      "resumen": "requisitos no funcionales, alternativas evaluadas y registros de decisión",
+      "evidencias": [
+       "matriz de requisitos no funcionales validada con el usuario",
+       "registro de decisiones de arquitectura con alternativas y criterios"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Diseño de la cuenta, dimensionamiento y plan de migración",
+      "tareas": "E2-01-T3, E2-01-T4, E2-01-T5",
+      "resumen": "diagrama de cuenta, redes e identidades, cálculo de capacidad y estrategia de migración por carga",
+      "evidencias": [
+       "diagrama de arquitectura de la cuenta",
+       "hoja de dimensionamiento con supuestos de carga",
+       "inventario de cargas con estrategia de migración por oleadas"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-03",
+   "t": "Diseño e implementación de redes corporativas",
+   "d": "Diseñar, configurar y poner en servicio las redes de datos locales, de área amplia e inalámbricas de la organización, con su direccionamiento, segmentación, redes privadas virtuales y telefonía IP, para que sedes, usuarios y sistemas se comuniquen de forma fiable y segura.",
+   "tipo": "Actual",
+   "amb": "Redes LAN, WAN e inalámbricas de empresas, entidades públicas, industria y minería; integradores de infraestructura TIC; redes virtuales en la nube",
+   "conf": 3,
+   "lim": "Diseña e implementa redes de sede o campus mediano; cambios del núcleo, enrutamiento con proveedores y diseños multisede críticos requieren aprobación de un ingeniero senior.",
+   "dem": "Alta",
+   "imp": "Medio",
+   "capacidades_que_moviliza": "C2.1 Diseñar",
+   "tasks": [
+    {
+     "code": "E2-03-T1",
+     "t": "Levantar requisitos de conectividad, tráfico y crecimiento de las sedes",
+     "ent": "1. Diseño lógico y físico de la red"
+    },
+    {
+     "code": "E2-03-T2",
+     "t": "Diseñar la topología, el direccionamiento IP, la segmentación en redes virtuales y las zonas de la red",
+     "ent": "1. Diseño lógico y físico de la red"
+    },
+    {
+     "code": "E2-03-T3",
+     "t": "Calcular el dimensionamiento de enlaces y equipos de red",
+     "ent": "1. Diseño lógico y físico de la red"
+    },
+    {
+     "code": "E2-03-T4",
+     "t": "Configurar conmutadores, enrutadores, puntos de acceso inalámbricos y redes privadas virtuales entre sedes y para acceso remoto",
+     "ent": "2. Configuración y protocolo de pruebas de la red"
+    },
+    {
+     "code": "E2-03-T5",
+     "t": "Configurar la telefonía IP sobre la red corporativa y coordinar los enlaces con los operadores",
+     "ent": "2. Configuración y protocolo de pruebas de la red"
+    },
+    {
+     "code": "E2-03-T6",
+     "t": "Probar conectividad y rendimiento y documentar la red instalada",
+     "ent": "2. Configuración y protocolo de pruebas de la red"
+    }
+   ],
+   "producto": {
+    "nombre": "Expediente técnico de la red corporativa",
+    "desc": "Expediente técnico de la red corporativa que describe cómo se conectan las sedes, los usuarios y los sistemas de la organización y sirve como referencia para instalar, operar y ampliar la red. Integra los requisitos de tráfico y crecimiento, la topología lógica y física, el plan de direccionamiento, segmentación y zonas, el cálculo de enlaces y equipos, las redes privadas virtuales, la telefonía IP y las configuraciones finales. Se elabora con levantamiento en sitio y herramientas de diseño, y se verifica con pruebas de conectividad, rendimiento, voz y conmutación por falla antes de la entrega. Orienta la decisión de compra de equipos y enlaces, y demuestra que el egresado entrega una red funcional, segmentada y documentada.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Diseño lógico y físico de la red",
+      "tareas": "E2-03-T1, E2-03-T2, E2-03-T3",
+      "resumen": "topología, plan de direccionamiento, segmentación, zonas y cálculo de capacidad",
+      "evidencias": [
+       "diagrama de topología lógica y física",
+       "plan de direccionamiento y segmentación"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Configuración y protocolo de pruebas de la red",
+      "tareas": "E2-03-T4, E2-03-T5, E2-03-T6",
+      "resumen": "configuraciones de equipos, redes privadas virtuales y telefonía IP, pruebas de aceptación y diagramas finales",
+      "evidencias": [
+       "respaldo de configuraciones de equipos",
+       "protocolo de pruebas de conectividad, rendimiento y voz firmado"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-05",
+   "t": "Aprovisionamiento automatizado de la infraestructura",
+   "d": "Aprovisionar y configurar servidores, redes y servicios en la nube mediante código versionado y reutilizable, para que la plataforma se cree de forma reproducible, auditable y sin errores manuales.",
+   "tipo": "Emergente",
+   "amb": "Equipos de plataforma y DevOps de empresas digitales, banca, telecomunicaciones, consultoras e integradores; entornos de nube pública e híbrida",
+   "conf": 3,
+   "lim": "Escribe y prueba módulos de infraestructura con revisión por pares; no aplica cambios en producción sin aprobación del responsable de plataforma.",
+   "dem": "Media",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C2.2 Automatizar",
+   "tasks": [
+    {
+     "code": "E2-05-T1",
+     "t": "Codificar la infraestructura en módulos versionados",
+     "ent": "1. Repositorio de infraestructura como código"
+    },
+    {
+     "code": "E2-05-T2",
+     "t": "Parametrizar entornos de desarrollo, pruebas y producción",
+     "ent": "1. Repositorio de infraestructura como código"
+    },
+    {
+     "code": "E2-05-T3",
+     "t": "Automatizar la configuración de servidores y equipos de red con guiones",
+     "ent": "1. Repositorio de infraestructura como código"
+    },
+    {
+     "code": "E2-05-T4",
+     "t": "Validar el código con revisiones y pruebas antes de aplicarlo",
+     "ent": "2. Registro de validación y aplicación de cambios"
+    },
+    {
+     "code": "E2-05-T5",
+     "t": "Aplicar los cambios y registrar el estado de la infraestructura",
+     "ent": "2. Registro de validación y aplicación de cambios"
+    }
+   ],
+   "producto": {
+    "nombre": "Repositorio versionado de infraestructura como código",
+    "desc": "Repositorio versionado de infraestructura como código que describe en archivos legibles la plataforma completa y permite recrearla en cualquier entorno. Integra módulos reutilizables de red, cómputo y almacenamiento, variables por entorno, guiones de configuración y la documentación de uso. Se elabora con control de versiones y revisiones por pares, y se verifica con validaciones automáticas y un plan de ejecución revisado antes de aplicar cada cambio. Orienta la decisión de aprobar o rechazar un cambio de infraestructura y demuestra que el egresado automatiza la plataforma de forma reproducible.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Repositorio de infraestructura como código",
+      "tareas": "E2-05-T1, E2-05-T2, E2-05-T3",
+      "resumen": "módulos, variables por entorno y guiones de configuración versionados",
+      "evidencias": [
+       "repositorio con historial de versiones",
+       "módulos reutilizables con documentación de uso"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registro de validación y aplicación de cambios",
+      "tareas": "E2-05-T4, E2-05-T5",
+      "resumen": "resultados de pruebas, plan de cambios y estado aplicado",
+      "evidencias": [
+       "reporte de validación o plan de ejecución revisado",
+       "registro del estado de la infraestructura tras la aplicación"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-07",
+   "t": "Administración de servidores y plataformas virtualizadas",
+   "d": "Instalar, configurar, actualizar y mantener servidores físicos y virtuales, sistemas operativos, servicios de directorio, almacenamiento y la plataforma de contenedores, en local y en la nube, para que los sistemas de la organización funcionen de forma estable y segura.",
+   "tipo": "Actual",
+   "amb": "Centros de datos locales y nube de empresas, clínicas, universidades, industria, minería y entidades públicas",
+   "conf": 3,
+   "lim": "Administra servidores y virtualización con procedimientos aprobados; los cambios mayores en sistemas críticos pasan por el comité de cambios.",
+   "dem": "Alta",
+   "imp": "Medio",
+   "capacidades_que_moviliza": "C2.3 Operar",
+   "tasks": [
+    {
+     "code": "E2-07-T1",
+     "t": "Instalar y configurar servidores físicos, máquinas virtuales y sistemas operativos",
+     "ent": "1. Servidores y plataformas configurados con línea base"
+    },
+    {
+     "code": "E2-07-T2",
+     "t": "Administrar servicios de directorio, identidades y permisos",
+     "ent": "1. Servidores y plataformas configurados con línea base"
+    },
+    {
+     "code": "E2-07-T3",
+     "t": "Aplicar actualizaciones y parches según calendario de cambios",
+     "ent": "2. Registro de mantenimiento y manual de procedimientos"
+    },
+    {
+     "code": "E2-07-T4",
+     "t": "Administrar almacenamiento y plataformas de virtualización",
+     "ent": "1. Servidores y plataformas configurados con línea base"
+    },
+    {
+     "code": "E2-07-T5",
+     "t": "Administrar la plataforma de contenedores y sus clústeres en operación",
+     "ent": "1. Servidores y plataformas configurados con línea base"
+    },
+    {
+     "code": "E2-07-T6",
+     "t": "Documentar configuraciones y procedimientos operativos",
+     "ent": "2. Registro de mantenimiento y manual de procedimientos"
+    }
+   ],
+   "producto": {
+    "nombre": "Línea base de configuración y manual operativo de servidores",
+    "desc": "Línea base de configuración y manual operativo de servidores que fija cómo debe estar configurado cada servidor, máquina virtual o clúster de contenedores y cómo se mantiene en el tiempo. Integra el inventario de servidores físicos, virtuales y clústeres, los estándares de sistema operativo, directorio, almacenamiento y contenedores, el calendario de parches y los procedimientos operativos. Se elabora a partir de las guías del fabricante y de la política de seguridad de la organización, y se verifica con revisiones de cumplimiento de la línea base y el registro de cambios aplicados. Orienta la decisión de actualizar, reemplazar o reforzar servidores, y demuestra que el egresado mantiene la plataforma estable y segura.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Servidores y plataformas configurados con línea base",
+      "tareas": "E2-07-T1, E2-07-T2, E2-07-T4, E2-07-T5",
+      "resumen": "servidores, directorio, almacenamiento, virtualización y clústeres de contenedores configurados según estándar",
+      "evidencias": [
+       "línea base de configuración aplicada",
+       "inventario de servidores, máquinas virtuales y clústeres actualizado"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registro de mantenimiento y manual de procedimientos",
+      "tareas": "E2-07-T3, E2-07-T6",
+      "resumen": "parches aplicados, cambios ejecutados y procedimientos documentados",
+      "evidencias": [
+       "registro de parches y cambios aplicados",
+       "manual de procedimientos operativos vigente"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-08",
+   "t": "Operación y soporte de servicios de infraestructura",
+   "d": "Atender, diagnosticar y resolver técnicamente los incidentes y requerimientos de la infraestructura y de la red desde un centro de operaciones o mesa de soporte especializada, para restablecer el servicio dentro de los acuerdos de nivel; la gestión del proceso de incidentes, problemas y cambios corresponde a la gestión de servicios.",
+   "tipo": "Actual",
+   "amb": "Centros de operaciones de red, mesas de servicio de nivel 2 y 3, proveedores de internet, fintech, clínicas, universidades y entidades públicas",
+   "conf": 4,
+   "lim": "Resuelve incidentes y requerimientos de niveles 1 y 2 con procedimientos; escala incidentes mayores y no ejecuta cambios de alto riesgo sin aprobación.",
+   "dem": "Alta",
+   "imp": "Medio",
+   "capacidades_que_moviliza": "C2.3 Operar",
+   "tasks": [
+    {
+     "code": "E2-08-T1",
+     "t": "Registrar y clasificar técnicamente los incidentes y requerimientos recibidos",
+     "ent": "1. Registro de incidentes y requerimientos resueltos"
+    },
+    {
+     "code": "E2-08-T2",
+     "t": "Diagnosticar fallas de servidores, red y servicios con herramientas de prueba",
+     "ent": "1. Registro de incidentes y requerimientos resueltos"
+    },
+    {
+     "code": "E2-08-T3",
+     "t": "Restablecer el servicio o escalar según procedimiento y acuerdo de nivel",
+     "ent": "1. Registro de incidentes y requerimientos resueltos"
+    },
+    {
+     "code": "E2-08-T4",
+     "t": "Ejecutar los cambios estándar preaprobados siguiendo el procedimiento",
+     "ent": "2. Registro de cambios estándar y base de conocimiento"
+    },
+    {
+     "code": "E2-08-T5",
+     "t": "Documentar la solución en la base de conocimiento y aportar datos al análisis de problemas",
+     "ent": "2. Registro de cambios estándar y base de conocimiento"
+    }
+   ],
+   "producto": {
+    "nombre": "Registro de atención técnica de incidentes y requerimientos",
+    "desc": "Registro de atención técnica de incidentes y requerimientos que documenta cómo se diagnosticaron, restablecieron o escalaron las fallas de la infraestructura y de la red en un periodo. Integra los tickets con su clasificación técnica, diagnóstico, solución y tiempos, los cambios estándar ejecutados y las soluciones documentadas en la base de conocimiento. Se elabora en la herramienta de gestión de servicios durante la operación diaria y se verifica con indicadores de tiempo de respuesta y de resolución frente a los acuerdos de nivel. Orienta la decisión de corregir procedimientos o escalar problemas recurrentes a la gestión de servicios, y demuestra que el egresado sostiene la operación con disciplina y trazabilidad.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Registro de incidentes y requerimientos resueltos",
+      "tareas": "E2-08-T1, E2-08-T2, E2-08-T3",
+      "resumen": "tickets con clasificación, diagnóstico, solución, tiempos y escalamientos",
+      "evidencias": [
+       "tickets cerrados dentro del acuerdo de nivel",
+       "registro de escalamientos con su motivo"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registro de cambios estándar y base de conocimiento",
+      "tareas": "E2-08-T4, E2-08-T5",
+      "resumen": "cambios preaprobados ejecutados y soluciones documentadas para reutilizar",
+      "evidencias": [
+       "registro de cambios estándar ejecutados",
+       "artículos de la base de conocimiento publicados"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-09",
+   "t": "Respaldo y recuperación ante desastres",
+   "d": "Configurar, ejecutar y probar las políticas de respaldo, réplica y recuperación de servidores, datos y servicios, en local y en la nube, para que la organización restablezca sus sistemas dentro de los tiempos acordados ante fallas, desastres o ataques.",
+   "tipo": "Actual",
+   "amb": "Centros de datos y nube de entidades públicas, banca, salud, industria y servicios; planes de continuidad operativa",
+   "conf": 3,
+   "lim": "Ejecuta respaldos y pruebas de recuperación; no fija los objetivos de tiempo y punto de recuperación ni activa el plan ante desastre.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C2.3 Operar",
+   "tasks": [
+    {
+     "code": "E2-09-T1",
+     "t": "Registrar los objetivos de tiempo y punto de recuperación acordados por el responsable de cada servicio",
+     "ent": "1. Política de respaldo y réplica configurada"
+    },
+    {
+     "code": "E2-09-T2",
+     "t": "Configurar políticas de respaldo, réplica y copias inmutables o aisladas en local y en la nube",
+     "ent": "1. Política de respaldo y réplica configurada"
+    },
+    {
+     "code": "E2-09-T3",
+     "t": "Verificar la integridad de los respaldos periódicamente",
+     "ent": "1. Política de respaldo y réplica configurada"
+    },
+    {
+     "code": "E2-09-T4",
+     "t": "Ejecutar simulacros de recuperación y medir tiempos reales",
+     "ent": "2. Informe de simulacro y procedimientos de recuperación"
+    },
+    {
+     "code": "E2-09-T5",
+     "t": "Actualizar los procedimientos de recuperación tecnológica del plan de continuidad",
+     "ent": "2. Informe de simulacro y procedimientos de recuperación"
+    }
+   ],
+   "producto": {
+    "nombre": "Plan de recuperación tecnológica ante desastres",
+    "desc": "Plan de recuperación tecnológica ante desastres que establece cómo se restauran los servidores, los datos y los servicios críticos tras una falla grave y es el componente tecnológico del plan de continuidad operativa. Integra los objetivos de tiempo y punto de recuperación por servicio, las políticas de respaldo y réplica, los procedimientos de restauración y los resultados de simulacros. Se elabora con los responsables de cada servicio y se verifica mediante simulacros periódicos que miden los tiempos reales frente a los comprometidos. Orienta la decisión de invertir en réplica o sitio alterno, y demuestra que el egresado asegura la recuperación de la plataforma.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Política de respaldo y réplica configurada",
+      "tareas": "E2-09-T1, E2-09-T2, E2-09-T3",
+      "resumen": "objetivos de recuperación, esquemas de respaldo y verificaciones",
+      "evidencias": [
+       "matriz de objetivos de recuperación por servicio",
+       "reporte de verificación de integridad de respaldos"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de simulacro y procedimientos de recuperación",
+      "tareas": "E2-09-T4, E2-09-T5",
+      "resumen": "resultados medidos del simulacro y procedimientos actualizados",
+      "evidencias": [
+       "acta de simulacro con tiempos medidos",
+       "procedimientos de recuperación actualizados"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E2-10",
+   "t": "Observabilidad y confiabilidad del servicio",
+   "d": "Instrumentar la plataforma con métricas, registros, trazas y alertas, proponer indicadores de nivel de servicio y analizar su cumplimiento, así como el uso, la capacidad y el costo de los recursos (sublínea de optimización de costos y capacidad), para anticipar fallas y sostener la disponibilidad.",
+   "tipo": "Emergente",
+   "amb": "Centros de operaciones, equipos de confiabilidad de sitio y de plataforma en proveedores de internet, fintech, banca y entidades con servicios digitales; sublínea de optimización de costos y capacidad en nube pública e híbrida",
+   "conf": 3,
+   "lim": "Instrumenta servicios y configura tableros y alertas; los objetivos de nivel comprometidos con clientes y el presupuesto de error los aprueba el responsable del servicio.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C2.4 Observar · C2.5 Optimizar",
+   "tasks": [
+    {
+     "code": "E2-10-T1",
+     "t": "Proponer indicadores de nivel de servicio a partir de las métricas disponibles",
+     "ent": "2. Informe de confiabilidad, capacidad y costo"
+    },
+    {
+     "code": "E2-10-T2",
+     "t": "Instrumentar servidores, redes y aplicaciones con métricas, registros y trazas",
+     "ent": "1. Tablero de observabilidad con alertas"
+    },
+    {
+     "code": "E2-10-T3",
+     "t": "Configurar tableros y alertas con umbrales accionables",
+     "ent": "1. Tablero de observabilidad con alertas"
+    },
+    {
+     "code": "E2-10-T4",
+     "t": "Analizar tendencias de disponibilidad y rendimiento",
+     "ent": "2. Informe de confiabilidad, capacidad y costo"
+    },
+    {
+     "code": "E2-10-T5",
+     "t": "Analizar el uso, la capacidad y el gasto de los recursos y proponer ajustes de tamaño",
+     "ent": "2. Informe de confiabilidad, capacidad y costo"
+    },
+    {
+     "code": "E2-10-T6",
+     "t": "Reportar el cumplimiento de los objetivos de nivel de servicio",
+     "ent": "2. Informe de confiabilidad, capacidad y costo"
+    }
+   ],
+   "producto": {
+    "nombre": "Sistema de observabilidad con indicadores de servicio y capacidad",
+    "desc": "Sistema de observabilidad con indicadores de servicio y capacidad que permite ver en tiempo real el estado de la plataforma, saber si cumple lo prometido a los usuarios y cuánto cuesta sostenerla. Integra la instrumentación de servidores, redes y aplicaciones, los tableros y alertas, el catálogo de indicadores propuestos, el análisis de uso, capacidad y gasto con sus ajustes recomendados y el informe periódico de cumplimiento. Se elabora con herramientas de monitoreo, registros centralizados y datos de facturación, y se verifica con pruebas de alerta, revisión de falsos positivos y contraste con incidentes reales. Orienta la decisión de priorizar confiabilidad, capacidad o ahorro, y demuestra que el egresado anticipa fallas y sostiene la disponibilidad.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Tablero de observabilidad con alertas",
+      "tareas": "E2-10-T2, E2-10-T3",
+      "resumen": "métricas, registros, trazas, tableros y alertas en operación",
+      "evidencias": [
+       "tablero en operación con datos reales",
+       "catálogo de alertas con umbrales y responsables"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de confiabilidad, capacidad y costo",
+      "tareas": "E2-10-T1, E2-10-T4, E2-10-T5, E2-10-T6",
+      "resumen": "indicadores propuestos, tendencias, cumplimiento de objetivos y ajustes de capacidad y gasto recomendados",
+      "evidencias": [
+       "documento de indicadores propuestos",
+       "informe periódico de cumplimiento",
+       "análisis de uso y gasto con ajustes recomendados"
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

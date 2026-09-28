@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Plan de Estudio · Mentora</title>
+<meta name="description" content="Fase 3 del rediseño curricular: matriz del plan de estudios, malla curricular, especialidades, certificaciones y sílabos.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%23003366'/><text x='32' y='43' font-size='34' text-anchor='middle' font-family='Segoe UI,Arial' font-weight='700' fill='%23C8961E'>M</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/fase3.css?v=2">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/nube.js?v=2"></script>
+</head>
+<body>
+<header class="pg-top">
+  <a class="marca-l volver-proy" href="programas.html?proyecto=SIS" title="Volver al proyecto de evaluación"><span class="logo">M</span><span class="marca">Plan de Estudio <span>· Fase 3</span></span></a>
+  <span class="miga">Matriz del plan · malla · especialidades · certificaciones</span>
+  <div class="der"><span class="pill-n" id="nubePill">☁ Nube</span><a class="b-top" href="programas.html" title="Gestión de programas curriculares">Programas</a><a class="b-top volver-proy" href="programas.html?proyecto=SIS" title="Volver al proyecto de evaluación">← Regresar</a><span id="sesion"></span></div>
+</header>
+<div class="app">
+  <div class="top">
+    <div style="min-width:0">
+      <span class="eyebrow">UPeU · Facultad de Ingeniería y Arquitectura · Gestión curricular</span>
+      <h1>Ingeniería de Sistemas</h1>
+      <div class="planline">
+        <span class="codeplan" id="planCode" title="Código institucional del plan">PE-IS-2025</span>
+        <strong style="color:var(--ink-2)">Plan de Estudios 2025</strong><span>·</span>
+        <span id="vigencia">Vigencia 2025-I – 2029-II</span><span>·</span>
+        <span id="planNcursos">—</span><span>·</span>
+        <span id="modLabel">Modalidad presencial</span>
+      </div>
+    </div>
+    <div class="topactions">
+      <div class="search">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5 14 14"/></svg>
+        <input id="q" type="search" placeholder="Buscar curso o código…" aria-label="Buscar curso o código" autocomplete="off">
+      </div>
+      <span class="qcount" id="qcount">64 cursos</span>
+      <button class="btn primary" id="btnGenesys">✦ Generar con Génesys</button>
+      <button class="chip ver" id="btnVer">v3.0 · Aprobado</button>
+      <button class="btn" id="btnHist">Historial</button>
+      <button class="btn" id="btnExport">Exportar ▾</button>
+    </div>
+  </div>
+
+  <div class="kpis" id="kpis"></div>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" aria-selected="true" data-tab="matriz"><span class="n">1</span>Matriz del Plan de Estudios</button>
+    <button class="tab" role="tab" aria-selected="false" data-tab="malla"><span class="n">2</span>Malla Curricular</button>
+    <button class="tab" role="tab" aria-selected="false" data-tab="esp"><span class="n">3</span>Especialidades</button>
+    <button class="tab" role="tab" aria-selected="false" data-tab="cert"><span class="n">4</span>Certificaciones</button>
+  </div>
+
+  <div class="toolbar" id="toolbar">
+    <span class="tblabel">Bloques</span><div class="seg blk" id="blockSeg"></div>
+    <div class="tbsep"></div>
+    <span class="tblabel">Modalidad</span>
+    <div class="seg" id="modSeg">
+      <button data-mod="P" aria-pressed="true">Presencial</button>
+      <button data-mod="SP" aria-pressed="false">Semipresencial</button>
+      <button data-mod="AD" aria-pressed="false">A distancia</button>
+    </div>
+    <div class="tbsep"></div>
+    <span class="tblabel">Vista</span>
+    <div class="seg" id="presetSeg">
+      <button data-preset="full" aria-pressed="true">Completa</button>
+      <button data-preset="gestion" aria-pressed="false">Gestión</button>
+      <button data-preset="comp" aria-pressed="false">Competencias</button>
+      <button data-preset="sec" aria-pressed="false">Secuencia</button>
+    </div>
+    <div class="seg" id="densSeg">
+      <button data-dens="c" aria-pressed="false">Compacta</button>
+      <button data-dens="n" aria-pressed="true">Normal</button>
+      <button data-dens="a" aria-pressed="false">Amplia</button>
+    </div>
+    <div class="tbsep"></div>
+    <button class="btn sm" id="btnCodeCol" aria-pressed="false">Ver códigos</button>
+    <button class="btn sm" id="btnCodes">Códigos SINEACE</button>
+    <button class="btn sm" id="btnHoras">Reglas de horas</button>
+    <button class="btn sm" id="btnLimits">Límites</button>
+    <button class="btn sm" id="btnKpis" style="margin-left:auto" aria-pressed="true">⌃ Indicadores</button>
+    <button class="btn sm" id="btnExpand">⤢ Expandir matriz</button>
+  </div>
+
+  <div class="matrixwrap" id="paneMatriz">
+    <div class="legendbar" id="legendbar"></div>
+    <div class="scroller" id="scroller"><table class="matrix" id="tbl"></table></div>
+  </div>
+  <div class="pane" id="paneMalla" hidden></div>
+  <div class="pane" id="paneEsp" hidden></div>
+  <div class="pane" id="paneCert" hidden></div>
+</div>
+
+<div class="markbar" id="markbar">
+  <span class="sw" style="--c:color-mix(in srgb,var(--amber) 60%,transparent)"><i></i>Prerrequisitos</span>
+  <span class="sw" style="--c:color-mix(in srgb,var(--bl-p) 55%,transparent)"><i></i>Lo requieren</span>
+  <span id="markTxt" style="color:var(--muted)"></span>
+  <button class="btn sm" id="markClear">Limpiar</button>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <header><div class="k"><div class="eyebrow" id="drEyebrow">—</div><h2 id="drTitle">—</h2></div>
+    <button class="xbtn" id="drClose" aria-label="Cerrar panel">✕</button></header>
+  <div class="body" id="drBody"></div>
+  <footer id="drFoot" hidden></footer>
+</aside>
+
+<section class="float" id="floatHist" aria-label="Historial de versiones">
+  <div class="fh" id="floatDrag"><h3>Historial de versiones · <span class="mono" id="fhCode">PE-IS-2025</span></h3>
+    <button class="xbtn" id="fhClose" aria-label="Cerrar">✕</button></div>
+  <div class="fb" id="fhBody"></div>
+</section>
+
+<dialog id="dlg"><form method="dialog">
+  <div class="dh"><h2 id="dlgTitle">—</h2><div class="eyebrow" id="dlgSub" style="margin-top:4px"></div></div>
+  <div class="db" id="dlgBody"></div>
+  <div class="df" id="dlgFoot"></div>
+</form></dialog>
+
+<section class="silfs" id="silfs" aria-label="Constructor de sílabo">
+  <div class="fsh">
+    <div style="min-width:0">
+      <div class="eyebrow" id="fsEyebrow">—</div>
+      <h2 id="fsTitle">—</h2>
+    </div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-left:auto">
+      <button class="btn" id="fsBack">◂ Volver al plan</button>
+      <button class="btn" id="fsUnitPrev">◂ Unidad</button>
+      <button class="btn" id="fsUnitNext">Unidad ▸</button>
+      <button class="btn primary" id="fsIA">✦ Generar sílabo</button>
+      <button class="btn" id="fsFull">⤢ Pantalla completa</button>
+      <button class="btn" id="fsTab">Abrir en pestaña nueva</button>
+      <button class="xbtn" id="fsClose" aria-label="Cerrar">✕</button>
+    </div>
+  </div>
+  <div class="fsb"><div id="fsSide"></div><div id="fsMain"></div></div>
+</section>
+
+<div class="toasts" id="toasts" aria-live="polite"></div>
+<script src="datos/f3-nut.js?v=1"></script>
+<script src="datos/silabos-sis.js?v=1"></script>
+<script src="js/f3.js?v=5"></script>
+</body>
+</html>

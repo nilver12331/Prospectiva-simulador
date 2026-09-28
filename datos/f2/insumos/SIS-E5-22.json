@@ -1,0 +1,597 @@
+{
+ "cod": "SIS",
+ "k": "E5",
+ "carrera": "Ingeniería de Sistemas",
+ "especialidad": "Gobierno, proyectos y auditoría de TI",
+ "integradas": [
+  "Auditoría de sistemas y gobierno de TI",
+  "Arquitectura empresarial y transformación digital"
+ ],
+ "ambitos": [],
+ "otras_especialidades_de_la_escuela": [
+  {
+   "k": "E1",
+   "n": "Desarrollo de software y análisis de sistemas"
+  },
+  {
+   "k": "E2",
+   "n": "Infraestructura en la nube, DevOps y redes"
+  },
+  {
+   "k": "E3",
+   "n": "Ciencia de datos, inteligencia artificial e inteligencia de negocios"
+  },
+  {
+   "k": "E4",
+   "n": "Ciberseguridad y protección de datos"
+  }
+ ],
+ "competencia_v11": {
+  "codigo": "C5",
+  "nombre": "Gobierno y dirección de proyectos y servicios de tecnología de la información",
+  "alias": "Gobierno y gestión de TI",
+  "definicion_conceptual": "Dirigir la tecnología de una organización desde la estrategia hasta el servicio, alineando la hoja de ruta tecnológica con la estrategia del negocio, planificando y dirigiendo proyectos con equipos y proveedores, operando los servicios bajo acuerdos de nivel y evaluando los controles y riesgos de TI ante la dirección y el comité de auditoría, con marcos de gestión de proyectos, de servicios y de gobierno de TI, en empresas, Estado y consultoras, para que la inversión tecnológica genere valor, cumpla sus compromisos y se gobierne con control.",
+  "definicion_operacional": "Dirigir la tecnología de una organización desde la estrategia hasta el servicio, alineando la hoja de ruta tecnológica con la estrategia del negocio, planificando y dirigiendo proyectos con equipos y proveedores, operando los servicios bajo acuerdos de nivel y evaluando los controles y riesgos de TI ante la dirección y el comité de auditoría, con marcos de gestión de proyectos, de servicios y de gobierno de TI, en empresas, Estado y consultoras, para que la inversión tecnológica genere valor, cumpla sus compromisos y se gobierne con control.",
+  "capacidades": [
+   {
+    "id": "C5.1",
+    "nombre": "Alineamiento de la tecnología con la estrategia organizacional",
+    "definicion": "Capacidad de diagnosticar la madurez digital, alinear la tecnología con la estrategia, diseñar la arquitectura objetivo y priorizar el portafolio en una hoja de ruta con medición de valor, en organizaciones en transformación; moviliza arquitectura empresarial, gestión del cambio, análisis financiero, visión sistémica y comunicación con la alta dirección."
+   },
+   {
+    "id": "C5.2",
+    "nombre": "Planificación de proyectos tecnológicos",
+    "definicion": "Capacidad de definir el alcance, el cronograma, los recursos, los riesgos y los proveedores de un proyecto tecnológico, en enfoques predictivos o ágiles según el contexto de la organización; moviliza marcos de gestión de proyectos, estimación, contratación y negociación con proveedores, realismo, orden y compromiso con lo pactado."
+   },
+   {
+    "id": "C5.3",
+    "nombre": "Dirección, control y entrega de proyectos tecnológicos",
+    "definicion": "Capacidad de dirigir equipos y proveedores, gestionar los cambios de alcance, controlar avance, costo y calidad, y entregar el proyecto con aceptación formal del cliente, en entornos de incertidumbre; moviliza liderazgo, gestión de equipos y conflictos, control de proyectos, reporte a la dirección, responsabilidad y orientación a resultados."
+   },
+   {
+    "id": "C5.4",
+    "nombre": "Operación de los servicios de tecnología de la información",
+    "definicion": "Capacidad de operar el catálogo de servicios tecnológicos bajo acuerdos de nivel, gestionando incidentes, cambios, problemas y mejora continua con marcos de gestión de servicios, en organizaciones que dependen de la tecnología para operar; moviliza ITIL, medición de servicios, atención al usuario, disciplina operativa y orientación al servicio."
+   },
+   {
+    "id": "C5.5",
+    "nombre": "Auditoría de controles y riesgos de tecnología de la información",
+    "definicion": "Capacidad de planificar y ejecutar auditorías de sistemas, evaluar los controles y riesgos de TI frente a marcos de gobierno y cumplimiento, reportar los hallazgos al comité de auditoría y seguir su remediación, con independencia; moviliza COBIT, auditoría, normativa, objetividad, integridad, rigor probatorio y comunicación de hallazgos."
+   }
+  ]
+ },
+ "proposito_clave": "Dirigir la tecnología de la información de empresas, entidades públicas y consultoras —desde la estrategia y la arquitectura hasta los proyectos, los servicios y su auditoría—, alineándola con la estrategia de la organización y los marcos de gobierno, proyectos, servicios y control, para que la inversión tecnológica genere valor, cumpla sus compromisos y se gobierne con control.",
+ "funciones": [
+  {
+   "c": "E5-01",
+   "t": "Gobierno y planificación estratégica de la tecnología",
+   "d": "Apoyar el diagnóstico y la formulación del plan estratégico de tecnologías de información y del marco de gobierno de TI (comités, políticas, roles e indicadores), incluido el modelado de la arquitectura empresarial actual y objetivo, para alinear la inversión tecnológica con los objetivos de la organización o entidad.",
+   "tipo": "Actual",
+   "amb": "Entidades públicas (Plan de Gobierno Digital y comité de gobierno y transformación digital); empresas privadas; banca; consultoras de TI; arquitectura empresarial en entidades grandes",
+   "conf": 2,
+   "lim": "Elabora el diagnóstico y borradores del plan con supervisión; no aprueba ni prioriza el plan, que corresponde a la alta dirección o al comité.",
+   "dem": "Baja",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C5.1 Alinear",
+   "tasks": [
+    {
+     "code": "E5-01-T1",
+     "t": "Diagnosticar la madurez digital y el gobierno de TI frente a un marco de referencia",
+     "ent": "1. Diagnóstico de madurez, gobierno y arquitectura"
+    },
+    {
+     "code": "E5-01-T2",
+     "t": "Identificar necesidades tecnológicas con las áreas usuarias",
+     "ent": "1. Diagnóstico de madurez, gobierno y arquitectura"
+    },
+    {
+     "code": "E5-01-T3",
+     "t": "Mantener el catálogo de aplicaciones y modelar la arquitectura actual y objetivo con sus brechas",
+     "ent": "1. Diagnóstico de madurez, gobierno y arquitectura"
+    },
+    {
+     "code": "E5-01-T4",
+     "t": "Proponer objetivos, iniciativas y hoja de ruta tecnológica articulados al PEI y al POI o a la estrategia",
+     "ent": "2. Borrador de hoja de ruta y modelo de gobierno"
+    },
+    {
+     "code": "E5-01-T5",
+     "t": "Proponer estructuras de decisión, roles y políticas de TI",
+     "ent": "2. Borrador de hoja de ruta y modelo de gobierno"
+    },
+    {
+     "code": "E5-01-T6",
+     "t": "Preparar las sesiones del comité de gobierno y transformación digital y reportar el avance del plan y de los compromisos digitales",
+     "ent": "3. Reporte de seguimiento al comité"
+    }
+   ],
+   "producto": {
+    "nombre": "Propuesta de plan estratégico y de gobierno de tecnologías de información",
+    "desc": "Propuesta de plan estratégico y de gobierno de tecnologías de información que traduce los objetivos de la organización en iniciativas tecnológicas priorizables y en reglas de decisión sobre la tecnología; en el Estado alimenta el Plan de Gobierno Digital. Integra el diagnóstico de madurez digital y de gobierno de TI, el catálogo de aplicaciones con la arquitectura actual y objetivo y sus brechas, el borrador de hoja de ruta con presupuesto referencial, las políticas y roles propuestos y el reporte de seguimiento al comité. Se elabora con talleres y entrevistas a las áreas, contrastando la situación actual con marcos como COBIT, y se verifica con la trazabilidad de cada iniciativa hacia un objetivo del PEI o del negocio. Sirve de insumo para que la dirección decida qué financiar y cómo gobernar la tecnología, y demuestra que el egresado alinea la tecnología con la estrategia.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Diagnóstico de madurez, gobierno y arquitectura",
+      "tareas": "E5-01-T1, E5-01-T2, E5-01-T3",
+      "resumen": "situación actual de TI, nivel de madurez y de gobierno, catálogo de aplicaciones, arquitectura actual y objetivo y necesidades priorizadas",
+      "evidencias": [
+       "informe de diagnóstico con puntaje por dimensión",
+       "catálogo de aplicaciones y matriz de brechas actual-objetivo",
+       "matriz de necesidades validada por las áreas usuarias"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Borrador de hoja de ruta y modelo de gobierno",
+      "tareas": "E5-01-T4, E5-01-T5",
+      "resumen": "iniciativas, cronograma plurianual, matriz de alineamiento, políticas y roles de TI propuestos",
+      "evidencias": [
+       "hoja de ruta con iniciativas, plazos y costos referenciales",
+       "matriz de trazabilidad objetivo estratégico-iniciativa",
+       "matriz de responsabilidades de decisión y políticas propuestas"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Reporte de seguimiento al comité",
+      "tareas": "E5-01-T6",
+      "resumen": "actas, avance de metas e indicadores y cumplimiento de compromisos digitales",
+      "evidencias": [
+       "ayudas memoria del comité",
+       "reporte de avance del plan y de compromisos de transformación digital"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E5-05",
+   "t": "Planificación de proyectos tecnológicos",
+   "d": "Planificar proyectos tecnológicos, desde su caso de negocio y su priorización en el portafolio, definiendo alcance, cronograma, costos, recursos, riesgos y enfoque de entrega predictivo, ágil o híbrido, para que el proyecto cuente con una línea base viable antes de su ejecución.",
+   "tipo": "Actual",
+   "amb": "Consultoras e integradores de TI; banca y seguros; entidades públicas (portafolio de proyectos de gobierno digital, POI); retail e industria; oficinas de gestión de proyectos",
+   "conf": 3,
+   "lim": "Planifica proyectos de complejidad baja o media; en proyectos complejos actúa como coordinador bajo un jefe de proyecto y no aprueba la línea base.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C5.2 Planificar",
+   "tasks": [
+    {
+     "code": "E5-05-T1",
+     "t": "Elaborar el caso de negocio y priorizar la iniciativa en el portafolio por valor, riesgo y alineamiento",
+     "ent": "1. Caso de negocio, acta de constitución e interesados"
+    },
+    {
+     "code": "E5-05-T2",
+     "t": "Elaborar el acta de constitución y el registro de interesados",
+     "ent": "1. Caso de negocio, acta de constitución e interesados"
+    },
+    {
+     "code": "E5-05-T3",
+     "t": "Definir el alcance y la estructura de desglose del trabajo o el backlog",
+     "ent": "2. Línea base de alcance, cronograma y costo"
+    },
+    {
+     "code": "E5-05-T4",
+     "t": "Estimar esfuerzo y elaborar cronograma y presupuesto",
+     "ent": "2. Línea base de alcance, cronograma y costo"
+    },
+    {
+     "code": "E5-05-T5",
+     "t": "Identificar riesgos y planificar sus respuestas",
+     "ent": "3. Registro de riesgos con plan de respuesta"
+    },
+    {
+     "code": "E5-05-T6",
+     "t": "Seleccionar el enfoque de entrega y el plan de comunicaciones",
+     "ent": "2. Línea base de alcance, cronograma y costo"
+    }
+   ],
+   "producto": {
+    "nombre": "Plan de dirección del proyecto tecnológico",
+    "desc": "Plan que fija cómo se ejecutará, controlará y cerrará un proyecto tecnológico y constituye la propuesta de línea base que aprueba el patrocinador. Integra el caso de negocio con su puntaje de prioridad en el portafolio, el acta de constitución, el registro de interesados, el alcance con su estructura de desglose o backlog, el cronograma, el presupuesto, el registro de riesgos y el plan de comunicaciones. Se elabora con técnicas de estimación y secuenciamiento y se verifica revisando la coherencia entre valor, alcance, tiempo y costo y su aprobación formal por el patrocinador. Orienta la decisión de iniciar la ejecución y demuestra que el egresado planifica proyectos con realismo y enfoque adecuado.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Caso de negocio, acta de constitución e interesados",
+      "tareas": "E5-05-T1, E5-05-T2",
+      "resumen": "justificación y prioridad de la iniciativa, objetivo, patrocinador e interesados del proyecto",
+      "evidencias": [
+       "caso de negocio con costos, beneficios, riesgos y puntaje de prioridad",
+       "acta de constitución firmada por el patrocinador",
+       "registro de interesados con influencia e interés"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Línea base de alcance, cronograma y costo",
+      "tareas": "E5-05-T3, E5-05-T4, E5-05-T6",
+      "resumen": "alcance desglosado, cronograma, presupuesto, enfoque de entrega y plan de comunicaciones",
+      "evidencias": [
+       "cronograma con ruta crítica o plan de releases",
+       "presupuesto por fases o entregables"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Registro de riesgos con plan de respuesta",
+      "tareas": "E5-05-T5",
+      "resumen": "riesgos identificados, valorados y sus respuestas asignadas",
+      "evidencias": [
+       "matriz de riesgos con probabilidad, impacto y responsable"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E5-06",
+   "t": "Dirección y control de proyectos tecnológicos",
+   "d": "Dirigir la ejecución de proyectos tecnológicos coordinando equipos, interesados y proveedores, controlando avance, costo, calidad y cambios de alcance, y conduciendo el cierre con aceptación formal, para entregar los resultados comprometidos con valor para el cliente.",
+   "tipo": "Actual",
+   "amb": "Consultoras e integradores de TI; banca; entidades públicas; empresas en transformación digital",
+   "conf": 3,
+   "lim": "Dirige proyectos acotados o frentes de un proyecto mayor; los cambios que alteran costo o plazo contractual los aprueba el patrocinador.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C5.3 Dirigir",
+   "tasks": [
+    {
+     "code": "E5-06-T1",
+     "t": "Conducir reuniones de lanzamiento, seguimiento y comités del proyecto",
+     "ent": "1. Informes de estado y control del proyecto"
+    },
+    {
+     "code": "E5-06-T2",
+     "t": "Medir avance, costo y calidad frente a la línea base",
+     "ent": "1. Informes de estado y control del proyecto"
+    },
+    {
+     "code": "E5-06-T3",
+     "t": "Gestionar solicitudes de cambio e impedimentos",
+     "ent": "2. Registro de control de cambios"
+    },
+    {
+     "code": "E5-06-T4",
+     "t": "Reportar el estado del proyecto a la dirección",
+     "ent": "1. Informes de estado y control del proyecto"
+    },
+    {
+     "code": "E5-06-T5",
+     "t": "Gestionar la aceptación de entregables y el cierre con lecciones aprendidas",
+     "ent": "3. Acta de aceptación y cierre"
+    }
+   ],
+   "producto": {
+    "nombre": "Expediente de control y cierre del proyecto tecnológico",
+    "desc": "Expediente que documenta cómo avanzó el proyecto frente a su línea base y cómo se entregó al cliente. Integra los informes periódicos de estado con indicadores de avance, costo y calidad, el registro de cambios aprobados y rechazados, las actas de comités y el acta de aceptación y cierre con lecciones aprendidas. Se elabora a partir de las mediciones del equipo y de los proveedores y se verifica contrastando lo reportado con la línea base y con la conformidad firmada por el cliente. Orienta las decisiones de corrección durante la ejecución y demuestra que el egresado dirige proyectos hasta su entrega formal.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Informes de estado y control del proyecto",
+      "tareas": "E5-06-T1, E5-06-T2, E5-06-T4",
+      "resumen": "avance, desviaciones y acciones correctivas reportadas a la dirección",
+      "evidencias": [
+       "Informe de estado con indicadores de avance y costo",
+       "Actas de comité de seguimiento"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registro de control de cambios",
+      "tareas": "E5-06-T3",
+      "resumen": "solicitudes de cambio con su análisis de impacto y decisión",
+      "evidencias": [
+       "Registro de cambios con impacto en alcance, plazo y costo"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Acta de aceptación y cierre",
+      "tareas": "E5-06-T5",
+      "resumen": "conformidad del cliente, entrega de productos y lecciones aprendidas",
+      "evidencias": [
+       "Acta de aceptación firmada por el cliente",
+       "Registro de lecciones aprendidas"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E5-07",
+   "t": "Gestión de proveedores y contratos tecnológicos",
+   "d": "Gestionar la contratación y el desempeño de proveedores de bienes y servicios tecnológicos, desde los requerimientos técnicos y la evaluación de propuestas hasta el control de entregables y niveles de servicio pactados, para que los contratos cumplan lo acordado con transparencia y valor.",
+   "tipo": "Actual",
+   "amb": "Entidades públicas (contrataciones del Estado); banca (servicios de terceros y nube); empresas con servicios tercerizados",
+   "conf": 3,
+   "lim": "Formula términos de referencia y verifica entregables; no adjudica contratos, no aprueba penalidades ni integra comités de selección sin designación formal.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C5.2 Planificar · C5.3 Dirigir",
+   "tasks": [
+    {
+     "code": "E5-07-T1",
+     "t": "Realizar la indagación de mercado previa al requerimiento",
+     "ent": "1. Indagación, términos de referencia y evaluación técnica"
+    },
+    {
+     "code": "E5-07-T2",
+     "t": "Formular el requerimiento, las especificaciones técnicas, la solicitud de propuesta o los términos de referencia",
+     "ent": "1. Indagación, términos de referencia y evaluación técnica"
+    },
+    {
+     "code": "E5-07-T3",
+     "t": "Absolver consultas y observaciones de los proveedores y evaluar sus propuestas técnicas",
+     "ent": "1. Indagación, términos de referencia y evaluación técnica"
+    },
+    {
+     "code": "E5-07-T4",
+     "t": "Verificar entregables y emitir la conformidad técnica del servicio",
+     "ent": "2. Informes de conformidad y desempeño del proveedor"
+    },
+    {
+     "code": "E5-07-T5",
+     "t": "Evaluar el desempeño del proveedor y escalar incumplimientos",
+     "ent": "2. Informes de conformidad y desempeño del proveedor"
+    }
+   ],
+   "producto": {
+    "nombre": "Expediente de gestión del contrato tecnológico",
+    "desc": "Expediente que reúne el ciclo de un contrato de bienes o servicios tecnológicos desde la indagación de mercado hasta la evaluación del proveedor. Integra la indagación de mercado, los términos de referencia o especificaciones técnicas, la absolución de consultas, el cuadro de evaluación de propuestas, los informes de conformidad de entregables y la evaluación periódica del desempeño y de los niveles de servicio pactados. Se elabora conforme a la normativa de contrataciones aplicable y se verifica contrastando cada entregable con lo exigido en el contrato. Orienta decisiones de conformidad, penalidad o renovación y demuestra que el egresado controla proveedores con criterio técnico y normativo.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Indagación, términos de referencia y evaluación técnica",
+      "tareas": "E5-07-T1, E5-07-T2, E5-07-T3",
+      "resumen": "indagación de mercado, requerimiento técnico del bien o servicio, absolución de consultas y evaluación de las propuestas",
+      "evidencias": [
+       "informe de indagación de mercado",
+       "términos de referencia con criterios de aceptación",
+       "pliego de absolución de consultas y cuadro comparativo de evaluación técnica"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informes de conformidad y desempeño del proveedor",
+      "tareas": "E5-07-T4, E5-07-T5",
+      "resumen": "conformidad de entregables, cumplimiento de niveles de servicio y escalamientos",
+      "evidencias": [
+       "informe de conformidad por entregable",
+       "evaluación periódica del proveedor con indicadores"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E5-08",
+   "t": "Digitalización de procesos y servicios institucionales",
+   "d": "Rediseñar los procesos y servicios de la organización desde la experiencia del usuario y acompañar su adopción digital midiendo resultados, para reducir tiempos y costos y ofrecer servicios centrados en las personas; la especificación de requerimientos y la automatización técnica corresponden a desarrollo de software.",
+   "tipo": "Emergente",
+   "amb": "Entidades públicas (servicios digitales, mesas de partes digitales); empresas en transformación digital; consultoras",
+   "conf": 3,
+   "lim": "Rediseña procesos y levanta requerimientos con supervisión; la aprobación del nuevo proceso y la gestión del cambio a escala corresponden a las áreas dueñas.",
+   "dem": "Media",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C5.1 Alinear",
+   "tasks": [
+    {
+     "code": "E5-08-T1",
+     "t": "Mapear el recorrido del usuario y los puntos de dolor del servicio actual",
+     "ent": "1. Diagnóstico del servicio y recorrido del usuario"
+    },
+    {
+     "code": "E5-08-T2",
+     "t": "Rediseñar el servicio de extremo a extremo con criterios de simplificación y digitalización",
+     "ent": "2. Servicio rediseñado y validado"
+    },
+    {
+     "code": "E5-08-T3",
+     "t": "Validar el servicio rediseñado con usuarios mediante prototipos de servicio",
+     "ent": "2. Servicio rediseñado y validado"
+    },
+    {
+     "code": "E5-08-T4",
+     "t": "Acompañar la adopción del servicio digital por los usuarios",
+     "ent": "3. Informe de adopción e impacto"
+    },
+    {
+     "code": "E5-08-T5",
+     "t": "Medir los indicadores de impacto del servicio digitalizado",
+     "ent": "3. Informe de adopción e impacto"
+    }
+   ],
+   "producto": {
+    "nombre": "Propuesta de rediseño digital del proceso",
+    "desc": "Propuesta que describe cómo un proceso o servicio pasa de su forma actual a una forma digital más simple y centrada en el usuario. Integra el recorrido del usuario con sus puntos de dolor, el servicio rediseñado de extremo a extremo, los resultados de su validación con usuarios, el plan de adopción y los indicadores de impacto. Se elabora con levantamiento en campo y herramientas de diseño de servicios, y se verifica con prototipos probados por usuarios y con la comparación de indicadores antes y después. Orienta la decisión de implementar el nuevo servicio y entrega a desarrollo de software el diseño que este especificará, y demuestra que el egresado transforma servicios con evidencia.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Diagnóstico del servicio y recorrido del usuario",
+      "tareas": "E5-08-T1",
+      "resumen": "servicio actual, puntos de dolor y recorrido del usuario",
+      "evidencias": [
+       "mapa del servicio actual con tiempos",
+       "mapa del recorrido del usuario"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Servicio rediseñado y validado",
+      "tareas": "E5-08-T2, E5-08-T3",
+      "resumen": "servicio digital objetivo y resultados de su prueba con usuarios",
+      "evidencias": [
+       "diagrama del servicio rediseñado",
+       "informe de prueba del prototipo de servicio con usuarios"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Informe de adopción e impacto",
+      "tareas": "E5-08-T4, E5-08-T5",
+      "resumen": "acciones de adopción y comparación de indicadores antes y después",
+      "evidencias": [
+       "informe de indicadores de tiempo, costo y satisfacción"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E5-09",
+   "t": "Gestión de servicios de tecnologías de información",
+   "d": "Definir el catálogo de servicios de TI, proponer y medir sus niveles de servicio y coordinar la gestión de incidentes, problemas y cambios, para que los servicios cumplan sus compromisos de disponibilidad, tiempos de atención y calidad; la atención técnica corresponde a la operación de infraestructura.",
+   "tipo": "Actual",
+   "amb": "Áreas de TI de empresas y entidades públicas; proveedores de servicios gestionados; banca; mesas de servicio y centros de operaciones de TI",
+   "conf": 3,
+   "lim": "Mide y reporta niveles de servicio y propone mejoras; no negocia acuerdos con clientes estratégicos ni aprueba penalidades.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C5.4 Operar",
+   "tasks": [
+    {
+     "code": "E5-09-T1",
+     "t": "Estructurar el catálogo de servicios con su criticidad",
+     "ent": "1. Catálogo de servicios y niveles propuestos"
+    },
+    {
+     "code": "E5-09-T2",
+     "t": "Proponer niveles de servicio con usuarios y proveedores",
+     "ent": "1. Catálogo de servicios y niveles propuestos"
+    },
+    {
+     "code": "E5-09-T3",
+     "t": "Medir y reportar el cumplimiento de los niveles de servicio",
+     "ent": "2. Informe de niveles de servicio y problemas"
+    },
+    {
+     "code": "E5-09-T4",
+     "t": "Definir el procedimiento de clasificación, escalamiento y comunicación de incidentes mayores",
+     "ent": "3. Procedimiento de incidentes y evaluación de cambios"
+    },
+    {
+     "code": "E5-09-T5",
+     "t": "Conducir el análisis de causa raíz de problemas recurrentes",
+     "ent": "2. Informe de niveles de servicio y problemas"
+    },
+    {
+     "code": "E5-09-T6",
+     "t": "Preparar la evaluación de riesgo e impacto de los cambios para el comité de cambios",
+     "ent": "3. Procedimiento de incidentes y evaluación de cambios"
+    }
+   ],
+   "producto": {
+    "nombre": "Catálogo de servicios de TI con acuerdos de nivel y procedimientos de gestión",
+    "desc": "Catálogo que define qué servicios tecnológicos ofrece el área de TI o el proveedor, a quién, con qué compromisos medibles y cómo se gestionan sus interrupciones y cambios. Integra la descripción de cada servicio con su criticidad, los niveles de servicio propuestos, los indicadores de cumplimiento, el análisis de problemas recurrentes, el procedimiento de incidentes mayores y la evaluación de riesgo de los cambios. Se elabora con las áreas usuarias y los equipos de soporte y se verifica con la medición periódica de disponibilidad, tiempos de resolución, recurrencia y cambios fallidos. Orienta decisiones de mejora, inversión o renegociación del servicio y demuestra que el egresado gestiona servicios de TI con orientación al usuario.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Catálogo de servicios y niveles propuestos",
+      "tareas": "E5-09-T1, E5-09-T2",
+      "resumen": "servicios, criticidad y compromisos propuestos a usuarios y proveedores",
+      "evidencias": [
+       "catálogo de servicios publicado",
+       "propuesta de acuerdos de nivel validada con los usuarios"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de niveles de servicio y problemas",
+      "tareas": "E5-09-T3, E5-09-T5",
+      "resumen": "cumplimiento de indicadores, causas raíz de problemas recurrentes y acciones de mejora",
+      "evidencias": [
+       "informe mensual de cumplimiento de niveles",
+       "análisis de causa raíz con plan de acción"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Procedimiento de incidentes y evaluación de cambios",
+      "tareas": "E5-09-T4, E5-09-T6",
+      "resumen": "reglas de clasificación y escalamiento de incidentes mayores y cambios evaluados para el comité",
+      "evidencias": [
+       "procedimiento de incidentes mayores aprobado",
+       "registro de evaluación de cambios con la decisión del comité"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E5-11",
+   "t": "Auditoría de sistemas de información",
+   "d": "Planificar con supervisión y ejecutar auditorías de sistemas de información, evaluando los controles generales y de aplicación de TI frente a marcos de control y normativa, y comunicar hallazgos y recomendaciones al comité de auditoría; la auditoría interna del sistema de gestión de seguridad corresponde a ciberseguridad.",
+   "tipo": "Actual",
+   "amb": "Firmas de auditoría y consultoría (controles de TI en auditorías de estados financieros); auditoría interna de banca, seguros y grandes empresas; órganos de control institucional y Contraloría",
+   "conf": 2,
+   "lim": "Ejecuta pruebas de control y papeles de trabajo bajo supervisión de un auditor senior; no firma informes ni emite opinión de auditoría.",
+   "dem": "Baja",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C5.5 Evaluar",
+   "tasks": [
+    {
+     "code": "E5-11-T1",
+     "t": "Apoyar la elaboración del plan de auditoría de TI basado en riesgos",
+     "ent": "1. Plan y programa de auditoría de TI"
+    },
+    {
+     "code": "E5-11-T2",
+     "t": "Probar el diseño y la eficacia de controles generales y de aplicación de TI",
+     "ent": "2. Papeles de trabajo con pruebas de control"
+    },
+    {
+     "code": "E5-11-T3",
+     "t": "Documentar evidencias en papeles de trabajo",
+     "ent": "2. Papeles de trabajo con pruebas de control"
+    },
+    {
+     "code": "E5-11-T4",
+     "t": "Redactar hallazgos y recomendaciones para el comité de auditoría",
+     "ent": "3. Informe de hallazgos y seguimiento"
+    },
+    {
+     "code": "E5-11-T5",
+     "t": "Hacer seguimiento a la implementación de las recomendaciones",
+     "ent": "3. Informe de hallazgos y seguimiento"
+    }
+   ],
+   "producto": {
+    "nombre": "Informe de auditoría de sistemas de información",
+    "desc": "Informe que comunica al comité de auditoría si los controles de TI de un proceso o sistema son adecuados y eficaces. Integra el plan y programa de auditoría basado en riesgos, los papeles de trabajo con las pruebas de controles generales y de aplicación, los hallazgos con su condición, criterio, causa y efecto, y las recomendaciones con su seguimiento. Se elabora aplicando normas de auditoría de TI y marcos como COBIT y se verifica mediante revisión de supervisión y la suficiencia de la evidencia obtenida. Orienta las decisiones de remediación de la dirección y demuestra que el egresado evalúa controles con independencia y objetividad.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Plan y programa de auditoría de TI",
+      "tareas": "E5-11-T1",
+      "resumen": "objetivos, alcance, riesgos y procedimientos de la auditoría",
+      "evidencias": [
+       "Plan de auditoría aprobado",
+       "Matriz de riesgos y controles a probar"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Papeles de trabajo con pruebas de control",
+      "tareas": "E5-11-T2, E5-11-T3",
+      "resumen": "pruebas de diseño y eficacia con su evidencia documentada",
+      "evidencias": [
+       "Papeles de trabajo referenciados",
+       "Evidencias de pruebas de controles generales de TI"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Informe de hallazgos y seguimiento",
+      "tareas": "E5-11-T4, E5-11-T5",
+      "resumen": "hallazgos, recomendaciones y estado de su implementación",
+      "evidencias": [
+       "Informe de auditoría con hallazgos",
+       "Matriz de seguimiento de recomendaciones"
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

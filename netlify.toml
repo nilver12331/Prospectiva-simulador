@@ -1,5 +1,9 @@
 [build]
-  publish = "."
+  command = "node herramientas/build.js"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
 
 [[headers]]
   for = "/*"
@@ -17,3 +21,21 @@
   for = "/js/*"
   [headers.values]
     Cache-Control = "public, max-age=3600"
+
+# la raíz del sitio abre la gestión de programas (pide sesión y, si no hay, va a ingreso.html)
+[[headers]]
+  for = "/js/config.js"
+  [headers.values]
+    Cache-Control = "no-store"
+
+# la raíz del sitio abre la gestión de programas
+[[redirects]]
+  from = "/"
+  to = "/programas.html"
+  status = 302
+
+# la portada de las tres fases está oculta
+[[redirects]]
+  from = "/index.html"
+  to = "/programas.html"
+  status = 302

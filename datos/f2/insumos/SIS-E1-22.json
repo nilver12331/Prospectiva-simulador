@@ -1,0 +1,690 @@
+{
+ "cod": "SIS",
+ "k": "E1",
+ "carrera": "Ingeniería de Sistemas",
+ "especialidad": "Desarrollo de software y análisis de sistemas",
+ "integradas": [
+  "Análisis funcional y de sistemas de información"
+ ],
+ "ambitos": [],
+ "otras_especialidades_de_la_escuela": [
+  {
+   "k": "E2",
+   "n": "Infraestructura en la nube, DevOps y redes"
+  },
+  {
+   "k": "E3",
+   "n": "Ciencia de datos, inteligencia artificial e inteligencia de negocios"
+  },
+  {
+   "k": "E4",
+   "n": "Ciberseguridad y protección de datos"
+  },
+  {
+   "k": "E5",
+   "n": "Gobierno, proyectos y auditoría de TI"
+  }
+ ],
+ "competencia_v11": {
+  "codigo": "C1",
+  "nombre": "Desarrollo de soluciones de software",
+  "alias": "Ingeniería de software",
+  "definicion_conceptual": "Construir soluciones de software que una organización usa en sus operaciones, analizando las necesidades del negocio, diseñando la arquitectura, programando los componentes de backend, frontend e integración, verificando con pruebas automatizadas y revisión de código, y desplegando en producción; en equipos de desarrollo o fábricas de software que trabajan con repositorios, integración continua, metodologías ágiles y estándares de calidad y seguridad, para entregar sistemas confiables y mantenibles que respondan a los requerimientos del negocio.",
+  "definicion_operacional": "Construir soluciones de software que una organización usa en sus operaciones, analizando las necesidades del negocio, diseñando la arquitectura, programando los componentes de backend, frontend e integración, verificando con pruebas automatizadas y revisión de código, y desplegando en producción; en equipos de desarrollo o fábricas de software que trabajan con repositorios, integración continua, metodologías ágiles y estándares de calidad y seguridad, para entregar sistemas confiables y mantenibles que respondan a los requerimientos del negocio.",
+  "capacidades": [
+   {
+    "id": "C1.1",
+    "nombre": "Análisis y especificación de requisitos",
+    "definicion": "Capacidad de relevar las necesidades del negocio y traducirlas en requisitos y especificaciones verificables, modelando procesos y casos de uso con los usuarios, en contextos de cambio organizacional; moviliza técnicas de elicitación, modelado de procesos, escucha activa, rigor y comunicación con áreas no técnicas."
+   },
+   {
+    "id": "C1.2",
+    "nombre": "Diseño de la arquitectura de la solución",
+    "definicion": "Capacidad de diseñar la arquitectura, los modelos de datos y las interfaces de una solución a partir de los requisitos, eligiendo patrones y tecnologías según restricciones de escala, costo y seguridad; moviliza patrones de diseño, bases de datos, arquitectura de software, criterio técnico y responsabilidad por las decisiones."
+   },
+   {
+    "id": "C1.3",
+    "nombre": "Construcción e integración de los componentes de software",
+    "definicion": "Capacidad de programar componentes de backend, frontend e integración de APIs conforme al diseño, en repositorios versionados con revisión de código y entrega incremental, adaptándose a distintos lenguajes y marcos de trabajo; moviliza dominio de programación, estructuras de datos, estándares de codificación, disciplina y trabajo colaborativo."
+   },
+   {
+    "id": "C1.4",
+    "nombre": "Verificación de la calidad del software",
+    "definicion": "Capacidad de verificar que el software cumple los requisitos y los estándares de calidad mediante pruebas unitarias, de integración y de aceptación automatizadas y revisión de código, en ciclos de entrega continua; moviliza técnicas de prueba, análisis de defectos, pensamiento crítico, meticulosidad y compromiso con la calidad."
+   },
+   {
+    "id": "C1.5",
+    "nombre": "Despliegue y mantenimiento en producción",
+    "definicion": "Capacidad de liberar el software en producción mediante pipelines de integración y despliegue continuo, documentarlo y mantenerlo evolutivamente frente a fallos y nuevos requerimientos, en entornos de nube o locales; moviliza conocimientos de CI/CD, control de versiones, documentación técnica, responsabilidad operativa y orientación al usuario."
+   }
+  ]
+ },
+ "proposito_clave": "Desarrollar, integrar y mantener soluciones de software web y móviles que las organizaciones usan en sus operaciones, analizando sus procesos y requerimientos, en equipos que aplican prácticas ágiles, entrega continua y normas de calidad, seguridad, protección de datos y gobierno digital, para entregar sistemas confiables y mantenibles que respondan a las necesidades del negocio y de los ciudadanos.",
+ "funciones": [
+  {
+   "c": "E1-01",
+   "t": "Análisis de requerimientos y procesos del negocio",
+   "d": "Relevar y analizar los procesos y necesidades de las áreas usuarias para especificar requerimientos funcionales y no funcionales verificables que orienten la construcción del software.",
+   "tipo": "Actual",
+   "amb": "Áreas usuarias de empresas y entidades públicas (finanzas, logística, seguros, salud, educación); fábricas de software; oficinas de TI del Estado; análisis funcional y de sistemas de información",
+   "conf": 3,
+   "lim": "Especifica requerimientos de módulos de complejidad moderada; en programas multiárea o multientidad, la priorización y aprobación final corresponden al dueño del producto.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C1.1 Analizar",
+   "tasks": [
+    {
+     "code": "E1-01-T1",
+     "t": "Relevar necesidades con usuarios y áreas de negocio mediante entrevistas y talleres",
+     "ent": "1. Modelo de procesos del negocio"
+    },
+    {
+     "code": "E1-01-T2",
+     "t": "Modelar los procesos actuales y propuestos del negocio",
+     "ent": "1. Modelo de procesos del negocio"
+    },
+    {
+     "code": "E1-01-T3",
+     "t": "Redactar historias de usuario, casos de uso y criterios de aceptación",
+     "ent": "2. Especificación de requerimientos priorizada"
+    },
+    {
+     "code": "E1-01-T4",
+     "t": "Especificar requerimientos no funcionales medibles de calidad, seguridad y rendimiento",
+     "ent": "2. Especificación de requerimientos priorizada"
+    },
+    {
+     "code": "E1-01-T5",
+     "t": "Priorizar y mantener el backlog de requerimientos con el negocio",
+     "ent": "2. Especificación de requerimientos priorizada"
+    },
+    {
+     "code": "E1-01-T6",
+     "t": "Validar prototipos y la trazabilidad de requerimientos con los usuarios",
+     "ent": "2. Especificación de requerimientos priorizada"
+    }
+   ],
+   "producto": {
+    "nombre": "Especificación de requerimientos del sistema de información",
+    "desc": "Especificación de requerimientos del sistema de información que documenta qué debe hacer la solución y con qué restricciones, para que negocio, desarrollo y pruebas compartan un mismo acuerdo verificable. Integra el modelo de procesos actual y propuesto, las historias de usuario o casos de uso con criterios de aceptación, los requerimientos no funcionales y la matriz de trazabilidad. Se elabora con entrevistas, talleres y prototipos validados por los usuarios, y se verifica revisando que cada requerimiento sea claro, completo, priorizado y comprobable. Orienta la decisión de qué construir primero y con qué alcance, y demuestra la capacidad de traducir necesidades del negocio en requisitos verificables.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Modelo de procesos del negocio",
+      "tareas": "E1-01-T1, E1-01-T2",
+      "resumen": "diagramas de procesos actuales y propuestos con sus problemas y oportunidades de mejora",
+      "evidencias": [
+       "actas de entrevistas y talleres firmadas por usuarios",
+       "diagramas de procesos actual y propuesto"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Especificación de requerimientos priorizada",
+      "tareas": "E1-01-T3, E1-01-T4, E1-01-T5, E1-01-T6",
+      "resumen": "historias de usuario o casos de uso con criterios de aceptación, backlog priorizado y matriz de trazabilidad",
+      "evidencias": [
+       "documento de requerimientos aprobado por el área usuaria",
+       "backlog priorizado en la herramienta del equipo",
+       "matriz de trazabilidad requerimiento-prototipo"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-02",
+   "t": "Diseño de arquitectura y datos del software",
+   "d": "Diseñar la arquitectura de componentes, las interfaces y el modelo de datos de la solución a partir de los requerimientos, eligiendo patrones que aseguren escalabilidad, seguridad y mantenibilidad.",
+   "tipo": "Actual",
+   "amb": "Aplicaciones web y móviles empresariales, ERP propios, microservicios y soluciones en nube; plataformas del Estado sujetas a la arquitectura digital",
+   "conf": 2,
+   "lim": "Diseña componentes y modelos de datos modulares con revisión de un arquitecto; no define arquitectura de plataformas críticas ni firma documentos técnicos sin colegiatura.",
+   "dem": "Baja",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C1.2 Diseñar",
+   "tasks": [
+    {
+     "code": "E1-02-T1",
+     "t": "Definir la arquitectura por capas, servicios o microservicios de la solución",
+     "ent": "1. Documento de arquitectura de la solución"
+    },
+    {
+     "code": "E1-02-T2",
+     "t": "Seleccionar patrones de diseño y tecnologías según restricciones de costo, escala y seguridad",
+     "ent": "1. Documento de arquitectura de la solución"
+    },
+    {
+     "code": "E1-02-T3",
+     "t": "Diseñar el modelo lógico y físico de la base de datos",
+     "ent": "2. Modelo de datos de la solución"
+    },
+    {
+     "code": "E1-02-T4",
+     "t": "Especificar los contratos de interfaces y APIs entre componentes",
+     "ent": "1. Documento de arquitectura de la solución"
+    },
+    {
+     "code": "E1-02-T5",
+     "t": "Documentar las decisiones de diseño en diagramas y registros de arquitectura",
+     "ent": "1. Documento de arquitectura de la solución"
+    }
+   ],
+   "producto": {
+    "nombre": "Documento de diseño técnico de la solución",
+    "desc": "Documento de diseño técnico de la solución que define cómo se estructura el software para cumplir los requerimientos funcionales y no funcionales antes de programarlo. Integra las vistas de arquitectura por capas o servicios, los contratos de interfaces y APIs, el modelo de datos lógico y físico y el registro de decisiones con sus alternativas. Se elabora a partir de la especificación de requerimientos aplicando patrones reconocidos, y se verifica en una revisión técnica con pares que contrasta escalabilidad, seguridad y costo. Orienta la decisión de tecnologías y de división del trabajo del equipo, y demuestra criterio técnico para justificar el diseño.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Documento de arquitectura de la solución",
+      "tareas": "E1-02-T1, E1-02-T2, E1-02-T4, E1-02-T5",
+      "resumen": "vistas de componentes, contratos de interfaces y decisiones de diseño justificadas",
+      "evidencias": [
+       "diagramas de arquitectura en notación estándar",
+       "registro de decisiones de arquitectura revisado por pares"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Modelo de datos de la solución",
+      "tareas": "E1-02-T3",
+      "resumen": "modelo lógico y físico con entidades, relaciones, índices y reglas de integridad",
+      "evidencias": [
+       "diagrama entidad-relación validado",
+       "script de creación de la base de datos ejecutado en ambiente de desarrollo"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-03",
+   "t": "Desarrollo de servicios y lógica de negocio",
+   "d": "Programar los componentes del lado del servidor, las reglas de negocio y las APIs de la solución conforme al diseño, en repositorios versionados con revisión de código.",
+   "tipo": "Actual",
+   "amb": "Backend de aplicaciones web y móviles, ERP propios, banca y fintech, salud, educación, logística y entidades públicas",
+   "conf": 3,
+   "lim": "Construye servicios y APIs dentro de la arquitectura definida; los cambios en componentes críticos de alto volumen transaccional requieren revisión de un desarrollador senior.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C1.3 Construir",
+   "tasks": [
+    {
+     "code": "E1-03-T1",
+     "t": "Programar reglas de negocio y servicios del lado del servidor",
+     "ent": "1. Componentes de servicio y API documentados"
+    },
+    {
+     "code": "E1-03-T2",
+     "t": "Construir y documentar APIs para clientes web, móviles y otros sistemas",
+     "ent": "1. Componentes de servicio y API documentados"
+    },
+    {
+     "code": "E1-03-T3",
+     "t": "Implementar el acceso a datos, consultas y procedimientos almacenados",
+     "ent": "1. Componentes de servicio y API documentados"
+    },
+    {
+     "code": "E1-03-T4",
+     "t": "Escribir pruebas unitarias del código producido",
+     "ent": "2. Repositorio con pruebas unitarias y revisiones"
+    },
+    {
+     "code": "E1-03-T5",
+     "t": "Versionar el código y atender las observaciones de la revisión por pares",
+     "ent": "2. Repositorio con pruebas unitarias y revisiones"
+    }
+   ],
+   "producto": {
+    "nombre": "Componente de servicios con API documentada",
+    "desc": "Componente de servicios con API documentada que implementa las reglas de negocio de la solución y las expone de forma segura para que las interfaces web, móviles y otros sistemas las consuman. Integra el código fuente organizado por capas, el acceso a la base de datos, la especificación de la API, las pruebas unitarias y el historial de cambios en el repositorio. Se elabora de forma incremental conforme al diseño y se verifica con pruebas unitarias automatizadas, análisis estático y revisión de código por pares antes de su integración. Orienta la decisión de pasar la funcionalidad a pruebas integrales, y demuestra dominio de la programación profesional con estándares de calidad.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Componentes de servicio y API documentados",
+      "tareas": "E1-03-T1, E1-03-T2, E1-03-T3",
+      "resumen": "código de servicios, reglas de negocio, acceso a datos y especificación de la API",
+      "evidencias": [
+       "código fuente integrado en la rama principal",
+       "especificación de la API publicada y probada"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Repositorio con pruebas unitarias y revisiones",
+      "tareas": "E1-03-T4, E1-03-T5",
+      "resumen": "pruebas unitarias automatizadas y solicitudes de cambio revisadas por pares",
+      "evidencias": [
+       "reporte de ejecución y cobertura de pruebas unitarias",
+       "solicitudes de cambio aprobadas en el repositorio"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-04",
+   "t": "Desarrollo de interfaces web y móviles",
+   "d": "Construir las interfaces web y móviles con las que clientes, ciudadanos y personal de campo operan el sistema, a partir de prototipos aprobados y con marcos multiplataforma, asegurando usabilidad, accesibilidad, diseño adaptable y consumo correcto de los servicios.",
+   "tipo": "Actual",
+   "amb": "Portales y aplicaciones web empresariales, comercio electrónico, banca y billeteras digitales, aplicaciones móviles para clientes y personal de campo, servicios digitales del Estado en GOB.PE",
+   "conf": 3,
+   "lim": "Construye módulos de interfaz sobre prototipos aprobados; no define el sistema de diseño corporativo ni publica sin auditoría de accesibilidad.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C1.3 Construir",
+   "tasks": [
+    {
+     "code": "E1-04-T1",
+     "t": "Maquetar vistas y componentes reutilizables web y móviles a partir de prototipos",
+     "ent": "1. Módulo de interfaz funcional y versión empaquetada"
+    },
+    {
+     "code": "E1-04-T2",
+     "t": "Conectar las vistas con las APIs, la autenticación y el almacenamiento local, y manejar estados y errores",
+     "ent": "1. Módulo de interfaz funcional y versión empaquetada"
+    },
+    {
+     "code": "E1-04-T3",
+     "t": "Aplicar criterios de accesibilidad WCAG 2.2 y diseño adaptable, y verificarlos con usuarios y herramientas",
+     "ent": "2. Reporte de accesibilidad, pruebas y rendimiento"
+    },
+    {
+     "code": "E1-04-T4",
+     "t": "Implementar pruebas de componentes de interfaz y probar en navegadores y dispositivos reales o emuladores",
+     "ent": "2. Reporte de accesibilidad, pruebas y rendimiento"
+    },
+    {
+     "code": "E1-04-T5",
+     "t": "Optimizar el rendimiento y la compatibilidad entre navegadores y dispositivos",
+     "ent": "2. Reporte de accesibilidad, pruebas y rendimiento"
+    },
+    {
+     "code": "E1-04-T6",
+     "t": "Empaquetar las versiones web y móviles para su publicación con el líder técnico",
+     "ent": "1. Módulo de interfaz funcional y versión empaquetada"
+    }
+   ],
+   "producto": {
+    "nombre": "Módulo de interfaz web y móvil accesible",
+    "desc": "Módulo de interfaz web y móvil accesible que permite a clientes, ciudadanos y personal de campo ejecutar sus tareas en el sistema desde el navegador o el teléfono. Integra los componentes visuales reutilizables, la navegación, los formularios con validaciones, la conexión segura con las APIs, el almacenamiento local y las versiones empaquetadas para su publicación. Se elabora a partir de prototipos aprobados con marcos multiplataforma y se verifica con pruebas de componentes, pruebas en navegadores y dispositivos, una revisión de accesibilidad contra WCAG 2.2 y mediciones de rendimiento. Orienta la decisión de publicar la versión para los usuarios finales, y demuestra la capacidad de construir experiencias usables e inclusivas en varios canales.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Módulo de interfaz funcional y versión empaquetada",
+      "tareas": "E1-04-T1, E1-04-T2, E1-04-T6",
+      "resumen": "vistas, componentes, formularios y navegación conectados a los servicios, con su versión web o móvil lista para publicar",
+      "evidencias": [
+       "módulo desplegado en ambiente de pruebas",
+       "aplicación instalable o versión web empaquetada con notas de versión"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Reporte de accesibilidad, pruebas y rendimiento",
+      "tareas": "E1-04-T3, E1-04-T4, E1-04-T5",
+      "resumen": "resultados de la revisión de accesibilidad, de las pruebas de componentes y dispositivos y de las mediciones de carga",
+      "evidencias": [
+       "reporte de accesibilidad con incidencias corregidas",
+       "registro de pruebas en navegadores y dispositivos",
+       "métricas de rendimiento antes y después de optimizar"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-06",
+   "t": "Integración de sistemas y servicios de información",
+   "d": "Conectar las aplicaciones con los sistemas internos, el ERP, plataformas de terceros y los bloques básicos del Estado mediante APIs y servicios, y automatizar con flujos o bots las tareas repetitivas entre sistemas (sublínea de automatización de procesos), para que la información fluya sin duplicarse ni perderse.",
+   "tipo": "Actual",
+   "amb": "ERP comerciales y propios, core financiero, pasarelas de pago, facturación electrónica, Plataforma de Interoperabilidad del Estado y bloques básicos del gobierno digital; sublínea de automatización de procesos (RPA) en sistemas sin API; análisis funcional y de sistemas de información",
+   "conf": 3,
+   "lim": "Implementa integraciones con contratos definidos; los convenios de intercambio con otras entidades y la exposición de datos sensibles los aprueba la jefatura de TI.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C1.3 Construir",
+   "tasks": [
+    {
+     "code": "E1-06-T1",
+     "t": "Analizar los sistemas origen y destino y los datos a intercambiar",
+     "ent": "1. Servicio de integración y automatización operativo"
+    },
+    {
+     "code": "E1-06-T2",
+     "t": "Desarrollar y consumir servicios de integración, incluidos los bloques básicos del Estado (PIDE, ID GOB.PE, PÁGALO.PE, FIRMA PERÚ)",
+     "ent": "1. Servicio de integración y automatización operativo"
+    },
+    {
+     "code": "E1-06-T3",
+     "t": "Implementar manejo de errores, reintentos y trazabilidad de los mensajes",
+     "ent": "1. Servicio de integración y automatización operativo"
+    },
+    {
+     "code": "E1-06-T4",
+     "t": "Construir flujos o bots que automaticen tareas repetitivas entre sistemas sin API",
+     "ent": "1. Servicio de integración y automatización operativo"
+    },
+    {
+     "code": "E1-06-T5",
+     "t": "Probar de punta a punta la integración y las automatizaciones con los sistemas conectados",
+     "ent": "2. Informe de pruebas y documentación de integración"
+    },
+    {
+     "code": "E1-06-T6",
+     "t": "Documentar contratos, flujos y configuración de la integración y de las automatizaciones",
+     "ent": "2. Informe de pruebas y documentación de integración"
+    }
+   ],
+   "producto": {
+    "nombre": "Solución de integración y automatización entre sistemas",
+    "desc": "Solución de integración y automatización entre sistemas que permite a las aplicaciones de la organización intercambiar datos con su ERP, con terceros y con las plataformas del Estado, y ejecutar sin intervención manual las tareas repetitivas que las enlazan. Integra el mapeo de datos, los servicios o conectores desarrollados, los flujos o bots de automatización, los mecanismos de autenticación, reintentos y registro, y la documentación de los contratos. Se elabora a partir del análisis de los sistemas origen y destino, y se verifica con pruebas de punta a punta, casos de excepción y la conciliación de los datos transferidos. Orienta la decisión de poner en operación el intercambio automático de información, y demuestra la capacidad de hacer interoperar sistemas heterogéneos.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Servicio de integración y automatización operativo",
+      "tareas": "E1-06-T1, E1-06-T2, E1-06-T3, E1-06-T4",
+      "resumen": "mapeo de datos, conectores o servicios desarrollados, flujos o bots de automatización y control de errores",
+      "evidencias": [
+       "servicio de integración ejecutando en ambiente de pruebas",
+       "automatización con registro de corridas",
+       "bitácora de mensajes con trazabilidad"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de pruebas y documentación de integración",
+      "tareas": "E1-06-T5, E1-06-T6",
+      "resumen": "resultados de pruebas de punta a punta, conciliación de datos, contratos y manual de operación de las automatizaciones",
+      "evidencias": [
+       "casos de prueba de integración y de excepción ejecutados",
+       "conciliación de registros entre sistemas",
+       "contratos de interfaz y manual de operación documentados"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-08",
+   "t": "Aseguramiento de la calidad del software",
+   "d": "Planificar, diseñar y ejecutar pruebas manuales y automatizadas que verifiquen que el software cumple los requerimientos antes de liberarlo, registrando defectos y evidencias.",
+   "tipo": "Actual",
+   "amb": "Fábricas de software, banca y fintech, billeteras digitales, proyectos de modernización de sistemas públicos",
+   "conf": 3,
+   "lim": "Diseña y ejecuta pruebas de módulos y versiones; no firma el pase a producción de sistemas críticos, que corresponde al líder de calidad.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C1.4 Verificar",
+   "tasks": [
+    {
+     "code": "E1-08-T1",
+     "t": "Elaborar el plan y la estrategia de pruebas según riesgos",
+     "ent": "1. Plan y casos de prueba"
+    },
+    {
+     "code": "E1-08-T2",
+     "t": "Diseñar casos de prueba con criterios de aceptación y datos de prueba",
+     "ent": "1. Plan y casos de prueba"
+    },
+    {
+     "code": "E1-08-T3",
+     "t": "Automatizar pruebas de regresión, de API y de interfaz",
+     "ent": "2. Suite de pruebas automatizadas"
+    },
+    {
+     "code": "E1-08-T4",
+     "t": "Ejecutar pruebas funcionales, de integración y de aceptación con usuarios",
+     "ent": "3. Informe de resultados y defectos"
+    },
+    {
+     "code": "E1-08-T5",
+     "t": "Registrar y dar seguimiento a los defectos hasta su cierre",
+     "ent": "3. Informe de resultados y defectos"
+    },
+    {
+     "code": "E1-08-T6",
+     "t": "Emitir el informe de calidad con la recomendación de pase",
+     "ent": "3. Informe de resultados y defectos"
+    }
+   ],
+   "producto": {
+    "nombre": "Informe de certificación de calidad del software",
+    "desc": "Informe de certificación de calidad del software que establece, con evidencias, si una versión cumple los requerimientos y puede pasar a producción. Integra el plan de pruebas basado en riesgos, los casos de prueba trazados a los requerimientos, la suite automatizada de regresión, los resultados de ejecución y el registro de defectos con su estado. Se elabora ejecutando pruebas funcionales, de integración y de aceptación en ambientes controlados, y se verifica con métricas de cobertura y la revisión conjunta de desarrollo y negocio. Orienta la decisión de liberar o detener una versión, y demuestra rigor para verificar el software de forma sistemática.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Plan y casos de prueba",
+      "tareas": "E1-08-T1, E1-08-T2",
+      "resumen": "estrategia basada en riesgos, casos trazados a requerimientos y datos de prueba",
+      "evidencias": [
+       "plan de pruebas aprobado",
+       "casos de prueba trazados a requerimientos"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Suite de pruebas automatizadas",
+      "tareas": "E1-08-T3",
+      "resumen": "scripts de regresión, API e interfaz integrados al repositorio",
+      "evidencias": [
+       "suite ejecutándose con reporte de resultados"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Informe de resultados y defectos",
+      "tareas": "E1-08-T4, E1-08-T5, E1-08-T6",
+      "resumen": "resultados de ejecución, defectos con su estado y recomendación de pase",
+      "evidencias": [
+       "registro de defectos en la herramienta de gestión",
+       "informe de cierre de pruebas con recomendación"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-09",
+   "t": "Seguridad y privacidad en aplicaciones",
+   "d": "Incorporar controles de seguridad y privacidad desde el diseño y la codificación de las aplicaciones, verificarlos con análisis y pruebas de seguridad y corregir sus vulnerabilidades, para proteger la información de la organización y de sus usuarios.",
+   "tipo": "Transversal",
+   "amb": "Aplicaciones que tratan datos personales y financieros, APIs expuestas, servicios digitales del Estado, sistemas que incorporan IA",
+   "conf": 3,
+   "lim": "Aplica controles y corrige vulnerabilidades en el software que desarrolla; no realiza pruebas de intrusión ni emite la conformidad de seguridad del pase.",
+   "dem": "Media",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C1.3 Construir · C1.4 Verificar",
+   "tasks": [
+    {
+     "code": "E1-09-T1",
+     "t": "Aplicar listas de verificación de amenazas conocidas y requisitos de seguridad y privacidad al diseño de la aplicación",
+     "ent": "1. Requisitos y controles de seguridad implementados"
+    },
+    {
+     "code": "E1-09-T2",
+     "t": "Implementar autenticación, autorización y cifrado de datos sensibles",
+     "ent": "1. Requisitos y controles de seguridad implementados"
+    },
+    {
+     "code": "E1-09-T3",
+     "t": "Ejecutar el análisis estático del código y de sus dependencias en la canalización de integración",
+     "ent": "2. Informe de análisis y pruebas de seguridad con remediación"
+    },
+    {
+     "code": "E1-09-T4",
+     "t": "Ejecutar pruebas dinámicas de seguridad sobre la aplicación y sus API",
+     "ent": "2. Informe de análisis y pruebas de seguridad con remediación"
+    },
+    {
+     "code": "E1-09-T5",
+     "t": "Corregir las vulnerabilidades señaladas y verificar su cierre",
+     "ent": "2. Informe de análisis y pruebas de seguridad con remediación"
+    }
+   ],
+   "producto": {
+    "nombre": "Informe de seguridad de la aplicación",
+    "desc": "Informe de seguridad de la aplicación que muestra, para una versión concreta, qué controles protegen la información y qué vulnerabilidades se encontraron y corrigieron antes del pase. Integra los requisitos de seguridad y privacidad aplicados, la descripción de los controles de autenticación, autorización y cifrado, los resultados del análisis estático, de dependencias y de las pruebas dinámicas, y el registro de correcciones verificadas. Se elabora durante la construcción con listas de verificación reconocidas, como el OWASP Top 10, y se verifica repitiendo el análisis y las pruebas sobre cada hallazgo corregido. Sirve de insumo para que el responsable del producto decida el pase a producción, y demuestra responsabilidad profesional sobre los datos de los usuarios.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Requisitos y controles de seguridad implementados",
+      "tareas": "E1-09-T1, E1-09-T2",
+      "resumen": "requisitos de seguridad y privacidad aplicados y controles de acceso y cifrado implementados",
+      "evidencias": [
+       "lista de verificación de amenazas y requisitos aplicada",
+       "evidencia de configuración de autenticación, autorización y cifrado"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de análisis y pruebas de seguridad con remediación",
+      "tareas": "E1-09-T3, E1-09-T4, E1-09-T5",
+      "resumen": "hallazgos del análisis estático, de dependencias y de pruebas dinámicas con su corrección verificada",
+      "evidencias": [
+       "reporte de análisis estático y de dependencias depurado",
+       "reporte de pruebas dinámicas",
+       "evidencia de cierre de vulnerabilidades"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-10",
+   "t": "Integración y despliegue continuo del software",
+   "d": "Configurar y operar la canalización de integración y despliegue continuo que lleva las aplicaciones desde el repositorio hasta sus ambientes, empaquetadas en contenedores o artefactos, de forma automatizada, medida, trazable y reversible.",
+   "tipo": "Actual",
+   "amb": "Equipos ágiles, DevOps y fábricas de software; aplicaciones en nube, en clústeres de contenedores o en servidores propios; pases a producción en banca, telecomunicaciones y entidades públicas",
+   "conf": 3,
+   "lim": "Configura canalizaciones de sus aplicaciones y ejecuta pases con aprobación del líder técnico; no administra la plataforma ni los clústeres productivos.",
+   "dem": "Media",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C1.5 Desplegar",
+   "tasks": [
+    {
+     "code": "E1-10-T1",
+     "t": "Configurar la construcción y las pruebas automáticas en cada cambio del repositorio",
+     "ent": "1. Canalización de integración y despliegue"
+    },
+    {
+     "code": "E1-10-T2",
+     "t": "Empaquetar la aplicación en imágenes de contenedor o artefactos versionados",
+     "ent": "1. Canalización de integración y despliegue"
+    },
+    {
+     "code": "E1-10-T3",
+     "t": "Automatizar el despliegue en ambientes de prueba y producción, incluidos clústeres de contenedores, con controles de calidad y seguridad",
+     "ent": "1. Canalización de integración y despliegue"
+    },
+    {
+     "code": "E1-10-T4",
+     "t": "Ejecutar y verificar el pase a producción con plan de reversión",
+     "ent": "2. Registro de liberaciones y métricas de entrega"
+    },
+    {
+     "code": "E1-10-T5",
+     "t": "Registrar las versiones liberadas y sus notas de cambio",
+     "ent": "2. Registro de liberaciones y métricas de entrega"
+    },
+    {
+     "code": "E1-10-T6",
+     "t": "Medir la frecuencia de despliegue y la tasa de fallos de cambio",
+     "ent": "2. Registro de liberaciones y métricas de entrega"
+    }
+   ],
+   "producto": {
+    "nombre": "Canalización de integración y despliegue continuo documentada",
+    "desc": "Canalización de integración y despliegue continuo documentada que automatiza la construcción, las pruebas, el empaquetado y la publicación de cada versión de una aplicación en sus ambientes. Integra la configuración de las etapas de construcción y prueba, las imágenes o artefactos versionados, los manifiestos de despliegue por ambiente con sus controles de calidad y seguridad, el plan de reversión, el registro de versiones y las métricas de entrega. Se elabora sobre el repositorio del proyecto y se verifica con ejecuciones completas hasta el ambiente de preproducción, una reversión controlada y la medición de fallos de cambio. Orienta la decisión del líder técnico de promover una versión a producción con riesgo acotado, y demuestra la capacidad de entregar software de manera frecuente y confiable.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Canalización de integración y despliegue",
+      "tareas": "E1-10-T1, E1-10-T2, E1-10-T3",
+      "resumen": "etapas de construcción, prueba, empaquetado y despliegue automatizadas por ambiente, con controles integrados",
+      "evidencias": [
+       "canalización ejecutada con éxito hasta preproducción",
+       "imágenes o artefactos versionados"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registro de liberaciones y métricas de entrega",
+      "tareas": "E1-10-T4, E1-10-T5, E1-10-T6",
+      "resumen": "plan de pase y reversión, verificación posterior, notas de versión y métricas de entrega",
+      "evidencias": [
+       "acta de pase con verificación posterior y reversión probada",
+       "notas de versión publicadas",
+       "tablero con frecuencia de despliegue y fallos de cambio"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E1-11",
+   "t": "Mantenimiento evolutivo y soporte de aplicaciones",
+   "d": "Atender incidencias, corregir defectos y adaptar las aplicaciones en producción a nuevos requerimientos y plataformas, para asegurar la continuidad operativa y prolongar su vida útil.",
+   "tipo": "Actual",
+   "amb": "Sistemas empresariales y ERP en producción, sistemas legados, aplicaciones de entidades públicas, universidades y clínicas; soporte funcional de sistemas de información",
+   "conf": 3,
+   "lim": "Corrige incidencias y aplica mejoras de módulos; las correcciones directas de datos en producción y las migraciones de plataforma requieren aprobación del comité de cambios.",
+   "dem": "Alta",
+   "imp": "Medio",
+   "capacidades_que_moviliza": "C1.3 Construir · C1.5 Desplegar",
+   "tasks": [
+    {
+     "code": "E1-11-T1",
+     "t": "Diagnosticar incidencias y su causa raíz en producción",
+     "ent": "1. Registro de incidencias resueltas"
+    },
+    {
+     "code": "E1-11-T2",
+     "t": "Aplicar correcciones de código o de datos de forma controlada",
+     "ent": "1. Registro de incidencias resueltas"
+    },
+    {
+     "code": "E1-11-T3",
+     "t": "Implementar mejoras evolutivas solicitadas por las áreas usuarias",
+     "ent": "2. Paquete de mejoras y migración documentado"
+    },
+    {
+     "code": "E1-11-T4",
+     "t": "Refactorizar o migrar componentes obsoletos a versiones soportadas",
+     "ent": "2. Paquete de mejoras y migración documentado"
+    },
+    {
+     "code": "E1-11-T5",
+     "t": "Actualizar la documentación técnica y los manuales de usuario",
+     "ent": "2. Paquete de mejoras y migración documentado"
+    }
+   ],
+   "producto": {
+    "nombre": "Informe de mantenimiento de la aplicación",
+    "desc": "Informe de mantenimiento de la aplicación que da cuenta del estado del software en producción y de las intervenciones realizadas para mantenerlo útil y estable. Integra el registro de incidencias con su causa raíz y solución, las correcciones y mejoras evolutivas liberadas, los componentes refactorizados o migrados y la documentación técnica actualizada. Se elabora a partir de los tickets y solicitudes de las áreas usuarias, y se verifica con pruebas de regresión y con el cumplimiento de los niveles de servicio acordados. Orienta la decisión de corregir, mejorar o reemplazar componentes, y demuestra responsabilidad operativa sobre sistemas críticos.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Registro de incidencias resueltas",
+      "tareas": "E1-11-T1, E1-11-T2",
+      "resumen": "tickets atendidos con diagnóstico, causa raíz, corrección y tiempo de atención",
+      "evidencias": [
+       "tickets cerrados dentro del nivel de servicio",
+       "análisis de causa raíz de incidencias recurrentes"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Paquete de mejoras y migración documentado",
+      "tareas": "E1-11-T3, E1-11-T4, E1-11-T5",
+      "resumen": "mejoras evolutivas, componentes refactorizados o migrados y documentación actualizada",
+      "evidencias": [
+       "versión con mejoras liberada tras pruebas de regresión",
+       "documentación técnica y manuales actualizados"
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

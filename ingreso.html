@@ -55,7 +55,8 @@ button.entrar:disabled{opacity:.7;cursor:wait;transform:none}
 @media (prefers-reduced-motion:reduce){*,*:before{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.min.js"></script>
-<script src="js/nube.js?v=1"></script>
+<script src="js/config.js"></script>
+<script src="js/nube.js?v=2"></script>
 </head>
 <body>
 <span class="orbe o1"></span><span class="orbe o2"></span><div class="rejilla"></div>
@@ -76,7 +77,8 @@ button.entrar:disabled{opacity:.7;cursor:wait;transform:none}
 <script>
 (function(){
  const q=new URLSearchParams(location.search).get("volver")||"";
- const destino=/^[\w-]+\.html(\?[\w=&%.-]*)?$/.test(q)?q:"index.html";
+ /* al iniciar sesión se entra a la gestión de programas; solo se vuelve a una consola o vista concreta si la sesión se cortó ahí */
+ const destino=/^[\w-]+\.html(\?[\w=&%.-]*)?$/.test(q)&&!/^(index|ingreso)\.html/.test(q)?q:"programas.html";
  NUBE.listo.then(ok=>{ if(ok) location.replace(destino) });
 
  const f=document.getElementById("f"), err=document.getElementById("err"), b=document.getElementById("b"), clave=document.getElementById("clave");

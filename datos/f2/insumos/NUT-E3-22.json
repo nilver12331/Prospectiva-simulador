@@ -1,0 +1,611 @@
+{
+ "cod": "NUT",
+ "k": "E3",
+ "carrera": "Nutrición Humana",
+ "especialidad": "Servicios de alimentación, inocuidad y salud ocupacional",
+ "integradas": [
+  "Nutrición ocupacional y salud en minería"
+ ],
+ "ambitos": [],
+ "otras_especialidades_de_la_escuela": [
+  {
+   "k": "E1",
+   "n": "Nutrición clínica: hospitalaria, obesidad y geriátrica"
+  },
+  {
+   "k": "E2",
+   "n": "Nutrición comunitaria y programas sociales"
+  }
+ ],
+ "competencia_v11": {
+  "codigo": "C3",
+  "nombre": "Gestión de servicios de alimentación colectiva y aseguramiento de la inocuidad",
+  "alias": "Alimentación colectiva",
+  "definicion_conceptual": "Dirigir el servicio de alimentación que provee a pacientes, trabajadores, escolares o usuarios de programas sociales —planificando el menú, estandarizando preparaciones y fichas técnicas, costeando y comprando, asegurando la inocuidad con HACCP y auditando el cumplimiento— en hospitales, concesionarias, campamentos y unidades territoriales del Estado, bajo la norma sanitaria vigente y con indicadores de gestión, para entregar una alimentación nutricionalmente adecuada, segura y sostenible económicamente.",
+  "definicion_operacional": "Dirigir el servicio de alimentación que provee a pacientes, trabajadores, escolares o usuarios de programas sociales —planificando el menú, estandarizando preparaciones y fichas técnicas, costeando y comprando, asegurando la inocuidad con HACCP y auditando el cumplimiento— en hospitales, concesionarias, campamentos y unidades territoriales del Estado, bajo la norma sanitaria vigente y con indicadores de gestión, para entregar una alimentación nutricionalmente adecuada, segura y sostenible económicamente.",
+  "capacidades": [
+   {
+    "id": "C3.1",
+    "nombre": "Planificación del menú y del plan alimentario",
+    "definicion": "Capacidad para planificar menús y planes alimentarios por ciclos que cubran los requerimientos del colectivo atendido —pacientes, trabajadores, escolares, usuarios de programas— dentro del presupuesto y la disponibilidad local, adaptándolos a la cultura y al clima, con criterio nutricional, sentido económico y equidad."
+   },
+   {
+    "id": "C3.2",
+    "nombre": "Estandarización y costeo de las preparaciones",
+    "definicion": "Capacidad para estandarizar recetas, raciones y fichas técnicas con su perfil nutricional y costo, y gestionar compras y proveedores, adaptando la estandarización al tipo de servicio y a la escala, con precisión, orden y transparencia en el uso de los recursos."
+   },
+   {
+    "id": "C3.3",
+    "nombre": "Aseguramiento de la inocuidad",
+    "definicion": "Capacidad para implementar y mantener el sistema HACCP y las buenas prácticas de manipulación, identificando puntos críticos, controlándolos y capacitando al personal, en cocinas hospitalarias, concesionarias y campamentos, con disciplina normativa, prevención del riesgo y responsabilidad por la salud del comensal."
+   },
+   {
+    "id": "C3.4",
+    "nombre": "Supervisión y auditoría del servicio de alimentación",
+    "definicion": "Capacidad para supervisar operaciones y proveedores, auditar el cumplimiento sanitario, gestionar no conformidades y reportar indicadores de gestión a la dirección o a la entidad, en servicios propios, concesionados o de programas sociales, con objetividad, integridad y orientación a la mejora continua."
+   }
+  ]
+ },
+ "proposito_clave": "Dirigir servicios de alimentación colectiva hospitalarios, institucionales, industriales, de concesionarios, de campamentos mineros y de programas sociales, planificando, produciendo, asegurando la inocuidad y auditando el servicio conforme a la normativa sanitaria peruana, para entregar a pacientes, trabajadores y escolares una alimentación nutricionalmente adecuada, inocua y económicamente sostenible que proteja su salud.",
+ "funciones": [
+  {
+   "c": "E3-01",
+   "t": "Planificación de menús para colectividades",
+   "d": "Planifica menús cíclicos y programas alimentarios que cubren los requerimientos del colectivo atendido —pacientes, trabajadores, escolares o usuarios de programas— según presupuesto, oferta local, cultura y altitud, para asegurar una alimentación adecuada y viable en el servicio.",
+   "tipo": "Actual",
+   "amb": "Hospitales y clínicas; concesionarios de comedores industriales, institucionales y universitarios; campamentos mineros de altura; proveedores de programas alimentarios del Estado",
+   "conf": 4,
+   "lim": "Sin supervisión en menús de colectivos sanos y dietas estándar; los regímenes complejos los valida el nutricionista clínico; aprueba el cliente.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C3.1 Planificar",
+   "tasks": [
+    {
+     "code": "E3-01-T1",
+     "t": "Calcular los requerimientos de energía y nutrientes del colectivo",
+     "ent": "1. Estudio de requerimientos y ciclo base"
+    },
+    {
+     "code": "E3-01-T2",
+     "t": "Elaborar el ciclo de menús por tipo de servicio",
+     "ent": "1. Estudio de requerimientos y ciclo base"
+    },
+    {
+     "code": "E3-01-T3",
+     "t": "Adaptar los menús a las dietas especiales prescritas, la cultura y la altitud",
+     "ent": "2. Adaptación y validación del ciclo"
+    },
+    {
+     "code": "E3-01-T4",
+     "t": "Validar el ciclo de menús con el cliente o la entidad",
+     "ent": "2. Adaptación y validación del ciclo"
+    }
+   ],
+   "producto": {
+    "nombre": "Programa de menús cíclicos del servicio de alimentación",
+    "desc": "Programa de menús cíclicos que define, para un colectivo concreto, qué se sirve en cada tiempo de comida durante el ciclo y con qué aporte nutricional. Integra el perfil y los requerimientos de los comensales, el ciclo de menús con sus variantes para dietas especiales y la verificación de su adecuación nutricional, cultural y presupuestal. Se elabora a partir de las características del colectivo, el presupuesto y la oferta local, y se verifica contrastando el aporte calculado con los requerimientos y con la aceptación de los usuarios. Orienta las decisiones de compra y producción del servicio y demuestra que el egresado traduce requerimientos nutricionales en una oferta alimentaria viable.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Estudio de requerimientos y ciclo base",
+      "tareas": "E3-01-T1, E3-01-T2",
+      "resumen": "requerimientos por grupo de comensales y ciclo de menús con su aporte",
+      "evidencias": [
+       "hoja de cálculo de requerimientos por grupo de comensales",
+       "ciclo de menús con análisis de aporte nutricional"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Adaptación y validación del ciclo",
+      "tareas": "E3-01-T3, E3-01-T4",
+      "resumen": "variantes para dietas especiales, cultura y altitud, y conformidad",
+      "evidencias": [
+       "variantes del ciclo para dietas especiales y altitud",
+       "acta o conformidad del cliente o la entidad"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-02",
+   "t": "Estandarización y costeo de preparaciones",
+   "d": "Estandariza recetas, porciones y fichas técnicas de las preparaciones con su aporte nutricional, rendimiento y costo por ración, para asegurar una producción uniforme, controlar el costo de alimentos y sustentar las propuestas y contratos del servicio.",
+   "tipo": "Actual",
+   "amb": "Concesionarios de alimentos; cocinas hospitalarias; comedores industriales y campamentos mineros; programas alimentarios",
+   "conf": 4,
+   "lim": "Estandariza y costea sin supervisión; los precios de venta y márgenes contractuales corresponden a la administración o gerencia.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C3.2 Estandarizar",
+   "tasks": [
+    {
+     "code": "E3-02-T1",
+     "t": "Estandarizar recetas con gramajes y rendimientos",
+     "ent": "1. Recetario estandarizado"
+    },
+    {
+     "code": "E3-02-T2",
+     "t": "Elaborar fichas técnicas con aporte nutricional",
+     "ent": "1. Recetario estandarizado"
+    },
+    {
+     "code": "E3-02-T3",
+     "t": "Calcular el costo por ración y el costo de alimentos del menú",
+     "ent": "2. Estructura de costos por ración"
+    },
+    {
+     "code": "E3-02-T4",
+     "t": "Actualizar el banco de recetas del servicio",
+     "ent": "1. Recetario estandarizado"
+    }
+   ],
+   "producto": {
+    "nombre": "Recetario estandarizado con costeo por ración",
+    "desc": "Recetario estandarizado que fija, para cada preparación del servicio, ingredientes, gramajes, rendimiento, aporte nutricional y costo por ración. Integra las fichas técnicas de las recetas, la estructura de costos por ración y el banco de recetas vigente del servicio. Se elabora pesando y registrando pruebas de producción y se verifica comparando rendimiento, porción servida y costo real con lo estandarizado. Orienta la programación de compras y el control del costo de alimentos y demuestra que el egresado asegura uniformidad nutricional y económica en la producción.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Recetario estandarizado",
+      "tareas": "E3-02-T1, E3-02-T2, E3-02-T4",
+      "resumen": "fichas técnicas con gramajes, rendimientos y aporte nutricional",
+      "evidencias": [
+       "fichas técnicas firmadas por preparación",
+       "registro de pruebas de rendimiento"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Estructura de costos por ración",
+      "tareas": "E3-02-T3",
+      "resumen": "costo por ración y costo de alimentos del ciclo de menús",
+      "evidencias": [
+       "hoja de costeo por ración y por ciclo"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-03",
+   "t": "Gestión de compras y abastecimiento alimentario",
+   "d": "Programa los requerimientos de alimentos, elabora sus especificaciones técnicas de compra y controla la recepción, el desempeño de los proveedores, el almacenamiento y la rotación de insumos, para asegurar un abastecimiento oportuno, inocuo y al costo previsto del servicio.",
+   "tipo": "Actual",
+   "amb": "Hospitales (cuadro anual de necesidades); concesionarios; campamentos mineros; programas sociales con compras a la agricultura familiar",
+   "conf": 3,
+   "lim": "Programa requerimientos y controla recepción con supervisión indirecta; adjudicación y contratos corresponden a logística o funcionarios autorizados.",
+   "dem": "Media",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C3.2 Estandarizar",
+   "tasks": [
+    {
+     "code": "E3-03-T1",
+     "t": "Programar los requerimientos de alimentos según el menú y el número de comensales",
+     "ent": "1. Plan de requerimientos y especificaciones de compra"
+    },
+    {
+     "code": "E3-03-T2",
+     "t": "Elaborar las especificaciones técnicas y el requerimiento de compra; en el sector público, como área usuaria conforme a la Ley 32069",
+     "ent": "1. Plan de requerimientos y especificaciones de compra"
+    },
+    {
+     "code": "E3-03-T3",
+     "t": "Verificar en la recepción el cumplimiento de las especificaciones y registrar el desempeño de cada proveedor",
+     "ent": "2. Registros de recepción, proveedores e inventario"
+    },
+    {
+     "code": "E3-03-T4",
+     "t": "Controlar el almacenamiento de los insumos",
+     "ent": "2. Registros de recepción, proveedores e inventario"
+    },
+    {
+     "code": "E3-03-T5",
+     "t": "Controlar los inventarios y la rotación de existencias",
+     "ent": "2. Registros de recepción, proveedores e inventario"
+    }
+   ],
+   "producto": {
+    "nombre": "Plan de abastecimiento alimentario del servicio",
+    "desc": "Plan de abastecimiento alimentario que establece qué alimentos se piden, en qué cantidad y con qué especificaciones para un periodo del servicio, y cómo se controla lo que llega y lo que se almacena. Integra el cálculo de requerimientos desde el ciclo de menús, las especificaciones técnicas de compra, los registros de recepción con el desempeño de cada proveedor y el control de almacén e inventario. Se elabora a partir del menú, el número de comensales, el presupuesto y, en el sector público, las reglas de la contratación pública, y se verifica con inspecciones de recepción y conteos de inventario. Orienta las decisiones de pedido y de reposición y demuestra que el egresado asegura insumos inocuos y oportunos al costo previsto.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Plan de requerimientos y especificaciones de compra",
+      "tareas": "E3-03-T1, E3-03-T2",
+      "resumen": "requerimientos por periodo y fichas de especificación de alimentos",
+      "evidencias": [
+       "cuadro de requerimientos por periodo",
+       "fichas de especificación técnica o requerimiento del área usuaria"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registros de recepción, proveedores e inventario",
+      "tareas": "E3-03-T3, E3-03-T4, E3-03-T5",
+      "resumen": "controles de recepción, desempeño de proveedores, almacenamiento y rotación",
+      "evidencias": [
+       "registro de recepción con temperaturas, rechazos y desempeño del proveedor",
+       "kárdex o inventario valorizado"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-04",
+   "t": "Producción y distribución de raciones",
+   "d": "Dirige la producción, el porcionado y la distribución de raciones normales y de dietas hospitalarias, verificando que cada dieta corresponda a la orden recibida, incluida la preparación de fórmulas enterales, y organiza al personal operativo y sus turnos, para entregar cada ración conforme a lo programado, a tiempo y en condiciones seguras.",
+   "tipo": "Actual",
+   "amb": "Unidad central de producción de regímenes y fórmulas de hospitales; concesionarios hospitalarios e industriales; campamentos mineros en régimen 14x7",
+   "conf": 3,
+   "lim": "Dirige un turno con supervisión indirecta; no ejerce jefatura ni prescribe dietas; las fórmulas enterales siguen la prescripción clínica.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C3.4 Auditar",
+   "tasks": [
+    {
+     "code": "E3-04-T1",
+     "t": "Programar la producción diaria de raciones",
+     "ent": "1. Programa diario de producción y personal"
+    },
+    {
+     "code": "E3-04-T2",
+     "t": "Organizar al personal operativo y sus turnos",
+     "ent": "1. Programa diario de producción y personal"
+    },
+    {
+     "code": "E3-04-T3",
+     "t": "Supervisar la preparación y el porcionado de raciones",
+     "ent": "2. Registros de control de producción"
+    },
+    {
+     "code": "E3-04-T4",
+     "t": "Supervisar el armado y la distribución de dietas hospitalarias y verificar su correspondencia con la orden de dieta",
+     "ent": "3. Control de correspondencia de dietas"
+    },
+    {
+     "code": "E3-04-T5",
+     "t": "Supervisar la preparación de fórmulas enterales",
+     "ent": "2. Registros de control de producción"
+    },
+    {
+     "code": "E3-04-T6",
+     "t": "Registrar las incidencias de correspondencia y de aceptación de las dietas y comunicarlas al nutricionista clínico",
+     "ent": "3. Control de correspondencia de dietas"
+    }
+   ],
+   "producto": {
+    "nombre": "Plan operativo de producción y distribución de raciones",
+    "desc": "Plan operativo de producción que organiza, para cada día y turno, cuántas raciones y dietas se producen, con qué personal y en qué horarios se distribuyen, y deja constancia de que cada dieta llegó conforme a la orden. Integra la programación de producción, la asignación de personal y turnos, los registros de preparación, porcionado y fórmulas, y la lista de correspondencia de bandejas con su registro de incidencias. Se elabora a partir del ciclo de menús, la orden diaria de dietas y la capacidad instalada, y se verifica con controles de gramaje, temperatura, puntualidad y porcentaje de correspondencia. Orienta la asignación diaria de recursos y demuestra que el egresado conduce una operación de alto volumen sin perder calidad ni seguridad.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Programa diario de producción y personal",
+      "tareas": "E3-04-T1, E3-04-T2",
+      "resumen": "raciones por servicio, asignación de personal y turnos",
+      "evidencias": [
+       "programa de producción diario",
+       "rol de turnos del personal"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registros de control de producción",
+      "tareas": "E3-04-T3, E3-04-T5",
+      "resumen": "controles de porcionado y fórmulas preparadas",
+      "evidencias": [
+       "registro de gramajes y temperaturas de servido",
+       "registro de preparación de fórmulas"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Control de correspondencia de dietas",
+      "tareas": "E3-04-T4, E3-04-T6",
+      "resumen": "dietas distribuidas por cama, correspondencia con la orden e incidencias",
+      "evidencias": [
+       "lista diaria de correspondencia bandeja-orden con su porcentaje",
+       "registro de incidencias de correspondencia y aceptación"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-05",
+   "t": "Aseguramiento de la inocuidad alimentaria del servicio",
+   "d": "Implementa y mantiene el plan HACCP y sus programas prerrequisito —buenas prácticas, higiene y saneamiento y capacitación sanitaria de los manipuladores—, vigilando límites críticos y registros, para prevenir enfermedades transmitidas por alimentos en los comensales.",
+   "tipo": "Actual",
+   "amb": "Cocinas hospitalarias y lactarios; concesionarios; comedores industriales, escolares y de campamentos mineros; plantas de alimentos preparados",
+   "conf": 3,
+   "lim": "Implementa con supervisión indirecta; la validación oficial y la vigilancia sanitaria son de DIGESA o DIRESA; responde el titular del servicio.",
+   "dem": "Alta",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C3.3 Asegurar",
+   "tasks": [
+    {
+     "code": "E3-05-T1",
+     "t": "Elaborar el diagnóstico sanitario del servicio",
+     "ent": "1. Plan HACCP y programas prerrequisito"
+    },
+    {
+     "code": "E3-05-T2",
+     "t": "Formular el plan HACCP del servicio",
+     "ent": "1. Plan HACCP y programas prerrequisito"
+    },
+    {
+     "code": "E3-05-T3",
+     "t": "Documentar los programas de buenas prácticas y de higiene y saneamiento",
+     "ent": "1. Plan HACCP y programas prerrequisito"
+    },
+    {
+     "code": "E3-05-T4",
+     "t": "Capacitar a los manipuladores en higiene y buenas prácticas y evaluar su aplicación en el puesto",
+     "ent": "1. Plan HACCP y programas prerrequisito"
+    },
+    {
+     "code": "E3-05-T5",
+     "t": "Monitorear puntos críticos de control y temperaturas",
+     "ent": "2. Registros de monitoreo y acciones correctivas"
+    },
+    {
+     "code": "E3-05-T6",
+     "t": "Aplicar acciones correctivas ante desviaciones",
+     "ent": "2. Registros de monitoreo y acciones correctivas"
+    }
+   ],
+   "producto": {
+    "nombre": "Plan HACCP del servicio de alimentación con sus programas prerrequisito",
+    "desc": "Plan HACCP que identifica los peligros de cada etapa del servicio, desde la recepción hasta el servido, y fija cómo se controlan en los puntos críticos y con qué prácticas del personal. Integra el diagnóstico sanitario, el análisis de peligros, los límites críticos, los procedimientos de monitoreo y corrección, y los programas de buenas prácticas, de higiene y saneamiento y de capacitación de manipuladores que lo sostienen. Se elabora con un equipo del servicio siguiendo los principios del Codex y la norma sanitaria, y se verifica con los registros de monitoreo, la evaluación del personal en el puesto y las auditorías internas. Orienta las decisiones de liberar, corregir o descartar alimentos y demuestra que el egresado previene brotes de enfermedades transmitidas por alimentos.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Plan HACCP y programas prerrequisito",
+      "tareas": "E3-05-T1, E3-05-T2, E3-05-T3, E3-05-T4",
+      "resumen": "diagnóstico, análisis de peligros, puntos críticos, programas de higiene y capacitación",
+      "evidencias": [
+       "plan HACCP del equipo del servicio",
+       "manual de buenas prácticas y programa de higiene y saneamiento",
+       "plan de capacitación con registro de asistencia y evaluación en el puesto"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Registros de monitoreo y acciones correctivas",
+      "tareas": "E3-05-T5, E3-05-T6",
+      "resumen": "monitoreo de límites críticos y correcciones aplicadas",
+      "evidencias": [
+       "registros de temperatura y puntos críticos",
+       "registro de acciones correctivas cerradas"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-07",
+   "t": "Auditoría sanitaria de servicios de alimentación y proveedores",
+   "d": "Audita e inspecciona servicios de alimentación propios, concesionados y de proveedores, incluida la prestación de programas sociales como el Programa de Alimentación Escolar, frente a la norma sanitaria, el contrato y los estándares, y gestiona las no conformidades y alertas hasta su cierre, para asegurar el cumplimiento y la inocuidad.",
+   "tipo": "Actual",
+   "amb": "Entidades contratantes de concesionarios (hospitales, empresas mineras e industriales); áreas de calidad de concesionarios; plantas y almacenes de proveedores; supervisión del Programa de Alimentación Escolar e instituciones usuarias",
+   "conf": 3,
+   "lim": "Auditorías internas y de segunda parte con supervisión indirecta; no ejerce vigilancia oficial ni sanciona; certificación requiere auditor acreditado.",
+   "dem": "Media",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C3.4 Auditar",
+   "tasks": [
+    {
+     "code": "E3-07-T1",
+     "t": "Planificar el programa de auditorías e inspecciones con listas de verificación basadas en la norma y el contrato",
+     "ent": "1. Programa y listas de verificación de auditoría"
+    },
+    {
+     "code": "E3-07-T2",
+     "t": "Inspeccionar cocinas, almacenes y comedores con listas de verificación",
+     "ent": "2. Informes de auditoría e inspección"
+    },
+    {
+     "code": "E3-07-T3",
+     "t": "Auditar plantas y almacenes de proveedores, incluidos los de programas sociales, en higiene, certificaciones y control de productos",
+     "ent": "2. Informes de auditoría e inspección"
+    },
+    {
+     "code": "E3-07-T4",
+     "t": "Supervisar la entrega y la preparación de los alimentos en las instituciones usuarias de programas sociales",
+     "ent": "2. Informes de auditoría e inspección"
+    },
+    {
+     "code": "E3-07-T5",
+     "t": "Registrar las no conformidades, alertas y reclamos con su plan de acción",
+     "ent": "3. Registro de no conformidades y alertas"
+    },
+    {
+     "code": "E3-07-T6",
+     "t": "Verificar el cierre de las acciones correctivas",
+     "ent": "3. Registro de no conformidades y alertas"
+    }
+   ],
+   "producto": {
+    "nombre": "Expediente de auditoría sanitaria de servicios y proveedores",
+    "desc": "Expediente de auditoría sanitaria que documenta cómo cumplen un servicio de alimentación, sus proveedores o la prestación de un programa social la norma sanitaria, el contrato y los estándares en un periodo. Integra el programa y las listas de verificación, los informes de cada auditoría, inspección o supervisión de entrega con su evidencia, y el registro de no conformidades, alertas y reclamos con sus planes de acción. Se elabora aplicando listas de verificación basadas en la norma vigente, con supervisión indirecta, y se verifica con el seguimiento documentado del cierre de cada no conformidad. Aporta a la entidad la evidencia para decidir continuidad, corrección o penalidad, y demuestra que el egresado audita con objetividad y trazabilidad.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Programa y listas de verificación de auditoría",
+      "tareas": "E3-07-T1",
+      "resumen": "calendario de auditorías y listas basadas en la norma y el contrato",
+      "evidencias": [
+       "programa anual de auditorías",
+       "listas de verificación aplicables"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informes de auditoría e inspección",
+      "tareas": "E3-07-T2, E3-07-T3, E3-07-T4",
+      "resumen": "hallazgos con evidencia por servicio, proveedor e institución usuaria",
+      "evidencias": [
+       "informe de auditoría con registro fotográfico",
+       "fichas de supervisión de plantas, almacenes y entregas"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Registro de no conformidades y alertas",
+      "tareas": "E3-07-T5, E3-07-T6",
+      "resumen": "no conformidades, alertas, responsables, plazos y cierre",
+      "evidencias": [
+       "matriz de no conformidades y alertas con estado de cierre"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-08",
+   "t": "Control de gestión del servicio de alimentación",
+   "d": "Mide y analiza los indicadores del servicio —costo de alimentos, consumos, mermas y desperdicio, cumplimiento contractual y satisfacción del comensal— y los reporta a la dirección, al cliente o a la entidad, para sostener económicamente el servicio y orientar su mejora continua.",
+   "tipo": "Actual",
+   "amb": "Concesionarios de alimentos; servicios de nutrición hospitalarios, incluidos los operados por asociación público-privada; comedores industriales y de campamentos",
+   "conf": 3,
+   "lim": "Mide y reporta indicadores con supervisión indirecta; decisiones presupuestales y contractuales corresponden a jefatura, gerencia o entidad.",
+   "dem": "Media",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C3.4 Auditar",
+   "tasks": [
+    {
+     "code": "E3-08-T1",
+     "t": "Definir el tablero de indicadores del servicio",
+     "ent": "1. Tablero de indicadores del servicio"
+    },
+    {
+     "code": "E3-08-T2",
+     "t": "Controlar el costo de alimentos con el costo por ración estandarizado, los consumos y las mermas",
+     "ent": "1. Tablero de indicadores del servicio"
+    },
+    {
+     "code": "E3-08-T3",
+     "t": "Medir el desperdicio de alimentos con el pesaje de restos en producción y en plato",
+     "ent": "1. Tablero de indicadores del servicio"
+    },
+    {
+     "code": "E3-08-T4",
+     "t": "Medir la satisfacción de los comensales",
+     "ent": "1. Tablero de indicadores del servicio"
+    },
+    {
+     "code": "E3-08-T5",
+     "t": "Atender reclamos y observaciones del cliente",
+     "ent": "2. Informe de gestión y mejora"
+    },
+    {
+     "code": "E3-08-T6",
+     "t": "Elaborar el informe periódico de gestión",
+     "ent": "2. Informe de gestión y mejora"
+    }
+   ],
+   "producto": {
+    "nombre": "Informe de gestión del servicio de alimentación",
+    "desc": "Informe de gestión que muestra, para un periodo, cómo rinde el servicio de alimentación en costo, desperdicio, cumplimiento contractual y satisfacción de los comensales. Integra el tablero de indicadores con sus metas, el registro de pesaje de restos, el análisis de desviaciones, el resumen de reclamos atendidos y las acciones de mejora propuestas. Se elabora con el costo por ración estandarizado y con datos de consumo, inventario, pesaje, encuestas y reclamos, y se verifica cruzando lo reportado con los registros de producción y almacén. Orienta las decisiones de ajuste de menú, porciones y costos ante la dirección o el cliente y demuestra que el egresado gestiona el servicio con datos.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Tablero de indicadores del servicio",
+      "tareas": "E3-08-T1, E3-08-T2, E3-08-T3, E3-08-T4",
+      "resumen": "indicadores de costo, merma, desperdicio y satisfacción con metas",
+      "evidencias": [
+       "tablero de indicadores actualizado",
+       "registro de pesaje de restos en producción y en plato",
+       "resultados de encuesta de satisfacción"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Informe de gestión y mejora",
+      "tareas": "E3-08-T5, E3-08-T6",
+      "resumen": "análisis de desviaciones, reclamos y plan de mejora",
+      "evidencias": [
+       "informe periódico entregado al cliente o a la dirección",
+       "registro de reclamos con respuesta"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "c": "E3-09",
+   "t": "Nutrición ocupacional en centros de trabajo",
+   "d": "Diseña y conduce programas de nutrición para trabajadores a partir de la vigilancia de su salud —diagnóstico y riesgo cardiometabólico del colectivo, menús según gasto energético, turnos y altitud, educación y consejería— en coordinación con salud ocupacional, para prevenir el exceso de peso y el riesgo cardiometabólico de la población laboral.",
+   "tipo": "Emergente",
+   "amb": "Campamentos mineros de altura en regímenes 14x7 y 28x14; comedores industriales y agroindustriales; empresas y entidades públicas con servicio de seguridad y salud en el trabajo",
+   "conf": 3,
+   "lim": "Supervisión indirecta de salud ocupacional; la vigilancia médica y la aptitud son del médico ocupacional; deriva casos clínicos.",
+   "dem": "Media",
+   "imp": "Alto",
+   "capacidades_que_moviliza": "C3.1 Planificar",
+   "tasks": [
+    {
+     "code": "E3-09-T1",
+     "t": "Caracterizar el perfil nutricional y laboral de los trabajadores con los indicadores de los exámenes médico ocupacionales",
+     "ent": "1. Diagnóstico nutricional y de riesgo del colectivo"
+    },
+    {
+     "code": "E3-09-T2",
+     "t": "Estratificar el riesgo cardiometabólico del colectivo laboral",
+     "ent": "1. Diagnóstico nutricional y de riesgo del colectivo"
+    },
+    {
+     "code": "E3-09-T3",
+     "t": "Diseñar el programa nutricional y adecuar con el servicio los menús a turnos, exigencia física y altitud",
+     "ent": "2. Programa de alimentación saludable"
+    },
+    {
+     "code": "E3-09-T4",
+     "t": "Ejecutar sesiones de educación nutricional y consejería grupal e individual a los trabajadores",
+     "ent": "2. Programa de alimentación saludable"
+    },
+    {
+     "code": "E3-09-T5",
+     "t": "Evaluar los indicadores del programa y reportarlos a salud ocupacional y al comité de seguridad y salud en el trabajo",
+     "ent": "3. Informe de resultados al empleador"
+    }
+   ],
+   "producto": {
+    "nombre": "Programa de nutrición ocupacional de la empresa",
+    "desc": "Programa de nutrición ocupacional que organiza, para la población trabajadora de una empresa o campamento, qué se come, qué se enseña y cómo se mide el efecto en su salud nutricional. Integra el diagnóstico nutricional anonimizado desde los exámenes médico ocupacionales, la estratificación del riesgo cardiometabólico, la adecuación de menús a turnos, exigencia física y altitud, las actividades educativas y de consejería, y el reporte de indicadores al empleador. Se elabora con el médico ocupacional y el comité de seguridad y salud en el trabajo, y se verifica con la evolución del índice de masa corporal, el perímetro abdominal y la elección de platos saludables entre exámenes sucesivos. Orienta las decisiones preventivas y la oferta alimentaria de la empresa, y demuestra que el egresado vincula el servicio de alimentación con la salud del trabajador.",
+    "entregables": [
+     {
+      "n": "1",
+      "t": "Diagnóstico nutricional y de riesgo del colectivo",
+      "tareas": "E3-09-T1, E3-09-T2",
+      "resumen": "perfil antropométrico, hábitos, condiciones de trabajo y riesgo por área o turno",
+      "evidencias": [
+       "base anonimizada de indicadores del personal",
+       "tabla de riesgo cardiometabólico por área o turno"
+      ]
+     },
+     {
+      "n": "2",
+      "t": "Programa de alimentación saludable",
+      "tareas": "E3-09-T3, E3-09-T4",
+      "resumen": "menús adecuados, cronograma educativo y consejería",
+      "evidencias": [
+       "programa aprobado por la empresa con lineamientos de menú",
+       "registro de sesiones y consejerías"
+      ]
+     },
+     {
+      "n": "3",
+      "t": "Informe de resultados al empleador",
+      "tareas": "E3-09-T5",
+      "resumen": "evolución de indicadores y recomendaciones al comité de seguridad y salud",
+      "evidencias": [
+       "informe de indicadores compartido con salud ocupacional y el comité"
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}
