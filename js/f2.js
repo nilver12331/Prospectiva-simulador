@@ -60,10 +60,10 @@ const esc = s => String(s??"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",
 const tagLvl = d => `<span class="tag t-${({Alta:"alta",Alto:"alta",Media:"media",Medio:"media",Baja:"baja",Bajo:"baja"})[d]||"neutral"}">${esc(d)}</span>`;
 const confBar = n => `<span class="conf" title="Nivel de confianza ${n}/5">${[1,2,3,4,5].map(i=>`<i class="${i<=n?'on':''}"></i>`).join("")}</span> <span class="num">${n}</span>`;
 const fnState = f => ["fb","sb","pb"].some(b=>f[b]==="no") ? "no" : ["fb","sb","pb"].every(b=>f[b]==="ok") ? "ok" : ["fb","sb","pb"].some(b=>f[b]==="rev") ? "rev" : "prop";
-const active = () => S.fn.filter(f=>fnState(f)==="ok");
+const active = () => S.fn.filter(f=>fnState(f)!=="no");
 const nTasks = () => S.fn.reduce((a,f)=>a+f.tasks.length,0);
-const allRes = () => S.fn.flatMap(f=>f.rs.map(r=>({...r,f})));
-const findRes = id => S.fn.flatMap(f=>f.rs).find(r=>r.id===id);
+const allRes = () => S.fn.flatMap(f=>(f.rs||[]).map(r=>({...r,f})));
+const findRes = id => S.fn.flatMap(f=>f.rs||[]).find(r=>r.id===id);
 const phaseOf = s => s<3?0:s<7?1:s<13?2:s<19?3:4;
 
 /* ---------- Progreso ---------- */
@@ -84,7 +84,7 @@ const FLUJO = [
  {s:1,  f:()=>{ if(!S.delphi) return loadDelphi(); if(S.round<2 && hayR2()) return round2(); confirmExcl(); }},
  {s:2,  f:()=>save21()},
  {s:3,  f:()=>gen22()},
- {s:4,  f:()=>{ if(!S.recPanel) return loadRes(); active().forEach(f=>f.rs.forEach(r=>{ if(r.st!=="na") r.st="ok"; })); resPrompted=false; checkRes22(); }},
+ {s:4,  f:()=>{ if(!S.recPanel) return loadRes(); active().forEach(f=>(f.rs||[]).forEach(r=>{ if(r.st!=="na") r.st="ok"; })); resPrompted=false; checkRes22(); }},
  {s:5,  f:()=>genTN()},
  {s:6,  f:()=>save22()},
  {s:7,  f:()=>gen23()},
@@ -457,10 +457,16 @@ function save21(){
 function gen22(){
   userSays("Genera la Matriz de Elementos de Productividad de Productividad.");
   think(["Leyendo productos, entregables y tareas validados","Estándares: verificando denominación y vigencia","Metodologías con procedimiento reconocible","Herramientas y tecnologías por categoría funcional","Fichas de IA generativa (autonomía A0–A3)","Vinculando cada recurso a tareas y nivel de dominio","Codificando el banco RH-E/M/T/IA"], ()=>{
-    active().forEach(f=>{ f.rs = f.rec.map((r,i)=>({...r, id:`${f.c}#${i}`, st: r.code==="—" ? "na" : "prop"})); });
-    S.recOn = true; resPrompted = false; S.step = 4; S.recSel = active()[0].c; S.avail.add("recursos"); S.mode.recursos="fn"; setTab("recursos");
+    if(!S.fn.length && FNK.length) {
+      S.fn = FNK.map(k=>({...D.FN[k], fb:"prop", sb:"prop", pb:"prop", rs:[]}));
+    }
+    const A = active();
+    A.forEach(f=>{ f.rs = (f.rec||[]).map((r,i)=>({...r, id:`${f.c}#${i}`, st: r.code==="—" ? "na" : "prop"})); });
+    S.recOn = true; resPrompted = false; S.step = 4;
+    S.recSel = A.length ? A[0].c : (S.fn[0] ? S.fn[0].c : "");
+    S.avail.add("recursos"); S.mode.recursos="fn"; setTab("recursos");
     const R = allRes().filter(r=>r.st!=="na");
-    addMsg("agent", `<p>La matriz tiene <b>${R.length} asignaciones función–recurso</b> (${CATS.map(([c])=>`${R.filter(r=>r.cat===c).length} en ${c.toLowerCase()}`).join(", ")}), tomadas de un banco de <b>${D.bank.length} recursos</b> codificados; ${D.bank.filter(b=>/\(\d+\)/.test(b[3]||"")).length} se comparten entre funciones. Cada recurso indica su aplicación en la tarea, el nivel de dominio y su aporte al producto.</p>${active().filter(f=>f.rec.some(r=>r.code==="—")).length?`<p>${active().filter(f=>f.rec.some(r=>r.code==="—")).map(f=>f.c).join(" y ")} quedan <i>sin integración de IA pertinente</i>.</p>`:""}${docCard("Matriz de Elementos de Productividad de Productividad",`${R.length} asignaciones · ${active().length} funciones`,"recursos","fn")}`,
+    addMsg("agent", `<p>La matriz tiene <b>${R.length} asignaciones función–recurso</b> (${CATS.map(([c])=>`${R.filter(r=>r.cat===c).length} en ${c.toLowerCase()}`).join(", ")}), tomadas de un banco de <b>${D.bank.length} recursos</b> codificados; ${D.bank.filter(b=>/\(\d+\)/.test(b[3]||"")).length} se comparten entre funciones. Cada recurso indica su aplicación en la tarea, el nivel de dominio y su aporte al producto.</p>${A.filter(f=>(f.rec||[]).some(r=>r.code==="—")).length?`<p>${A.filter(f=>(f.rec||[]).some(r=>r.code==="—")).map(f=>f.c).join(" y ")} quedan <i>sin integración de IA pertinente</i>.</p>`:""}${docCard("Matriz de Elementos de Productividad de Productividad",`${R.length} asignaciones · ${A.length} funciones`,"recursos","fn")}`,
       [{label:"Cargar validación abreviada (3 expertos)", main:true, fn:loadRes},
        {label:"Ver banco de recursos", keep:true, fn:()=>{ S.mode.recursos="bank"; setTab("recursos"); }}]);
     refresh();
@@ -470,18 +476,24 @@ function loadRes(){
   userSays("Carga la validación abreviada de recursos.");
   think(["X1 académico · X4 profesional senior · X6 contextual (normativo, digital e IA)","I-CVI = 1,00 en los siete criterios","X6: fichas de IA, autonomía frente al nivel de confianza y marcos citados"], ()=>{
     S.recPanel = true;
-    active().forEach(f=>f.rs.forEach(r=>{ if(r.st!=="na") r.exp=true; }));
-    S.recSel = active()[0].c; S.mode.recursos="fn"; setTab("recursos"); refresh();
+    const A = active();
+    if(!allRes().length && A.length) {
+      A.forEach(f=>{ f.rs = (f.rec||[]).map((r,i)=>({...r, id:`${f.c}#${i}`, st: r.code==="—" ? "na" : "prop"})); });
+    }
+    A.forEach(f=>(f.rs||[]).forEach(r=>{ if(r.st!=="na") r.exp=true; }));
+    S.recSel = A.length ? A[0].c : (S.fn[0] ? S.fn[0].c : "");
+    S.mode.recursos="fn"; setTab("recursos"); refresh();
     const ia = allRes().filter(r=>r.cat.startsWith("Integración")&&r.exp);
+    const selC = A.length ? A[0].c : "";
     addMsg("agent", `<p>Los expertos dieron conformidad en la ronda 1 (I-CVI = 1,00 en los siete criterios). X6 verificó las ${ia.length} fichas de IA: autonomía coherente con el nivel de confianza, sin datos personales fuera de sistemas institucionales y con marco citado.</p><p>Ahora confirme <b>función por función</b>: el producto queda fijo a la izquierda mientras recorre sus recursos; al terminar use «Confirmar y seguir».</p>`,
-      [{label:"Empezar por "+active()[0].c, main:true, keep:true, fn:()=>{ S.recSel=active()[0].c; setTab("recursos"); }},
-       {label:"Confirmar todas las funciones", fn:()=>{ userSays("Confirma los recursos de todas las funciones."); active().forEach(f=>f.rs.forEach(r=>{ if(r.st!=="na") r.st="ok"; })); resPrompted=false; refresh(); checkRes22(); }}]);
+      [{label: selC ? "Empezar por "+selC : "Ver recursos", main:true, keep:true, fn:()=>{ if(selC) S.recSel=selC; setTab("recursos"); }},
+       {label:"Confirmar todas las funciones", fn:()=>{ userSays("Confirma los recursos de todas las funciones."); active().forEach(f=>(f.rs||[]).forEach(r=>{ if(r.st!=="na") r.st="ok"; })); resPrompted=false; refresh(); checkRes22(); }}]);
   });
 }
 function confirmFn(code){
   const A=active(), f=A.find(x=>x.c===code); if(!f) return;
-  f.rs.forEach(r=>{ if(r.st==="prop") r.st="ok"; });
-  const next = A.find(x=>x.rs.some(r=>r.st==="prop"));
+  (f.rs||[]).forEach(r=>{ if(r.st==="prop") r.st="ok"; });
+  const next = A.find(x=>(x.rs||[]).some(r=>r.st==="prop"));
   toast(`${f.c}: recursos confirmados`);
   if(next){ S.recSel=next.c; }
   resPrompted=false; refresh(); $("#pBody").scrollTop=0; checkRes22();
@@ -489,10 +501,14 @@ function confirmFn(code){
 let resPrompted=false;
 function checkRes22(){
   if(S.step!==4) return;
+  const A = active();
+  if(A.length && !allRes().length) {
+    A.forEach(f=>{ f.rs = (f.rec||[]).map((r,i)=>({...r, id:`${f.c}#${i}`, st: r.code==="—" ? "na" : "ok"})); });
+  }
   if(allRes().some(r=>r.st==="prop"||r.st==="rev")) return;
   if(resPrompted) return;
   resPrompted=true; S.step=5; refresh();
-  addMsg("agent", `<p>Recursos confirmados en las ${active().length} funciones (${allRes().filter(r=>r.st==="ok").length} asignaciones).</p><p>Falta el último momento del paso: <b>generar los temas nucleares de la especialidad</b> —lo que cada tarea exige saber—. Salen del mismo barrido de tres niveles sobre producto, entregables, tareas y elementos de productividad, y aparecen como una cuarta columna de esta misma interfaz.</p>`,
+  addMsg("agent", `<p>Recursos confirmados en las ${A.length} funciones (${allRes().filter(r=>r.st==="ok").length} asignaciones).</p><p>Falta el último momento del paso: <b>generar los temas nucleares de la especialidad</b> —lo que cada tarea exige saber—. Salen del mismo barrido de tres niveles sobre producto, entregables, tareas y elementos de productividad, y aparecen como una cuarta columna de esta misma interfaz.</p>`,
     [{label:"Generar Temas Nucleares", main:true, fn:genTN}]);
 }
 /* ---------- 2.2 · momento 4: Temas nucleares de especialidad (paso 2.3) ---------- */
