@@ -340,6 +340,172 @@ const SIS333={
 };
 SIS333.temas=temas(GT_UNI,'investigación de Génesys: sílabos de referencia y ciclo de implementación de COBIT 2019');
 
+
+/* ═════════════ EGE101 · COMUNICACIÓN ORAL Y ESCRITA (versión mejorada del sílabo UPeU 2024-2) ═════════════
+   Base: sílabo institucional de Comunicación Oral y Escrita (Departamentos académicos · Humanidades).
+   Se conserva su estructura (tres unidades: comprensión, producción y expresión; producto: artículo de opinión
+   académica) y se ajusta a la matriz del plan: 3 créditos, 32 HT + 32 HP en 16 semanas (2 HT + 2 HP por sesión). */
+const CO_U=[
+ {macro:'Comprensión oral y escrita',
+  ra:{titulo:'Informe crítico de lectura',
+    def:'Analiza críticamente artículos de opinión y textos académicos de su campo profesional, identificando tesis, argumentos, contraargumentos y falacias, y los valora en los niveles literal, inferencial y crítico con estrategias de lectura explícitas.',
+    origen:'F1 · T1.1 y T1.2 · capacidad GC1 (Comprensión oral y escrita) · Bloom: Analizar · Evaluar'},
+  prod:{titulo:'Informe crítico de lectura y exposición del libro asignado',
+    desc:'Informe crítico de un artículo de opinión o de un texto académico de la especialidad, redactado en el aula, con tesis, argumentos, contraargumentos y una valoración fundamentada; se acompaña de una exposición breve sobre el libro institucional asignado (Enciende una luz o Una luz en los Andes).',
+    entregables:['Organizador del texto: tipología, tema, idea principal e ideas secundarias','Resumen con subrayado, circulado y sumillado','Ficha de niveles de comprensión (literal, inferencial y crítico)','Informe crítico de lectura y exposición del libro asignado'],
+    verificacion:['Identifica con precisión la tesis y distingue argumentos de contraargumentos.','Sustenta la valoración crítica con evidencia del propio texto.','Cita la fuente según normas APA 7.','Respeta la normativa ortográfica y gramatical de la RAE.'],
+    formato:'Informe de 600 a 800 palabras redactado en el aula + exposición de 5 minutos sobre el libro asignado'},
+  crit:[{txt:'Identifica la tesis, los argumentos y los contraargumentos del texto y los organiza con claridad en el informe.',cap:'gc1',fx:'F1',tarea:'T1.1'},
+        {txt:'Valora críticamente el texto en los tres niveles de comprensión, con evidencias textuales y sin errores normativos.',cap:'gc1',fx:'F1',tarea:'T1.2'}],
+  ses:[
+   ['Tipología textual e ideas del texto','Tipos de texto: narrativo, expositivo y argumentativo|Tema central e idea principal|Ideas secundarias y su función|El texto académico en la vida universitaria',
+    'Clasifica textos reales de su especialidad por su tipología e identifica en ellos el tema, la idea principal y las ideas secundarias.',
+    'Analiza un artículo de su campo profesional y completa el organizador de ideas con la guía de aprendizaje autónomo.',
+    'Organizador del texto','Clasifica el texto y jerarquiza sus ideas con precisión.','F1','T1.1'],
+   ['Estrategias de lectura','Antes de leer: propósito y predicción|Durante la lectura: subrayado, circulado y sumillado|Después de leer: resumen y organizadores|Lectura en pantalla y búsqueda de fuentes confiables',
+    'Aplica las estrategias de antes, durante y después de la lectura a un artículo de opinión y elabora su resumen.',
+    'Lee un artículo académico de su especialidad aplicando las estrategias y entrega el resumen en el aula virtual.',
+    'Resumen con estrategias de lectura','Resume el texto conservando la tesis y los argumentos centrales, sin copiar literalmente.','F1','T1.1'],
+   ['Niveles de comprensión literal e inferencial','Recuperación de información explícita|Inferencias de causa, intención y consecuencia|Vocabulario en contexto|Preguntas de comprensión',
+    'Resuelve preguntas literales e inferenciales sobre un texto expositivo y justifica cada inferencia con evidencia del texto.',
+    'Desarrolla la prueba de comprensión literal e inferencial en el aula virtual.',
+    'Ficha de comprensión literal e inferencial','Formula inferencias válidas sustentadas en evidencia textual.','F1','T1.2'],
+   ['Nivel de comprensión crítico y argumentación','Tesis, argumentos y contraargumentos|Tipos de argumentos y falacias frecuentes|Juicio crítico sustentado|Lectura crítica desde la cosmovisión bíblico-cristiana',
+    'Evalúa un artículo de opinión: identifica su tesis, sus argumentos y posibles falacias, y emite un juicio crítico sustentado.',
+    'Resuelve la prueba de comprensión crítica y redacta un párrafo de valoración del artículo.',
+    'Ficha de comprensión crítica','Emite un juicio crítico coherente, sustentado y respetuoso.','F1','T1.2'],
+   ['Evaluación de la unidad: informe crítico de lectura','Estructura del informe de lectura|Citación APA 7 de la fuente|Exposición oral del libro asignado',
+    'Redacta en el aula el informe crítico de lectura y expone brevemente el libro asignado.',
+    'Revisa y edita el informe con la lista de verificación y la retroalimentación recibida.',
+    'Informe crítico de lectura sustentado','Integra comprensión y valoración crítica en un informe claro, correcto y citado.','F1','T1.2']]},
+ {macro:'Producción oral y escrita',
+  ra:{titulo:'Artículo de opinión académica',
+    def:'Redacta un artículo de opinión académica inédito sobre una problemática social o de su campo profesional, con introducción, desarrollo y conclusión, aplicando las propiedades textuales, la normativa de la RAE y la citación APA 7, a través de un proceso de planificación, textualización y revisión.',
+    origen:'F2 · T2.1 y T2.2 · capacidad GC2 (Producción oral y escrita) · Bloom: Aplicar · Crear'},
+  prod:{titulo:'Artículo de opinión académica',
+    desc:'Artículo de opinión académica inédito de 900 a 1200 palabras con introducción (contexto y tesis), desarrollo (argumentos con evidencias y refutación de objeciones) y conclusión (síntesis y reafirmación de la tesis), con referencias APA 7, redactado con coherencia, cohesión y adecuación, y acompañado de la exposición del libro asignado.',
+    entregables:['Párrafos con puntuación correcta','Párrafos cohesionados con conectores y sustitución léxica','Párrafos por tipo y paráfrasis con cita','Plan del artículo: tema, tesis y argumentos','Desarrollo del artículo','Introducción y conclusión','Artículo de opinión académica revisado'],
+    verificacion:['Plantea una tesis clara y la sostiene con al menos tres argumentos con evidencia.','Refuta al menos una objeción previsible.','Mantiene coherencia, cohesión y adecuación en todo el texto.','No presenta errores de ortografía, puntuación ni concordancia.','Cita y referencia según APA 7; declara el uso de IA si la empleó.'],
+    formato:'Artículo en Word o PDF (Times New Roman 12, interlineado 1,5) + informe de similitud en Turnitin'},
+  crit:[{txt:'Redacta párrafos correctos y cohesionados, aplicando la puntuación, los conectores y la sustitución léxica.',cap:'gc2',fx:'F2',tarea:'T2.1'},
+        {txt:'Produce un artículo de opinión académica inédito con tesis, argumentos, refutación y conclusión, citado en APA 7.',cap:'gc2',fx:'F2',tarea:'T2.2'},
+        {txt:'Revisa y corrige su texto con la retroalimentación de pares y del docente, evidenciando mejora entre versiones.',cap:'gc1',fx:'F2',tarea:'T2.2'}],
+  ses:[
+   ['El párrafo y los signos de puntuación','Estructura del párrafo y de la oración|Coma, punto y coma, punto y dos puntos|Errores frecuentes de puntuación|Normativa de la RAE',
+    'Redacta párrafos sobre un tema de su especialidad aplicando correctamente los signos de puntuación.',
+    'Corrige un texto con errores de puntuación con ayuda del Diccionario panhispánico de dudas.',
+    'Párrafos con puntuación correcta','Aplica los signos de puntuación según la normativa vigente.','F2','T2.1'],
+   ['Propiedades textuales y cohesión','Coherencia, cohesión y adecuación|Conectores lógicos|Sustitución léxica y referencia|Concordancia y tiempos verbales',
+    'Redacta y mejora párrafos incorporando conectores lógicos y mecanismos de sustitución léxica.',
+    'Reescribe un párrafo propio aplicando las propiedades textuales revisadas en la sesión.',
+    'Párrafos cohesionados','Enlaza las ideas con conectores y referencias pertinentes, sin repeticiones innecesarias.','F2','T2.1'],
+   ['Tipos de párrafo según la idea principal','Párrafo deductivo, inductivo y encuadrado|Ideas principales y secundarias|Progresión temática',
+    'Redacta párrafos deductivos, inductivos y encuadrados con ideas principales y secundarias bien diferenciadas.',
+    'Identifica la idea principal en párrafos de artículos académicos de su campo.',
+    'Párrafos por ubicación de la idea principal','Construye párrafos con una idea principal explícita y un desarrollo pertinente.','F2','T2.1'],
+   ['Tipos de párrafo según su función y paráfrasis','Párrafos de introducción, desarrollo, transición y conclusión|Paráfrasis y resumen|Cita directa e indirecta en APA 7|Plagio y honestidad académica',
+    'Identifica la función de los párrafos de un artículo y parafrasea fragmentos citando la fuente en APA 7.',
+    'Parafrasea textos asignados y verifica la originalidad con la herramienta institucional.',
+    'Paráfrasis con cita APA','Parafrasea sin alterar el sentido y cita la fuente correctamente.','F2','T2.1'],
+   ['Planificación y desarrollo del artículo de opinión','Etapas de producción: planificación, textualización y revisión|Selección del tema y formulación de la tesis|Tipos de argumentos y evidencias|Refutación de contraargumentos',
+    'Planifica el artículo (tema, tesis y argumentos) y redacta su desarrollo con evidencias y la refutación de una objeción.',
+    'Lee artículos de opinión y ensayos de referencia y completa el plan del artículo.',
+    'Plan y desarrollo del artículo','Sostiene la tesis con argumentos y evidencias pertinentes.','F2','T2.2'],
+   ['Introducción, conclusión y revisión entre pares','Estrategias para introducir el tema y la tesis|Estrategias de cierre y reafirmación|Revisión entre pares con rúbrica|Uso responsable de la IA en la revisión',
+    'Redacta la introducción y la conclusión del artículo y revisa el texto de un compañero con la rúbrica.',
+    'Corrige el artículo con la retroalimentación recibida y declara el uso de IA si la empleó.',
+    'Introducción, conclusión y registro de revisión','Redacta una introducción y una conclusión coherentes con la tesis y el desarrollo.','F2','T2.2'],
+   ['Evaluación de la unidad: artículo de opinión académica','Integración del artículo|Informe de similitud|Exposición del libro asignado',
+    'Presenta el artículo de opinión académica revisado y expone brevemente el libro asignado.',
+    'Corrige las observaciones y sugerencias del docente.',
+    'Artículo de opinión académica','Entrega un artículo inédito, coherente, correcto y citado según APA 7.','F2','T2.2']]},
+ {macro:'Expresión verbal',
+  ra:{titulo:'Sustentación oral del artículo de opinión',
+    def:'Expone y sustenta su artículo de opinión ante una audiencia académica de forma clara, persuasiva y ética, integrando recursos verbales, paraverbales y no verbales, apoyo visual pertinente y respuestas argumentadas a las preguntas.',
+    origen:'F3 · T3.1 y T3.2 · capacidad GC3 (Expresión verbal) · Bloom: Aplicar · Evaluar'},
+  prod:{titulo:'Exposición y sustentación del artículo de opinión académica',
+    desc:'Sustentación oral de 7 a 10 minutos del artículo de opinión académica ante el aula, con plan de exposición, apoyo visual y ronda de preguntas, en la que el estudiante sintetiza su tesis y sus argumentos y cierra con una reflexión fundamentada.',
+    entregables:['Plan de exposición con guion','Apoyo visual','Primera exposición y retroalimentación','Sustentación final del artículo'],
+    verificacion:['Presenta la tesis y los argumentos con claridad y en orden lógico.','Usa adecuadamente la voz, la mirada, la postura y los gestos.','El apoyo visual complementa y no reemplaza la exposición.','Responde las preguntas con argumentos y respeto.'],
+    formato:'Exposición de 7 a 10 minutos con apoyo visual + ronda de preguntas de 3 minutos'},
+  crit:[{txt:'Expone con claridad y orden la tesis y los argumentos de su artículo, adecuando el registro a la audiencia.',cap:'gc3',fx:'F3',tarea:'T3.1'},
+        {txt:'Integra recursos verbales, paraverbales y no verbales, y responde las preguntas con argumentos pertinentes.',cap:'gc3',fx:'F3',tarea:'T3.2'}],
+  ses:[
+   ['Lenguaje verbal, paraverbal y no verbal','Elementos de la comunicación oral|Voz: volumen, ritmo, entonación y pausas|Mirada, postura y gestos|Plan de exposición',
+    'Formula el plan de exposición de su artículo de opinión y ensaya la apertura aplicando los recursos paraverbales.',
+    'Analiza videos de exposiciones académicas e identifica aciertos y errores con la lista de cotejo.',
+    'Plan de exposición','Estructura la exposición con apertura, desarrollo y cierre.','F3','T3.1'],
+   ['Comunicación oral eficaz en contextos académicos','Estrategias de apertura y cierre|Diseño del apoyo visual|Exposición oral (primer bloque)|Retroalimentación con rúbrica',
+    'Expone el artículo de opinión (primer bloque) y recibe retroalimentación con la rúbrica.',
+    'Ajusta el plan de exposición y el apoyo visual con la retroalimentación recibida.',
+    'Primera exposición','Comunica con claridad y usa un apoyo visual pertinente.','F3','T3.1'],
+   ['Errores frecuentes y manejo de preguntas','Muletillas, lectura de diapositivas y exceso de texto|Control de la ansiedad al hablar en público|Manejo de preguntas y objeciones|Exposición oral (segundo bloque)',
+    'Expone el artículo (segundo bloque) y practica respuestas a preguntas y objeciones previsibles.',
+    'Graba un ensayo de su exposición y lo autoevalúa con la lista de cotejo.',
+    'Ensayo grabado y autoevaluación','Corrige los errores identificados y responde las objeciones con argumentos.','F3','T3.2'],
+   ['Evaluación de la unidad: sustentación del artículo','Sustentación final|Ronda de preguntas|Reflexión final y metacognición',
+    'Presenta y sustenta el artículo de opinión revisado ante el aula y responde las preguntas.',
+    'Redacta una reflexión final sobre su progreso en comprensión, producción y expresión.',
+    'Sustentación del artículo de opinión','Sustenta con dominio del tema, claridad, persuasión y respeto.','F3','T3.2']]}
+];
+const CO_UNI=CO_U.map((U,i)=>unidad(i+1,U,2,2));
+const EGE101={
+  generado:true,clase:'Integrado',banco:'comunicacion',
+  ref:'Sílabo institucional UPeU de Comunicación Oral y Escrita (plan 2024-2) mejorado por Génesys · normativa RAE · normas APA 7',
+  sumilla:'Comunicación Oral y Escrita es una asignatura del área de estudios generales, de naturaleza teórico-práctica y obligatoria, del primer ciclo. Desarrolla la competencia de comunicación eficaz en sus tres capacidades: comprensión oral y escrita, producción oral y escrita, y expresión verbal. Comprende tres unidades: comprensión de textos académicos y de opinión; producción de párrafos y del artículo de opinión académica, con la normativa de la RAE y la citación APA 7; y expresión oral para sustentar ante una audiencia académica. El estudiante construye por unidades un artículo de opinión académica sobre una problemática de su campo profesional, que redacta, revisa y sustenta, con honestidad académica, uso responsable de la inteligencia artificial y una cosmovisión bíblico-cristiana.',
+  funciones:[
+   {id:'F1',nombre:'Comprensión de textos académicos y de opinión',producto:'Informe crítico de lectura',evidencia:'Informe con tesis, argumentos y valoración crítica sustentada en el texto',
+    tareas:[{id:'T1.1',txt:'Identifica la tipología, las ideas y la estructura argumentativa de un texto aplicando estrategias de lectura.'},
+            {id:'T1.2',txt:'Valora críticamente el texto en los niveles literal, inferencial y crítico, con evidencias.'}]},
+   {id:'F2',nombre:'Producción de textos académicos',producto:'Artículo de opinión académica',evidencia:'Artículo inédito, coherente, correcto y citado en APA 7, con registro de revisión',
+    tareas:[{id:'T2.1',txt:'Redacta párrafos correctos, cohesionados y parafraseados con honestidad académica.'},
+            {id:'T2.2',txt:'Planifica, redacta y revisa un artículo de opinión académica con tesis, argumentos y refutación.'}]},
+   {id:'F3',nombre:'Expresión oral en contextos académicos',producto:'Sustentación oral del artículo',evidencia:'Exposición evaluada con rúbrica y respuestas argumentadas a las preguntas',
+    tareas:[{id:'T3.1',txt:'Planifica y expone con claridad, integrando recursos verbales, paraverbales y no verbales.'},
+            {id:'T3.2',txt:'Sustenta sus ideas y responde preguntas y objeciones con argumentos y respeto.'}]}],
+  temas:null,
+  productoCurso:{titulo:'Artículo de opinión académica y su sustentación',
+    desc:'Producto integrador del curso: un artículo de opinión académica inédito sobre una problemática de su campo profesional, que el estudiante prepara leyendo críticamente (unidad 1), redacta y revisa (unidad 2) y sustenta oralmente (unidad 3).',
+    entregables:['Informe crítico de lectura (unidad 1)','Artículo de opinión académica (unidad 2)','Sustentación oral del artículo (unidad 3)'],
+    origen:'Sílabo institucional 2024-2: se conservan su producto (artículo de opinión académica), sus unidades y su secuencia; Génesys lo ajusta a los 3 créditos de la matriz y a las capacidades GC1, GC2 y GC3.'},
+  raCurso:{titulo:'Comunicación eficaz en el artículo de opinión académica',
+    def:'Redacta y sustenta un artículo de opinión académica sobre una problemática de su campo profesional, comprendiendo críticamente las fuentes, aplicando la normativa de la RAE y la citación APA 7, y exponiendo con claridad, coherencia y persuasión ante una audiencia académica, con ética cristiana y honestidad académica.',
+    origen:'Resultado del sílabo institucional, precisado con el producto, las normas de escritura y las capacidades GC1, GC2 y GC3.'},
+  criteriosCurso:[
+   {cap:'gc1',txt:'Comprende críticamente textos académicos y de opinión: identifica tesis, argumentos y contraargumentos, y los valora con evidencia.',fx:'F1',tarea:'T1.2',nivel:1},
+   {cap:'gc2',txt:'Produce textos académicos coherentes, cohesionados y correctos, con citación APA 7 y honestidad académica.',fx:'F2',tarea:'T2.2',nivel:1},
+   {cap:'gc3',txt:'Se expresa oralmente con claridad y persuasión, integrando recursos verbales, paraverbales y no verbales.',fx:'F3',tarea:'T3.2',nivel:1}],
+  unidades:CO_UNI,
+  estrategias:{
+   didacticas:['Lectura guiada y análisis de casos con textos reales de la especialidad del estudiante','Aprendizaje basado en proyectos: el artículo de opinión se construye por etapas a lo largo del curso','Escritura por procesos: planificación, textualización y revisión con versiones sucesivas','Revisión entre pares con rúbrica y retroalimentación del docente','Práctica oral con ensayo grabado y autoevaluación'],
+   recursos:['Diccionario de la lengua española y Diccionario panhispánico de dudas (RAE)','Normas APA 7.ª edición','Repositorio institucional y bases de datos suscritas por la UPeU','Herramienta institucional de similitud (Turnitin)','Aula virtual con guías, rúbricas y listas de cotejo','Libros institucionales: Enciende una luz y Una luz en los Andes'],
+   ia:['La IA generativa puede usarse para buscar ideas o revisar la ortografía, nunca para redactar el artículo','Todo uso de IA se declara en el entregable, indicando la herramienta y para qué se usó','El texto entregado debe ser propio y pasar la verificación de similitud'],
+   modalidad:['Proyector o TV Smart e internet en el aula','Grabación de las sesiones teóricas por 72 horas','Guía de aprendizaje autónomo por sesión (GDAA)','Tutoría asíncrona con respuesta en 24 horas']},
+  evaluacion:[
+   ['Unidad 1','Informe crítico de lectura y exposición del libro asignado · evaluación de sesiones','Lista de cotejo','Semanas 1–5','5 %'],
+   ['Unidad 1','Informe crítico de lectura · evaluación del producto','Rúbrica analítica','Semana 5','20 %'],
+   ['Unidad 2','Párrafos y avances del artículo · evaluación de sesiones','Lista de cotejo','Semanas 6–12','5 %'],
+   ['Unidad 2','Artículo de opinión académica · evaluación del producto','Rúbrica analítica','Semana 12','20 %'],
+   ['Unidad 3','Plan de exposición y ensayos · evaluación de sesiones','Lista de cotejo','Semanas 13–16','10 %'],
+   ['Unidad 3','Sustentación del artículo · evaluación del producto','Rúbrica de exposición oral','Semana 16','30 %'],
+   ['Competencia general','Investigación e innovación: redacción y difusión honesta del texto','Rúbrica de competencia general','Semana 16','10 %']],
+  evalNota:'Promedio ponderado: evaluación de sesiones 20 % · evaluación de productos 70 % · competencia general 10 %. Nota mínima aprobatoria: 13 (escala vigesimal). Asistencia mínima: 70 %.',
+  referencias:[
+   'Real Academia Española y Asociación de Academias de la Lengua Española. (2010). Ortografía de la lengua española. Espasa.',
+   'Real Academia Española. (2005). Diccionario panhispánico de dudas. Santillana. https://www.rae.es/dpd/',
+   'American Psychological Association. (2020). Publication manual of the American Psychological Association (7.ª ed.). APA.',
+   'Boeglin, M. (2011). Leer y redactar en la universidad: Del caos de las ideas al texto estructurado. Cooperativa Editorial Magisterio.',
+   'Cassany, D. (1995). La cocina de la escritura. Anagrama.',
+   'Calero, A. (2012). Cómo mejorar la comprensión lectora. Wolters Kluwer.',
+   'Garzón Puetate, W. A., y Montes Cervantes, J. E. (2023). Comunicación oral y escrita: Tu herramienta para el éxito. Religación Press.',
+   'Münch Galindo, L., y Hernández Palafox, A. (2023). Comunicación oral y escrita. Cengage Learning.',
+   'Montañez Silva, N. M., y Prieto Ortiz, J. (2024). Comunicación oral y escrita: La escritura. Escuela Tecnológica Instituto Técnico Central.',
+   'Pavía, I. (2023). Comunicación oral y escrita en la empresa (2.ª ed.). Ecoe Ediciones.',
+   'Santos Márquez, W. (2021). Comunicación y expresión oral y escrita. Caduceus.',
+   'Centro Virtual Cervantes. (s. f.). Instituto Cervantes. https://cvc.cervantes.es/']
+};
+EGE101.temas=temas(CO_UNI,'sílabo institucional UPeU 2024-2 mejorado por Génesys');
+
 /* Lo que Génesys revisó en cada momento del constructor (se muestra mientras genera) */
 const TRAZA={
  SIS332:[
@@ -352,6 +518,16 @@ const TRAZA={
   'Producto partido en tres entregas: capa bronce (semana 5), dataset curado (semana 10) y solución analítica (semana 16).',
   'Resultados y criterios por unidad trazados a las tareas T1.1–T3.2; se incluye la protección de datos personales (Ley N.º 29733) como criterio verificable.',
   'Dieciséis sesiones de 2 HT + 4 HP (32 + 64 horas), cada una con su laboratorio, su actividad autónoma y su entregable; evaluación con pesos y referencias verificables.'],
+ EGE101:[
+  "Nombre «Comunicación Oral y Escrita» · ciclo 1 · 3 créditos · 32 HT + 32 HP · capacidades GC1, GC2 y GC3 (comunicación eficaz) en nivel 1.",
+  "Referencia principal: el sílabo institucional UPeU 2024-2 de la asignatura (tres unidades: comprensión, producción y expresión verbal).",
+  "Se conserva el producto institucional —artículo de opinión académica— como producto integrado que se lee, se escribe y se sustenta.",
+  "Un criterio por capacidad: GC1 comprende críticamente, GC2 produce textos académicos, GC3 se expresa oralmente.",
+  "Resultado de aprendizaje precisado con normas verificables: normativa de la RAE, citación APA 7 y honestidad académica.",
+  "Mejoras al original: niveles de comprensión con evidencia textual, falacias, paráfrasis y cita APA, escritura por procesos y revisión entre pares.",
+  "Producto partido en tres entregas: informe crítico (semana 5), artículo de opinión (semana 12) y sustentación (semana 16).",
+  "Se corrigen del original la actividad autónoma repetida, la celda vacía de la última sesión y las referencias mal numeradas; se agrega el uso declarado de IA.",
+  "Dieciséis sesiones de 2 HT + 2 HP ajustadas a los 3 créditos de la matriz; se mantiene la evaluación 20 % sesiones · 70 % productos · 10 % competencia general."],
  SIS333:[
   'Nombre «Gobierno de Tecnologías de Información» · ciclo 9 · 3 créditos · 32 HT + 32 HP de taller · prerrequisito SIS328 Teoría de Sistemas · capacidades E1 y E2 en nivel 3.',
   'Campo reconocido: gobierno y gestión de TI. Contrasté sílabos de Gobierno de TI de la UPC, la UNI, la PUCP y la UTP con COBIT 2019, ISO/IEC 38500, ITIL 4 y el PMBOK 7.',
@@ -364,5 +540,5 @@ const TRAZA={
   'Dieciséis sesiones de 2 HT + 2 HP (32 + 32 horas), con taller, actividad autónoma y entregable por sesión; evaluación con pesos y referencias verificables.']
 };
 
-window.SILABOS_GENESYS={SIS332,SIS333,TRAZA};
+window.SILABOS_GENESYS={SIS332,SIS333,EGE101,TRAZA};
 })();
