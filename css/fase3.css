@@ -648,6 +648,7 @@ table.ses tfoot td{border-top:2px solid var(--line-strong);background:var(--surf
 .histrow .hold{font-size:10px;color:var(--muted);font-family:"Inter",sans-serif;letter-spacing:.09em;text-transform:uppercase}
 ol.noop{display:none}
 .unigrid{display:grid;grid-template-columns:1fr 1fr;gap:11px;align-items:start}
+.unigrid[hidden]{display:none !important}
 .cbtn{appearance:none;border:none;background:none;cursor:pointer;color:var(--muted);font-size:11px;padding:0 4px 0 0;flex:none}
 .cbtn:hover{color:var(--navy)}
 .prodcard.col{padding-bottom:8px}
@@ -658,6 +659,11 @@ ol.noop{display:none}
 .emptybox .eb-t{font-size:13px;color:var(--ink-2);max-width:60ch}
 .emptybox .eb-s{font-size:11.5px;color:var(--muted);max-width:66ch}
 .skel{display:flex;flex-direction:column;gap:7px;width:100%;max-width:560px}
+
+/* avatar de Génesys en la barra de instrucciones del constructor de sílabo */
+.ainote{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--ink-2)}
+.ainote .gxav,.ainote .g-av{width:30px;height:30px;border-radius:50%;background:radial-gradient(circle at 50% 35%,#0f2f5e,#0b2b4f);box-shadow:0 2px 6px rgba(11,43,79,.3),0 0 0 2px var(--surface),0 0 0 3px var(--line);overflow:hidden;flex:none;display:grid;place-items:center}
+.ainote .gxav img,.ainote .g-av img{width:100%;height:100%;object-fit:cover;object-position:50% 38%;transform:scale(1.05);display:block}
 .skel i{display:block;height:9px;border-radius:99px;background:linear-gradient(90deg,var(--surface-3),color-mix(in srgb,var(--line) 60%,var(--surface-3)),var(--surface-3))}
 .genlog{display:flex;flex-direction:column;gap:5px}
 .genrow{display:grid;grid-template-columns:34px 1fr 26px;gap:9px;align-items:center;padding:7px 9px;border:1px solid var(--line);
@@ -794,3 +800,10 @@ table.mini td.r{text-align:right;font-family:"Inter",system-ui,sans-serif;font-v
 /* traza de Génesys bajo cada momento del constructor de sílabo */
 .genrow .gtz{display:block;margin-top:3px;font-size:11.5px;line-height:1.45;color:var(--muted);font-weight:400}
 .genrow.run .gtz{color:var(--ink-2)}
+
+/* la matriz se arrastra con clic derecho para desplazarse (js/f3.js) */
+#scroller.arrastra,.sesw.arrastra{cursor:grabbing;user-select:none}
+
+/* avatar de Génesys en la barra de instrucciones del constructor de sílabo */
+.ainote{display:flex;align-items:center;gap:8px}
+.ainote .gxav{width:26px;height:26px;border-radius:50%;object-fit:cover;flex:none;box-shadow:0 0 0 2px var(--surface),0 0 0 3px var(--line)}

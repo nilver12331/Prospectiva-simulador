@@ -1634,7 +1634,7 @@ function fx(D,id){return D.funciones.find(f=>f.id===id)}
 function tareaDe(D,fxid,tid){const f=fx(D,fxid);return f&&f.tareas.find(t=>t.id===tid)}
 function microDe(D,id){for(const t of D.temas){const m=t.micro.find(x=>x.id===id);if(m)return{macro:t,micro:m}}return null}
 
-let fsCode=null,fsSec='uni',fsUni=0,fsCols={act:true,crit:false},fsOpen={ra:true,prod:true,crit:true},fsGen=null;
+let fsCode=null,fsSec='uni',fsUni=0,fsCols={act:true,crit:false},fsOpen={ra:true,prod:true,crit:true},fsGen=null,fsSinComp=false;
 function openSilaboFS(code){fsCode=code;fsSec='uni';fsUni=0;fsGen=null;$('#silfs').classList.add('open');renderFS()}
 function fsClose(){$('#silfs').classList.remove('open');if(document.fullscreenElement)document.exitFullscreen().catch(()=>{})}
 const SKEL=n=>`<div class="skel">${Array.from({length:n}).map((_,i)=>`<i style="width:${[92,78,86,64][i%4]}%"></i>`).join('')}</div>`;
@@ -1702,10 +1702,10 @@ function renderFS(){
        <span class="chip mono" title="Macro tema del banco">${esc(u.macro||'')}</span>
        <span class="chip" title="Estructura de unidades de referencia">ref: ${esc((D.ref||'').split('·')[0].trim())}</span>
        <span class="chip ${D.clase==='Integrado'?'ok':'warn'}">Producto ${D.clase}</span>
-       <button class="btn sm" id="tglComp" style="margin-left:auto" aria-pressed="${fsOpen.ra||fsOpen.prod||fsOpen.crit}">
-         ${(fsOpen.ra||fsOpen.prod||fsOpen.crit)?'⊟ Ocultar componentes':'⊞ Mostrar componentes'}</button></div>
+       <button class="btn sm" id="tglComp" style="margin-left:auto" aria-pressed="${!fsSinComp}">
+         ${!fsSinComp?'⊟ Ocultar componentes':'⊞ Mostrar componentes'}</button></div>
       <div class="ub">
-       <div class="unigrid">
+       <div class="unigrid" ${fsSinComp?'style="display:none!important" hidden':''}>
         <div class="unicol">
           <div class="prodcard tz ${fsOpen.ra?'':'col'}" data-tz="ra">
             <h4><button class="cbtn" data-tgl="ra">${fsOpen.ra?'▾':'▸'}</button>🎓 Resultado de aprendizaje de la unidad
@@ -1774,7 +1774,7 @@ function renderFS(){
            <td colspan="${(fsCols.act?2:0)+(fsCols.crit?2:0)+2}"></td></tr></tfoot></table></div>
 
        <div class="gxbar">
-         <div class="ainote">✦ Génesys aplica la instrucción sobre esta unidad: agregar o quitar sesiones, subtemas, criterios, rúbrica, redistribuir horas o cambiar la clase del producto.</div>
+         <div class="ainote"><div class="g-av"><img src="img/genesis.webp" alt="Génesys" decoding="async"></div> <span><b>Génesys</b> aplica la instrucción sobre esta unidad: agregar o quitar sesiones, subtemas, criterios, rúbrica, redistribuir horas o cambiar la clase del producto.</span></div>
          <div class="aibar"><textarea id="fsPrompt" rows="2" placeholder="Ej.: agrega una sesión · agrega un subtema a cada sesión · mejora los criterios · genera la rúbrica · redistribuye las horas · cambia el producto a modular"></textarea>
            <button class="send" id="fsSend" title="Ejecutar instrucción">➤</button></div>
          <div class="sugg"><span class="tlab">Sugerencias</span>
@@ -1938,8 +1938,8 @@ function wireFS(c,D){
   $('#fsMain').querySelectorAll('[data-tgl]').forEach(b=>b.onclick=e=>{
     e.stopPropagation();fsOpen[b.dataset.tgl]=!fsOpen[b.dataset.tgl];renderFS()});
   const tcm=$('#tglComp');
-  if(tcm)tcm.onclick=()=>{const any=fsOpen.ra||fsOpen.prod||fsOpen.crit;
-    fsOpen={ra:!any,prod:!any,crit:!any};renderFS()};
+  /* ocultar componentes: esconde las tarjetas completas (títulos incluidos); mostrar las vuelve a abrir */
+  if(tcm)tcm.onclick=()=>{fsSinComp=!fsSinComp;if(!fsSinComp)fsOpen={ra:true,prod:true,crit:true};renderFS()};
 
   /* edición en línea */
   $('#fsMain').querySelectorAll('[data-ep]').forEach(el=>{
@@ -2642,6 +2642,15 @@ $('#btnCodes').onclick=openCodes;
 $('#btnHoras').onclick=openHoras;
 $('#btnLimits').onclick=openLimits;
 $('#btnGenesys').onclick=openGenesys;
+/* Reiniciar sílabos: devuelve el simulador de sílabos a su estado inicial en todos los cursos, para volver a
+   simular la construcción. Es directo (un clic) y se guarda en la nube con el resto del plan. */
+$('#btnResetSil').onclick=()=>{
+  const hechos=COURSES.filter(c=>c.sil_doc&&c.sil_doc.generado).length;
+  COURSES.forEach(c=>{delete c.sil_doc});
+  if($('#silfs').classList.contains('open'))fsClose();
+  renderMatrix();
+  toast(hechos?'Simulador de sílabos reiniciado: el constructor empieza de nuevo en cada curso.':'El simulador de sílabos ya estaba en su estado inicial.','good');
+};
 function setKpis(on){state.kpis=on;$('#kpis').hidden=!on;
   $('#btnKpis').setAttribute('aria-pressed',String(on));
   $('#btnKpis').textContent=(on?'⌃ Ocultar indicadores':'⌄ Mostrar indicadores');saveUi()}
@@ -2700,4 +2709,18 @@ function pintarNube(t){const p=$('#nubePill');if(p)p.textContent=t}
     catch(e){ console.error('[fase3]',e); pintarNube('☁ Error al guardar'); }
     finally{ guardando=false; }
   },1500);
+})();
+
+/* Matriz ancha: clic derecho y arrastrar la desplaza a la derecha o a la izquierda (como en la Fase 1 y en programas).
+   El clic izquierdo queda para las celdas y para mover cursos; el menú contextual se suprime sobre la matriz. */
+(function(){
+ let caja=null,x0=0,y0=0,sx=0,sy=0;
+ document.addEventListener("mousedown",ev=>{
+  if(ev.button!==2) return; const c=ev.target.closest("#scroller,.sesw"); if(!c) return;
+  caja=c; x0=ev.clientX; y0=ev.clientY; sx=c.scrollLeft; sy=c.scrollTop; c.classList.add("arrastra"); ev.preventDefault();
+ });
+ document.addEventListener("mousemove",ev=>{ if(!caja) return; caja.scrollLeft=sx-(ev.clientX-x0); caja.scrollTop=sy-(ev.clientY-y0); });
+ const soltar=()=>{ if(caja) caja.classList.remove("arrastra"); caja=null };
+ document.addEventListener("mouseup",soltar); document.addEventListener("mouseleave",soltar);
+ document.addEventListener("contextmenu",ev=>{ if(ev.target.closest("#scroller,.sesw")) ev.preventDefault(); });
 })();
