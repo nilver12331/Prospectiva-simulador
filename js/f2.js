@@ -2859,6 +2859,7 @@ async function reiniciar(){
     pintarNube("pend");
     try{
       await NUBE.quitar(CLAVE);
+      await NUBE.poner(CLAVE, {d: instantanea(), docs: []});
       pintarNube("ok");
     }catch(err){
       console.error("[nube reiniciar]", err);

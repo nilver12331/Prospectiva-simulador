@@ -83,10 +83,11 @@
   },
   async quitar(cod){
    const uKey = (usuario && usuario.id && !cod.includes(usuario.id)) ? cod + "-" + usuario.id : cod;
-   const {error}=await sb.from("avance").delete().eq("escuela",uKey);
+   const keysToDelete = [cod];
+   if(uKey !== cod) keysToDelete.push(uKey);
+   const {error}=await sb.from("avance").delete().in("escuela", keysToDelete);
    if(error) throw error;
-   delete CACHE[uKey];
-   delete CACHE[cod];
+   keysToDelete.forEach(k => delete CACHE[k]);
   },
   async ingresar(correo,clave){
    const {data,error}=await sb.auth.signInWithPassword({email:correo,password:clave});
