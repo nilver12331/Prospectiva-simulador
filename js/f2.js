@@ -1706,11 +1706,35 @@ function c5Pres(){
   <div class="panelres"><b>Regla de ajuste</b>
     <p class="mini" style="margin-top:4px">Si el reparto deja una familia incoherente, el presupuesto se ajusta <b>subiendo los créditos por curso</b>, nunca metiendo un curso extra al ciclo. El tope por ciclo no se negocia: es lo que el estudiante puede llevar.</p></div>`;
 }
+function getCiclo(c){
+  if(c[12]) return c[12];
+  if(c[2]==="practica") return 10;
+  const m = String(c[0]).match(/-(D|E|P)(\d+)/);
+  if(m){
+    const type = m[1], num = parseInt(m[2], 10);
+    if(type === "D") return Math.min(4, Math.ceil(num / 2));
+    if(type === "E"){
+      const pos = ((num - 1) % 5) + 1;
+      if(pos === 1) return 4;
+      if(pos === 2) return 5;
+      if(pos === 3) return 6;
+      if(pos === 4) return 7;
+      if(pos === 5) return c[2]==="electivo" ? (num > 15 ? 9 : 8) : 8;
+    }
+  }
+  if(c[7]==="N1") return 3;
+  if(c[7]==="N2") return 6;
+  if(c[7]==="N3") return c[2]==="electivo"?9:8;
+  return 5;
+}
 function c5Lista(){
   const f = S.mode.cfil || "todos";
+  const grpMode = S.mode.cgrp || "ciclo";
   const lista = CUR.filter(c=>f==="todos"||c[2]===f);
-  const fila = c => { const op=S.d25.open[c[0]], d=S.d23.DIM.find(x=>x[0]===c[3]), e=ESC.find(x=>x.k===c[3]);
-    return `<tr class="${op?"open":""}"><td class="num">${c[0]}</td>
+  const fila = c => { const op=S.d25.open[c[0]], d=S.d23.DIM.find(x=>x[0]===c[3]), e=ESC.find(x=>x.k===c[3]), cy=getCiclo(c);
+    return `<tr class="${op?"open":""}">
+    <td class="num"><b style="color:var(--navy);font-size:13px">C${cy}</b></td>
+    <td class="num">${c[0]}</td>
     <td class="fn"><button class="tog" aria-expanded="${!!op}" data-cur="${c[0]}"><b>${esc(c[1])}</b></button>
       <div class="mini">${d?"Dimensión "+esc(d[1]):e?"Especialidad "+esc(e.n):"Escuela"}</div></td>
     <td><span class="tag ${TIPOL[c[2]][1]}">${({dimension:"Dominio disciplinar",especialidad:"Especialidad",electivo:"Electivo avanzado",practica:"Práctica"})[c[2]]}</span></td>
@@ -1719,18 +1743,41 @@ function c5Lista(){
     <td class="num">${c[7]}<div class="mini">EPA ${c[8]}</div></td>
     <td><div class="bps">${c[5].map(k=>`<span class="et v3" title="${esc(ESC.find(x=>x.k===k).n)}">${k}</span>`).join(" ")}</div></td>
     <td>${troncal(c)?'<span class="tag t-ok">Troncal</span>':c[2]==="dimension"?'<span class="tag t-neutral">Fundamento</span>':"—"}</td></tr>
-    ${op?`<tr class="tasks"><td colspan="8">${c5Ficha(c)}</td></tr>`:""}`; };
+    ${op?`<tr class="tasks"><td colspan="9">${c5Ficha(c)}</td></tr>`:""}`; };
+  const HEAD = `<thead><tr><th style="width:54px">Ciclo</th><th style="width:74px">Código</th><th style="min-width:210px">Curso</th><th style="width:118px">Bloque</th><th class="num" style="width:58px">Créd.</th><th class="num" style="width:70px">Práctica</th><th class="num" style="width:62px">Hito</th><th style="width:120px">Tributa a</th><th style="width:88px">Alcance</th></tr></thead>`;
   return `<div class="eyebrow">Paso 2.6 · M4 y M5 · Familias y formulación</div>
-  <h2>Cursos propuestos · ${CUR.length} · agrupados por competencia</h2><div class="rule"></div>
-  <p class="note">De los dieciséis campos de la ficha, solo <b>tres se redactan de nuevo</b>: el nombre, el producto integrador y la sumilla. Todo lo demás se copia con su código de origen — eso es lo que hace el curso trazable ante un par evaluador. Clic en el nombre para ver su ficha.</p>
-  <div class="toolbar">${seg("cfil",[["todos","Todos"],["dimension","Dimensión"],["especialidad","Especialidad"],["electivo","Electivos"],["practica","Práctica"]])}<div class="grow"></div>
+  <h2>Cohesión y familias de cursos · ${CUR.length} propuestos</h2><div class="rule"></div>
+  <p class="note">De los dieciséis campos de la ficha, solo <b>tres se redactan de nuevo</b>: el nombre, el producto integrador y la sumilla. Cursos ordenados según la secuencia de los 10 ciclos del plan de estudios. Clic en el nombre para ver su ficha.</p>
+  <div class="toolbar">
+    ${seg("cgrp",[["ciclo","Por ciclo (1–10)"],["comp","Por competencia"]])}
+    ${seg("cfil",[["todos","Todos"],["dimension","Dimensión"],["especialidad","Especialidad"],["electivo","Electivos"],["practica","Práctica"]])}
+    <div class="grow"></div>
     <div class="stat"><span>Créditos <b>${lista.reduce((a,c)=>a+c[4],0)}</b></span><span>Cursos <b>${lista.length}</b></span></div></div>
-  ${(() => { const HEAD = `<thead><tr><th style="width:74px">Código</th><th style="min-width:230px">Curso</th><th style="width:118px">Bloque</th><th class="num" style="width:62px">Créd.</th><th class="num" style="width:70px">Práctica</th><th class="num" style="width:62px">Hito</th><th style="width:120px">Tributa a</th><th style="width:88px">Alcance</th></tr></thead>`;
+  ${(() => {
     const grupos = [];
-    S.d23.CD.forEach(cd=>grupos.push([`${cd[0]} · ${cd[4]||cd[1]}`, lista.filter(c=>cd[3].includes(c[3])), "dis"]));
-    COMPE.forEach(cc=>{ const ks=ESC.filter(e=>e.c===cc[0]).map(e=>e.k);
-      grupos.push([`${cc[0]} · ${cc[1]}`, lista.filter(c=>ks.includes(c[3]) && c[2]!=="practica"), "esp"]); });
-    grupos.push(["Escuela · práctica preprofesional", lista.filter(c=>c[2]==="practica"), "ele"]);
+    if(grpMode === "ciclo"){
+      const LABS = {
+        1: "Ciclo 1 · Fundamentos iniciales de la ingeniería",
+        2: "Ciclo 2 · Fundamentos de sistemas y programación",
+        3: "Ciclo 3 · Dominio disciplinar y plataformas",
+        4: "Ciclo 4 · Integración disciplinar e inicio de especialidad (Hito N1)",
+        5: "Ciclo 5 · Especialización funcional I (Hito N2)",
+        6: "Ciclo 6 · Especialización funcional II (Hito N2)",
+        7: "Ciclo 7 · Observabilidad, ciberseguridad y gobierno (Hito N2)",
+        8: "Ciclo 8 · Itinerarios electivos de especialidad I (Hito N3)",
+        9: "Ciclo 9 · Itinerarios electivos avanzados e IA (Hito N3)",
+        10: "Ciclo 10 · Práctica preprofesional e integración (Hito N3)"
+      };
+      for(let i=1; i<=10; i++){
+        const cs = lista.filter(c => getCiclo(c) === i);
+        if(cs.length) grupos.push([LABS[i]||`Ciclo ${i}`, cs, "dis"]);
+      }
+    } else {
+      S.d23.CD.forEach(cd=>grupos.push([`${cd[0]} · ${cd[4]||cd[1]}`, lista.filter(c=>cd[3].includes(c[3])).sort((a,b)=>getCiclo(a)-getCiclo(b)), "dis"]));
+      COMPE.forEach(cc=>{ const ks=ESC.filter(e=>e.c===cc[0]).map(e=>e.k);
+        grupos.push([`${cc[0]} · ${cc[1]}`, lista.filter(c=>ks.includes(c[3]) && c[2]!=="practica").sort((a,b)=>getCiclo(a)-getCiclo(b)), "esp"]); });
+      grupos.push(["Escuela · práctica preprofesional", lista.filter(c=>c[2]==="practica").sort((a,b)=>getCiclo(a)-getCiclo(b)), "ele"]);
+    }
     return grupos.filter(g=>g[1].length).map(g=>`<div class="blkh ${g[2]||"ele"}" style="margin-top:14px"><span class="bn">${g[0].split(" ")[0]}</span>
       <div><b>${esc(g[0].split("·").slice(1).join("·").trim()||g[0])}</b><small>${g[1].length} cursos · ${g[1].reduce((a,c)=>a+c[4],0)} créditos</small></div></div>
       <div class="tw"><table>${HEAD}<tbody>${g[1].map(fila).join("")}</tbody></table></div>`).join(""); })()}`;
