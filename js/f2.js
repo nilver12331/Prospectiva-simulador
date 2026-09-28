@@ -2842,19 +2842,14 @@ async function reiniciar(){
   closeDrawer(); closeModal();
   clearTimeout(tGuardar);
 
-  if(S.k && (S.step>0 || S.fn.length)){
-    const n = S.spec, k = S.k;
-    delete S.por[k]; S.k = null; cambiarEsp(k);
-    S.mode.paquete = "per"; setTab("entrada"); refresh();
-    guardarAhora();
-    addMsg("agent", `<p><b>Volvimos al inicio del paso 2.1 de ${esc(n)}.</b> Lo hecho en esta especialidad se descartó; las demás conservan su avance. Pulse <b>Reiniciar</b> otra vez para volver al momento cero de la carrera.</p>`,
-      [{label:"Generar funciones y componentes", main:true, fn:gen21}]);
-    return;
-  }
-
-  S.por = {}; S.k = null; S.spec = null; cargarEsp(ESC[0].k);
+  S.por = {}; S.k = null; S.spec = null;
+  cargarEsp(ESC[0].k);
   Object.assign(S, estadoInicial(), estadoInicialEscuela());
-  S.avail = new Set(["entrada","ficha","refs"]); S.mode.ent = "cartera"; resPrompted = false;
+  S.avail = new Set(["entrada","ficha","refs"]);
+  S.tab = "entrada";
+  S.mode = {competencia:"def", rview2:"2", paquete:"per", recursos:"fn", refs:"per", disc:"lote", ent:"cartera", pesos:"param", gtem:"tema", cursos:"pres", cfil:"todos", vmode:"esp"};
+  resPrompted = false;
+
   try{
     localStorage.removeItem("f2_"+ESCUELA);
     if(window.NUBE && NUBE.usuario) localStorage.removeItem("f2_"+ESCUELA+"_"+NUBE.usuario.id);
@@ -2871,8 +2866,9 @@ async function reiniciar(){
     }
   }
 
-  $("#msgs").innerHTML = ""; setTab("entrada"); refresh(); start();
-  addMsg("agent", `<p><b>Volvimos al momento cero de la Fase 2.</b> Se descartó el avance de todas las especialidades de ${esc(F2.meta.nombre)}.</p>`);
+  $("#msgs").innerHTML = "";
+  refresh(); setTab("entrada"); start();
+  toast("Se reinició el avance de la Fase 2");
 }
 { const br = document.getElementById("bReinicio"); if(br) br.onclick = reiniciar; }
 let arrancado = false;
