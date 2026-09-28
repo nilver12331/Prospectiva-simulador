@@ -84,7 +84,7 @@ const FLUJO = [
  {s:1,  f:()=>{ if(!S.delphi) return loadDelphi(); if(S.round<2 && hayR2()) return round2(); confirmExcl(); }},
  {s:2,  f:()=>save21()},
  {s:3,  f:()=>gen22()},
- {s:4,  f:()=>{ if(!S.recPanel) return loadRes(); active().forEach(f=>f.rs.forEach(r=>{ if(r.st==="prop"||r.st==="rev") r.st="ok"; })); refresh(); checkRes22(); }},
+ {s:4,  f:()=>{ if(!S.recPanel) return loadRes(); active().forEach(f=>f.rs.forEach(r=>{ if(r.st!=="na") r.st="ok"; })); resPrompted=false; checkRes22(); }},
  {s:5,  f:()=>genTN()},
  {s:6,  f:()=>save22()},
  {s:7,  f:()=>gen23()},
@@ -458,7 +458,7 @@ function gen22(){
   userSays("Genera la Matriz de Elementos de Productividad de Productividad.");
   think(["Leyendo productos, entregables y tareas validados","Estándares: verificando denominación y vigencia","Metodologías con procedimiento reconocible","Herramientas y tecnologías por categoría funcional","Fichas de IA generativa (autonomía A0–A3)","Vinculando cada recurso a tareas y nivel de dominio","Codificando el banco RH-E/M/T/IA"], ()=>{
     active().forEach(f=>{ f.rs = f.rec.map((r,i)=>({...r, id:`${f.c}#${i}`, st: r.code==="—" ? "na" : "prop"})); });
-    S.recOn = true; S.step = 4; S.recSel = active()[0].c; S.avail.add("recursos"); S.mode.recursos="fn"; setTab("recursos");
+    S.recOn = true; resPrompted = false; S.step = 4; S.recSel = active()[0].c; S.avail.add("recursos"); S.mode.recursos="fn"; setTab("recursos");
     const R = allRes().filter(r=>r.st!=="na");
     addMsg("agent", `<p>La matriz tiene <b>${R.length} asignaciones función–recurso</b> (${CATS.map(([c])=>`${R.filter(r=>r.cat===c).length} en ${c.toLowerCase()}`).join(", ")}), tomadas de un banco de <b>${D.bank.length} recursos</b> codificados; ${D.bank.filter(b=>/\(\d+\)/.test(b[3]||"")).length} se comparten entre funciones. Cada recurso indica su aplicación en la tarea, el nivel de dominio y su aporte al producto.</p>${active().filter(f=>f.rec.some(r=>r.code==="—")).length?`<p>${active().filter(f=>f.rec.some(r=>r.code==="—")).map(f=>f.c).join(" y ")} quedan <i>sin integración de IA pertinente</i>.</p>`:""}${docCard("Matriz de Elementos de Productividad de Productividad",`${R.length} asignaciones · ${active().length} funciones`,"recursos","fn")}`,
       [{label:"Cargar validación abreviada (3 expertos)", main:true, fn:loadRes},
@@ -475,7 +475,7 @@ function loadRes(){
     const ia = allRes().filter(r=>r.cat.startsWith("Integración")&&r.exp);
     addMsg("agent", `<p>Los expertos dieron conformidad en la ronda 1 (I-CVI = 1,00 en los siete criterios). X6 verificó las ${ia.length} fichas de IA: autonomía coherente con el nivel de confianza, sin datos personales fuera de sistemas institucionales y con marco citado.</p><p>Ahora confirme <b>función por función</b>: el producto queda fijo a la izquierda mientras recorre sus recursos; al terminar use «Confirmar y seguir».</p>`,
       [{label:"Empezar por "+active()[0].c, main:true, keep:true, fn:()=>{ S.recSel=active()[0].c; setTab("recursos"); }},
-       {label:"Confirmar todas las funciones", fn:()=>{ userSays("Confirma los recursos de todas las funciones."); active().forEach(f=>f.rs.forEach(r=>{ if(r.st==="prop") r.st="ok"; })); refresh(); checkRes22(); }}]);
+       {label:"Confirmar todas las funciones", fn:()=>{ userSays("Confirma los recursos de todas las funciones."); active().forEach(f=>f.rs.forEach(r=>{ if(r.st!=="na") r.st="ok"; })); resPrompted=false; refresh(); checkRes22(); }}]);
   });
 }
 function confirmFn(code){
@@ -484,12 +484,13 @@ function confirmFn(code){
   const next = A.find(x=>x.rs.some(r=>r.st==="prop"));
   toast(`${f.c}: recursos confirmados`);
   if(next){ S.recSel=next.c; }
-  refresh(); $("#pBody").scrollTop=0; checkRes22();
+  resPrompted=false; refresh(); $("#pBody").scrollTop=0; checkRes22();
 }
 let resPrompted=false;
 function checkRes22(){
-  if(S.step!==4 || resPrompted) return;
+  if(S.step!==4) return;
   if(allRes().some(r=>r.st==="prop"||r.st==="rev")) return;
+  if(resPrompted) return;
   resPrompted=true; S.step=5; refresh();
   addMsg("agent", `<p>Recursos confirmados en las ${active().length} funciones (${allRes().filter(r=>r.st==="ok").length} asignaciones).</p><p>Falta el último momento del paso: <b>generar los temas nucleares de la especialidad</b> —lo que cada tarea exige saber—. Salen del mismo barrido de tres niveles sobre producto, entregables, tareas y elementos de productividad, y aparecen como una cuarta columna de esta misma interfaz.</p>`,
     [{label:"Generar Temas Nucleares", main:true, fn:genTN}]);
