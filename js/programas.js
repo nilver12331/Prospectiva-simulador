@@ -767,20 +767,20 @@ function extBtn(kind,i,val){return `<button type="button" class="pill ext ${val?
 function resBtn(icon,val,lab,form,prog){return `<button type="button" class="res-btn" data-form="${form}" data-i="${prog}"><span class="ri">${I[icon]}</span><span style="display:grid;text-align:left;line-height:1.1"><b>${val}</b><span>${lab}</span></span></button>`;}
 
 function render(){
-  const rows = DATA.map((r,i)=>({...r,i})).filter(r=>r.cod).filter(r=>{
+  const rows = DATA.map((r,i)=>({...r,i})).sort((a,b)=>(b.cod?1:0)-(a.cod?1:0)).filter(r=>{
     const name=(r.n+' '+(r.proj?`Proyecto ${r.proj.tipo} ${r.proj.anio} ${r.proj.bib}`:'')).toLowerCase();
     if(q && !name.includes(q)) return false;
     if(filt==='act' && !r.proj) return false;
     if(filt==='soon' && vigState(r)[0]==='ok') return false;
     return true;
   });
-  document.getElementById('count').textContent = `${rows.length} de ${DATA.filter(r=>r.cod).length} programas`;
+  document.getElementById('count').textContent = `${rows.length} de ${DATA.length} programas`;
   document.getElementById('rows').innerHTML = rows.map((r,k)=>{
     const p=r.proj; const g = p ? Math.round(p.fases.reduce((s,f)=>s+f.v,0)/3) : null;
     const estado = p ? (p.ext?'Ampliado':p.estado) : null; const [vc,vl]=vigState(r);
     return `<tr>
       <td class="num">${k+1}</td>
-      <td class="l prog"><b>${r.n}</b><span>${r.fac}</span></td>
+      <td class="l prog"><b>${r.n}${r.cod?'<span class="real" title="Avance leído de las consolas">Real</span>':''}</b><span>${r.fac}</span></td>
       <td class="date vg">${fmt(r.ini)}</td>
       <td class="date vg">${fmt(r.fin)}<span class="vig ${vc}">${vl}</span></td>
       <td class="vg">${extBtn('prog',r.i,r.ext)}</td>
