@@ -1741,11 +1741,11 @@ function renderFS(){
            <button class="btn sm" id="tglAct" aria-pressed="${fsCols.act}">Ver actividades</button>
            <button class="btn sm" id="sesAdd">+ Sesión</button></div></div>
        <div class="sesw"><table class="ses"><thead><tr>
-         <th style="width:30px">N°</th><th style="min-width:220px">Contenidos: tema y subtemas</th>
-         <th style="width:34px">HT</th><th style="width:34px">HP</th>
+         <th class="c" style="width:36px">N°</th><th style="min-width:220px">Contenidos: tema y subtemas</th>
+         <th class="c" style="width:46px">HT</th><th class="c" style="width:46px">HP</th>
          ${fsCols.act?'<th style="min-width:220px">Actividad práctica</th><th style="min-width:200px">Actividad autónoma</th>':''}
          ${fsCols.crit?'<th style="min-width:160px">Entregable de sesión</th><th style="min-width:180px">Criterio de evaluación</th>':''}
-         <th style="width:74px">Recursos</th><th style="width:66px">Orden</th></tr></thead><tbody>
+         <th class="c" style="width:80px">Recursos</th><th class="c" style="width:80px">Orden</th></tr></thead><tbody>
          ${u.sesiones.map((s,si)=>{const pc=recPctSes(s);
            return `<tr class="${s.cierre?'cierre':s.hito?'hito':''}" data-srow="${si}">
            <td class="c">${s.n}</td>
