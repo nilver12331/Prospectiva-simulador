@@ -2769,7 +2769,9 @@ function instantanea(){
     resumen:{p21:ESC.filter(e=>(por[e.k]||{}).saved&&por[e.k].saved.p21).length, p22:ESC.filter(e=>(por[e.k]||{}).saved&&por[e.k].saved.p22).length, total:ESC.length}};
 }
 function guardarLuego(){
-  if(!window.NUBE || !arrancado) return;
+  if(!arrancado) return;
+  try{ localStorage.setItem("f2_"+ESCUELA, JSON.stringify(instantanea())); }catch(_){}
+  if(!window.NUBE || !NUBE.usuario) return;
   clearTimeout(tGuardar); pintarNube("pend");
   tGuardar = setTimeout(async ()=>{
     if(S.busy){ guardarLuego(); return; }
@@ -2812,6 +2814,7 @@ function reiniciar(){
   S.por = {}; S.k = null; S.spec = null; cargarEsp(ESC[0].k);
   Object.assign(S, estadoInicial(), JSON.parse(JSON.stringify(INI_ESCUELA)));
   S.avail = new Set(["entrada","ficha","refs"]); S.mode.ent = "cartera"; resPrompted = false;
+  try{ localStorage.removeItem("f2_"+ESCUELA); }catch(_){}
   $("#msgs").innerHTML = ""; setTab("entrada"); refresh(); start();
   addMsg("agent", `<p><b>Volvimos al momento cero de la Fase 2.</b> Se descartó el avance de todas las especialidades de ${esc(F2.meta.nombre)}.</p>`);
 }
@@ -2822,7 +2825,13 @@ let arrancado = false;
   setTab = function(t){ s0(t); guardarLuego(); }; }
 (async function arrancar(){
   if(window.NUBE) try{ await NUBE.listo; }catch(_){}
-  const b = window.NUBE && NUBE.get(CLAVE);
+  let b = window.NUBE && NUBE.get(CLAVE);
+  if(!b || !b.d){
+    try{
+      const loc = localStorage.getItem("f2_"+ESCUELA);
+      if(loc) b = {d: JSON.parse(loc)};
+    }catch(_){}
+  }
   if(b && b.d && b.d.v===1){ try{ restaurar(b.d); }catch(err){ console.error(err); renderStepper(); renderPanel(); start(); } }
   else { renderStepper(); renderPanel(); start(); }
   arrancado = true; if(b) pintarNube("ok");
