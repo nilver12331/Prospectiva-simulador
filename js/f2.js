@@ -1633,9 +1633,13 @@ function vItems(){
        ...S.d23.CD.map(c=>({k:c[0], n:c[1], sub:`${c[3].join(" · ")} · de contenido`, tipo:"cont"}))];
 }
 function vPropuesta(k){
-  if(S.d23.CD.some(x=>x[0]===k)){ const c=S.d23.CD.find(x=>x[0]===k); return c?CUR.filter(x=>c[3].includes(x[3])):[]; }
-  const ks = k[0]==="E" ? [k] : ESC.filter(e=>e.c===k).map(e=>e.k);
-  return CUR.filter(c=> c[2]!=="dimension" && (ks.includes(c[3]) || (c[2]==="especialidad"&&(c[5]||[]).some(x=>ks.includes(x))) || c[2]==="practica"));
+  let res = [];
+  if(S.d23.CD.some(x=>x[0]===k)){ const c=S.d23.CD.find(x=>x[0]===k); res = c?CUR.filter(x=>c[3].includes(x[3])):[]; }
+  else {
+    const ks = k[0]==="E" ? [k] : ESC.filter(e=>e.c===k).map(e=>e.k);
+    res = CUR.filter(c=> c[2]!=="dimension" && (ks.includes(c[3]) || (c[2]==="especialidad"&&(c[5]||[]).some(x=>ks.includes(x))) || c[2]==="practica"));
+  }
+  return res.slice(0, 13);
 }
 function vPlan(k){
   if(PLANV[k]) return PLANV[k];
@@ -1650,7 +1654,8 @@ function vCuota(k){
   return ESC.filter(e=>e.c===k).reduce((a,e)=>a+c.esp[e.k],0);
 }
 function vSel(k){
-  if(!S.d25.pick[k]) S.d25.pick[k] = vPropuesta(k).map(c=>({id:c[0], n:c[1], cr:c[4], src:"ag"}));
+  if(!S.d25.pick[k]) S.d25.pick[k] = vPropuesta(k).slice(0, 8).map(c=>({id:c[0], n:c[1], cr:c[4], src:"ag"}));
+  if(S.d25.pick[k] && S.d25.pick[k].length > 8){ S.d25.pick[k] = S.d25.pick[k].slice(0, 8); }
   return S.d25.pick[k];
 }
 /* [cod, nombre, tipo, bloque, cr, esp[], fn[], hito, epa, tema[], prod, sumilla] */
@@ -1841,7 +1846,7 @@ function c5Valida(){
         <span class="bps" style="margin-top:3px"><span class="bp ${S.d25.vok[i.k]?"ok":""}">${S.d25.vok[i.k]?"validada":"por validar"}</span>
         <span class="bp">${(S.d25.pick[i.k]||vPropuesta(i.k)).length} cursos</span></span></button>`).join("")}</div></div>
 
-    <div class="col fin" id="dropFin"><h4><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M4 12l6 6L20 5"/></svg> Selección final · decide la escuela<span class="cn">${sel.length}</span>
+    <div class="col fin" id="dropFin"><h4><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M4 12l6 6L20 5"/></svg> Selección final · decide la escuela<span class="cn" title="Máximo 8 cursos en la selección final">${sel.length} / 8 máx</span>
         <button class="act" id="ordCr" title="Ordenar por créditos, de mayor a menor" style="margin-left:6px">⇅</button></h4>
       <div class="cb2 drop">${sel.length?sel.map(c=>{ const cu=CUR.find(x=>x[0]===c.id);
         return `<div class="crow on ${c.src==="pl"?"pl":"ag"}"><b>${esc(c.n)}</b>
@@ -1857,16 +1862,16 @@ function c5Valida(){
         <button class="btn sm ${S.d25.vok[k]?"":"primary"}" data-vok="${k}" style="justify-content:center">${S.d25.vok[k]?"Validada ✓ · volver a abrir":"Validar esta "+(S.mode.vmode==="esp"?"especialidad":"competencia")}</button>
       </div></div>
 
-    <div class="col age"><h4>Propuesta de Génesys<span class="cn">${prop.length}</span></h4>
-      <div class="cb2">${prop.map(c=>`<div class="crow ag ${has(c[0])?"dup":""}" draggable="${!has(c[0])}" data-drag="${esc(c[0])}"><b>${esc(c[1])}</b>
-        <span class="acts sm"><button class="act" data-vel="${esc(c[0])}" title="Ver los elementos que sostienen el curso">◔</button><button class="act" data-vadd="${esc(c[0])}" ${has(c[0])?"disabled":""} title="Sumar a la selección">+</button></span>
+    <div class="col age"><h4>Propuesta de Génesys<span class="cn" title="Máximo 13 cursos propuestos por el experto">${prop.length} / 13 máx</span></h4>
+      <div class="cb2">${prop.map(c=>`<div class="crow ag ${has(c[0])?"dup":""}" draggable="${!has(c[0])&&sel.length<8}" data-drag="${esc(c[0])}"><b>${esc(c[1])}</b>
+        <span class="acts sm"><button class="act" data-vel="${esc(c[0])}" title="Ver los elementos que sostienen el curso">◔</button><button class="act" data-vadd="${esc(c[0])}" ${has(c[0])||sel.length>=8?"disabled":""} title="${sel.length>=8?"Límite de 8 cursos alcanzado":"Sumar a la selección"}">+</button></span>
         <span class="m">${c[0]} · ${c[4]} créditos · ${TIPOL[c[2]][0].toLowerCase()}${(c[5]||[]).length>1&&c[2]==="especialidad"?" · troncal":""} · hito ${c[7]}${has(c[0])?" · ya seleccionado":""}</span>
         ${S.d25.sum?`<span class="sum">${esc(c[11])}</span>`:""}</div>`).join("")}</div></div>
 
     <div class="col pln"><h4>Cursos del plan vigente<span class="cn">${plan.length}</span>
         <button class="act" id="verPlan" title="Ver el plan vigente completo" style="margin-left:6px">☰</button></h4>
-      <div class="cb2">${plan.map(c=>`<div class="crow pl ${has("PV-"+c[0])?"dup":""}" draggable="${!has("PV-"+c[0])}" data-dragp="${esc(c[0])}|${c[1]}"><b>${esc(c[0])}</b>
-        <button class="act" data-vaddp="${esc(c[0])}|${c[1]}" ${has("PV-"+c[0])?"disabled":""} title="Mantener este curso del plan">+</button>
+      <div class="cb2">${plan.map(c=>`<div class="crow pl ${has("PV-"+c[0])?"dup":""}" draggable="${!has("PV-"+c[0])&&sel.length<8}" data-dragp="${esc(c[0])}|${c[1]}"><b>${esc(c[0])}</b>
+        <button class="act" data-vaddp="${esc(c[0])}|${c[1]}" ${has("PV-"+c[0])||sel.length>=8?"disabled":""} title="${sel.length>=8?"Límite de 8 cursos alcanzado":"Mantener este curso del plan"}">+</button>
         <span class="m">${c[1]} créditos · plan vigente${has("PV-"+c[0])?" · ya seleccionado":""}</span></div>`).join("")}</div></div>
   </div>
   <p class="note" style="margin-top:12px">Un curso del plan vigente que se mantiene hereda su nombre, pero su ficha se rehace con las funciones y los recursos del nuevo diseño: el paso 3.3 no diseña sobre el sílabo antiguo.</p>`;
@@ -2106,6 +2111,7 @@ $("#pBody").addEventListener("drop", e=>{ const d=e.target.closest(".cb2.drop");
   const raw=e.dataTransfer.getData("text/plain"); if(!raw) return;
   const [t,v]=raw.split("|").length>2 ? [raw[0], raw.slice(2)] : [raw.split("|")[0], raw.split("|").slice(1).join("|")];
   const sel = vSel(S.d25.vsel);
+  if(sel.length >= 8){ toast("Límite alcanzado: máximo 8 cursos en la selección final por competencia", "mal"); return; }
   if(t==="C"){ const c=CUR.find(x=>x[0]===v); if(c && !sel.some(s=>s.id===c[0])){ sel.push({id:c[0],n:c[1],cr:c[4],src:"ag"}); toast(`${c[1]} → selección final`); } }
   else { const [n,cr]=v.split("|"); if(!sel.some(s=>s.id==="PV-"+n)){ sel.push({id:"PV-"+n,n,cr:+cr,src:"pl"}); toast(`${n} → selección final`); } }
   renderPanel(); });
@@ -2124,8 +2130,8 @@ $("#pBody").addEventListener("click", e=>{
   const vel=e.target.closest("[data-vel]"); if(vel){ closeModal(); verElementos(vel.dataset.vel); return; }
   const ved=e.target.closest("[data-ved]"); if(ved){ editarCurso(ved.dataset.ved); return; }
   const vd=e.target.closest("[data-vdel]"); if(vd){ const id=vd.dataset.vdel; S.d25.pick[S.d25.vsel]=vSel(S.d25.vsel).filter(c=>c.id!==id); renderPanel(); return; }
-  const va=e.target.closest("[data-vadd]"); if(va){ const c=CUR.find(x=>x[0]===va.dataset.vadd); if(c){ vSel(S.d25.vsel).push({id:c[0],n:c[1],cr:c[4],src:"ag"}); renderPanel(); } return; }
-  const vp=e.target.closest("[data-vaddp]"); if(vp){ const [n,cr]=vp.dataset.vaddp.split("|"); vSel(S.d25.vsel).push({id:"PV-"+n,n,cr:+cr,src:"pl"}); renderPanel(); return; }
+  const va=e.target.closest("[data-vadd]"); if(va){ const sel=vSel(S.d25.vsel); if(sel.length>=8){ toast("Límite alcanzado: máximo 8 cursos en la selección final por competencia", "mal"); return; } const c=CUR.find(x=>x[0]===va.dataset.vadd); if(c){ sel.push({id:c[0],n:c[1],cr:c[4],src:"ag"}); renderPanel(); } return; }
+  const vp=e.target.closest("[data-vaddp]"); if(vp){ const sel=vSel(S.d25.vsel); if(sel.length>=8){ toast("Límite alcanzado: máximo 8 cursos en la selección final por competencia", "mal"); return; } const [n,cr]=vp.dataset.vaddp.split("|"); sel.push({id:"PV-"+n,n,cr:+cr,src:"pl"}); renderPanel(); return; }
   const gx=e.target.closest("[data-gx]"); if(gx){ const q=($("#gxAsk")||{}).value||"";
     const c=CUR.find(x=>x[0]===gx.dataset.gx); closeModal();
     userSays(q||`Ajusta el curso ${gx.dataset.gx}.`);
