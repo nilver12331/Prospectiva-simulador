@@ -463,7 +463,7 @@ function pasoActual(){ return S.acto<ACTOS.length?pasoDeActo(S.acto):"informe" }
 function inicioDePaso(v){ return ACTOS.findIndex((x,i)=>pasoDeActo(i)===v) }
 /* Reiniciar por pasos. */
 function reiniciar(){
- if(!(ESCUELA&&ESCUELA.demo)) return;
+ if(!ESCUELA) return;
  const v=pasoActual(), k=ORDEN_PASOS.indexOf(v);
  let destino=null;
  if(S.acto>inicioDePaso(v)&&S.snaps[v]) destino=v;
@@ -473,11 +473,12 @@ function reiniciar(){
  aplicar(f.d); aplicarPaso(f.d.paso); DOCS=clon(f.docs||[]);
  S.snaps=Object.fromEntries(Object.entries(snaps).filter(([kv])=>ORDEN_PASOS.indexOf(kv)<=ORDEN_PASOS.indexOf(destino)));
  S.det=null; S.f={dec:[]}; S.capForm=false; S.acta=false; S.zoom=null; S.mapOff=false; S.form=null; S.foco=null; S.comparar=false; S.expArq=[0,1,2,3,4,5,6,7];
+ ultimo="";
  pintarCentro(S.done>0?destino:"inicio"); pintarTabs(); pintarPanel();
  document.getElementById("chat").innerHTML=""; saludo();
  const ant=ORDEN_PASOS[ORDEN_PASOS.indexOf(destino)-1];
  addHTML(`<div class="g-fila"><div><p><b>Volvimos al inicio del paso ${NOMBRE_PASO[destino]}.</b> Lo hecho en este paso se descartó; lo anterior se conserva. Pulse <b>Reiniciar</b> otra vez para volver ${ant?"al inicio del paso "+NOMBRE_PASO[ant]:"al momento cero"}.</p></div></div>`);
- botones(); marcar();
+ botones(); guardar();
 }
 /* La demostración se recorre más de una vez: ante un director, ante el equipo,
    ante un cliente. Reiniciar la devuelve al momento cero, y sin capacidad
@@ -533,19 +534,23 @@ function modoValidacion(on){
   VUELVE=null;
  }
 }
-function reiniciarDemo(){
- if(!(ESCUELA&&ESCUELA.demo)) return;
- NUBE.quitar(ESCUELA.cod).catch(err=>avisar("No se pudo reiniciar en la nube: "+(err.message||err),"mal"));
+async function reiniciarDemo(){
+ if(!ESCUELA) return;
+ if(tGuardar){ clearTimeout(tGuardar); tGuardar=null; }
+ try{ await NUBE.quitar(ESCUELA.cod); }catch(err){ avisar("No se pudo reiniciar en la nube: "+(err.message||err),"mal"); }
+ try{ localStorage.removeItem("SIM_F1_"+ESCUELA.cod); }catch(err){}
  DOCS=[];
  aplicar(semilla(ESCUELA.cod)); aplicarPaso({});
  S.acto=0; S.det=null; S.f={dec:[]}; S.capForm=false; S.capAg=true; S.capTodas=false; S.capOk=false; S.planArchivo=null; S.contrasteOmitido=false;
  S.acta=false; S.decisionUpdated=false; S.zoom=null; S.mapOff=false; S.colsM=false; S.colsC=false; S.expDesc={};
  S.expComp=[]; S.expArq=[0,1,2,3,4,5,6,7]; S.comparar=false; S.foco=null; S.doc="fichas"; S.fichaC=0;
  S.fue=[]; S.integr=[]; S.snaps={}; S.grupos={}; S.intPropuesto=false;
+ ultimo="";
  pintarCentro("inicio"); pintarTabs(); pintarPanel();
  document.getElementById("chat").innerHTML=""; saludo();
  addHTML(`<div class="g-fila"><div><p><b>Recorrido reiniciado.</b> Volvimos al momento cero: sin cartera, sin capacidad declarada y sin panel. Es el estado con el que nace cualquier escuela.</p></div></div>`);
- botones(); estadoGuardado("sin iniciar"); marcar();
+ botones(); estadoGuardado("sin iniciar");
+ await guardar();
 }
 function aplicarPaso(p){
  p=p||{}; S.decisionUpdated=false; S.done=p.done||0; S.vista=p.vista||"inicio"; S.salE=p.salE||{}; S.delphi=!!p.delphi; S.capOk=!!p.capOk; S.planArchivo=p.planArchivo||null; S.contrasteOmitido=!!p.contrasteOmitido; S.selOk=!!p.selOk;
@@ -650,7 +655,7 @@ async function cargarEscuela(cod){
  document.getElementById("bc-escuela").textContent=meta.nombre;
  document.getElementById("bc-plan").textContent=meta.plan||"Plan vigente";
  const viejo=meta.metodo&&meta.metodo!==METODO;
- document.getElementById("g-escuela").innerHTML=meta.demo?`<button class="b-reinicio" id="b-reinicio" title="Vuelve al inicio del paso en curso; otro clic, al paso anterior">↺ Reiniciar</button>`:"";
+ document.getElementById("g-escuela").innerHTML=`<button class="b-reinicio" id="b-reinicio" title="Vuelve al inicio del paso en curso; otro clic, al paso anterior">↺ Reiniciar</button>`;
  const br=document.getElementById("b-reinicio"); if(br) br.onclick=reiniciar;
  pintarPie(); pintarSelector(); pintarTabs(); pintarPanel();
  const vv=(S.vista&&S.vista!=="inicio"&&VISTAS[S.vista])?S.vista:"tablero";
