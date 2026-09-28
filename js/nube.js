@@ -68,15 +68,24 @@
  window.NUBE={
   sb, listo,
   get usuario(){ return usuario },
-  get(cod){ return CACHE[cod]||null },
+  claveUsuario(cod){
+    return (usuario && usuario.id && !cod.includes(usuario.id)) ? cod + "-" + usuario.id : cod;
+  },
+  get(cod){
+    const uKey = (usuario && usuario.id && !cod.includes(usuario.id)) ? cod + "-" + usuario.id : cod;
+    return CACHE[uKey] || CACHE[cod] || null;
+  },
   async poner(cod,{d,docs}){
-   const {data,error}=await sb.from("avance").upsert({escuela:cod,datos:d,docs:docs||[]}).select("actualizado").single();
+   const uKey = (usuario && usuario.id && !cod.includes(usuario.id)) ? cod + "-" + usuario.id : cod;
+   const {data,error}=await sb.from("avance").upsert({escuela:uKey,datos:d,docs:docs||[]}).select("actualizado").single();
    if(error) throw error;
-   CACHE[cod]={d,docs:docs||[],act:data&&data.actualizado};
+   CACHE[uKey]={d,docs:docs||[],act:data&&data.actualizado};
   },
   async quitar(cod){
-   const {error}=await sb.from("avance").delete().eq("escuela",cod);
+   const uKey = (usuario && usuario.id && !cod.includes(usuario.id)) ? cod + "-" + usuario.id : cod;
+   const {error}=await sb.from("avance").delete().eq("escuela",uKey);
    if(error) throw error;
+   delete CACHE[uKey];
    delete CACHE[cod];
   },
   async ingresar(correo,clave){
