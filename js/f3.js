@@ -2667,7 +2667,7 @@ const PERSISTE=['version','versions','pending','espMin','troncal','cuotas','valo
 function instantanea3(){const o={v:1,courses:COURSES};PERSISTE.forEach(k=>o[k]=state[k]);return JSON.stringify(o)}
 function pintarNube(t){const p=$('#nubePill');if(p)p.textContent=t}
 (async function(){
-  if(window.NUBE&&!(await NUBE.listo)) return;
+  if(window.NUBE) try{ await NUBE.listo; }catch(_){}
   if(ESCUELA!=='SIS'&&!PLAN_ESC){
     document.querySelector('.app').innerHTML=`<div class="sin-datos"><h2>Fase 3 en preparación</h2><p>La Fase 3 de esta escuela aún no tiene su plan de estudios cargado. Por ahora está disponible Ingeniería de Sistemas.</p><p><a href="programas.html?proyecto=${ESCUELA}">← Volver al proyecto</a></p></div>`;
     pintarNube('Sin datos'); return;

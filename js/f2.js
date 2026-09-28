@@ -2821,7 +2821,7 @@ let arrancado = false;
   refresh = function(){ r0(); guardarLuego(); };
   setTab = function(t){ s0(t); guardarLuego(); }; }
 (async function arrancar(){
-  if(window.NUBE && !(await NUBE.listo)) return;
+  if(window.NUBE) try{ await NUBE.listo; }catch(_){}
   const b = window.NUBE && NUBE.get(CLAVE);
   if(b && b.d && b.d.v===1){ try{ restaurar(b.d); }catch(err){ console.error(err); renderStepper(); renderPanel(); start(); } }
   else { renderStepper(); renderPanel(); start(); }

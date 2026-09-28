@@ -3279,7 +3279,7 @@ if(dlg) dlg.addEventListener("close",async()=>{
 });
 
 (async()=>{
- if(!(await NUBE.listo)) return;
+ if(window.NUBE) try{ await NUBE.listo; }catch(_){}
  ESCUELAS=Object.values(DATOS).map(D=>Object.assign({done:0,demo:true,metodo:METODO},D.meta));
  ESCUELAS.forEach(m=>{ const b=NUBE.get(m.cod); if(b&&b.d&&b.d.paso) m.done=b.d.paso.done||0 });
  const q=new URLSearchParams(location.search).get("escuela");

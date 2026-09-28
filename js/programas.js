@@ -5,7 +5,7 @@
    en Supabase —la Fase 1 en la fila <COD>, la Fase 2 en F2-<COD>—. La comisión, los grupos de interés, los documentos,
    el certificado y las extensiones de esas carreras se guardan en la fila PRG-<COD>. Los demás programas son simulados. */
 (async function(){
-if(!(await NUBE.listo)) return;
+if(window.NUBE) try{ await NUBE.listo; }catch(_){}
 
 const HOY=(()=>{const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');})();
 const fechaLarga=()=>{const t=new Date().toLocaleDateString('es-PE',{weekday:'long',day:'numeric',month:'long'});return t.charAt(0).toUpperCase()+t.slice(1);};
